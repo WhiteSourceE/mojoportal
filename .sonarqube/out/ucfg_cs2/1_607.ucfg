@@ -1,0 +1,436 @@
+
+∏mojoPortal.Data.DBUserLocation.Update(System.Guid, System.Guid, System.Guid, string, long, string, double, double, string, string, string, string, string, string, int, System.DateTime)x
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csn n(!"0*Ô`
+0z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÄ í($
+Ì
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÄ< Ä(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionStringŒÀ
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÄ% Ä(Ü(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperµ
+≤
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÄ) Ä(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*
+mp_UserLocation_Update*2›
+⁄
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÄ Ä(Ü)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperì
+ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÅ- Å(G
+%3"__id*
+""ì
+ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÅI Å(a
+%4"__id*
+""⁄
+◊
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÅ Å(i
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@RowID*
+
+%3*
+
+%4*
+""ì
+ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÇ0 Ç(J
+%6"__id*
+""ì
+ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÇL Ç(d
+%7"__id*
+""›
+⁄
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÇ Ç(o
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@UserGuid*
+
+%6*
+
+%7*
+""ì
+ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÉ0 É(J
+%9"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÉL É(d
+%10"__id*
+""ﬂ
+‹
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÉ É(o
+%11void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@SiteGuid*
+
+%9*
+
+%10*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÑ1 Ñ(C
+%12"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÑI Ñ(a
+%13"__id*
+""¸
+˘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÑ Ñ(m
+%14void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@IPAddress*
+
+%12*22*
+
+%13*
+
+	iPAddressstringî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÖ5 Ö(E
+%15"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÖG Ö(_
+%16"__id*
+""Â
+‚
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÖ Ö(o
+%17void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@IPAddressLong*
+
+%15*
+
+%16*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÜ0 Ü(B
+%18"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÜI Ü(a
+%19"__id*
+""˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÜ Ü(l
+%20void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@Hostname*
+
+%18*2ˇ*
+
+%19*
+
+hostnamestringî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csá1 á(@
+%21"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csáB á(Z
+%22"__id*
+""·
+ﬁ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csá á(f
+%23void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@Longitude*
+
+%21*
+
+%22*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csà0 à(?
+%24"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csàA à(Y
+%25"__id*
+""‡
+›
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csà à(d
+%26void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@Latitude*
+
+%24*
+
+%25*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csâ+ â(=
+%27"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csâD â(\
+%28"__id*
+""Ò
+Ó
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csâ â(b
+%29void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ISP*
+
+%27*2ˇ*
+
+%28*
+
+iSPstringî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csä1 ä(C
+%30"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csäJ ä(b
+%31"__id*
+""˝
+˙
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csä ä(n
+%32void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@Continent*
+
+%30*2ˇ*
+
+%31*
+
+	continentstringî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csã/ ã(A
+%33"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csãH ã(`
+%34"__id*
+""˘
+ˆ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csã ã(j
+%35void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@Country*
+
+%33*2ˇ*
+
+%34*
+
+countrystringî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.cså. å(@
+%36"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csåG å(_
+%37"__id*
+""˜
+Ù
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.cså å(h
+%38void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@Region*
+
+%36*2ˇ*
+
+%37*
+
+regionstringî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csç, ç(>
+%39"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csçE ç(]
+%40"__id*
+""Û
+
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csç ç(d
+%41void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@City*
+
+%39*2ˇ*
+
+%40*
+
+citystringî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csé0 é(B
+%42"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.cséI é(a
+%43"__id*
+""˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csé é(l
+%44void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@TimeZone*
+
+%42*2ˇ*
+
+%43*
+
+timeZonestringî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csè4 è(A
+%45"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csèC è([
+%46"__id*
+""‰
+·
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csè è(j
+%47void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@CaptureCount*
+
+%45*
+
+%46*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csê6 ê(H
+%48"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csêJ ê(b
+%49"__id*
+""É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csê ê(s
+%50void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@LastCaptureUTC*
+
+%48*
+
+%49*#
+!
+lastCaptureUTCSystem.DateTimeÓ
+Î
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csë ë(4
+
+%51int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper®
+•
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csë ë(4
+rowsAffectedint"__id*
+
+
+%51int"Ñ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csí í(&
+""*ì
+1z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csì	 ì(	"ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csì ì(	
+implicit return:
+rowIDSystem.Guid:
+userGuidSystem.Guid:
+siteGuidSystem.Guid:
+	iPAddressstring:
+iPAddressLonglong:
+hostnamestring:
+	longitudedouble:
+latitudedouble:
+iSPstring:
+	continentstring:
+countrystring:
+regionstring:
+citystring:
+timeZonestring:
+captureCountint:!
+lastCaptureUTCSystem.DateTimeB"" 
+mojoPortal.Data.DBUserLocation

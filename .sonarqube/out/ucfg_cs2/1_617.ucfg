@@ -1,0 +1,69 @@
+
+5mojoPortal.Data.DBUserLocation.GetByUser(System.Guid)z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÈ" È(+"0*Ž
+0z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÊ Ì(&ï
+ì
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÊ< Ê(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÎË
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÊ% Ê(Š(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper»
+¸
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÊ) Ê(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string* 
+mp_UserLocation_SelectByUser*2Ý
+Ú
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÊ Ê(Š)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper“
+
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csË0 Ë(J
+%3"__id*
+""“
+
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csËL Ë(d
+%4"__id*
+""Ý
+Ú
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csË Ë(o
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@UserGuid*
+
+%3*
+
+%4*
+""ÿ
+ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÌ Ì(&
+%6System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper"
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÌ Ì('
+
+%6System.Data.IDataReader*“
+1z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÍ	 Í(	"‘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserLocation.csÍ Í(	
+implicit return:
+userGuidSystem.GuidB"" 
+mojoPortal.Data.DBUserLocation

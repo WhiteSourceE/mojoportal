@@ -1,0 +1,233 @@
+
+MmojoPortal.Web.UI.BaseContentUploadHandler.Initialize(System.Web.HttpContext){
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.cs= =("0*„#
+0{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.cs? I(Á
+‰
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.cs? ?(%
+%0System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext˘
+ˆ
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.cs? ?(%Q,
+*mojoPortal.Web.UI.BaseContentUploadHandler"!
+RequestSystem.Web.HttpRequest"__id*
+
+%0System.Web.HttpRequestÈ
+Ê
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.cs@ @('
+%1System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext¸
+˘
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.cs@ @('S,
+*mojoPortal.Web.UI.BaseContentUploadHandler"#
+ResponseSystem.Web.HttpResponse"__id*
+
+%1System.Web.HttpResponseÏ
+È
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csA A(#"
+%2System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*#
+!
+contextSystem.Web.HttpContextÑ
+Å
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csA A(#V,
+*mojoPortal.Web.UI.BaseContentUploadHandler"&
+ServerSystem.Web.HttpServerUtility"__id*$
+"
+%2System.Web.HttpServerUtilityî
+ë
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csCB C(H
+%3"__id*
+""ê
+ç
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csC C(I	
+%4int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+pageid*
+
+%3“
+œ
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csC C(I=,
+*mojoPortal.Web.UI.BaseContentUploadHandler"
+PageIdint"__id*
+	
+%4intî
+ë
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csDA D(I
+%5"__id*
+""ç
+ä
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csD D(J	
+%6int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+mid*
+
+%5‘
+—
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csD D(J?,
+*mojoPortal.Web.UI.BaseContentUploadHandler"
+ModuleIdint"__id*
+	
+%6intù
+ö
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csE E(>&
+%7 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperë
+é
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csE E(>_,
+*mojoPortal.Web.UI.BaseContentUploadHandler"/
+CurrentSite mojoPortal.Business.SiteSettings"__id*(
+&
+%7 mojoPortal.Business.SiteSettingsÒ
+Ó
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csF F(8"
+%8mojoPortal.Business.SiteUser"-mojoPortal.Web.SiteUtils.GetCurrentSiteUser()*"
+mojoPortal.Web.SiteUtilsâ
+Ü
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csF F(8[,
+*mojoPortal.Web.UI.BaseContentUploadHandler"+
+CurrentUsermojoPortal.Business.SiteUser"__id*$
+"
+%8mojoPortal.Business.SiteUserÏ
+È
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csH H()
+
+%9bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUserŸ
+÷
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csH H()C,
+*mojoPortal.Web.UI.BaseContentUploadHandler"
+userIsAdminbool"__id*
+
+
+%9boolï
+í
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csI I(
+%10"__id*
+""*
+1
+2*˚
+1{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csK L('Ù
+Ò
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csK% K(;
+%11bool"9mojoPortal.Business.WebHelpers.WebUser.IsContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser·
+ﬁ
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csK K(;J,
+*mojoPortal.Web.UI.BaseContentUploadHandler"
+userIsContentAdminbool"__id*
+
+%11boolï
+í
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csL L('
+%12"__id*
+""*
+3
+2*¬
+3{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csN N(Cÿ
+’
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csN' N(C
+%13bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtilsﬂ
+‹
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csN N(CH,
+*mojoPortal.Web.UI.BaseContentUploadHandler"
+userIsSiteEditorbool"__id*
+
+%13bool*
+2*ç
+2{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csR S(ü
+ú
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csR# R(>9
+%142mojoPortal.FileSystem.FileSystemProviderCollection"5mojoPortal.FileSystem.FileSystemManager.Providers.get*+")
+'mojoPortal.FileSystem.FileSystemManagerÓ
+Î
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csR? R(c
+%15string"7mojoPortal.Web.WebConfigSettings.FileSystemProvider.get*$""
+ mojoPortal.Web.WebConfigSettingsã
+à
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csR# R(d/
+%16(mojoPortal.FileSystem.FileSystemProvider"
+__arrayGet*;
+9
+%142mojoPortal.FileSystem.FileSystemProviderCollection*
+
+%15stringË
+Â
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csR R(d-
+p(mojoPortal.FileSystem.FileSystemProvider"__id*1
+/
+%16(mojoPortal.FileSystem.FileSystemProviderˆ
+Û
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csS S(
+%17bool""object.operator ==(object, object)*
+"
+object*/
+-
+p(mojoPortal.FileSystem.FileSystemProvider*
+""*
+4
+5*à
+4{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csY	 Y(	"Ö
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csS S($
+""*≥
+5{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csU U(*ï
+í
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csU U(*(
+%18!mojoPortal.FileSystem.IFileSystem"8mojoPortal.FileSystem.FileSystemProvider.GetFileSystem()*/
+-
+p(mojoPortal.FileSystem.FileSystemProviderì
+ê
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csU U(*_,
+*mojoPortal.Web.UI.BaseContentUploadHandler"/
+
+FileSystem!mojoPortal.FileSystem.IFileSystem"__id**
+(
+%18!mojoPortal.FileSystem.IFileSystem*
+6*ï
+6{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csY	 Y(	"í
+{
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BaseContentUploadHandler.csY Y(	
+implicit return:!
+contextSystem.Web.HttpContextB.,
+*mojoPortal.Web.UI.BaseContentUploadHandler

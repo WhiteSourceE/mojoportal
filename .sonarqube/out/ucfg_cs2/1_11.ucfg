@@ -1,0 +1,584 @@
+
+˘mojoPortal.Data.DBPaymentLog.Create(System.Guid, System.DateTime, System.Guid, System.Guid, System.Guid, System.Guid, string, string, string, string, string, string, string, string, string, string, string, string, decimal, decimal, decimal, decimal)v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs4 4( "0*ƒ~
+0v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csL d(Ï
+È
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csL< L(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionString «
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csL% L(Ñ(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperØ
+¨
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csL) L(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*
+mp_PaymentLog_Insert*2Ÿ
+÷
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csL L(Ñ)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperè
+å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csM/ M(I
+%3"__id*
+""è
+å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csMK M(c
+%4"__id*
+""ÿ
+’
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csM M(m
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@RowGuid*
+
+%3*
+
+%4*
+""è
+å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csN2 N(D
+%6"__id*
+""è
+å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csNF N(^
+%7"__id*
+""Ù
+Ò
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csN N(k
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@CreatedUtc*
+
+%6*
+
+%7*
+
+
+createdUtcSystem.DateTimeè
+å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csO0 O(J
+%9"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csOL O(d
+%10"__id*
+""€
+ÿ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csO O(o
+%11void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@SiteGuid*
+
+%9*
+
+%10*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csP0 P(J
+%12"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csPL P(d
+%13"__id*
+""‹
+Ÿ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csP P(o
+%14void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@UserGuid*
+
+%12*
+
+%13*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csQ1 Q(K
+%15"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csQM Q(e
+%16"__id*
+""›
+⁄
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csQ Q(q
+%17void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@StoreGuid*
+
+%15*
+
+%16*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csR0 R(J
+%18"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csRL R(d
+%19"__id*
+""‹
+Ÿ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csR R(o
+%20void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@CartGuid*
+
+%18*
+
+%19*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csS0 S(B
+%21"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csSI S(a
+%22"__id*
+""ˆ
+Û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csS S(l
+%23void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@Provider*
+
+%21*2d*
+
+%22*
+
+providerstringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csT3 T(E
+%24"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csTK T(c
+%25"__id*
+""˛
+˚
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csT T(q
+%26void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@RawResponse*
+
+%24*
+""*
+
+%25*
+
+rawResponsestringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csU4 U(C
+%27"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csUH U(`
+%28"__id*
+""˛
+˚
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csU U(o
+%29void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ResponseCode*
+
+%27*2*
+
+%28*
+
+responseCodestringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csV: V(L
+%30"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csVR V(j
+%31"__id*
+""ä
+á
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csV V(
+%32void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ResponseReasonCode*
+
+%30*2*
+
+%31*
+
+responseReasonCodestringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csW. W(@
+%33"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csWF W(^
+%34"__id*
+""Ù
+Ò
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csW W(g
+%35void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@Reason*
+
+%33*
+""*
+
+%34*
+
+reasonstringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csX/ X(A
+%36"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csXG X(_
+%37"__id*
+""Ù
+Ò
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csX X(i
+%38void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@AvsCode*
+
+%36*22*
+
+%37*
+
+avsCodestringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csY/ Y(>
+%39"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csYC Y([
+%40"__id*
+""Ù
+Ò
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csY Y(e
+%41void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@CcvCode*
+
+%39*2*
+
+%40*
+
+ccvCodestringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csZ/ Z(>
+%42"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csZC Z([
+%43"__id*
+""Ù
+Ò
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csZ Z(e
+%44void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@CavCode*
+
+%42*2*
+
+%43*
+
+cavCodestringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs[5 [(G
+%45"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs[M [(e
+%46"__id*
+""Ä
+˝
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs[ [(u
+%47void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@TransactionId*
+
+%45*22*
+
+%46*
+
+transactionIdstringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs\7 \(I
+%48"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs\O \(g
+%49"__id*
+""Ñ
+Å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs\ \(y
+%50void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@TransactionType*
+
+%48*22*
+
+%49*
+
+transactionTypestringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs]. ](@
+%51"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs]F ](^
+%52"__id*
+""Ú
+Ô
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs] ](g
+%53void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@Method*
+
+%51*2*
+
+%52*
+
+methodstringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs^0 ^(B
+%54"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs^H ^(`
+%55"__id*
+""ˆ
+Û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs^ ^(k
+%56void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@AuthCode*
+
+%54*22*
+
+%55*
+
+authCodestringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs_. _(?
+%57"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs_A _(Y
+%58"__id*
+""⁄
+◊
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs_ _(b
+%59void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@Amount*
+
+%57*
+
+%58*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs`+ `(<
+%60"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs`> `(V
+%61"__id*
+""◊
+‘
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.cs` `(\
+%62void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@Tax*
+
+%60*
+
+%61*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csa, a(=
+%63"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csa? a(W
+%64"__id*
+""ÿ
+’
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csa a(^
+%65void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@Duty*
+
+%63*
+
+%64*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csb/ b(@
+%66"__id*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csbB b(Z
+%67"__id*
+""€
+ÿ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csb b(d
+%68void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@Freight*
+
+%66*
+
+%67*
+""Í
+Á
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csc c(4
+
+%69int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper§
+°
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csc c(4
+rowsAffectedint"__id*
+
+
+%69int"è
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csd d( 
+
+rowsAffectedint*ã
+1v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csf	 f(	"ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPaymentLog.csf f(	
+implicit return:
+rowGuidSystem.Guid:
+
+createdUtcSystem.DateTime:
+siteGuidSystem.Guid:
+userGuidSystem.Guid:
+	storeGuidSystem.Guid:
+cartGuidSystem.Guid:
+providerstring:
+rawResponsestring:
+responseCodestring:
+responseReasonCodestring:
+reasonstring:
+avsCodestring:
+ccvCodestring:
+cavCodestring:
+transactionIdstring:
+transactionTypestring:
+methodstring:
+authCodestring:
+amountdecimal:
+taxdecimal:
+dutydecimal:
+freightdecimalB "
+mojoPortal.Data.DBPaymentLog

@@ -1,0 +1,156 @@
+
+HmojoPortal.Web.AdminUI.SecurityRoles.Page_Load(object, System.EventArgs)p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs# #("0*›
+0p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs% %(Ë
+È
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs% %(
+%0System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÍ
+Ê
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs% %(
+
+%1bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%0System.Web.HttpRequest*
+1
+2*‚
+1p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs' '(&Ž
+‹
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs' '('
+
+%2void"CmojoPortal.Web.SiteUtils.RedirectToLoginPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*(&
+$mojoPortal.Web.AdminUI.SecurityRoles"z
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs( ((
+""*ì
+2p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs+ +("ì
+é
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs+ +("
+
+%3bool"=mojoPortal.Business.WebHelpers.WebUser.IsAdminOrRoleAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+3
+4*‰
+3p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs- -(9•
+’
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs- -(:
+
+%4void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*(&
+$mojoPortal.Web.AdminUI.SecurityRoles"z
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs. .(
+""*ƒ
+4p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs1 1(*ƒ
+€
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs1 1(+
+
+%5bool"8mojoPortal.Web.SiteUtils.IsFishyPost(System.Web.UI.Page)*"
+mojoPortal.Web.SiteUtils*(&
+$mojoPortal.Web.AdminUI.SecurityRoles*
+5
+6*‰
+5p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs3 3(9•
+’
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs3 3(:
+
+%6void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*(&
+$mojoPortal.Web.AdminUI.SecurityRoles"z
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs4 4(
+""*›
+6p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs7 ?( í
+ê
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs7 7(0
+
+%7void"=mojoPortal.Web.Framework.SecurityHelper.DisableBrowserCache()*+")
+'mojoPortal.Web.Framework.SecurityHelperÞ
+Û
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs9 9(
+
+%8void"1mojoPortal.Web.AdminUI.SecurityRoles.LoadParams()*(&
+$mojoPortal.Web.AdminUI.SecurityRoles‰
+†
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs: :("
+%9"__id*
+""°­
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs: :(#
+%10mojoPortal.Business.Role"mojoPortal.Business.RoleÑ
+Î
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs: :(
+%11void""mojoPortal.Business.Role.Role(int)*!
+
+%10mojoPortal.Business.Role*
+
+%9ê
+ç
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs: :(#J&
+$mojoPortal.Web.AdminUI.SecurityRoles" 
+rolemojoPortal.Business.Role"__id*!
+
+%10mojoPortal.Business.Roleä
+á
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs; ;(
+%12void"6mojoPortal.Web.AdminUI.SecurityRoles.EnforceSecurity()*(&
+$mojoPortal.Web.AdminUI.SecurityRolesà
+Ý
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs< <(
+%13void"2mojoPortal.Web.AdminUI.SecurityRoles.SetupScript()*(&
+$mojoPortal.Web.AdminUI.SecurityRolesã
+à
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs= =(
+%14void"5mojoPortal.Web.AdminUI.SecurityRoles.PopulateLabels()*(&
+$mojoPortal.Web.AdminUI.SecurityRolesÕÒ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs? ?(
+%15System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÂ
+¿
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.cs? ?( 
+%16bool"!System.Web.UI.Page.IsPostBack.get*
+
+%15System.Web.UI.Page*
+7
+8*Ú
+7p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csA A(Ý
+Ú
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csA A(
+%17void"/mojoPortal.Web.AdminUI.SecurityRoles.BindData()*(&
+$mojoPortal.Web.AdminUI.SecurityRoles*
+8*ÿ
+8p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csD	 D(	"‡
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csD D(	
+implicit return:
+senderobject:
+eSystem.EventArgsB(&
+$mojoPortal.Web.AdminUI.SecurityRoles

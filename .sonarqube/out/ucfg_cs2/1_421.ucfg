@@ -1,0 +1,184 @@
+
+GmojoPortal.Data.DBLetterSendLog.GetPage(System.Guid, int, int, out int){
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csµ" µ()"0*Ä
+0{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.cs» ¿(Ÿ
+œ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.cs» »(
+
+totalPagesint"__id*2ï
+ì
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.cs½ ½(&	
+%0int"5mojoPortal.Data.DBLetterSendLog.GetCount(System.Guid)*#"!
+mojoPortal.Data.DBLetterSendLog*
+""¥
+¢
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.cs¼ ½(&
+	totalRowsint"__id*
+	
+%0int*
+1
+2*©
+1{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.cs¿ ¿(?¡
+ž
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.cs¿ ¿(?
+
+totalPagesint"__id*
+""*
+2*ˆ
+2{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÁ Á(%*
+3
+4*§
+3{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÃ Ã(Ÿ
+œ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÃ Ã(
+
+totalPagesint"__id*2*
+5*þ
+4{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÇ É(!ó
+ð
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÈ È(?	
+%1int"%System.Math.DivRem(int, int, out int)*"
+System.Math*
+
+	totalRowsint*
+""*
+
+	remainderint*
+6
+5*©
+6{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csË Ë(#¡
+ž
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csË Ë(#
+
+totalPagesint"__id*
+""*
+5*Á
+5{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÏ Ó(&ð
+í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÏ< Ï(f
+%2string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÏÌ
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÏ% Ï(‰(
+%3"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper»
+¸
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÏ) Ï(;
+
+%4void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%3"mojoPortal.Data.SqlParameterHelper*
+
+%2string*
+mp_LetterSendLog_SelectPage*2Þ
+Û
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÏ Ï(‰)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%3"mojoPortal.Data.SqlParameterHelper”
+‘
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÐ2 Ð(L
+%5"__id*
+""”
+‘
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÐN Ð(f
+%6"__id*
+""à
+Ý
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÐ Ð(s
+
+%7void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@LetterGuid*
+
+%5*
+
+%6*
+""”
+‘
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÑ2 Ñ(?
+%8"__id*
+""”
+‘
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÑA Ñ(Y
+%9"__id*
+""á
+Þ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÑ Ñ(f
+%10void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@PageNumber*
+
+%8*
+
+%9*
+""•
+’
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÒ0 Ò(=
+%11"__id*
+""•
+’
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÒ? Ò(W
+%12"__id*
+""á
+Þ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÒ Ò(b
+%13void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@PageSize*
+
+%11*
+
+%12*
+""
+þ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÓ Ó(&
+%14System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper"Ÿ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÓ Ó(' 
+
+%14System.Data.IDataReader*•
+7{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÕ	 Õ(	"’
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSendLog.csÕ Õ(	
+implicit return:
+
+letterGuidSystem.Guid:
+
+pageNumberint:
+pageSizeint:
+
+totalPagesintB#"!
+mojoPortal.Data.DBLetterSendLog

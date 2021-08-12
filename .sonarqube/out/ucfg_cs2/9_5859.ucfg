@@ -1,0 +1,141 @@
+
+PmojoPortal.Web.ApplicationContactList.SignApplicationContactList(string, byte[])†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csŠ Š(0"0*ý
+0†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csŒ Œ(;æ
+ã
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csŒ Œ(<
+
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*"
+ 
+applicationContactListstring*
+1
+2*•
+1†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csŽ Ž(hÆÃ
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csŽ Ž(i
+%1System.ArgumentException"System.ArgumentException¸
+µ
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csŽ Ž(+
+
+%2void":System.ArgumentException.ArgumentException(string, string)* 
+
+%1System.ArgumentException*$"
+ Invalid application contact list*
+applicationContactList*
+3*
+2†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs‘ ‘($ê
+ç
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs‘ ‘($
+
+%3bool""object.operator ==(object, object)*
+"
+object*
+
+signatureKeybyte[]*
+""*
+4
+5*á
+5†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs‘( ‘(@Ê
+Ç
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs‘( ‘(;	
+%4int"System.Array.Length.get*
+
+signatureKeybyte[]*
+4
+6*€
+4†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs“ “(SÆÃ
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs“ “(T
+%5System.ArgumentException"System.ArgumentException£
+ 
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs“ “(+
+
+%6void":System.ArgumentException.ArgumentException(string, string)* 
+
+%5System.ArgumentException*
+Invalid signature Key*
+signatureKey*
+3*“
+6†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs– –(Bäá
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs–' –(C-
+%7'System.Security.Cryptography.HMACSHA256"'System.Security.Cryptography.HMACSHA256Ÿ
+œ
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs–+ –(5
+
+%8void":System.Security.Cryptography.HMACSHA256.HMACSHA256(byte[])*/
+-
+%7'System.Security.Cryptography.HMACSHA256*
+
+signatureKeybyte[]ö
+ó
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs– –(C1
+sha256'System.Security.Cryptography.HMACSHA256"__id*/
+-
+%7'System.Security.Cryptography.HMACSHA256*
+7*õ
+7†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs˜ ™(7á
+Þ
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs˜6 ˜(C
+%9System.Text.Encoding"System.Text.Encoding.UTF8.get*"
+System.Text.Encoding–“
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs˜6 ˜(d
+%10byte[]"%System.Text.Encoding.GetBytes(string)*
+
+%9System.Text.Encoding*"
+ 
+applicationContactListstring2GetBytes(string)¡
+ž
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs˜# ˜(e
+%11byte[]">System.Security.Cryptography.HashAlgorithm.ComputeHash(byte[])*3
+1
+sha256'System.Security.Cryptography.HMACSHA256*
+
+%10byte[]¸
+µ
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs˜ ˜(e
+	signaturebyte[]"__id*
+
+%11byte[]í
+ê
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs™ ™(8
+%12string"%System.Convert.ToBase64String(byte[])*"
+System.Convert*
+
+	signaturebyte[]"š
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs™ ™(9
+
+%12string*‘
+8†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs›	 ›(	*
+3*­
+3†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs›	 ›(	"ž
+†
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs› ›(	
+implicit return: 
+applicationContactListstring:
+signatureKeybyte[]B)'
+%mojoPortal.Web.ApplicationContactList

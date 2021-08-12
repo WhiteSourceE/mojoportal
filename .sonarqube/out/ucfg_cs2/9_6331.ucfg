@@ -1,0 +1,2172 @@
+
+0mojoPortal.Web.AdminUI.PageManager.SetupScript()n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csb b("0*˙c
+0o
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csg ò(“œ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csi i(
+%0System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÒ
+Ó
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csi i(?
+%1string"(System.Web.UI.Control.ResolveUrl(string)*
+
+%0System.Web.UI.Page*(&
+$~/ClientScript/jqmojo/tree.jquery.jsØ
+¨
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csh i(?
+%2string"__concat*
+
+<script src="*
+
+%1string√
+¿
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csh i(i
+%3string"__concat*
+
+%2string*&$
+"" type="text/javascript"></script>Ê
+„
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csg i(q
+
+%4void"lSystem.Web.UI.ScriptManager.RegisterClientScriptBlock(System.Web.UI.Page, System.Type, string, string, bool)*"
+System.Web.UI.ScriptManager*&$
+"mojoPortal.Web.AdminUI.PageManager*
+""*
+
+jqtreemain*
+
+%3string*
+""Ã
+…
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csk k(
+%5string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage¬
+ø
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csk k(B
+%6string"__concat*
+
+%5string*%#
+!/Services/SiteMapJson.ashx?cmd=pmú
+ô
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csk
+ k(B
+dataUrlstring"__id*
+
+%6stringØ¨
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csm m(-
+%7System.Text.StringBuilder"System.Text.StringBuilderÕ
+ 
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csm m(+
+
+%8void")System.Text.StringBuilder.StringBuilder()*!
+
+%7System.Text.StringBuilder¡
+æ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csm m(-#
+scriptSystem.Text.StringBuilder"__id*!
+
+%7System.Text.StringBuilderå
+â
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cso o(9
+%9System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*%#
+!
+<script type="text/javascript">
+˙
+˜
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csr r(" 
+%10System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$(function() {Ö
+Ç
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csu u(- 
+%11System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var $tree = $('#tree1'); è
+å
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csv v(7 
+%12System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*'%
+#var $selPageId = $('#hdnSelPage'); å
+â
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csw w(4 
+%13System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*$"
+ var $cmdBar = $('#ulCommands'); ã
+à
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csx x(3 
+%14System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*#!
+var $pageLabel = $('#liInfo'); à
+Ö
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csy y(0 
+%15System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* 
+var $liEdit = $('#liEdit'); ê
+ç
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csz z(8 
+%16System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*(&
+$var $liSettings = $('#liSettings'); ñ
+ì
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs{ {(> 
+%17System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*.,
+*var $liPermissions = $('#liPermissions'); à
+Ö
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs| |(0 
+%18System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* 
+var $liView = $('#liView'); à
+Ö
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs} }(0 
+%19System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* 
+var $liSort = $('#liSort'); ê
+ç
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs~ ~(8 
+%20System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*(&
+$var $liNewChild = $('#liNewChild'); î
+ë
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs (< 
+%21System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*,*
+(var $liDeletePage = $('#liDeletePage'); å
+â
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÅ Å(2 
+%22System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*" 
+var $btnEdit = $('#lnkEdit'); î
+ë
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÇ Ç(: 
+%23System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder**(
+&var $btnSettings = $('#lnkSettings'); ö
+ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÉ É(@ 
+%24System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*0.
+,var $btnPermissions = $('#lnkPermissions'); å
+â
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÑ Ñ(2 
+%25System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*" 
+var $btnView = $('#lnkView'); å
+â
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÖ Ö(2 
+%26System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*" 
+var $btnSort = $('#lnkSort'); ì
+ê
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÜ Ü(9 
+%27System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*)'
+%var $btnNewPage = $('#lnkNewChild'); î
+ë
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csá á(: 
+%28System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder**(
+&var $btnDelete = $('#lnkDeletePage'); ö
+ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csà à(@ 
+%29System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*0.
+,var $spnPermissions = $('#spnPermissions'); í
+è
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csã ã(8 
+%30System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*(&
+$var $showCommands = function(node) {Ü
+É
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csç ç(, 
+%31System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$selPageId.val(node.id);â
+Ü
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csé é(/ 
+%32System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$pageLabel.html(node.name);œ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csê" ê(*
+%33string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage±
+Æ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csê ê(*
+%34string"__concat*
+var $url = '*
+
+%33stringœ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csê ê(Y
+%35string"__concat*
+
+%34string*.,
+*/Admin/PageLayout.aspx?pageid=' + node.id;˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csê ê(Z 
+%36System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%35stringä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csë ë(0 
+%37System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* 
+$btnEdit.attr('href', $url);œ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csí í(&
+%38string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage≠
+™
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csí í(&
+%39string"__concat*
+
+$url = '*
+
+%38string—
+Œ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csí í(W
+%40string"__concat*
+
+%39string*0.
+,/Admin/PageSettings.aspx?pageid=' + node.id;˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csí í(X 
+%41System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%40stringé
+ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csì ì(4 
+%42System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*$"
+ $btnSettings.attr('href', $url);é
+ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csî î(4 
+%43System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*$"
+ $btnView.attr('href', node.Url);œ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csï ï(&
+%44string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage≠
+™
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csï ï(&
+%45string"__concat*
+
+$url = '*
+
+%44stringŸ
+÷
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csï ï(_
+%46string"__concat*
+
+%45string*86
+4/Admin/PageSettings.aspx?start=' + $selPageId.val();˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csï ï(` 
+%47System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%46stringç
+ä
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csñ ñ(3 
+%48System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*#!
+$btnNewPage.attr('href', $url);ä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csò ò(
+%49"__id*
+""*
+1
+2*Ù	
+1p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csö õ(7œ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csö ö('
+%50string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage≠
+™
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csö ö('
+%51string"__concat*
+
+$url = '*
+
+%50stringÂ
+‚
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csö ö(l
+%52string"__concat*
+
+%51string*DB
+@/Admin/PagePermission.aspx?pageid=' + $selPageId.val() + '&p=v';˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csö ö(m 
+%53System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%52stringë
+é
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csõ õ(8 
+%54System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*'%
+#$btnPermissions.attr('href', $url);*
+3*	
+2p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csü †(7œ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csü ü('
+%55string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage≠
+™
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csü ü('
+%56string"__concat*
+
+$url = '*
+
+%55string·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csü ü(h
+%57string"__concat*
+
+%56string*@>
+</Admin/PagePermissionsMenu.aspx?pageid=' + $selPageId.val();˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csü ü(i 
+%58System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%57stringë
+é
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs† †(8 
+%59System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*'%
+#$btnPermissions.attr('href', $url);*
+3*¬
+3p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs® π(˝
+˙
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs® ®(# 
+%60System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$cmdBar.show();ù
+ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs© ©(C 
+%61System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*31
+/var $liActive = $('li.jqtree-selected').last();°
+û
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs´ ´(K 
+%62System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*75
+3$cmdBar.position({ my:"left top",at:"right+10 top",˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¨ ¨(! 
+%63System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+of: $liActiveˇ
+¸
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≠ ≠(' 
+%64System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,collision:"none"Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÆ Æ( 
+%65System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});á
+Ñ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∞ ∞(- 
+%66System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if(node.childcount > 1) {˝
+˙
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs± ±(# 
+%67System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$liSort.show();ˆ
+Û
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≤ ≤( 
+%68System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+} else {˝
+˙
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≥ ≥(# 
+%69System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$liSort.hide();Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¥ ¥( 
+%70System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}; Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∂ ∂(& 
+%71System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if(node.canEdit) {˛
+˚
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∑ ∑($ 
+%72System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$btnEdit.show();Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∏ ∏(( 
+%73System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$btnSettings.show();ä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csπ π(
+%74"__id*
+""*
+4
+5*ò
+4p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csª º(:Ñ
+Å
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csª ª(+ 
+%75System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$liPermissions.show();î
+ë
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csº º(; 
+%76System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder**(
+&$spnPermissions.html(node.protection);*
+6*Å
+5p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¿ ¿(*Ñ
+Å
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¿ ¿(+ 
+%77System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$liPermissions.hide();*
+6*£n
+6p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¬ ´(Ï
+È
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¬ ¬( 
+%78System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* ˆ
+Û
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs√ √( 
+%79System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+} else {˛
+˚
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csƒ ƒ($ 
+%80System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$btnEdit.hide();Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≈ ≈(( 
+%81System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$btnSettings.hide();Ñ
+Å
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∆ ∆(* 
+%82System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$liPermissions.hide();Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs« «( 
+%83System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}; Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs… …(( 
+%84System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if(node.canDelete) {Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs   (& 
+%85System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$btnDelete.show();ˆ
+Û
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÀ À( 
+%86System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+} else {Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÃ Ã(& 
+%87System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$btnDelete.hide();Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÕ Õ( 
+%88System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}; á
+Ñ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csœ œ(- 
+%89System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if(node.canCreateChild) {Å
+˛
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs– –(' 
+%90System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$btnNewPage.show();ˆ
+Û
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs— —( 
+%91System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+} else {Å
+˛
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs“ “(' 
+%92System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$btnNewPage.hide();Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs” ”( 
+%93System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}; Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs÷ ÷( 
+%94System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}; π
+∂
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÿ ÿ(_ 
+%95System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*OM
+Kvar $moveNode = function(movedNode, targetNode, previousParent, position) {˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs· ·(! 
+%96System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var obj = {};è
+å
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs‚ ‚(5 
+%97System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*%#
+!obj['movedNode'] = movedNode.id; ë
+é
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs„ „(7 
+%98System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*'%
+#obj['targetNode'] = targetNode.id; ô
+ñ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs‰ ‰(? 
+%99System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*/-
++obj['previousParent'] = previousParent.id; ã
+à
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÂ Â(0!
+%100System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* 
+obj['position'] = position; á
+Ñ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÁ Á(,!
+%101System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var moveResult = false; ˜
+Ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÈ È(!
+%102System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+$.ajax({˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÍ Í("!
+%103System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+type:"POST",˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÎ Î( !
+%104System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+async:false,Å
+˛
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÏ Ï(&!
+%105System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+processData: true,Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÓ Ó('!
+%106System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+dataType: "json",–
+Õ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs (
+%107string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage 
+«
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs (D
+%108string"__concat*
+
+%107string*'%
+#/Services/SiteMapJson.ashx?cmd=move†
+ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs
+ (D
+moveUrlstring"__id*
+
+%108stringØ
+¨
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÚ Ú("
+%109string"__concat*	
+url:'*
+
+moveUrlstring©
+¶
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÚ Ú()
+%110string"__concat*
+
+%109string*
+',˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÚ Ú(*!
+%111System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%110string˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÛ Û(!
+%112System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+data: obj,ú
+ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÙ Ù(A!
+%113System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*1/
+-success: function(data, textStatus, jqXHR) { ù
+ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csı ı(B!
+%114System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*20
+.if(data.Success) { moveResult = true; } else {Ö
+Ç
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csˆ ˆ(*!
+%115System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+alert(data.Message); }Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¯ ¯(!
+%116System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}, ó
+î
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs˘ ˘(<!
+%117System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*,*
+(complete: function(jqXHR, textStatus) { Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs˛ ˛(!
+%118System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}, †
+ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÄ Ä(E!
+%119System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*53
+1error:function(jqXHR, textStatus, errorThrown ) {Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÇ Ç('!
+%120System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+alert(errorThrown);Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÑ Ñ(!
+%121System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÖ Ö(!
+%122System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});Ì
+Í
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csá á(!
+%123System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* Ì
+Í
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csà à(!
+%124System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* Ì
+Í
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csâ â(!
+%125System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* Ì
+Í
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csä ä(!
+%126System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* Ì
+Í
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csã ã(!
+%127System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* Å
+˛
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csç ç(&!
+%128System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+return moveResult;Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csé é(!
+%129System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}; ã
+à
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¶ ¶(0!
+%130System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* 
+$btnSort.click(function(e) {Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs© ©('!
+%131System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+e.preventDefault();ã
+à
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs´ ´(
+%132"__id*
+""*
+7
+8*®	
+7p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≠ ≠(s›
+⁄
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≠D ≠(h
+%133string"2Resources.PageManagerResources.SortAlphaPrompt.get*"" 
+Resources.PageManagerResourcesÁ
+‰
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≠$ ≠(i
+%134string"2System.Web.HttpUtility.HtmlAttributeEncode(string)*"
+System.Web.HttpUtility*
+
+%133string¥
+±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≠ ≠(i
+%135string"__concat*
+if (confirm('*
+
+%134string¨
+©
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≠ ≠(s
+%136string"__concat*
+
+%135string*	
+')) {˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≠ ≠(t!
+%137System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%136string*
+8*¬6
+8p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≤ €(¶
+£
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≤ ≤(K!
+%138System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*;9
+7var node = $tree.tree('getNodeById', $selPageId.val());Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≥ ≥(%!
+%139System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var objSort = {};ç
+ä
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¥ ¥(2!
+%140System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*" 
+objSort['selNode'] = node.id; ˜
+Ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∂ ∂(!
+%141System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+$.ajax({˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∑ ∑("!
+%142System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+type:"POST",˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∏ ∏( !
+%143System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+async:false,Å
+˛
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csπ π(&!
+%144System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+processData: true,Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csª ª('!
+%145System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+dataType: "json",–
+Õ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csΩ Ω(
+%146string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePageœ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csΩ Ω(I
+%147string"__concat*
+
+%146string*,*
+(/Services/SiteMapJson.ashx?cmd=sortalpha†
+ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csΩ
+ Ω(I
+sortUrlstring"__id*
+
+%147stringØ
+¨
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csø ø("
+%148string"__concat*	
+url:'*
+
+sortUrlstring©
+¶
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csø ø()
+%149string"__concat*
+
+%148string*
+',˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csø ø(*!
+%150System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%149string˝
+˙
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¿ ¿("!
+%151System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+data: objSort,ú
+ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¡ ¡(A!
+%152System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*1/
+-success: function(data, textStatus, jqXHR) { Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¬ ¬('!
+%153System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if(data.Success) { ö
+ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≈ ≈(?!
+%154System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*/-
++$('#tree1').tree('loadDataFromUrl', node); ¯
+ı
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs« «(!
+%155System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+	 } else {Ö
+Ç
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs» »(*!
+%156System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+alert(data.Message); }Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs   (!
+%157System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}, ó
+î
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÀ À(<!
+%158System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*,*
+(complete: function(jqXHR, textStatus) { Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs– –(!
+%159System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}, †
+ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs“ “(E!
+%160System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*53
+1error:function(jqXHR, textStatus, errorThrown ) {Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs‘ ‘('!
+%161System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+alert(errorThrown);Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs÷ ÷(!
+%162System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs◊ ◊(!
+%163System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});ã
+à
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs€ €(
+%164"__id*
+""*
+9
+10*Ô
+9p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs› ›(Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs› ›(!
+%165System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} *
+10*¡
+
+10p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs‚ Ó(Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs‚ ‚(!
+%166System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});ç
+ä
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÎ Î(2!
+%167System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*" 
+$btnDelete.click(function(e) {Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÏ Ï('!
+%168System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+e.preventDefault();¶
+£
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÌ Ì(K!
+%169System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*;9
+7var node = $tree.tree('getNodeById', $selPageId.val());ã
+à
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÓ Ó(
+%170"__id*
+""*
+11
+12*ÿ!
+11p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs ˇ(Ö
+Ç
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs (+!
+%171System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var doDelete = false; à
+Ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÒ Ò(.!
+%172System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if(node.childcount > 0) {Î
+Ë
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÚD Ú(v
+%173string"@Resources.PageManagerResources.DeletePageWithChildrenWarning.get*"" 
+Resources.PageManagerResourcesÁ
+‰
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÚ$ Ú(w
+%174string"2System.Web.HttpUtility.HtmlAttributeEncode(string)*"
+System.Web.HttpUtility*
+
+%173string¥
+±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÚ Ú(w
+%175string"__concat*
+if (confirm('*
+
+%174string≠
+™
+q
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÚ Ú(Å
+%176string"__concat*
+
+%175string*	
+')) {¸
+˘
+q
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÚ Ú(Ç!
+%177System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%176stringÄ
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÛ Û(&!
+%178System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+doDelete = true; Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÙ Ù(!
+%179System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} ˜
+Ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¯ ¯(!
+%180System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+} else {ﬂ
+‹
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs˙D ˙(j
+%181string"4Resources.PageManagerResources.DeletePageWarning.get*"" 
+Resources.PageManagerResourcesÁ
+‰
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs˙$ ˙(k
+%182string"2System.Web.HttpUtility.HtmlAttributeEncode(string)*"
+System.Web.HttpUtility*
+
+%181string¥
+±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs˙ ˙(k
+%183string"__concat*
+if (confirm('*
+
+%182string¨
+©
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs˙ ˙(u
+%184string"__concat*
+
+%183string*	
+')) {˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs˙ ˙(v!
+%185System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%184stringÄ
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs˚ ˚(&!
+%186System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+doDelete = true; Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¸ ¸(!
+%187System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} 
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csˇ ˇ(!
+%188System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}*
+13*É
+12p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÉ É()Ñ
+Å
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÉ É(*!
+%189System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var doDelete = true; *
+13*Àé
+13p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csá É(˝
+˙
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csá á("!
+%190System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if(doDelete) {ˇ
+¸
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csä ä($!
+%191System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var objDel = {};å
+â
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csã ã(1!
+%192System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*!
+objDel['delNode'] = node.id; ˜
+Ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csç ç(!
+%193System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+$.ajax({˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csé é("!
+%194System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+type:"POST",˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csè è( !
+%195System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+async:false,Å
+˛
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csê ê(&!
+%196System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+processData: true,Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csí í('!
+%197System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+dataType: "json",–
+Õ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csî î(
+%198string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage…
+∆
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csî î(B
+%199string"__concat*
+
+%198string*&$
+"/Services/SiteMapJson.ashx?cmd=delü
+ú
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csî
+ î(B
+delUrlstring"__id*
+
+%199stringÆ
+´
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csñ ñ(!
+%200string"__concat*	
+url:'*
+
+delUrlstring©
+¶
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csñ ñ((
+%201string"__concat*
+
+%200string*
+',˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csñ ñ()!
+%202System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%201string¸
+˘
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csó ó(!!
+%203System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+data: objDel,ú
+ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csò ò(A!
+%204System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*1/
+-success: function(data, textStatus, jqXHR) { Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csô ô('!
+%205System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if(data.Success) { ï
+í
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csú ú(:!
+%206System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder**(
+&$('#tree1').tree('removeNode', node); ¯
+ı
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csû û(!
+%207System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+	 } else {Ö
+Ç
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csü ü(*!
+%208System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+alert(data.Message); }Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs° °(!
+%209System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}, ó
+î
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¢ ¢(<!
+%210System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*,*
+(complete: function(jqXHR, textStatus) { Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csß ß(!
+%211System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}, †
+ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs© ©(E!
+%212System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*53
+1error:function(jqXHR, textStatus, errorThrown ) {Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs´ ´('!
+%213System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+alert(errorThrown);Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≠ ≠(!
+%214System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÆ Æ(!
+%215System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs± ±(!
+%216System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≥ ≥(!
+%217System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∂ ∂('!
+%218System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+ $('#tree1').tree({≥
+∞
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∏ ∏(&
+%219string"__concat*
+	dataUrl:'*
+
+dataUrlstring®
+•
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∏ ∏(,
+%220string"__concat*
+
+%219string*
+'˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∏ ∏(-!
+%221System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%220stringÄ
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csπ π(%!
+%222System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,dragAndDrop:trueí
+è
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∫ ∫(7!
+%223System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*'%
+#,onLoadFailed: function(response) {ˇ
+¸
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csª ª($!
+%224System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+alert(response);
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csº º(!
+%225System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csƒ ƒ(!
+%226System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs… …(%!
+%227System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$('#tree1').bind(¸
+˘
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs   (!!
+%228System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+'tree.click',Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÀ À(%!
+%229System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+function(event) {Ö
+Ç
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÕ Õ(*!
+%230System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var node = event.node;
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs– –(!
+%231System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs— —(!
+%232System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+);Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs‘ ‘(%!
+%233System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$('#tree1').bind(ˇ
+¸
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs’ ’($!
+%234System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+'tree.dblclick',Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs÷ ÷(%!
+%235System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+function(event) {É
+Ä
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs◊ ◊((!
+%236System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+console.log(e.node);
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÿ ÿ(!
+%237System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csŸ Ÿ(!
+%238System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+);Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs‹ ‹(%!
+%239System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$('#tree1').bind(˝
+˙
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs› ›("!
+%240System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+'tree.select',Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csﬁ ﬁ(%!
+%241System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+function(event) {Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csﬂ ﬂ(%!
+%242System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if (event.node) {ä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs‰ ‰(/!
+%243System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$showCommands(event.node); ˜
+Ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÍ Í(!
+%244System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+} else {é
+ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÓ Ó(3!
+%245System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*#!
+var node = event.previous_node;Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÔ Ô('!
+%246System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$selPageId.val(-1);˛
+˚
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs (#!
+%247System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$cmdBar.hide();
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÚ Ú(!
+%248System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÛ Û(!
+%249System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÙ Ù(!
+%250System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+);Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs˜ ˜(%!
+%251System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$('#tree1').bind(Ç
+ˇ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¯ ¯('!
+%252System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+'tree.contextmenu',Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs˘ ˘(%!
+%253System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+function(event) {Ö
+Ç
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs˙ ˙(*!
+%254System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var node = event.node;
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¸ ¸(!
+%255System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs˝ ˝(!
+%256System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+);Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csˇ ˇ(%!
+%257System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$('#tree1').bind(˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÄ Ä( !
+%258System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+'tree.move',Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÅ Å(%!
+%259System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+function(event) {Ü
+É
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÇ Ç(+!
+%260System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+event.preventDefault();ã
+à
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÉ É(
+%261"__id*
+""*
+14
+15*∞	
+14p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÖ Ö(y„
+‡
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÖD Ö(n
+%262string"8Resources.PageManagerResources.MovePageConfirmPrompt.get*"" 
+Resources.PageManagerResourcesÁ
+‰
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÖ$ Ö(o
+%263string"2System.Web.HttpUtility.HtmlAttributeEncode(string)*"
+System.Web.HttpUtility*
+
+%262string¥
+±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÖ Ö(o
+%264string"__concat*
+if (confirm('*
+
+%263string¨
+©
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÖ Ö(y
+%265string"__concat*
+
+%264string*	
+')) {˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csÖ Ö(z!
+%266System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%265string*
+15*Ö	
+15p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csä î(ı
+Ú
+q
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csä ä(ñ!
+%267System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*àÖ
+Çif($moveNode(event.move_info.moved_node, event.move_info.target_node, event.move_info.previous_parent,event.move_info.position)) {â
+Ü
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csã ã(.!
+%268System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+event.move_info.do_move();
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csí í(!
+%269System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}ã
+à
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csî î(
+%270"__id*
+""*
+16
+17*Ô
+16p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csñ ñ(
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csñ ñ(!
+%271System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}*
+17*•3
+17p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csò ”(e
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csò ò(!
+%272System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csô ô(!
+%273System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+);Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csõ õ(%!
+%274System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$('#tree1').bind(˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csú ú( !
+%275System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+'tree.init',˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csù ù( !
+%276System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+function() {
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csü ü(!
+%277System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs† †(!
+%278System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+);Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¢ ¢(%!
+%279System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$('#tree1').bind(˚
+¯
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs£ £( !
+%280System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+'tree.open',Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs§ §(%!
+%281System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+function(event) {é
+ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∞ ∞(3!
+%282System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*#!
+$tree.tree('selectNode', null);î
+ë
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs± ±(9!
+%283System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*)'
+%$tree.tree('selectNode', event.node);
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs≥ ≥(!
+%284System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs¥ ¥(!
+%285System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+);Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∂ ∂(%!
+%286System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$('#tree1').bind(¸
+˘
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∑ ∑(!!
+%287System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+'tree.close',Ä
+˝
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∏ ∏(%!
+%288System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+function(event) {é
+ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csπ π(3!
+%289System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*#!
+$tree.tree('selectNode', null);î
+ë
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs∫ ∫(9!
+%290System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*)'
+%$tree.tree('selectNode', event.node);
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csº º(!
+%291System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}Ò
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csΩ Ω(!
+%292System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+);Ú
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.csŒ Œ(!
+%293System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs— —(!
+%294System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+
+</script>“
+œ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs”M ”(^
+%295string"$System.Text.StringBuilder.ToString()*%
+#
+scriptSystem.Text.StringBuilderÏ
+È
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs” ”(f
+%296void"hSystem.Web.UI.ScriptManager.RegisterStartupScript(System.Web.UI.Page, System.Type, string, string, bool)*"
+System.Web.UI.ScriptManager*&$
+"mojoPortal.Web.AdminUI.PageManager*
+""*
+stspagemanager*
+
+%295string*
+""*
+18*Ä
+18p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs÷ ÷("á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageManager.aspx.cs÷ ÷(
+implicit returnB&$
+"mojoPortal.Web.AdminUI.PageManager

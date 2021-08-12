@@ -1,0 +1,100 @@
+
+TmojoPortal.Data.DBRssFeed.DeleteExpiredEntriesByModule(System.Guid, System.DateTime)ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csæ æ(7"0*≤
+0ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¿ ƒ($Å
+˛
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¿< ¿(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionStringﬂ‹
+ã
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¿% ¿(ñ(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper◊
+‘
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¿) ¿(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*+)
+'mp_RssFeedEntries_DeleteExpiredByModule*2Ó
+Î
+ã
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¿ ¿(ñ)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper§
+°
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¡2 ¡(L
+%3"__id*
+""§
+°
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¡N ¡(f
+%4"__id*
+""
+Ì
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¡ ¡(s
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ModuleGuid*
+
+%3*
+
+%4*
+""§
+°
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¬3 ¬(E
+%6"__id*
+""§
+°
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¬G ¬(_
+%7"__id*
+""ã
+à
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¬ ¬(m
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ExpiredDate*
+
+%6*
+
+%7* 
+
+expiredDateSystem.DateTime˛
+˚
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs√ √(4	
+%9int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper∏
+µ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs√ √(4
+rowsAffectedint"__id*
+	
+%9int"ï
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csƒ ƒ(&
+""*µ
+1ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs∆	 ∆(	"¢
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs∆ ∆(	
+implicit return:
+
+moduleGuidSystem.Guid:
+expiredDateSystem.DateTimeB"
+mojoPortal.Data.DBRssFeed

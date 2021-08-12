@@ -1,0 +1,93 @@
+
+2mojoPortal.Data.DBEvents.GetEventsByPage(int, int)ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÔ" Ô(1"0*Ç
+0ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÒ Ù(&Å
+˛
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÒ< Ò(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionString‡›
+å
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÒ% Ò(å(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperœ
+Ã
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÒ) Ò(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*" 
+mp_CalendarEvents_SelectByPage*2Ô
+Ï
+å
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÒ Ò(å)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÚ. Ú(;
+%3"__id*
+""•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÚ= Ú(U
+%4"__id*
+""Ì
+Í
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÚ Ú(^
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@SiteID*
+
+%3*
+
+%4*
+""•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÛ. Û(;
+%6"__id*
+""•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÛ= Û(U
+%7"__id*
+""Ì
+Í
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÛ Û(^
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@PageID*
+
+%6*
+
+%7*
+""ë
+é
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÙ Ù(&
+%9System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper"Ø
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÙ Ù('
+
+%9System.Data.IDataReader*∑
+1ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csı	 ı(	"£
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csı ı(	
+implicit return:
+siteIdint:
+pageIdintB"
+mojoPortal.Data.DBEvents

@@ -1,0 +1,178 @@
+
+[mojoPortal.Web.UI.Pages.PasswordResetPage.btnChangePassword_Click(object, System.EventArgs)q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csN N($"0*‹
+0q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csP Q(’“
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csP P(
+%0System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÍÁ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csP P(,
+
+%1void"#System.Web.UI.Page.Validate(string)*
+
+%0System.Web.UI.Page*
+ChangePassword12Validate(string)’“
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csQ Q(
+%2System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getæ
+ª
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csQ Q(
+
+%3bool"System.Web.UI.Page.IsValid.get*
+
+%2System.Web.UI.Page*
+1
+2*¡*
+1q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csS Z(8˚
+¯
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csS S("
+%4mojoPortal.Business.SiteUser"__id*Y*W+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"(
+siteUsermojoPortal.Business.SiteUserä
+á
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csS- S(7
+%5"__id*
+""Î
+Ë
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csS S(7
+%6System.Guid"2mojoPortal.Business.SiteUser.PasswordResetGuid.set*$
+"
+%4mojoPortal.Business.SiteUser*
+
+%5ı
+Ú
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csT+ T(>,
+%7&System.Web.Security.MembershipProvider"+System.Web.Security.Membership.Provider.get*"" 
+System.Web.Security.Membership⁄
+◊
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csT+ T(X,
+%8&System.Web.Security.MembershipProvider"__id*.
+,
+%7&System.Web.Security.MembershipProviderÿ
+’
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csT' T(X*
+m%mojoPortal.Web.mojoMembershipProvider"__id*.
+,
+%8&System.Web.Security.MembershipProvider˚
+¯
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csU U("
+%9mojoPortal.Business.SiteUser"__id*Y*W+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"(
+siteUsermojoPortal.Business.SiteUser˙
+˜
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csU5 U(A'
+%10 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings¸
+˘
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csUC U(K#
+%11mojoPortal.Business.SiteUser"__id*Y*W+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"(
+siteUsermojoPortal.Business.SiteUserå
+â
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csUM U([(
+%12!System.Web.UI.WebControls.TextBox"__id*d*b+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"3
+txtNewPassword!System.Web.UI.WebControls.TextBoxÁ‰
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csUM U(`
+%13string"*System.Web.UI.WebControls.TextBox.Text.get**
+(
+%12!System.Web.UI.WebControls.TextBox2Text.getî
+ë
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csU$ U(a
+%14string"|mojoPortal.Web.mojoMembershipProvider.EncodePassword(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)*,
+*
+m%mojoPortal.Web.mojoMembershipProvider*)
+'
+%10 mojoPortal.Business.SiteSettings*%
+#
+%11mojoPortal.Business.SiteUser*
+
+%13stringÁ
+‰
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csU U(a
+%15string")mojoPortal.Business.SiteUser.Password.set*$
+"
+%9mojoPortal.Business.SiteUser*
+
+%14string¸
+˘
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csV V(#
+%16mojoPortal.Business.SiteUser"__id*Y*W+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"(
+siteUsermojoPortal.Business.SiteUser‚
+ﬂ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csV V(.
+%17bool".mojoPortal.Business.SiteUser.MustChangePwd.set*%
+#
+%16mojoPortal.Business.SiteUser*
+""¸
+˘
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csW W(#
+%18mojoPortal.Business.SiteUser"__id*Y*W+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"(
+siteUsermojoPortal.Business.SiteUserœ
+Ã
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csW W(
+%19bool"#mojoPortal.Business.SiteUser.Save()*%
+#
+%18mojoPortal.Business.SiteUser¸
+˘
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csX X(#
+%20mojoPortal.Business.SiteUser"__id*Y*W+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"(
+siteUsermojoPortal.Business.SiteUserÁ
+‰
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csX X(7
+%21bool";mojoPortal.Business.SiteUser.UpdateLastPasswordChangeTime()*%
+#
+%20mojoPortal.Business.SiteUser”
+–
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csZ- Z(8
+%22string"__id*F*D+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"
+redirectUrlstring∫
+∑
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csZ Z(9
+%23void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*-+
+)mojoPortal.Web.UI.Pages.PasswordResetPage*
+
+%22string"{
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs[ [(
+""*Å
+2q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csb	 b(	"à
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csb b(	
+implicit return:
+senderobject:
+eSystem.EventArgsB-+
+)mojoPortal.Web.UI.Pages.PasswordResetPage

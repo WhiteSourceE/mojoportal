@@ -1,0 +1,298 @@
+
+ûmojoPortal.Web.NewsletterHelper.SendSubscriberVerificationEmail(string, string, System.Guid, mojoPortal.Business.LetterInfo, mojoPortal.Business.SiteSettings)u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csª ª(:"0*ú
+0u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs¬ ƒ(ı
+Ú
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs√ √(O
+
+%0bool"GmojoPortal.Web.WebConfigSettings.NewsletterUseHtmlEmailConfirmation.get*$""
+ mojoPortal.Web.WebConfigSettingsü
+ú
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs√ √(O
+useHtmlbool"__id*
+
+
+%0bool*
+1
+2*£
+1v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs∆ ∆(ô
+Ì
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs∆I ∆(h&
+%1 System.Globalization.CultureInfo".mojoPortal.Web.SiteUtils.GetDefaultUICulture()*"
+mojoPortal.Web.SiteUtils˘
+ˆ
+v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs∆' ∆(ö
+%2string"dmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(System.Globalization.CultureInfo, string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*(
+&
+%1 System.Globalization.CultureInfo*1/
+-NewsletterVerificationHtmlEmailMessage.config±
+Æ
+v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs∆ ∆(ö
+verificationTemplatestring"__id*
+
+%2string*
+3*ü
+2v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs   (ï
+Ì
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs I  (h&
+%3 System.Globalization.CultureInfo".mojoPortal.Web.SiteUtils.GetDefaultUICulture()*"
+mojoPortal.Web.SiteUtilsı
+Ú
+v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs '  (ñ
+%4string"dmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(System.Globalization.CultureInfo, string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*(
+&
+%3 System.Globalization.CultureInfo*-+
+)NewsletterVerificationEmailMessage.config±
+Æ
+v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs   (ñ
+verificationTemplatestring"__id*
+
+%4string*
+3*â
+3u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csÕ ”(-∆
+√
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csÕ! Õ(F
+%5string"__concat*
+
+siteRootstring*
+/eletter/Confirm.aspx?s=™
+ß
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csÕ! Õ(a
+%6string"__concat*
+
+%5string*
+""ß
+§
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csÕ Õ(a
+confirmLinkstring"__id*
+
+%6stringﬁ
+€
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csŒR Œ(^
+%7string"(mojoPortal.Business.LetterInfo.Title.get**
+(
+lettermojoPortal.Business.LetterInfo
+Ì
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csŒ! Œ(_
+%8string"string.Replace(string, string)* 
+
+verificationTemplatestring*
+{NewsletterName}*
+
+%7stringÍ
+Á
+v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csŒ! Œ(ä
+%9string"string.Replace(string, string)*
+
+%8string*
+{ConfirmationLink}*
+
+confirmLinkstring‡
+›
+v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csŒ! Œ(™
+%10string"string.Replace(string, string)*
+
+%9string*
+
+{SiteLink}*
+
+siteRootstring©
+¶
+v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csŒ Œ(™
+messageBodystring"__id*
+
+%10stringÄ
+˝
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csœ+ œ(G'
+%11 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo◊
+‘
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csœI œ(o
+%12string"4Resources.Resource.NewsletterVerifySubjectFormat.get*"
+Resources.Resourceﬂ
+‹
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csœq œ(}
+%13string"(mojoPortal.Business.LetterInfo.Title.get**
+(
+lettermojoPortal.Business.LetterInfoô
+ñ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csœ œ(~
+%14string"5string.Format(System.IFormatProvider, string, object)*
+"
+string*)
+'
+%11 System.Globalization.CultureInfo*
+
+%12string*
+
+%13string§
+°
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csœ œ(~
+subjectstring"__id*
+
+%14stringÂ
+‚
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs” ”("
+%15string".mojoPortal.Business.LetterInfo.FromAddress.get**
+(
+lettermojoPortal.Business.LetterInfo™
+ß
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs” ”()
+
+%16int"string.Length.get*
+
+%15string*
+4
+5*†
+4u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs÷ ◊(+Â
+‚
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs÷ ÷(0
+%17string".mojoPortal.Business.LetterInfo.FromAddress.get**
+(
+lettermojoPortal.Business.LetterInfo®
+•
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs÷ ÷(0
+fromAddressstring"__id*
+
+%17string‚
+ﬂ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs◊ ◊(+
+%18string"+mojoPortal.Business.LetterInfo.FromName.get**
+(
+lettermojoPortal.Business.LetterInfo¶
+£
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs◊ ◊(+
+	fromAliasstring"__id*
+
+%18string*
+6*Õ
+5u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs‹ ›(>˚
+¯
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs‹ ‹(B
+%19string"<mojoPortal.Business.SiteSettings.DefaultEmailFromAddress.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings®
+•
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs‹ ‹(B
+fromAddressstring"__id*
+
+%19string˘
+ˆ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs› ›(>
+%20string":mojoPortal.Business.SiteSettings.DefaultFromEmailAlias.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings¶
+£
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs› ›(>
+	fromAliasstring"__id*
+
+%20string*
+6*ß
+6u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs‡ Î((Ë
+Â
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs· ·(/"
+%21mojoPortal.Net.SmtpSettings"*mojoPortal.Web.SiteUtils.GetSmtpSettings()*"
+mojoPortal.Web.SiteUtilsÆ
+´
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs‰ ‰( 
+%22string"__id**
+string"
+EmptystringÆ
+´
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csÊ Ê( 
+%23string"__id**
+string"
+EmptystringÆ
+´
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csÁ Á( 
+%24string"__id**
+string"
+Emptystringè
+å
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csÎ Î((
+%25"__id*
+""ï
+í
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs‡ Î()
+%26bool"ÑmojoPortal.Net.Email.Send(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string, string, string, bool, string)*"
+mojoPortal.Net.Email*$
+"
+%21mojoPortal.Net.SmtpSettings*
+
+fromAddressstring*
+
+	fromAliasstring*
+
+%22string*
+
+emailAddressstring*
+
+%23string*
+
+%24string*
+
+subjectstring*
+
+messageBodystring*
+
+useHtmlbool*
+
+%25*
+7*â
+7u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csÏ	 Ï(	"å
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csÏ Ï(	
+implicit return:
+siteRootstring:
+emailAddressstring:
+subscribeGuidSystem.Guid:(
+lettermojoPortal.Business.LetterInfo:0
+siteSettings mojoPortal.Business.SiteSettingsB#"!
+mojoPortal.Web.NewsletterHelper

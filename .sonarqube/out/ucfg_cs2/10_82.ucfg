@@ -1,0 +1,78 @@
+
+9SurveyFeature.Data.DBSurvey.GetResponseCount(System.Guid)„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.csš š($"0*±
+0„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.csœ  (-ú
+÷
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.csœ3 œ(]
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringØÕ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.csœ œ((
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÄ
+Á
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.csœ  œ(2
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*
+mp_Survey_GetResponseCount*2ç
+ä
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.csœ œ()
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperž
+›
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.csž) ž(C
+%3"__id*
+""ž
+›
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.csžE ž(]
+%4"__id*
+""ê
+ç
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.csž ž(j
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SurveyGuid*
+
+%3*
+
+%4*
+""ù
+ö
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.cs   (-
+%6object"2mojoPortal.Data.SqlParameterHelper.ExecuteScalar()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperÙ
+Ö
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.cs 
+  (.	
+%7int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%6object"”
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.cs   (/
+	
+%7int*©
+1„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.cs¡ ¡("œ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBSurvey.cs¡ ¡(
+implicit return:
+
+surveyGuidSystem.GuidB"
+SurveyFeature.Data.DBSurvey

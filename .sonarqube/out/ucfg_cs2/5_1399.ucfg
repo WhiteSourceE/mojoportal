@@ -1,0 +1,401 @@
+
+PmojoPortal.Business.SubscriberRepository.Fetch(System.Guid, System.Guid, string)Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csS  S(%"0*Ô
+0Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csU U(qΩ
+∫
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csUb U(q
+%0string"string.ToLower()*
+
+emailstring∆
+√
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csU( U(r
+%1System.Data.IDataReader"QmojoPortal.Data.DBLetterSubscription.GetByEmail(System.Guid, System.Guid, string)*("&
+$mojoPortal.Data.DBLetterSubscription*
+""*
+""*
+
+%0string‘
+—
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csU U(r!
+readerSystem.Data.IDataReader"__id*
+
+%1System.Data.IDataReader*
+1*¯
+1Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csW W(!„‡
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csW W(!
+
+%2bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*ºe
+2Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csY% i(+‹Ÿ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csY8 Y(N*
+%3$mojoPortal.Business.LetterSubscriber"$mojoPortal.Business.LetterSubscriber˝
+˙
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csY< Y(L
+
+%4void"7mojoPortal.Business.LetterSubscriber.LetterSubscriber()*,
+*
+%3$mojoPortal.Business.LetterSubscriber¯
+ı
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csY% Y(N8
+letterSubscriber$mojoPortal.Business.LetterSubscriber"__id*,
+*
+%3$mojoPortal.Business.LetterSubscriberÉÄ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csZ> Z(L
+%5object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Guid2this[string].get«ƒ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csZ> Z(W
+%6string"object.ToString()*
+
+%5object2
+ToString()™ß
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csZ5 Z(X
+%7System.Guid"System.Guid’
+“
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csZ9 Z(=
+
+%8void"System.Guid.Guid(string)*
+
+%7System.Guid*
+
+%6string¶
+£
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csZ Z(X
+%9System.Guid"6mojoPortal.Business.LetterSubscriber.SubscribeGuid.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%7System.GuidàÖ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs[9 [(K
+%10object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SiteGuid2this[string].get…∆
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs[9 [(V
+%11string"object.ToString()*
+
+%10object2
+ToString()´®
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs[0 [(W
+%12System.Guid"System.Guidÿ
+’
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs[4 [(8
+%13void"System.Guid.Guid(string)*
+
+%12System.Guid*
+
+%11string£
+†
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs[ [(W
+%14System.Guid"1mojoPortal.Business.LetterSubscriber.SiteGuid.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%12System.Guidéã
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs\? \(W
+%15object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+LetterInfoGuid2this[string].get…∆
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs\? \(b
+%16string"object.ToString()*
+
+%15object2
+ToString()´®
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs\6 \(c
+%17System.Guid"System.Guidÿ
+’
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs\: \(>
+%18void"System.Guid.Guid(string)*
+
+%17System.Guid*
+
+%16string©
+¶
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs\ \(c
+%19System.Guid"7mojoPortal.Business.LetterSubscriber.LetterInfoGuid.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%17System.Guidäá
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs]; ](O
+%20object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+VerifyGuid2this[string].get…∆
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs]; ](Z
+%21string"object.ToString()*
+
+%20object2
+ToString()´®
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs]2 ]([
+%22System.Guid"System.Guidÿ
+’
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs]6 ](:
+%23void"System.Guid.Guid(string)*
+
+%22System.Guid*
+
+%21string•
+¢
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs] ]([
+%24System.Guid"3mojoPortal.Business.LetterSubscriber.VerifyGuid.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%22System.GuidàÖ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs^9 ^(K
+%25object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UserGuid2this[string].get…∆
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs^9 ^(V
+%26string"object.ToString()*
+
+%25object2
+ToString()´®
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs^0 ^(W
+%27System.Guid"System.Guidÿ
+’
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs^4 ^(8
+%28void"System.Guid.Guid(string)*
+
+%27System.Guid*
+
+%26string£
+†
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs^ ^(W
+%29System.Guid"1mojoPortal.Business.LetterSubscriber.UserGuid.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%27System.GuidáÑ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs_A _(R
+%30object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+UseHtml2this[string].getﬁ
+€
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs_/ _(S
+%31bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%30objectî
+ë
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs_ _(S
+%32bool"0mojoPortal.Business.LetterSubscriber.UseHtml.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%31boolàÖ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs`C `(U
+%33object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+BeginUtc2this[string].getÍ
+Á
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs`0 `(V
+%34System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%33object´
+®
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cs` `(V
+%35System.DateTime"1mojoPortal.Business.LetterSubscriber.BeginUtc.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%34System.DateTimeÖÇ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csa4 a(C
+%36object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Email2this[string].get…∆
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csa4 a(N
+%37string"object.ToString()*
+
+%36object2
+ToString()ù
+ö
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csa a(N
+%38string"5mojoPortal.Business.LetterSubscriber.EmailAddress.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%37stringÑÅ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csb, b(:
+%39object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Name2this[string].get…∆
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csb, b(E
+%40string"object.ToString()*
+
+%39object2
+ToString()ï
+í
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csb b(E
+%41string"-mojoPortal.Business.LetterSubscriber.Name.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%40stringäá
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.cscD c(X
+%42object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+IsVerified2this[string].getﬁ
+€
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csc2 c(Y
+%43bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%42objectó
+î
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csc c(Y
+%44bool"3mojoPortal.Business.LetterSubscriber.IsVerified.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%43boolâÜ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csd1 d(D
+%45object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	IpAddress2this[string].get…∆
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csd1 d(O
+%46string"object.ToString()*
+
+%45object2
+ToString()ö
+ó
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csd d(O
+%47string"2mojoPortal.Business.LetterSubscriber.IpAddress.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%46stringâÜ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csf1 f(D
+%48object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	FirstName2this[string].get…∆
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csf1 f(O
+%49string"object.ToString()*
+
+%48object2
+ToString()ö
+ó
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csf f(O
+%50string"2mojoPortal.Business.LetterSubscriber.FirstName.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%49stringàÖ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csg0 g(B
+%51object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+LastName2this[string].get…∆
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csg0 g(M
+%52string"object.ToString()*
+
+%51object2
+ToString()ô
+ñ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csg g(M
+%53string"1mojoPortal.Business.LetterSubscriber.LastName.set*:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*
+
+%52string"√
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csi i(,:
+8
+letterSubscriber$mojoPortal.Business.LetterSubscriber*è
+3Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csn	 n(	*
+4*ú
+4Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csm m("è
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csm m(
+""*©
+5Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csn	 n(	"ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\SubscriberRepository.csn n(	
+implicit return:
+siteGuidSystem.Guid:
+letterInfoGuidSystem.Guid:
+emailstringB,*
+(mojoPortal.Business.SubscriberRepository

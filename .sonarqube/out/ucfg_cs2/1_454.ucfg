@@ -1,0 +1,118 @@
+
+QmojoPortal.Data.DBLetterSubscription.GetByEmail(System.Guid, System.Guid, string)€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csí" í(,"0*Â
+0€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csï ó(&ö
+ó
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csï< ï(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÕÒ
+
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csï% ï(—(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÏ
+Ì
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csï) ï(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*-+
+)mp_LetterSubscribe_SelectByLetterAndEmail*2ä
+á
+
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csï ï(—)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperš
+—
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csð0 ð(J
+%3"__id*
+""š
+—
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csðL ð(d
+%4"__id*
+""ä
+á
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csð ð(o
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@SiteGuid*
+
+%3*
+
+%4*
+""š
+—
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csñ6 ñ(P
+%6"__id*
+""š
+—
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csñR ñ(j
+%7"__id*
+""ê
+ç
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csñ ñ({
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@LetterInfoGuid*
+
+%6*
+
+%7*
+""š
+—
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csò- ò(?
+%9"__id*
+""›
+˜
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csòF ò(^
+%10"__id*
+""ú
+÷
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csò ò(f
+%11void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@Email*
+
+%9*2d*
+
+%10*
+
+emailstring‡
+„
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csó ó(&
+%12System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper"¥
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csó ó(' 
+
+%12System.Data.IDataReader*¡
+1€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csõ	 õ(	"˜
+€
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csõ õ(	
+implicit return:
+siteGuidSystem.Guid:
+letterInfoGuidSystem.Guid:
+emailstringB("&
+$mojoPortal.Data.DBLetterSubscription

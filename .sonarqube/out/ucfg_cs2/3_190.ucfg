@@ -1,0 +1,160 @@
+
+DmojoPortal.Web.Framework.IOHelper.CopyFolderContents(string, string)w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.cs× ×('"0*ä
+0w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csÙ Ù(#Ý
+Ú
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csÙ Ù($
+
+%0bool""System.IO.Directory.Exists(string)*"
+System.IO.Directory*
+
+
+destFolderstring*
+1
+2*ý
+1w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csÛ Û((ù
+ö
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csÛ Û()
+%1System.IO.DirectoryInfo"+System.IO.Directory.CreateDirectory(string)*"
+System.IO.Directory*
+
+
+destFolderstring*
+2*“
+2w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csÞ à( å
+â
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csÞ Þ(4
+%2string[]"$System.IO.Directory.GetFiles(string)*"
+System.IO.Directory*
+
+sourceFolderstring§
+¤
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csÞ Þ(4
+filesstring[]"__id*
+
+%2string[]*
+3*„
+3w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csï ï(*
+4
+5*ý
+4w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csâ ä(Ô
+Ñ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csâ â((
+%3string""System.IO.Path.GetFileName(string)*"
+System.IO.Path*
+
+filestring¢
+Ÿ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csâ â((
+namestring"__id*
+
+%3stringð
+í
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csã ã(0
+%4string"&System.IO.Path.Combine(string, string)*"
+System.IO.Path*
+
+
+destFolderstring*
+
+namestring¢
+Ÿ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csã ã(0
+deststring"__id*
+
+%4stringå
+â
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csä ä(
+
+%5void"#System.IO.File.Copy(string, string)*"
+System.IO.File*
+
+filestring*
+
+deststring*
+3*›
+5w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csç é($ë
+è
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csç ç(<
+%6string[]"*System.IO.Directory.GetDirectories(string)*"
+System.IO.Directory*
+
+sourceFolderstring©
+¦
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csç ç(<
+foldersstring[]"__id*
+
+%6string[]*
+6*„
+6w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csï ï(*
+7
+8*µ	
+7w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csë í(#Ö
+Ó
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csë ë(*
+%7string""System.IO.Path.GetFileName(string)*"
+System.IO.Path*
+
+folderstring¢
+Ÿ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csë ë(*
+namestring"__id*
+
+%7stringð
+í
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csì ì(0
+%8string"&System.IO.Path.Combine(string, string)*"
+System.IO.Path*
+
+
+destFolderstring*
+
+namestring¢
+Ÿ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csì ì(0
+deststring"__id*
+
+%8string›
+˜
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csí í($
+
+%9void"DmojoPortal.Web.Framework.IOHelper.CopyFolderContents(string, string)*%"#
+!mojoPortal.Web.Framework.IOHelper*
+
+folderstring*
+
+deststring*
+6*
+8w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csï ï("Ž
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\IOHelper.csï ï(
+implicit return:
+sourceFolderstring:
+
+destFolderstringB%"#
+!mojoPortal.Web.Framework.IOHelper

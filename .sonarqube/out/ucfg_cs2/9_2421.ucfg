@@ -1,0 +1,70 @@
+
+,mojoPortal.Web.AdminUI.ServerLog.DeleteLog()n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs´ ´("0*¯
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs¶ ·(%Î
+Ë
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs¶ ¶(%"
+%0System.Web.HttpServerUtility"System.Web.UI.Page.Server.get*
+System.Web.UI.Pageó
+ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs¶ ¶(I
+%1string",System.Web.HttpServerUtility.MapPath(string)*$
+"
+%0System.Web.HttpServerUtility*
+~/Data/currentlog.configž
+›
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs¶ ¶(I
+	pathToLogstring"__id*
+
+%1stringÉ
+Æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs· ·(&
+
+%2bool"System.IO.File.Exists(string)*"
+System.IO.File*
+
+	pathToLogstring*
+1
+2*†
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs¹ º(;É
+Æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs¹ ¹(&
+
+%3void"System.IO.File.Delete(string)*"
+System.IO.File*
+
+	pathToLogstringÉ
+Æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csº- º(4
+%4System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÄ
+Á
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csº- º(;
+%5string"!System.Web.HttpRequest.RawUrl.get*
+
+%4System.Web.HttpRequest¬
+©
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csº º(<
+
+%6void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*$"
+ mojoPortal.Web.AdminUI.ServerLog*
+
+%5string*
+2*û
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs½	 ½(	"…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs½ ½(	
+implicit returnB$"
+ mojoPortal.Web.AdminUI.ServerLog

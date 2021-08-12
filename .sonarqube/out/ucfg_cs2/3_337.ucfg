@@ -1,0 +1,256 @@
+
+-mojoPortal.Web.Framework.ServicePinger.Ping()z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csB B("0*›
+0z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csF N(V›
+⁄
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csFK F([
+%0string"__id*H*F(
+&mojoPortal.Web.Framework.ServicePinger"
+serviceUrlToPingstringÌ
+Í
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csF9 F(\
+%1System.Net.WebRequest"$System.Net.WebRequest.Create(string)*"
+System.Net.WebRequest*
+
+%0string™
+ß
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csF) F(\
+%2"__id*
+
+%1System.Net.WebRequest≥
+∞
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csF F(\$
+requestSystem.Net.HttpWebRequest"__id*
+
+%2ÒÓ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csG G('
+%3string"$System.Net.HttpWebRequest.Method.set*&
+$
+requestSystem.Net.HttpWebRequest*
+POST2
+Method.setˇ¸
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csH H(0
+%4string")System.Net.HttpWebRequest.ContentType.set*&
+$
+requestSystem.Net.HttpWebRequest*
+
+text/xml2ContentType.setì
+ê
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csI" I(7
+%5"__id*
+""ÓÎ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csI I(7	
+%6int"%System.Net.HttpWebRequest.Timeout.set*&
+$
+requestSystem.Net.HttpWebRequest*
+
+%52Timeout.set˝
+˙
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csJ& J(O"
+%7System.Net.NetworkCredential"8System.Net.CredentialCache.DefaultNetworkCredentials.get*"
+System.Net.CredentialCache®•
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csJ J(O
+%8System.Net.ICredentials")System.Net.HttpWebRequest.Credentials.set*&
+$
+requestSystem.Net.HttpWebRequest*$
+"
+%7System.Net.NetworkCredential2Credentials.setÅ˛
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csM( M(B
+%9System.IO.Stream",System.Net.HttpWebRequest.GetRequestStream()*&
+$
+requestSystem.Net.HttpWebRequest2GetRequestStream()¶
+£
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csM  M(B
+%10"__id*
+
+%9System.IO.Stream™
+ß
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csM M(B
+streamSystem.IO.Stream"__id*
+
+%10÷
+”
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csNH N(V
+%11System.Text.Encoding"System.Text.Encoding.ASCII.get*"
+System.Text.Encoding∫∑
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csN. N(W
+%12System.Xml.XmlTextWriter"System.Xml.XmlTextWriterº
+π
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csN2 N(?
+%13void"NSystem.Xml.XmlTextWriter.XmlTextWriter(System.IO.Stream, System.Text.Encoding)*!
+
+%12System.Xml.XmlTextWriter*
+
+streamSystem.IO.Stream*
+
+%11System.Text.EncodingÃ
+…
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csN% N(W"
+writerSystem.Xml.XmlTextWriter"__id*!
+
+%12System.Xml.XmlTextWriter*
+1*˝
+1z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csP [(,˜Ù
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csP P(/
+%14void"-System.Xml.XmlTextWriter.WriteStartDocument()*$
+"
+writerSystem.Xml.XmlTextWriter2WriteStartDocument()Ú
+Ô
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csQ Q(:
+%15void".System.Xml.XmlWriter.WriteStartElement(string)*$
+"
+writerSystem.Xml.XmlTextWriter*
+
+methodCallì
+ê
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csR R(Q
+%16void"7System.Xml.XmlWriter.WriteElementString(string, string)*$
+"
+writerSystem.Xml.XmlTextWriter*
+
+methodName*
+weblogUpdates.pingÓ
+Î
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csS S(6
+%17void".System.Xml.XmlWriter.WriteStartElement(string)*$
+"
+writerSystem.Xml.XmlTextWriter*
+
+paramsÌ
+Í
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csT T(5
+%18void".System.Xml.XmlWriter.WriteStartElement(string)*$
+"
+writerSystem.Xml.XmlTextWriter*	
+param›
+⁄
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csU7 U(F
+%19string"__id*G*E(
+&mojoPortal.Web.Framework.ServicePinger"
+pingingSiteNamestringá
+Ñ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csU U(G
+%20void"7System.Xml.XmlWriter.WriteElementString(string, string)*$
+"
+writerSystem.Xml.XmlTextWriter*	
+value*
+
+%19stringÒÓ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csV V(,
+%21void"*System.Xml.XmlTextWriter.WriteEndElement()*$
+"
+writerSystem.Xml.XmlTextWriter2WriteEndElement()Ì
+Í
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csW W(5
+%22void".System.Xml.XmlWriter.WriteStartElement(string)*$
+"
+writerSystem.Xml.XmlTextWriter*	
+param‹
+Ÿ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csX7 X(E
+%23string"__id*F*D(
+&mojoPortal.Web.Framework.ServicePinger"
+pingingSiteUrlstringá
+Ñ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csX X(F
+%24void"7System.Xml.XmlWriter.WriteElementString(string, string)*$
+"
+writerSystem.Xml.XmlTextWriter*	
+value*
+
+%23stringÒÓ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csY Y(,
+%25void"*System.Xml.XmlTextWriter.WriteEndElement()*$
+"
+writerSystem.Xml.XmlTextWriter2WriteEndElement()ÒÓ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csZ Z(,
+%26void"*System.Xml.XmlTextWriter.WriteEndElement()*$
+"
+writerSystem.Xml.XmlTextWriter2WriteEndElement()ÒÓ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.cs[ [(,
+%27void"*System.Xml.XmlTextWriter.WriteEndElement()*$
+"
+writerSystem.Xml.XmlTextWriter2WriteEndElement()*
+2*é
+2z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.cs_ _(%˛˚
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.cs_ _(%
+%28System.Net.WebResponse"'System.Net.HttpWebRequest.GetResponse()*&
+$
+requestSystem.Net.HttpWebRequest2GetResponse()*
+3
+4
+5
+5*ﬂ
+4z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csc c(›
+⁄
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csc c(
+%29log4net.ILog"__id*A*?(
+&mojoPortal.Web.Framework.ServicePinger"
+loglog4net.ILog¯ı
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csc c(
+%30void"log4net.ILog.Error(object)*
+
+%29log4net.ILog*(
+&
+ex System.InvalidOperationException2Error(object)*
+5*€
+3z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csg g(›
+⁄
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csg g(
+%31log4net.ILog"__id*A*?(
+&mojoPortal.Web.Framework.ServicePinger"
+loglog4net.ILogÙÒ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csg g(
+%32void"log4net.ILog.Error(object)*
+
+%31log4net.ILog*$
+"
+exSystem.NotSupportedException2Error(object)*
+5*ì
+5z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csl	 l(	"ë
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ServicePinger.csl l(	
+implicit returnB*(
+&mojoPortal.Web.Framework.ServicePinger

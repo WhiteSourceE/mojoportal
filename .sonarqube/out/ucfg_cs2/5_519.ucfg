@@ -1,0 +1,693 @@
+
+QmojoPortal.Business.GoogleCheckoutLog.PopulateFromReader(System.Data.IDataReader)à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csê ê('"0*Ä
+0à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csí í(Á‰
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csí í(
+
+%0bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+1
+2*Ö¬
+1à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csî ≤(9äá
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csî( î(9
+%1object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+RowGuid2this[string].getÀ»
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csî( î(D
+%2string"object.ToString()*
+
+%1object2
+ToString()Æ´
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csî î(E
+%3System.Guid"System.GuidŸ
+÷
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csî# î('
+
+%4void"System.Guid.Guid(string)*
+
+%3System.Guid*
+
+%2stringÏ
+È
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csî î(EA'
+%mojoPortal.Business.GoogleCheckoutLog"
+rowGuidSystem.Guid"__id*
+
+%3System.Guidçä
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csï5 ï(I
+%5object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CreatedUtc2this[string].getÏ
+È
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csï" ï(J
+%6System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%5object˜
+Ù
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csï ï(JH'
+%mojoPortal.Business.GoogleCheckoutLog"
+
+createdUtcSystem.DateTime"__id*
+
+%6System.DateTimeãà
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csñ) ñ(;
+%7object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SiteGuid2this[string].getÀ»
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csñ) ñ(F
+%8string"object.ToString()*
+
+%7object2
+ToString()Æ´
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csñ  ñ(G
+%9System.Guid"System.Guid⁄
+◊
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csñ$ ñ((
+%10void"System.Guid.Guid(string)*
+
+%9System.Guid*
+
+%8stringÌ
+Í
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csñ ñ(GB'
+%mojoPortal.Business.GoogleCheckoutLog"
+siteGuidSystem.Guid"__id*
+
+%9System.Guidåâ
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csó) ó(;
+%11object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UserGuid2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csó) ó(F
+%12string"object.ToString()*
+
+%11object2
+ToString()Ø¨
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csó  ó(G
+%13System.Guid"System.Guid‹
+Ÿ
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csó$ ó((
+%14void"System.Guid.Guid(string)*
+
+%13System.Guid*
+
+%12stringÓ
+Î
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csó ó(GB'
+%mojoPortal.Business.GoogleCheckoutLog"
+userGuidSystem.Guid"__id*
+
+%13System.Guidçä
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csò* ò(=
+%15object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	StoreGuid2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csò* ò(H
+%16string"object.ToString()*
+
+%15object2
+ToString()Ø¨
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csò! ò(I
+%17System.Guid"System.Guid‹
+Ÿ
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csò% ò()
+%18void"System.Guid.Guid(string)*
+
+%17System.Guid*
+
+%16stringÔ
+Ï
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csò ò(IC'
+%mojoPortal.Business.GoogleCheckoutLog"
+	storeGuidSystem.Guid"__id*
+
+%17System.Guidåâ
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csô) ô(;
+%19object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CartGuid2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csô) ô(F
+%20string"object.ToString()*
+
+%19object2
+ToString()Ø¨
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csô  ô(G
+%21System.Guid"System.Guid‹
+Ÿ
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csô$ ô((
+%22void"System.Guid.Guid(string)*
+
+%21System.Guid*
+
+%20stringÓ
+Î
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csô ô(GB'
+%mojoPortal.Business.GoogleCheckoutLog"
+cartGuidSystem.Guid"__id*
+
+%21System.Guidîë
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csö( ö(B
+%23object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+NotificationType2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csö( ö(M
+%24string"object.ToString()*
+
+%23object2
+ToString()Ï
+È
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csö ö(ME'
+%mojoPortal.Business.GoogleCheckoutLog"
+notificationTypestring"__id*
+
+%24stringèå
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csõ# õ(8
+%25object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+RawResponse2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csõ# õ(C
+%26string"object.ToString()*
+
+%25object2
+ToString()Á
+‰
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csõ õ(C@'
+%mojoPortal.Business.GoogleCheckoutLog"
+rawResponsestring"__id*
+
+%26stringêç
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csú$ ú(:
+%27object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+SerialNumber2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csú$ ú(E
+%28string"object.ToString()*
+
+%27object2
+ToString()Ë
+Â
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csú ú(EA'
+%mojoPortal.Business.GoogleCheckoutLog"
+serialNumberstring"__id*
+
+%28stringéã
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csù5 ù(I
+%29object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+GTimestamp2this[string].getÓ
+Î
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csù" ù(J
+%30System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%29object¯
+ı
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csù ù(JH'
+%mojoPortal.Business.GoogleCheckoutLog"
+
+gTimestampSystem.DateTime"__id*
+
+%30System.DateTimeèå
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csû# û(8
+%31object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+OrderNumber2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csû# û(C
+%32string"object.ToString()*
+
+%31object2
+ToString()Á
+‰
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csû û(C@'
+%mojoPortal.Business.GoogleCheckoutLog"
+orderNumberstring"__id*
+
+%32stringãà
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csü ü(0
+%33object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+BuyerId2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csü ü(;
+%34string"object.ToString()*
+
+%33object2
+ToString()„
+‡
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csü ü(;<'
+%mojoPortal.Business.GoogleCheckoutLog"
+buyerIdstring"__id*
+
+%34stringëé
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs†% †(<
+%35object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+FullfillState2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs†% †(G
+%36string"object.ToString()*
+
+%35object2
+ToString()È
+Ê
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs† †(GB'
+%mojoPortal.Business.GoogleCheckoutLog"
+fullfillStatestring"__id*
+
+%36stringêç
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs°$ °(:
+%37object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+FinanceState2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs°$ °(E
+%38string"object.ToString()*
+
+%37object2
+ToString()Ë
+Â
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs° °(EA'
+%mojoPortal.Business.GoogleCheckoutLog"
+financeStatestring"__id*
+
+%38stringíè
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs¢8 ¢(P
+%39object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+EmailListOptIn2this[string].get‚
+ﬂ
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs¢& ¢(Q
+%40bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%39objectÊ
+„
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs¢ ¢(QA'
+%mojoPortal.Business.GoogleCheckoutLog"
+emailListOptInbool"__id*
+
+%40boolèå
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs£# £(8
+%41object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+AvsResponse2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs£# £(C
+%42string"object.ToString()*
+
+%41object2
+ToString()Á
+‰
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs£ £(C@'
+%mojoPortal.Business.GoogleCheckoutLog"
+avsResponsestring"__id*
+
+%42stringèå
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs§# §(8
+%43object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+CvnResponse2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs§# §(C
+%44string"object.ToString()*
+
+%43object2
+ToString()Á
+‰
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs§ §(C@'
+%mojoPortal.Business.GoogleCheckoutLog"
+cvnResponsestring"__id*
+
+%44stringèå
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs•6 •(K
+%45object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+AuthExpDate2this[string].getÓ
+Î
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs•# •(L
+%46System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%45object˘
+ˆ
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs• •(LI'
+%mojoPortal.Business.GoogleCheckoutLog"
+authExpDateSystem.DateTime"__id*
+
+%46System.DateTimeãà
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs¶1 ¶(B
+%47object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+AuthAmt2this[string].getÂ
+‚
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs¶ ¶(C
+%48decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%47objectÂ
+‚
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs¶ ¶(C='
+%mojoPortal.Business.GoogleCheckoutLog"
+authAmtdecimal"__id*
+
+%48decimalëé
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csß7 ß(N
+%49object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+DiscountTotal2this[string].getÂ
+‚
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csß% ß(O
+%50decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%49objectÎ
+Ë
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csß ß(OC'
+%mojoPortal.Business.GoogleCheckoutLog"
+discountTotaldecimal"__id*
+
+%50decimalëé
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs®7 ®(N
+%51object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShippingTotal2this[string].getÂ
+‚
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs®% ®(O
+%52decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%51objectÎ
+Ë
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs® ®(OC'
+%mojoPortal.Business.GoogleCheckoutLog"
+shippingTotaldecimal"__id*
+
+%52decimalåâ
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs©2 ©(D
+%53object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+TaxTotal2this[string].getÂ
+‚
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs©  ©(E
+%54decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%53objectÊ
+„
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs© ©(E>'
+%mojoPortal.Business.GoogleCheckoutLog"
+taxTotaldecimal"__id*
+
+%54decimaléã
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs™4 ™(H
+%55object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+OrderTotal2this[string].getÂ
+‚
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs™" ™(I
+%56decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%55objectË
+Â
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs™ ™(I@'
+%mojoPortal.Business.GoogleCheckoutLog"
+
+orderTotaldecimal"__id*
+
+%56decimalêç
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs´6 ´(L
+%57object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+LatestChgAmt2this[string].getÂ
+‚
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs´$ ´(M
+%58decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%57objectÍ
+Á
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs´ ´(MB'
+%mojoPortal.Business.GoogleCheckoutLog"
+latestChgAmtdecimal"__id*
+
+%58decimalèå
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs¨5 ¨(J
+%59object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+TotalChgAmt2this[string].getÂ
+‚
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs¨# ¨(K
+%60decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%59objectÈ
+Ê
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs¨ ¨(KA'
+%mojoPortal.Business.GoogleCheckoutLog"
+totalChgAmtdecimal"__id*
+
+%60decimalìê
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs≠9 ≠(R
+%61object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+LatestRefundAmt2this[string].getÂ
+‚
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs≠' ≠(S
+%62decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%61objectÌ
+Í
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs≠ ≠(SE'
+%mojoPortal.Business.GoogleCheckoutLog"
+latestRefundAmtdecimal"__id*
+
+%62decimalíè
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csÆ8 Æ(P
+%63object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+TotalRefundAmt2this[string].getÂ
+‚
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csÆ& Æ(Q
+%64decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%63objectÏ
+È
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csÆ Æ(QD'
+%mojoPortal.Business.GoogleCheckoutLog"
+totalRefundAmtdecimal"__id*
+
+%64decimalîë
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csØ: Ø(T
+%65object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+LatestChargeback2this[string].getÂ
+‚
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csØ( Ø(U
+%66decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%65objectÓ
+Î
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.csØ Ø(UF'
+%mojoPortal.Business.GoogleCheckoutLog"
+latestChargebackdecimal"__id*
+
+%66decimalìê
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs∞9 ∞(R
+%67object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+TotalChargeback2this[string].getÂ
+‚
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs∞' ∞(S
+%68decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%67objectÌ
+Í
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs∞ ∞(SE'
+%mojoPortal.Business.GoogleCheckoutLog"
+totalChargebackdecimal"__id*
+
+%68decimalãà
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs± ±(0
+%69object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+CartXml2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs± ±(;
+%70string"object.ToString()*
+
+%69object2
+ToString()„
+‡
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs± ±(;<'
+%mojoPortal.Business.GoogleCheckoutLog"
+cartXmlstring"__id*
+
+%70stringêç
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs≤$ ≤(:
+%71object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ProviderName2this[string].getÕ 
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs≤$ ≤(E
+%72string"object.ToString()*
+
+%71object2
+ToString()Ë
+Â
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs≤ ≤(EA'
+%mojoPortal.Business.GoogleCheckoutLog"
+providerNamestring"__id*
+
+%72string*
+2*±
+2à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs∂	 ∂(	"†
+à
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\GoogleCheckoutLog.cs∂ ∂(	
+implicit return:!
+readerSystem.Data.IDataReaderB)'
+%mojoPortal.Business.GoogleCheckoutLog

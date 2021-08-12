@@ -1,0 +1,296 @@
+
+0mojoPortal.Web.mojoBasePage.ForceSingleSession()q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs• •(!"0*´
+
+0q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs® ®(:Ÿ÷
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs® ®(
+%0System.Web.HttpContext"System.Web.UI.Page.Context.get*
+System.Web.UI.Page2Context.get„
+‡
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs® ®(*
+%1$System.Security.Principal.IPrincipal"System.Web.HttpContext.User.get*
+
+%0System.Web.HttpContextêç
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs® ®()
+%2#System.Security.Principal.IIdentity"1System.Security.Principal.IPrincipal.Identity.get*,
+*
+%1$System.Security.Principal.IPrincipal2Identity.getÖÇ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs® ®(/
+%3string":System.Security.Principal.IIdentity.AuthenticationType.get*+
+)
+%2#System.Security.Principal.IIdentity2AuthenticationType.getÕ
+ 
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs® ®(:
+
+%4bool""string.operator !=(string, string)*
+"
+string*
+
+%3string*	
+Forms*
+1
+2*Û
+1q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csŒ Œ("{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs®< ®(C
+""*“
+2q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs™	 ™(‘
+—
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs™	 ™(
+%5System.Web.Caching.Cache" System.Web.HttpRuntime.Cache.get*"
+System.Web.HttpRuntime*
+3*è
+3q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs¨ Æ(&ÎË
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÆ Æ(.
+%6(System.Web.SessionState.HttpSessionState"System.Web.UI.Page.Session.get*
+System.Web.UI.Page2Session.get”
+–
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÆ Æ(
+%7object"
+__arrayGet*0
+.
+%6(System.Web.SessionState.HttpSessionState*
+requestGuid 
+«
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÆ Æ(&
+
+%8bool""object.operator ==(object, object)*
+"
+object*
+
+%7object*
+""*
+4
+5*÷
+4q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∞ ≤(EŸ÷
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∞ ∞(%
+%9System.Web.HttpContext"System.Web.UI.Page.Context.get*
+System.Web.UI.Page2Context.get‰
+·
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∞ ∞(*+
+%10$System.Security.Principal.IPrincipal"System.Web.HttpContext.User.get*
+
+%9System.Web.HttpContextíè
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∞ ∞(3*
+%11#System.Security.Principal.IIdentity"1System.Security.Principal.IPrincipal.Identity.get*-
++
+%10$System.Security.Principal.IPrincipal2Identity.getÎË
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∞ ∞(8
+%12string",System.Security.Principal.IIdentity.Name.get*,
+*
+%11#System.Security.Principal.IIdentity2Name.get≤
+Ø
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∞; ∞(I
+%13System.Guid"System.Guid.NewGuid()*"
+System.Guid≥
+∞
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∞; ∞(T
+%14string"System.Guid.ToString()*
+
+%13System.Guid±
+Æ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∞ ∞(T
+%15string"__concat*
+
+%12string*
+
+%14stringØ
+¨
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∞ ∞(T 
+requestUserSessionGUIDstring"__id*
+
+%15stringÏÈ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs± ±(/
+%16(System.Web.SessionState.HttpSessionState"System.Web.UI.Page.Session.get*
+System.Web.UI.Page2Session.getÒ
+Ó
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs± ±(4
+%17"
+__arraySet*1
+/
+%16(System.Web.SessionState.HttpSessionState*
+requestGuid*"
+ 
+requestUserSessionGUIDstring’
+“
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs≤ ≤(
+%18System.Web.Caching.Cache" System.Web.HttpRuntime.Cache.get*"
+System.Web.HttpRuntimeé
+ã
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs≤ ≤(F
+%19void"/System.Web.Caching.Cache.Insert(string, object)*!
+
+%18System.Web.Caching.Cache*
+UserSessionID*"
+ 
+requestUserSessionGUIDstring"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs¥ ¥(
+""*•
+5q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∏ π(;ÏÈ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∏& ∏(-/
+%20(System.Web.SessionState.HttpSessionState"System.Web.UI.Page.Session.get*
+System.Web.UI.Page2Session.get’
+“
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∏& ∏(<
+%21object"
+__arrayGet*1
+/
+%20(System.Web.SessionState.HttpSessionState*
+requestGuidî
+ë
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∏ ∏(<
+%22"__id*
+
+%21objectß
+§
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs∏ ∏(< 
+requestUserSessionGUIDstring"__id*
+
+%22’
+“
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csπ π("
+%23System.Web.Caching.Cache" System.Web.HttpRuntime.Cache.get*"
+System.Web.HttpRuntimeÊ
+„
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csπ π(3
+%24object")System.Web.Caching.Cache.this[string].get*!
+
+%23System.Web.Caching.Cache*
+UserSessionIDî
+ë
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csπ	 π(3
+%25"__id*
+
+%24objectƒ
+¡
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csπ	 π(;
+%26bool""string.operator ==(string, string)*
+"
+string*
+
+%25*
+""*
+6
+7*‰
+6q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csª ª(F’
+“
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csª ª(
+%27System.Web.Caching.Cache" System.Web.HttpRuntime.Cache.get*"
+System.Web.HttpRuntimeé
+ã
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csª ª(G
+%28void"/System.Web.Caching.Cache.Insert(string, object)*!
+
+%27System.Web.Caching.Cache*
+UserSessionID*"
+ 
+requestUserSessionGUIDstring*
+7*¯
+7q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csæ ¿(6’
+“
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csæ* æ(;
+%29System.Web.Caching.Cache" System.Web.HttpRuntime.Cache.get*"
+System.Web.HttpRuntimeÊ
+„
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csæ* æ(L
+%30object")System.Web.Caching.Cache.this[string].get*!
+
+%29System.Web.Caching.Cache*
+UserSessionIDî
+ë
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csæ" æ(L
+%31"__id*
+
+%30object§
+°
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csæ æ(L
+cachedUserSessionIDstring"__id*
+
+%31¯
+ı
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs¿	 ¿(6
+%32bool""string.operator ==(string, string)*
+"
+string*
+
+cachedUserSessionIDstring*"
+ 
+requestUserSessionGUIDstring*
+8
+9*Û
+8q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csŒ Œ("{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs√ √(
+""*µ
+9q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs» …(„
+‡
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs» »(#
+%33void"1System.Web.Security.FormsAuthentication.SignOut()*+")
+'System.Web.Security.FormsAuthenticationÏÈ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs… …(/
+%34(System.Web.SessionState.HttpSessionState"System.Web.UI.Page.Session.get*
+System.Web.UI.Page2Session.getÍ
+Á
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs… …(
+%35void"2System.Web.SessionState.HttpSessionState.Abandon()*1
+/
+%34(System.Web.SessionState.HttpSessionState"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs   (
+""*Ç
+10q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csŒ Œ("à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csŒ Œ(
+implicit returnB
+mojoPortal.Web.mojoBasePage

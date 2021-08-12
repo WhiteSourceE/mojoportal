@@ -1,0 +1,130 @@
+
+âmojoPortal.Net.Notification.SendRegistrationConfirmationLink(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string)o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csB B(;"0*ô
+0o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csL _(∞≠
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csL$ L(7
+%0System.Text.StringBuilder"System.Text.StringBuilderŒ
+À
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csL( L(5
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilder√
+¿
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csL L(7$
+messageSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilderÑ
+Å
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csM M(+
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*&
+$
+messageSystem.Text.StringBuilder*
+
+messageTemplatestringñ
+ì
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csN N(3
+%3System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*&
+$
+messageSystem.Text.StringBuilder*
+
+{SiteName}*
+
+siteNamestringô
+ñ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csO O(6
+%4System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*&
+$
+messageSystem.Text.StringBuilder*
+{AdminEmail}*
+
+	fromEmailstringò
+ï
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csP P(5
+%5System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*&
+$
+messageSystem.Text.StringBuilder*
+{UserEmail}*
+
+	userEmailstring¶
+£
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csR R(C
+%6System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*&
+$
+messageSystem.Text.StringBuilder*
+{ConfirmationLink}*
+
+confirmationLinkstringß
+§
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csX X(
+%7string"__id**
+string"
+Emptystringß
+§
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csZ Z(
+%8string"__id**
+string"
+Emptystringß
+§
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.cs[ [(
+%9string"__id**
+string"
+Emptystring—
+Œ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.cs] ]("
+%10string"$System.Text.StringBuilder.ToString()*&
+$
+messageSystem.Text.StringBuilderÅ
+˛
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csT _(
+%11bool"ÑmojoPortal.Net.Email.Send(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string, string, string, bool, string)*"
+mojoPortal.Net.Email*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+	fromEmailstring*
+
+	fromAliasstring*
+
+%7string*
+
+	userEmailstring*
+
+%8string*
+
+%9string*
+
+siteNamestring*
+
+%10string*
+""*
+
+Normal*
+1*˝
+1o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csb	 b(	"Ü
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Notification.csb b(	
+implicit return:+
+smtpSettingsmojoPortal.Net.SmtpSettings:
+messageTemplatestring:
+	fromEmailstring:
+	fromAliasstring:
+	userEmailstring:
+siteNamestring:
+confirmationLinkstringB"
+mojoPortal.Net.Notification

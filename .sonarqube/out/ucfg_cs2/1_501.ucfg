@@ -1,0 +1,69 @@
+
+2mojoPortal.Data.DBPayPalLog.GetByCart(System.Guid)w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csˇ" ˇ(+"0*Ì
+0w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csÅ É(&Ï
+È
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csÅ< Å(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÀ»
+x
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csÅ% Å(á(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperµ
+≤
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csÅ) Å(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*
+mp_PayPalLog_SelectByCart*2⁄
+◊
+x
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csÅ Å(á)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperê
+ç
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csÇ0 Ç(J
+%3"__id*
+""ê
+ç
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csÇL Ç(d
+%4"__id*
+""⁄
+◊
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csÇ Ç(o
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@CartGuid*
+
+%3*
+
+%4*
+""¸
+˘
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csÉ É(&
+%6System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper"ö
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csÉ É('
+
+%6System.Data.IDataReader*ç
+1w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csÖ	 Ö(	"é
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBPayPalLog.csÖ Ö(	
+implicit return:
+cartGuidSystem.GuidB"
+mojoPortal.Data.DBPayPalLog

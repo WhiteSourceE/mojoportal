@@ -1,0 +1,264 @@
+
+?mojoPortal.Web.Framework.XmlHelper.TransformXML(string, string)v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs$ $(#"0*À
+0v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs& &("≈
+¬
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs& &(#
+
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+xmlUrlstring*
+1
+2*∞
+1v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs&- &(Wµ≤
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs&- &(X
+%1System.ArgumentException"System.ArgumentExceptionı
+Ú
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs&1 &(B
+
+%2void"2System.ArgumentException.ArgumentException(string)* 
+
+%1System.ArgumentException*
+xmlUrl is required*
+3*À
+2v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs' '("≈
+¬
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs' '(#
+
+%3bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+xslUrlstring*
+4
+5*∞
+4v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs'- '(Wµ≤
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs'- '(X
+%4System.ArgumentException"System.ArgumentExceptionı
+Ú
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs'1 '(B
+
+%5void"2System.ArgumentException.ArgumentException(string)* 
+
+%4System.ArgumentException*
+xslUrl is required*
+3*—
+5v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs) )(1±Æ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs) )(1
+%6System.IO.StringWriter"System.IO.StringWriterŒ
+À
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs)# )(/
+
+%7void"%System.IO.StringWriter.StringWriter()*
+
+%6System.IO.StringWriter…
+∆
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs) )(1&
+stringWriterSystem.IO.StringWriter"__id*
+
+%6System.IO.StringWriter*
+6*Ü
+6v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs@ @(*	
+7
+8
+9*â
+7v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs, 3("µ≤
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs, ,(7
+%8System.Xml.XmlTextReader"System.Xml.XmlTextReaderÌ
+Í
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs," ,(/
+
+%9void".System.Xml.XmlTextReader.XmlTextReader(string)* 
+
+%8System.Xml.XmlTextReader*
+
+xmlUrlstring 
+«
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs, ,(7%
+	xmlReaderSystem.Xml.XmlTextReader"__id* 
+
+%8System.Xml.XmlTextReaderÃ…
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs-( -(B*
+%10#System.Xml.Xsl.XslCompiledTransform"#System.Xml.Xsl.XslCompiledTransformÚ
+Ô
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs-, -(@
+%11void":System.Xml.Xsl.XslCompiledTransform.XslCompiledTransform()*,
+*
+%10#System.Xml.Xsl.XslCompiledTransform‰
+·
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs- -(B3
+xslTransform#System.Xml.Xsl.XslCompiledTransform"__id*,
+*
+%10#System.Xml.Xsl.XslCompiledTransformÖ
+Ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs. .(
+%12void"0System.Xml.Xsl.XslCompiledTransform.Load(string)*5
+3
+xslTransform#System.Xml.Xsl.XslCompiledTransform*
+
+xslUrlstring¬ø
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs0" 0(>%
+%13System.Xml.XPath.XPathDocument"System.Xml.XPath.XPathDocumentû
+õ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs0& 0(3
+%14void"BSystem.Xml.XPath.XPathDocument.XPathDocument(System.Xml.XmlReader)*'
+%
+%13System.Xml.XPath.XPathDocument*'
+%
+	xmlReaderSystem.Xml.XmlTextReader€
+ÿ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs0 0(>/
+xPathDocumentSystem.Xml.XPath.XPathDocument"__id*'
+%
+%13System.Xml.XPath.XPathDocument≠
+™
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs2 2(=
+%15void"ÜSystem.Xml.Xsl.XslCompiledTransform.Transform(System.Xml.XPath.IXPathNavigable, System.Xml.Xsl.XsltArgumentList, System.IO.TextWriter)*5
+3
+xslTransform#System.Xml.Xsl.XslCompiledTransform*1
+/
+xPathDocumentSystem.Xml.XPath.XPathDocument*
+""*(
+&
+stringWriterSystem.IO.StringWriter„‡
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs3 3("
+%16string"!System.IO.StringWriter.ToString()*(
+&
+stringWriterSystem.IO.StringWriter2
+ToString()"â
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs3 3(#
+
+%16string*–	
+9v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs7 7(Y’
+“
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs7 7(
+%17log4net.ILog"__id*=*;$
+"mojoPortal.Web.Framework.XmlHelper"
+loglog4net.ILogœ
+Ã
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs7 7(9
+%18string"__concat*%#
+!swallowed exception for xml path *
+
+xmlUrlstringπ
+∂
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs7 7(L
+%19string"__concat*
+
+%18string*
+ and xsl path π
+∂
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs7 7(U
+%20string"__concat*
+
+%19string*
+
+xslUrlstring™ß
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs7 7(Z
+%21void"+log4net.ILog.Info(object, System.Exception)*
+
+%17log4net.ILog*
+
+%20string*+
+)
+ex#System.Xml.Xsl.XsltCompileException2Info(object, System.Exception)*
+10*Œ	
+8v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs; ;(Y’
+“
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs; ;(
+%22log4net.ILog"__id*=*;$
+"mojoPortal.Web.Framework.XmlHelper"
+loglog4net.ILogœ
+Ã
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs; ;(9
+%23string"__concat*%#
+!swallowed exception for xml path *
+
+xmlUrlstringπ
+∂
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs; ;(L
+%24string"__concat*
+
+%23string*
+ and xsl path π
+∂
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs; ;(U
+%25string"__concat*
+
+%24string*
+
+xslUrlstring®•
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs; ;(Z
+%26void"+log4net.ILog.Info(object, System.Exception)*
+
+%22log4net.ILog*
+
+%25string*)
+'
+ex!System.Security.SecurityException2Info(object, System.Exception)*
+10*∫
+10v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs>
+ >(Ø
+¨
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs>
+ >(
+%27string"__id**
+string"
+Emptystring"â
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs> >(
+
+%27string*ã
+3v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs@ @("ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\XmlHelper.cs@ @(
+implicit return:
+xmlUrlstring:
+xslUrlstringB&"$
+"mojoPortal.Web.Framework.XmlHelper

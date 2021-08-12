@@ -1,0 +1,576 @@
+
+ImojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider.LoadSettings()ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs8 8(!"0*≥
+0ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs: :(;ç
+ä
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs: :(;
+
+%0bool">mojoPortal.Web.WebConfigSettings.CommerceUseGlobalSettings.get*$""
+ mojoPortal.Web.WebConfigSettings*
+1
+2*˙
+1ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs< >(-ç
+ä
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs<, <(W
+
+%1bool">mojoPortal.Web.WebConfigSettings.CommerceGlobalUseTestMode.get*$""
+ mojoPortal.Web.WebConfigSettingsí
+è
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs< <(Wa<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"!
+paymentGatewayUseTestModebool"__id*
+
+
+%1boolØ
+¨
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs> >(-
+%2"__id*
+""*
+3
+4*û
+
+3ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs@ A(xü
+ú
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs@+ @(f
+%3string"NmojoPortal.Web.WebConfigSettings.CommerceGlobalAuthorizeNetSandboxAPILogin.get*$""
+ mojoPortal.Web.WebConfigSettingsë
+é
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs@ @(f^<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+authorizeNetAPILoginstring"__id*
+
+%3string®
+•
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csA4 A(x
+%4string"WmojoPortal.Web.WebConfigSettings.CommerceGlobalAuthorizeNetSandboxAPITransactionKey.get*$""
+ mojoPortal.Web.WebConfigSettingsö
+ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csA A(xg<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"'
+authorizeNetAPITransactionKeystring"__id*
+
+%4string*
+5*§
+
+4ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csE F({¢
+ü
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csE+ E(i
+%5string"QmojoPortal.Web.WebConfigSettings.CommerceGlobalAuthorizeNetProductionAPILogin.get*$""
+ mojoPortal.Web.WebConfigSettingsë
+é
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csE E(i^<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+authorizeNetAPILoginstring"__id*
+
+%5string´
+®
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csF4 F({
+%6string"ZmojoPortal.Web.WebConfigSettings.CommerceGlobalAuthorizeNetProductionAPITransactionKey.get*$""
+ mojoPortal.Web.WebConfigSettingsö
+ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csF F({g<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"'
+authorizeNetAPITransactionKeystring"__id*
+
+%6string*
+5*Ù
+2ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csL M((∏
+µ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csL, L(P&
+%7 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper˝
+˙
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csL L(P0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%7 mojoPortal.Business.SiteSettingsì
+ê
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csM M((
+
+%8bool""object.operator ==(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+6
+7*æ
+6ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csu	 u(	"†
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csM- M(4
+""*∏
+7ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csO U(-á
+Ñ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csO( O(;	
+%9int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsò
+ï
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csO( O(O
+%10string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+	
+%9intœ
+Ã
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csO O(O
+%11string"__concat*
+Site*
+
+%10stringÃ
+…
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csO O(U
+%12string"__concat*
+
+%11string*
+-ä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csO O(UV<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+configPrefixstring"__id*
+
+%12stringä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csR3 R(?
+%13string"__id*X*V<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csRB R(a
+%14"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csR3 R(a
+%15string"__concat*
+
+%13string*
+
+%14∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csS S(-
+%16"__id*
+""≤
+Ø
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csR S(.
+%17bool"CmojoPortal.Web.Framework.ConfigHelper.GetBoolProperty(string, bool)*)"'
+%mojoPortal.Web.Framework.ConfigHelper*
+
+%15string*
+
+%16ì
+ê
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csQ S(.a<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"!
+paymentGatewayUseTestModebool"__id*
+
+%17bool∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csU U(-
+%18"__id*
+""*
+8
+9*Ù
+8ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csW W(r¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csW W(89
+%192System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csW9 W(E
+%20string"__id*X*V<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csWH W(i
+%21"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csW9 W(i
+%22string"__concat*
+
+%20string*
+
+%21Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csW W(j
+%23string"
+__arrayGet*;
+9
+%192System.Collections.Specialized.NameValueCollection*
+
+%22stringÒ
+Ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csW W(r
+%24bool""string.operator !=(string, string)*
+"
+string*
+
+%23string*
+""*
+10
+11*ó
+10ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csY Y(Ä¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csY/ Y(O9
+%252System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csYP Y(\
+%26string"__id*X*V<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+configPrefixstring±
+Æ
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csY_ Y(Ä
+%27"__id*
+""œ
+Ã
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csYP Y(Ä
+%28string"__concat*
+
+%26string*
+
+%27Ö
+Ç
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csY/ Y(Å
+%29string"
+__arrayGet*;
+9
+%252System.Collections.Specialized.NameValueCollection*
+
+%28stringì
+ê
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csY Y(Å^<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+authorizeNetAPILoginstring"__id*
+
+%29string*
+11*Ù
+11ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs] ]({¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs] ](89
+%302System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs]9 ](E
+%31string"__id*X*V<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs]H ](r
+%32"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs]9 ](r
+%33string"__concat*
+
+%31string*
+
+%32Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs] ](s
+%34string"
+__arrayGet*;
+9
+%302System.Collections.Specialized.NameValueCollection*
+
+%33stringÒ
+Ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs] ]({
+%35bool""string.operator !=(string, string)*
+"
+string*
+
+%34string*
+""*
+12
+5*ü
+12ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs_ _(í¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs_8 _(X9
+%362System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs_Y _(e
+%37string"__id*X*V<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+configPrefixstring±
+Æ
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs_h _(í
+%38"__id*
+""œ
+Ã
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs_Y _(í
+%39string"__concat*
+
+%37string*
+
+%38Ö
+Ç
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs_8 _(ì
+%40string"
+__arrayGet*;
+9
+%362System.Collections.Specialized.NameValueCollection*
+
+%39stringú
+ô
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cs_ _(ìg<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"'
+authorizeNetAPITransactionKeystring"__id*
+
+%40string*
+5*Ù
+9ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cse e(u¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cse e(89
+%412System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cse9 e(E
+%42string"__id*X*V<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cseH e(l
+%43"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cse9 e(l
+%44string"__concat*
+
+%42string*
+
+%43Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cse e(m
+%45string"
+__arrayGet*;
+9
+%412System.Collections.Specialized.NameValueCollection*
+
+%44stringÒ
+Ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cse e(u
+%46bool""string.operator !=(string, string)*
+"
+string*
+
+%45string*
+""*
+13
+14*ó
+13ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csg g(É¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csg/ g(O9
+%472System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csgP g(\
+%48string"__id*X*V<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+configPrefixstring±
+Æ
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csg_ g(É
+%49"__id*
+""œ
+Ã
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csgP g(É
+%50string"__concat*
+
+%48string*
+
+%49Ö
+Ç
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csg/ g(Ñ
+%51string"
+__arrayGet*;
+9
+%472System.Collections.Specialized.NameValueCollection*
+
+%50stringì
+ê
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csg g(Ñ^<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+authorizeNetAPILoginstring"__id*
+
+%51string*
+14*Ù
+14ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csk k(~¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csk k(89
+%522System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csk9 k(E
+%53string"__id*X*V<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cskH k(u
+%54"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csk9 k(u
+%55string"__concat*
+
+%53string*
+
+%54Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csk k(v
+%56string"
+__arrayGet*;
+9
+%522System.Collections.Specialized.NameValueCollection*
+
+%55stringÒ
+Ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csk k(~
+%57bool""string.operator !=(string, string)*
+"
+string*
+
+%56string*
+""*
+15
+5*ü
+15ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csm m(ï¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csm8 m(X9
+%582System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csmY m(e
+%59string"__id*X*V<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+configPrefixstring±
+Æ
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csmh m(ï
+%60"__id*
+""œ
+Ã
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csmY m(ï
+%61string"__concat*
+
+%59string*
+
+%60Ö
+Ç
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csm8 m(ñ
+%62string"
+__arrayGet*;
+9
+%582System.Collections.Specialized.NameValueCollection*
+
+%61stringú
+ô
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csm m(ñg<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"'
+authorizeNetAPITransactionKeystring"__id*
+
+%62string*
+5*¶
+5ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cst t("Ç
+ˇ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.cst t("W<
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider"
+didLoadSettingsbool"__id*
+""*
+16*Ã
+16ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csu	 u(	"≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\AuthorizeNetPaymentGatewayProvider.csu u(	
+implicit returnB><
+:mojoPortal.Web.Commerce.AuthorizeNetPaymentGatewayProvider

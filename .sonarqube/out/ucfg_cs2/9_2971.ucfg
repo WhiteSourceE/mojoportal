@@ -1,0 +1,352 @@
+
+JmojoPortal.Web.mojoBasePage.UserCanOnlyEditModuleAsDraft(int, System.Guid)q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÏ Ï(*"0*û
+0q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÓ Ó(Ã
+…
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÓ Ó(
+%0System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageŒ
+À
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÓ Ó(
+
+%1bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%0System.Web.HttpRequest*
+1
+2*Û
+1q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÓ* Ó(/"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÓ# Ó(0
+""*Ò
+2q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs ($
+Ì
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs ($
+
+%2bool"@mojoPortal.Business.WebHelpers.WebUser.IsAdminOrContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+3
+4*Û
+3q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs/ (4"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs( (5
+""*Œ
+4q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÚ Ú(#Õ
+ 
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÚ Ú(#
+
+%3bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtils*
+5
+6*Û
+5q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÚ. Ú(3"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÚ' Ú(4
+""*Â
+6q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÙ Ù(/‰
+·
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÙ Ù(/
+
+%4bool":mojoPortal.Web.WebConfigSettings.EnableContentWorkflow.get*$""
+ mojoPortal.Web.WebConfigSettings*
+7
+8*Û
+7q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÙ: Ù(?"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÙ3 Ù(@
+""*‚
+8q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csı ı(˘
+ˆ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csı ı(&
+%5 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings‰
+·
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csı ı(
+
+%6bool""object.operator ==(object, object)*
+"
+object*(
+&
+%5 mojoPortal.Business.SiteSettings*
+""*
+9
+10*Û
+9q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csı& ı(+"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csı ı(,
+""*Ë
+10q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csˆ ˆ(*˘
+ˆ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csˆ ˆ(&
+%7 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsË
+Â
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csˆ ˆ(*
+
+%8bool":mojoPortal.Business.SiteSettings.EnableContentWorkflow.get*(
+&
+%7 mojoPortal.Business.SiteSettings*
+11
+12*Ù
+11q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csˆ5 ˆ(:"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csˆ. ˆ(;
+""*ÿ
+12q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs¯ ¯(Ï
+È
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs¯ ¯(&
+%9 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageÂ
+‚
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs¯ ¯(
+%10bool""object.operator ==(object, object)*
+"
+object*(
+&
+%9 mojoPortal.Business.PageSettings*
+""*
+13
+14*Ù
+13q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs¯% ¯(*"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs¯ ¯(+
+""*•
+14q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs˙ ¸(+ü
+ú
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs˙ ˙(!
+moduleFoundOnPagebool"__id*
+""ú
+ô
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs˚ ˚(
+moduleIsGlobalbool"__id*
+""Ì
+Í
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs¸ ¸(#'
+%11 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageÙ
+Ò
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cs¸ ¸(+#
+%12System.Collections.ArrayList",mojoPortal.Business.PageSettings.Modules.get*)
+'
+%11 mojoPortal.Business.PageSettings*
+15*Å
+15q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csò ò(*
+16
+17*“
+16q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csˇ ˇ(Œ
+À
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csˇ ˇ(
+
+%13int"'mojoPortal.Business.Module.ModuleId.get*!
+
+mmojoPortal.Business.Module*
+18
+15*è
+18q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÄ
+ Ä(#ã
+à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÄ Ä(#
+%14"__id*
+""*
+19
+20*›
+20q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÄ) Ä(EŸ
+÷
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÄ) Ä(6
+%15System.Guid"*mojoPortal.Business.Module.FeatureGuid.get*!
+
+mmojoPortal.Business.Module*
+19
+15*ó
+19q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÉ Ñ( ü
+ú
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÉ É(
+moduleFoundOnPagebool"__id*
+""œ
+Ã
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÑ Ñ( 
+%16bool"'mojoPortal.Business.Module.IsGlobal.get*!
+
+mmojoPortal.Business.Module£
+†
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csÑ Ñ( 
+moduleIsGlobalbool"__id*
+
+%16bool*
+15*Å
+17q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csà à(*
+21
+22*Å
+22q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csà  à(.*
+21
+23*Ù
+21q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csà: à(?"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csà3 à(@
+""*⁄
+23q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csä ä(7Ì
+Í
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csä ä($'
+%17 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageÈ
+Ê
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csä ä(7
+%18string"7mojoPortal.Business.PageSettings.DraftEditOnlyRoles.get*)
+'
+%17 mojoPortal.Business.PageSettings˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csä ä(8
+%19bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%18string*
+24
+25*Ù
+24q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csäC ä(G"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csä< ä(H
+""*¨
+25q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cså ç(Ë
+Â
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cså å(8#
+%20mojoPortal.Business.SiteUser"-mojoPortal.Web.SiteUtils.GetCurrentSiteUser()*"
+mojoPortal.Web.SiteUtils–
+Õ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.cså å(8+
+currentUsermojoPortal.Business.SiteUser"__id*%
+#
+%20mojoPortal.Business.SiteUserÍ
+Á
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csç ç(
+%21bool""object.operator ==(object, object)*
+"
+object*-
++
+currentUsermojoPortal.Business.SiteUser*
+""*
+26
+27*Ù
+26q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csç# ç(("{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csç ç()
+""*‰
+27q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csè è(+Ì
+Í
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csè è(#'
+%22 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageÙ
+Ò
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csè è(+#
+%23System.Collections.ArrayList",mojoPortal.Business.PageSettings.Modules.get*)
+'
+%22 mojoPortal.Business.PageSettings*
+28*Å
+28q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csò ò(*
+29
+30*“
+29q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csë ë(Œ
+À
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csë ë(
+
+%24int"'mojoPortal.Business.Module.ModuleId.get*!
+
+mmojoPortal.Business.Module*
+31
+28*ÿ
+31q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csì	 ì(+◊
+‘
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csì ì(+
+%25string"-mojoPortal.Business.Module.DraftEditRoles.get*!
+
+mmojoPortal.Business.Module˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csì	 ì(,
+%26bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%25string*
+32
+28*Ù
+32q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csì7 ì(;"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csì0 ì(<
+""*Ù
+30q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csó
+ ó("{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csó ó(
+""*Ç
+33q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csò ò("à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoBasePage.csò ò(
+implicit return:
+moduleIdint:
+featureGuidSystem.GuidB
+mojoPortal.Web.mojoBasePage

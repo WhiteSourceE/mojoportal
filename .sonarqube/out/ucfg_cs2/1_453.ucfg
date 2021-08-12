@@ -1,0 +1,125 @@
+
+PmojoPortal.Data.DBModuleDefinition.UpdateSiteModulePermissions(int, int, string)|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csk k(6"0*û
+0|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csm r(%ò
+ï
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csm< m(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÐÍ
+}
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csm% m(Ž(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÀ
+½
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csm) m(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*#!
+mp_SiteModuleDefinitions_Update*2ß
+Ü
+}
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csm m(Ž)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper•
+’
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csn. n(;
+%3"__id*
+""•
+’
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csn= n(U
+%4"__id*
+""Ý
+Ú
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csn n(^
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@SiteID*
+
+%3*
+
+%4*
+""•
+’
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cso3 o(@
+%6"__id*
+""•
+’
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csoB o(Z
+%7"__id*
+""â
+ß
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cso o(h
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ModuleDefID*
+
+%6*
+
+%7*
+""•
+’
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csp7 p(I
+%9"__id*
+""–
+“
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cspO p(g
+%10"__id*
+""‹
+ˆ
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csp p(y
+%11void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@AuthorizedRoles*
+
+%9*
+""*
+
+%10*
+
+authorizedRolesstringð
+í
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csq q(4
+
+%12int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperª
+§
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csq q(4
+rowsAffectedint"__id*
+
+
+%12int"†
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csr r('
+""*—
+1|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cst	 t(	"“
+|
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cst t(	
+implicit return:
+siteIdint:
+moduleDefIdint:
+authorizedRolesstringB&"$
+"mojoPortal.Data.DBModuleDefinition

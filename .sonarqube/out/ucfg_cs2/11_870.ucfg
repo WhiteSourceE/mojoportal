@@ -1,0 +1,312 @@
+
+1SurveyFeature.Business.Survey.GetAll(System.Guid)Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs∏ ∏(#"0*ê
+
+0Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs∫ º(7‘—
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs∫ ∫(/(
+%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>È
+Ê
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs∫! ∫(-
+
+%1void")System.Collections.Generic.List<T>.List()**
+(
+%0"System.Collections.Generic.List<T>Í
+Á
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs∫ ∫(/0
+
+surveyList"System.Collections.Generic.List<T>"__id**
+(
+%0"System.Collections.Generic.List<T>ˇ
+¸
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.csº º(8
+%2System.Data.IDataReader"/SurveyFeature.Data.DBSurvey.GetAll(System.Guid)*"
+SurveyFeature.Data.DBSurvey*
+""–
+Õ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.csº º(8!
+readerSystem.Data.IDataReader"__id*
+
+%2System.Data.IDataReader*
+1*
+1Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.csæ æ(ﬂ‹
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.csæ æ(
+
+%3bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*‚A
+2Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs¿ Õ( «
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs¿ À(#
+%4SurveyFeature.Business.Survey"SurveyFeature.Business.Survey·
+ﬁ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs¿ ¿(
+
+%5void"&SurveyFeature.Business.Survey.Survey()*%
+#
+%4SurveyFeature.Business.SurveyÖÇ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs¬ ¬(0
+%6object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SurveyGuid2this[string].get√¿
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs¬ ¬(;
+%7string"object.ToString()*
+
+%6object2
+ToString()¶£
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs¬ ¬(<
+%8System.Guid"System.Guid—
+Œ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs¬ ¬(
+
+%9void"System.Guid.Guid(string)*
+
+%8System.Guid*
+
+%7stringÑ
+Å
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs¬ ¬(<
+%10System.Guid",SurveyFeature.Business.Survey.SurveyGuid.set*%
+#
+%4SurveyFeature.Business.Survey*
+
+%8System.GuidÑÅ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs√ √(,
+%11object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SiteGuid2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs√ √(7
+%12string"object.ToString()*
+
+%11object2
+ToString()ß§
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs√ √(8
+%13System.Guid"System.Guid‘
+—
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs√ √(
+%14void"System.Guid.Guid(string)*
+
+%13System.Guid*
+
+%12stringÉ
+Ä
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs√ √(8
+%15System.Guid"*SurveyFeature.Business.Survey.SiteGuid.set*%
+#
+%4SurveyFeature.Business.Survey*
+
+%13System.GuidÜÉ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.csƒ ƒ('
+%16object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SurveyName2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.csƒ ƒ(2
+%17string"object.ToString()*
+
+%16object2
+ToString()˚
+¯
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.csƒ ƒ(2
+%18string",SurveyFeature.Business.Survey.SurveyName.set*%
+#
+%4SurveyFeature.Business.Survey*
+
+%17stringàÖ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs≈( ≈(>
+%19object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+CreationDate2this[string].getÊ
+„
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs≈ ≈(?
+%20System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%19objectè
+å
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs≈ ≈(?
+%21System.DateTime".SurveyFeature.Business.Survey.CreationDate.set*%
+#
+%4SurveyFeature.Business.Survey*
+
+%20System.DateTimeâÜ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs∆ ∆(-
+%22object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+StartPageText2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs∆ ∆(8
+%23string"object.ToString()*
+
+%22object2
+ToString()˛
+˚
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs∆ ∆(8
+%24string"/SurveyFeature.Business.Survey.StartPageText.set*%
+#
+%4SurveyFeature.Business.Survey*
+
+%23stringáÑ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs« «()
+%25object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+EndPageText2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs« «(4
+%26string"object.ToString()*
+
+%25object2
+ToString()¸
+˘
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs« «(4
+%27string"-SurveyFeature.Business.Survey.EndPageText.set*%
+#
+%4SurveyFeature.Business.Survey*
+
+%26stringãà
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs»( »(A
+%28object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+SubmissionLimit2this[string].get◊
+‘
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs» »(B
+
+%29int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%28object˙
+˜
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs» »(B
+
+%30int"1SurveyFeature.Business.Survey.SubmissionLimit.set*%
+#
+%4SurveyFeature.Business.Survey*
+
+
+%29intÖÇ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs…" …(5
+%31object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	PageCount2this[string].get◊
+‘
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs… …(6
+
+%32int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%31objectÙ
+Ò
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs… …(6
+
+%33int"+SurveyFeature.Business.Survey.PageCount.set*%
+#
+%4SurveyFeature.Business.Survey*
+
+
+%32intâÜ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs &  (=
+%34object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ResponseCount2this[string].get◊
+‘
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs   (>
+
+%35int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%34object¯
+ı
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs   (>
+
+%36int"/SurveyFeature.Business.Survey.ResponseCount.set*%
+#
+%4SurveyFeature.Business.Survey*
+
+
+%35int‹
+Ÿ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs¿ À('
+surveySurveyFeature.Business.Survey"__id*%
+#
+%4SurveyFeature.Business.SurveyÇ
+ˇ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.csÕ Õ(
+%37void"
+__arrayAdd*2
+0
+
+surveyList"System.Collections.Generic.List<T>*: *)
+'
+surveySurveyFeature.Business.Survey*
+1*ã
+3Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs“ “(*
+4*¿
+4Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs—
+ —("∑
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs— —(2
+0
+
+surveyList"System.Collections.Generic.List<T>*°
+5Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs“ “("ò
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Survey\Survey.cs“ “(
+implicit return:
+siteGuidSystem.GuidB!"
+SurveyFeature.Business.Survey

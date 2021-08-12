@@ -1,0 +1,82 @@
+
++mojoPortal.Data.DBBannedIP.IsBanned(string)t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs~ ~(#"0*Æ
+0v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs€ ƒ(!ë
+è
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs€< €(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÊÇ
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs€% €(‰(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper¶
+³
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs€) €(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*
+mp_BannedIPAddresses_Exists*2Ù
+Ö
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs€ €(‰)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper
+Œ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs0 (B
+%3"__id*
+""
+Œ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.csH (`
+%4"__id*
+""ô
+ñ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs (l
+
+%5void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@BannedIP*
+
+%3*22*
+
+%4*
+
+	ipAddressstringê
+ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs‚, ‚(?
+%6object"2mojoPortal.Data.SqlParameterHelper.ExecuteScalar()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperÊ
+Ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs‚ ‚(@	
+%7int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%6object 
+
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs‚ ‚(@
+	foundRowsint"__id*
+	
+%7int"€
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.csƒ ƒ(#
+""*‹
+1v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs…	 …(	"
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbBannedIP.cs… …(	
+implicit return:
+	ipAddressstringB"
+mojoPortal.Data.DBBannedIP

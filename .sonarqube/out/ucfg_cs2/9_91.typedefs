@@ -1,0 +1,27 @@
+™
+!mojoPortal.Web.UI.Pages.SetupHomeSystem.Web.UI.PageSystem.Web.UI.TemplateControlSystem.Web.UI.Controlobjectl
+#Page_Load(object, System.EventArgs)EmojoPortal.Web.UI.Pages.SetupHome.Page_Load(object, System.EventArgs):
+
+RunSetup(),mojoPortal.Web.UI.Pages.SetupHome.RunSetup()\
+CreateInitialSchema(string)=mojoPortal.Web.UI.Pages.SetupHome.CreateInitialSchema(string)œ
+;RunSetupScript(System.Guid, string, string, System.Version)]mojoPortal.Web.UI.Pages.SetupHome.RunSetupScript(System.Guid, string, string, System.Version)l
+#GetOverrideConnectionString(string)EmojoPortal.Web.UI.Pages.SetupHome.GetOverrideConnectionString(string)P
+UpgradeSchema(string)7mojoPortal.Web.UI.Pages.SetupHome.UpgradeSchema(string)¢
+>RunUpgradeScripts(System.Guid, string, string, System.Version)`mojoPortal.Web.UI.Pages.SetupHome.RunUpgradeScripts(System.Guid, string, string, System.Version)V
+CreateSiteAndAdminUser():mojoPortal.Web.UI.Pages.SetupHome.CreateSiteAndAdminUser()P
+SetupFeatures(string)7mojoPortal.Web.UI.Pages.SetupHome.SetupFeatures(string)|
++SetupFeature(mojoPortal.Web.ContentFeature)MmojoPortal.Web.UI.Pages.SetupHome.SetupFeature(mojoPortal.Web.ContentFeature)J
+ShowSetupSuccess()4mojoPortal.Web.UI.Pages.SetupHome.ShowSetupSuccess()V
+WritePageContent(string):mojoPortal.Web.UI.Pages.SetupHome.WritePageContent(string)b
+WritePageContent(string, bool)@mojoPortal.Web.UI.Pages.SetupHome.WritePageContent(string, bool)H
+WritePageHeader()3mojoPortal.Web.UI.Pages.SetupHome.WritePageHeader()H
+WritePageFooter()3mojoPortal.Web.UI.Pages.SetupHome.WritePageFooter()@
+ProbeSystem()/mojoPortal.Web.UI.Pages.SetupHome.ProbeSystem()L
+CoreSystemIsReady()5mojoPortal.Web.UI.Pages.SetupHome.CoreSystemIsReady()B
+LockForSetup()0mojoPortal.Web.UI.Pages.SetupHome.LockForSetup()F
+ClearSetupLock()2mojoPortal.Web.UI.Pages.SetupHome.ClearSetupLock()R
+GetPathToIndexFolder()8mojoPortal.Web.UI.Pages.SetupHome.GetPathToIndexFolder()R
+GetFolderDetailsHtml()8mojoPortal.Web.UI.Pages.SetupHome.GetFolderDetailsHtml()x
+)SetupHome_Error(object, System.EventArgs)KmojoPortal.Web.UI.Pages.SetupHome.SetupHome_Error(object, System.EventArgs)V
+OnInit(System.EventArgs):mojoPortal.Web.UI.Pages.SetupHome.OnInit(System.EventArgs)<
+SetupHome()-mojoPortal.Web.UI.Pages.SetupHome.SetupHome()

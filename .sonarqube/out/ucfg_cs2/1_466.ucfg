@@ -1,0 +1,94 @@
+
+WmojoPortal.Data.DBLetterSubscription.GetSubscribersNotSentYet(System.Guid, System.Guid)Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csê" ê(:"0*à
+0Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csî ò(&ˆ
+Û
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csî< î(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionString’“
+Å
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csî% î(ï(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÕ
+ 
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csî) î(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*+)
+'mp_LetterSubscribe_SelectUnsentByLetter*2‰
+·
+Å
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csî î(ï)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperö
+ó
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csï2 ï(L
+%3"__id*
+""ö
+ó
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csïN ï(f
+%4"__id*
+""Ê
+„
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csï ï(s
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@LetterGuid*
+
+%3*
+
+%4*
+""ö
+ó
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csñ6 ñ(P
+%6"__id*
+""ö
+ó
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csñR ñ(j
+%7"__id*
+""Í
+Á
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csñ ñ({
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@LetterInfoGuid*
+
+%6*
+
+%7*
+""Ü
+É
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csò ò(&
+%9System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper"§
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csò ò('
+
+%9System.Data.IDataReader*°
+1Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csô	 ô(	"ò
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBLetterSubscription.csô ô(	
+implicit return:
+
+letterGuidSystem.Guid:
+letterInfoGuidSystem.GuidB("&
+$mojoPortal.Data.DBLetterSubscription

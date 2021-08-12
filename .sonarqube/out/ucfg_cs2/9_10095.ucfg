@@ -1,0 +1,602 @@
+
+>mojoPortal.Web.UI.CommentEditor.SendCommentNotificationEmail()é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csÅ Å(1"0*≤
+0é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csÉ ã(,Å
+˛
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csÉ( É(C!
+%0mojoPortal.Net.SmtpSettings"*mojoPortal.Web.SiteUtils.GetSmtpSettings()*"
+mojoPortal.Web.SiteUtilsÏ
+È
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csÉ É(C+
+smtpSettingsmojoPortal.Net.SmtpSettings"__id*#
+!
+%0mojoPortal.Net.SmtpSettingsä
+á
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csÖG Ö(f&
+%1 System.Globalization.CultureInfo".mojoPortal.Web.SiteUtils.GetDefaultUICulture()*"
+mojoPortal.Web.SiteUtilsÙ
+Ò
+è
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csÖh Ö(Ä
+%2string"__id*I*G!
+mojoPortal.Web.UI.CommentEditor""
+notificationTemplateNamestring
+Ì
+è
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csÖ% Ö(Å
+%3string"dmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(System.Globalization.CultureInfo, string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*(
+&
+%1 System.Globalization.CultureInfo*
+
+%2string∆
+√
+è
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csÖ Ö(Å
+messageTemplatestring"__id*
+
+%3string–Õ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csá$ á(7
+%4System.Text.StringBuilder"System.Text.StringBuilderÓ
+Î
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csá( á(5
+
+%5void")System.Text.StringBuilder.StringBuilder()*!
+
+%4System.Text.StringBuilder„
+‡
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csá á(7$
+messageSystem.Text.StringBuilder"__id*!
+
+%4System.Text.StringBuilder§
+°
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csà à(+
+%6System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*&
+$
+messageSystem.Text.StringBuilder*
+
+messageTemplatestringõ
+ò
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csâ* â(6&
+%7 mojoPortal.Business.SiteSettings"__id*W*U!
+mojoPortal.Web.UI.CommentEditor"0
+siteSettings mojoPortal.Business.SiteSettings˚
+¯
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csâ* â(?
+%8string"-mojoPortal.Business.SiteSettings.SiteName.get*(
+&
+%7 mojoPortal.Business.SiteSettings∞
+≠
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csâ â(@
+%9System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*&
+$
+messageSystem.Text.StringBuilder*
+
+{SiteName}*
+
+%8stringÊ
+„
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csã ã(
+%10string"__id*;*9!
+mojoPortal.Web.UI.CommentEditor"
+
+commentUrlstring◊
+‘
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csã ã(-
+%11bool"string.StartsWith(string)*
+
+%10string*
+http*
+1
+2*«
+1é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csç ç((Ê
+„
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csç ç((
+%12string"__id*;*9!
+mojoPortal.Web.UI.CommentEditor"
+
+commentUrlstring¬
+ø
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csç ç((
+commentLinkstring"__id*
+
+%12string*
+3*Ã
+2é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csë ë(Mˆ
+Û
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csë ë(&
+%13string",mojoPortal.Web.UI.CommentEditor.SiteRoot.get*#!
+mojoPortal.Web.UI.CommentEditorÊ
+„
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csë) ë(3
+%14string"__id*;*9!
+mojoPortal.Web.UI.CommentEditor"
+
+commentUrlstring»
+≈
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csëA ë(M
+%15string"__id**
+string"
+EmptystringÏ
+È
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csë) ë(N
+%16string"string.Replace(string, string)*
+
+%14string*
+~*
+
+%15stringœ
+Ã
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csë ë(N
+%17string"__concat*
+
+%13string*
+
+%16string¬
+ø
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csë ë(N
+commentLinkstring"__id*
+
+%17string*
+3*à
+3é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csì ï('Ω
+∫
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csì ì(9 
+%18System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*&
+$
+messageSystem.Text.StringBuilder*
+{MessageLink}*
+
+commentLinkstring©
+¶
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csï ï('
+%19"__id*
+""*
+4
+5*ï
+4é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csó ó(fü
+ú
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csóX ó(a*
+%20#mojoPortal.Web.Editor.EditorControl"__id*W*U!
+mojoPortal.Web.UI.CommentEditor"0
+	edComment#mojoPortal.Web.Editor.EditorControlˇ
+¸
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csóX ó(f
+%21string",mojoPortal.Web.Editor.EditorControl.Text.get*,
+*
+%20#mojoPortal.Web.Editor.EditorControlü
+ú
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csó< ó(g
+%22string"<mojoPortal.Web.Framework.SecurityHelper.RemoveMarkup(string)*+")
+'mojoPortal.Web.Framework.SecurityHelper*
+
+%21string˚
+¯
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csó% ó(h
+%23string")System.Web.HttpUtility.HtmlDecode(string)*"
+System.Web.HttpUtility*
+
+%22stringµ
+≤
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csó ó(i 
+%24System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*&
+$
+messageSystem.Text.StringBuilder*
+{CommentBody}*
+
+%23string*
+6*ú
+5é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csõ õ(1»
+≈
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csõ% õ(1
+%25string"__id**
+string"
+Emptystringµ
+≤
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csõ õ(2 
+%26System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*&
+$
+messageSystem.Text.StringBuilder*
+{CommentBody}*
+
+%25string*
+6*»
+6é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csû û(.©
+¶
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csû û(.
+%27"__id*
+""*
+7
+8*äL
+7é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs† •(eÙÒ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs†9 †(=
+%28System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get
+Ì
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs†9 †(E
+%29System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+
+%28System.Web.UI.Pageú
+ô
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs†9 †(U9
+%302System.Collections.Specialized.NameValueCollection"*System.Web.HttpRequest.ServerVariables.get*
+
+%29System.Web.HttpRequestÅ
+˛
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs†9 †(h
+%31string"
+__arrayGet*;
+9
+%302System.Collections.Specialized.NameValueCollection*
+HTTP_USER_AGENT◊
+‘
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs† †(h
+%32string"__concat*
+
+
+HTTP_USER_AGENT: *
+
+%31string≈
+¬
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs† †(o
+%33string"__concat*
+
+%32string*
+
+ô
+ñ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs† †(p 
+%34System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*&
+$
+messageSystem.Text.StringBuilder*
+
+%33stringÙÒ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs°/ °(3
+%35System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get
+Ì
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs°/ °(;
+%36System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+
+%35System.Web.UI.Pageú
+ô
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs°/ °(K9
+%372System.Collections.Specialized.NameValueCollection"*System.Web.HttpRequest.ServerVariables.get*
+
+%36System.Web.HttpRequest˚
+¯
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs°/ °(X
+%38string"
+__arrayGet*;
+9
+%372System.Collections.Specialized.NameValueCollection*
+	HTTP_HOSTœ
+Ã
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs° °(X
+%39string"__concat*
+HTTP_HOST: *
+
+%38string≈
+¬
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs° °(_
+%40string"__concat*
+
+%39string*
+
+ô
+ñ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs° °(` 
+%41System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*&
+$
+messageSystem.Text.StringBuilder*
+
+%40stringÙÒ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs¢1 ¢(5
+%42System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get
+Ì
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs¢1 ¢(=
+%43System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+
+%42System.Web.UI.Pageú
+ô
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs¢1 ¢(M9
+%442System.Collections.Specialized.NameValueCollection"*System.Web.HttpRequest.ServerVariables.get*
+
+%43System.Web.HttpRequest˝
+˙
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs¢1 ¢(\
+%45string"
+__arrayGet*;
+9
+%442System.Collections.Specialized.NameValueCollection*
+REMOTE_HOST—
+Œ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs¢ ¢(\
+%46string"__concat*
+REMOTE_HOST: *
+
+%45string≈
+¬
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs¢ ¢(c
+%47string"__concat*
+
+%46string*
+
+ô
+ñ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs¢ ¢(d 
+%48System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*&
+$
+messageSystem.Text.StringBuilder*
+
+%47stringÎ
+Ë
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs£1 £(J
+%49string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtils—
+Œ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs£ £(J
+%50string"__concat*
+REMOTE_ADDR: *
+
+%49string≈
+¬
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs£ £(Q
+%51string"__concat*
+
+%50string*
+
+ô
+ñ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs£ £(R 
+%52System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*&
+$
+messageSystem.Text.StringBuilder*
+
+%51stringÙÒ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs§0 §(4
+%53System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get
+Ì
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs§0 §(<
+%54System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+
+%53System.Web.UI.Pageú
+ô
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs§0 §(L9
+%552System.Collections.Specialized.NameValueCollection"*System.Web.HttpRequest.ServerVariables.get*
+
+%54System.Web.HttpRequest¸
+˘
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs§0 §(Z
+%56string"
+__arrayGet*;
+9
+%552System.Collections.Specialized.NameValueCollection*
+
+LOCAL_ADDR–
+Õ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs§ §(Z
+%57string"__concat*
+LOCAL_ADDR: *
+
+%56string≈
+¬
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs§ §(a
+%58string"__concat*
+
+%57string*
+
+ô
+ñ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs§ §(b 
+%59System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*&
+$
+messageSystem.Text.StringBuilder*
+
+%58stringÙÒ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs•2 •(6
+%60System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get
+Ì
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs•2 •(>
+%61System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+
+%60System.Web.UI.Pageú
+ô
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs•2 •(N9
+%622System.Collections.Specialized.NameValueCollection"*System.Web.HttpRequest.ServerVariables.get*
+
+%61System.Web.HttpRequest˛
+˚
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs•2 •(^
+%63string"
+__arrayGet*;
+9
+%622System.Collections.Specialized.NameValueCollection*
+HTTP_REFERER“
+œ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs• •(^
+%64string"__concat*
+HTTP_REFERER: *
+
+%63string≈
+¬
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs• •(e
+%65string"__concat*
+
+%64string*
+
+ô
+ñ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs• •(f 
+%66System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*&
+$
+messageSystem.Text.StringBuilder*
+
+%65string*
+8*≈
+8é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs®, ®(A©
+¶
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs®, ®(A)
+%67"System.Collections.Generic.List<T>"__id*b*`!
+mojoPortal.Web.UI.CommentEditor";
+notificationAddresses"System.Collections.Generic.List<T>*
+9*û
+9é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs∏	 ∏(	*
+10
+11*‹
+10é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs™ ≥(ú
+ô
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs¨ ¨( '
+%68 mojoPortal.Business.SiteSettings"__id*W*U!
+mojoPortal.Web.UI.CommentEditor"0
+siteSettings mojoPortal.Business.SiteSettingså
+â
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs¨ ¨(8
+%69string"<mojoPortal.Business.SiteSettings.DefaultEmailFromAddress.get*)
+'
+%68 mojoPortal.Business.SiteSettings»
+≈
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csÆ Æ( 
+%70string"__id**
+string"
+Emptystring»
+≈
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.csØ Ø( 
+%71string"__id**
+string"
+Emptystringú
+ô
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs∞ ∞( '
+%72 mojoPortal.Business.SiteSettings"__id*W*U!
+mojoPortal.Web.UI.CommentEditor"0
+siteSettings mojoPortal.Business.SiteSettings˝
+˙
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs∞ ∞()
+%73string"-mojoPortal.Business.SiteSettings.SiteName.get*)
+'
+%72 mojoPortal.Business.SiteSettingsÒ
+Ó
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs± ±(&
+%74string"$System.Text.StringBuilder.ToString()*&
+$
+messageSystem.Text.StringBuilderË
+Â
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs™ ≥(
+%75void"ymojoPortal.Net.Email.SendEmail(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string, bool, string)*"
+mojoPortal.Net.Email*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+%69string*
+
+emailAddressstring*
+
+%70string*
+
+%71string*
+
+%73string*
+
+%74string*
+""*
+
+Normal*
+9*æ
+11é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs∏	 ∏(	"¶
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\Controls\CommentEditor.ascx.cs∏ ∏(	
+implicit returnB#!
+mojoPortal.Web.UI.CommentEditor

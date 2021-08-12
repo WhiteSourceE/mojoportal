@@ -1,0 +1,822 @@
+
+[mojoPortal.Business.WebHelpers.CacheHelper.LoadPageModule(mojoPortal.Business.PageSettings)p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs™ ™($"0*”
+0p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csœ œ(Há
+Þ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csœ5 œ(H	
+%0int"+mojoPortal.Business.PageSettings.PageId.get*2
+0
+pageSettings mojoPortal.Business.PageSettingsñ
+î
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csœ œ(I
+%1System.Data.IDataReader".mojoPortal.Business.Module.GetPageModules(int)*"
+mojoPortal.Business.Module*
+	
+%0int¿
+¼
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csœ œ(I!
+readerSystem.Data.IDataReader"__id*
+
+%1System.Data.IDataReader*
+1*Î
+1p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csž ž(ÎË
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csž ž(
+
+%2bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*˜+
+2p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs  ¨('³°
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs   ( 
+%3mojoPortal.Business.Module"mojoPortal.Business.ModuleÊ
+Ç
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs   (
+
+%4void"#mojoPortal.Business.Module.Module()*"
+ 
+%3mojoPortal.Business.ModuleÀ
+½
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs   (
+mmojoPortal.Business.Module"__id*"
+ 
+%3mojoPortal.Business.Moduleòï
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¡" ¡(4
+%5object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ModuleID2this[string].getÄ
+Á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¡ ¡(5	
+%6int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%5objectÙ
+Ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¡ ¡(5	
+%7int"'mojoPortal.Business.Module.ModuleId.set*!
+
+mmojoPortal.Business.Module*
+	
+%6intðí
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¢  ¢(0
+%8object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SiteID2this[string].getÄ
+Á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¢ ¢(1	
+%9int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%8objectØ
+Õ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¢ ¢(1
+
+%10int"%mojoPortal.Business.Module.SiteId.set*!
+
+mmojoPortal.Business.Module*
+	
+%9intöó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs£% £(:
+%11object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ModuleDefID2this[string].getÆ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs£ £(;
+
+%12int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%11objectÞ
+Û
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs£ £(;
+
+%13int"*mojoPortal.Business.Module.ModuleDefId.set*!
+
+mmojoPortal.Business.Module*
+
+
+%12intöó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¤ ¤(*
+%14object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ModuleTitle2this[string].get´±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¤ ¤(5
+%15string"object.ToString()*
+
+%14object2
+ToString()ä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¤ ¤(5
+%16string"*mojoPortal.Business.Module.ModuleTitle.set*!
+
+mmojoPortal.Business.Module*
+
+%15stringþû
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¥ ¥(:
+%17object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+AuthorizedEditRoles2this[string].get´±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¥ ¥(E
+%18string"object.ToString()*
+
+%17object2
+ToString()ì
+é
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¥ ¥(E
+%19string"2mojoPortal.Business.Module.AuthorizedEditRoles.set*!
+
+mmojoPortal.Business.Module*
+
+%18stringôñ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¦# ¦(6
+%20object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	CacheTime2this[string].getÆ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¦ ¦(7
+
+%21int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%20objectÜ
+Ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¦ ¦(7
+
+%22int"(mojoPortal.Business.Module.CacheTime.set*!
+
+mmojoPortal.Business.Module*
+
+
+%21intôñ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs§ §(+
+%23object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	ShowTitle2this[string].get´±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs§ §(6
+%24string"object.ToString()*
+
+%23object2
+ToString()¡
+ž
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs§ §(6
+	showTitlestring"__id*
+
+%24stringÓ
+Ð
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¨ ¨('
+%25bool""string.operator ==(string, string)*
+"
+string*
+
+	showTitlestring*
+True*
+4
+5*Í
+5p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¨+ ¨(;Ð
+Í
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¨+ ¨(;
+%26bool""string.operator ==(string, string)*
+"
+string*
+
+	showTitlestring*
+1*
+4*î
+4p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¨ ©(-×
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¨ ¨(<
+%27bool"(mojoPortal.Business.Module.ShowTitle.set*!
+
+mmojoPortal.Business.Module*
+""õò
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs©	 ©(
+%28object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+EditUserID2this[string].get¾
+»
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs©! ©(-
+%29System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÛ
+Ø
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs©	 ©(-
+%30bool""object.operator !=(object, object)*
+"
+object*
+
+%28object*
+
+%29System.DBNull*
+6
+7*›
+6p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs« «(8õò
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs«% «(9
+%31object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+EditUserID2this[string].getÆ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs« «(:
+
+%32int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%31objectÝ
+Ú
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs« «(:
+
+%33int")mojoPortal.Business.Module.EditUserId.set*!
+
+mmojoPortal.Business.Module*
+
+
+%32int*
+7*À
+7p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs° ±(.ú÷
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs°) °(B
+%34object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+CreatedByUserID2this[string].getÆ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs° °(C
+
+%35int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%34objectâ
+ß
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs° °(C
+
+%36int".mojoPortal.Business.Module.CreatedByUserId.set*!
+
+mmojoPortal.Business.Module*
+
+
+%35intöó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs±	 ±(
+%37object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+CreatedDate2this[string].get¾
+»
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs±" ±(.
+%38System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÛ
+Ø
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs±	 ±(.
+%39bool""object.operator !=(object, object)*
+"
+object*
+
+%37object*
+
+%38System.DBNull*
+8
+9*Ä
+8p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs³ ³(=öó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs³) ³(>
+%40object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+CreatedDate2this[string].getÕ
+Ò
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs³ ³(?
+%41System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%40objectö
+ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs³ ³(?
+%42System.DateTime"*mojoPortal.Business.Module.CreatedDate.set*!
+
+mmojoPortal.Business.Module*
+
+%41System.DateTime*
+9*Š
+9p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¶ ¹(/ïì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¶ ¶(+
+%43object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Guid2this[string].get´±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¶ ¶(6
+%44string"object.ToString()*
+
+%43object2
+ToString()–“
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¶ ¶(7
+%45System.Guid"System.GuidÃ
+À
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¶ ¶(
+%46void"System.Guid.Guid(string)*
+
+%45System.Guid*
+
+%44stringí
+ê
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¶ ¶(7
+%47System.Guid")mojoPortal.Business.Module.ModuleGuid.set*!
+
+mmojoPortal.Business.Module*
+
+%45System.Guidöó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs· ·(3
+%48object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+FeatureGuid2this[string].get´±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs· ·(>
+%49string"object.ToString()*
+
+%48object2
+ToString()–“
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs· ·(?
+%50System.Guid"System.GuidÃ
+À
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs· ·(
+%51void"System.Guid.Guid(string)*
+
+%50System.Guid*
+
+%49stringî
+ë
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs· ·(?
+%52System.Guid"*mojoPortal.Business.Module.FeatureGuid.set*!
+
+mmojoPortal.Business.Module*
+
+%50System.Guidóð
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¸ ¸(-
+%53object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SiteGuid2this[string].get´±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¸ ¸(8
+%54string"object.ToString()*
+
+%53object2
+ToString()–“
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¸ ¸(9
+%55System.Guid"System.GuidÃ
+À
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¸ ¸(
+%56void"System.Guid.Guid(string)*
+
+%55System.Guid*
+
+%54stringë
+è
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¸ ¸(9
+%57System.Guid"'mojoPortal.Business.Module.SiteGuid.set*!
+
+mmojoPortal.Business.Module*
+
+%55System.Guid÷ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¹	 ¹(
+%58object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+EditUserGuid2this[string].get¾
+»
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¹# ¹(/
+%59System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÛ
+Ø
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¹	 ¹(/
+%60bool""object.operator !=(object, object)*
+"
+object*
+
+%58object*
+
+%59System.DBNull*
+10
+11*þ
+10p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs» »(5÷ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs»  »(6
+%61object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+EditUserGuid2this[string].get´±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs»  »(A
+%62string"object.ToString()*
+
+%61object2
+ToString()–“
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs» »(B
+%63System.Guid"System.GuidÃ
+À
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs» »(
+%64void"System.Guid.Guid(string)*
+
+%63System.Guid*
+
+%62stringï
+ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs» »(B
+%65System.Guid"+mojoPortal.Business.Module.EditUserGuid.set*!
+
+mmojoPortal.Business.Module*
+
+%63System.Guid*
+11*“I
+11p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs½ Ì(ùö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs½3 ½(K
+%66object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+HideFromUnAuth2this[string].getÉ
+Æ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs½! ½(L
+%67bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%66objectì
+é
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs½ ½(L
+%68bool"6mojoPortal.Business.Module.HideFromUnauthenticated.set*!
+
+mmojoPortal.Business.Module*
+
+%67bool÷ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¾1 ¾(G
+%69object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+HideFromAuth2this[string].getÉ
+Æ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¾ ¾(H
+%70bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%69objectê
+ç
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¾ ¾(H
+%71bool"4mojoPortal.Business.Module.HideFromAuthenticated.set*!
+
+mmojoPortal.Business.Module*
+
+%70boolôñ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¿ ¿(&
+%72object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	ViewRoles2this[string].get´±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¿ ¿(1
+%73string"object.ToString()*
+
+%72object2
+ToString()â
+ß
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs¿ ¿(1
+%74string"(mojoPortal.Business.Module.ViewRoles.set*!
+
+mmojoPortal.Business.Module*
+
+%73stringùö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÀ À(0
+%75object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+DraftEditRoles2this[string].get´±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÀ À(;
+%76string"object.ToString()*
+
+%75object2
+ToString()ç
+ä
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÀ À(;
+%77string"-mojoPortal.Business.Module.DraftEditRoles.set*!
+
+mmojoPortal.Business.Module*
+
+%76stringú÷
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÁ+ Á(D
+%78object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+IncludeInSearch2this[string].getÉ
+Æ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÁ Á(E
+%79bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%78objectä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÁ Á(E
+%80bool".mojoPortal.Business.Module.IncludeInSearch.set*!
+
+mmojoPortal.Business.Module*
+
+%79boolóð
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÂ$ Â(6
+%81object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+IsGlobal2this[string].getÉ
+Æ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÂ Â(7
+%82bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%81objectÝ
+Ú
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÂ Â(7
+%83bool"'mojoPortal.Business.Module.IsGlobal.set*!
+
+mmojoPortal.Business.Module*
+
+%82boolöó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÃ Ã(*
+%84object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+HeadElement2this[string].get´±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÃ Ã(5
+%85string"object.ToString()*
+
+%84object2
+ToString()ä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÃ Ã(5
+%86string"*mojoPortal.Business.Module.HeadElement.set*!
+
+mmojoPortal.Business.Module*
+
+%85stringöó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÄ% Ä(:
+%87object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+PublishMode2this[string].getÆ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÄ Ä(;
+
+%88int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%87objectÞ
+Û
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÄ Ä(;
+
+%89int"*mojoPortal.Business.Module.PublishMode.set*!
+
+mmojoPortal.Business.Module*
+
+
+%88intýú
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÅ Å(8
+%90object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+DraftApprovalRoles2this[string].get´±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÅ Å(C
+%91string"object.ToString()*
+
+%90object2
+ToString()ë
+è
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÅ Å(C
+%92string"1mojoPortal.Business.Module.DraftApprovalRoles.set*!
+
+mmojoPortal.Business.Module*
+
+%91stringñî
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÇ  Ç(0
+%93object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+PageID2this[string].getÆ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÇ Ç(1
+
+%94int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%93objectÙ
+Ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÇ Ç(1
+
+%95int"%mojoPortal.Business.Module.PageId.set*!
+
+mmojoPortal.Business.Module*
+
+
+%94intóð
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÈ È($
+%96object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+PaneName2this[string].get´±
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÈ È(/
+%97string"object.ToString()*
+
+%96object2
+ToString()á
+Þ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÈ È(/
+%98string"'mojoPortal.Business.Module.PaneName.set*!
+
+mmojoPortal.Business.Module*
+
+%97stringöó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÉ% É(:
+%99object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ModuleOrder2this[string].getÇ
+Ä
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÉ É(;
+%100int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%99objectà
+Ý
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÉ É(;
+%101int"*mojoPortal.Business.Module.ModuleOrder.set*!
+
+mmojoPortal.Business.Module*
+
+%100intöó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÊ Ê(+
+%102object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ControlSrc2this[string].get¶³
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÊ Ê(6
+%103string"object.ToString()*
+
+%102object2
+ToString()è
+å
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÊ Ê(6
+%104string",mojoPortal.Business.Module.ControlSource.set*!
+
+mmojoPortal.Business.Module*
+
+%103stringý
+ú
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÌ Ì($
+%105System.Collections.ArrayList",mojoPortal.Business.PageSettings.Modules.get*2
+0
+pageSettings mojoPortal.Business.PageSettingsÝ
+Ú
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÌ Ì( 
+%106int"
+__arrayAdd*&
+$
+%105System.Collections.ArrayList*: *!
+
+mmojoPortal.Business.Module*
+1*{
+3p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÑ Ñ(*
+12*€
+12p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÑ Ñ("‡
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csÑ Ñ(
+implicit return:0
+pageSettings mojoPortal.Business.PageSettingsB.",
+*mojoPortal.Business.WebHelpers.CacheHelper

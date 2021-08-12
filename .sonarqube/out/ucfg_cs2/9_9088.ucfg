@@ -1,0 +1,190 @@
+
+XmojoPortal.Web.NewsletterHelper.ClaimExistingSubscriptions(mojoPortal.Business.SiteUser)s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csC C(5"0*∑
+0s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csE! H(<“œ
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csE1 E(K.
+%0(mojoPortal.Business.SubscriberRepository"(mojoPortal.Business.SubscriberRepository˜
+Ù
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csE5 E(I
+
+%1void"?mojoPortal.Business.SubscriberRepository.SubscriberRepository()*0
+.
+%0(mojoPortal.Business.SubscriberRepositoryÎ
+Ë
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csE! E(K9
+subscriptions(mojoPortal.Business.SubscriberRepository"__id*0
+.
+%0(mojoPortal.Business.SubscriberRepository‚
+ﬂ
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csFT F(e
+%2System.Guid")mojoPortal.Business.SiteUser.SiteGuid.get**
+(
+siteUsermojoPortal.Business.SiteUser⁄
+◊
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csFg F(u
+%3string"&mojoPortal.Business.SiteUser.Email.get**
+(
+siteUsermojoPortal.Business.SiteUser“
+œ
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csF7 F(v(
+%4"System.Collections.Generic.List<T>"LmojoPortal.Business.SubscriberRepository.GetListByEmail(System.Guid, string)*;
+9
+subscriptions(mojoPortal.Business.SubscriberRepository*
+
+%2System.Guid*
+
+%3string„
+‡
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csF# F(v7
+userSubscriptions"System.Collections.Generic.List<T>"__id**
+(
+%4"System.Collections.Generic.List<T>*
+1*Ä
+1s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs|	 |(	*
+2
+3*”
+2s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csK K(3Î
+Ë
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csK K(
+%5System.Guid"1mojoPortal.Business.LetterSubscriber.UserGuid.get*+
+)
+s$mojoPortal.Business.LetterSubscriber‚
+ﬂ
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csK" K(3
+%6System.Guid")mojoPortal.Business.SiteUser.UserGuid.get**
+(
+siteUsermojoPortal.Business.SiteUser*
+4
+5*´
+4s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csM N((‚
+ﬂ
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csM! M(2
+%7System.Guid")mojoPortal.Business.SiteUser.UserGuid.get**
+(
+siteUsermojoPortal.Business.SiteUserÄ
+˝
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csM M(2
+%8System.Guid"1mojoPortal.Business.LetterSubscriber.UserGuid.set*+
+)
+s$mojoPortal.Business.LetterSubscriber*
+
+%7System.Guid√
+¿
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csN N()
+
+%9void"SmojoPortal.Business.SubscriberRepository.Save(mojoPortal.Business.LetterSubscriber)*;
+9
+subscriptions(mojoPortal.Business.SubscriberRepository*+
+)
+s$mojoPortal.Business.LetterSubscriber*
+5*Í
+5s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csQ Q(!Á
+‰
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csQ Q(!
+%10bool"3mojoPortal.Business.LetterSubscriber.IsVerified.get*+
+)
+s$mojoPortal.Business.LetterSubscriber*
+6
+1*∏
+
+6s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csS T(EÒ
+Ó
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csS) S(8
+%11System.Guid"6mojoPortal.Business.LetterSubscriber.SubscribeGuid.get*+
+)
+s$mojoPortal.Business.LetterSubscriberç
+ä
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csS@ S(J
+%12"__id*
+""∫
+∑
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csS S(K
+%13bool"OmojoPortal.Business.SubscriberRepository.Verify(System.Guid, bool, System.Guid)*;
+9
+subscriptions(mojoPortal.Business.SubscriberRepository*
+
+%11System.Guid*
+""*
+
+%12Ú
+Ô
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csT5 T(E
+%14System.Guid"7mojoPortal.Business.LetterSubscriber.LetterInfoGuid.get*+
+)
+s$mojoPortal.Business.LetterSubscriberÇ
+ˇ
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csT T(F
+%15bool"AmojoPortal.Business.LetterInfo.UpdateSubscriberCount(System.Guid)*"" 
+mojoPortal.Business.LetterInfo*
+
+%14System.Guid*
+1*ˆ
+3s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csZ# \(0„
+‡
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csZU Z(f
+%16System.Guid")mojoPortal.Business.SiteUser.SiteGuid.get**
+(
+siteUsermojoPortal.Business.SiteUser„
+‡
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csZh Z(y
+%17System.Guid")mojoPortal.Business.SiteUser.UserGuid.get**
+(
+siteUsermojoPortal.Business.SiteUserﬁ
+€
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csZ9 Z(z)
+%18"System.Collections.Generic.List<T>"PmojoPortal.Business.SubscriberRepository.GetListByUser(System.Guid, System.Guid)*;
+9
+subscriptions(mojoPortal.Business.SubscriberRepository*
+
+%16System.Guid*
+
+%17System.GuidÊ
+„
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.csZ# Z(z9
+memberSubscriptions"System.Collections.Generic.List<T>"__id*+
+)
+%18"System.Collections.Generic.List<T>‡
+›
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs\ \(1
+%19void"wmojoPortal.Web.NewsletterHelper.RemoveDuplicates(System.Collections.Generic.List<mojoPortal.Business.LetterSubscriber>)*#"!
+mojoPortal.Web.NewsletterHelper*;
+9
+memberSubscriptions"System.Collections.Generic.List<T>*
+7*Ö
+7s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs|	 |(	"ä
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NewsletterHelper.cs| |(	
+implicit return:(
+siteUsermojoPortal.Business.SiteUserB#"!
+mojoPortal.Web.NewsletterHelper

@@ -1,0 +1,158 @@
+
+8mojoPortal.Web.mojoRoleProvider.DeleteRole(string, bool)u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csƒ ƒ('"0*‹
+0u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs… ˆ($˜
+•
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs… …(
+resultbool"__id*
+""—
+”
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs‡( ‡(L&
+%0 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperÜ
+Ù
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs‡ ‡(L0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%0 mojoPortal.Business.SiteSettingsò
+ï
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csˆ ˆ($
+
+%1bool""object.operator !=(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+1
+2*Ù
+1u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csˆ( ˆ(8Ô
+Ñ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csˆ( ˆ(8
+
+%2bool""string.operator !=(string, string)*
+"
+string*
+
+roleNamestring*
+""*
+3
+2*³
+3u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csˆ< ˆ(O®
+«
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csˆ< ˆ(K	
+%3int"string.Length.get*
+
+roleNamestring*
+4
+2*´	
+4u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csŠ ‹(#æ
+ã
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csŠ% Š(8	
+%4int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings´±
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csŠ Š(C
+%5mojoPortal.Business.Role"mojoPortal.Business.Role÷
+ô
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csŠ  Š($
+
+%6void"*mojoPortal.Business.Role.Role(int, string)* 
+
+%5mojoPortal.Business.Role*
+	
+%4int*
+
+roleNamestringÄ
+Á
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csŠ Š(C 
+rolemojoPortal.Business.Role"__id* 
+
+%5mojoPortal.Business.RoleÎ
+Ë
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs‹ ‹(	
+%7int"#mojoPortal.Business.Role.RoleId.get*"
+ 
+rolemojoPortal.Business.Role*
+5
+2*‚
+5u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs (-*
+6
+7*Ô
+6u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs3 (BÏ
+Ì
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs3 (B
+
+%8bool"#mojoPortal.Business.Role.HasUsers()*"
+ 
+rolemojoPortal.Business.Role*
+8
+7*¥
+8u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs (_¤¡
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs (`
+%9System.Exception"System.Exceptionü
+ù
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs" (+
+%10void""System.Exception.Exception(string)*
+
+%9System.Exception*53
+1This role cannot be deleted because it has users.*
+9*Ì
+7u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs’ “(!Ï
+Ì
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs’$ ’(/
+
+%11int"#mojoPortal.Business.Role.RoleId.get*"
+ 
+rolemojoPortal.Business.RoleÝ
+Ú
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs’ ’(0
+%12bool"(mojoPortal.Business.Role.DeleteRole(int)*"
+mojoPortal.Business.Role*
+
+
+%11int˜
+•
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs“ “(!
+resultbool"__id*
+""*
+2*†
+2u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs™ ™("‰
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs™ ™(
+
+resultbool*‰
+9u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csš	 š(	"Œ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csš š(	
+implicit return:
+roleNamestring:
+throwOnPopulatedRoleboolB#!
+mojoPortal.Web.mojoRoleProvider

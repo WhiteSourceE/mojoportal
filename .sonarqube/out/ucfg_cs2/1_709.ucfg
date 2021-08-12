@@ -1,0 +1,119 @@
+
+:mojoPortal.Data.DBPortal.DatabaseHelperTableExists(string)t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs¶ ¶(4"0*ò
+0t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs™! ™(jÈ
+Ê
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs™@ ™(j
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionString…∆
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs™. ™(k)
+%1#System.Data.SqlClient.SqlConnection"#System.Data.SqlClient.SqlConnection˝
+˙
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs™2 ™(?
+
+%2void"9System.Data.SqlClient.SqlConnection.SqlConnection(string)*+
+)
+%1#System.Data.SqlClient.SqlConnection*
+
+%0stringﬂ
+‹
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs™! ™(k1
+
+connection#System.Data.SqlClient.SqlConnection"__id*+
+)
+%1#System.Data.SqlClient.SqlConnection*
+1*œ
+1t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs¨ ∞(!ìê
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs¨( ¨(5
+%3string[]"string[]´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs¨ ¨(5
+restrictionsstring[]"__id*
+
+%3string[]ƒ
+¡
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs≠ ≠(+
+%4"
+__arraySet*
+
+restrictionsstring[]*2*
+
+	tableNamestringÊ
+„
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csÆ Æ(!
+
+%5void"*System.Data.SqlClient.SqlConnection.Open()*3
+1
+
+connection#System.Data.SqlClient.SqlConnection¥
+±
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csØ" Ø(N
+%6System.Data.DataTable"?System.Data.SqlClient.SqlConnection.GetSchema(string, string[])*3
+1
+
+connection#System.Data.SqlClient.SqlConnection*
+
+Tables*
+
+restrictionsstring[]æ
+ª
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csØ Ø(N
+tableSystem.Data.DataTable"__id*
+
+%6System.Data.DataTableﬂ
+‹
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs∞ ∞(!
+
+%7bool""object.operator !=(object, object)*
+"
+object* 
+
+tableSystem.Data.DataTable*
+""*
+2
+3*≥
+2t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs≤ ≤(0‡
+›
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs≤ ≤(&#
+%8System.Data.DataRowCollection"System.Data.DataTable.Rows.get* 
+
+tableSystem.Data.DataTable‘
+—
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs≤ ≤(,	
+%9int"'System.Data.DataRowCollection.Count.get*%
+#
+%8System.Data.DataRowCollection"~
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs≤ ≤(2
+""*~
+3t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs∑	 ∑(	*
+4*˘
+4t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs∂ ∂("~
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs∂ ∂(
+""*á
+5t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs∑	 ∑(	"ã
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs∑ ∑(	
+implicit return:
+	tableNamestringB"
+mojoPortal.Data.DBPortal

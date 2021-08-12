@@ -1,0 +1,126 @@
+
+QmojoPortal.Web.Caching.AppFabricCacheAdapter.Add(string, System.DateTime, object)Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs ("0*˙
+0Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs   (%À
+»
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs   (%
+%0System.DateTime"System.DateTime.Now.get*"
+System.DateTimeõ
+ò
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs   (%
+
+%1bool"<System.DateTime.operator >(System.DateTime, System.DateTime)*"
+System.DateTime*
+
+expirySystem.DateTime*
+
+%0System.DateTime*
+1
+2*Ú
+1Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs )  (:·
+ﬁ
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs )  (:
+
+%2bool""object.operator !=(object, object)*
+"
+object*
+
+	dataToAddobject*
+""*
+3
+2*∂
+3Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs" $(À
+»
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs"  "(,
+%3System.DateTime"System.DateTime.Now.get*"
+System.DateTime¶
+£
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs" "(,
+%4System.TimeSpan"<System.DateTime.operator -(System.DateTime, System.DateTime)*"
+System.DateTime*
+
+expirySystem.DateTime*
+
+%3System.DateTime¡
+æ
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs" "(,
+timeoutSystem.TimeSpan"__id*
+
+%4System.TimeSpanÆ
+´
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs# #(3
+%5-Microsoft.ApplicationServer.Caching.DataCache"__id*k*i.
+,mojoPortal.Web.Caching.AppFabricCacheAdapter"7
+_cache-Microsoft.ApplicationServer.Caching.DataCacheú
+ô
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs# #(8>
+%68Microsoft.ApplicationServer.Caching.DataCacheItemVersion"RMicrosoft.ApplicationServer.Caching.DataCache.Add(string, object, System.TimeSpan)*5
+3
+%5-Microsoft.ApplicationServer.Caching.DataCache*
+
+cacheKeystring*
+
+	dataToAddobject*
+
+timeoutSystem.TimeSpanö
+ó
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs$ $(
+%7"__id*
+""*
+4
+2*Ç	
+4Å
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs$  $(§È
+Ê
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs$  $(#
+%8log4net.ILog"__id*G*E.
+,mojoPortal.Web.Caching.AppFabricCacheAdapter"
+loglog4net.ILogÌ
+Í
+Å
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs$ $(•
+%9string" System.DateTime.ToString(string)*
+
+expirySystem.DateTime*
+yyyy/MM/dd hh:mm:ssÆ
+´
+Å
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs$* $(¶
+%10string"%string.Format(string, object, object)*
+"
+string*=;
+9Adding data to cache with cache key: {0}, expiry date {1}*
+
+cacheKeystring*
+
+%9stringÊ„
+Å
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs$  $(ß
+%11void"log4net.ILog.Debug(object)*
+
+%8log4net.ILog*
+
+%10string2Debug(object)*
+2*°
+2Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs&	 &(	"ò
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheAdapter.cs& &(	
+implicit return:
+cacheKeystring:
+expirySystem.DateTime:
+	dataToAddobjectB0.
+,mojoPortal.Web.Caching.AppFabricCacheAdapter

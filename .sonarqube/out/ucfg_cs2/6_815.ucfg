@@ -1,0 +1,1220 @@
+
+amojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway.CallDoExpressCheckoutPayment()®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs± ±(0"0*Ê2
+0®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs≥ æ('Ã
+…
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs≥ ≥(
+resultbool"__id*
+""ÍÁ
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csµ( µ(;
+%0System.Text.StringBuilder"System.Text.StringBuilderà
+Ö
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csµ, µ(9
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilderÅ
+˛
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csµ µ(;(
+requestBodySystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilder®
+•
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∂? ∂(O
+%2string"__id*d*bD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+merchantAPILoginstringí
+è
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∂) ∂(P
+%3string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%2string·
+ﬁ
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∂ ∂(P
+%4string"__concat*	
+USER=*
+
+%3stringµ
+≤
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∂ ∂(Q
+%5System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%4string´
+®
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∑? ∑(R
+%6string"__id*g*eD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+merchantAPIPasswordstringí
+è
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∑) ∑(S
+%7string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%6string·
+ﬁ
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∑ ∑(S
+%8string"__concat*	
+&PWD=*
+
+%7stringµ
+≤
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∑ ∑(T
+%9System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%8string≤
+Ø
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∏E ∏(^
+%10string"__id*m*kD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"#
+merchantAPITransactionKeystringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∏/ ∏(_
+%11string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%10stringÈ
+Ê
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∏ ∏(_
+%12string"__concat*
+&SIGNATURE=*
+
+%11string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∏ ∏(` 
+%13System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%12string£
+†
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∫C ∫(M
+%14string"__id*^*\D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+
+apiVersionstringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∫- ∫(N
+%15string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%14stringÁ
+‰
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∫ ∫(N
+%16string"__concat*
+	&VERSION=*
+
+%15string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∫ ∫(O 
+%17System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%16stringÃ
+…
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csª ª(B 
+%18System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*$"
+ &METHOD=DoExpressCheckoutPayment§
+°
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csæ æ(
+%19string"__id*_*]D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+payPalTokenstringﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csæ æ("
+
+%20int"string.Length.get*
+
+%19string*
+1
+2*÷
+1®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csæ/ æ(cÈÊ
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csæ/ æ(d
+%21System.ArgumentException"System.ArgumentException¥
+±
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csæ3 æ(D
+%22void"2System.ArgumentException.ArgumentException(string)*!
+
+%21System.ArgumentException* 
+PayPalToken must be provided*
+3*‚
+2®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¿ ≈()§
+°
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¿A ¿(L
+%23string"__id*_*]D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+payPalTokenstringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¿+ ¿(M
+%24string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%23stringÂ
+‚
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¿ ¿(M
+%25string"__concat*	
+&TOKEN=*
+
+%24string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¿ ¿(N 
+%26System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%25stringø
+º
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs√ √(5 
+%27System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+&PAYMENTACTION=Sale¶
+£
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs≈ ≈(
+%28string"__id*a*_D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+payPalPayerIdstringﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs≈ ≈($
+
+%29int"string.Length.get*
+
+%28string*
+4
+5*ÿ
+4®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs≈1 ≈(gÈÊ
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs≈1 ≈(h
+%30System.ArgumentException"System.ArgumentException∂
+≥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs≈5 ≈(F
+%31void"2System.ArgumentException.ArgumentException(string)*!
+
+%30System.ArgumentException*" 
+PayPalPayerId must be provided*
+3*π
+5®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs« —(+¶
+£
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs«C «(P
+%32string"__id*a*_D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+payPalPayerIdstringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs«- «(Q
+%33string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%32stringÁ
+‰
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs« «(Q
+%34string"__concat*
+	&PAYERID=*
+
+%33string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs« «(R 
+%35System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%34stringÿ
+’
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÀ? À(M
+%36string"QmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway.FormatCharge()*FD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGatewayî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÀ) À(N
+%37string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%36string„
+‡
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÀ À(N
+%38string"__concat*	
+&AMT=*
+
+%37string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÀ À(O 
+%39System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%38string©
+¶
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs— —( 
+%40string"__id*d*bD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+orderDescriptionstringﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs— —('
+
+%41int"string.Length.get*
+
+%40string*
+6
+7*ó
+
+6®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs” ”(T©
+¶
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs”D ”(T
+%42string"__id*d*bD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+orderDescriptionstringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs”. ”(U
+%43string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%42string‰
+·
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs”# ”(U
+%44string"__concat*
+
+&DESC=*
+
+%43string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs” ”(V 
+%45System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%44string*
+7*¡
+7®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csŸ Ÿ()ß
+§
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csŸ Ÿ(
+%46string"__id*b*`D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+merchantCartIdstringﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csŸ Ÿ(%
+
+%47int"string.Length.get*
+
+%46string*
+8
+9*ó
+
+8®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs€ €(Tß
+§
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs€F €(T
+%48string"__id*b*`D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+merchantCartIdstringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs€0 €(U
+%49string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%48stringÊ
+„
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs€# €(U
+%50string"__concat*
+
+&CUSTOM=*
+
+%49string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs€ €(V 
+%51System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%50string*
+9* 
+9®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs„ „(0Æ
+´
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs„ „(%
+%52string"__id*i*gD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+merchantInvoiceNumberstringﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs„ „(,
+
+%53int"string.Length.get*
+
+%52string*
+10
+11*†
+
+10®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÂ Â([Æ
+´
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÂF Â([
+%54string"__id*i*gD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+merchantInvoiceNumberstringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÂ0 Â(\
+%55string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%54stringÊ
+„
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÂ# Â(\
+%56string"__concat*
+
+&INVNUM=*
+
+%55string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÂ Â(] 
+%57System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%56string*
+11*ò
+11®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÏ Û(*–
+Õ
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÏ Ï(F 
+%58System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*(&
+$&BUTTONSOURCE=SourceTreeSolutions_SP®
+•
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÛ Û(
+%59string"__id*c*aD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+notificationUrlstringﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÛ Û(&
+
+%60int"string.Length.get*
+
+%59string*
+12
+13*ù
+
+12®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csı ı(X®
+•
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csıI ı(X
+%61string"__id*c*aD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+notificationUrlstringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csı3 ı(Y
+%62string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%61stringÈ
+Ê
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csı# ı(Y
+%63string"__concat*
+&NOTIFYURL=*
+
+%62string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csı ı(Z 
+%64System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%63string*
+13*¬
+13®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÄ Ä('•
+¢
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÄ Ä(
+%65string"__id*`*^D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+currencyCodestringﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÄ Ä(#
+
+%66int"string.Length.get*
+
+%65string*
+14
+15*ù
+
+14®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÇ Ç(X•
+¢
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÇL Ç(X
+%67string"__id*`*^D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+currencyCodestringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÇ6 Ç(Y
+%68string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%67stringÏ
+È
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÇ# Ç(Y
+%69string"__concat*
+&CURRENCYCODE=*
+
+%68string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÇ Ç(Z 
+%70System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%69string*
+15*√
+15®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csè è((¶
+£
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csè è(
+%71string"__id*a*_D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToAddressstringﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csè è($
+
+%72int"string.Length.get*
+
+%71string*
+16
+17*≠
+16®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csë î(-¶
+£
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csëL ë(Y
+%73string"__id*a*_D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToAddressstringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csë6 ë(Z
+%74string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%73stringÏ
+È
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csë# ë(Z
+%75string"__concat*
+&SHIPTOSTREET=*
+
+%74string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csë ë([ 
+%76System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%75stringß
+§
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csî î("
+%77string"__id*b*`D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToLastNamestringﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csî î()
+
+%78int"string.Length.get*
+
+%77string*
+18
+19*ñ
+18®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csñ ñ(t®
+•
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csñN ñ(]
+%79string"__id*c*aD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToFirstNamestringﬂ
+‹
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csñN ñ(c
+%80string"__concat*
+
+%79string*
+ ß
+§
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csñf ñ(t
+%81string"__id*b*`D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToLastNamestringÈ
+Ê
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csñN ñ(t
+%82string"__concat*
+
+%80string*
+
+%81stringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csñ8 ñ(u
+%83string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%82stringÍ
+Á
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csñ' ñ(u
+%84string"__concat*
+&SHIPTONAME=*
+
+%83string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csñ ñ(v 
+%85System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%84string*
+19*¿
+19®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csú ú()£
+†
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csú ú(
+%86string"__id*^*\D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+
+shipToCitystringﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csú ú(%
+
+%87int"string.Length.get*
+
+%86string*
+20
+21*ô
+
+20®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csû û(X£
+†
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csûN û(X
+%88string"__id*^*\D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+
+shipToCitystringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csû8 û(Y
+%89string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%88stringÍ
+Á
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csû' û(Y
+%90string"__concat*
+&SHIPTOCITY=*
+
+%89string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csû û(Z 
+%91System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%90string*
+21*¡
+21®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¢ ¢(*§
+°
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¢ ¢(
+%92string"__id*_*]D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToStatestringﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¢ ¢(&
+
+%93int"string.Length.get*
+
+%92string*
+22
+23*õ
+
+22®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs§ §(Z§
+°
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs§O §(Z
+%94string"__id*_*]D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToStatestringî
+ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs§9 §([
+%95string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%94stringÎ
+Ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs§' §([
+%96string"__concat*
+&SHIPTOSTATE=*
+
+%95string∑
+¥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs§ §(\ 
+%97System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%96string*
+23*√
+23®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs® ®(,¶
+£
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs® ®(!
+%98string"__id*a*_D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToCountrystringﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs® ®((
+
+%99int"string.Length.get*
+
+%98string*
+24
+25*™
+
+24®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs™ ™(bß
+§
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs™U ™(b
+%100string"__id*a*_D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToCountrystringñ
+ì
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs™? ™(c
+%101string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%100stringÛ
+
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs™' ™(c
+%102string"__concat*
+&SHIPTOCOUNTRYCODE=*
+
+%101stringπ
+∂
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs™ ™(d!
+%103System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%102string*
+25*…
+25®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÆ Æ(/™
+ß
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÆ Æ($
+%104string"__id*d*bD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToPostalCodestring‡
+›
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÆ Æ(+
+%105int"string.Length.get*
+
+%104string*
+26
+27*•
+
+26®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∞ ∞(]™
+ß
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∞M ∞(]
+%106string"__id*d*bD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToPostalCodestringñ
+ì
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∞7 ∞(^
+%107string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%106stringÎ
+Ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∞' ∞(^
+%108string"__concat*
+&SHIPTOZIP=*
+
+%107stringπ
+∂
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∞ ∞(_!
+%109System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%108string*
+27*ƒ
+27®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¥ ¥(*•
+¢
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¥ ¥(
+%110string"__id*_*]D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToPhonestring‡
+›
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¥ ¥(&
+%111int"string.Length.get*
+
+%110string*
+28
+17*•
+
+28®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∂ ∂(]•
+¢
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∂R ∂(]
+%112string"__id*_*]D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+shipToPhonestringñ
+ì
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∂< ∂(^
+%113string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%112string
+Ì
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∂' ∂(^
+%114string"__concat*
+&SHIPTOPHONENUM=*
+
+%113stringπ
+∂
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs∂ ∂(_!
+%115System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%114string*
+17*Ä
+17®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csª º(ƒ
+¡
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csº º(
+%116"__id*
+""*
+29
+30*±
+29®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csæ æ(°
+û
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csæ æ(
+%117string"__id*[*YD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+testUrlstring’
+“
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csæ æ(
+urlstring"__id*
+
+%117string*
+31*∑
+30®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¬ ¬(#ß
+§
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¬ ¬(#
+%118string"__id*a*_D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+productionUrlstring’
+“
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs¬ ¬(#
+urlstring"__id*
+
+%118string*
+31*»)
+31®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs≈ ’(%Â
+‚
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs≈ ≈(-'
+requestStreamSystem.IO.StreamWriter"__id*
+""ü
+ú
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs«8 «(N
+%119System.Net.WebRequest"$System.Net.WebRequest.Create(string)*"
+System.Net.WebRequest*
+
+urlstring›
+⁄
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs«( «(N
+%120"__id*
+
+%119System.Net.WebRequestÁ
+‰
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs« «(N'
+
+webRequestSystem.Net.HttpWebRequest"__id*
+
+%120•¢
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs» »(&
+%121string"$System.Net.HttpWebRequest.Method.set*)
+'
+
+webRequestSystem.Net.HttpWebRequest*
+POST2
+Method.setƒ
+¡
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs !  (6
+%122"__id*
+""§°
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs   (6
+%123int"%System.Net.HttpWebRequest.Timeout.set*)
+'
+
+webRequestSystem.Net.HttpWebRequest*
+
+%1222Timeout.setÃ…
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÃ Ã(H
+%124string")System.Net.HttpWebRequest.ContentType.set*)
+'
+
+webRequestSystem.Net.HttpWebRequest*%#
+!application/x-www-form-urlencoded2ContentType.setê
+ç
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csŒ! Œ(7
+%125string"$System.Text.StringBuilder.ToString()**
+(
+requestBodySystem.Text.StringBuilder›
+⁄
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csŒ Œ(7
+encodedBodystring"__id*
+
+%125string©
+¶
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csœ œ(
+%126log4net.ILog"__id*]*[D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+loglog4net.ILogòï
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csœ œ("
+%127void"log4net.ILog.Debug(object)*
+
+%126log4net.ILog*
+
+encodedBodystring2Debug(object)Á
+‰
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs—' —(9
+%128int"string.Length.get*
+
+encodedBodystring∂≥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs— —(9
+%129long"+System.Net.HttpWebRequest.ContentLength.set*)
+'
+
+webRequestSystem.Net.HttpWebRequest*
+
+%128int2ContentLength.setµ≤
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs”- ”(J
+%130System.IO.Stream",System.Net.HttpWebRequest.GetRequestStream()*)
+'
+
+webRequestSystem.Net.HttpWebRequest2GetRequestStream()Ê„
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs” ”(K
+%131System.IO.StreamWriter"System.IO.StreamWriter±
+Æ
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs”  ”(,
+%132void"5System.IO.StreamWriter.StreamWriter(System.IO.Stream)* 
+
+%131System.IO.StreamWriter*
+
+%130System.IO.Streamˇ
+¸
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs” ”(K'
+requestStreamSystem.IO.StreamWriter"__id* 
+
+%131System.IO.StreamWriterü
+ú
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs’ ’(%
+%133bool""object.operator !=(object, object)*
+"
+object*)
+'
+requestStreamSystem.IO.StreamWriter*
+""*
+32
+33*Ì
+32®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÿ ÿ(/µ≤
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÿ ÿ(0
+%134void"$System.IO.StreamWriter.Write(string)*)
+'
+requestStreamSystem.IO.StreamWriter*
+
+encodedBodystring2Write(string)*
+33*€
+33®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs‹ ‹(%ü
+ú
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs‹ ‹(%
+%135bool""object.operator !=(object, object)*
+"
+object*)
+'
+requestStreamSystem.IO.StreamWriter*
+""*
+34
+35*»
+34®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs› ›(%êç
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs› ›(%
+%136void"System.IO.StreamWriter.Close()*)
+'
+requestStreamSystem.IO.StreamWriter2Close()*
+35*ﬁ	
+35®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csﬂ ‚(#±Æ
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs‡# ‡(;
+%137System.Net.WebResponse"'System.Net.HttpWebRequest.GetResponse()*)
+'
+
+webRequestSystem.Net.HttpWebRequest2GetResponse()ﬁ
+€
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs‡ ‡(;
+%138"__id* 
+
+%137System.Net.WebResponseÈ
+Ê
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csﬂ ‡(;)
+webResponseSystem.Net.HttpWebResponse"__id*
+
+%138°
+û
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs‚ ‚(#
+%139bool""object.operator !=(object, object)*
+"
+object*+
+)
+webResponseSystem.Net.HttpWebResponse*
+""*
+36
+37*í
+
+36®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs‰$ Â(C∫∑
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÂ$ Â(C
+%140System.IO.Stream".System.Net.HttpWebResponse.GetResponseStream()*+
+)
+webResponseSystem.Net.HttpWebResponse2GetResponseStream()Ê„
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÂ Â(D
+%141System.IO.StreamReader"System.IO.StreamReader±
+Æ
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÂ Â(#
+%142void"5System.IO.StreamReader.StreamReader(System.IO.Stream)* 
+
+%141System.IO.StreamReader*
+
+%140System.IO.StreamÄ
+˝
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs‰$ Â(D(
+responseStreamSystem.IO.StreamReader"__id* 
+
+%141System.IO.StreamReader*
+38* 
+38®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÁ Ë(!õò
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÁ" Á(<
+%143string""System.IO.StreamReader.ReadToEnd()**
+(
+responseStreamSystem.IO.StreamReader2ReadToEnd()•
+¢
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÁ Á(<]D
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"
+rawResponsestring"__id*
+
+%143stringÃ
+…
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csË Ë(!
+resultbool"__id*
+""*
+39*®
+39®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÎ Î(7
+Ì
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÎ Î(7
+%144void"jmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway.ParseDoExpressCheckoutPaymentResponse()*FD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway*
+40*à
+37®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs Ò(ƒ
+¡
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs (7
+%145"__id*
+""Ÿ
+÷
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.cs (7òD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway"P
+responseDmojoPortal.Business.WebHelpers.PaymentGateway.PaymentGatewayResponse"__id*
+
+%145"≥
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÒ Ò(
+""*Ô
+40®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÙ Ù("Ω
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csÙ Ù(
+
+resultbool*Ò
+3®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csˆ	 ˆ(	"¿
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PayPal\PayPalExpressCheckoutGateway.csˆ ˆ(	
+implicit returnBFD
+BmojoPortal.Business.WebHelpers.PaymentGateway.PayPalExpressGateway

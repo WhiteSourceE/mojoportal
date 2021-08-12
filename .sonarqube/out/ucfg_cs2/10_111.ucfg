@@ -1,0 +1,94 @@
+
+MmojoPortal.MediaPlayer.Data.DBMediaTrack.AdjustTrackOrdersForDelete(int, int)Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.csZ Z(4"0*“
+0Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs\ _((…
+‚
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs\< \(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionStringãà
+
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs\% \(–(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÛ
+Ø
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs\) \(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*+)
+'mp_MediaTrack_AdjustTrackOrderForDelete*2ò
+ï
+
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs\ \(–)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper¨
+¥
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs]0 ](=
+%3"__id*
+""¨
+¥
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs]? ](W
+%4"__id*
+""ò
+ï
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs] ](b
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@PlayerID*
+
+%3*
+
+%4*
+""¨
+¥
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs^2 ^(?
+%6"__id*
+""¨
+¥
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs^A ^(Y
+%7"__id*
+""ô
+ñ
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs^ ^(f
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@TrackOrder*
+
+%6*
+
+%7*
+""‚
+ÿ
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs_ _((	
+%9int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper"ž
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs_ _()
+	
+%9int*½
+1Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs`	 `(	"¦
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaTrack.cs` `(	
+implicit return:
+playerIdint:
+
+trackOrderintB,"*
+(mojoPortal.MediaPlayer.Data.DBMediaTrack

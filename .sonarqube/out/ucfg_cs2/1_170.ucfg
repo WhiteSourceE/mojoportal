@@ -1,0 +1,136 @@
+
+@mojoPortal.Data.SqlParameterHelper.GetParameters(string, string)~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.cs˙ ˙(+"0*Â
+0~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.cs¸ ¸(5◊
+‘
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.cs¸ ¸(6
+
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+connectionStringstring*
+1
+2*⁄
+1~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.cs¸> ¸(j≈¬
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.cs¸> ¸(k"
+%1System.ArgumentNullException"System.ArgumentNullExceptioná
+Ñ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.cs¸B ¸(W
+
+%2void":System.ArgumentNullException.ArgumentNullException(string)*$
+"
+%1System.ArgumentNullException*
+connectionString*
+3*›
+2~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.cs˝ ˝(-œ
+Ã
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.cs˝ ˝(.
+
+%3bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+procNamestring*
+4
+5*ÿ
+4~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.cs˝6 ˝(`≈¬
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.cs˝6 ˝(a"
+%4System.ArgumentNullException"System.ArgumentNullExceptionÖ
+Ç
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.cs˝: ˝(O
+
+%5void":System.ArgumentNullException.ArgumentNullException(string)*$
+"
+%4System.ArgumentNullException*
+Procedure Name*
+3*ª
+5~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csÄ Ä(8≠
+™
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csÄ Ä(9
+
+%6bool"@mojoPortal.Data.SqlParameterHelper.AlreadyCached(string, string)*&$
+"mojoPortal.Data.SqlParameterHelper*
+
+connectionStringstring*
+
+procNamestring*
+6
+7*ç
+6~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csÇ Ç(H÷
+”
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csÇ Ç(I*
+%7$System.Data.SqlClient.SqlParameter[]"ImojoPortal.Data.SqlParameterHelper.GetParametersFromCache(string, string)*&$
+"mojoPortal.Data.SqlParameterHelper*
+
+connectionStringstring*
+
+procNamestring"Æ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csÇ Ç(J,
+*
+%7$System.Data.SqlClient.SqlParameter[]*Ò
+7~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csÜ ã(H“
+œ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csÜ2 Ü(`*
+%8$System.Data.SqlClient.SqlParameter[]"EmojoPortal.Data.SqlParameterHelper.DiscoverParameters(string, string)*&$
+"mojoPortal.Data.SqlParameterHelper*
+
+connectionStringstring*
+
+procNamestringÒ
+Ó
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csÜ Ü(`8
+copyOfParameters$System.Data.SqlClient.SqlParameter[]"__id*,
+*
+%8$System.Data.SqlClient.SqlParameter[]ñ
+ì
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csâ â(f
+
+%9void"nmojoPortal.Data.SqlParameterCache.AddParameterSetToCache(string, string, System.Data.SqlClient.SqlParameter[])*%"#
+!mojoPortal.Data.SqlParameterCache*
+
+connectionStringstring*
+
+procNamestring*:
+8
+copyOfParameters$System.Data.SqlClient.SqlParameter[]◊
+‘
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csã ã(I+
+%10$System.Data.SqlClient.SqlParameter[]"ImojoPortal.Data.SqlParameterHelper.GetParametersFromCache(string, string)*&$
+"mojoPortal.Data.SqlParameterHelper*
+
+connectionStringstring*
+
+procNamestring"Ø
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csã ã(J-
++
+%10$System.Data.SqlClient.SqlParameter[]*õ
+3~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csç	 ç(	"ï
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SQLParameterHelper.csç ç(	
+implicit return:
+connectionStringstring:
+procNamestringB&$
+"mojoPortal.Data.SqlParameterHelper

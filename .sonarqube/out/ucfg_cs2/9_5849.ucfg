@@ -1,0 +1,178 @@
+
+TmojoPortal.Web.ApplicationContactList.CreateApplicationContactList(string, string[])Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csY Y(2"0*È
+0Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs[ [(+‘
+—
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs[ [(,
+
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+strCidstring*
+1
+2*Ò
+1Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs] ](Jƒ¡
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs] ](K
+%1System.ArgumentException"System.ArgumentExceptionò
+ï
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs] ](+
+
+%2void":System.ArgumentException.ArgumentException(string, string)* 
+
+%1System.ArgumentException*
+Cid cannot be null*
+
+strCid*
+3*Ü
+2Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs` `(+Ò
+Ó
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs` `(+
+
+%3bool""object.operator ==(object, object)*
+"
+object*!
+
+applicationContactsstring[]*
+""*
+4
+5*Ê
+5Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs`/ `(N—
+Œ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cs`/ `(I	
+%4int"System.Array.Length.get*!
+
+applicationContactsstring[]*
+4
+6*â
+4Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csb b(lƒ¡
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csb b(m
+%5System.ArgumentException"System.ArgumentException∞
+≠
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csb b(+
+
+%6void"2System.ArgumentException.ArgumentException(string)* 
+
+%5System.ArgumentException*B@
+>There should be atleast one contact in the applicationContacts*
+3*˘
+6Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.cse f(.‰
+·
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csf f(/
+
+%7bool"long.TryParse(string, out long)*"
+long*
+
+strCidstring*
+
+cidlong*
+7
+8*Ó
+7Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csh h(Gƒ¡
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csh h(H
+%8System.ArgumentException"System.ArgumentExceptionï
+í
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csh h(+
+
+%9void":System.ArgumentException.ArgumentException(string, string)* 
+
+%8System.ArgumentException*
+Invalid Identifier*
+cid*
+3*µ
+8Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csk n(E“
+œ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csk7 k(Q
+
+%10int"System.Array.Length.get*!
+
+applicationContactsstring[]Œ
+À
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csk k(R4
+appContactCids"System.Collections.Generic.List<T>"__id*
+""*
+9*î
+9Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csy	 y(	*
+10
+11*ê
+10Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csp p(E¯
+ı
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csp p(F
+%11bool"long.TryParse(string, out long)*"
+long*
+
+applicationContactstring*
+
+
+contactCidlong*
+12
+13*Å
+12Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csr r(Z≈¬
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csr r([
+%12System.ArgumentException"System.ArgumentException¶
+£
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csr r(/
+%13void":System.ArgumentException.ArgumentException(string, string)*!
+
+%12System.ArgumentException*
+Invalid Identifier*
+applicationContact*
+3*ê
+13Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csu u(-*
+9*·
+11Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csx x(Rˇ
+¸
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csx: x(R
+%14long[]",System.Collections.Generic.List<T>.ToArray()*6
+4
+appContactCids"System.Collections.Generic.List<T>∂
+≥
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csx x(S
+%15string"PmojoPortal.Web.ApplicationContactList.CreateApplicationContactList(long, long[])*)'
+%mojoPortal.Web.ApplicationContactList*
+
+cidlong*
+
+%14long[]"ò
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csx x(T
+
+%15string*©
+3Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csy	 y(	"ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLiveApplicationContactList.csy y(	
+implicit return:
+strCidstring:
+applicationContactsstring[]B)'
+%mojoPortal.Web.ApplicationContactList

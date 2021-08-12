@@ -1,0 +1,148 @@
+
+DmojoPortal.Web.UI.Pages.HelpEdit.Page_Load(object, System.EventArgs)e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs ( "0*ò
+0e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs (Á
+¾
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs (7
+
+%0bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtilsº
+·
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs (7:"
+ mojoPortal.Web.UI.Pages.HelpEdit"
+isSiteEditorbool"__id*
+
+
+%0bool}
+{
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs (
+%1"__id*
+""*
+1
+2*Ù
+1e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs" (@ä
+á
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs# (@
+
+%2bool"@mojoPortal.Business.WebHelpers.WebUser.IsAdminOrContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+3
+2*ä
+3e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs (9†
+ƒ
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs (:
+
+%3void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*$"
+ mojoPortal.Web.UI.Pages.HelpEdit"o
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs (
+""*ð
+2e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs !(5‡
+„
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs (?&
+%4 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperò
+ï
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs (?V"
+ mojoPortal.Web.UI.Pages.HelpEdit"0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%4 mojoPortal.Business.SiteSettingsÀ
+½
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs! !(
+%5System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Pageç
+ä
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs! !(8
+%62System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%5System.Web.HttpRequestŽ‹
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs! !(-
+%7string">System.Collections.Specialized.NameValueCollection.Get(string)*:
+8
+%62System.Collections.Specialized.NameValueCollection*	
+helpkey2Get(string)¾
+»
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs! !(5
+
+%8bool""string.operator !=(string, string)*
+"
+string*
+
+%7string*
+""*
+4
+5*í
+4e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs# #(6À
+½
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs# #(!
+%9System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Pageè
+å
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs# #((9
+%102System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%9System.Web.HttpRequest
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs# #(7
+%11string">System.Collections.Specialized.NameValueCollection.Get(string)*;
+9
+%102System.Collections.Specialized.NameValueCollection*	
+helpkey2Get(string)º
+·
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs# #(77"
+ mojoPortal.Web.UI.Pages.HelpEdit"
+helpKeystring"__id*
+
+%11string*
+5*ú
+5e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs& *(Ð
+Í
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs& &(
+%12void"1mojoPortal.Web.UI.Pages.HelpEdit.PopulateLabels()*$"
+ mojoPortal.Web.UI.Pages.HelpEdit²
+¯
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs* *(
+%13bool"!System.Web.UI.Page.IsPostBack.get*
+System.Web.UI.Page*
+6
+7*Ä
+6e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs, ,("Ò
+Ï
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs, ,("
+%14void"3mojoPortal.Web.UI.Pages.HelpEdit.PopulateControls()*$"
+ mojoPortal.Web.UI.Pages.HelpEdit*
+7*è
+7e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs.	 .(	"|
+e
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HelpEdit.aspx.cs. .(	
+implicit return:
+senderobject:
+eSystem.EventArgsB$"
+ mojoPortal.Web.UI.Pages.HelpEdit

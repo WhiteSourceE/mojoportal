@@ -1,0 +1,74 @@
+
+=mojoPortal.MediaPlayer.Data.DBMediaPlayer.DeleteByModule(int)è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.cs` `()"0*Å
+0è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.csb e($Ü
+É
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.csb< b(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionString‰·
+ê
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.csb% b(å(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper“
+œ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.csb) b(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*!
+mp_MediaPlayer_DeleteByModule*2Û
+
+ê
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.csb b(å)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper©
+¶
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.csc0 c(=
+%3"__id*
+""©
+¶
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.csc? c(W
+%4"__id*
+""Û
+
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.csc c(b
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@ModuleID*
+
+%3*
+
+%4*
+""É
+Ä
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.csd d(4	
+%6int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperΩ
+∫
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.csd d(4
+rowsAffectedint"__id*
+	
+%6int"ö
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.cse e(&
+""*ø
+1è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.csg	 g(	"ß
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\KDMediaPlayer\DBMediaPlayer.csg g(	
+implicit return:
+moduleIdintB-"+
+)mojoPortal.MediaPlayer.Data.DBMediaPlayer

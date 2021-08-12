@@ -1,0 +1,668 @@
+
+9mojoPortal.Business.LetterInfo.GetLetterInfo(System.Guid)z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csG G("0*Õ
+0z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csI I(J˙
+˜
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csI( I(K
+%0System.Data.IDataReader"0mojoPortal.Data.DBLetterInfo.GetOne(System.Guid)* "
+mojoPortal.Data.DBLetterInfo*
+""…
+∆
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csI I(K!
+readerSystem.Data.IDataReader"__id*
+
+%0System.Data.IDataReader*
+1*‚
+1z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csK K(!ÿ’
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csK K(!
+
+%1bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*Ò≠
+2z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csM k(CÇˇ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csM3 M(K
+%2object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+LetterInfoGuid2this[string].getºπ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csM3 M(V
+%3string"object.ToString()*
+
+%2object2
+ToString()üú
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csM* M(W
+%4System.Guid"System.Guid 
+«
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csM. M(2
+
+%5void"System.Guid.Guid(string)*
+
+%4System.Guid*
+
+%3string˛
+˚
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csM M(W
+%6System.Guid"1mojoPortal.Business.LetterInfo.LetterInfoGuid.set*" 
+mojoPortal.Business.LetterInfo*
+
+%4System.Guid¸˘
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csN- N(?
+%7object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SiteGuid2this[string].getºπ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csN- N(J
+%8string"object.ToString()*
+
+%7object2
+ToString()üú
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csN$ N(K
+%9System.Guid"System.GuidÀ
+»
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csN( N(,
+%10void"System.Guid.Guid(string)*
+
+%9System.Guid*
+
+%8string˘
+ˆ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csN N(K
+%11System.Guid"+mojoPortal.Business.LetterInfo.SiteGuid.set*" 
+mojoPortal.Business.LetterInfo*
+
+%9System.Guid˙˜
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csO! O(0
+%12object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Title2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csO! O(;
+%13string"object.ToString()*
+
+%12object2
+ToString()Ì
+Í
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csO O(;
+%14string"(mojoPortal.Business.LetterInfo.Title.set*" 
+mojoPortal.Business.LetterInfo*
+
+%13stringÄ˝
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csP' P(<
+%15object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Description2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csP' P(G
+%16string"object.ToString()*
+
+%15object2
+ToString()Û
+
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csP P(G
+%17string".mojoPortal.Business.LetterInfo.Description.set*" 
+mojoPortal.Business.LetterInfo*
+
+%16stringÖÇ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csQ, Q(F
+%18object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+AvailableToRoles2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csQ, Q(Q
+%19string"object.ToString()*
+
+%18object2
+ToString()¯
+ı
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csQ Q(Q
+%20string"3mojoPortal.Business.LetterInfo.AvailableToRoles.set*" 
+mojoPortal.Business.LetterInfo*
+
+%19string¸˘
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csR5 R(F
+%21object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Enabled2this[string].get”
+–
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csR# R(G
+%22bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%21objectÎ
+Ë
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csR R(G
+%23bool"*mojoPortal.Business.LetterInfo.Enabled.set*" 
+mojoPortal.Business.LetterInfo*
+
+%22boolÜÉ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csS? S(Z
+%24object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+AllowUserFeedback2this[string].get”
+–
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csS- S([
+%25bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%24objectı
+Ú
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csS S([
+%26bool"4mojoPortal.Business.LetterInfo.AllowUserFeedback.set*" 
+mojoPortal.Business.LetterInfo*
+
+%25boolÜÉ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csT? T(Z
+%27object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+AllowAnonFeedback2this[string].get”
+–
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csT- T([
+%28bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%27objectı
+Ú
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csT T([
+%29bool"4mojoPortal.Business.LetterInfo.AllowAnonFeedback.set*" 
+mojoPortal.Business.LetterInfo*
+
+%28boolÄ˝
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csU' U(<
+%30object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+FromAddress2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csU' U(G
+%31string"object.ToString()*
+
+%30object2
+ToString()Û
+
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csU U(G
+%32string".mojoPortal.Business.LetterInfo.FromAddress.set*" 
+mojoPortal.Business.LetterInfo*
+
+%31string˝˙
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csV$ V(6
+%33object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+FromName2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csV$ V(A
+%34string"object.ToString()*
+
+%33object2
+ToString()
+Ì
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csV V(A
+%35string"+mojoPortal.Business.LetterInfo.FromName.set*" 
+mojoPortal.Business.LetterInfo*
+
+%34stringÉÄ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csW* W(B
+%36object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ReplyToAddress2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csW* W(M
+%37string"object.ToString()*
+
+%36object2
+ToString()ˆ
+Û
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csW W(M
+%38string"1mojoPortal.Business.LetterInfo.ReplyToAddress.set*" 
+mojoPortal.Business.LetterInfo*
+
+%37string˝˙
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csX4 X(F
+%39object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SendMode2this[string].get–
+Õ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csX$ X(G
+
+%40int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%39objectÍ
+Á
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csX X(G
+
+%41int"+mojoPortal.Business.LetterInfo.SendMode.set*" 
+mojoPortal.Business.LetterInfo*
+
+
+%40intàÖ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csYA Y(^
+%42object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+EnableViewAsWebPage2this[string].get”
+–
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csY/ Y(_
+%43bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%42object˜
+Ù
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csY Y(_
+%44bool"6mojoPortal.Business.LetterInfo.EnableViewAsWebPage.set*" 
+mojoPortal.Business.LetterInfo*
+
+%43boolÇˇ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csZ; Z(R
+%45object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+EnableSendLog2this[string].get”
+–
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csZ) Z(S
+%46bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%45objectÒ
+Ó
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csZ Z(S
+%47bool"0mojoPortal.Business.LetterInfo.EnableSendLog.set*" 
+mojoPortal.Business.LetterInfo*
+
+%46boolÖÇ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs[, [(F
+%48object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+RolesThatCanEdit2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs[, [(Q
+%49string"object.ToString()*
+
+%48object2
+ToString()¯
+ı
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs[ [(Q
+%50string"3mojoPortal.Business.LetterInfo.RolesThatCanEdit.set*" 
+mojoPortal.Business.LetterInfo*
+
+%49stringàÖ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs\/ \(L
+%51object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+RolesThatCanApprove2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs\/ \(W
+%52string"object.ToString()*
+
+%51object2
+ToString()˚
+¯
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs\ \(W
+%53string"6mojoPortal.Business.LetterInfo.RolesThatCanApprove.set*" 
+mojoPortal.Business.LetterInfo*
+
+%52stringÖÇ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs], ](F
+%54object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+RolesThatCanSend2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs], ](Q
+%55string"object.ToString()*
+
+%54object2
+ToString()¯
+ı
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs] ](Q
+%56string"3mojoPortal.Business.LetterInfo.RolesThatCanSend.set*" 
+mojoPortal.Business.LetterInfo*
+
+%55stringÑÅ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs^; ^(T
+%57object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+SubscriberCount2this[string].get–
+Õ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs^+ ^(U
+
+%58int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%57objectÒ
+Ó
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs^ ^(U
+
+%59int"2mojoPortal.Business.LetterInfo.SubscriberCount.set*" 
+mojoPortal.Business.LetterInfo*
+
+
+%58intÑÅ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs_; _(T
+%60object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+UnVerifiedCount2this[string].get–
+Õ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs_+ _(U
+
+%61int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%60objectÒ
+Ó
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs_ _(U
+
+%62int"2mojoPortal.Business.LetterInfo.UnVerifiedCount.set*" 
+mojoPortal.Business.LetterInfo*
+
+
+%61intˇ¸
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs`9 `(M
+%63object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CreatedUTC2this[string].getﬂ
+‹
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs`& `(N
+%64System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%63objectÑ
+Å
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cs` `(N
+%65System.DateTime"-mojoPortal.Business.LetterInfo.CreatedUtc.set*" 
+mojoPortal.Business.LetterInfo*
+
+%64System.DateTime˛˚
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csa. a(A
+%66object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	CreatedBy2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csa. a(L
+%67string"object.ToString()*
+
+%66object2
+ToString()†ù
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csa% a(M
+%68System.Guid"System.GuidÕ
+ 
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csa) a(-
+%69void"System.Guid.Guid(string)*
+
+%68System.Guid*
+
+%67string˚
+¯
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csa a(M
+%70System.Guid",mojoPortal.Business.LetterInfo.CreatedBy.set*" 
+mojoPortal.Business.LetterInfo*
+
+%68System.Guidˇ¸
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csb9 b(M
+%71object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+LastModUTC2this[string].getﬂ
+‹
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csb& b(N
+%72System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%71objectÑ
+Å
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csb b(N
+%73System.DateTime"-mojoPortal.Business.LetterInfo.LastModUtc.set*" 
+mojoPortal.Business.LetterInfo*
+
+%72System.DateTime˛˚
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csc. c(A
+%74object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	LastModBy2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csc. c(L
+%75string"object.ToString()*
+
+%74object2
+ToString()†ù
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csc% c(M
+%76System.Guid"System.GuidÕ
+ 
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csc) c(-
+%77void"System.Guid.Guid(string)*
+
+%76System.Guid*
+
+%75string˚
+¯
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csc c(M
+%78System.Guid",mojoPortal.Business.LetterInfo.LastModBy.set*" 
+mojoPortal.Business.LetterInfo*
+
+%76System.GuidÖÇ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cse> e(X
+%79object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+AllowArchiveView2this[string].get”
+–
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cse, e(Y
+%80bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%79objectÙ
+Ò
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.cse e(Y
+%81bool"3mojoPortal.Business.LetterInfo.AllowArchiveView.set*" 
+mojoPortal.Business.LetterInfo*
+
+%80boolÅ˛
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csf: f(P
+%82object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ProfileOptIn2this[string].get”
+–
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csf( f(Q
+%83bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%82object
+Ì
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csf f(Q
+%84bool"/mojoPortal.Business.LetterInfo.ProfileOptIn.set*" 
+mojoPortal.Business.LetterInfo*
+
+%83bool˝˙
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csg4 g(F
+%85object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SortRank2this[string].get–
+Õ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csg$ g(G
+
+%86int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%85objectÍ
+Á
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csg g(G
+
+%87int"+mojoPortal.Business.LetterInfo.SortRank.set*" 
+mojoPortal.Business.LetterInfo*
+
+
+%86intáÑ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csi. i(J
+%88object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+DisplayNameDefault2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csi. i(U
+%89string"object.ToString()*
+
+%88object2
+ToString()˙
+˜
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csi i(U
+%90string"5mojoPortal.Business.LetterInfo.DisplayNameDefault.set*" 
+mojoPortal.Business.LetterInfo*
+
+%89stringÖÇ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csj, j(F
+%91object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+FirstNameDefault2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csj, j(Q
+%92string"object.ToString()*
+
+%91object2
+ToString()¯
+ı
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csj j(Q
+%93string"3mojoPortal.Business.LetterInfo.FirstNameDefault.set*" 
+mojoPortal.Business.LetterInfo*
+
+%92stringÑÅ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csk+ k(D
+%94object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+LastNameDefault2this[string].getæª
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csk+ k(O
+%95string"object.ToString()*
+
+%94object2
+ToString()˜
+Ù
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csk k(O
+%96string"2mojoPortal.Business.LetterInfo.LastNameDefault.set*" 
+mojoPortal.Business.LetterInfo*
+
+%95string*
+3*Ñ
+3z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csq	 q(	*
+4*ì
+4z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csq	 q(	"ë
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ELetter\LetterInfo.csq q(	
+implicit return:
+letterInfoGuidSystem.GuidB" 
+mojoPortal.Business.LetterInfo

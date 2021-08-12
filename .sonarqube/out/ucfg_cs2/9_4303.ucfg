@@ -1,0 +1,322 @@
+
+ñmojoPortal.Web.TreeViewAdapter.WriteNodeCheckbox(System.Web.UI.WebControls.TreeView, System.Web.UI.WebControls.TreeNode, System.Web.UI.HtmlTextWriter){
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csì ì(&"0*“!
+0{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csï ö(Såâ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csï ï()
+
+%0void"2System.Web.UI.HtmlTextWriter.WriteBeginTag(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*	
+input2WriteBeginTag(string)´®
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csñ ñ(5
+
+%1void";System.Web.UI.HtmlTextWriter.WriteAttribute(string, string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+type*
+
+checkbox2WriteAttribute(string, string)ÚÔ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csó( ó(9
+%2string""System.Web.UI.Control.ClientID.get*0
+.
+treeView"System.Web.UI.WebControls.TreeView2ClientID.getØ
+¨
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csó( ó(?
+%3string"__concat*
+
+%2string*
+nî
+ë
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csóB ó(P
+%4"__id*
+""¶
+£
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csóB ó([
+%5string"int.ToString()*
+
+%4∏
+µ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csó( ó([
+%6string"__concat*
+
+%3string*
+
+%5string∂
+≥
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csó( ó(h
+%7string"__concat*
+
+%6string*
+
+CheckBox´®
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csó ó(i
+
+%8void";System.Web.UI.HtmlTextWriter.WriteAttribute(string, string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+id*
+
+%7string2WriteAttribute(string, string)ÚÔ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csò* ò(;
+%9string""System.Web.UI.Control.UniqueID.get*0
+.
+treeView"System.Web.UI.WebControls.TreeView2UniqueID.get∞
+≠
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csò* ò(A
+%10string"__concat*
+
+%9string*
+nï
+í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csòD ò(R
+%11"__id*
+""®
+•
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csòD ò(]
+%12string"int.ToString()*
+
+%11ª
+∏
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csò* ò(]
+%13string"__concat*
+
+%10string*
+
+%12string∏
+µ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csò* ò(j
+%14string"__concat*
+
+%13string*
+
+CheckBoxØ¨
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csò ò(k
+%15void";System.Web.UI.HtmlTextWriter.WriteAttribute(string, string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+name*
+
+%14string2WriteAttribute(string, string)ë
+é
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csö& ö(9(
+%16!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*0
+.
+treeView"System.Web.UI.WebControls.TreeViewå
+â
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csö& ö(T
+%17string"2System.Web.UI.AttributeCollection.this[string].get**
+(
+%16!System.Web.UI.AttributeCollection*
+OnClientClickedCheckbox»
+≈
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csö ö(U
+%18bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+%17string*
+1
+2*›
+1{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csú ú(^ë
+é
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csú1 ú(D(
+%19!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*0
+.
+treeView"System.Web.UI.WebControls.TreeViewå
+â
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csú1 ú(_
+%20string"2System.Web.UI.AttributeCollection.this[string].get**
+(
+%19!System.Web.UI.AttributeCollection*
+OnClientClickedCheckbox≤Ø
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csú ú(`
+%21void";System.Web.UI.HtmlTextWriter.WriteAttribute(string, string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*	
+onclick*
+
+%20string2WriteAttribute(string, string)*
+2*ˆ
+2{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csü ü(Î
+Ë
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csü ü(
+%22bool".System.Web.UI.WebControls.TreeNode.Checked.get*,
+*
+item"System.Web.UI.WebControls.TreeNode*
+3
+4*∂
+3{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs° °(:Æ´
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs° °(;
+%23void";System.Web.UI.HtmlTextWriter.WriteAttribute(string, string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*	
+checked*	
+checked2WriteAttribute(string, string)*
+4*÷
+4{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs£ •(/ï
+í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs£ £(9
+%24"__id*
+""˚¯
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs£ £(:
+%25void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%242Write(string)Í
+Á
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs•& •(/
+%26string"+System.Web.UI.WebControls.TreeNode.Text.get*,
+*
+item"System.Web.UI.WebControls.TreeNode»
+≈
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs• •(0
+%27bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+%26string*
+5
+6*Æ
+5{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csß ¨(*ÓÎ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csß ß("
+%28void"(System.Web.UI.HtmlTextWriter.WriteLine()*(
+&
+writerSystem.Web.UI.HtmlTextWriter2WriteLine()çä
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs® ®(-
+%29void"2System.Web.UI.HtmlTextWriter.WriteBeginTag(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*	
+label2WriteBeginTag(string)Û
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs©- ©(>
+%30string""System.Web.UI.Control.ClientID.get*0
+.
+treeView"System.Web.UI.WebControls.TreeView2ClientID.get±
+Æ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs©- ©(D
+%31string"__concat*
+
+%30string*
+nï
+í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs©G ©(U
+%32"__id*
+""®
+•
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs©G ©(`
+%33string"int.ToString()*
+
+%32ª
+∏
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs©- ©(`
+%34string"__concat*
+
+%31string*
+
+%33string∏
+µ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs©- ©(m
+%35string"__concat*
+
+%34string*
+
+CheckBoxÆ´
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs© ©(n
+%36void";System.Web.UI.HtmlTextWriter.WriteAttribute(string, string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+for*
+
+%35string2WriteAttribute(string, string)ï
+í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs™ ™(8
+%37"__id*
+""˜Ù
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs™ ™(9
+%38void"(System.Web.UI.HtmlTextWriter.Write(char)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%372Write(char)Í
+Á
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs´ ´(&
+%39string"+System.Web.UI.WebControls.TreeNode.Text.get*,
+*
+item"System.Web.UI.WebControls.TreeNodeÉÄ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs´ ´('
+%40void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%39string2Write(string)âÜ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs¨ ¨(+
+%41void"0System.Web.UI.HtmlTextWriter.WriteEndTag(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*	
+label2WriteEndTag(string)*
+6*ù
+6{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csØ Ø(ï
+í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.csØ Ø(
+%42"__id*
+""*
+7*ï
+7{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs∞	 ∞(	"í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Adapters\TreeViewAdapter.cs∞ ∞(	
+implicit return:.
+treeView"System.Web.UI.WebControls.TreeView:*
+item"System.Web.UI.WebControls.TreeNode:&
+writerSystem.Web.UI.HtmlTextWriterB" 
+mojoPortal.Web.TreeViewAdapter

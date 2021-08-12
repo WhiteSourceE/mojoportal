@@ -1,0 +1,102 @@
+
+9mojoPortal.Data.DBUserClaims.DeleteByUser(string, string)v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs9 9('"0*õ
+0v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs; ?($Ï
+È
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs;< ;(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionString «
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs;% ;(è(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperª
+∏
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs;) ;(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*$"
+ mp_UserClaims_DeleteByUserByType*2Ÿ
+÷
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs; ;(è)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperè
+å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs<. <(@
+%3"__id*
+""è
+å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs<G <(_
+%4"__id*
+""
+Ì
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs< <(h
+
+%5void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@UserId*
+
+%3*2Ä*
+
+%4*
+
+userIdstringè
+å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs=1 =(C
+%6"__id*
+""è
+å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs=I =(a
+%7"__id*
+""˜
+Ù
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs= =(m
+
+%8void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@ClaimType*
+
+%6*
+""*
+
+%7*
+
+	claimTypestringÈ
+Ê
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs> >(4	
+%9int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper£
+†
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs> >(4
+rowsAffectedint"__id*
+	
+%9int"Ä
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.cs? ?(&
+""*ã
+1v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.csA	 A(	"ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBUserClaims.csA A(	
+implicit return:
+userIdstring:
+	claimTypestringB "
+mojoPortal.Data.DBUserClaims

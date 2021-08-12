@@ -1,0 +1,161 @@
+
+=mojoPortal.Data.DBSiteUser.GetUserGuidFromOpenId(int, string)v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.cs‚ ‚(*"0*Ï
+0v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÊ Ï(2Î
+Ë
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÊ3 Ê(]
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionString «
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÊ Ê(É(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperπ
+∂
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÊ  Ê(2
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*" 
+mp_Users_SelectGuidByOpenIDURI*2Ÿ
+÷
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÊ Ê(É)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperè
+å
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÁ% Á(2
+%3"__id*
+""è
+å
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÁ4 Á(L
+%4"__id*
+""◊
+‘
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÁ Á(U
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@SiteID*
+
+%3*
+
+%4*
+""è
+å
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csË( Ë(:
+%6"__id*
+""è
+å
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csËA Ë(Y
+%7"__id*
+""ı
+Ú
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csË Ë(e
+
+%8void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@OpenIDURI*
+
+%6*2d*
+
+%7*
+
+	openIduristringè
+å
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÍ Í(
+%9"__id*
+""¢
+ü
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÍ Í(
+userGuidSystem.Guid"__id*
+
+%9¸
+˘
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÏ Ï(2
+%10System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper∆
+√
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÏ Ï(2!
+readerSystem.Data.IDataReader"__id* 
+
+%10System.Data.IDataReader*
+1*€
+1v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÓ Ó(’“
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÓ Ó(
+%11bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*◊
+2v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.cs (*˘ˆ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.cs (+
+%12object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UserGuid2this[string].get∫∑
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.cs (6
+%13string"object.ToString()*
+
+%12object2
+ToString()úô
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.cs (7
+%14System.Guid"System.Guid…
+∆
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.cs (
+%15void"System.Guid.Guid(string)*
+
+%14System.Guid*
+
+%13string∞
+≠
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.cs (7
+userGuidSystem.Guid"__id*
+
+%14System.Guid*
+3*Ä
+3v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csı ı(*
+4*ë
+4v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÙ
+ Ù("ì
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csÙ Ù(
+
+userGuidSystem.Guid*ã
+5v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csı ı("ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csı ı(
+implicit return:
+siteIdint:
+	openIduristringB"
+mojoPortal.Data.DBSiteUser

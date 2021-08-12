@@ -1,0 +1,233 @@
+
+#mojoPortal.Web.SiteUtils.ForceSsl()n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csñ ñ("0*Ÿ
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csò ò("€
+ÿ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csò ò("
+
+%0bool"3mojoPortal.Core.Helpers.WebHelper.IsSecureRequest()*%"#
+!mojoPortal.Core.Helpers.WebHelper*
+1
+2*∆
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csò& ò(7»
+≈
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csò' ò(7
+
+%1bool")mojoPortal.Web.SiteUtils.SslIsAvailable()*"
+mojoPortal.Web.SiteUtils*
+1
+3*Ì
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csπ π("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csò; ò(B
+""*„
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csö ö(3Â
+‚
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csö ö(3
+
+%2bool">mojoPortal.Web.WebConfigSettings.ProxyPreventsSSLDetection.get*$""
+ mojoPortal.Web.WebConfigSettings*
+4
+5*Ü
+
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csú ù("—
+Œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csú ú((
+%3System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext’
+“
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csú ú(0
+%4System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%3System.Web.HttpContext≈
+¬
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csú ú(4
+%5
+System.Uri"System.Web.HttpRequest.Url.get*
+
+%4System.Web.HttpRequest∏µ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csú ú(?
+%6string"System.Uri.ToString()*
+
+%5
+System.Uri2
+ToString()ú
+ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csú ú(?
+pageUrlstring"__id*
+
+%6string∫
+∑
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csù ù(#
+
+%7bool"string.StartsWith(string)*
+
+pageUrlstring*	
+http:*
+6
+5*›
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csü °(.ﬂ
+‹
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs°	 °(.
+
+%8bool"8mojoPortal.Web.WebConfigSettings.IsRunningInRootSite.get*$""
+ mojoPortal.Web.WebConfigSettings*
+7
+8*§
+
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs£ §(*ﬂ
+‹
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs£ £(.
+%9string"5mojoPortal.Web.Framework.WebUtils.GetSecureSiteRoot()*%"#
+!mojoPortal.Web.Framework.WebUtils“
+œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §(
+%10System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext◊
+‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §(#
+%11System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%10System.Web.HttpContext∆
+√
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §(*
+%12string"!System.Web.HttpRequest.RawUrl.get*
+
+%11System.Web.HttpRequest≠
+™
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs£ §(*
+%13string"__concat*
+
+%9string*
+
+%12stringü
+ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs£ §(*
+	secureUrlstring"__id*
+
+%13string*
+9*¶
+
+8n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs® ©(*‡
+›
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs® ®(.
+%14string"5mojoPortal.Web.Framework.WebUtils.GetSecureHostRoot()*%"#
+!mojoPortal.Web.Framework.WebUtils“
+œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs© ©(
+%15System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext◊
+‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs© ©(#
+%16System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%15System.Web.HttpContext∆
+√
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs© ©(*
+%17string"!System.Web.HttpRequest.RawUrl.get*
+
+%16System.Web.HttpRequestÆ
+´
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs® ©(*
+%18string"__concat*
+
+%14string*
+
+%17stringü
+ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs® ©(*
+	secureUrlstring"__id*
+
+%18string*
+9*Â
+9n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¨	 ¨(3Â
+‚
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¨	 ¨(3
+%19bool"=mojoPortal.Web.WebConfigSettings.RedirectSslWith301Status.get*$""
+ mojoPortal.Web.WebConfigSettings*
+10
+11*ß
+10n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÆ Æ(D“
+œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÆ Æ(
+%20System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextŸ
+÷
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÆ Æ("
+%21System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%20System.Web.HttpContext˙
+˜
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÆ Æ(E
+%22void"7System.Web.HttpResponse.RedirectPermanent(string, bool)* 
+
+%21System.Web.HttpResponse*
+
+	secureUrlstring*
+""*
+5*û
+11n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs≤ ≤(;“
+œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs≤ ≤(
+%23System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextŸ
+÷
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs≤ ≤("
+%24System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%23System.Web.HttpContextÒ
+Ó
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs≤ ≤(<
+%25void".System.Web.HttpResponse.Redirect(string, bool)* 
+
+%24System.Web.HttpResponse*
+
+	secureUrlstring*
+""*
+5*˚
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csπ π("Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csπ π(
+implicit returnB"
+mojoPortal.Web.SiteUtils

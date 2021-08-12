@@ -1,0 +1,373 @@
+
+£mojoPortal.Data.DBModuleDefinition.UpdateModuleDefinitionSettingById(int, int, string, string, string, string, string, string, string, string, int, string, string)~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs” ”(<"0*ÒS
+0~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs£ ²(%ô
+ñ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs£< £(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÒÏ
+
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs£% £(–(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÉ
+Æ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs£) £(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string**(
+&mp_ModuleDefinitionSettings_UpdateByID*2á
+Þ
+
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs£ £(–)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper—
+”
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¤* ¤(7
+%3"__id*
+""—
+”
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¤9 ¤(Q
+%4"__id*
+""Û
+Ø
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¤ ¤(V
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ID*
+
+%3*
+
+%4*
+""—
+”
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¥3 ¥(@
+%6"__id*
+""—
+”
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¥B ¥(Z
+%7"__id*
+""ä
+á
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¥ ¥(h
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ModuleDefID*
+
+%6*
+
+%7*
+""—
+”
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¦3 ¦(E
+%9"__id*
+""˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¦K ¦(c
+%10"__id*
+""ƒ
+€
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¦ ¦(q
+%11void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SettingName*
+
+%9*22*
+
+%10*
+
+settingNamestring˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs§4 §(F
+%12"__id*
+""˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs§L §(d
+%13"__id*
+""ˆ
+…
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs§ §(s
+%14void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SettingValue*
+
+%12*
+""*
+
+%13*
+
+settingValuestring˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¨3 ¨(E
+%15"__id*
+""˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¨K ¨(c
+%16"__id*
+""„
+
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¨ ¨(q
+%17void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ControlType*
+
+%15*22*
+
+%16*
+
+controlTypestring˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs©A ©(S
+%18"__id*
+""˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs©Y ©(q
+%19"__id*
+""£
+ 
+
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs© ©(
+%20void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@RegexValidationExpression*
+
+%18*
+""*
+
+%19*%
+#
+regexValidationExpressionstring˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csª4 ª(F
+%21"__id*
+""˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csªM ª(e
+%22"__id*
+""‡
+„
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.csª ª(t
+%23void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ResourceFile*
+
+%21*2ÿ*
+
+%22*
+
+resourceFilestring˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs«2 «(D
+%24"__id*
+""˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs«K «(c
+%25"__id*
+""ƒ
+€
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs« «(p
+%26void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ControlSrc*
+
+%24*2ÿ*
+
+%25*
+
+
+controlSrcstring˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¬/ ¬(A
+%27"__id*
+""˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¬H ¬(`
+%28"__id*
+""ý
+ú
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¬ ¬(j
+%29void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@HelpKey*
+
+%27*2ÿ*
+
+%28*
+
+helpKeystring˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs­1 ­(>
+%30"__id*
+""˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs­@ ­(X
+%31"__id*
+""å
+â
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs­ ­(d
+%32void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@SortOrder*
+
+%30*
+
+%31*
+""˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs®1 ®(C
+%33"__id*
+""˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs®J ®(b
+%34"__id*
+""
+þ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs® ®(n
+%35void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@GroupName*
+
+%33*2ÿ*
+
+%34*
+
+	groupNamestring˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¯2 ¯(A
+%36"__id*
+""˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¯C ¯([
+%37"__id*
+""ö
+ó
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs¯ ¯(h
+%38void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@Attributes*
+
+%36*
+
+%37*
+
+
+attributesstring˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs°/ °(>
+%39"__id*
+""˜
+•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs°@ °(X
+%40"__id*
+""ð
+í
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs° °(b
+%41void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@Options*
+
+%39*
+
+%40*
+
+optionsstringò
+ï
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs± ±(+
+
+%42int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper¬
+©
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs± ±(+
+rowsAffectedint"__id*
+
+
+%42int"ˆ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs² ²('
+""*›
+1~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs³	 ³(	"•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbModuleDefinition.cs³ ³(	
+implicit return:	
+idint:
+moduleDefIdint:
+resourceFilestring:
+	groupNamestring:
+settingNamestring:
+settingValuestring:
+controlTypestring:#
+regexValidationExpressionstring:
+
+controlSrcstring:
+helpKeystring:
+	sortOrderint:
+
+attributesstring:
+optionsstringB&"$
+"mojoPortal.Data.DBModuleDefinition

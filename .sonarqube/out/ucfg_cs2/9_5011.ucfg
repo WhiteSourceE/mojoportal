@@ -1,0 +1,148 @@
+
+]mojoPortal.Web.DevAdmin.Controls.QueryTool.btnExecuteNonQuery_Click(object, System.EventArgs)z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.csœ œ(%"0*Ú
+0z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.csž ž(0…
+‚
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.csž ž("
+%0mojoPortal.Web.UI.CodeEditor"__id*Z*X,
+*mojoPortal.Web.DevAdmin.Controls.QueryTool"(
+txtQuerymojoPortal.Web.UI.CodeEditoréæ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.csž ž(
+%1string"*System.Web.UI.WebControls.TextBox.Text.get*$
+"
+%0mojoPortal.Web.UI.CodeEditor2Text.get¬
+©
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.csž ž($
+%2string"string.Trim()*
+
+%1string­
+ª
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.csž ž(+	
+%3int"string.Length.get*
+
+%2string*
+1
+2*à
+1z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs   (7‹
+ˆ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs   (%
+%4System.Web.UI.WebControls.Label"__id*]*[,
+*mojoPortal.Web.DevAdmin.Controls.QueryTool"+
+lblErrorSystem.Web.UI.WebControls.LabelÌ
+É
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs    (7
+%5string"%Resources.DevTools.NoQueryWarning.get*"
+Resources.DevToolsú÷
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs   (7
+%6string"(System.Web.UI.WebControls.Label.Text.set*'
+%
+%4System.Web.UI.WebControls.Label*
+
+%5string2Text.set"„
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¡ ¡(
+""*ƒ
+2z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¦ §(Sé
+æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¦A ¦(Y
+%7string"__id*T*R,
+*mojoPortal.Web.DevAdmin.Controls.QueryTool""
+overrideConnectionStringstring…
+‚
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¦[ ¦(c"
+%8mojoPortal.Web.UI.CodeEditor"__id*Z*X,
+*mojoPortal.Web.DevAdmin.Controls.QueryTool"(
+txtQuerymojoPortal.Web.UI.CodeEditoréæ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¦[ ¦(h
+%9string"*System.Web.UI.WebControls.TextBox.Text.get*$
+"
+%8mojoPortal.Web.UI.CodeEditor2Text.get–
+“
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¦# ¦(i
+
+%10int"AmojoPortal.Business.DatabaseHelper.ExecteNonQuery(string, string)*&"$
+"mojoPortal.Business.DatabaseHelper*
+
+%7string*
+
+%9string¨
+¥
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¦ ¦(i
+rowsAffectedint"__id*
+
+
+%10intŒ
+‰
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs§ §(&
+%11System.Web.UI.WebControls.Label"__id*]*[,
+*mojoPortal.Web.DevAdmin.Controls.QueryTool"+
+lblErrorSystem.Web.UI.WebControls.Label†
+ƒ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs§  §(@
+%12string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+
+rowsAffectedint½
+º
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs§  §(S
+%13string"__concat*
+
+%12string*
+ rows affectedýú
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs§ §(S
+%14string"(System.Web.UI.WebControls.Label.Text.set*(
+&
+%11System.Web.UI.WebControls.Label*
+
+%13string2Text.set*
+3
+4*ç
+3z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¬ ¬(-Œ
+‰
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¬ ¬(&
+%15System.Web.UI.WebControls.Label"__id*]*[,
+*mojoPortal.Web.DevAdmin.Controls.QueryTool"+
+lblErrorSystem.Web.UI.WebControls.LabelÑÎ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¬  ¬(-
+%16string"System.Exception.ToString()*
+
+exSystem.Exception2
+ToString()ýú
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¬ ¬(-
+%17string"(System.Web.UI.WebControls.Label.Text.set*(
+&
+%15System.Web.UI.WebControls.Label*
+
+%16string2Text.set*
+4*“
+4z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¯	 ¯(	"‘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DevAdmin\Controls\QueryTool.ascx.cs¯ ¯(	
+implicit return:
+senderobject:
+eSystem.EventArgsB.,
+*mojoPortal.Web.DevAdmin.Controls.QueryTool

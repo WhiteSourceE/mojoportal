@@ -1,0 +1,191 @@
+
+5mojoPortal.Web.AdminUI.SalesByItemPage.LoadSettings()p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs— —(!"0*”
+0p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs” ÿ(&Ã
+…
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs” ”(7
+
+%0bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtilsÀ
+»
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs” ”(7@(
+&mojoPortal.Web.AdminUI.SalesByItemPage"
+isSiteEditorbool"__id*
+
+
+%0bool¯
+ı
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs‘7 ‘(C&
+%1 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÎ
+Ë
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs‘7 ‘([
+%2string"<mojoPortal.Business.SiteSettings.CommerceReportViewRoles.get*(
+&
+%1 mojoPortal.Business.SiteSettings˜
+Ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs‘% ‘(\
+
+%3bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%2string’
+“
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs‘ ‘(\J(
+&mojoPortal.Web.AdminUI.SalesByItemPage"
+isCommerceReportViewerbool"__id*
+
+
+%3bool¯
+ı
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs÷@ ÷(L&
+%4 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÛ
+
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs÷@ ÷(Z"
+%5mojoPortal.Business.Currency".mojoPortal.Business.SiteSettings.GetCurrency()*(
+&
+%4 mojoPortal.Business.SiteSettings–
+Õ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs÷@ ÷(_
+%6string"%mojoPortal.Business.Currency.Code.get*$
+"
+%5mojoPortal.Business.Currencyû
+õ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs÷ ÷(`&
+%7 System.Globalization.CultureInfo"BmojoPortal.Web.Framework.ResourceHelper.GetCurrencyCulture(string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*
+
+%6stringÜ
+É
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs÷ ÷(`_(
+&mojoPortal.Web.AdminUI.SalesByItemPage"3
+currencyCulture System.Globalization.CultureInfo"__id*(
+&
+%7 System.Globalization.CultureInfoâ
+Ü
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs◊> ◊(F
+%8"__id*
+""è
+å
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs◊ ◊(G
+%9System.Guid"OmojoPortal.Web.Framework.WebUtils.ParseGuidFromQueryString(string, System.Guid)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+i*
+
+%8’
+“
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs◊ ◊(GC(
+&mojoPortal.Web.AdminUI.SalesByItemPage"
+itemGuidSystem.Guid"__id*
+
+%9System.Guidä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.csÿ ÿ(
+%10"__id*
+""ä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.csÿ ÿ(&
+%11"__id*
+""*
+1
+2*õ
+1p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs⁄ ‹(@ä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs⁄: ⁄(B
+%12"__id*
+""ò
+ï
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs⁄ ⁄(C-
+%13&mojoPortal.Business.CommerceReportItem"=mojoPortal.Business.CommerceReportItem.GetByGuid(System.Guid)**"(
+&mojoPortal.Business.CommerceReportItem*
+
+%12é
+ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs⁄ ⁄(C`(
+&mojoPortal.Web.AdminUI.SalesByItemPage"4
+
+reportItem&mojoPortal.Business.CommerceReportItem"__id*/
+-
+%13&mojoPortal.Business.CommerceReportItemé
+ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs‹ ‹(-
+%14&mojoPortal.Business.CommerceReportItem"__id*b*`(
+&mojoPortal.Web.AdminUI.SalesByItemPage"4
+
+reportItem&mojoPortal.Business.CommerceReportItemÔ
+Ï
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs‹ ‹('
+%15System.Guid"3mojoPortal.Business.CommerceReportItem.SiteGuid.get*/
+-
+%14&mojoPortal.Business.CommerceReportItem˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs‹+ ‹(7'
+%16 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings„
+‡
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs‹+ ‹(@
+%17System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*)
+'
+%16 mojoPortal.Business.SiteSettings*
+3
+2*‚
+3p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs‹D ‹(UÂ
+‚
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs‹D ‹(U`(
+&mojoPortal.Web.AdminUI.SalesByItemPage"4
+
+reportItem&mojoPortal.Business.CommerceReportItem"__id*
+""*
+2*◊
+2p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.csﬂ ‡(,Î
+Ë
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.csﬂ ﬂ(,
+%18void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+administrationÏ
+È
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs‡ ‡(-
+%19void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+commercereports*
+4*ˇ
+4p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs·	 ·(	"á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesByItem.aspx.cs· ·(	
+implicit returnB*(
+&mojoPortal.Web.AdminUI.SalesByItemPage

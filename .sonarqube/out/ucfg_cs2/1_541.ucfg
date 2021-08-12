@@ -1,0 +1,153 @@
+
+VmojoPortal.Data.DBSavedQuery.Update(System.Guid, string, System.DateTime, System.Guid)v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csA A(!"0*˜!
+0v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csG M($ì
+é
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csG< G(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÊÇ
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csG% G(ƒ(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper¯
+¬
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csG) G(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*
+mp_SavedQuery_Update*2Ù
+Ö
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csG G(ƒ)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper
+Œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csH* H(D
+%3"__id*
+""
+Œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csHF H(^
+%4"__id*
+""Ó
+Ð
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csH H(c
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@Id*
+
+%3*
+
+%4*
+""
+Œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csI1 I(C
+%6"__id*
+""
+Œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csII I(a
+%7"__id*
+""÷
+ô
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csI I(m
+
+%8void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@Statement*
+
+%6*
+""*
+
+%7*
+
+	statementstring
+Œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csJ2 J(D
+%9"__id*
+""
+
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csJF J(^
+%10"__id*
+""ö
+ó
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csJ J(k
+%11void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@LastModUtc*
+
+%9*
+
+%10*
+
+
+lastModUtcSystem.DateTime
+
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csK1 K(K
+%12"__id*
+""
+
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csKM K(e
+%13"__id*
+""Ý
+Ú
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csK K(q
+%14void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@LastModBy*
+
+%12*
+
+%13*
+""ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csL L(4
+
+%15int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper¤
+¡
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csL L(4
+rowsAffectedint"__id*
+
+
+%15int"€
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csM M(&
+""*‹
+1v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csO	 O(	"
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBSavedQuery.csO O(	
+implicit return:
+idSystem.Guid:
+	statementstring:
+
+lastModUtcSystem.DateTime:
+	lastModBySystem.GuidB "
+mojoPortal.Data.DBSavedQuery

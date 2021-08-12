@@ -1,0 +1,1604 @@
+
+YmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway.ExecuteTransaction()§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÄ Ä(&"0*∆#
+0§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÉ ä(#»
+≈
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÉ É(
+resultbool"__id*
+""Ê„
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÑ( Ñ(;
+%0System.Text.StringBuilder"System.Text.StringBuilderÑ
+Å
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÑ, Ñ(9
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilder˝
+˙
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÑ Ñ(;(
+requestBodySystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilder¶
+£
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÖ3 Ö(C
+%2string"__id*f*dF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+merchantAPILoginstringÁ
+‰
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÖ Ö(C
+%3string"__concat*
+publisher-name=*
+
+%2string±
+Æ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÖ Ö(D
+%4System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%3stringØ
+¨
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÜ8 Ü(Q
+%5string"__id*o*mF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"#
+merchantAPITransactionKeystringÏ
+È
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÜ Ü(Q
+%6string"__concat*
+&publisher-password=*
+
+%5string±
+Æ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÜ Ü(R
+%7System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%6string∏
+µ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csá á(3
+%8System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+&paymethod=credit¶
+£
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csàU à(e
+%9string"__id*f*dF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+merchantAPILoginstring±
+Æ
+•
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csàg à(Ä
+%10string"__id*o*mF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"#
+merchantAPITransactionKeystringΩ
+∫
+•
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csà à(Å
+%11string"%string.Format(string, object, object)*
+"
+string*-+
+)publisher-name={0}&publisher-password={1}*
+
+%9string*
+
+%10string£
+†
+•
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csà à(Å_F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+credentialsstring"__id*
+
+%11stringø
+º
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csä ä(#
+%12"__id*
+""*
+1*≤
+1§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csä ä(#*
+2
+3*•
+2§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csç é(?≤
+Ø
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csç ç(4 
+%13System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+&mode=authæ
+ª
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csé é(@ 
+%14System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+&authtype=authpostauth*
+4*≤
+3§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csä ä(#*
+5
+6*°
+5§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csí ì(;≤
+Ø
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csí í(4 
+%15System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+&mode=auth∫
+∑
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csì ì(< 
+%16System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+&authtype=authonly*
+4*≤
+6§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csä ä(#*
+7
+8*•
+7§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csó ò(?≤
+Ø
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csó ó(4 
+%17System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+&mode=authæ
+ª
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csò ò(@ 
+%18System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+&authtype=authpostauth*
+4*≥
+8§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csä ä(#*
+9
+10*È
+9§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csú ú(8∑
+¥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csú ú(9 
+%19System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+&mode=newreturn*
+4*µ
+10§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csä ä(#*
+11
+12*Ì
+11§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs† †(;∫
+∑
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs† †(< 
+%20System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+&authtype=authprev*
+4*¥
+12§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csä ä(#*
+13
+4*û
+13§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs§ •(7≤
+Ø
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs§ §(4 
+%21System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+&mode=void∂
+≥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs• •(8 
+%22System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+&txn-type=auth*
+4*ø
+4§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs™ ≤(+ÿ
+’
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs™1 ™(?
+%23string"SmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway.FormatCharge()*HF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGatewayÁ
+‰
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs™ ™(?
+%24string"__concat*
+&card-amount=*
+
+%23string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs™ ™(@ 
+%25System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%24string°
+û
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csØ1 Ø(;
+%26string"__id*`*^F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+
+cardNumberstringÁ
+‰
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csØ Ø(;
+%27string"__concat*
+&card-number=*
+
+%26string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csØ Ø(< 
+%28System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%27string•
+¢
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs∞. ∞(<
+%29string"__id*d*bF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardExpirationstring‰
+·
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs∞ ∞(<
+%30string"__concat*
+
+&card-exp=*
+
+%29string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs∞ ∞(= 
+%31System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%30stringß
+§
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs≤ ≤( 
+%32string"__id*f*dF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardSecurityCodestring⁄
+◊
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs≤ ≤('
+
+%33int"string.Length.get*
+
+%32string*
+14
+15*¯
+14§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¥ ¥(Bß
+§
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¥2 ¥(B
+%34string"__id*f*dF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardSecurityCodestring‰
+·
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¥# ¥(B
+%35string"__concat*
+
+&card-cvv=*
+
+%34string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¥ ¥(C 
+%36System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%35string*
+15*¡
+15§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¡ ¡(0¨
+©
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¡ ¡(%
+%37string"__id*k*iF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+previousTransactionIDstring⁄
+◊
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¡ ¡(,
+
+%38int"string.Length.get*
+
+%37string*
+16
+17*Ä
+16§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs√ √(J¨
+©
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs√5 √(J
+%39string"__id*k*iF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+previousTransactionIDstringÁ
+‰
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs√# √(J
+%40string"__concat*
+&prevorderid=*
+
+%39string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs√ √(K 
+%41System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%40string*
+17*¥
+17§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÕ —(+©
+¶
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÕ/ Õ(A
+%42string"__id*h*fF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardOwnerFirstNamestringÂ
+‚
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÕ Õ(A
+%43string"__concat*
+&card-name=*
+
+%42string€
+ÿ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÕ Õ(G
+%44string"__concat*
+
+%43string*
+ ®
+•
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÕJ Õ([
+%45string"__id*g*eF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardOwnerLastNamestringÂ
+‚
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÕ Õ([
+%46string"__concat*
+
+%44string*
+
+%45string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÕ Õ(\ 
+%47System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%46string©
+¶
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csœ3 œ(E
+%48string"__id*h*fF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardBillingAddressstringÈ
+Ê
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csœ œ(E
+%49string"__concat*
+&card-address1=*
+
+%48string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csœ œ(F 
+%50System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%49string¶
+£
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs–/ –(>
+%51string"__id*e*cF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardBillingCitystringÂ
+‚
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs– –(>
+%52string"__concat*
+&card-city=*
+
+%51string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs– –(? 
+%53System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%52string©
+¶
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs— —(#
+%54string"__id*h*fF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardBillingCountrystringÄ
+˝
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs— —(+
+%55bool""string.operator !=(string, string)*
+"
+string*
+
+%54string*
+US*
+18
+19*‰
+18§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs—1 —(K©
+¶
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs—1 —(C
+%56string"__id*h*fF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardBillingCountrystringÄ
+˝
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs—1 —(K
+%57bool""string.operator !=(string, string)*
+"
+string*
+
+%56string*
+CA*
+20
+19*≤
+
+20§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs” ‘(C∂
+≥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs” ”(4 
+%58System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+&card-state=ZZß
+§
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs‘3 ‘(C
+%59string"__id*f*dF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardBillingStatestringÂ
+‚
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs‘# ‘(C
+%60string"__concat*
+&card-prov=*
+
+%59string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs‘ ‘(D 
+%61System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%60string*
+21*˙
+19§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs◊ ◊(Dß
+§
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs◊4 ◊(D
+%62string"__id*f*dF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardBillingStatestringÊ
+„
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs◊# ◊(D
+%63string"__concat*
+&card-state=*
+
+%62string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs◊ ◊(E 
+%64System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%63string*
+21*Â
+21§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÿ ›(*¨
+©
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÿ. ÿ(C
+%65string"__id*k*iF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardBillingPostalCodestring‰
+·
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÿ ÿ(C
+%66string"__concat*
+
+&card-zip=*
+
+%65string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÿ ÿ(D 
+%67System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%66string©
+¶
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csŸ2 Ÿ(D
+%68string"__id*h*fF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardBillingCountrystringË
+Â
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csŸ Ÿ(D
+%69string"__concat*
+&card-country=*
+
+%68string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csŸ Ÿ(E 
+%70System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%69stringß
+§
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs⁄+ ⁄(;
+%71string"__id*f*dF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardBillingPhonestring·
+ﬁ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs⁄ ⁄(;
+%72string"__concat*	
+&phone=*
+
+%71string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs⁄ ⁄(< 
+%73System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%72string 
+«
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs€ €(!
+shipInfobool"__id*
+""¶
+£
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs› ›(
+%74string"__id*e*cF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToFirstNamestring⁄
+◊
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs› ›(&
+
+%75int"string.Length.get*
+
+%74string*
+22
+23*˜
+22§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csﬂ ﬂ(A¶
+£
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csﬂ2 ﬂ(A
+%76string"__id*e*cF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToFirstNamestring‰
+·
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csﬂ# ﬂ(A
+%77string"__concat*
+
+&shipname=*
+
+%76string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csﬂ ﬂ(B 
+%78System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%77string*
+23*∫
+23§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs· ·()•
+¢
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs· ·(
+%79string"__id*d*bF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToLastNamestring⁄
+◊
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs· ·(%
+
+%80int"string.Length.get*
+
+%79string*
+24
+25*Ì
+24§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs„ „(7•
+¢
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs„) „(7
+%81string"__id*d*bF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToLastNamestring€
+ÿ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs„# „(7
+%82string"__concat*
+ *
+
+%81string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs„ „(8 
+%83System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%82string*
+25*π
+25§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÈ È((§
+°
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÈ È(
+%84string"__id*c*aF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToAddressstring⁄
+◊
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÈ È($
+
+%85int"string.Length.get*
+
+%84string*
+26
+27*˘
+26§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÎ Î(C§
+°
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÎ6 Î(C
+%86string"__id*c*aF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToAddressstringË
+Â
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÎ# Î(C
+%87string"__concat*
+&shipaddress1=*
+
+%86string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÎ Î(D 
+%88System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%87string*
+27*∂
+27§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÌ Ì(%°
+û
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÌ Ì(
+%89string"__id*`*^F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+
+shipToCitystring⁄
+◊
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÌ Ì(!
+
+%90int"string.Length.get*
+
+%89string*
+28
+29*Ó
+28§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÔ Ô(8°
+û
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÔ. Ô(8
+%91string"__id*`*^F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+
+shipToCitystring‡
+›
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÔ# Ô(8
+%92string"__concat*
+
+&city=*
+
+%91string≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÔ Ô(9 
+%93System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%92string*
+29*∑
+29§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÒ Ò(&¢
+ü
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÒ Ò(
+%94string"__id*a*_F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToStatestring⁄
+◊
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÒ Ò("
+
+%95int"string.Length.get*
+
+%94string*
+30
+31*ﬂ
+30§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÛ Û(*§
+°
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÛ Û("
+%96string"__id*c*aF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToCountrystringÄ
+˝
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÛ Û(*
+%97bool""string.operator !=(string, string)*
+"
+string*
+
+%96string*
+US*
+32
+33*ﬂ
+32§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÛ0 Û(E§
+°
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÛ0 Û(=
+%98string"__id*c*aF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToCountrystringÄ
+˝
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÛ0 Û(E
+%99bool""string.operator !=(string, string)*
+"
+string*
+
+%98string*
+CA*
+34
+33*≠
+
+34§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csı ˆ(A≤
+Ø
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csı ı(3!
+%100System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+	&state=ZZ£
+†
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csˆ6 ˆ(A
+%101string"__id*a*_F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToStatestringÊ
+„
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csˆ' ˆ(A
+%102string"__concat*
+
+&province=*
+
+%101stringµ
+≤
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csˆ ˆ(B!
+%103System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%102string*
+31*ı
+33§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˘ ˘(>£
+†
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˘3 ˘(>
+%104string"__id*a*_F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToStatestring„
+‡
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˘' ˘(>
+%105string"__concat*	
+&state=*
+
+%104stringµ
+≤
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˘ ˘(?!
+%106System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%105string*
+31*ø
+31§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˚ ˚(+®
+•
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˚ ˚( 
+%107string"__id*f*dF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToPostalCodestring‹
+Ÿ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˚ ˚('
+%108int"string.Length.get*
+
+%107string*
+35
+36*¯
+35§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˝ ˝(=®
+•
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˝- ˝(=
+%109string"__id*f*dF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToPostalCodestring·
+ﬁ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˝# ˝(=
+%110string"__concat*	
+&zip=*
+
+%109stringµ
+≤
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˝ ˝(>!
+%111System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%110string*
+36*º
+36§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csˇ ˇ((•
+¢
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csˇ ˇ(
+%112string"__id*c*aF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToCountrystring‹
+Ÿ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csˇ ˇ($
+%113int"string.Length.get*
+
+%112string*
+37
+38*˘
+37§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÅ Å(>•
+¢
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÅ1 Å(>
+%114string"__id*c*aF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+shipToCountrystringÂ
+‚
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÅ# Å(>
+%115string"__concat*
+	&country=*
+
+%114stringµ
+≤
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÅ Å(?!
+%116System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%115string*
+38*µ
+38§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÉ É(*
+39
+40*Ë
+39§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÑ Ñ(0¥
+±
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÑ Ñ(1!
+%117System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+&shipinfo=1*
+40*π
+40§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÜ Ü(%¢
+ü
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÜ Ü(
+%118string"__id*`*^F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+
+customerIDstring‹
+Ÿ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÜ Ü(!
+%119int"string.Length.get*
+
+%118string*
+41
+42*¯
+41§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csà à(=¢
+ü
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csà3 à(=
+%120string"__id*`*^F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+
+customerIDstringÁ
+‰
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csà# à(=
+%121string"__concat*
+&acct_code=*
+
+%120stringµ
+≤
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csà à(>!
+%122System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%121string*
+42*º
+42§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csã ã((•
+¢
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csã ã(
+%123string"__id*c*aF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+customerTaxIDstring‹
+Ÿ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csã ã($
+%124int"string.Length.get*
+
+%123string*
+43
+44*¸
+43§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csç ç(A•
+¢
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csç4 ç(A
+%125string"__id*c*aF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+customerTaxIDstringË
+Â
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csç# ç(A
+%126string"__concat*
+&acct_code2=*
+
+%125stringµ
+≤
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csç ç(B!
+%127System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%126string*
+44*∆	
+44§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csê í(-©
+¶
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csê/ ê(@
+%128string"__id*g*eF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+customerIPAddressstringÁ
+‰
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csê ê(@
+%129string"__concat*
+&ipaddress=*
+
+%128stringµ
+≤
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csê ê(A!
+%130System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%129string¿
+Ω
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csí í(-
+%131"__id*
+""*
+45
+46*˙
+45§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csî î(?®
+•
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csî/ î(?
+%132string"__id*f*dF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+cardBillingEmailstring„
+‡
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csî# î(?
+%133string"__concat*	
+&email=*
+
+%132stringµ
+≤
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csî î(@!
+%134System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%133string*
+47*Ì
+46§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csò ò(5π
+∂
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csò ò(6!
+%135System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+&dontsndmail=yes*
+47*º
+47§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csõ õ((•
+¢
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csõ õ(
+%136string"__id*c*aF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+merchantEmailstring‹
+Ÿ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csõ õ($
+%137int"string.Length.get*
+
+%136string*
+48
+49*Å
+48§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csù ù(F•
+¢
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csù9 ù(F
+%138string"__id*c*aF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+merchantEmailstringÌ
+Í
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csù# ù(F
+%139string"__concat*
+&publisher-email=*
+
+%138stringµ
+≤
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csù ù(G!
+%140System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%139string*
+49*ƒ
+49§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs† †(0≠
+™
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs† †(%
+%141string"__id*k*iF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+merchantInvoiceNumberstring‹
+Ÿ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs† †(,
+%142int"string.Length.get*
+
+%141string*
+50
+51*Ç
+50§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¢ ¢(G≠
+™
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¢2 ¢(G
+%143string"__id*k*iF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+merchantInvoiceNumberstringÊ
+„
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¢# ¢(G
+%144string"__concat*
+
+&order-id=*
+
+%143stringµ
+≤
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¢ ¢(H!
+%145System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%144string*
+51*Õ
+51§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs§ §(9∂
+≥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs§ §(.
+%146string"__id*t*rF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"(
+merchantTransactionDescriptionstring‹
+Ÿ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs§ §(5
+%147int"string.Length.get*
+
+%146string*
+52
+53*Ÿ
+52§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¶ ß(1∂
+≥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¶$ ¶(B
+%148string"__id*t*rF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"(
+merchantTransactionDescriptionstringµ
+≤
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¶ ¶(C!
+%149System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%148string¥
+±
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csß ß(2!
+%150System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+&easycart=1*
+53*ª
+53§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs™ ™('§
+°
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs™ ™(
+%151string"__id*b*`F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+currencyCodestring‹
+Ÿ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs™ ™(#
+%152int"string.Length.get*
+
+%151string*
+54
+55*˘
+54§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¨ ¨(>§
+°
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¨2 ¨(>
+%153string"__id*b*`F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+currencyCodestringÊ
+„
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¨# ¨(>
+%154string"__concat*
+
+&currency=*
+
+%153stringµ
+≤
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¨ ¨(?!
+%155System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)**
+(
+requestBodySystem.Text.StringBuilder*
+
+%154string*
+55*¯
+55§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csØ Ø(¿
+Ω
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csØ Ø(
+%156"__id*
+""*
+56
+56*¯
+56§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs∂ ∑(¿
+Ω
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs∑ ∑(
+%157"__id*
+""*
+57
+58*ß
+57§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csπ π(ü
+ú
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csπ π(
+%158string"__id*]*[F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+testUrlstring—
+Œ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csπ π(
+urlstring"__id*
+
+%158string*
+59*≠
+58§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csΩ Ω(#•
+¢
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csΩ Ω(#
+%159string"__id*c*aF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+productionUrlstring—
+Œ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csΩ Ω(#
+urlstring"__id*
+
+%159string*
+59*Ù 
+59§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¿ –(%·
+ﬁ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¿ ¿(-'
+requestStreamSystem.IO.StreamWriter"__id*
+""õ
+ò
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¬8 ¬(N
+%160System.Net.WebRequest"$System.Net.WebRequest.Create(string)*"
+System.Net.WebRequest*
+
+urlstringŸ
+÷
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¬( ¬(N
+%161"__id*
+
+%160System.Net.WebRequest„
+‡
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs¬ ¬(N'
+
+webRequestSystem.Net.HttpWebRequest"__id*
+
+%161°û
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs√ √(&
+%162string"$System.Net.HttpWebRequest.Method.set*)
+'
+
+webRequestSystem.Net.HttpWebRequest*
+POST2
+Method.set¿
+Ω
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csƒ! ƒ(6
+%163"__id*
+""†ù
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csƒ ƒ(6
+%164int"%System.Net.HttpWebRequest.Timeout.set*)
+'
+
+webRequestSystem.Net.HttpWebRequest*
+
+%1632Timeout.set»≈
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs≈ ≈(H
+%165string")System.Net.HttpWebRequest.ContentType.set*)
+'
+
+webRequestSystem.Net.HttpWebRequest*%#
+!application/x-www-form-urlencoded2ContentType.setâ
+Ü
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs '  (9
+%166int"$System.Text.StringBuilder.Length.get**
+(
+requestBodySystem.Text.StringBuilder≤Ø
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs   (9
+%167long"+System.Net.HttpWebRequest.ContentLength.set*)
+'
+
+webRequestSystem.Net.HttpWebRequest*
+
+%166int2ContentLength.set±Æ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csœ- œ(J
+%168System.IO.Stream",System.Net.HttpWebRequest.GetRequestStream()*)
+'
+
+webRequestSystem.Net.HttpWebRequest2GetRequestStream()‚ﬂ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csœ œ(K
+%169System.IO.StreamWriter"System.IO.StreamWriter≠
+™
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csœ  œ(,
+%170void"5System.IO.StreamWriter.StreamWriter(System.IO.Stream)* 
+
+%169System.IO.StreamWriter*
+
+%168System.IO.Stream˚
+¯
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csœ œ(K'
+requestStreamSystem.IO.StreamWriter"__id* 
+
+%169System.IO.StreamWriterõ
+ò
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs– –(%
+%171bool""object.operator !=(object, object)*
+"
+object*)
+'
+requestStreamSystem.IO.StreamWriter*
+""*
+60
+61*Ì
+60§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs— —(:å
+â
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs—$ —(:
+%172string"$System.Text.StringBuilder.ToString()**
+(
+requestBodySystem.Text.StringBuilder™ß
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs— —(;
+%173void"$System.IO.StreamWriter.Write(string)*)
+'
+requestStreamSystem.IO.StreamWriter*
+
+%172string2Write(string)*
+61*”
+61§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs€ €(%õ
+ò
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs€ €(%
+%174bool""object.operator !=(object, object)*
+"
+object*)
+'
+requestStreamSystem.IO.StreamWriter*
+""*
+62
+63*¿
+62§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs‹ ‹(%åâ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs‹ ‹(%
+%175void"System.IO.StreamWriter.Close()*)
+'
+requestStreamSystem.IO.StreamWriter2Close()*
+63* 	
+63§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csﬂ ‚(#≠™
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs‡# ‡(;
+%176System.Net.WebResponse"'System.Net.HttpWebRequest.GetResponse()*)
+'
+
+webRequestSystem.Net.HttpWebRequest2GetResponse()⁄
+◊
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs‡ ‡(;
+%177"__id* 
+
+%176System.Net.WebResponseÂ
+‚
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csﬂ ‡(;)
+webResponseSystem.Net.HttpWebResponse"__id*
+
+%177ù
+ö
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs‚ ‚(#
+%178bool""object.operator !=(object, object)*
+"
+object*+
+)
+webResponseSystem.Net.HttpWebResponse*
+""*
+64
+65*˛	
+64§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs‰$ Â(C∂≥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÂ$ Â(C
+%179System.IO.Stream".System.Net.HttpWebResponse.GetResponseStream()*+
+)
+webResponseSystem.Net.HttpWebResponse2GetResponseStream()‚ﬂ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÂ Â(D
+%180System.IO.StreamReader"System.IO.StreamReader≠
+™
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÂ Â(#
+%181void"5System.IO.StreamReader.StreamReader(System.IO.Stream)* 
+
+%180System.IO.StreamReader*
+
+%179System.IO.Stream¸
+˘
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs‰$ Â(D(
+responseStreamSystem.IO.StreamReader"__id* 
+
+%180System.IO.StreamReader*
+66*º
+66§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÁ Ë(!óî
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÁ" Á(<
+%182string""System.IO.StreamReader.ReadToEnd()**
+(
+responseStreamSystem.IO.StreamReader2ReadToEnd()£
+†
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÁ Á(<_F
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"
+rawResponsestring"__id*
+
+%182string»
+≈
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csË Ë(!
+resultbool"__id*
+""*
+67*å
+67§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÎ Î(ÿ
+’
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÎ Î(
+%183void"TmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway.ParseResponse()*HF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway*
+68*˙
+65§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÒ Ú(¿
+Ω
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÒ Ò(7
+%184"__id*
+""◊
+‘
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÒ Ò(7öF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway"P
+responseDmojoPortal.Business.WebHelpers.PaymentGateway.PaymentGatewayResponse"__id*
+
+%184"Ø
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.csÚ Ú(
+""*Á
+68§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˜ ˜("π
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˜ ˜(
+
+resultbool*Í
+69§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˘	 ˘(	"º
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business.WebHelpers\PaymentGateway\PlugNPay\PlugNPayPaymentGateway.cs˘ ˘(	
+implicit returnBHF
+DmojoPortal.Business.WebHelpers.PaymentGateway.PlugNPayPaymentGateway

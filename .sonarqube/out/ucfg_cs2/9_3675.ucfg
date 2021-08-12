@@ -1,0 +1,441 @@
+
+LmojoPortal.Web.UrlRewriter.Do301Redirect(System.Web.HttpApplication, string)p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs¶ ¶()"0*ﬂ
+0p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs´ Æ(;”
+–
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs´ ´(?
+%0string"0mojoPortal.Web.SiteUtils.GetNavigationSiteRoot()*"
+mojoPortal.Web.SiteUtilsü
+ú
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs´ ´(?
+siteRootstring"__id*
+
+%0stringÁ
+‰
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csÆ Æ(;
+
+%1bool">mojoPortal.Web.WebConfigSettings.AllowExternal301Redirects.get*$""
+ mojoPortal.Web.WebConfigSettings*
+1
+2*∫
+1p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs∞ ∞(-∫
+∑
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs∞ ∞(.
+
+%2bool"string.StartsWith(string)*
+
+newUrlstring*
+http*
+3
+4*˚
+3p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs≤ ≤(4™
+ß
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs≤ ≤(+
+%3string"__concat*
+
+siteRootstring*
+/±
+Æ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs≤ ≤(4
+%4string"__concat*
+
+%3string*
+
+newUrlstringù
+ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs≤ ≤(4
+newUrlstring"__id*
+
+%4string*
+4*˚
+2p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs∏ ∏(0™
+ß
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs∏ ∏('
+%5string"__concat*
+
+siteRootstring*
+/±
+Æ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs∏ ∏(0
+%6string"__concat*
+
+%5string*
+
+newUrlstringù
+ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs∏ ∏(0
+newUrlstring"__id*
+
+%6string*
+4*í
+4p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csª º(@‡
+›
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csª ª(
+%7System.Web.HttpContext"&System.Web.HttpApplication.Context.get*#
+!
+appSystem.Web.HttpApplicationŸ
+÷
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csª ª( 
+%8System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%7System.Web.HttpContext„
+‡
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csª ª(A
+%9string""System.Web.HttpResponse.Status.set*
+
+%8System.Web.HttpResponse*
+301 Moved PermanentlyÌ
+Í
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csº º(@
+%10bool"CmojoPortal.Web.WebConfigSettings.PassQueryStringFor301Redirects.get*$""
+ mojoPortal.Web.WebConfigSettings*
+5
+6*Õ
+5p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csæ æ(Y·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csæ æ(
+%11System.Web.HttpContext"&System.Web.HttpApplication.Context.get*#
+!
+appSystem.Web.HttpApplication€
+ÿ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csæ æ($
+%12System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%11System.Web.HttpContext·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csæD æ(O
+%13System.Web.HttpRequest"&System.Web.HttpApplication.Request.get*#
+!
+appSystem.Web.HttpApplication…
+∆
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csæD æ(S
+%14
+System.Uri"System.Web.HttpRequest.Url.get*
+
+%13System.Web.HttpRequestØ
+¨
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csæD æ(Y
+%15string"System.Uri.Query.get*
+
+%14
+System.Uri≥
+∞
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csæ; æ(Y
+%16string"__concat*
+
+newUrlstring*
+
+%15stringˆ
+Û
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csæ æ(Z
+%17void"1System.Web.HttpResponse.AddHeader(string, string)* 
+
+%12System.Web.HttpResponse*
+
+Location*
+
+%16string*
+7*∏
+6p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs¬ ¬(A·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs¬ ¬(
+%18System.Web.HttpContext"&System.Web.HttpApplication.Context.get*#
+!
+appSystem.Web.HttpApplication€
+ÿ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs¬ ¬($
+%19System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%18System.Web.HttpContext˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs¬ ¬(B
+%20void"1System.Web.HttpResponse.AddHeader(string, string)* 
+
+%19System.Web.HttpResponse*
+
+Location*
+
+newUrlstring*
+7*Í
+7p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs≈ ≈(=Í
+Á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs≈ ≈(=
+%21bool"@mojoPortal.Web.WebConfigSettings.DisableCacheFor301Redirects.get*$""
+ mojoPortal.Web.WebConfigSettings*
+8
+9*À
+8p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs« …(Z·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs« «(
+%22System.Web.HttpContext"&System.Web.HttpApplication.Context.get*#
+!
+appSystem.Web.HttpApplication€
+ÿ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs« «($
+%23System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%22System.Web.HttpContext›
+⁄
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs« «(*!
+%24System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get* 
+
+%23System.Web.HttpResponse–
+Õ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs« «(7
+%25void"'System.Web.HttpCachePolicy.SetNoStore()*#
+!
+%24System.Web.HttpCachePolicy·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs» »(
+%26System.Web.HttpContext"&System.Web.HttpApplication.Context.get*#
+!
+appSystem.Web.HttpApplication€
+ÿ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs» »($
+%27System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%26System.Web.HttpContext›
+⁄
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs» »(*!
+%28System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get* 
+
+%27System.Web.HttpResponseä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs»; »(S
+%29"__id*
+""˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs» »(T
+%30void"GSystem.Web.HttpCachePolicy.SetCacheability(System.Web.HttpCacheability)*#
+!
+%28System.Web.HttpCachePolicy*
+
+%29·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs… …(
+%31System.Web.HttpContext"&System.Web.HttpApplication.Context.get*#
+!
+appSystem.Web.HttpApplication€
+ÿ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs… …($
+%32System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%31System.Web.HttpContext›
+⁄
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs… …(*!
+%33System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get* 
+
+%32System.Web.HttpResponseä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs…; …(Z
+%34"__id*
+""˛
+˚
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs… …([
+%35void"LSystem.Web.HttpCachePolicy.SetRevalidation(System.Web.HttpCacheRevalidation)*#
+!
+%33System.Web.HttpCachePolicy*
+
+%34*
+10*
+9p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csÃ Ã(FÓ
+Î
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csÃ Ã(F
+%36bool"DmojoPortal.Web.WebConfigSettings.SetExplicitCacheFor301Redirects.get*$""
+ mojoPortal.Web.WebConfigSettings*
+11
+10*ì
+11p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csŒ œ(%
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csŒ" Œ(V
+
+%37int"GmojoPortal.Web.WebConfigSettings.CacheDurationInDaysFor301Redirects.get*$""
+ mojoPortal.Web.WebConfigSettingsù
+ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csŒ Œ(V
+daysToCacheint"__id*
+
+
+%37int*
+12
+13*ï
+12p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csœ) œ(:ñ
+ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csœ) œ(:
+daysToCacheint"__id*2Ì*
+13*≤
+13p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs– ”(A⁄
+◊
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs–( –(F
+%38System.TimeSpan" System.TimeSpan.FromDays(double)*"
+System.TimeSpan*
+
+daysToCacheint∂
+≥
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs– –(F
+cachDurationSystem.TimeSpan"__id*
+
+%38System.TimeSpan·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs— —(
+%39System.Web.HttpContext"&System.Web.HttpApplication.Context.get*#
+!
+appSystem.Web.HttpApplication€
+ÿ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs— —($
+%40System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%39System.Web.HttpContext›
+⁄
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs— —(*!
+%41System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get* 
+
+%40System.Web.HttpResponseä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs—; —(R
+%42"__id*
+""˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs— —(S
+%43void"GSystem.Web.HttpCachePolicy.SetCacheability(System.Web.HttpCacheability)*#
+!
+%41System.Web.HttpCachePolicy*
+
+%42·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs“ “(
+%44System.Web.HttpContext"&System.Web.HttpApplication.Context.get*#
+!
+appSystem.Web.HttpApplication€
+ÿ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs“ “($
+%45System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%44System.Web.HttpContext›
+⁄
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs“ “(*!
+%46System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get* 
+
+%45System.Web.HttpResponseª
+∏
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs“6 “(B
+%47System.DateTime"System.DateTime.Now.get*"
+System.DateTime
+Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs“6 “(T
+%48System.DateTime"$System.DateTime.Add(System.TimeSpan)*
+
+%47System.DateTime*!
+
+cachDurationSystem.TimeSpan˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs“ “(U
+%49void"6System.Web.HttpCachePolicy.SetExpires(System.DateTime)*#
+!
+%46System.Web.HttpCachePolicy*
+
+%48System.DateTime·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs” ”(
+%50System.Web.HttpContext"&System.Web.HttpApplication.Context.get*#
+!
+appSystem.Web.HttpApplication€
+ÿ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs” ”($
+%51System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%50System.Web.HttpContext›
+⁄
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs” ”(*!
+%52System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get* 
+
+%51System.Web.HttpResponseÅ
+˛
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs” ”(B
+%53void"5System.Web.HttpCachePolicy.SetMaxAge(System.TimeSpan)*#
+!
+%52System.Web.HttpCachePolicy*!
+
+cachDurationSystem.TimeSpan*
+10*Ä
+10p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs◊	 ◊(	"á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs◊ ◊(	
+implicit return:!
+appSystem.Web.HttpApplication:
+newUrlstringB"
+mojoPortal.Web.UrlRewriter

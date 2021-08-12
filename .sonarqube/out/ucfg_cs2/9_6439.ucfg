@@ -1,0 +1,86 @@
+
+8mojoPortal.Web.SiteUtils.AllowOnlyAdminAndContentAdmin()n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs   (2"0*©
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¢ ¢("Ñ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¢ ¢(
+%0System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext×
+Ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¢ ¢("
+
+%1bool""object.operator ==(object, object)*
+"
+object*
+
+%0System.Web.HttpContext*
+""*
+1
+2*í
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¦ ¦("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¢$ ¢(+
+""*È
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs£ ¤(3Ð
+Í
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs£ £(
+
+%2void"1mojoPortal.Web.SiteUtils.AllowOnlyAuthenticated()*"
+mojoPortal.Web.SiteUtilsÑ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¤ ¤(
+%3System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÕ
+Ò
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¤ ¤(#
+%4System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%3System.Web.HttpContextË
+È
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¤ ¤(3
+
+%5bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%4System.Web.HttpRequest*
+3
+4*í
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¦ ¦("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¤5 ¤(<
+""*ë
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(%í
+ê
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(%
+
+%6bool"@mojoPortal.Business.WebHelpers.WebUser.IsAdminOrContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+5
+6*Ý
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥' ¥(Câ
+ß
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥' ¥(C
+
+%7void";mojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(string)*"
+mojoPortal.Web.SiteUtils*
+""*
+6*û
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¦ ¦("…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¦ ¦(
+implicit returnB"
+mojoPortal.Web.SiteUtils

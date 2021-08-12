@@ -1,0 +1,22 @@
+ê
+*mojoPortal.Web.UI.Pages.RegisterWithOpenIdmojoPortal.Web.NonCmsBasePagemojoPortal.Web.mojoBasePageSystem.Web.UI.PageSystem.Web.UI.TemplateControlSystem.Web.UI.Controlobjectu
+#Page_Load(object, System.EventArgs)NmojoPortal.Web.UI.Pages.RegisterWithOpenId.Page_Load(object, System.EventArgs)—
+QOpenIdLogin1_LoggedIn(object, DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs)|mojoPortal.Web.UI.Pages.RegisterWithOpenId.OpenIdLogin1_LoggedIn(object, DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs)≥
+BDoNewUserLogic(DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs)mmojoPortal.Web.UI.Pages.RegisterWithOpenId.DoNewUserLogic(DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs)â
+-btnCreateUser_Click(object, System.EventArgs)XmojoPortal.Web.UI.Pages.RegisterWithOpenId.btnCreateUser_Click(object, System.EventArgs)É
+*CreateUser(string, string, string, string)UmojoPortal.Web.UI.Pages.RegisterWithOpenId.CreateUser(string, string, string, string)q
+!HookupRegistrationEventHandlers()LmojoPortal.Web.UI.Pages.RegisterWithOpenId.HookupRegistrationEventHandlers()S
+UserRegistered.add=mojoPortal.Web.UI.Pages.RegisterWithOpenId.UserRegistered.addY
+UserRegistered.remove@mojoPortal.Web.UI.Pages.RegisterWithOpenId.UserRegistered.remove©
+=OnUserRegistered(mojoPortal.Business.UserRegisteredEventArgs)hmojoPortal.Web.UI.Pages.RegisterWithOpenId.OnUserRegistered(mojoPortal.Business.UserRegisteredEventArgs)Å
+)DoUserLogin(mojoPortal.Business.SiteUser)TmojoPortal.Web.UI.Pages.RegisterWithOpenId.DoUserLogin(mojoPortal.Business.SiteUser)o
+ DoExistingUserLogic(System.Guid)KmojoPortal.Web.UI.Pages.RegisterWithOpenId.DoExistingUserLogic(System.Guid)Õ
+éIsValidForUserCreation(DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs, DotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse)πmojoPortal.Web.UI.Pages.RegisterWithOpenId.IsValidForUserCreation(DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs, DotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse)Õ
+OOpenIdLogin1_Failed(object, DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs)zmojoPortal.Web.UI.Pages.RegisterWithOpenId.OpenIdLogin1_Failed(object, DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs)—
+QOpenIdLogin1_Canceled(object, DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs)|mojoPortal.Web.UI.Pages.RegisterWithOpenId.OpenIdLogin1_Canceled(object, DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs)q
+!PopulateRequiredProfileControls()LmojoPortal.Web.UI.Pages.RegisterWithOpenId.PopulateRequiredProfileControls()O
+PopulateLabels();mojoPortal.Web.UI.Pages.RegisterWithOpenId.PopulateLabels()Ω
+ÜDisplayResults(DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs, DotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse)±mojoPortal.Web.UI.Pages.RegisterWithOpenId.DisplayResults(DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs, DotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse)K
+LoadSettings()9mojoPortal.Web.UI.Pages.RegisterWithOpenId.LoadSettings()_
+OnInit(System.EventArgs)CmojoPortal.Web.UI.Pages.RegisterWithOpenId.OnInit(System.EventArgs)W
+RegisterWithOpenId()?mojoPortal.Web.UI.Pages.RegisterWithOpenId.RegisterWithOpenId()

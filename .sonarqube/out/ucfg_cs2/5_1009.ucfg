@@ -1,0 +1,106 @@
+
+7mojoPortal.Business.ContentRating.GetStats(System.Guid)w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs•) •(1"0*à
+
+0w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.csß ©(T“œ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.csß' ß(?,
+%0&mojoPortal.Business.ContentRatingStats"&mojoPortal.Business.ContentRatingStatsı
+Ú
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.csß+ ß(=
+
+%1void";mojoPortal.Business.ContentRatingStats.ContentRatingStats()*.
+,
+%0&mojoPortal.Business.ContentRatingStats„
+‡
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.csß ß(?/
+stats&mojoPortal.Business.ContentRatingStats"__id*.
+,
+%0&mojoPortal.Business.ContentRatingStatsà
+Ö
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs©' ©(U
+%2System.Data.IDataReader">mojoPortal.Data.DBContentRating.GetStatsByContent(System.Guid)*#"!
+mojoPortal.Data.DBContentRating*
+""∆
+√
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs© ©(U!
+readerSystem.Data.IDataReader"__id*
+
+%2System.Data.IDataReader*
+1*‹
+1w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs´ ´(!’“
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs´ ´(!
+
+%3bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*£
+2w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs≠ Æ(P˝˙
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs≠7 ≠(M
+%4object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+TotalRatings2this[string].getÀ
+»
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs≠' ≠(N	
+%5int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%4object˛
+˚
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs≠ ≠(N	
+%6int"5mojoPortal.Business.ContentRatingStats.TotalVotes.set*1
+/
+stats&mojoPortal.Business.ContentRatingStats*
+	
+%5int˛˚
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.csÆ: Æ(Q
+%7object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+CurrentRating2this[string].getÀ
+»
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.csÆ* Æ(R	
+%8int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%7objectÅ
+˛
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.csÆ Æ(R	
+%9int"8mojoPortal.Business.ContentRatingStats.AverageRating.set*1
+/
+stats&mojoPortal.Business.ContentRatingStats*
+	
+%8int*
+3*Å
+3w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs¥	 ¥(	*
+4*´
+4w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs≤ ≤("¨
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs≤ ≤(1
+/
+stats&mojoPortal.Business.ContentRatingStats*ç
+5w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs¥	 ¥(	"é
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentRating.cs¥ ¥(	
+implicit return:
+contentGuidSystem.GuidB%"#
+!mojoPortal.Business.ContentRating

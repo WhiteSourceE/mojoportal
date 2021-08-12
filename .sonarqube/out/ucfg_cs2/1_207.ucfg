@@ -1,0 +1,102 @@
+
+RmojoPortal.Data.DBContentRating.GetCountByContentAndUser(System.Guid, System.Guid){
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csÚ Ú(2"0*æ
+0{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csÜ ß(6ð
+í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csÜ< Ü(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÏÌ
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csÜ% Ü(—(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÉ
+Æ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csÜ) Ü(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*-+
+)mp_ContentRating_GetCountByContentAndUser*2Þ
+Û
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csÜ Ü(—)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper”
+‘
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csÝ3 Ý(M
+%3"__id*
+""”
+‘
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csÝO Ý(g
+%4"__id*
+""á
+Þ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csÝ Ý(u
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ContentGuid*
+
+%3*
+
+%4*
+""”
+‘
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csÞ0 Þ(J
+%6"__id*
+""”
+‘
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csÞL Þ(d
+%7"__id*
+""Þ
+Û
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csÞ Þ(o
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@UserGuid*
+
+%6*
+
+%7*
+""ï
+ì
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csß# ß(6
+%9object"2mojoPortal.Data.SqlParameterHelper.ExecuteScalar()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperÐ
+Í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csß ß(7
+
+%10int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%9object"‹
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csß ß(8
+
+
+%10int*•
+1{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csá	 á(	"’
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentRating.csá á(	
+implicit return:
+contentGuidSystem.Guid:
+userGuidSystem.GuidB#"!
+mojoPortal.Data.DBContentRating

@@ -1,0 +1,272 @@
+
+UmojoPortal.Business.SavedQueryRespository.LoadListFromReader(System.Data.IDataReader)~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csà! à(3"0*≥
+0~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csä ä(D—Œ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csä. ä(D(
+%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>Ê
+„
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csä2 ä(B
+
+%1void")System.Collections.Generic.List<T>.List()**
+(
+%0"System.Collections.Generic.List<T>Î
+Ë
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csä ä(D4
+savedQueryList"System.Collections.Generic.List<T>"__id**
+(
+%0"System.Collections.Generic.List<T>*
+1*Í
+1~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csé é($‹Ÿ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csé é($
+
+%2bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*¢9
+2~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csê ò(1…∆
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csê, ê(<$
+%3mojoPortal.Business.SavedQuery"mojoPortal.Business.SavedQuery‰
+·
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csê0 ê(:
+
+%4void"+mojoPortal.Business.SavedQuery.SavedQuery()*&
+$
+%3mojoPortal.Business.SavedQueryﬂ
+‹
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csê ê(<,
+
+savedQuerymojoPortal.Business.SavedQuery"__id*&
+$
+%3mojoPortal.Business.SavedQuery˙˜
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csë- ë(9
+%5object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Id2this[string].get¿Ω
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csë- ë(D
+%6string"object.ToString()*
+
+%5object2
+ToString()£†
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csë$ ë(E
+%7System.Guid"System.GuidŒ
+À
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csë( ë(,
+
+%8void"System.Guid.Guid(string)*
+
+%7System.Guid*
+
+%6stringÇ
+ˇ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csë ë(E
+%9System.Guid"%mojoPortal.Business.SavedQuery.Id.set*.
+,
+
+savedQuerymojoPortal.Business.SavedQuery*
+
+%7System.Guid˝˙
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csí& í(4
+%10object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Name2this[string].get¬ø
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csí& í(?
+%11string"object.ToString()*
+
+%10object2
+ToString()¸
+˘
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csí í(?
+%12string"'mojoPortal.Business.SavedQuery.Name.set*.
+,
+
+savedQuerymojoPortal.Business.SavedQuery*
+
+%11stringÇˇ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csì+ ì(>
+%13object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	Statement2this[string].get¬ø
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csì+ ì(I
+%14string"object.ToString()*
+
+%13object2
+ToString()Å
+˛
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csì ì(I
+%15string",mojoPortal.Business.SavedQuery.Statement.set*.
+,
+
+savedQuerymojoPortal.Business.SavedQuery*
+
+%14stringÉÄ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csî? î(S
+%16object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CreatedUtc2this[string].get„
+‡
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csî, î(T
+%17System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%16objectî
+ë
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csî î(T
+%18System.DateTime"-mojoPortal.Business.SavedQuery.CreatedUtc.set*.
+,
+
+savedQuerymojoPortal.Business.SavedQuery*
+
+%17System.DateTimeÇˇ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csï4 ï(G
+%19object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	CreatedBy2this[string].get¬ø
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csï4 ï(R
+%20string"object.ToString()*
+
+%19object2
+ToString()§°
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csï+ ï(S
+%21System.Guid"System.Guid—
+Œ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csï/ ï(3
+%22void"System.Guid.Guid(string)*
+
+%21System.Guid*
+
+%20stringã
+à
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csï ï(S
+%23System.Guid",mojoPortal.Business.SavedQuery.CreatedBy.set*.
+,
+
+savedQuerymojoPortal.Business.SavedQuery*
+
+%21System.GuidÉÄ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csñ? ñ(S
+%24object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+LastModUtc2this[string].get„
+‡
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csñ, ñ(T
+%25System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%24objectî
+ë
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csñ ñ(T
+%26System.DateTime"-mojoPortal.Business.SavedQuery.LastModUtc.set*.
+,
+
+savedQuerymojoPortal.Business.SavedQuery*
+
+%25System.DateTimeÇˇ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csó4 ó(G
+%27object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	LastModBy2this[string].get¬ø
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csó4 ó(R
+%28string"object.ToString()*
+
+%27object2
+ToString()§°
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csó+ ó(S
+%29System.Guid"System.Guid—
+Œ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csó/ ó(3
+%30void"System.Guid.Guid(string)*
+
+%29System.Guid*
+
+%28stringã
+à
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csó ó(S
+%31System.Guid",mojoPortal.Business.SavedQuery.LastModBy.set*.
+,
+
+savedQuerymojoPortal.Business.SavedQuery*
+
+%29System.Guidà
+Ö
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csò ò(2
+%32void"
+__arrayAdd*6
+4
+savedQueryList"System.Collections.Generic.List<T>*: *.
+,
+
+savedQuerymojoPortal.Business.SavedQuery*
+1*à
+3~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.cs£	 £(	*
+4*Ì
+4~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csû û(ﬂ‹
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.csû û(
+%33void"System.Data.IDataReader.Close()*#
+!
+readerSystem.Data.IDataReader2Close()*
+5
+6*æ
+5~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.cs° °(!"∏
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.cs° °("6
+4
+savedQueryList"System.Collections.Generic.List<T>*õ
+6~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.cs£	 £(	"ï
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\SavedQueryRepository.cs£ £(	
+implicit return:!
+readerSystem.Data.IDataReaderB-+
+)mojoPortal.Business.SavedQueryRespository

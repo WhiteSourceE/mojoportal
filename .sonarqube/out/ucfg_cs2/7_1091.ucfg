@@ -1,0 +1,70 @@
+
+omojoPortal.Web.Controls.FolderGallery.ImageHelper.WriteNewImage(System.Drawing.Bitmap, System.Web.HttpResponse)‡
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\FolderGallery\ImageHelper.cs¶ ¶(!"0*Ï
+0‡
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\FolderGallery\ImageHelper.cs¸ ¾(#´
+±
+‡
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\FolderGallery\ImageHelper.cs¸# ¸(2+
+%0%System.Drawing.Imaging.ImageCodecInfo"AmojoPortal.Web.Controls.FolderGallery.ImageHelper.GetImageCodec()*5"3
+1mojoPortal.Web.Controls.FolderGallery.ImageHelperò
+ï
+‡
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\FolderGallery\ImageHelper.cs¸ ¸(2.
+codec%System.Drawing.Imaging.ImageCodecInfo"__id*-
++
+%0%System.Drawing.Imaging.ImageCodecInfo¿
+¼
+‡
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\FolderGallery\ImageHelper.cs¹. ¹(E.
+%1(System.Drawing.Imaging.EncoderParameters"ImojoPortal.Web.Controls.FolderGallery.ImageHelper.GetImageEncoderParams()*5"3
+1mojoPortal.Web.Controls.FolderGallery.ImageHelper€
+ý
+‡
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\FolderGallery\ImageHelper.cs¹ ¹(E9
+encoderParams(System.Drawing.Imaging.EncoderParameters"__id*0
+.
+%1(System.Drawing.Imaging.EncoderParametersû
+ø
+‡
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\FolderGallery\ImageHelper.cs» »(/
+%2string"'System.Web.HttpResponse.ContentType.set*%
+#
+responseSystem.Web.HttpResponse*
+
+image/jpegö
+ó
+‡
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\FolderGallery\ImageHelper.cs¼ ¼(/
+%3System.IO.Stream"(System.Web.HttpResponse.OutputStream.get*%
+#
+responseSystem.Web.HttpResponseÅ
+Â
+‡
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\FolderGallery\ImageHelper.cs¼ ¼(F
+
+%4void"|System.Drawing.Image.Save(System.IO.Stream, System.Drawing.Imaging.ImageCodecInfo, System.Drawing.Imaging.EncoderParameters)*#
+!
+newImageSystem.Drawing.Bitmap*
+
+%3System.IO.Stream*0
+.
+codec%System.Drawing.Imaging.ImageCodecInfo*;
+9
+encoderParams(System.Drawing.Imaging.EncoderParametersŠ
+‡
+‡
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\FolderGallery\ImageHelper.cs¾ ¾(#
+
+%5void"2System.Drawing.Imaging.EncoderParameters.Dispose()*;
+9
+encoderParams(System.Drawing.Imaging.EncoderParameters*
+1*¯
+1‡
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\FolderGallery\ImageHelper.cs¿	 ¿(	"Ÿ
+‡
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\FolderGallery\ImageHelper.cs¿ ¿(	
+implicit return:!
+newImageSystem.Drawing.Bitmap:#
+responseSystem.Web.HttpResponseB5"3
+1mojoPortal.Web.Controls.FolderGallery.ImageHelper

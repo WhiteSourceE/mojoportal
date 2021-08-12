@@ -1,0 +1,1666 @@
+
+6mojoPortal.Web.UI.Pages.Register.SetupjQueryValidate()n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csù ù(""0*∆ï
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csü ·(Ø¨
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csü ü(-
+%0System.Text.StringBuilder"System.Text.StringBuilderÕ
+ 
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csü ü(+
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilder¡
+æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csü ü(-#
+scriptSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilderå
+â
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs† †(9
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*%#
+!
+<script type="text/javascript">
+ó
+î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¢ ¢(@
+%3System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*0.
+,function CheckFieldLength(fn, wn, rn, mc) { Ü
+É
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs£ £(/
+%4System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var len = fn.value.length; ˚
+¯
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs§ §($
+%5System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if (len > mc) { ë
+é
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs• •(:
+%6System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder**(
+&fn.value = fn.value.substring(0, mc); ı
+Ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¶ ¶(
+%7System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+len = mc; Ì
+Í
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csß ß(
+%8System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} ò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs® ®(A
+%9System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*1/
+-document.getElementById(wn).innerHTML = len; û
+õ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs© ©(F 
+%10System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*64
+2document.getElementById(rn).innerHTML = mc - len; Ó
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs™ ™( 
+%11System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} á
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≠ ≠(/ 
+%12System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+function showHint(myObj) { †
+ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÆ Æ(J 
+%13System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*86
+4$(myObj).next("div").css('display','inline-block'); Ó
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csØ Ø( 
+%14System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} á
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≤ ≤(/ 
+%15System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+function hideHint(myObj) { ò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≥ ≥(B 
+%16System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*0.
+,$(myObj).next("div").css('display','none'); Ó
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¥ ¥( 
+%17System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} ú
+ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∂ ∂(D 
+%18System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*42
+0function checkUsernameForLength(whatYouTyped) { î
+ë
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∑ ∑(< 
+%19System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*,*
+(var fieldset = whatYouTyped.parentNode; ä
+á
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∏ ∏(2 
+%20System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*" 
+var txt = whatYouTyped.value; ›
+⁄
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csπ' π(J
+
+%21int"6mojoPortal.Web.WebConfigSettings.MinUserNameLength.get*$""
+ mojoPortal.Web.WebConfigSettingsÒ
+Ó
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csπ' π(^
+%22string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+
+
+%21int¥
+±
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csπ π(^
+%23string"__concat*
+if (txt.length > *
+
+%22stringß
+§
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csπ π(g
+%24string"__concat*
+
+%23string*
+) { ˜
+Ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csπ π(h 
+%25System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%24string§
+°
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∫ ∫(N 
+%26System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*<:
+8fieldset.className = "settingrow registerrow welldone"; ı
+Ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csª ª( 
+%27System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+	} else { õ
+ò
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csº º(E 
+%28System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*31
+/fieldset.className = "settingrow registerrow"; Ó
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csΩ Ω( 
+%29System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} Ó
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csæ æ( 
+%30System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} Ö
+Ç
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¿ ¿(- 
+%31System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+function checkEmail(o) { â
+Ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¡ ¡(1 
+%32System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*!
+var fieldset = o.parentNode; ˇ
+¸
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¬ ¬(' 
+%33System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var txt = o.value; º
+π
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csƒ ƒ(i 
+%34System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*TR
+Pvar email  = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/; à
+Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≈ ≈(0 
+%35System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* 
+if (o.value.match(email)) { §
+°
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∆ ∆(N 
+%36System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*<:
+8fieldset.className = "settingrow registerrow welldone"; œ
+Ã
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs»0 »(6#
+%37System.Web.HttpServerUtility"System.Web.UI.Page.Server.get*
+System.Web.UI.Page√
+¿
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs»B »([
+%38string"'Resources.Resource.EmailIsValidHint.get*"
+Resources.ResourceÎ
+Ë
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs»0 »(\
+%39string"/System.Web.HttpServerUtility.HtmlEncode(string)*%
+#
+%37System.Web.HttpServerUtility*
+
+%38string∫
+∑
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs» »(\
+%40string"__concat*
+$(o).next("div").text("*
+
+%39stringß
+§
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs» »(f
+%41string"__concat*
+
+%40string*
+"); ˜
+Ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs» »(g 
+%42System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%41stringı
+Ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs… …( 
+%43System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+	} else { õ
+ò
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs   (E 
+%44System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*31
+/fieldset.className = "settingrow registerrow"; œ
+Ã
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÃ0 Ã(6#
+%45System.Web.HttpServerUtility"System.Web.UI.Page.Server.get*
+System.Web.UI.Page√
+¿
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÃB Ã([
+%46string"'Resources.Resource.EmailInvalidHint.get*"
+Resources.ResourceÎ
+Ë
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÃ0 Ã(\
+%47string"/System.Web.HttpServerUtility.HtmlEncode(string)*%
+#
+%45System.Web.HttpServerUtility*
+
+%46string∫
+∑
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÃ Ã(\
+%48string"__concat*
+$(o).next("div").text("*
+
+%47stringß
+§
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÃ Ã(f
+%49string"__concat*
+
+%48string*
+"); ˜
+Ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÃ Ã(g 
+%50System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%49stringÓ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÕ Õ( 
+%51System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} Ó
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csŒ Œ( 
+%52System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} ü
+ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs— —(G 
+%53System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*75
+3function checkPasswordConfirm(original, confirm) { è
+å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs“ “(7 
+%54System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*'%
+#var fieldset = confirm.parentNode; —
+Œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs” ”(y 
+%55System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*ig
+eif((original[0].value != null) && (confirm.value != null) && (original[0].value == confirm.value)) { §
+°
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs‘ ‘(N 
+%56System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*<:
+8fieldset.className = "settingrow registerrow welldone"; »
+≈
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs÷6 ÷(T
+%57string",Resources.Resource.PasswordConfirmedHint.get*"
+Resources.Resource¿
+Ω
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs÷ ÷(T
+%58string"__concat*!
+$(confirm).next("div").text("*
+
+%57stringß
+§
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs÷ ÷(^
+%59string"__concat*
+
+%58string*
+"); ˜
+Ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs÷ ÷(_ 
+%60System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%59stringı
+Ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs◊ ◊( 
+%61System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+	} else { Ñ
+Å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÿ ÿ(, 
+%62System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if (fieldset != null) { ú
+ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csŸ Ÿ(F 
+%63System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*42
+0fieldset.className = "settingrow registerrow "; À
+»
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs€6 €(W
+%64string"/Resources.Resource.PasswordNotConfirmedHint.get*"
+Resources.Resource¿
+Ω
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs€ €(W
+%65string"__concat*!
+$(confirm).next("div").text("*
+
+%64stringß
+§
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs€ €(a
+%66string"__concat*
+
+%65string*
+"); ˜
+Ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs€ €(b 
+%67System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%66stringÓ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs‹ ‹( 
+%68System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} Ó
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs› ›( 
+%69System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} Ó
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csﬁ ﬁ( 
+%70System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} °
+û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs‡" ‡(75
+%71.System.Web.UI.WebControls.CreateUserWizardStep"__id*o*m"
+ mojoPortal.Web.UI.Pages.Register"G
+CreateUserWizardStep1.System.Web.UI.WebControls.CreateUserWizardStepñ
+ì
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs‡" ‡(P
+%72System.Web.UI.Control"JSystem.Web.UI.WebControls.TemplatedWizardStep.ContentTemplateContainer.get*7
+5
+%71.System.Web.UI.WebControls.CreateUserWizardStepÜÉ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs‡" ‡(o
+%73System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*
+
+%72System.Web.UI.Control*
+lblUserNameHint2FindControl(string)†
+ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs‡ ‡(o
+%74"__id*
+
+%73System.Web.UI.Control∂
+≥
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs‡	 ‡(o2
+lblUserNameHintSystem.Web.UI.WebControls.Label"__id*
+
+%74Ó
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs· ·(
+%75bool""object.operator !=(object, object)*
+"
+object*4
+2
+lblUserNameHintSystem.Web.UI.WebControls.Label*
+""*
+1
+2*ª
+
+1o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs„ „(ê˘
+ˆ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs„) „(E'
+%76 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoŒ
+À
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs„G „(k
+%77string"2Resources.Resource.RegisterLoginNameHintFormat.get*"
+Resources.Resourceﬁ
+€
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs„m „(ê
+
+%78int"6mojoPortal.Web.WebConfigSettings.MinUserNameLength.get*$""
+ mojoPortal.Web.WebConfigSettingsê
+ç
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs„ „(ë
+%79string"5string.Format(System.IFormatProvider, string, object)*
+"
+string*)
+'
+%76 System.Globalization.CultureInfo*
+
+%77string*
+
+
+%78int˛˚
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs„ „(ë
+%80string"(System.Web.UI.WebControls.Label.Text.set*4
+2
+lblUserNameHintSystem.Web.UI.WebControls.Label*
+
+%79string2Text.set*
+2*å
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÊ È(8°
+û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÊ# Ê(85
+%81.System.Web.UI.WebControls.CreateUserWizardStep"__id*o*m"
+ mojoPortal.Web.UI.Pages.Register"G
+CreateUserWizardStep1.System.Web.UI.WebControls.CreateUserWizardStepñ
+ì
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÊ# Ê(Q
+%82System.Web.UI.Control"JSystem.Web.UI.WebControls.TemplatedWizardStep.ContentTemplateContainer.get*7
+5
+%81.System.Web.UI.WebControls.CreateUserWizardStepÉÄ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÊ# Ê(m
+%83System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*
+
+%82System.Web.UI.Control*
+ConfirmEmail2FindControl(string)†
+ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÊ Ê(m
+%84"__id*
+
+%83System.Web.UI.Controlµ
+≤
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÊ Ê(m1
+ConfirmEmail!System.Web.UI.WebControls.TextBox"__id*
+
+%84˜
+Ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÈ È('
+%85 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsˆ
+Û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÈ È(8
+%86bool"ImojoPortal.Business.SiteSettings.RequireEnterEmailTwiceOnRegistration.get*)
+'
+%85 mojoPortal.Business.SiteSettings*
+3
+4*Î
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÎ Î(Ì
+Í
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÎ Î(
+%87bool""object.operator !=(object, object)*
+"
+object*3
+1
+ConfirmEmail!System.Web.UI.WebControls.TextBox*
+""*
+5
+4*˘"
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÌ ˙(ó
+î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÌ Ì(A 
+%88System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*/-
++function confirmEmail(original, confirm) { è
+å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÓ Ó(9 
+%89System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*'%
+#var fieldset = confirm.parentNode; —
+Œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÔ Ô({ 
+%90System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*ig
+eif((original[0].value != null) && (confirm.value != null) && (original[0].value == confirm.value)) { §
+°
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs (P 
+%91System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*<:
+8fieldset.className = "settingrow registerrow welldone"; ≈
+¬
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÚ8 Ú(S
+%92string")Resources.Resource.EmailConfirmedHint.get*"
+Resources.Resource¿
+Ω
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÚ Ú(S
+%93string"__concat*!
+$(confirm).next("div").text("*
+
+%92stringß
+§
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÚ Ú(]
+%94string"__concat*
+
+%93string*
+"); ˜
+Ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÚ Ú(^ 
+%95System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%94stringı
+Ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÛ Û( 
+%96System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+	} else { Ñ
+Å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÙ Ù(. 
+%97System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if (fieldset != null) { ú
+ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csı ı(H 
+%98System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*42
+0fieldset.className = "settingrow registerrow "; »
+≈
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs˜8 ˜(V
+%99string",Resources.Resource.EmailNotConfirmedHint.get*"
+Resources.Resource¡
+æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs˜ ˜(V
+%100string"__concat*!
+$(confirm).next("div").text("*
+
+%99string©
+¶
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs˜ ˜(`
+%101string"__concat*
+
+%100string*
+"); ˘
+ˆ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs˜ ˜(a!
+%102System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%101stringÔ
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¯ ¯(!
+%103System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} Ô
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs˘ ˘(!
+%104System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} Ô
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs˙ ˙(!
+%105System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} *
+4*—
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÄ Ö(¯
+ı
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÄ Ä(!!
+%106System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+</script>
+‘—
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÇ Ç(
+%107System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get·
+ﬁ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÇ Ç()
+%108!System.Web.UI.ClientScriptManager"#System.Web.UI.Page.ClientScript.get*
+
+%107System.Web.UI.Page–
+Õ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÇR Ç(c
+%109string"$System.Text.StringBuilder.ToString()*%
+#
+scriptSystem.Text.StringBuilderπ
+∂
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÇ Ç(d
+%110void"XSystem.Web.UI.ClientScriptManager.RegisterClientScriptBlock(System.Type, string, string)*+
+)
+%108!System.Web.UI.ClientScriptManager*
+""*
+jqvalidatehelpers*
+
+%109string¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÑ" Ñ(76
+%111.System.Web.UI.WebControls.CreateUserWizardStep"__id*o*m"
+ mojoPortal.Web.UI.Pages.Register"G
+CreateUserWizardStep1.System.Web.UI.WebControls.CreateUserWizardStepò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÑ" Ñ(P
+%112System.Web.UI.Control"JSystem.Web.UI.WebControls.TemplatedWizardStep.ContentTemplateContainer.get*8
+6
+%111.System.Web.UI.WebControls.CreateUserWizardStepÅ˛
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÑ" Ñ(h
+%113System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*
+
+%112System.Web.UI.Control*
+
+UserName2FindControl(string)¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÑ Ñ(h
+%114"__id*
+
+%113System.Web.UI.Controlµ
+≤
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÑ Ñ(h0
+txtUserName!System.Web.UI.WebControls.TextBox"__id*
+
+%114Ì
+Í
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÖ Ö(
+%115bool""object.operator !=(object, object)*
+"
+object*2
+0
+txtUserName!System.Web.UI.WebControls.TextBox*
+""*
+6
+7*¡
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csá â(:á
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csá á()
+%116!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*2
+0
+txtUserName!System.Web.UI.WebControls.TextBoxï
+í
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csá á(J
+%117void"5System.Web.UI.AttributeCollection.Add(string, string)*+
+)
+%116!System.Web.UI.AttributeCollection*	
+onkeyup*!
+checkUsernameForLength(this);á
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csà à()
+%118!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*2
+0
+txtUserName!System.Web.UI.WebControls.TextBoxá
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csà à(<
+%119void"5System.Web.UI.AttributeCollection.Add(string, string)*+
+)
+%118!System.Web.UI.AttributeCollection*	
+onfocus*
+showHint(this);á
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csâ â()
+%120!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*2
+0
+txtUserName!System.Web.UI.WebControls.TextBoxÜ
+É
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csâ â(;
+%121void"5System.Web.UI.AttributeCollection.Add(string, string)*+
+)
+%120!System.Web.UI.AttributeCollection*
+
+onblur*
+hideHint(this);*
+7*É
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cså ç(¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cså å(46
+%122.System.Web.UI.WebControls.CreateUserWizardStep"__id*o*m"
+ mojoPortal.Web.UI.Pages.Register"G
+CreateUserWizardStep1.System.Web.UI.WebControls.CreateUserWizardStepò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cså å(M
+%123System.Web.UI.Control"JSystem.Web.UI.WebControls.TemplatedWizardStep.ContentTemplateContainer.get*8
+6
+%122.System.Web.UI.WebControls.CreateUserWizardStep˛˚
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cså å(b
+%124System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*
+
+%123System.Web.UI.Control*	
+Email2FindControl(string)¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cså å(b
+%125"__id*
+
+%124System.Web.UI.Control≤
+Ø
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cså å(b-
+txtEmail!System.Web.UI.WebControls.TextBox"__id*
+
+%125Í
+Á
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csç ç(
+%126bool""object.operator !=(object, object)*
+"
+object*/
+-
+txtEmail!System.Web.UI.WebControls.TextBox*
+""*
+8
+9*¶
+8n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csè ì(9Ñ
+Å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csè è()
+%127!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*/
+-
+txtEmail!System.Web.UI.WebControls.TextBoxâ
+Ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csè è(;
+%128void"5System.Web.UI.AttributeCollection.Add(string, string)*+
+)
+%127!System.Web.UI.AttributeCollection*	
+onkeyup*
+checkEmail(this);Ñ
+Å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csê ê()
+%129!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*/
+-
+txtEmail!System.Web.UI.WebControls.TextBoxá
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csê ê(9
+%130void"5System.Web.UI.AttributeCollection.Add(string, string)*+
+)
+%129!System.Web.UI.AttributeCollection*	
+onfocus*
+showHint(this);Ñ
+Å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csë ë()
+%131!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*/
+-
+txtEmail!System.Web.UI.WebControls.TextBoxÜ
+É
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csë ë(8
+%132void"5System.Web.UI.AttributeCollection.Add(string, string)*+
+)
+%131!System.Web.UI.AttributeCollection*
+
+onblur*
+hideHint(this);¯
+ı
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csì ì((
+%133 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings¯
+ı
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csì ì(9
+%134bool"ImojoPortal.Business.SiteSettings.RequireEnterEmailTwiceOnRegistration.get**
+(
+%133 mojoPortal.Business.SiteSettings*
+10
+9*Ó
+10n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csï	 ï(Ó
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csï	 ï(
+%135bool""object.operator !=(object, object)*
+"
+object*3
+1
+ConfirmEmail!System.Web.UI.WebControls.TextBox*
+""*
+11
+9*¢	
+11n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csò ô(=à
+Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csò ò()
+%136!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*3
+1
+ConfirmEmail!System.Web.UI.WebControls.TextBoxá
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csò ò(?
+%137void"5System.Web.UI.AttributeCollection.Add(string, string)*+
+)
+%136!System.Web.UI.AttributeCollection*	
+onfocus*
+showHint(this);à
+Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csô ô()
+%138!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*3
+1
+ConfirmEmail!System.Web.UI.WebControls.TextBoxÜ
+É
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csô ô(>
+%139void"5System.Web.UI.AttributeCollection.Add(string, string)*+
+)
+%138!System.Web.UI.AttributeCollection*
+
+onblur*
+hideHint(this);*
+9*¥
+9n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csü ¢(¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csü! ü(66
+%140.System.Web.UI.WebControls.CreateUserWizardStep"__id*o*m"
+ mojoPortal.Web.UI.Pages.Register"G
+CreateUserWizardStep1.System.Web.UI.WebControls.CreateUserWizardStepò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csü! ü(O
+%141System.Web.UI.Control"JSystem.Web.UI.WebControls.TemplatedWizardStep.ContentTemplateContainer.get*8
+6
+%140.System.Web.UI.WebControls.CreateUserWizardStepàÖ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csü! ü(n
+%142System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*
+
+%141System.Web.UI.Control*
+ConfirmPassword2FindControl(string)¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csü ü(n
+%143"__id*
+
+%142System.Web.UI.Control¥
+±
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csü ü(n/
+
+txtConfirm!System.Web.UI.WebControls.TextBox"__id*
+
+%143¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs†" †(76
+%144.System.Web.UI.WebControls.CreateUserWizardStep"__id*o*m"
+ mojoPortal.Web.UI.Pages.Register"G
+CreateUserWizardStep1.System.Web.UI.WebControls.CreateUserWizardStepò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs†" †(P
+%145System.Web.UI.Control"JSystem.Web.UI.WebControls.TemplatedWizardStep.ContentTemplateContainer.get*8
+6
+%144.System.Web.UI.WebControls.CreateUserWizardStepÅ˛
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs†" †(h
+%146System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*
+
+%145System.Web.UI.Control*
+
+Password2FindControl(string)¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs† †(h
+%147"__id*
+
+%146System.Web.UI.Controlµ
+≤
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs† †(h0
+txtPassword!System.Web.UI.WebControls.TextBox"__id*
+
+%147Ï
+È
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¢ ¢(
+%148bool""object.operator !=(object, object)*
+"
+object*1
+/
+
+txtConfirm!System.Web.UI.WebControls.TextBox*
+""*
+12
+13*Ó
+12n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¢  ¢(3Ì
+Í
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¢  ¢(3
+%149bool""object.operator !=(object, object)*
+"
+object*2
+0
+txtPassword!System.Web.UI.WebControls.TextBox*
+""*
+14
+13*Ú
+14n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs• •(8¯
+ı
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs•	 •((
+%150 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsˆ
+Û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs•	 •(8
+%151bool"GmojoPortal.Business.SiteSettings.ShowPasswordStrengthOnRegistration.get**
+(
+%150 mojoPortal.Business.SiteSettings*
+15
+16*°	
+15n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs® ©(;á
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs® ®()
+%152!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*2
+0
+txtPassword!System.Web.UI.WebControls.TextBoxá
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs® ®(=
+%153void"5System.Web.UI.AttributeCollection.Add(string, string)*+
+)
+%152!System.Web.UI.AttributeCollection*	
+onfocus*
+showHint(this);á
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs© ©()
+%154!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*2
+0
+txtPassword!System.Web.UI.WebControls.TextBoxÜ
+É
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs© ©(<
+%155void"5System.Web.UI.AttributeCollection.Add(string, string)*+
+)
+%154!System.Web.UI.AttributeCollection*
+
+onblur*
+hideHint(this);*
+16*∫
+16n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¨ ¥(9Ü
+É
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¨ ¨()
+%156!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*1
+/
+
+txtConfirm!System.Web.UI.WebControls.TextBoxá
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¨ ¨(;
+%157void"5System.Web.UI.AttributeCollection.Add(string, string)*+
+)
+%156!System.Web.UI.AttributeCollection*	
+onfocus*
+showHint(this);Ü
+É
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≠ ≠()
+%158!System.Web.UI.AttributeCollection"3System.Web.UI.WebControls.WebControl.Attributes.get*1
+/
+
+txtConfirm!System.Web.UI.WebControls.TextBoxÜ
+É
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≠ ≠(:
+%159void"5System.Web.UI.AttributeCollection.Add(string, string)*+
+)
+%158!System.Web.UI.AttributeCollection*
+
+onblur*
+hideHint(this);±Æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csØ Ø( !
+%160System.Text.StringBuilder"System.Text.StringBuilder—
+Œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csØ Ø(
+%161void")System.Text.StringBuilder.StringBuilder()*#
+!
+%160System.Text.StringBuilder√
+¿
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csØ Ø( #
+scriptSystem.Text.StringBuilder"__id*#
+!
+%160System.Text.StringBuilderé
+ã
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∞ ∞(:!
+%162System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*%#
+!
+<script type="text/javascript">
+ËÂ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≤ ≤(/
+%163string""System.Web.UI.Control.ClientID.get*1
+/
+
+txtConfirm!System.Web.UI.WebControls.TextBox2ClientID.get™
+ß
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≤ ≤(/
+%164string"__concat*	
+ $('#*
+
+%163string‘
+—
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≤ ≤(c
+%165string"__concat*
+
+%164string*31
+/').keyup(function() { checkPasswordConfirm($('#ÈÊ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≤f ≤(z
+%166string""System.Web.UI.Control.ClientID.get*2
+0
+txtPassword!System.Web.UI.WebControls.TextBox2ClientID.get±
+Æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≤ ≤(z
+%167string"__concat*
+
+%165string*
+
+%166string≥
+∞
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≤ ≤(å
+%168string"__concat*
+
+%167string*
+'),(this))});˙
+˜
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≤ ≤(ç!
+%169System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%168string¯
+ı
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¥ ¥((
+%170 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings¯
+ı
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¥ ¥(9
+%171bool"ImojoPortal.Business.SiteSettings.RequireEnterEmailTwiceOnRegistration.get**
+(
+%170 mojoPortal.Business.SiteSettings*
+17
+18*Ô
+17n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∂	 ∂(Ó
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∂	 ∂(
+%172bool""object.operator !=(object, object)*
+"
+object*3
+1
+ConfirmEmail!System.Web.UI.WebControls.TextBox*
+""*
+19
+18*¶
+19n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∏ π(%¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∏) ∏(>6
+%173.System.Web.UI.WebControls.CreateUserWizardStep"__id*o*m"
+ mojoPortal.Web.UI.Pages.Register"G
+CreateUserWizardStep1.System.Web.UI.WebControls.CreateUserWizardStepò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∏) ∏(W
+%174System.Web.UI.Control"JSystem.Web.UI.WebControls.TemplatedWizardStep.ContentTemplateContainer.get*8
+6
+%173.System.Web.UI.WebControls.CreateUserWizardStepåâ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∏) ∏(z
+%175System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*
+
+%174System.Web.UI.Control*
+pnlEmailConfirmHint2FindControl(string)¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∏" ∏(z
+%176"__id*
+
+%175System.Web.UI.Controlª
+∏
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∏ ∏(z6
+pnlEmailConfirmHintSystem.Web.UI.WebControls.Panel"__id*
+
+%176Û
+
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csπ
+ π(%
+%177bool""object.operator !=(object, object)*
+"
+object*8
+6
+pnlEmailConfirmHintSystem.Web.UI.WebControls.Panel*
+""*
+20
+21*
+20n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∫ ∫(*Û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∫ ∫(*
+%178bool"!System.Web.UI.Control.Visible.set*8
+6
+pnlEmailConfirmHintSystem.Web.UI.WebControls.Panel*
+""2Visible.set*
+21*¥
+21o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csº º(ÖÍÁ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csº º(3
+%179string""System.Web.UI.Control.ClientID.get*3
+1
+ConfirmEmail!System.Web.UI.WebControls.TextBox2ClientID.get™
+ß
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csº º(3
+%180string"__concat*	
+ $('#*
+
+%179stringÃ
+…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csº º(_
+%181string"__concat*
+
+%180string*+)
+'').keyup(function() { confirmEmail($('#Ê„
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csºb º(s
+%182string""System.Web.UI.Control.ClientID.get*/
+-
+txtEmail!System.Web.UI.WebControls.TextBox2ClientID.get±
+Æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csº º(s
+%183string"__concat*
+
+%181string*
+
+%182string≥
+∞
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csº º(Ö
+%184string"__concat*
+
+%183string*
+'),(this))});˙
+˜
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csº º(Ü!
+%185System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%184string*
+18*æ
+
+18n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¿ ¬(c¯
+ı
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¿ ¿("!
+%186System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+</script>
+‘—
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¬ ¬(
+%187System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get·
+ﬁ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¬ ¬()
+%188!System.Web.UI.ClientScriptManager"#System.Web.UI.Page.ClientScript.get*
+
+%187System.Web.UI.Page–
+Õ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¬R ¬(c
+%189string"$System.Text.StringBuilder.ToString()*%
+#
+scriptSystem.Text.StringBuilder∏
+µ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs¬ ¬(d
+%190void"TSystem.Web.UI.ClientScriptManager.RegisterStartupScript(System.Type, string, string)*+
+)
+%188!System.Web.UI.ClientScriptManager*
+""*
+checkPasswordConfirm*
+
+%189string*
+13*ö
+13n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≈	 ∆(¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≈" ≈(76
+%191.System.Web.UI.WebControls.CreateUserWizardStep"__id*o*m"
+ mojoPortal.Web.UI.Pages.Register"G
+CreateUserWizardStep1.System.Web.UI.WebControls.CreateUserWizardStepò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≈" ≈(P
+%192System.Web.UI.Control"JSystem.Web.UI.WebControls.TemplatedWizardStep.ContentTemplateContainer.get*8
+6
+%191.System.Web.UI.WebControls.CreateUserWizardStepàÖ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≈" ≈(o
+%193System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*
+
+%192System.Web.UI.Control*
+pnlUserNameHint2FindControl(string)¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≈ ≈(o
+%194"__id*
+
+%193System.Web.UI.Control∑
+¥
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs≈	 ≈(o2
+pnlUserNameHintSystem.Web.UI.WebControls.Panel"__id*
+
+%194Ô
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs∆ ∆(
+%195bool""object.operator !=(object, object)*
+"
+object*4
+2
+pnlUserNameHintSystem.Web.UI.WebControls.Panel*
+""*
+22
+23*Ï
+22n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs« «(#ÔÏ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs« «(#
+%196bool"!System.Web.UI.Control.Visible.set*4
+2
+pnlUserNameHintSystem.Web.UI.WebControls.Panel*
+""2Visible.set*
+23*ë
+23n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs…	  (¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs… …(46
+%197.System.Web.UI.WebControls.CreateUserWizardStep"__id*o*m"
+ mojoPortal.Web.UI.Pages.Register"G
+CreateUserWizardStep1.System.Web.UI.WebControls.CreateUserWizardStepò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs… …(M
+%198System.Web.UI.Control"JSystem.Web.UI.WebControls.TemplatedWizardStep.ContentTemplateContainer.get*8
+6
+%197.System.Web.UI.WebControls.CreateUserWizardStepÖÇ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs… …(i
+%199System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*
+
+%198System.Web.UI.Control*
+pnlEmailHint2FindControl(string)¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs… …(i
+%200"__id*
+
+%199System.Web.UI.Control¥
+±
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs…	 …(i/
+pnlEmailHintSystem.Web.UI.WebControls.Panel"__id*
+
+%200Ï
+È
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs   (
+%201bool""object.operator !=(object, object)*
+"
+object*1
+/
+pnlEmailHintSystem.Web.UI.WebControls.Panel*
+""*
+24
+25*È
+24n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÀ À( ÏÈ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÀ À( 
+%202bool"!System.Web.UI.Control.Visible.set*1
+/
+pnlEmailHintSystem.Web.UI.WebControls.Panel*
+""2Visible.set*
+25*ö
+25n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÕ	 Œ(¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÕ" Õ(76
+%203.System.Web.UI.WebControls.CreateUserWizardStep"__id*o*m"
+ mojoPortal.Web.UI.Pages.Register"G
+CreateUserWizardStep1.System.Web.UI.WebControls.CreateUserWizardStepò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÕ" Õ(P
+%204System.Web.UI.Control"JSystem.Web.UI.WebControls.TemplatedWizardStep.ContentTemplateContainer.get*8
+6
+%203.System.Web.UI.WebControls.CreateUserWizardStepàÖ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÕ" Õ(o
+%205System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*
+
+%204System.Web.UI.Control*
+pnlPasswordHint2FindControl(string)¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÕ Õ(o
+%206"__id*
+
+%205System.Web.UI.Control∑
+¥
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csÕ	 Õ(o2
+pnlPasswordHintSystem.Web.UI.WebControls.Panel"__id*
+
+%206Ô
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csŒ Œ(
+%207bool""object.operator !=(object, object)*
+"
+object*4
+2
+pnlPasswordHintSystem.Web.UI.WebControls.Panel*
+""*
+26
+27*Ï
+26n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csœ œ(#ÔÏ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.csœ œ(#
+%208bool"!System.Web.UI.Control.Visible.set*4
+2
+pnlPasswordHintSystem.Web.UI.WebControls.Panel*
+""2Visible.set*
+27*Ø
+27n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs—	 “(%¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs—) —(>6
+%209.System.Web.UI.WebControls.CreateUserWizardStep"__id*o*m"
+ mojoPortal.Web.UI.Pages.Register"G
+CreateUserWizardStep1.System.Web.UI.WebControls.CreateUserWizardStepò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs—) —(W
+%210System.Web.UI.Control"JSystem.Web.UI.WebControls.TemplatedWizardStep.ContentTemplateContainer.get*8
+6
+%209.System.Web.UI.WebControls.CreateUserWizardStepèå
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs—) —(}
+%211System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*
+
+%210System.Web.UI.Control*
+pnlConfirmPasswordHint2FindControl(string)¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs—" —(}
+%212"__id*
+
+%211System.Web.UI.Controlæ
+ª
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs—	 —(}9
+pnlConfirmPasswordHintSystem.Web.UI.WebControls.Panel"__id*
+
+%212ˆ
+Û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs“ “(%
+%213bool""object.operator !=(object, object)*
+"
+object*;
+9
+pnlConfirmPasswordHintSystem.Web.UI.WebControls.Panel*
+""*
+28
+29*Û
+28n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs” ”(*ˆÛ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs” ”(*
+%214bool"!System.Web.UI.Control.Visible.set*;
+9
+pnlConfirmPasswordHintSystem.Web.UI.WebControls.Panel*
+""2Visible.set*
+29*¸
+29n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs◊ ◊("Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Register.aspx.cs◊ ◊(
+implicit returnB$"
+ mojoPortal.Web.UI.Pages.Register

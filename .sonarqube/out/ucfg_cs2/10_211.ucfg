@@ -1,0 +1,82 @@
+
+5mojoPortal.Data.DBForums.ForumThreadGetPostCount(int)„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.cs· ·(1"0*ã
+0„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.cs¹ ¼(ú
+÷
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.cs¹< ¹(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÙÖ
+…
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.cs¹% ¹(‰(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÅ
+Â
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.cs¹) ¹(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*
+mp_ForumPosts_CountByThread*2è
+å
+…
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.cs¹ ¹(‰)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperž
+›
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.csº0 º(=
+%3"__id*
+""ž
+›
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.csº? º(W
+%4"__id*
+""è
+å
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.csº º(b
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@ThreadID*
+
+%3*
+
+%4*
+""ù
+ö
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.cs»( »(;
+%6object"2mojoPortal.Data.SqlParameterHelper.ExecuteScalar()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperÙ
+Ö
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.cs» »(<	
+%7int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%6object«
+¨
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.cs» »(<
+countint"__id*
+	
+%7int"—
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.cs¼ ¼(
+
+countint*©
+1„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.cs½	 ½(	"œ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Forums\DBForums.cs½ ½(	
+implicit return:
+threadIdintB"
+mojoPortal.Data.DBForums

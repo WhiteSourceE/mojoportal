@@ -1,0 +1,103 @@
+
+6mojoPortal.Web.WindowsLiveLogin.derive(string, string)p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs¢ ¢("0*„
+0p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs¤! ¤(Hž
+›
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs¤+ ¤(I0
+%0*System.Security.Cryptography.HashAlgorithm"9System.Security.Cryptography.HashAlgorithm.Create(string)*.",
+*System.Security.Cryptography.HashAlgorithm*
+
+SHA256æ
+ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs¤! ¤(I5
+hashAlg*System.Security.Cryptography.HashAlgorithm"__id*2
+0
+%0*System.Security.Cryptography.HashAlgorithm*
+1*—
+1p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs¦ «(“
+
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs¦ ¦((
+	keyLengthint"__id*2Í
+Ê
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs§ §(.
+%1System.Text.Encoding" System.Text.Encoding.Default.get*"
+System.Text.Encodingµ
+²
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs§8 §(G
+%2string"__concat*
+
+prefixstring*
+
+secretstringêç
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs§ §(H
+%3byte[]"%System.Text.Encoding.GetBytes(string)*
+
+%1System.Text.Encoding*
+
+%2string2GetBytes(string)›
+˜
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs§ §(H
+databyte[]"__id*
+
+%3byte[]Ž
+‹
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs¨$ ¨(=
+%4byte[]">System.Security.Cryptography.HashAlgorithm.ComputeHash(byte[])*7
+5
+hashAlg*System.Security.Cryptography.HashAlgorithm*
+
+databyte[]¡
+ž
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs¨ ¨(=
+
+hashOutputbyte[]"__id*
+
+%4byte[]‹ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs©! ©(4
+%5byte[]"byte[]ž
+›
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs© ©(4
+byteKeybyte[]"__id*
+
+%5byte[]ˆ
+…
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csª ª(:
+
+%6void"2System.Array.Copy(System.Array, System.Array, int)*"
+System.Array*
+
+
+hashOutputbyte[]*
+
+byteKeybyte[]*
+
+	keyLengthint"‡
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs« «(
+
+byteKeybyte[]*z
+2p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs­	 ­(	*
+3*ÿ
+3p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs­	 ­(	"‡
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs­ ­(	
+implicit return:
+secretstring:
+prefixstringB#"!
+mojoPortal.Web.WindowsLiveLogin

@@ -1,0 +1,70 @@
+
+@mojoPortal.Data.DBEmailSendQueue.GetEmailToSend(System.DateTime)|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.cs…" …(0"0*Å
+0|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.cs‡ ‰(&ñ
+î
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.cs‡< ‡(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÐÍ
+}
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.cs‡% ‡((
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÃ
+À
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.cs‡) ‡(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*&$
+"mp_EmailSendQueue_SelectForSending*2ß
+Ü
+}
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.cs‡ ‡()
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper•
+’
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.csˆ3 ˆ(E
+%3"__id*
+""•
+’
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.csˆG ˆ(_
+%4"__id*
+""ü
+ù
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.csˆ ˆ(m
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@CurrentTime*
+
+%3*
+
+%4* 
+
+currentTimeSystem.DateTime
+þ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.cs‰ ‰(&
+%6System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper"Ÿ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.cs‰ ‰('
+
+%6System.Data.IDataReader*—
+1|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.cs‹	 ‹(	"“
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailSendQueue.cs‹ ‹(	
+implicit return:
+currentTimeSystem.DateTimeB$""
+ mojoPortal.Data.DBEmailSendQueue

@@ -1,0 +1,135 @@
+
+cmojoPortal.Data.DBSiteUser.CountUsersByRegistrationDateRange(int, System.DateTime, System.DateTime)t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csD D(5"0*»
+0t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csI N(È
+Ê
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csI3 I(]
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionString»≈
+u
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csI I(ä(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperæ
+ª
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csI  I(2
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*)'
+%mp_Users_CountByRegistrationDateRange*2◊
+‘
+u
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csI I(ä)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperç
+ä
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csJ% J(2
+%3"__id*
+""ç
+ä
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csJ4 J(L
+%4"__id*
+""’
+“
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csJ J(U
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@SiteID*
+
+%3*
+
+%4*
+""ç
+ä
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csK( K(:
+%6"__id*
+""ç
+ä
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csK< K(T
+%7"__id*
+""
+Ì
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csK K(`
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@BeginDate*
+
+%6*
+
+%7*
+
+	beginDateSystem.DateTimeç
+ä
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csL& L(8
+%9"__id*
+""é
+ã
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csL: L(R
+%10"__id*
+""Ó
+Î
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csL L(\
+%11void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@EndDate*
+
+%9*
+
+%10*
+
+endDateSystem.DateTimeÈ
+Ê
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csM M(2
+%12object"2mojoPortal.Data.SqlParameterHelper.ExecuteScalar()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper 
+«
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csM M(3
+
+%13int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%12objectõ
+ò
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csM M(3
+countint"__id*
+
+
+%13int"Ü
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csN N(
+
+countint*á
+1t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csO O("ã
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteUser.csO O(
+implicit return:
+siteIdint:
+	beginDateSystem.DateTime:
+endDateSystem.DateTimeB"
+mojoPortal.Data.DBSiteUser

@@ -1,0 +1,115 @@
+
+NmojoPortal.Web.AdminUI.SecurityAdvisorPage.Page_Load(object, System.EventArgs)r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs ("0*°
+0r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs (Õ
+ 
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs (
+%0System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Pageœ
+Ã
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs (
+
+%1bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%0System.Web.HttpRequest*
+1
+2*é
+1r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs! !(&ñ
+ì
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs! !('
+
+%2void"CmojoPortal.Web.SiteUtils.RedirectToLoginPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*.,
+*mojoPortal.Web.AdminUI.SecurityAdvisorPage"|
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs" "(
+""*Â
+2r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs$ $(„
+‡
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs$ $(
+
+%3bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+3
+4*ï
+3r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs& &(9ù
+ö
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs& &(:
+
+%4void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*.,
+*mojoPortal.Web.AdminUI.SecurityAdvisorPage"|
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs' '(
+""*‰
+4r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs* *(/˙
+˜
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs* *(&
+%5 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÂ
+‚
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs* *(/
+
+%6bool"6mojoPortal.Business.SiteSettings.IsServerAdminSite.get*(
+&
+%5 mojoPortal.Business.SiteSettings*
+5
+6*ï
+5r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs, ,(9ù
+ö
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs, ,(:
+
+%7void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*.,
+*mojoPortal.Web.AdminUI.SecurityAdvisorPage"|
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs- -(
+""*…
+6r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs1 5(Ô
+Ï
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs1 1(0
+
+%8void"=mojoPortal.Web.Framework.SecurityHelper.DisableBrowserCache()*+")
+'mojoPortal.Web.Framework.SecurityHelperÓ
+Î
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs3 3(
+
+%9void"9mojoPortal.Web.AdminUI.SecurityAdvisorPage.LoadSettings()*.,
+*mojoPortal.Web.AdminUI.SecurityAdvisorPageÒ
+Ó
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs4 4(
+%10void";mojoPortal.Web.AdminUI.SecurityAdvisorPage.PopulateLabels()*.,
+*mojoPortal.Web.AdminUI.SecurityAdvisorPageÛ
+
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs5 5(
+%11void"=mojoPortal.Web.AdminUI.SecurityAdvisorPage.PopulateControls()*.,
+*mojoPortal.Web.AdminUI.SecurityAdvisorPage*
+7*É
+7r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs7	 7(	"â
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs7 7(	
+implicit return:
+senderobject:
+eSystem.EventArgsB.,
+*mojoPortal.Web.AdminUI.SecurityAdvisorPage

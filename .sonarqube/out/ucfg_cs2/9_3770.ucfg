@@ -1,0 +1,545 @@
+
+SmojoPortal.Web.Controllers.FileServiceController.MoveOrRename(string, string, bool)á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs“$ “(0"0*ï
+0á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csê ê(*
+1
+2*´
+1á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs÷ ⁄(°
+û
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs÷ ÷('
+%0"__id*
+""≈
+¬
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs÷ ÷('(
+resultmojoPortal.FileSystem.OpResult"__id*
+
+%0Ñ
+Å
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs◊ ◊(6
+%1string"2System.Web.VirtualPathUtility.GetDirectory(string)*!"
+System.Web.VirtualPathUtility*
+
+deststring≤
+Ø
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs◊ ◊(6
+dirstring"__id*
+
+%1stringÂ
+‚
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÿ ÿ(5
+%2string""System.IO.Path.GetFileName(string)*"
+System.IO.Path*
+
+deststring∆
+√
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÿ ÿ(5
+%3string"__concat*
+
+dirstring*
+
+%2string∫
+∑
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÿ ÿ(5
+destinationstring"__id*
+
+%3string*
+3
+4*¡
+3á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs‹ ‹( ¨
+©
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs‹ ‹(!
+%4string"EmojoPortal.Web.Controllers.FileServiceController.FolderOrFile(string)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+originstring*
+5*ï
+5á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs‹ ‹( *
+6
+7*¸
+6à
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csﬂ ﬂ(ã•
+¢
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csﬂ ﬂ('
+%5!mojoPortal.FileSystem.IFileSystem"__id*g*e2
+0mojoPortal.Web.Controllers.FileServiceController"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystem“
+œ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csﬂ& ﬂ(C
+%6string"SmojoPortal.Web.Controllers.FileServiceController.FilePath(string, bool, bool, bool)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+originstring*
+""*
+""*
+""Ω
+∫
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csﬂN ﬂ(W
+%7string"__concat*
+
+dirstring*
+/∆
+√
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csﬂZ ﬂ(~
+%8string"NmojoPortal.Web.Controllers.FileServiceController.CleanFileName(string, string)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+destinationstring*
+
+folder≈
+¬
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csﬂN ﬂ(~
+%9string"__concat*
+
+%7string*
+
+%8string–
+Õ
+à
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csﬂE ﬂ(å
+%10string"SmojoPortal.Web.Controllers.FileServiceController.FilePath(string, bool, bool, bool)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+%9string*
+""*
+""*
+""€ÿ
+à
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csﬂ ﬂ(ç%
+%11mojoPortal.FileSystem.OpResult"<mojoPortal.FileSystem.IFileSystem.MoveFolder(string, string)*)
+'
+%5!mojoPortal.FileSystem.IFileSystem*
+
+%6string*
+
+%10string2MoveFolder(string, string)Á
+‰
+à
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csﬂ ﬂ(ç(
+resultmojoPortal.FileSystem.OpResult"__id*'
+%
+%11mojoPortal.FileSystem.OpResult*
+8*ï
+7á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs‹ ‹( *
+9
+8*…
+9á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs‰ ‰("Ø
+¨
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs‰ ‰(#
+%12bool"ImojoPortal.Web.Controllers.FileServiceController.AllowedExtension(string)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+originstring*
+10
+11*»
+10á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs‰' ‰(<≠
+™
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs‰' ‰(=
+%13bool"ImojoPortal.Web.Controllers.FileServiceController.AllowedExtension(string)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+deststring*
+12
+11*µ
+12à
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÊ Ê(Ä¶
+£
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÊ Ê((
+%14!mojoPortal.FileSystem.IFileSystem"__id*g*e2
+0mojoPortal.Web.Controllers.FileServiceController"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystem”
+–
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÊ% Ê(5
+%15string"SmojoPortal.Web.Controllers.FileServiceController.FilePath(string, bool, bool, bool)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+originstring*
+""*
+""*
+""æ
+ª
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÊ@ Ê(I
+%16string"__concat*
+
+dirstring*
+/æ
+ª
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÊL Ê(g
+%17string"NmojoPortal.Web.Controllers.FileServiceController.CleanFileName(string, string)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+deststring*
+file»
+≈
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÊ@ Ê(g
+%18string"__concat*
+
+%16string*
+
+%17string–
+Õ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÊ7 Ê(h
+%19string"SmojoPortal.Web.Controllers.FileServiceController.FilePath(string, bool, bool, bool)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+%18string*
+""*
+""*
+""£
+†
+à
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÊj Ê(Ä
+%20"__id*
+""ÓÎ
+à
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÊ Ê(Å%
+%21mojoPortal.FileSystem.OpResult"@mojoPortal.FileSystem.IFileSystem.MoveFile(string, string, bool)**
+(
+%14!mojoPortal.FileSystem.IFileSystem*
+
+%15string*
+
+%19string*
+
+%202MoveFile(string, string, bool)Á
+‰
+à
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÊ Ê(Å(
+resultmojoPortal.FileSystem.OpResult"__id*'
+%
+%21mojoPortal.FileSystem.OpResult*
+13*Ç
+11á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÍ Í(,¢
+ü
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÍ Í(,
+%22"__id*
+""∆
+√
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÍ Í(,(
+resultmojoPortal.FileSystem.OpResult"__id*
+
+%22*
+13*ì
+13á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csê ê(*
+8*√
+4á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÚ Ú( ≠
+™
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÚ Ú(!
+%23string"EmojoPortal.Web.Controllers.FileServiceController.FolderOrFile(string)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+originstring*
+14*ò
+14á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÚ Ú( *
+15
+16*Ú
+15á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csı ˜(.”
+–
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csı ı(1
+%24string"SmojoPortal.Web.Controllers.FileServiceController.FilePath(string, bool, bool, bool)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+originstring*
+""*
+""*
+""≥
+∞
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csı ı(1
+orgstring"__id*
+
+%24string∆
+√
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csˆ ˆ(.
+%25string"__concat*
+
+destinationstring*
+/¬
+ø
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csˆ1 ˆ(P
+%26string"NmojoPortal.Web.Controllers.FileServiceController.CleanFileName(string, string)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+originstring*
+
+folder»
+≈
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csˆ ˆ(P
+%27string"__concat*
+
+%25string*
+
+%26string–
+Õ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csˆ ˆ(^
+%28string"SmojoPortal.Web.Controllers.FileServiceController.FilePath(string, bool, bool, bool)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+%27string*
+""*
+""*
+""≥
+∞
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csˆ ˆ(^
+desstring"__id*
+
+%28string¶
+£
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˜ ˜((
+%29!mojoPortal.FileSystem.IFileSystem"__id*g*e2
+0mojoPortal.Web.Controllers.FileServiceController"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystem‹Ÿ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˜ ˜(/%
+%30mojoPortal.FileSystem.OpResult"<mojoPortal.FileSystem.IFileSystem.MoveFolder(string, string)**
+(
+%29!mojoPortal.FileSystem.IFileSystem*
+
+orgstring*
+
+desstring2MoveFolder(string, string)Ê
+„
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˜ ˜(/(
+resultmojoPortal.FileSystem.OpResult"__id*'
+%
+%30mojoPortal.FileSystem.OpResult*
+8*ó
+16á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÚ Ú( *
+17
+8* 
+17á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs¸ ¸("Ø
+¨
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs¸ ¸(#
+%31bool"ImojoPortal.Web.Controllers.FileServiceController.AllowedExtension(string)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+originstring*
+18
+19*∞
+18á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs¸' ¸(E´
+®
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs¸' ¸(9
+%32string"EmojoPortal.Web.Controllers.FileServiceController.FolderOrFile(string)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+deststringÁ
+‰
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs¸' ¸(E
+%33bool""string.operator ==(string, string)*
+"
+string*
+
+%32string*
+
+folder*
+20
+19*ï
+20á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˛ ˛(y¶
+£
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˛ ˛((
+%34!mojoPortal.FileSystem.IFileSystem"__id*g*e2
+0mojoPortal.Web.Controllers.FileServiceController"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystem”
+–
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˛% ˛(5
+%35string"SmojoPortal.Web.Controllers.FileServiceController.FilePath(string, bool, bool, bool)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+originstring*
+""*
+""*
+""∆
+√
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˛@ ˛(Q
+%36string"__concat*
+
+destinationstring*
+/¿
+Ω
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˛T ˛(q
+%37string"NmojoPortal.Web.Controllers.FileServiceController.CleanFileName(string, string)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+originstring*
+file»
+≈
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˛@ ˛(q
+%38string"__concat*
+
+%36string*
+
+%37string–
+Õ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˛7 ˛(r
+%39string"SmojoPortal.Web.Controllers.FileServiceController.FilePath(string, bool, bool, bool)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+%38string*
+""*
+""*
+""ÏÈ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˛ ˛(z%
+%40mojoPortal.FileSystem.OpResult"@mojoPortal.FileSystem.IFileSystem.MoveFile(string, string, bool)**
+(
+%34!mojoPortal.FileSystem.IFileSystem*
+
+%35string*
+
+%39string*
+""2MoveFile(string, string, bool)Ê
+„
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˛ ˛(z(
+resultmojoPortal.FileSystem.OpResult"__id*'
+%
+%40mojoPortal.FileSystem.OpResult*
+21*Ç
+19á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÇ Ç(,¢
+ü
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÇ Ç(,
+%41"__id*
+""∆
+√
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÇ Ç(,(
+resultmojoPortal.FileSystem.OpResult"__id*
+
+%41*
+21*ì
+21á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csê ê(*
+8*›
+8á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csâ â(Ü
+É
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csâ â(6
+%42/mojoPortal.Web.Models.FileService.ReturnMessage"]mojoPortal.Web.Controllers.FileServiceController.ReturnResult(mojoPortal.FileSystem.OpResult)*42
+0mojoPortal.Web.Controllers.FileServiceController**
+(
+resultmojoPortal.FileSystem.OpResult"ƒ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csâ â( 8
+6
+%42/mojoPortal.Web.Models.FileService.ReturnMessage*˘
+2á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csç é(Qı
+Ú
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csç ç(
+%43log4net.ILog"__id*K*I2
+0mojoPortal.Web.Controllers.FileServiceController"
+loglog4net.ILogˆÛ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csç ç(
+%44void"log4net.ILog.Error(object)*
+
+%43log4net.ILog*
+
+exSystem.Exception2Error(object)ˆÛ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csé é(S6
+%45/mojoPortal.Web.Models.FileService.ReturnMessage"/mojoPortal.Web.Models.FileService.ReturnMessageï
+í
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csé é((
+%46void"?mojoPortal.Web.Models.FileService.ReturnMessage.ReturnMessage()*8
+6
+%45/mojoPortal.Web.Models.FileService.ReturnMessageô
+ñ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csé+ é(:
+%47bool";mojoPortal.Web.Models.FileService.ReturnMessage.Success.set*8
+6
+%45/mojoPortal.Web.Models.FileService.ReturnMessage*
+""ﬂ‹
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cséD é(Q
+%48string"System.Exception.ToString()*
+
+exSystem.Exception2
+ToString()¢
+ü
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csé< é(Q
+%49string"9mojoPortal.Web.Models.FileService.ReturnMessage.Error.set*8
+6
+%45/mojoPortal.Web.Models.FileService.ReturnMessage*
+
+%48string"ƒ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csé é(T8
+6
+%45/mojoPortal.Web.Models.FileService.ReturnMessage*∞
+22á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csê ê("ü
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csê ê(
+implicit return:
+originstring:
+deststring:
+moveboolB42
+0mojoPortal.Web.Controllers.FileServiceController

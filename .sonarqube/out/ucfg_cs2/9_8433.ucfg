@@ -1,0 +1,692 @@
+
+RmojoPortal.Web.mojoSetup.EnsureRolesAndAdminUser(mojoPortal.Business.SiteSettings)n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÇ Ç(,"0*π
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÑ Ü()≠
+™
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÑ Ñ(-"
+%0mojoPortal.Business.SiteUser"JmojoPortal.Web.mojoSetup.EnsureAdminUser(mojoPortal.Business.SiteSettings)*"
+mojoPortal.Web.mojoSetup**
+(
+site mojoPortal.Business.SiteSettings 
+«
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÑ Ñ(-)
+	adminUsermojoPortal.Business.SiteUser"__id*$
+"
+%0mojoPortal.Business.SiteUser◊
+‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÜ Ü(	
+%1int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettings‰
+·
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÜ Ü(*
+
+%2bool",mojoPortal.Business.Role.Exists(int, string)*"
+mojoPortal.Business.Role*
+	
+%1int*
+
+Admins*
+1
+2*ó
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csà	 ì([≠™
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csà é(
+%3mojoPortal.Business.Role"mojoPortal.Business.Role¬
+ø
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csà à(
+
+%4void"mojoPortal.Business.Role.Role()* 
+
+%3mojoPortal.Business.Role÷
+”
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csä ä(
+%5string"%mojoPortal.Business.Role.RoleName.set* 
+
+%3mojoPortal.Business.Role*
+
+Admins·
+ﬁ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csã ã(#
+%6string"(mojoPortal.Business.Role.DisplayName.set* 
+
+%3mojoPortal.Business.Role*
+Administrators◊
+‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cså å(	
+%7int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettings“
+œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cså å(	
+%8int"#mojoPortal.Business.Role.SiteId.set* 
+
+%3mojoPortal.Business.Role*
+	
+%7int·
+ﬁ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csç ç(
+%9System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get**
+(
+site mojoPortal.Business.SiteSettingsÂ
+‚
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csç ç(
+%10System.Guid"%mojoPortal.Business.Role.SiteGuid.set* 
+
+%3mojoPortal.Business.Role*
+
+%9System.Guid¬
+ø
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csà	 é(%
+	adminRolemojoPortal.Business.Role"__id* 
+
+%3mojoPortal.Business.Role 
+«
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csè è(
+%11bool"mojoPortal.Business.Role.Save()*'
+%
+	adminRolemojoPortal.Business.Role 
+«
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csë ë(
+%12bool"mojoPortal.Business.Role.Save()*'
+%
+	adminRolemojoPortal.Business.RoleÕ
+ 
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csì ì(!
+
+%13int"#mojoPortal.Business.Role.RoleId.get*'
+%
+	adminRolemojoPortal.Business.Role’
+“
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csì# ì(3
+
+%14int"'mojoPortal.Business.SiteUser.UserId.get*+
+)
+	adminUsermojoPortal.Business.SiteUser◊
+‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csì5 ì(G
+%15System.Guid"%mojoPortal.Business.Role.RoleGuid.get*'
+%
+	adminRolemojoPortal.Business.Roleﬂ
+‹
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csìI ì([
+%16System.Guid")mojoPortal.Business.SiteUser.UserGuid.get*+
+)
+	adminUsermojoPortal.Business.SiteUser¨
+©
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csì ì(\
+%17bool"DmojoPortal.Business.Role.AddUser(int, int, System.Guid, System.Guid)*"
+mojoPortal.Business.Role*
+
+
+%13int*
+
+
+%14int*
+
+%15System.Guid*
+
+%16System.Guid*
+2*ƒ
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csó ó(.ÿ
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csó ó(
+
+%18int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettingsÎ
+Ë
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csó ó(/
+%19bool",mojoPortal.Business.Role.Exists(int, string)*"
+mojoPortal.Business.Role*
+
+
+%18int*
+Role Admins*
+3
+4*ÿ
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csô	 †(Æ´
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csô ü(
+%20mojoPortal.Business.Role"mojoPortal.Business.Roleƒ
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csô ô(!
+%21void"mojoPortal.Business.Role.Role()*!
+
+%20mojoPortal.Business.Role›
+⁄
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csõ õ(
+%22string"%mojoPortal.Business.Role.RoleName.set*!
+
+%20mojoPortal.Business.Role*
+Role AdminsË
+Â
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csú ú((
+%23string"(mojoPortal.Business.Role.DisplayName.set*!
+
+%20mojoPortal.Business.Role*
+Role Administratorsÿ
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csù ù(
+
+%24int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettings’
+“
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csù ù(
+
+%25int"#mojoPortal.Business.Role.SiteId.set*!
+
+%20mojoPortal.Business.Role*
+
+
+%24int‚
+ﬂ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csû û(
+%26System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get**
+(
+site mojoPortal.Business.SiteSettingsÁ
+‰
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csû û(
+%27System.Guid"%mojoPortal.Business.Role.SiteGuid.set*!
+
+%20mojoPortal.Business.Role*
+
+%26System.Guid«
+ƒ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csô	 ü()
+roleAdminRolemojoPortal.Business.Role"__id*!
+
+%20mojoPortal.Business.RoleŒ
+À
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs† †(
+%28bool"mojoPortal.Business.Role.Save()*+
+)
+roleAdminRolemojoPortal.Business.Role*
+4*œ
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs£ £(9ÿ
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs£ £(
+
+%29int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettingsˆ
+Û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs£ £(:
+%30bool",mojoPortal.Business.Role.Exists(int, string)*"
+mojoPortal.Business.Role*
+
+
+%29int*
+Content Administrators*
+5
+6*Ï
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs•	 ¨(Æ´
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs• ´(
+%31mojoPortal.Business.Role"mojoPortal.Business.Roleƒ
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs•  •($
+%32void"mojoPortal.Business.Role.Role()*!
+
+%31mojoPortal.Business.RoleË
+Â
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csß ß((
+%33string"%mojoPortal.Business.Role.RoleName.set*!
+
+%31mojoPortal.Business.Role*
+Content AdministratorsÎ
+Ë
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs® ®(+
+%34string"(mojoPortal.Business.Role.DisplayName.set*!
+
+%31mojoPortal.Business.Role*
+Content Administratorsÿ
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs© ©(
+
+%35int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettings’
+“
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs© ©(
+
+%36int"#mojoPortal.Business.Role.SiteId.set*!
+
+%31mojoPortal.Business.Role*
+
+
+%35int‚
+ﬂ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs™ ™(
+%37System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get**
+(
+site mojoPortal.Business.SiteSettingsÁ
+‰
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs™ ™(
+%38System.Guid"%mojoPortal.Business.Role.SiteGuid.set*!
+
+%31mojoPortal.Business.Role*
+
+%37System.Guid 
+«
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs•	 ´(,
+contentAdminRolemojoPortal.Business.Role"__id*!
+
+%31mojoPortal.Business.Role—
+Œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¨ ¨(
+%39bool"mojoPortal.Business.Role.Save()*.
+,
+contentAdminRolemojoPortal.Business.Role*
+6*Ã
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csØ Ø(6ÿ
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csØ Ø(
+
+%40int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettingsÛ
+
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csØ Ø(7
+%41bool",mojoPortal.Business.Role.Exists(int, string)*"
+mojoPortal.Business.Role*
+
+
+%40int*
+Authenticated Users*
+7
+8*
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs±	 ∏( Æ´
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs±! ∑(
+%42mojoPortal.Business.Role"mojoPortal.Business.Roleƒ
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs±% ±()
+%43void"mojoPortal.Business.Role.Role()*!
+
+%42mojoPortal.Business.RoleÂ
+‚
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs≥ ≥(%
+%44string"%mojoPortal.Business.Role.RoleName.set*!
+
+%42mojoPortal.Business.Role*
+Authenticated UsersË
+Â
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¥ ¥((
+%45string"(mojoPortal.Business.Role.DisplayName.set*!
+
+%42mojoPortal.Business.Role*
+Authenticated Usersÿ
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csµ µ(
+
+%46int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettings’
+“
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csµ µ(
+
+%47int"#mojoPortal.Business.Role.SiteId.set*!
+
+%42mojoPortal.Business.Role*
+
+
+%46int‚
+ﬂ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs∂ ∂(
+%48System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get**
+(
+site mojoPortal.Business.SiteSettingsÁ
+‰
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs∂ ∂(
+%49System.Guid"%mojoPortal.Business.Role.SiteGuid.set*!
+
+%42mojoPortal.Business.Role*
+
+%48System.Guidœ
+Ã
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs±	 ∑(1
+authenticatedUserRolemojoPortal.Business.Role"__id*!
+
+%42mojoPortal.Business.Role÷
+”
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs∏ ∏( 
+%50bool"mojoPortal.Business.Role.Save()*3
+1
+authenticatedUserRolemojoPortal.Business.Role*
+8*Ã
+8n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csª ª(5ÿ
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csª ª(
+
+%51int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettingsÚ
+Ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csª ª(6
+%52bool",mojoPortal.Business.Role.Exists(int, string)*"
+mojoPortal.Business.Role*
+
+
+%51int*
+Content Publishers*
+9
+10*Ì
+9n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csΩ	 ƒ(Æ´
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csΩ  √(
+%53mojoPortal.Business.Role"mojoPortal.Business.Roleƒ
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csΩ$ Ω((
+%54void"mojoPortal.Business.Role.Role()*!
+
+%53mojoPortal.Business.Role‰
+·
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csø ø($
+%55string"%mojoPortal.Business.Role.RoleName.set*!
+
+%53mojoPortal.Business.Role*
+Content PublishersÁ
+‰
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¿ ¿('
+%56string"(mojoPortal.Business.Role.DisplayName.set*!
+
+%53mojoPortal.Business.Role*
+Content Publishersÿ
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¡ ¡(
+
+%57int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettings’
+“
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¡ ¡(
+
+%58int"#mojoPortal.Business.Role.SiteId.set*!
+
+%53mojoPortal.Business.Role*
+
+
+%57int‚
+ﬂ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¬ ¬(
+%59System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get**
+(
+site mojoPortal.Business.SiteSettingsÁ
+‰
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¬ ¬(
+%60System.Guid"%mojoPortal.Business.Role.SiteGuid.set*!
+
+%53mojoPortal.Business.Role*
+
+%59System.GuidŒ
+À
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csΩ	 √(0
+contentPublisherRolemojoPortal.Business.Role"__id*!
+
+%53mojoPortal.Business.Role’
+“
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csƒ ƒ(
+%61bool"mojoPortal.Business.Role.Save()*2
+0
+contentPublisherRolemojoPortal.Business.Role*
+10*À
+10n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs« «(2ÿ
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs« «(
+
+%62int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettingsÔ
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs« «(3
+%63bool",mojoPortal.Business.Role.Exists(int, string)*"
+mojoPortal.Business.Role*
+
+
+%62int*
+Content Authors*
+11
+12*‚
+11n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs…	 –(Æ´
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs… œ(
+%64mojoPortal.Business.Role"mojoPortal.Business.Roleƒ
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs…! …(%
+%65void"mojoPortal.Business.Role.Role()*!
+
+%64mojoPortal.Business.Role·
+ﬁ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÀ À(!
+%66string"%mojoPortal.Business.Role.RoleName.set*!
+
+%64mojoPortal.Business.Role*
+Content Authors‰
+·
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÃ Ã($
+%67string"(mojoPortal.Business.Role.DisplayName.set*!
+
+%64mojoPortal.Business.Role*
+Content Authorsÿ
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÕ Õ(
+
+%68int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettings’
+“
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÕ Õ(
+
+%69int"#mojoPortal.Business.Role.SiteId.set*!
+
+%64mojoPortal.Business.Role*
+
+
+%68int‚
+ﬂ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csŒ Œ(
+%70System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get**
+(
+site mojoPortal.Business.SiteSettingsÁ
+‰
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csŒ Œ(
+%71System.Guid"%mojoPortal.Business.Role.SiteGuid.set*!
+
+%64mojoPortal.Business.Role*
+
+%70System.GuidÀ
+»
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs…	 œ(-
+contentAuthorRolemojoPortal.Business.Role"__id*!
+
+%64mojoPortal.Business.Role“
+œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs– –(
+%72bool"mojoPortal.Business.Role.Save()*/
+-
+contentAuthorRolemojoPortal.Business.Role*
+12*’
+12n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs” ”(<ÿ
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs” ”(
+
+%73int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettings˘
+ˆ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs” ”(=
+%74bool",mojoPortal.Business.Role.Exists(int, string)*"
+mojoPortal.Business.Role*
+
+
+%73int*
+Newsletter Administrators*
+13
+14*˙
+13n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs’	 ‹(Æ´
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs’ €(
+%75mojoPortal.Business.Role"mojoPortal.Business.Roleƒ
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs’# ’('
+%76void"mojoPortal.Business.Role.Role()*!
+
+%75mojoPortal.Business.RoleÎ
+Ë
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs◊ ◊(+
+%77string"%mojoPortal.Business.Role.RoleName.set*!
+
+%75mojoPortal.Business.Role*
+Newsletter AdministratorsÓ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÿ ÿ(.
+%78string"(mojoPortal.Business.Role.DisplayName.set*!
+
+%75mojoPortal.Business.Role*
+Newsletter Administratorsÿ
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csŸ Ÿ(
+
+%79int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettings’
+“
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csŸ Ÿ(
+
+%80int"#mojoPortal.Business.Role.SiteId.set*!
+
+%75mojoPortal.Business.Role*
+
+
+%79int‚
+ﬂ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs⁄ ⁄(
+%81System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get**
+(
+site mojoPortal.Business.SiteSettingsÁ
+‰
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs⁄ ⁄(
+%82System.Guid"%mojoPortal.Business.Role.SiteGuid.set*!
+
+%75mojoPortal.Business.Role*
+
+%81System.GuidÕ
+ 
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs’	 €(/
+newsletterAdminRolemojoPortal.Business.Role"__id*!
+
+%75mojoPortal.Business.Role‘
+—
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs‹ ‹(
+%83bool"mojoPortal.Business.Role.Save()*1
+/
+newsletterAdminRolemojoPortal.Business.Role*
+14*¸
+14n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csﬁ ﬁ("Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csﬁ ﬁ(
+implicit return:(
+site mojoPortal.Business.SiteSettingsB"
+mojoPortal.Web.mojoSetup

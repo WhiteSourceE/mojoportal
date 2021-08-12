@@ -1,0 +1,339 @@
+
+8mojoPortal.Web.WebTaskManager.ResumeOrKillStalledTasks()s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csù ù(-"0*◊
+0s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csü °(5Ù
+Ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csü- ü(F(
+%0"System.Collections.Generic.List<T>"-mojoPortal.Business.TaskQueue.GetUnfinished()*!"
+mojoPortal.Business.TaskQueue‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csü ü(F4
+unfinshedTasks"System.Collections.Generic.List<T>"__id**
+(
+%0"System.Collections.Generic.List<T>*
+1*Ä
+1s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs⁄	 ⁄(	*
+2
+3*õ
+2s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs§ §(,ò
+ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs§ §(-
+
+%1bool"FmojoPortal.Business.TaskQueue.IsStalled(mojoPortal.Business.TaskQueue)*!"
+mojoPortal.Business.TaskQueue*'
+%
+taskmojoPortal.Business.TaskQueue*
+4
+1*›
+4s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs¶ ¶(&⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs¶ ¶(&
+
+%2bool"+mojoPortal.Business.TaskQueue.CanResume.get*'
+%
+taskmojoPortal.Business.TaskQueue*
+5
+6*√
+5s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs® ™(%Â
+‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs®. ®(E
+%3string"4mojoPortal.Business.TaskQueue.SerializedTaskType.get*'
+%
+taskmojoPortal.Business.TaskQueue…
+∆
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs®! ®(F
+%4System.Type"System.Type.GetType(string)*"
+System.Type*
+
+%3string•
+¢
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs® ®(F
+tSystem.Type"__id*
+
+%4System.Type‰
+·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs™ ™(%
+
+%5bool"1System.Type.operator ==(System.Type, System.Type)*"
+System.Type*
+
+tSystem.Type*
+""*
+7
+8*€
+7s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs¨ Ø('Ã
+…
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs¨ ¨(
+%6log4net.ILog"__id*8*6
+mojoPortal.Web.WebTaskManager"
+loglog4net.ILog€
+ÿ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs¨Q ¨(^
+%7string"*mojoPortal.Business.TaskQueue.TaskName.get*'
+%
+taskmojoPortal.Business.TaskQueueÃ
+…
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs¨& ¨(^
+%8string"__concat**(
+&Failed to deserialize and resume task *
+
+%7string’“
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs¨ ¨(_
+
+%9void"log4net.ILog.Error(object)*
+
+%6log4net.ILog*
+
+%8string2Error(object)Á
+‰
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs≠ ≠(3
+%10string"(mojoPortal.Business.TaskQueue.Status.set*'
+%
+taskmojoPortal.Business.TaskQueue*	
+Stalled¡
+æ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csÆ/ Æ(>
+%11System.DateTime"System.DateTime.UtcNow.get*"
+System.DateTimeÇ
+ˇ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csÆ Æ(>
+%12System.DateTime"-mojoPortal.Business.TaskQueue.CompleteUTC.set*'
+%
+taskmojoPortal.Business.TaskQueue*
+
+%11System.DateTime‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csØ Ø('
+%13bool"$mojoPortal.Business.TaskQueue.Save()*'
+%
+taskmojoPortal.Business.TaskQueue*
+1*€	
+8s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs∑/ π(1Ë
+Â
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs∏c ∏(|
+%14string"6mojoPortal.Business.TaskQueue.SerializedTaskObject.get*'
+%
+taskmojoPortal.Business.TaskQueue≠
+™
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs∏6 ∏(}
+%15object"RmojoPortal.Business.SerializationHelper.DeserializeFromString(System.Type, string)*+")
+'mojoPortal.Business.SerializationHelper*
+
+tSystem.Type*
+
+%14stringñ
+ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs∏& ∏(}
+%16"__id*
+
+%15object¥
+±
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs∑/ ∏(}+
+qTask"mojoPortal.Business.ITaskQueueTask"__id*
+
+%16Ï
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csπ$ π(1
+%17bool""object.operator !=(object, object)*
+"
+object*-
++
+qTask"mojoPortal.Business.ITaskQueueTask*
+""*
+9
+10*Ù
+9s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csª$ ª(6Û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csª$ ª(6
+%18void"/mojoPortal.Business.ITaskQueueTask.ResumeTask()*-
++
+qTask"mojoPortal.Business.ITaskQueueTask2ResumeTask()*
+11*⁄
+10s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csø$ ø(fÕ
+ 
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csø$ ø('
+%19log4net.ILog"__id*8*6
+mojoPortal.Web.WebTaskManager"
+loglog4net.ILog‹
+Ÿ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csøY ø(f
+%20string"*mojoPortal.Business.TaskQueue.TaskName.get*'
+%
+taskmojoPortal.Business.TaskQueueŒ
+À
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csø. ø(f
+%21string"__concat**(
+&Failed to deserialize and resume task *
+
+%20stringÿ’
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.csø$ ø(g
+%22void"log4net.ILog.Error(object)*
+
+%19log4net.ILog*
+
+%21string2Error(object)*
+11*Ö
+11s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs⁄	 ⁄(	*
+
+12
+1
+3*≈
+12s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs≈  …(cÕ
+ 
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs≈  ≈(#
+%23log4net.ILog"__id*8*6
+mojoPortal.Web.WebTaskManager"
+loglog4net.ILog‹
+Ÿ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs≈U ≈(b
+%24string"*mojoPortal.Business.TaskQueue.TaskName.get*'
+%
+taskmojoPortal.Business.TaskQueueŒ
+À
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs≈* ≈(b
+%25string"__concat**(
+&Failed to deserialize and resume task *
+
+%24string∂
+≥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs≈* ≈(u
+%26string"__concat*
+
+%25string*
+ so cancelling¶£
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs≈  ≈(z
+%27void",log4net.ILog.Error(object, System.Exception)*
+
+%23log4net.ILog*
+
+%26string*(
+&
+ex System.InvalidOperationException2Error(object, System.Exception)Á
+‰
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs∆  ∆(6
+%28double"/mojoPortal.Business.TaskQueue.CompleteRatio.set*'
+%
+taskmojoPortal.Business.TaskQueue*2¡
+æ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs«3 «(B
+%29System.DateTime"System.DateTime.UtcNow.get*"
+System.DateTimeÇ
+ˇ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs«  «(B
+%30System.DateTime"-mojoPortal.Business.TaskQueue.CompleteUTC.set*'
+%
+taskmojoPortal.Business.TaskQueue*
+
+%29System.DateTime‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs»  »(+
+%31bool"$mojoPortal.Business.TaskQueue.Save()*'
+%
+taskmojoPortal.Business.TaskQueueÕ
+ 
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs…  …(#
+%32log4net.ILog"__id*8*6
+mojoPortal.Web.WebTaskManager"
+loglog4net.ILogË
+Â
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs…J …(c
+%33string"6mojoPortal.Business.TaskQueue.SerializedTaskObject.get*'
+%
+taskmojoPortal.Business.TaskQueueƒ
+¡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs…) …(c
+%34string"__concat* 
+Failed Serialized Task was: *
+
+%33string÷”
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs…  …(d
+%35void"log4net.ILog.Info(object)*
+
+%32log4net.ILog*
+
+%34string2Info(object)*
+1*á
+6s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs“ ‘(#Á
+‰
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs“ “(/
+%36string"(mojoPortal.Business.TaskQueue.Status.set*'
+%
+taskmojoPortal.Business.TaskQueue*	
+Stalled¡
+æ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs”+ ”(:
+%37System.DateTime"System.DateTime.UtcNow.get*"
+System.DateTimeÇ
+ˇ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs” ”(:
+%38System.DateTime"-mojoPortal.Business.TaskQueue.CompleteUTC.set*'
+%
+taskmojoPortal.Business.TaskQueue*
+
+%37System.DateTime‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs‘ ‘(#
+%39bool"$mojoPortal.Business.TaskQueue.Save()*'
+%
+taskmojoPortal.Business.TaskQueue*
+1*Ö
+3s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs⁄	 ⁄(	"ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebTaskManager.cs⁄ ⁄(	
+implicit returnB!
+mojoPortal.Web.WebTaskManager

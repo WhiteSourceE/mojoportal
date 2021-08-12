@@ -1,0 +1,538 @@
+
+_mojoPortal.Business.ImageHelper.ResizeAndSquareImage(string, string, int, System.Drawing.Color)u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csè è(/"0*Ÿ
+0u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csë ë(*‘
+—
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csë ë(+
+
+%0bool"System.IO.File.Exists(string)*"
+System.IO.File*
+
+imageFilePathstring*
+1
+2*˚
+1u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs„	 „(	"
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csë/ ë(6
+""*˜
+2u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csì ì(Y∑
+¥
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csì! ì(7
+%1string"__concat*
+
+imageFilePathstring*
+.tmp‹
+Ÿ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csì: ì(Z
+%2string"#System.IO.Path.GetExtension(string)*"
+System.IO.Path*
+
+imageFilePathstring≤
+Ø
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csì! ì(Z
+%3string"__concat*
+
+%1string*
+
+%2stringß
+§
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csì ì(Z
+tmpFilePathstring"__id*
+
+%3string*
+3*æ
+3u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csô õ(GÅ
+˛
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csô ô(;
+
+%4void")System.IO.File.Copy(string, string, bool)*"
+System.IO.File*
+
+imageFilePathstring*
+
+tmpFilePathstring*
+""
+Ì
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csõ- õ(H
+%5System.Drawing.Image"%System.Drawing.Image.FromFile(string)*"
+System.Drawing.Image*
+
+tmpFilePathstring≈
+¬
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csõ õ(H%
+fullsizeImageSystem.Drawing.Image"__id*
+
+%5System.Drawing.Image*
+4*ˆ
+4u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csù °(oŒ
+À
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csù% ù(8	
+%6int"System.Drawing.Image.Width.get*'
+%
+fullsizeImageSystem.Drawing.Imageœ
+Ã
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csù: ù(N	
+%7int"System.Drawing.Image.Height.get*'
+%
+fullsizeImageSystem.Drawing.ImageÀ
+»
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csù ù(O	
+%8int"System.Math.Min(int, int)*"
+System.Math*
+	
+%6int*
+	
+%7intó
+î
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csù ù(O
+aint"__id*
+	
+%8intŒ
+À
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csû û(0	
+%9int"System.Drawing.Image.Width.get*'
+%
+fullsizeImageSystem.Drawing.Imageí
+è
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csû û(9
+xint"__id*
+""–
+Õ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csü ü(1
+
+%10int"System.Drawing.Image.Height.get*'
+%
+fullsizeImageSystem.Drawing.Imageí
+è
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csü ü(:
+yint"__id*
+""è
+å
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs°U °(o
+%11"__id*
+""Ø¨
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs°2 °(p
+%12System.Drawing.Bitmap"System.Drawing.Bitmapå
+â
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs°6 °(<
+%13void"JSystem.Drawing.Bitmap.Bitmap(int, int, System.Drawing.Imaging.PixelFormat)*
+
+%12System.Drawing.Bitmap*
+""*
+""*
+
+%11»
+≈
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs°" °(p&
+resizedBitmapSystem.Drawing.Bitmap"__id*
+
+%12System.Drawing.Bitmap*
+5*Ê
+5u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs£( £(Sö
+ó
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs£3 £(T
+%14System.Drawing.Graphics"7System.Drawing.Graphics.FromImage(System.Drawing.Image)*"
+System.Drawing.Graphics*(
+&
+resizedBitmapSystem.Drawing.Bitmap«
+ƒ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs£( £(T#
+graphicsSystem.Drawing.Graphics"__id* 
+
+%14System.Drawing.Graphics*
+6*Ñ
+6u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs• ©(7è
+å
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs•: •(X
+%15"__id*
+""é
+ã
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs• •(X2
+%16+System.Drawing.Drawing2D.CompositingQuality".System.Drawing.Graphics.CompositingQuality.set*%
+#
+graphicsSystem.Drawing.Graphics*
+
+%15è
+å
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs¶5 ¶(N
+%17"__id*
+""Ñ
+Å
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs¶ ¶(N-
+%18&System.Drawing.Drawing2D.SmoothingMode")System.Drawing.Graphics.SmoothingMode.set*%
+#
+graphicsSystem.Drawing.Graphics*
+
+%17è
+å
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csß9 ß(]
+%19"__id*
+""å
+â
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csß ß(]1
+%20*System.Drawing.Drawing2D.InterpolationMode"-System.Drawing.Graphics.InterpolationMode.set*%
+#
+graphicsSystem.Drawing.Graphics*
+
+%19¢
+ü
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs©  ©(7
+%21bool"LSystem.Drawing.Color.operator !=(System.Drawing.Color, System.Drawing.Color)*"
+System.Drawing.Color*)
+'
+backgroundColorSystem.Drawing.Color*
+""*
+7
+8*ê
+7u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs©; ©(Yé
+ã
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs©; ©(Z
+%22void"3System.Drawing.Graphics.Clear(System.Drawing.Color)*%
+#
+graphicsSystem.Drawing.Graphics*)
+'
+backgroundColorSystem.Drawing.Color*
+8*ﬁ
+
+8u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs´  ≠(lµ≤
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs´1 ´(\
+%23System.Drawing.Rectangle"System.Drawing.Rectangle˙
+˜
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs´5 ´(>
+%24void"6System.Drawing.Rectangle.Rectangle(int, int, int, int)*!
+
+%23System.Drawing.Rectangle*2 *2 *
+""*
+""œ
+Ã
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs´  ´(\*
+imageRectangleSystem.Drawing.Rectangle"__id*!
+
+%23System.Drawing.Rectangleè
+å
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs≠Z ≠(l
+%25"__id*
+""√
+¿
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs≠ ≠(m
+%26void"ÇSystem.Drawing.Graphics.DrawImage(System.Drawing.Image, System.Drawing.Rectangle, int, int, int, int, System.Drawing.GraphicsUnit)*%
+#
+graphicsSystem.Drawing.Graphics*'
+%
+fullsizeImageSystem.Drawing.Image*,
+*
+imageRectangleSystem.Drawing.Rectangle*
+
+
+xint*
+
+
+yint*
+
+
+aint*
+
+
+aint*
+
+%25*
+9*Ä
+9u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs±  ±((*
+10*Ö
+10u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs±  ±((*
+11
+12*Ç
+11u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs¥/ µ(5õ
+ò
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs¥; ¥(S,
+%27%System.Drawing.Imaging.ImageCodecInfo"6mojoPortal.Business.ImageHelper.GetEncoderInfo(string)*#"!
+mojoPortal.Business.ImageHelper*
+
+mimeTypestring‰
+·
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs¥/ ¥(S2
+	codecInfo%System.Drawing.Imaging.ImageCodecInfo"__id*.
+,
+%27%System.Drawing.Imaging.ImageCodecInfoı
+Ú
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csµ$ µ(5
+%28bool""object.operator ==(object, object)*
+"
+object*4
+2
+	codecInfo%System.Drawing.Imaging.ImageCodecInfo*
+""*
+13
+14*¸
+13u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs„	 „(	"
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csµ9 µ(@
+""*Œ
+14u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∂9 ∂(`’“
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∂I ∂(a/
+%29(System.Drawing.Imaging.EncoderParameters"(System.Drawing.Imaging.EncoderParametersÅ
+˛
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∂M ∂(^
+%30void"?System.Drawing.Imaging.EncoderParameters.EncoderParameters(int)*1
+/
+%29(System.Drawing.Imaging.EncoderParameters*2Ó
+Î
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∂9 ∂(a9
+encoderParams(System.Drawing.Imaging.EncoderParameters"__id*1
+/
+%29(System.Drawing.Imaging.EncoderParameters*
+15*ñ
+15u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∏) ª(^ó
+î
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∏) ∏(5
+qualitylong"__id*2Zù
+ö
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∫$ ∫(70
+%31)System.Drawing.Imaging.EncoderParameter[]"2System.Drawing.Imaging.EncoderParameters.Param.get*;
+9
+encoderParams(System.Drawing.Imaging.EncoderParameters¯
+ı
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∫R ∫(x%
+%32System.Drawing.Imaging.Encoder"__id*O*M 
+System.Drawing.Imaging.Encoder")
+QualitySystem.Drawing.Imaging.Encoder‘—
+v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∫= ∫(Ç.
+%33'System.Drawing.Imaging.EncoderParameter"'System.Drawing.Imaging.EncoderParameter’
+“
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∫A ∫(Q
+%34void"^System.Drawing.Imaging.EncoderParameter.EncoderParameter(System.Drawing.Imaging.Encoder, long)*0
+.
+%33'System.Drawing.Imaging.EncoderParameter*'
+%
+%32System.Drawing.Imaging.Encoder*
+
+qualitylong¯
+ı
+v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∫$ ∫(Ç
+%35"
+__arraySet*2
+0
+%31)System.Drawing.Imaging.EncoderParameter[]*2 *0
+.
+%33'System.Drawing.Imaging.EncoderParameter≥
+∞
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csª$ ª(_
+%36void"rSystem.Drawing.Image.Save(string, System.Drawing.Imaging.ImageCodecInfo, System.Drawing.Imaging.EncoderParameters)*(
+&
+resizedBitmapSystem.Drawing.Bitmap*
+
+imageFilePathstring*4
+2
+	codecInfo%System.Drawing.Imaging.ImageCodecInfo*;
+9
+encoderParams(System.Drawing.Imaging.EncoderParameters*
+16*Å
+16u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs„	 „(	*
+17*Ö
+12u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs±  ±((*
+18
+19*¿
+18u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs¬  ¬(Q˘
+ˆ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs¬B ¬(Q)
+%37"System.Drawing.Imaging.ImageFormat"*System.Drawing.Imaging.ImageFormat.Gif.get*&"$
+"System.Drawing.Imaging.ImageFormat¿
+Ω
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs¬  ¬(R
+%38void"ESystem.Drawing.Image.Save(string, System.Drawing.Imaging.ImageFormat)*(
+&
+resizedBitmapSystem.Drawing.Bitmap*
+
+imageFilePathstring*+
+)
+%37"System.Drawing.Imaging.ImageFormat*
+17*Ö
+19u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs±  ±((*
+20
+17*¿
+20u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∆  ∆(Q˘
+ˆ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∆B ∆(Q)
+%39"System.Drawing.Imaging.ImageFormat"*System.Drawing.Imaging.ImageFormat.Png.get*&"$
+"System.Drawing.Imaging.ImageFormat¿
+Ω
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs∆  ∆(R
+%40void"ESystem.Drawing.Image.Save(string, System.Drawing.Imaging.ImageFormat)*(
+&
+resizedBitmapSystem.Drawing.Bitmap*
+
+imageFilePathstring*+
+)
+%39"System.Drawing.Imaging.ImageFormat*
+17*Å
+17u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs„	 „(	*
+21*Å
+21u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs„	 „(	*
+22*€
+22u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csœ œ(+”
+–
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csœ œ(,
+%41bool"System.IO.File.Exists(string)*"
+System.IO.File*
+
+tmpFilePathstring*
+23
+24*◊
+23u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csœ0 œ(G”
+–
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csœ0 œ(H
+%42void"System.IO.File.Delete(string)*"
+System.IO.File*
+
+tmpFilePathstring*
+24*ë
+24u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs„	 „(	*
+25
+26
+27
+28
+28*¡
+27u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs” ”(—
+Œ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs” ”(
+%43log4net.ILog"__id*:*8!
+mojoPortal.Business.ImageHelper"
+loglog4net.ILogÓÎ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs” ”(
+%44void"log4net.ILog.Error(object)*
+
+%43log4net.ILog*#
+!
+exSystem.OutOfMemoryException2Error(object)"
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs‘ ‘(
+""*æ
+26u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csÿ ÿ(—
+Œ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csÿ ÿ(
+%45log4net.ILog"__id*:*8!
+mojoPortal.Business.ImageHelper"
+loglog4net.ILogÎË
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csÿ ÿ(
+%46void"log4net.ILog.Error(object)*
+
+%45log4net.ILog* 
+
+exSystem.ArgumentException2Error(object)"
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csŸ Ÿ(
+""*÷
+25u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs› ›(—
+Œ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs› ›(
+%47log4net.ILog"__id*:*8!
+mojoPortal.Business.ImageHelper"
+loglog4net.ILogÉÄ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs› ›(
+%48void"log4net.ILog.Error(object)*
+
+%47log4net.ILog*8
+6
+ex0System.Runtime.InteropServices.ExternalException2Error(object)"
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.csﬁ ﬁ(
+""*ä
+28u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs„	 „(	"å
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ImageHelper.cs„ „(	
+implicit return:
+imageFilePathstring:
+mimeTypestring:
+
+sideLengthint:'
+backgroundColorSystem.Drawing.ColorB#"!
+mojoPortal.Business.ImageHelper

@@ -1,0 +1,74 @@
+
+9mojoPortal.Data.DBSharedFiles.DeleteSharedFileFolder(int)ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csE E(+"0*È
+0ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csG M(Ñ
+Å
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csG3 G(^
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionString‚ﬂ
+é
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csG G(Å(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperŒ
+À
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csG  G(2
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*
+mp_SharedFileFolders_Delete*2Ò
+Ó
+é
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csG G(Å)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperß
+§
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csI' I(4
+%3"__id*
+""ß
+§
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csI6 I(N
+%4"__id*
+""Ò
+Ó
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csI I(Y
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@FolderID*
+
+%3*
+
+%4*
+""Å
+˛
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csK K(+	
+%6int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperª
+∏
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csK K(+
+rowsAffectedint"__id*
+	
+%6int"ò
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csM M(
+""*ª
+1ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csN N("•
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\SharedFiles\DBSharedFiles.csN N(
+implicit return:
+folderIdintB!"
+mojoPortal.Data.DBSharedFiles

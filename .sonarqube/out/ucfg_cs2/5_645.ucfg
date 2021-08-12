@@ -1,0 +1,679 @@
+
+ImojoPortal.Business.PayPalLog.LoadListFromReader(System.Data.IDataReader)Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÀ' À(9"0*æ
+0Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÕ Õ(A‘—
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÕ, Õ(A(
+%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>È
+Ê
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÕ0 Õ(?
+
+%1void")System.Collections.Generic.List<T>.List()**
+(
+%0"System.Collections.Generic.List<T>Ì
+Í
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÕ Õ(A3
+payPalLogList"System.Collections.Generic.List<T>"__id**
+(
+%0"System.Collections.Generic.List<T>*
+1*
+1Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs– –($ﬂ‹
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs– –($
+
+%2bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*˛•
+2Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs“ Ó(/ «
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs“* “(9#
+%3mojoPortal.Business.PayPalLog"mojoPortal.Business.PayPalLog‰
+·
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs“. “(7
+
+%4void")mojoPortal.Business.PayPalLog.PayPalLog()*%
+#
+%3mojoPortal.Business.PayPalLogﬂ
+‹
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs“ “(9*
+	payPalLogmojoPortal.Business.PayPalLog"__id*%
+#
+%3mojoPortal.Business.PayPalLogÇˇ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs”1 ”(B
+%5object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+RowGuid2this[string].get√¿
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs”1 ”(M
+%6string"object.ToString()*
+
+%5object2
+ToString()¶£
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs”( ”(N
+%7System.Guid"System.Guid—
+Œ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs”, ”(0
+
+%8void"System.Guid.Guid(string)*
+
+%7System.Guid*
+
+%6stringÁ
+‰
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs” ”(ND
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+rowGuidSystem.Guid"__id*
+
+%7System.GuidÖÇ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‘> ‘(R
+%9object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CreatedUtc2this[string].getÂ
+‚
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‘+ ‘(S
+%10System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%9objectÛ
+
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‘ ‘(SK
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+
+createdUtcSystem.DateTime"__id*
+
+%10System.DateTimeÑÅ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs’2 ’(D
+%11object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SiteGuid2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs’2 ’(O
+%12string"object.ToString()*
+
+%11object2
+ToString()ß§
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs’) ’(P
+%13System.Guid"System.Guid‘
+—
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs’- ’(1
+%14void"System.Guid.Guid(string)*
+
+%13System.Guid*
+
+%12stringÈ
+Ê
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs’ ’(PE
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+siteGuidSystem.Guid"__id*
+
+%13System.GuidÑÅ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs÷2 ÷(D
+%15object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UserGuid2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs÷2 ÷(O
+%16string"object.ToString()*
+
+%15object2
+ToString()ß§
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs÷) ÷(P
+%17System.Guid"System.Guid‘
+—
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs÷- ÷(1
+%18void"System.Guid.Guid(string)*
+
+%17System.Guid*
+
+%16stringÈ
+Ê
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs÷ ÷(PE
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+userGuidSystem.Guid"__id*
+
+%17System.GuidÖÇ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs◊3 ◊(F
+%19object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	StoreGuid2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs◊3 ◊(Q
+%20string"object.ToString()*
+
+%19object2
+ToString()ß§
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs◊* ◊(R
+%21System.Guid"System.Guid‘
+—
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs◊. ◊(2
+%22void"System.Guid.Guid(string)*
+
+%21System.Guid*
+
+%20stringÍ
+Á
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs◊ ◊(RF
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+	storeGuidSystem.Guid"__id*
+
+%21System.GuidÑÅ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÿ2 ÿ(D
+%23object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CartGuid2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÿ2 ÿ(O
+%24string"object.ToString()*
+
+%23object2
+ToString()ß§
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÿ) ÿ(P
+%25System.Guid"System.Guid‘
+—
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÿ- ÿ(1
+%26void"System.Guid.Guid(string)*
+
+%25System.Guid*
+
+%24stringÈ
+Ê
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÿ ÿ(PE
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+cartGuidSystem.Guid"__id*
+
+%25System.GuidáÑ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csŸ, Ÿ(A
+%27object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+RequestType2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csŸ, Ÿ(L
+%28string"object.ToString()*
+
+%27object2
+ToString()‚
+ﬂ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csŸ Ÿ(LC
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+requestTypestring"__id*
+
+%28stringÜÉ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs⁄+ ⁄(?
+%29object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ApiVersion2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs⁄+ ⁄(J
+%30string"object.ToString()*
+
+%29object2
+ToString()·
+ﬁ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs⁄ ⁄(JB
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+
+apiVersionstring"__id*
+
+%30stringáÑ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs€, €(A
+%31object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+RawResponse2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs€, €(L
+%32string"object.ToString()*
+
+%31object2
+ToString()‚
+ﬂ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs€ €(LC
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+rawResponsestring"__id*
+
+%32stringÅ˛
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‹& ‹(5
+%33object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Token2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‹& ‹(@
+%34string"object.ToString()*
+
+%33object2
+ToString()‹
+Ÿ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‹ ‹(@=
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+tokenstring"__id*
+
+%34stringÉÄ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs›( ›(9
+%35object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+PayerId2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs›( ›(D
+%36string"object.ToString()*
+
+%35object2
+ToString()ﬁ
+€
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs› ›(D?
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+payerIdstring"__id*
+
+%36stringâÜ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csﬁ. ﬁ(E
+%37object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+TransactionId2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csﬁ. ﬁ(P
+%38string"object.ToString()*
+
+%37object2
+ToString()‰
+·
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csﬁ ﬁ(PE
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+transactionIdstring"__id*
+
+%38stringáÑ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csﬂ, ﬂ(A
+%39object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+PaymentType2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csﬂ, ﬂ(L
+%40string"object.ToString()*
+
+%39object2
+ToString()‚
+ﬂ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csﬂ ﬂ(LC
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+paymentTypestring"__id*
+
+%40stringâÜ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‡. ‡(E
+%41object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+PaymentStatus2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‡. ‡(P
+%42string"object.ToString()*
+
+%41object2
+ToString()‰
+·
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‡ ‡(PE
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+paymentStatusstring"__id*
+
+%42stringâÜ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs·. ·(E
+%43object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+PendingReason2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs·. ·(P
+%44string"object.ToString()*
+
+%43object2
+ToString()‰
+·
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs· ·(PE
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+pendingReasonstring"__id*
+
+%44stringÜÉ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‚+ ‚(?
+%45object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ReasonCode2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‚+ ‚(J
+%46string"object.ToString()*
+
+%45object2
+ToString()·
+ﬁ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‚ ‚(JB
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+
+reasonCodestring"__id*
+
+%46stringàÖ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs„- „(C
+%47object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+CurrencyCode2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs„- „(N
+%48string"object.ToString()*
+
+%47object2
+ToString()„
+‡
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs„ „(ND
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+currencyCodestring"__id*
+
+%48stringàÖ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‰? ‰(U
+%49object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ExchangeRate2this[string].get›
+⁄
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‰- ‰(V
+%50decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%49objectÂ
+‚
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs‰ ‰(VE
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+exchangeRatedecimal"__id*
+
+%50decimalÖÇ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÂ< Â(O
+%51object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	CartTotal2this[string].get›
+⁄
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÂ* Â(P
+%52decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%51object‚
+ﬂ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÂ Â(PB
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+	cartTotaldecimal"__id*
+
+%52decimalÖÇ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÊ< Ê(O
+%53object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	PayPalAmt2this[string].get›
+⁄
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÊ* Ê(P
+%54decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%53object‚
+ﬂ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÊ Ê(PB
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+	payPalAmtdecimal"__id*
+
+%54decimalÇˇ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÁ9 Á(I
+%55object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+TaxAmt2this[string].get›
+⁄
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÁ' Á(J
+%56decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%55objectﬂ
+‹
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÁ Á(J?
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+taxAmtdecimal"__id*
+
+%56decimalÇˇ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csË9 Ë(I
+%57object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+FeeAmt2this[string].get›
+⁄
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csË' Ë(J
+%58decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%57objectﬂ
+‹
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csË Ë(J?
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+feeAmtdecimal"__id*
+
+%58decimalÖÇ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÈ< È(O
+%59object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	SettleAmt2this[string].get›
+⁄
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÈ* È(P
+%60decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%59object‚
+ﬂ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÈ È(PB
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+	settleAmtdecimal"__id*
+
+%60decimalàÖ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÍ- Í(C
+%61object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ProviderName2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÍ- Í(N
+%62string"object.ToString()*
+
+%61object2
+ToString()„
+‡
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÍ Í(ND
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+providerNamestring"__id*
+
+%62stringÖÇ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÎ* Î(=
+%63object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	ReturnUrl2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÎ* Î(H
+%64string"object.ToString()*
+
+%63object2
+ToString()‡
+›
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÎ Î(HA
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+	returnUrlstring"__id*
+
+%64stringåâ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÏ1 Ï(K
+%65object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+SerializedObject2this[string].get≈¬
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÏ1 Ï(V
+%66string"object.ToString()*
+
+%65object2
+ToString()Á
+‰
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÏ Ï(VH
+*
+	payPalLogmojoPortal.Business.PayPalLog"
+serializedObjectstring"__id*
+
+%66stringà
+Ö
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÓ Ó(0
+%67void"
+__arrayAdd*5
+3
+payPalLogList"System.Collections.Generic.List<T>*: *,
+*
+	payPalLogmojoPortal.Business.PayPalLog*
+1*ã
+3Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs˘	 ˘(	*
+4*Û
+4Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÙ Ù(‚ﬂ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.csÙ Ù(
+%68void"System.Data.IDataReader.Close()*#
+!
+readerSystem.Data.IDataReader2Close()*
+5
+6*√
+5Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs˜ ˜( "∫
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs˜ ˜(!5
+3
+payPalLogList"System.Collections.Generic.List<T>*°
+6Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs˘	 ˘(	"ò
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PayPalLog.cs˘ ˘(	
+implicit return:!
+readerSystem.Data.IDataReaderB!"
+mojoPortal.Business.PayPalLog

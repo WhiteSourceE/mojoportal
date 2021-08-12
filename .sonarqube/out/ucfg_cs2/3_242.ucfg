@@ -1,0 +1,3864 @@
+
+5mojoPortal.Web.Framework.XssFilter.XssFilter()!staticÅ
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csƒ	 ƒ("1*π 
+1Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csñ ñ(∆√
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs.- .(<"
+%0System.Collections.Hashtable"System.Collections.Hashtable‡
+›
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs.1 .(:
+
+%1void"(System.Collections.Hashtable.Hashtable()*$
+"
+%0System.Collections.Hashtableâ
+Ü
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs. .(<W$
+"mojoPortal.Web.Framework.XssFilter"/
+FilterInfoTableSystem.Collections.Hashtable"__id*$
+"
+%0System.Collections.Hashtableÿ’
+Ä
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cst3 t(ó*
+%2$System.Text.RegularExpressions.Regex"$System.Text.RegularExpressions.RegexŒ
+À
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cst7 t(<
+
+%3void"2System.Text.RegularExpressions.Regex.Regex(string)*,
+*
+%2$System.Text.RegularExpressions.Regex*ZX
+V(<[bB][rR](\s*[^>]*)>)|(</?[a-zA-Z]+)|(&(?!([A-Za-z0-9]+|#[0-9]+|#[xX][0-9A-Fa-f]+);))ú
+ô
+Ä
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cst  t(ó`$
+"mojoPortal.Web.Framework.XssFilter"8
+CleanupHtmlRegex$System.Text.RegularExpressions.Regex"__id*,
+*
+%2$System.Text.RegularExpressions.Regex⁄◊
+Ç
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csô3 ô(¶*
+%4$System.Text.RegularExpressions.Regex"$System.Text.RegularExpressions.Regexﬁ
+€
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csô7 ô(<
+
+%5void"2System.Text.RegularExpressions.Regex.Regex(string)*,
+*
+%4$System.Text.RegularExpressions.Regex*Ê„
+‡(?<before>[<][a-zA-Z]+(\s+([^iI][a-zA-Z]*|[iI][^dD][a-zA-Z]*|[iI][dD][a-zA-Z]+)=('[^']*'|"[^"]*"|[^\s>]*))*)(\s+(id|ID)=('[a-zA-Z0-9_][a-zA-Z0-9_.-]*'|"[a-zA-Z0-9_][a-zA-Z0-9_.-]*"|[a-zA-Z0-9_][a-zA-Z0-9_.-]*))(?<after>\s|>)û
+õ
+Ç
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csô  ô(¶`$
+"mojoPortal.Web.Framework.XssFilter"8
+IdAttributeRegex$System.Text.RegularExpressions.Regex"__id*,
+*
+%4$System.Text.RegularExpressions.RegexŸ÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs°5 °(R*
+%6$System.Text.RegularExpressions.Regex"$System.Text.RegularExpressions.Regexã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs°9 °(>
+
+%7void"2System.Text.RegularExpressions.Regex.Regex(string)*,
+*
+%6$System.Text.RegularExpressions.Regex*
+&([A-Za-z0-9]+);ü
+ú
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs°  °(Rb$
+"mojoPortal.Web.Framework.XssFilter":
+GeneralEntityRegex$System.Text.RegularExpressions.Regex"__id*,
+*
+%6$System.Text.RegularExpressions.Regex…∆
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¬+ ¬(:"
+%8System.Collections.Hashtable"System.Collections.Hashtable„
+‡
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¬/ ¬(8
+
+%9void"(System.Collections.Hashtable.Hashtable()*$
+"
+%8System.Collections.Hashtableä
+á
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¬ ¬(:U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable"__id*$
+"
+%8System.Collections.Hashtable*
+0*∆»
+0Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∆ ï(%ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∆ ∆(#
+%10System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∆ ∆(#
+%11"__mapSet*%
+#
+%10System.Collections.Hashtable*
+nbsp*
+
+&#160;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs« «(#
+%12System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs« «($
+%13"__mapSet*%
+#
+%12System.Collections.Hashtable*	
+iexcl*
+
+&#161;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs» »(#
+%14System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs» »(#
+%15"__mapSet*%
+#
+%14System.Collections.Hashtable*
+cent*
+
+&#162;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs… …(#
+%16System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs… …($
+%17"__mapSet*%
+#
+%16System.Collections.Hashtable*	
+pound*
+
+&#163;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs   (#
+%18System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs   (%
+%19"__mapSet*%
+#
+%18System.Collections.Hashtable*
+
+curren*
+
+&#164;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÀ À(#
+%20System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable‘
+—
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÀ À("
+%21"__mapSet*%
+#
+%20System.Collections.Hashtable*
+yen*
+
+&#165;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÃ Ã(#
+%22System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÃ Ã(%
+%23"__mapSet*%
+#
+%22System.Collections.Hashtable*
+
+brvbar*
+
+&#166;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÕ Õ(#
+%24System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÕ Õ(#
+%25"__mapSet*%
+#
+%24System.Collections.Hashtable*
+sect*
+
+&#167;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csŒ Œ(#
+%26System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable‘
+—
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csŒ Œ("
+%27"__mapSet*%
+#
+%26System.Collections.Hashtable*
+uml*
+
+&#168;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csœ œ(#
+%28System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csœ œ(#
+%29"__mapSet*%
+#
+%28System.Collections.Hashtable*
+copy*
+
+&#169;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs– –(#
+%30System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs– –(#
+%31"__mapSet*%
+#
+%30System.Collections.Hashtable*
+ordf*
+
+&#170;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs— —(#
+%32System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs— —($
+%33"__mapSet*%
+#
+%32System.Collections.Hashtable*	
+laquo*
+
+&#171;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs“ “(#
+%34System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable‘
+—
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs“ “("
+%35"__mapSet*%
+#
+%34System.Collections.Hashtable*
+not*
+
+&#172;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs” ”(#
+%36System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable‘
+—
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs” ”("
+%37"__mapSet*%
+#
+%36System.Collections.Hashtable*
+shy*
+
+&#173;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‘ ‘(#
+%38System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable‘
+—
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‘ ‘("
+%39"__mapSet*%
+#
+%38System.Collections.Hashtable*
+reg*
+
+&#174;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs’ ’(#
+%40System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs’ ’(#
+%41"__mapSet*%
+#
+%40System.Collections.Hashtable*
+macr*
+
+&#175;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs÷ ÷(#
+%42System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable‘
+—
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs÷ ÷("
+%43"__mapSet*%
+#
+%42System.Collections.Hashtable*
+deg*
+
+&#176;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs◊ ◊(#
+%44System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs◊ ◊(%
+%45"__mapSet*%
+#
+%44System.Collections.Hashtable*
+
+plusmn*
+
+&#177;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÿ ÿ(#
+%46System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÿ ÿ(#
+%47"__mapSet*%
+#
+%46System.Collections.Hashtable*
+sup2*
+
+&#178;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csŸ Ÿ(#
+%48System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csŸ Ÿ(#
+%49"__mapSet*%
+#
+%48System.Collections.Hashtable*
+sup3*
+
+&#179;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs⁄ ⁄(#
+%50System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs⁄ ⁄($
+%51"__mapSet*%
+#
+%50System.Collections.Hashtable*	
+acute*
+
+&#180;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs€ €(#
+%52System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs€ €($
+%53"__mapSet*%
+#
+%52System.Collections.Hashtable*	
+micro*
+
+&#181;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‹ ‹(#
+%54System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‹ ‹(#
+%55"__mapSet*%
+#
+%54System.Collections.Hashtable*
+para*
+
+&#182;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs› ›(#
+%56System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs› ›(%
+%57"__mapSet*%
+#
+%56System.Collections.Hashtable*
+
+middot*
+
+&#183;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csﬁ ﬁ(#
+%58System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csﬁ ﬁ($
+%59"__mapSet*%
+#
+%58System.Collections.Hashtable*	
+cedil*
+
+&#184;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csﬂ ﬂ(#
+%60System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csﬂ ﬂ(#
+%61"__mapSet*%
+#
+%60System.Collections.Hashtable*
+sup1*
+
+&#185;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‡ ‡(#
+%62System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‡ ‡(#
+%63"__mapSet*%
+#
+%62System.Collections.Hashtable*
+ordm*
+
+&#186;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs· ·(#
+%64System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs· ·($
+%65"__mapSet*%
+#
+%64System.Collections.Hashtable*	
+raquo*
+
+&#187;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‚ ‚(#
+%66System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‚ ‚(%
+%67"__mapSet*%
+#
+%66System.Collections.Hashtable*
+
+frac14*
+
+&#188;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs„ „(#
+%68System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs„ „(%
+%69"__mapSet*%
+#
+%68System.Collections.Hashtable*
+
+frac12*
+
+&#189;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‰ ‰(#
+%70System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‰ ‰(%
+%71"__mapSet*%
+#
+%70System.Collections.Hashtable*
+
+frac34*
+
+&#190;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÂ Â(#
+%72System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÂ Â(%
+%73"__mapSet*%
+#
+%72System.Collections.Hashtable*
+
+iquest*
+
+&#191;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÊ Ê(#
+%74System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÊ Ê(%
+%75"__mapSet*%
+#
+%74System.Collections.Hashtable*
+
+Agrave*
+
+&#192;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÁ Á(#
+%76System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÁ Á(%
+%77"__mapSet*%
+#
+%76System.Collections.Hashtable*
+
+Aacute*
+
+&#193;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csË Ë(#
+%78System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csË Ë($
+%79"__mapSet*%
+#
+%78System.Collections.Hashtable*	
+Acirc*
+
+&#194;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÈ È(#
+%80System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÈ È(%
+%81"__mapSet*%
+#
+%80System.Collections.Hashtable*
+
+Atilde*
+
+&#195;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÍ Í(#
+%82System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÍ Í(#
+%83"__mapSet*%
+#
+%82System.Collections.Hashtable*
+Auml*
+
+&#196;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÎ Î(#
+%84System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÎ Î($
+%85"__mapSet*%
+#
+%84System.Collections.Hashtable*	
+Aring*
+
+&#197;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÏ Ï(#
+%86System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÏ Ï($
+%87"__mapSet*%
+#
+%86System.Collections.Hashtable*	
+AElig*
+
+&#198;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÌ Ì(#
+%88System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÌ Ì(%
+%89"__mapSet*%
+#
+%88System.Collections.Hashtable*
+
+Ccedil*
+
+&#199;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÓ Ó(#
+%90System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÓ Ó(%
+%91"__mapSet*%
+#
+%90System.Collections.Hashtable*
+
+Egrave*
+
+&#200;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÔ Ô(#
+%92System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÔ Ô(%
+%93"__mapSet*%
+#
+%92System.Collections.Hashtable*
+
+Eacute*
+
+&#201;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs (#
+%94System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs ($
+%95"__mapSet*%
+#
+%94System.Collections.Hashtable*	
+Ecirc*
+
+&#202;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÒ Ò(#
+%96System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÒ Ò(#
+%97"__mapSet*%
+#
+%96System.Collections.Hashtable*
+Euml*
+
+&#203;ã
+à
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÚ Ú(#
+%98System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÚ Ú(%
+%99"__mapSet*%
+#
+%98System.Collections.Hashtable*
+
+Igrave*
+
+&#204;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÛ Û($
+%100System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÛ Û(%
+%101"__mapSet*&
+$
+%100System.Collections.Hashtable*
+
+Iacute*
+
+&#205;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÙ Ù($
+%102System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÙ Ù($
+%103"__mapSet*&
+$
+%102System.Collections.Hashtable*	
+Icirc*
+
+&#206;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csı ı($
+%104System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csı ı(#
+%105"__mapSet*&
+$
+%104System.Collections.Hashtable*
+Iuml*
+
+&#207;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csˆ ˆ($
+%106System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csˆ ˆ("
+%107"__mapSet*&
+$
+%106System.Collections.Hashtable*
+ETH*
+
+&#208;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˜ ˜($
+%108System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˜ ˜(%
+%109"__mapSet*&
+$
+%108System.Collections.Hashtable*
+
+Ntilde*
+
+&#209;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¯ ¯($
+%110System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¯ ¯(%
+%111"__mapSet*&
+$
+%110System.Collections.Hashtable*
+
+Ograve*
+
+&#210;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˘ ˘($
+%112System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˘ ˘(%
+%113"__mapSet*&
+$
+%112System.Collections.Hashtable*
+
+Oacute*
+
+&#211;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˙ ˙($
+%114System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˙ ˙($
+%115"__mapSet*&
+$
+%114System.Collections.Hashtable*	
+Ocirc*
+
+&#212;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˚ ˚($
+%116System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˚ ˚(%
+%117"__mapSet*&
+$
+%116System.Collections.Hashtable*
+
+Otilde*
+
+&#213;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¸ ¸($
+%118System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¸ ¸(#
+%119"__mapSet*&
+$
+%118System.Collections.Hashtable*
+Ouml*
+
+&#214;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˝ ˝($
+%120System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˝ ˝($
+%121"__mapSet*&
+$
+%120System.Collections.Hashtable*	
+times*
+
+&#215;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˛ ˛($
+%122System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˛ ˛(%
+%123"__mapSet*&
+$
+%122System.Collections.Hashtable*
+
+Oslash*
+
+&#216;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csˇ ˇ($
+%124System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csˇ ˇ(%
+%125"__mapSet*&
+$
+%124System.Collections.Hashtable*
+
+Ugrave*
+
+&#217;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÄ Ä($
+%126System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÄ Ä(%
+%127"__mapSet*&
+$
+%126System.Collections.Hashtable*
+
+Uacute*
+
+&#218;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÅ Å($
+%128System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÅ Å($
+%129"__mapSet*&
+$
+%128System.Collections.Hashtable*	
+Ucirc*
+
+&#219;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÇ Ç($
+%130System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÇ Ç(#
+%131"__mapSet*&
+$
+%130System.Collections.Hashtable*
+Uuml*
+
+&#220;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÉ É($
+%132System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÉ É(%
+%133"__mapSet*&
+$
+%132System.Collections.Hashtable*
+
+Yacute*
+
+&#221;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÑ Ñ($
+%134System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÑ Ñ($
+%135"__mapSet*&
+$
+%134System.Collections.Hashtable*	
+THORN*
+
+&#222;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÖ Ö($
+%136System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÖ Ö($
+%137"__mapSet*&
+$
+%136System.Collections.Hashtable*	
+szlig*
+
+&#223;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÜ Ü($
+%138System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÜ Ü(%
+%139"__mapSet*&
+$
+%138System.Collections.Hashtable*
+
+agrave*
+
+&#224;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csá á($
+%140System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csá á(%
+%141"__mapSet*&
+$
+%140System.Collections.Hashtable*
+
+aacute*
+
+&#225;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csà à($
+%142System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csà à($
+%143"__mapSet*&
+$
+%142System.Collections.Hashtable*	
+acirc*
+
+&#226;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csâ â($
+%144System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csâ â(%
+%145"__mapSet*&
+$
+%144System.Collections.Hashtable*
+
+atilde*
+
+&#227;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csä ä($
+%146System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csä ä(#
+%147"__mapSet*&
+$
+%146System.Collections.Hashtable*
+auml*
+
+&#228;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csã ã($
+%148System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csã ã($
+%149"__mapSet*&
+$
+%148System.Collections.Hashtable*	
+aring*
+
+&#229;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cså å($
+%150System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cså å($
+%151"__mapSet*&
+$
+%150System.Collections.Hashtable*	
+aelig*
+
+&#230;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csç ç($
+%152System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csç ç(%
+%153"__mapSet*&
+$
+%152System.Collections.Hashtable*
+
+ccedil*
+
+&#231;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csé é($
+%154System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csé é(%
+%155"__mapSet*&
+$
+%154System.Collections.Hashtable*
+
+egrave*
+
+&#232;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csè è($
+%156System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csè è(%
+%157"__mapSet*&
+$
+%156System.Collections.Hashtable*
+
+eacute*
+
+&#233;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csê ê($
+%158System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csê ê($
+%159"__mapSet*&
+$
+%158System.Collections.Hashtable*	
+ecirc*
+
+&#234;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csë ë($
+%160System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csë ë(#
+%161"__mapSet*&
+$
+%160System.Collections.Hashtable*
+euml*
+
+&#235;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csí í($
+%162System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csí í(%
+%163"__mapSet*&
+$
+%162System.Collections.Hashtable*
+
+igrave*
+
+&#236;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csì ì($
+%164System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csì ì(%
+%165"__mapSet*&
+$
+%164System.Collections.Hashtable*
+
+iacute*
+
+&#237;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csî î($
+%166System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csî î($
+%167"__mapSet*&
+$
+%166System.Collections.Hashtable*	
+icirc*
+
+&#238;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csï ï($
+%168System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csï ï(#
+%169"__mapSet*&
+$
+%168System.Collections.Hashtable*
+iuml*
+
+&#239;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csñ ñ($
+%170System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csñ ñ("
+%171"__mapSet*&
+$
+%170System.Collections.Hashtable*
+eth*
+
+&#240;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csó ó($
+%172System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csó ó(%
+%173"__mapSet*&
+$
+%172System.Collections.Hashtable*
+
+ntilde*
+
+&#241;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csò ò($
+%174System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csò ò(%
+%175"__mapSet*&
+$
+%174System.Collections.Hashtable*
+
+ograve*
+
+&#242;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csô ô($
+%176System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csô ô(%
+%177"__mapSet*&
+$
+%176System.Collections.Hashtable*
+
+oacute*
+
+&#243;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csö ö($
+%178System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csö ö($
+%179"__mapSet*&
+$
+%178System.Collections.Hashtable*	
+ocirc*
+
+&#244;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csõ õ($
+%180System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csõ õ(%
+%181"__mapSet*&
+$
+%180System.Collections.Hashtable*
+
+otilde*
+
+&#245;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csú ú($
+%182System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csú ú(#
+%183"__mapSet*&
+$
+%182System.Collections.Hashtable*
+ouml*
+
+&#246;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csù ù($
+%184System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csù ù(%
+%185"__mapSet*&
+$
+%184System.Collections.Hashtable*
+
+divide*
+
+&#247;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csû û($
+%186System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csû û(%
+%187"__mapSet*&
+$
+%186System.Collections.Hashtable*
+
+oslash*
+
+&#248;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csü ü($
+%188System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csü ü(%
+%189"__mapSet*&
+$
+%188System.Collections.Hashtable*
+
+ugrave*
+
+&#249;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs† †($
+%190System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs† †(%
+%191"__mapSet*&
+$
+%190System.Collections.Hashtable*
+
+uacute*
+
+&#250;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs° °($
+%192System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs° °($
+%193"__mapSet*&
+$
+%192System.Collections.Hashtable*	
+ucirc*
+
+&#251;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¢ ¢($
+%194System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¢ ¢(#
+%195"__mapSet*&
+$
+%194System.Collections.Hashtable*
+uuml*
+
+&#252;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs£ £($
+%196System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs£ £(%
+%197"__mapSet*&
+$
+%196System.Collections.Hashtable*
+
+yacute*
+
+&#253;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs§ §($
+%198System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs§ §($
+%199"__mapSet*&
+$
+%198System.Collections.Hashtable*	
+thorn*
+
+&#254;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs• •($
+%200System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs• •(#
+%201"__mapSet*&
+$
+%200System.Collections.Hashtable*
+yuml*
+
+&#255;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∏ ∏($
+%202System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∏ ∏("
+%203"__mapSet*&
+$
+%202System.Collections.Hashtable*
+quot*	
+&#34;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csπ π($
+%204System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csπ π(%
+%205"__mapSet*&
+$
+%204System.Collections.Hashtable*
+amp*
+	&#38;#38;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∫ ∫($
+%206System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∫ ∫($
+%207"__mapSet*&
+$
+%206System.Collections.Hashtable*
+lt*
+	&#38;#60;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csª ª($
+%208System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable‘
+—
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csª ª( 
+%209"__mapSet*&
+$
+%208System.Collections.Hashtable*
+gt*	
+&#62;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csº º($
+%210System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csº º(#
+%211"__mapSet*&
+$
+%210System.Collections.Hashtable*	
+apos	*	
+&#39;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csø ø($
+%212System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csø ø($
+%213"__mapSet*&
+$
+%212System.Collections.Hashtable*	
+OElig*
+
+&#338;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¿ ¿($
+%214System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¿ ¿($
+%215"__mapSet*&
+$
+%214System.Collections.Hashtable*	
+oelig*
+
+&#339;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¬ ¬($
+%216System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¬ ¬(%
+%217"__mapSet*&
+$
+%216System.Collections.Hashtable*
+
+Scaron*
+
+&#352;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs√ √($
+%218System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs√ √(%
+%219"__mapSet*&
+$
+%218System.Collections.Hashtable*
+
+scaron*
+
+&#353;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csƒ ƒ($
+%220System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csƒ ƒ(#
+%221"__mapSet*&
+$
+%220System.Collections.Hashtable*
+Yuml*
+
+&#376;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs« «($
+%222System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs« «(#
+%223"__mapSet*&
+$
+%222System.Collections.Hashtable*
+circ*
+
+&#710;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs» »($
+%224System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs» »($
+%225"__mapSet*&
+$
+%224System.Collections.Hashtable*	
+tilde*
+
+&#732;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÀ À($
+%226System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÀ À($
+%227"__mapSet*&
+$
+%226System.Collections.Hashtable*
+ensp*	
+&#8194;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÃ Ã($
+%228System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÃ Ã($
+%229"__mapSet*&
+$
+%228System.Collections.Hashtable*
+emsp*	
+&#8195;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÕ Õ($
+%230System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÕ Õ(&
+%231"__mapSet*&
+$
+%230System.Collections.Hashtable*
+
+thinsp*	
+&#8201;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csŒ Œ($
+%232System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csŒ Œ($
+%233"__mapSet*&
+$
+%232System.Collections.Hashtable*
+zwnj*	
+&#8204;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csœ œ($
+%234System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csœ œ(#
+%235"__mapSet*&
+$
+%234System.Collections.Hashtable*
+zwj*	
+&#8205;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs– –($
+%236System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs– –(#
+%237"__mapSet*&
+$
+%236System.Collections.Hashtable*
+lrm*	
+&#8206;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs— —($
+%238System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs— —(#
+%239"__mapSet*&
+$
+%238System.Collections.Hashtable*
+rlm*	
+&#8207;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs“ “($
+%240System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs“ “(%
+%241"__mapSet*&
+$
+%240System.Collections.Hashtable*	
+ndash*	
+&#8211;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs” ”($
+%242System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs” ”(%
+%243"__mapSet*&
+$
+%242System.Collections.Hashtable*	
+mdash*	
+&#8212;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‘ ‘($
+%244System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‘ ‘(%
+%245"__mapSet*&
+$
+%244System.Collections.Hashtable*	
+lsquo*	
+&#8216;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs’ ’($
+%246System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs’ ’(%
+%247"__mapSet*&
+$
+%246System.Collections.Hashtable*	
+rsquo*	
+&#8217;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs÷ ÷($
+%248System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs÷ ÷(%
+%249"__mapSet*&
+$
+%248System.Collections.Hashtable*	
+sbquo*	
+&#8218;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs◊ ◊($
+%250System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs◊ ◊(%
+%251"__mapSet*&
+$
+%250System.Collections.Hashtable*	
+ldquo*	
+&#8220;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÿ ÿ($
+%252System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÿ ÿ(%
+%253"__mapSet*&
+$
+%252System.Collections.Hashtable*	
+rdquo*	
+&#8221;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csŸ Ÿ($
+%254System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csŸ Ÿ(%
+%255"__mapSet*&
+$
+%254System.Collections.Hashtable*	
+bdquo*	
+&#8222;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs⁄ ⁄($
+%256System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs⁄ ⁄(&
+%257"__mapSet*&
+$
+%256System.Collections.Hashtable*
+
+dagger*	
+&#8224;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs€ €($
+%258System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs€ €(&
+%259"__mapSet*&
+$
+%258System.Collections.Hashtable*
+
+Dagger*	
+&#8225;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‹ ‹($
+%260System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‹ ‹(&
+%261"__mapSet*&
+$
+%260System.Collections.Hashtable*
+
+permil*	
+&#8240;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs› ›($
+%262System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs› ›(&
+%263"__mapSet*&
+$
+%262System.Collections.Hashtable*
+
+lsaquo*	
+&#8249;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csﬂ ﬂ($
+%264System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csﬂ ﬂ(&
+%265"__mapSet*&
+$
+%264System.Collections.Hashtable*
+
+rsaquo*	
+&#8250;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs„ „($
+%266System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs„ „($
+%267"__mapSet*&
+$
+%266System.Collections.Hashtable*
+euro*	
+&#8364;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csı ı($
+%268System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csı ı(#
+%269"__mapSet*&
+$
+%268System.Collections.Hashtable*
+fnof*
+
+&#402;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¯ ¯($
+%270System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¯ ¯($
+%271"__mapSet*&
+$
+%270System.Collections.Hashtable*	
+Alpha*
+
+&#913;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˘ ˘($
+%272System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˘ ˘(#
+%273"__mapSet*&
+$
+%272System.Collections.Hashtable*
+Beta*
+
+&#914;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˙ ˙($
+%274System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˙ ˙($
+%275"__mapSet*&
+$
+%274System.Collections.Hashtable*	
+Gamma*
+
+&#915;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˚ ˚($
+%276System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˚ ˚($
+%277"__mapSet*&
+$
+%276System.Collections.Hashtable*	
+Delta*
+
+&#916;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¸ ¸($
+%278System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¸ ¸(&
+%279"__mapSet*&
+$
+%278System.Collections.Hashtable*	
+Epsilon*
+
+&#917;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˝ ˝($
+%280System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˝ ˝(#
+%281"__mapSet*&
+$
+%280System.Collections.Hashtable*
+Zeta*
+
+&#918;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˛ ˛($
+%282System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˛ ˛("
+%283"__mapSet*&
+$
+%282System.Collections.Hashtable*
+Eta*
+
+&#919;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csˇ ˇ($
+%284System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csˇ ˇ($
+%285"__mapSet*&
+$
+%284System.Collections.Hashtable*	
+Theta*
+
+&#920;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÄ Ä($
+%286System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÄ Ä(#
+%287"__mapSet*&
+$
+%286System.Collections.Hashtable*
+Iota*
+
+&#921;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÅ Å($
+%288System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÅ Å($
+%289"__mapSet*&
+$
+%288System.Collections.Hashtable*	
+Kappa*
+
+&#922;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÇ Ç($
+%290System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÇ Ç(%
+%291"__mapSet*&
+$
+%290System.Collections.Hashtable*
+
+Lambda*
+
+&#923;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÉ É($
+%292System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÉ É(!
+%293"__mapSet*&
+$
+%292System.Collections.Hashtable*
+Mu*
+
+&#924;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÑ Ñ($
+%294System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÑ Ñ(!
+%295"__mapSet*&
+$
+%294System.Collections.Hashtable*
+Nu*
+
+&#925;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÖ Ö($
+%296System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÖ Ö(!
+%297"__mapSet*&
+$
+%296System.Collections.Hashtable*
+Xi*
+
+&#926;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÜ Ü($
+%298System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÜ Ü(&
+%299"__mapSet*&
+$
+%298System.Collections.Hashtable*	
+Omicron*
+
+&#927;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csá á($
+%300System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csá á(!
+%301"__mapSet*&
+$
+%300System.Collections.Hashtable*
+Pi*
+
+&#928;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csà à($
+%302System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csà à("
+%303"__mapSet*&
+$
+%302System.Collections.Hashtable*
+Rho*
+
+&#929;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csä ä($
+%304System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csä ä($
+%305"__mapSet*&
+$
+%304System.Collections.Hashtable*	
+Sigma*
+
+&#931;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csã ã($
+%306System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csã ã("
+%307"__mapSet*&
+$
+%306System.Collections.Hashtable*
+Tau*
+
+&#932;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cså å($
+%308System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cså å(&
+%309"__mapSet*&
+$
+%308System.Collections.Hashtable*	
+Upsilon*
+
+&#933;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csç ç($
+%310System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csç ç("
+%311"__mapSet*&
+$
+%310System.Collections.Hashtable*
+Phi*
+
+&#934;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csé é($
+%312System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csé é("
+%313"__mapSet*&
+$
+%312System.Collections.Hashtable*
+Chi*
+
+&#935;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csè è($
+%314System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csè è("
+%315"__mapSet*&
+$
+%314System.Collections.Hashtable*
+Psi*
+
+&#936;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csê ê($
+%316System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csê ê($
+%317"__mapSet*&
+$
+%316System.Collections.Hashtable*	
+Omega*
+
+&#937;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csí í($
+%318System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csí í($
+%319"__mapSet*&
+$
+%318System.Collections.Hashtable*	
+alpha*
+
+&#945;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csì ì($
+%320System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csì ì(#
+%321"__mapSet*&
+$
+%320System.Collections.Hashtable*
+beta*
+
+&#946;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csî î($
+%322System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csî î($
+%323"__mapSet*&
+$
+%322System.Collections.Hashtable*	
+gamma*
+
+&#947;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csï ï($
+%324System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csï ï($
+%325"__mapSet*&
+$
+%324System.Collections.Hashtable*	
+delta*
+
+&#948;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csñ ñ($
+%326System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csñ ñ(&
+%327"__mapSet*&
+$
+%326System.Collections.Hashtable*	
+epsilon*
+
+&#949;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csó ó($
+%328System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csó ó(#
+%329"__mapSet*&
+$
+%328System.Collections.Hashtable*
+zeta*
+
+&#950;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csò ò($
+%330System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csò ò("
+%331"__mapSet*&
+$
+%330System.Collections.Hashtable*
+eta*
+
+&#951;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csô ô($
+%332System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csô ô($
+%333"__mapSet*&
+$
+%332System.Collections.Hashtable*	
+theta*
+
+&#952;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csö ö($
+%334System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csö ö(#
+%335"__mapSet*&
+$
+%334System.Collections.Hashtable*
+iota*
+
+&#953;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csõ õ($
+%336System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csõ õ($
+%337"__mapSet*&
+$
+%336System.Collections.Hashtable*	
+kappa*
+
+&#954;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csú ú($
+%338System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csú ú(%
+%339"__mapSet*&
+$
+%338System.Collections.Hashtable*
+
+lambda*
+
+&#955;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csù ù($
+%340System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csù ù(!
+%341"__mapSet*&
+$
+%340System.Collections.Hashtable*
+mu*
+
+&#956;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csû û($
+%342System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csû û(!
+%343"__mapSet*&
+$
+%342System.Collections.Hashtable*
+nu*
+
+&#957;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csü ü($
+%344System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csü ü(!
+%345"__mapSet*&
+$
+%344System.Collections.Hashtable*
+xi*
+
+&#958;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs† †($
+%346System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs† †(&
+%347"__mapSet*&
+$
+%346System.Collections.Hashtable*	
+omicron*
+
+&#959;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs° °($
+%348System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable’
+“
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs° °(!
+%349"__mapSet*&
+$
+%348System.Collections.Hashtable*
+pi*
+
+&#960;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¢ ¢($
+%350System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¢ ¢("
+%351"__mapSet*&
+$
+%350System.Collections.Hashtable*
+rho*
+
+&#961;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs£ £($
+%352System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs£ £(%
+%353"__mapSet*&
+$
+%352System.Collections.Hashtable*
+
+sigmaf*
+
+&#962;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs§ §($
+%354System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs§ §($
+%355"__mapSet*&
+$
+%354System.Collections.Hashtable*	
+sigma*
+
+&#963;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs• •($
+%356System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs• •("
+%357"__mapSet*&
+$
+%356System.Collections.Hashtable*
+tau*
+
+&#964;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¶ ¶($
+%358System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¶ ¶(&
+%359"__mapSet*&
+$
+%358System.Collections.Hashtable*	
+upsilon*
+
+&#965;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csß ß($
+%360System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csß ß("
+%361"__mapSet*&
+$
+%360System.Collections.Hashtable*
+phi*
+
+&#966;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs® ®($
+%362System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs® ®("
+%363"__mapSet*&
+$
+%362System.Collections.Hashtable*
+chi*
+
+&#967;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs© ©($
+%364System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs© ©("
+%365"__mapSet*&
+$
+%364System.Collections.Hashtable*
+psi*
+
+&#968;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs™ ™($
+%366System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs™ ™($
+%367"__mapSet*&
+$
+%366System.Collections.Hashtable*	
+omega*
+
+&#969;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs´ ´($
+%368System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable€
+ÿ
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs´ ´('
+%369"__mapSet*&
+$
+%368System.Collections.Hashtable*
+
+thetasym*
+
+&#977;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¨ ¨($
+%370System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¨ ¨($
+%371"__mapSet*&
+$
+%370System.Collections.Hashtable*	
+upsih*
+
+&#978;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs≠ ≠($
+%372System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs≠ ≠("
+%373"__mapSet*&
+$
+%372System.Collections.Hashtable*
+piv*
+
+&#982;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∞ ∞($
+%374System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∞ ∞($
+%375"__mapSet*&
+$
+%374System.Collections.Hashtable*
+bull*	
+&#8226;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs≤ ≤($
+%376System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs≤ ≤(&
+%377"__mapSet*&
+$
+%376System.Collections.Hashtable*
+
+hellip*	
+&#8230;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs≥ ≥($
+%378System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs≥ ≥(%
+%379"__mapSet*&
+$
+%378System.Collections.Hashtable*	
+prime*	
+&#8242;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¥ ¥($
+%380System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¥ ¥(%
+%381"__mapSet*&
+$
+%380System.Collections.Hashtable*	
+Prime*	
+&#8243;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csµ µ($
+%382System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csµ µ(%
+%383"__mapSet*&
+$
+%382System.Collections.Hashtable*	
+oline*	
+&#8254;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∂ ∂($
+%384System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∂ ∂(%
+%385"__mapSet*&
+$
+%384System.Collections.Hashtable*	
+frasl*	
+&#8260;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csπ π($
+%386System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csπ π(&
+%387"__mapSet*&
+$
+%386System.Collections.Hashtable*
+
+weierp*	
+&#8472;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∫ ∫($
+%388System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∫ ∫(%
+%389"__mapSet*&
+$
+%388System.Collections.Hashtable*	
+image*	
+&#8465;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csª ª($
+%390System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csª ª($
+%391"__mapSet*&
+$
+%390System.Collections.Hashtable*
+real*	
+&#8476;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csº º($
+%392System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csº º(%
+%393"__mapSet*&
+$
+%392System.Collections.Hashtable*	
+trade*	
+&#8482;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csΩ Ω($
+%394System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable€
+ÿ
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csΩ Ω('
+%395"__mapSet*&
+$
+%394System.Collections.Hashtable*	
+alefsym*	
+&#8501;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¡ ¡($
+%396System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¡ ¡($
+%397"__mapSet*&
+$
+%396System.Collections.Hashtable*
+larr*	
+&#8592;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¬ ¬($
+%398System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¬ ¬($
+%399"__mapSet*&
+$
+%398System.Collections.Hashtable*
+uarr*	
+&#8593;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs√ √($
+%400System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs√ √($
+%401"__mapSet*&
+$
+%400System.Collections.Hashtable*
+rarr*	
+&#8594;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csƒ ƒ($
+%402System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csƒ ƒ($
+%403"__mapSet*&
+$
+%402System.Collections.Hashtable*
+darr*	
+&#8595;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs≈ ≈($
+%404System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs≈ ≈($
+%405"__mapSet*&
+$
+%404System.Collections.Hashtable*
+harr*	
+&#8596;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∆ ∆($
+%406System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs∆ ∆(%
+%407"__mapSet*&
+$
+%406System.Collections.Hashtable*	
+crarr*	
+&#8629;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs« «($
+%408System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs« «($
+%409"__mapSet*&
+$
+%408System.Collections.Hashtable*
+lArr*	
+&#8656;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÕ Õ($
+%410System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÕ Õ($
+%411"__mapSet*&
+$
+%410System.Collections.Hashtable*
+uArr*	
+&#8657;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csŒ Œ($
+%412System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csŒ Œ($
+%413"__mapSet*&
+$
+%412System.Collections.Hashtable*
+rArr*	
+&#8658;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‘ ‘($
+%414System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‘ ‘($
+%415"__mapSet*&
+$
+%414System.Collections.Hashtable*
+dArr*	
+&#8659;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs’ ’($
+%416System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs’ ’($
+%417"__mapSet*&
+$
+%416System.Collections.Hashtable*
+hArr*	
+&#8660;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÿ ÿ($
+%418System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÿ ÿ(&
+%419"__mapSet*&
+$
+%418System.Collections.Hashtable*
+
+forall*	
+&#8704;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csŸ Ÿ($
+%420System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csŸ Ÿ($
+%421"__mapSet*&
+$
+%420System.Collections.Hashtable*
+part*	
+&#8706;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs⁄ ⁄($
+%422System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs⁄ ⁄(%
+%423"__mapSet*&
+$
+%422System.Collections.Hashtable*	
+exist*	
+&#8707;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs€ €($
+%424System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs€ €(%
+%425"__mapSet*&
+$
+%424System.Collections.Hashtable*	
+empty*	
+&#8709;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‹ ‹($
+%426System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‹ ‹(%
+%427"__mapSet*&
+$
+%426System.Collections.Hashtable*	
+nabla*	
+&#8711;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs› ›($
+%428System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs› ›($
+%429"__mapSet*&
+$
+%428System.Collections.Hashtable*
+isin*	
+&#8712;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csﬁ ﬁ($
+%430System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csﬁ ﬁ(%
+%431"__mapSet*&
+$
+%430System.Collections.Hashtable*	
+notin*	
+&#8713;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csﬂ ﬂ($
+%432System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csﬂ ﬂ("
+%433"__mapSet*&
+$
+%432System.Collections.Hashtable*
+ni*	
+&#8715;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‡ ‡($
+%434System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‡ ‡($
+%435"__mapSet*&
+$
+%434System.Collections.Hashtable*
+prod*	
+&#8719;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‚ ‚($
+%436System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‚ ‚(#
+%437"__mapSet*&
+$
+%436System.Collections.Hashtable*
+sum*	
+&#8721;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‰ ‰($
+%438System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs‰ ‰(%
+%439"__mapSet*&
+$
+%438System.Collections.Hashtable*	
+minus*	
+&#8722;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÂ Â($
+%440System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÂ Â(&
+%441"__mapSet*&
+$
+%440System.Collections.Hashtable*
+
+lowast*	
+&#8727;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÊ Ê($
+%442System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÊ Ê(%
+%443"__mapSet*&
+$
+%442System.Collections.Hashtable*	
+radic*	
+&#8730;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÁ Á($
+%444System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÁ Á($
+%445"__mapSet*&
+$
+%444System.Collections.Hashtable*
+prop*	
+&#8733;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csË Ë($
+%446System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csË Ë(%
+%447"__mapSet*&
+$
+%446System.Collections.Hashtable*	
+infin*	
+&#8734;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÈ È($
+%448System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÈ È(#
+%449"__mapSet*&
+$
+%448System.Collections.Hashtable*
+ang*	
+&#8736;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÍ Í($
+%450System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÍ Í(#
+%451"__mapSet*&
+$
+%450System.Collections.Hashtable*
+and*	
+&#8743;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÎ Î($
+%452System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÎ Î("
+%453"__mapSet*&
+$
+%452System.Collections.Hashtable*
+or*	
+&#8744;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÏ Ï($
+%454System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÏ Ï(#
+%455"__mapSet*&
+$
+%454System.Collections.Hashtable*
+cap*	
+&#8745;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÌ Ì($
+%456System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÌ Ì(#
+%457"__mapSet*&
+$
+%456System.Collections.Hashtable*
+cup*	
+&#8746;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÓ Ó($
+%458System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÓ Ó(#
+%459"__mapSet*&
+$
+%458System.Collections.Hashtable*
+int*	
+&#8747;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÔ Ô($
+%460System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÔ Ô(&
+%461"__mapSet*&
+$
+%460System.Collections.Hashtable*
+
+there4*	
+&#8756;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs ($
+%462System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs (#
+%463"__mapSet*&
+$
+%462System.Collections.Hashtable*
+sim*	
+&#8764;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÚ Ú($
+%464System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÚ Ú($
+%465"__mapSet*&
+$
+%464System.Collections.Hashtable*
+cong*	
+&#8773;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÛ Û($
+%466System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÛ Û(%
+%467"__mapSet*&
+$
+%466System.Collections.Hashtable*	
+asymp*	
+&#8776;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÙ Ù($
+%468System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÙ Ù("
+%469"__mapSet*&
+$
+%468System.Collections.Hashtable*
+ne*	
+&#8800;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csı ı($
+%470System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csı ı(%
+%471"__mapSet*&
+$
+%470System.Collections.Hashtable*	
+equiv*	
+&#8801;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csˆ ˆ($
+%472System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csˆ ˆ("
+%473"__mapSet*&
+$
+%472System.Collections.Hashtable*
+le*	
+&#8804;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˜ ˜($
+%474System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable÷
+”
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˜ ˜("
+%475"__mapSet*&
+$
+%474System.Collections.Hashtable*
+ge*	
+&#8805;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¯ ¯($
+%476System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¯ ¯(#
+%477"__mapSet*&
+$
+%476System.Collections.Hashtable*
+sub*	
+&#8834;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˘ ˘($
+%478System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˘ ˘(#
+%479"__mapSet*&
+$
+%478System.Collections.Hashtable*
+sup*	
+&#8835;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˙ ˙($
+%480System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˙ ˙($
+%481"__mapSet*&
+$
+%480System.Collections.Hashtable*
+nsub*	
+&#8836;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˚ ˚($
+%482System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˚ ˚($
+%483"__mapSet*&
+$
+%482System.Collections.Hashtable*
+sube*	
+&#8838;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¸ ¸($
+%484System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs¸ ¸($
+%485"__mapSet*&
+$
+%484System.Collections.Hashtable*
+supe*	
+&#8839;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˝ ˝($
+%486System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˝ ˝(%
+%487"__mapSet*&
+$
+%486System.Collections.Hashtable*	
+oplus*	
+&#8853;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˛ ˛($
+%488System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.cs˛ ˛(&
+%489"__mapSet*&
+$
+%488System.Collections.Hashtable*
+
+otimes*	
+&#8855;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csˇ ˇ($
+%490System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csˇ ˇ($
+%491"__mapSet*&
+$
+%490System.Collections.Hashtable*
+perp*	
+&#8869;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÄ Ä($
+%492System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÄ Ä($
+%493"__mapSet*&
+$
+%492System.Collections.Hashtable*
+sdot*	
+&#8901;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÑ Ñ($
+%494System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÑ Ñ(%
+%495"__mapSet*&
+$
+%494System.Collections.Hashtable*	
+lceil*	
+&#8968;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÖ Ö($
+%496System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÖ Ö(%
+%497"__mapSet*&
+$
+%496System.Collections.Hashtable*	
+rceil*	
+&#8969;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÜ Ü($
+%498System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csÜ Ü(&
+%499"__mapSet*&
+$
+%498System.Collections.Hashtable*
+
+lfloor*	
+&#8970;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csá á($
+%500System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csá á(&
+%501"__mapSet*&
+$
+%500System.Collections.Hashtable*
+
+rfloor*	
+&#8971;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csà à($
+%502System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csà à($
+%503"__mapSet*&
+$
+%502System.Collections.Hashtable*
+lang*	
+&#9001;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csä ä($
+%504System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtableÿ
+’
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csä ä($
+%505"__mapSet*&
+$
+%504System.Collections.Hashtable*
+rang*	
+&#9002;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csé é($
+%506System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable◊
+‘
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csé é(#
+%507"__mapSet*&
+$
+%506System.Collections.Hashtable*
+loz*	
+&#9674;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csë ë($
+%508System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csë ë(&
+%509"__mapSet*&
+$
+%508System.Collections.Hashtable*
+
+spades*	
+&#9824;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csì ì($
+%510System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csì ì(%
+%511"__mapSet*&
+$
+%510System.Collections.Hashtable*	
+clubs*	
+&#9827;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csî î($
+%512System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.Hashtable⁄
+◊
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csî î(&
+%513"__mapSet*&
+$
+%512System.Collections.Hashtable*
+
+hearts*	
+&#9829;å
+â
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csï ï($
+%514System.Collections.Hashtable"__id*W*U$
+"mojoPortal.Web.Framework.XssFilter"-
+CharEntityForSystem.Collections.HashtableŸ
+÷
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csï ï(%
+%515"__mapSet*&
+$
+%514System.Collections.Hashtable*	
+diams*	
+&#9830;*
+2*£
+2Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csñ ñ("ô
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\NeatHtml\XssFilter.csñ ñ(
+implicit returnB&"$
+"mojoPortal.Web.Framework.XssFilter

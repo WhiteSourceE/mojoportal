@@ -1,0 +1,415 @@
+
+æmojoPortal.Data.DBEmailTemplate.Create(System.Guid, System.Guid, System.Guid, System.Guid, System.Guid, System.Guid, string, string, string, string, bool, bool, System.DateTime, System.Guid)y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.cs1 1( "0*ÒZ
+0y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csA R(Ô
+Ï
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csA< A(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÕ 
+z
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csA% A(á(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperµ
+≤
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csA) A(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*
+mp_EmailTemplate_Insert*2‹
+Ÿ
+z
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csA A(á)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperí
+è
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csB, B(F
+%3"__id*
+""í
+è
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csBH B(`
+%4"__id*
+""ÿ
+’
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csB B(g
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@Guid*
+
+%3*
+
+%4*
+""í
+è
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csC0 C(J
+%6"__id*
+""í
+è
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csCL C(d
+%7"__id*
+""‹
+Ÿ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csC C(o
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@SiteGuid*
+
+%6*
+
+%7*
+""í
+è
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csD3 D(M
+%9"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csDO D(g
+%10"__id*
+""·
+ﬁ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csD D(u
+%11void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@FeatureGuid*
+
+%9*
+
+%10*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csE2 E(L
+%12"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csEN E(f
+%13"__id*
+""·
+ﬁ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csE E(s
+%14void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ModuleGuid*
+
+%12*
+
+%13*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csF4 F(N
+%15"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csFP F(h
+%16"__id*
+""„
+‡
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csF F(w
+%17void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SpecialGuid1*
+
+%15*
+
+%16*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csG4 G(N
+%18"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csGP G(h
+%19"__id*
+""„
+‡
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csG G(w
+%20void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SpecialGuid2*
+
+%18*
+
+%19*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csH, H(>
+%21"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csHE H(]
+%22"__id*
+""Ú
+Ô
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csH H(d
+%23void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@Name*
+
+%21*2ˇ*
+
+%22*
+
+namestringì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csI/ I(A
+%24"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csIH I(`
+%25"__id*
+""¯
+ı
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csI I(j
+%26void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@Subject*
+
+%24*2ˇ*
+
+%25*
+
+subjectstringì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csJ0 J(B
+%27"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csJH J(`
+%28"__id*
+""˚
+¯
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csJ J(k
+%29void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@TextBody*
+
+%27*
+""*
+
+%28*
+
+textBodystringì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csK0 K(B
+%30"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csKH K(`
+%31"__id*
+""˚
+¯
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csK K(k
+%32void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@HtmlBody*
+
+%30*
+""*
+
+%31*
+
+htmlBodystringì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csL/ L(<
+%33"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csL> L(V
+%34"__id*
+""ﬁ
+€
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csL L(`
+%35void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@HasHtml*
+
+%33*
+
+%34*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csM2 M(?
+%36"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csMA M(Y
+%37"__id*
+""·
+ﬁ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csM M(f
+%38void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@IsEditable*
+
+%36*
+
+%37*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csN2 N(D
+%39"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csNF N(^
+%40"__id*
+""˙
+˜
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csN N(k
+%41void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@CreatedUtc*
+
+%39*
+
+%40*
+
+
+createdUtcSystem.DateTimeì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csO2 O(D
+%42"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csOF O(^
+%43"__id*
+""˙
+˜
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csO O(k
+%44void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@LastModUtc*
+
+%42*
+
+%43*
+
+
+createdUtcSystem.DateTimeì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csP1 P(K
+%45"__id*
+""ì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csPM P(e
+%46"__id*
+""‡
+›
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csP P(q
+%47void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@LastModBy*
+
+%45*
+
+%46*
+""Ì
+Í
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csQ Q(4
+
+%48int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperß
+§
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csQ Q(4
+rowsAffectedint"__id*
+
+
+%48int"í
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csR R( 
+
+rowsAffectedint*ë
+1y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csT	 T(	"ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBEmailTemplate.csT T(	
+implicit return:
+guidSystem.Guid:
+siteGuidSystem.Guid:
+featureGuidSystem.Guid:
+
+moduleGuidSystem.Guid:
+specialGuid1System.Guid:
+specialGuid2System.Guid:
+namestring:
+subjectstring:
+textBodystring:
+htmlBodystring:
+hasHtmlbool:
+
+isEditablebool:
+
+createdUtcSystem.DateTime:
+	lastModBySystem.GuidB#"!
+mojoPortal.Data.DBEmailTemplate

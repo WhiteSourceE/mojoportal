@@ -1,0 +1,104 @@
+
+=mojoPortal.Web.Tags.TagService.UpdateTag(string, System.Guid)o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs§ §("0*‡
+0o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs© ©(ˆ
+…
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs© ©(
+%0"__id*
+""*
+1
+2*ï
+1o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs© ©(%"y
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs© ©(&
+""*¬
+2o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs« ³(ÿ
+ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs« «(0
+%1mojoPortal.Business.Tag";mojoPortal.Business.TagRepository.GetTagByGuid(System.Guid)*%"#
+!mojoPortal.Business.TagRepository*
+""¾
+»
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs« «(0!
+oldTagmojoPortal.Business.Tag"__id*
+
+%1mojoPortal.Business.Tag¦
+£
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs­ ­("
+%2string"string.Trim()*
+
+tagTextstringÜ
+Ù
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs­ ­("
+%3string"#mojoPortal.Business.Tag.TagText.set*#
+!
+oldTagmojoPortal.Business.Tag*
+
+%2stringñ
+î
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs® ®(""
+%4mojoPortal.Business.SiteUser"__id*Q*O 
+mojoPortal.Web.Tags.TagService"+
+currentUsermojoPortal.Business.SiteUserØ
+Õ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs® ®(+
+%5System.Guid")mojoPortal.Business.SiteUser.UserGuid.get*$
+"
+%4mojoPortal.Business.SiteUseré
+æ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs® ®(+
+%6System.Guid"&mojoPortal.Business.Tag.ModifiedBy.set*#
+!
+oldTagmojoPortal.Business.Tag*
+
+%5System.Guid¼
+¹
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs¯ ¯('
+%7System.DateTime"System.DateTime.UtcNow.get*"
+System.DateTimeò
+ï
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs¯ ¯('
+%8System.DateTime"'mojoPortal.Business.Tag.ModifiedUtc.set*#
+!
+oldTagmojoPortal.Business.Tag*
+
+%7System.DateTime¿
+¼
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs± ±(>
+%9mojoPortal.Business.Tag"LmojoPortal.Business.TagRepository.SaveTag(mojoPortal.Business.Tag, out bool)*%"#
+!mojoPortal.Business.TagRepository*#
+!
+oldTagmojoPortal.Business.Tag*
+
+resultbool¾
+»
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs± ±(>!
+newTagmojoPortal.Business.Tag"__id*
+
+%9mojoPortal.Business.Tag"y
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs³ ³(
+""*ý
+3o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs´ ´("†
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\TagService.cs´ ´(
+implicit return:
+tagTextstring:
+guidSystem.GuidB" 
+mojoPortal.Web.Tags.TagService

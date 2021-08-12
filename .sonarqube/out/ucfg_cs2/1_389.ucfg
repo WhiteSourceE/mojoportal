@@ -1,0 +1,769 @@
+
+×mojoPortal.Data.DBGoogleCheckoutLog.Update(System.Guid, System.DateTime, System.Guid, System.Guid, System.Guid, System.Guid, string, string, string, System.DateTime, string, string, string, string, bool, string, string, System.DateTime, decimal, decimal, decimal, decimal, decimal, decimal, decimal, decimal, decimal, decimal, decimal, string)
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs² ²(!"0*¯®
+0
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÒ ò($õ
+ò
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÒ< Ò(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÔÑ
+€
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÒ% Ò(‹(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper¿
+¼
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÒ) Ò(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*
+mp_GoogleCheckoutLog_Update*2ã
+à
+€
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÒ Ò(‹)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper˜
+•
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÓ/ Ó(I
+%3"__id*
+""˜
+•
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÓK Ó(c
+%4"__id*
+""á
+Þ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÓ Ó(m
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@RowGuid*
+
+%3*
+
+%4*
+""˜
+•
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÔ2 Ô(D
+%6"__id*
+""˜
+•
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÔF Ô(^
+%7"__id*
+""ý
+ú
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÔ Ô(k
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@CreatedUtc*
+
+%6*
+
+%7*
+
+
+createdUtcSystem.DateTime˜
+•
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÕ0 Õ(J
+%9"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÕL Õ(d
+%10"__id*
+""ä
+á
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÕ Õ(o
+%11void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@SiteGuid*
+
+%9*
+
+%10*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÖ0 Ö(J
+%12"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÖL Ö(d
+%13"__id*
+""å
+â
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÖ Ö(o
+%14void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@UserGuid*
+
+%12*
+
+%13*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs×1 ×(K
+%15"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs×M ×(e
+%16"__id*
+""æ
+ã
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs× ×(q
+%17void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@StoreGuid*
+
+%15*
+
+%16*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csØ0 Ø(J
+%18"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csØL Ø(d
+%19"__id*
+""å
+â
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csØ Ø(o
+%20void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@CartGuid*
+
+%18*
+
+%19*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÙ8 Ù(J
+%21"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÙQ Ù(i
+%22"__id*
+""
+
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÙ Ù(|
+%23void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@NotificationType*
+
+%21*2ÿ*
+
+%22*
+
+notificationTypestring™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÚ3 Ú(E
+%24"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÚK Ú(c
+%25"__id*
+""‡
+„
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÚ Ú(q
+%26void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@RawResponse*
+
+%24*
+""*
+
+%25*
+
+rawResponsestring™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÛ4 Û(F
+%27"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÛL Û(d
+%28"__id*
+""‡
+„
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÛ Û(s
+%29void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SerialNumber*
+
+%27*22*
+
+%28*
+
+serialNumberstring™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÜ2 Ü(D
+%30"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÜF Ü(^
+%31"__id*
+""€
+ý
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÜ Ü(k
+%32void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@GTimestamp*
+
+%30*
+
+%31*
+
+
+gTimestampSystem.DateTime™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÝ3 Ý(E
+%33"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÝK Ý(c
+%34"__id*
+""…
+‚
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÝ Ý(q
+%35void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@OrderNumber*
+
+%33*22*
+
+%34*
+
+orderNumberstring™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÞ/ Þ(A
+%36"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÞG Þ(_
+%37"__id*
+""ý
+ú
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÞ Þ(i
+%38void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@BuyerId*
+
+%36*22*
+
+%37*
+
+buyerIdstring™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csß5 ß(G
+%39"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csßM ß(e
+%40"__id*
+""‰
+†
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csß ß(u
+%41void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@FullfillState*
+
+%39*22*
+
+%40*
+
+fullfillStatestring™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csà4 à(F
+%42"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csàL à(d
+%43"__id*
+""‡
+„
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csà à(s
+%44void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@FinanceState*
+
+%42*22*
+
+%43*
+
+financeStatestring™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csá6 á(C
+%45"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csáE á(]
+%46"__id*
+""ë
+è
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csá á(n
+%47void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@EmailListOptIn*
+
+%45*
+
+%46*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csâ3 â(E
+%48"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csâJ â(b
+%49"__id*
+""…
+‚
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csâ â(p
+%50void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@AvsResponse*
+
+%48*2*
+
+%49*
+
+avsResponsestring™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csã3 ã(E
+%51"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csãJ ã(b
+%52"__id*
+""…
+‚
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csã ã(p
+%53void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@CvnResponse*
+
+%51*2*
+
+%52*
+
+cvnResponsestring™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csä3 ä(E
+%54"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csäG ä(_
+%55"__id*
+""‚
+ÿ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csä ä(m
+%56void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@AuthExpDate*
+
+%54*
+
+%55* 
+
+authExpDateSystem.DateTime™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cså/ å(@
+%57"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csåB å(Z
+%58"__id*
+""ä
+á
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cså å(d
+%59void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@AuthAmt*
+
+%57*
+
+%58*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csæ5 æ(F
+%60"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csæH æ(`
+%61"__id*
+""ê
+ç
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csæ æ(p
+%62void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@DiscountTotal*
+
+%60*
+
+%61*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csç5 ç(F
+%63"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csçH ç(`
+%64"__id*
+""ê
+ç
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csç ç(p
+%65void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ShippingTotal*
+
+%63*
+
+%64*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csè0 è(A
+%66"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csèC è([
+%67"__id*
+""å
+â
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csè è(f
+%68void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@TaxTotal*
+
+%66*
+
+%67*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csé2 é(C
+%69"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cséE é(]
+%70"__id*
+""ç
+ä
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csé é(j
+%71void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@OrderTotal*
+
+%69*
+
+%70*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csê4 ê(E
+%72"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csêG ê(_
+%73"__id*
+""é
+æ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csê ê(n
+%74void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@LatestChgAmt*
+
+%72*
+
+%73*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csë3 ë(D
+%75"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csëF ë(^
+%76"__id*
+""è
+å
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csë ë(l
+%77void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@TotalChgAmt*
+
+%75*
+
+%76*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csì7 ì(H
+%78"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csìJ ì(b
+%79"__id*
+""ì
+é
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csì ì(t
+%80void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@LatestRefundAmt*
+
+%78*
+
+%79*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csí6 í(G
+%81"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csíI í(a
+%82"__id*
+""ë
+è
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csí í(r
+%83void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@TotalRefundAmt*
+
+%81*
+
+%82*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csî8 î(I
+%84"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csîK î(c
+%85"__id*
+""í
+ê
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csî î(v
+%86void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@LatestChargeback*
+
+%84*
+
+%85*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csï7 ï(H
+%87"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csïJ ï(b
+%88"__id*
+""ì
+é
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csï ï(t
+%89void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@TotalChargeback*
+
+%87*
+
+%88*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csð/ ð(A
+%90"__id*
+""™
+–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csðG ð(_
+%91"__id*
+""ÿ
+ü
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csð ð(i
+%92void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@CartXml*
+
+%90*
+""*
+
+%91*
+
+cartXmlstringó
+ð
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csñ ñ(4
+
+%93int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper­
+ª
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csñ ñ(4
+rowsAffectedint"__id*
+
+
+%93int"‰
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csò ò(&
+""*
+1
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csô	 ô(	"–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csô ô(	
+implicit return:
+rowGuidSystem.Guid:
+
+createdUtcSystem.DateTime:
+siteGuidSystem.Guid:
+userGuidSystem.Guid:
+	storeGuidSystem.Guid:
+cartGuidSystem.Guid:
+notificationTypestring:
+rawResponsestring:
+serialNumberstring:
+
+gTimestampSystem.DateTime:
+orderNumberstring:
+buyerIdstring:
+fullfillStatestring:
+financeStatestring:
+emailListOptInbool:
+avsResponsestring:
+cvnResponsestring:
+authExpDateSystem.DateTime:
+authAmtdecimal:
+discountTotaldecimal:
+shippingTotaldecimal:
+taxTotaldecimal:
+
+orderTotaldecimal:
+latestChgAmtdecimal:
+totalChgAmtdecimal:
+latestRefundAmtdecimal:
+totalRefundAmtdecimal:
+latestChargebackdecimal:
+totalChargebackdecimal:
+cartXmlstringB'"%
+#mojoPortal.Data.DBGoogleCheckoutLog

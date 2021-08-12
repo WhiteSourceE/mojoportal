@@ -1,0 +1,110 @@
+
+zmojoPortal.SearchIndex.IndexHelper.AddRoleFilters(System.Collections.Generic.List<string>, Lucene.Net.Search.BooleanQuery)|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs² ²(*"0*—
+0|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs´ µ(-ÇÄ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs´& ´(8$
+%0Lucene.Net.Search.BooleanQuery"Lucene.Net.Search.BooleanQueryä
+á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs´* ´(6
+
+%1void"-Lucene.Net.Search.BooleanQuery.BooleanQuery()*&
+$
+%0Lucene.Net.Search.BooleanQueryÝ
+Ú
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs´ ´(8,
+
+rolesQueryLucene.Net.Search.BooleanQuery"__id*&
+$
+%0Lucene.Net.Search.BooleanQuery*
+1*‰
+1|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs½	 ½(	*
+2
+3*Ç
+2|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs· ¹(6µ²
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs· ·(2
+%2Lucene.Net.Index.Term"Lucene.Net.Index.Termô
+ñ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs·  ·($
+
+%3void"*Lucene.Net.Index.Term.Term(string, string)*
+
+%2Lucene.Net.Index.Term*
+Role*
+
+rolestringÅ
+Â
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs· ·(2
+termLucene.Net.Index.Term"__id*
+
+%2Lucene.Net.Index.TermÁ¾
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs¸& ¸(9!
+%4Lucene.Net.Search.TermQuery"Lucene.Net.Search.TermQuery‘
+Ž
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs¸* ¸(3
+
+%5void"<Lucene.Net.Search.TermQuery.TermQuery(Lucene.Net.Index.Term)*#
+!
+%4Lucene.Net.Search.TermQuery*
+
+termLucene.Net.Index.TermÖ
+Ó
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs¸ ¸(9(
+	termQueryLucene.Net.Search.TermQuery"__id*#
+!
+%4Lucene.Net.Search.TermQuery•
+’
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs¹* ¹(6
+%6"__id*
+""þû
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs¹ ¹(7
+
+%7void"TLucene.Net.Search.BooleanQuery.Add(Lucene.Net.Search.Query, Lucene.Net.Search.Occur)*.
+,
+
+rolesQueryLucene.Net.Search.BooleanQuery**
+(
+	termQueryLucene.Net.Search.TermQuery*
+
+%625Add(Lucene.Net.Search.Query, Lucene.Net.Search.Occur)*
+1*¢
+3|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs¼ ¼(0•
+’
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs¼& ¼(0
+%8"__id*
+""þ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs¼ ¼(1
+
+%9void"TLucene.Net.Search.BooleanQuery.Add(Lucene.Net.Search.Query, Lucene.Net.Search.Occur)*-
++
+	mainQueryLucene.Net.Search.BooleanQuery*.
+,
+
+rolesQueryLucene.Net.Search.BooleanQuery*
+
+%825Add(Lucene.Net.Search.Query, Lucene.Net.Search.Occur)*
+4*—
+4|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs½	 ½(	"“
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs½ ½(	
+implicit return:/
+	userRoles"System.Collections.Generic.List<T>:+
+	mainQueryLucene.Net.Search.BooleanQueryB&"$
+"mojoPortal.SearchIndex.IndexHelper

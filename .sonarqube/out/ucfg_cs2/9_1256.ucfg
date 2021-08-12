@@ -1,0 +1,97 @@
+
+KmojoPortal.Web.UI.SearchResultsHandler.ProcessError(System.Web.HttpContext)l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÒ Ò("0*ß
+0l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÔ ã(,Ú
+×
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÔ Ô(
+%0System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÞ
+Û
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÔ Ô(<
+%1string"'System.Web.HttpResponse.ContentType.set*
+
+%0System.Web.HttpResponse*
+application/xml«¨
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÕ  Õ(2
+%2System.Text.UTF8Encoding"System.Text.UTF8EncodingÈ
+Å
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÕ$ Õ(0
+
+%3void"'System.Text.UTF8Encoding.UTF8Encoding()* 
+
+%2System.Text.UTF8Encoding»
+¸
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÕ Õ(2 
+encodingSystem.Text.Encoding"__id* 
+
+%2System.Text.UTF8EncodingÚ
+×
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÖ Ö(
+%4System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÿ
+ü
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÖ Ö(7
+%5System.Text.Encoding"+System.Web.HttpResponse.ContentEncoding.set*
+
+%4System.Web.HttpResponse*"
+ 
+encodingSystem.Text.EncodingÚ
+×
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÚ Ú(
+%6System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextò
+ï
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÚ Ú(Q
+
+%7void"%System.Web.HttpResponse.Write(string)*
+
+%6System.Web.HttpResponse*+)
+'<?xml version="1.0" encoding="utf-8" ?>Ú
+×
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÜ Ü(
+%8System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext®
+«
+m
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÜ Ü(Œ
+
+%9void"%System.Web.HttpResponse.Write(string)*
+
+%8System.Web.HttpResponse*fd
+b<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">Û
+Ø
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csã ã(
+%10System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÔ
+Ñ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csã ã(-
+%11void"%System.Web.HttpResponse.Write(string)* 
+
+%10System.Web.HttpResponse*	
+</feed>*
+1*÷
+1l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csç	 ç(	"ƒ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csç ç(	
+implicit return:!
+contextSystem.Web.HttpContextB*(
+&mojoPortal.Web.UI.SearchResultsHandler

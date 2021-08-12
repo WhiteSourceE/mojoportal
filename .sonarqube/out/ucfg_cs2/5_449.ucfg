@@ -1,0 +1,775 @@
+
+8mojoPortal.Business.CommentRepository.Fetch(System.Guid)Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csP P("0*·
+0Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csR R(>˛
+˚
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csR( R(?
+%0System.Data.IDataReader".mojoPortal.Data.DBComments.GetOne(System.Guid)*"
+mojoPortal.Data.DBComments*
+""—
+Œ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csR R(?!
+readerSystem.Data.IDataReader"__id*
+
+%0System.Data.IDataReader*
+1*Ú
+1Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csT T(!‡›
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csT T(!
+
+%1bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*Äî
+2Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csV n(6«ƒ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csV& V(3!
+%2mojoPortal.Business.Comment"mojoPortal.Business.Commentﬂ
+‹
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csV* V(1
+
+%3void"%mojoPortal.Business.Comment.Comment()*#
+!
+%2mojoPortal.Business.Comment⁄
+◊
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csV V(3&
+commentmojoPortal.Business.Comment"__id*#
+!
+%2mojoPortal.Business.CommentÄ˝
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csW, W(:
+%4object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Guid2this[string].getƒ¡
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csW, W(E
+%5string"object.ToString()*
+
+%4object2
+ToString()ß§
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csW# W(F
+%6System.Guid"System.Guid“
+œ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csW' W(+
+
+%7void"System.Guid.Guid(string)*
+
+%6System.Guid*
+
+%5stringˇ
+¸
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csW W(F
+%8System.Guid"$mojoPortal.Business.Comment.Guid.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%6System.GuidÜÉ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csX2 X(F
+%9object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ParentGuid2this[string].get≈¬
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csX2 X(Q
+%10string"object.ToString()*
+
+%9object2
+ToString()®•
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csX) X(R
+%11System.Guid"System.Guid’
+“
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csX- X(1
+%12void"System.Guid.Guid(string)*
+
+%11System.Guid*
+
+%10stringá
+Ñ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csX X(R
+%13System.Guid"*mojoPortal.Business.Comment.ParentGuid.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%11System.GuidÖÇ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csY0 Y(B
+%14object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SiteGuid2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csY0 Y(M
+%15string"object.ToString()*
+
+%14object2
+ToString()®•
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csY' Y(N
+%16System.Guid"System.Guid’
+“
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csY+ Y(/
+%17void"System.Guid.Guid(string)*
+
+%16System.Guid*
+
+%15stringÖ
+Ç
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csY Y(N
+%18System.Guid"(mojoPortal.Business.Comment.SiteGuid.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%16System.GuidàÖ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csZ3 Z(H
+%19object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+FeatureGuid2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csZ3 Z(S
+%20string"object.ToString()*
+
+%19object2
+ToString()®•
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csZ* Z(T
+%21System.Guid"System.Guid’
+“
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csZ. Z(2
+%22void"System.Guid.Guid(string)*
+
+%21System.Guid*
+
+%20stringà
+Ö
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csZ Z(T
+%23System.Guid"+mojoPortal.Business.Comment.FeatureGuid.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%21System.GuidáÑ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs[2 [(F
+%24object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ModuleGuid2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs[2 [(Q
+%25string"object.ToString()*
+
+%24object2
+ToString()®•
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs[) [(R
+%26System.Guid"System.Guid’
+“
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs[- [(1
+%27void"System.Guid.Guid(string)*
+
+%26System.Guid*
+
+%25stringá
+Ñ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs[ [(R
+%28System.Guid"*mojoPortal.Business.Comment.ModuleGuid.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%26System.GuidàÖ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs\3 \(H
+%29object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ContentGuid2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs\3 \(S
+%30string"object.ToString()*
+
+%29object2
+ToString()®•
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs\* \(T
+%31System.Guid"System.Guid’
+“
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs\. \(2
+%32void"System.Guid.Guid(string)*
+
+%31System.Guid*
+
+%30stringà
+Ö
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs\ \(T
+%33System.Guid"+mojoPortal.Business.Comment.ContentGuid.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%31System.GuidÖÇ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs]0 ](B
+%34object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UserGuid2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs]0 ](M
+%35string"object.ToString()*
+
+%34object2
+ToString()®•
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs]' ](N
+%36System.Guid"System.Guid’
+“
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs]+ ](/
+%37void"System.Guid.Guid(string)*
+
+%36System.Guid*
+
+%35stringÖ
+Ç
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs] ](N
+%38System.Guid"(mojoPortal.Business.Comment.UserGuid.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%36System.GuidÇˇ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs^$ ^(3
+%39object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Title2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs^$ ^(>
+%40string"object.ToString()*
+
+%39object2
+ToString()¯
+ı
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs^ ^(>
+%41string"%mojoPortal.Business.Comment.Title.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%40stringàÖ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs_* _(?
+%42object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+UserComment2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs_* _(J
+%43string"object.ToString()*
+
+%42object2
+ToString()˛
+˚
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs_ _(J
+%44string"+mojoPortal.Business.Comment.UserComment.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%43stringÖÇ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs`' `(9
+%45object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UserName2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs`' `(D
+%46string"object.ToString()*
+
+%45object2
+ToString()˚
+¯
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs` `(D
+%47string"(mojoPortal.Business.Comment.UserName.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%46stringÜÉ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csa( a(;
+%48object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	UserEmail2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csa( a(F
+%49string"object.ToString()*
+
+%48object2
+ToString()¸
+˘
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csa a(F
+%50string")mojoPortal.Business.Comment.UserEmail.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%49stringÑÅ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csb& b(7
+%51object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+UserUrl2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csb& b(B
+%52string"object.ToString()*
+
+%51object2
+ToString()˙
+˜
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csb b(B
+%53string"'mojoPortal.Business.Comment.UserUrl.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%52stringÉÄ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csc% c(5
+%54object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UserIp2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csc% c(@
+%55string"object.ToString()*
+
+%54object2
+ToString()˘
+ˆ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csc c(@
+%56string"&mojoPortal.Business.Comment.UserIp.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%55stringáÑ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csd< d(P
+%57object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CreatedUtc2this[string].getÁ
+‰
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csd) d(Q
+%58System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%57objectè
+å
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csd d(Q
+%59System.DateTime"*mojoPortal.Business.Comment.CreatedUtc.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%58System.DateTimeáÑ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cse< e(P
+%60object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+LastModUtc2this[string].getÁ
+‰
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cse) e(Q
+%61System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%60objectè
+å
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cse e(Q
+%62System.DateTime"*mojoPortal.Business.Comment.LastModUtc.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%61System.DateTimeçä
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csf> f(X
+%63object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ModerationStatus2this[string].getÿ
+’
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csf/ f(Y
+%64byte"System.Convert.ToByte(object)*"
+System.Convert*
+
+%63objectˇ
+¸
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csf f(Y
+%65byte"0mojoPortal.Business.Comment.ModerationStatus.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%64byteàÖ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csg3 g(H
+%66object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ModeratedBy2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csg3 g(S
+%67string"object.ToString()*
+
+%66object2
+ToString()®•
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csg* g(T
+%68System.Guid"System.Guid’
+“
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csg. g(2
+%69void"System.Guid.Guid(string)*
+
+%68System.Guid*
+
+%67stringà
+Ö
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csg g(T
+%70System.Guid"+mojoPortal.Business.Comment.ModeratedBy.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%68System.Guidçä
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csh/ h(I
+%71object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ModerationReason2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csh/ h(T
+%72string"object.ToString()*
+
+%71object2
+ToString()É
+Ä
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csh h(T
+%73string"0mojoPortal.Business.Comment.ModerationReason.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%72stringÉÄ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csk5 k(E
+%74object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UserID2this[string].getÿ
+’
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csk% k(F
+
+%75int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%74objectÛ
+
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csk k(F
+
+%76int"&mojoPortal.Business.Comment.UserId.set*(
+&
+commentmojoPortal.Business.Comment*
+
+
+%75intáÑ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csl) l(=
+%77object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+PostAuthor2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csl) l(H
+%78string"object.ToString()*
+
+%77object2
+ToString()˝
+˙
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csl l(H
+%79string"*mojoPortal.Business.Comment.PostAuthor.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%78stringÏ
+È
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csn n(*
+%80string"*mojoPortal.Business.Comment.PostAuthor.get*(
+&
+commentmojoPortal.Business.Comment∑
+¥
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csn n(1
+
+%81int"string.Length.get*
+
+%80string*
+4
+5*˘
+4Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csp p(=Í
+Á
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csp- p(=
+%82string"(mojoPortal.Business.Comment.UserName.get*(
+&
+commentmojoPortal.Business.Comment˝
+˙
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csp p(=
+%83string"*mojoPortal.Business.Comment.PostAuthor.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%82string*
+5*é
+
+5Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.css t(7àÖ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.css* s(?
+%84object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+AuthorEmail2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.css* s(J
+%85string"object.ToString()*
+
+%84object2
+ToString()˛
+˚
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.css s(J
+%86string"+mojoPortal.Business.Comment.AuthorEmail.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%85stringÌ
+Í
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cst t(+
+%87string"+mojoPortal.Business.Comment.AuthorEmail.get*(
+&
+commentmojoPortal.Business.Comment∑
+¥
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cst t(2
+
+%88int"string.Length.get*
+
+%87string*
+6
+7*˚
+6Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csv v(?Î
+Ë
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csv. v(?
+%89string")mojoPortal.Business.Comment.UserEmail.get*(
+&
+commentmojoPortal.Business.Comment˛
+˚
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csv v(?
+%90string"+mojoPortal.Business.Comment.AuthorEmail.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%89string*
+7*›
+7Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csy }(@àÖ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csy< y(Q
+%91object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+UserRevenue2this[string].getﬁ
+€
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csy* y(R
+%92decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%91objectÄ
+˝
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csy y(R
+%93decimal"+mojoPortal.Business.Comment.UserRevenue.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%92decimalÑÅ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csz8 z(I
+%94object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Trusted2this[string].get€
+ÿ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csz& z(J
+%95bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%94objectˆ
+Û
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csz z(J
+%96bool"'mojoPortal.Business.Comment.Trusted.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%95boolçä
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs{/ {(I
+%97object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+PostAuthorAvatar2this[string].get∆√
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs{/ {(T
+%98string"object.ToString()*
+
+%97object2
+ToString()É
+Ä
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs{ {(T
+%99string"0mojoPortal.Business.Comment.PostAuthorAvatar.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%98stringíè
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs|3 |(Q
+%100object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+PostAuthorWebSiteUrl2this[string].get»≈
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs|3 |(\
+%101string"object.ToString()*
+
+%100object2
+ToString()â
+Ü
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs| |(\
+%102string"4mojoPortal.Business.Comment.PostAuthorWebSiteUrl.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%101string˜
+Ù
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs} }(4
+%103string"4mojoPortal.Business.Comment.PostAuthorWebSiteUrl.get*(
+&
+commentmojoPortal.Business.Commentπ
+∂
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs} }(;
+%104int"string.Length.get*
+
+%103string*
+8
+9*Ö
+8Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs (FÍ
+Á
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs7 (F
+%105string"'mojoPortal.Business.Comment.UserUrl.get*(
+&
+commentmojoPortal.Business.Commentâ
+Ü
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.cs (F
+%106string"4mojoPortal.Business.Comment.PostAuthorWebSiteUrl.set*(
+&
+commentmojoPortal.Business.Comment*
+
+%105string*
+9*º
+9É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csÇ Ç(""∞
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csÇ Ç(#(
+&
+commentmojoPortal.Business.Comment*è
+3É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csà	 à(	*
+10*õ
+10É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csá á("é
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csá á(
+""*®
+11É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csà	 à(	"õ
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Comment\CommentRepository.csà à(	
+implicit return:
+guidSystem.GuidB)'
+%mojoPortal.Business.CommentRepository

@@ -1,0 +1,1555 @@
+
+LmojoPortal.Web.Services.FileService.UploadFromDialog(System.Web.HttpContext)s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∞ ∞(%"0*ø
+0s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≤ ≤(0ﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≤ ≤(
+%0System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContextﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≤ ≤(%#
+%1System.Web.HttpFileCollection" System.Web.HttpRequest.Files.get*
+
+%0System.Web.HttpRequest¯ı
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≤ ≤(+	
+%2int"ASystem.Collections.Specialized.NameObjectCollectionBase.Count.get*%
+#
+%1System.Web.HttpFileCollection2	Count.get*
+1
+2*Ú
+1s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¥ µ(1“
+œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¥ ¥(
+%3log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.FileService"
+loglog4net.ILogÈÊ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¥ ¥(<
+
+%4void"log4net.ILog.Info(object)*
+
+%3log4net.ILog*$"
+ No files posted so returning 4042Info(object)·
+ﬁ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csµ µ( 
+%5System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext”
+–
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csµ µ(1	
+%6int"&System.Web.HttpResponse.StatusCode.set*
+
+%5System.Web.HttpResponse*2î"}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∂ ∂(
+""*Ë
+2s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csπ ∫($ï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csπ( π(L&
+%7 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csπ π(L0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%7 mojoPortal.Business.SiteSettings
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∫ ∫($
+
+%8bool""object.operator ==(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+3
+4*¯
+3s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csº Ω(1“
+œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csº º(
+%9log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.FileService"
+loglog4net.ILogÏÈ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csº º(>
+%10void"log4net.ILog.Info(object)*
+
+%9log4net.ILog*&$
+"Null SiteSettings so returning 4042Info(object)‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csΩ Ω( 
+%11System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext’
+“
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csΩ Ω(1
+
+%12int"&System.Web.HttpResponse.StatusCode.set* 
+
+%11System.Web.HttpResponse*2î"}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csæ æ(
+""*ˇ
+4s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¿ ¿(L˝
+˙
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¿$ ¿(L
+%13string"@mojoPortal.Business.SiteSettings.GeneralBrowseAndUploadRoles.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¿ ¿(M
+%14bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%13string*
+5
+6*Å
+5s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¡ ¡(Pˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¡& ¡(P
+%15string"BmojoPortal.Business.SiteSettings.UserFilesBrowseAndUploadRoles.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¡ ¡(Q
+%16bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%15string*
+7
+6*Ô
+7s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¬ ¬(*Ï
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¬ ¬(*
+%17bool"9mojoPortal.Business.WebHelpers.WebUser.IsContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+8
+6*â	
+8s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≈ ∆(1”
+–
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≈ ≈(
+%18log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.FileService"
+loglog4net.ILog¸˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≈ ≈(M
+%19void"log4net.ILog.Info(object)*
+
+%18log4net.ILog*53
+1user not in allowed upload roles so returning 4042Info(object)‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∆ ∆( 
+%20System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext’
+“
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∆ ∆(1
+
+%21int"&System.Web.HttpResponse.StatusCode.set* 
+
+%20System.Web.HttpResponse*2î"}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs« «(
+""*ﬁ
+6s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs  Ã(5Ñ
+Å
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs   ($(
+%22!mojoPortal.FileSystem.IFileSystem"__id*Z*X%
+#mojoPortal.Web.Services.FileService"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystem˜Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs   (0
+%23string"1mojoPortal.FileSystem.IFileSystem.VirtualRoot.get**
+(
+%22!mojoPortal.FileSystem.IFileSystem2VirtualRoot.getœ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs   (0>%
+#mojoPortal.Web.Services.FileService"
+virtualPathstring"__id*
+
+%23string‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÃ Ã(
+%24System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÃ Ã(&9
+%252System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%24System.Web.HttpRequestŸ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÃ Ã(-
+%26string"
+__arrayGet*;
+9
+%252System.Collections.Specialized.NameValueCollection*
+fldŒ
+À
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÃ Ã(5
+%27bool""string.operator !=(string, string)*
+"
+string*
+
+%26string*
+""*
+9
+10*å
+9s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csœ œ(V‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csœ œ(-
+%28System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csœ œ(49
+%292System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%28System.Web.HttpRequestŸ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csœ œ(;
+%30string"
+__arrayGet*;
+9
+%292System.Collections.Specialized.NameValueCollection*
+fld¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csœJ œ(V
+%31string"__id**
+string"
+Emptystring—
+Œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csœ œ(W
+%32string"string.Replace(string, string)*
+
+%30string*
+..*
+
+%31stringœ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csœ œ(W>%
+#mojoPortal.Web.Services.FileService"
+virtualPathstring"__id*
+
+%32string*
+10*ê
+10s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs“ “(*œ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs“ “(
+%33string"__id*@*>%
+#mojoPortal.Web.Services.FileService"
+virtualPathstring∏
+µ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs“ “(+
+%34bool"string.StartsWith(string)*
+
+%33string*
+/*
+11
+12*œ
+11s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs“/ “(Nœ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs“C “(N
+%35string"__id*@*>%
+#mojoPortal.Web.Services.FileService"
+virtualPathstring©
+¶
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs“= “(N
+%36string"__concat*
+~*
+
+%35stringœ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs“/ “(N>%
+#mojoPortal.Web.Services.FileService"
+virtualPathstring"__id*
+
+%36string*
+12*é
+12s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs” ”()œ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs” ”(
+%37string"__id*@*>%
+#mojoPortal.Web.Services.FileService"
+virtualPathstring∂
+≥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs” ”(*
+%38bool"string.EndsWith(string)*
+
+%37string*
+/*
+13
+14*œ
+13s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs”. ”(Mœ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs”< ”(G
+%39string"__id*@*>%
+#mojoPortal.Web.Services.FileService"
+virtualPathstring©
+¶
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs”< ”(M
+%40string"__concat*
+
+%39string*
+/œ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs”. ”(M>%
+#mojoPortal.Web.Services.FileService"
+virtualPathstring"__id*
+
+%40string*
+14*õ
+14s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs’ ’(>œ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs’ ’(
+%41string"__id*@*>%
+#mojoPortal.Web.Services.FileService"
+virtualPathstringÑ
+Å
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs’( ’(2(
+%42!mojoPortal.FileSystem.IFileSystem"__id*Z*X%
+#mojoPortal.Web.Services.FileService"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystem˜Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs’( ’(>
+%43string"1mojoPortal.FileSystem.IFileSystem.VirtualRoot.get**
+(
+%42!mojoPortal.FileSystem.IFileSystem2VirtualRoot.get¬
+ø
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs’ ’(?
+%44bool"string.StartsWith(string)*
+
+%41string*
+
+%43string*
+15
+16*Ö
+15s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs◊ ÿ(1”
+–
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs◊ ◊(
+%45log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.FileService"
+loglog4net.ILogœ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs◊B ◊(M
+%46string"__id*@*>%
+#mojoPortal.Web.Services.FileService"
+virtualPathstringÃ
+…
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs◊ ◊(M
+%47string"__concat*(&
+$returning 404 for upload request to *
+
+%46string÷”
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs◊ ◊(N
+%48void"log4net.ILog.Info(object)*
+
+%45log4net.ILog*
+
+%47string2Info(object)‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÿ ÿ( 
+%49System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext’
+“
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÿ ÿ(1
+
+%50int"&System.Web.HttpResponse.StatusCode.set* 
+
+%49System.Web.HttpResponse*2î"}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csŸ Ÿ(
+""*Í
+16s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs‹ ·(6Î
+Ë
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs‹ ‹(J
+
+%51int"?mojoPortal.Web.WebConfigSettings.ResizeImageDefaultMaxWidth.get*$""
+ mojoPortal.Web.WebConfigSettings†
+ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs‹ ‹(J
+resizeWidthint"__id*
+
+
+%51intÏ
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs› ›(L
+
+%52int"@mojoPortal.Web.WebConfigSettings.ResizeImageDefaultMaxHeight.get*$""
+ mojoPortal.Web.WebConfigSettings°
+û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs› ›(L
+resizeHeightint"__id*
+
+
+%52intñ
+ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csﬁ ﬁ(
+resizebool"__id*
+""Ú
+Ô
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csﬂ$ ﬂ(V
+%53bool"EmojoPortal.Web.WebConfigSettings.KeepFullSizeEditorUploadedImages.get*$""
+ mojoPortal.Web.WebConfigSettingsß
+§
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csﬂ ﬂ(V
+keepOriginalSizebool"__id*
+
+%53bool‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs· ·(
+%54System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs· ·(&9
+%552System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%54System.Web.HttpRequest⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs· ·(.
+%56string"
+__arrayGet*;
+9
+%552System.Collections.Specialized.NameValueCollection*
+maxWŒ
+À
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs· ·(6
+%57bool""string.operator !=(string, string)*
+"
+string*
+
+%56string*
+""*
+17
+18*ê
+17s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs‰ ‰(L‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs‰ ‰(,
+%58System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs‰ ‰(39
+%592System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%58System.Web.HttpRequest⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs‰ ‰(;
+%60string"
+__arrayGet*;
+9
+%592System.Collections.Specialized.NameValueCollection*
+maxW‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs‰ ‰(M
+%61bool"int.TryParse(string, out int)*"
+int*
+
+%60string*
+
+resizeWidthint*
+18*é
+18s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csË Ë(6‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csË Ë(
+%62System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csË Ë(&9
+%632System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%62System.Web.HttpRequest⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csË Ë(.
+%64string"
+__arrayGet*;
+9
+%632System.Collections.Specialized.NameValueCollection*
+maxHŒ
+À
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csË Ë(6
+%65bool""string.operator !=(string, string)*
+"
+string*
+
+%64string*
+""*
+19
+20*ë
+19s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÎ Î(M‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÎ Î(,
+%66System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÎ Î(39
+%672System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%66System.Web.HttpRequest⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÎ Î(;
+%68string"
+__arrayGet*;
+9
+%672System.Collections.Specialized.NameValueCollection*
+maxH’
+“
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÎ Î(N
+%69bool"int.TryParse(string, out int)*"
+int*
+
+%68string*
+
+resizeHeightint*
+20*å
+20s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÔ Ô(4‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÔ Ô(
+%70System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÔ Ô(&9
+%712System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%70System.Web.HttpRequestÿ
+’
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÔ Ô(,
+%72string"
+__arrayGet*;
+9
+%712System.Collections.Specialized.NameValueCollection*
+rzŒ
+À
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÔ Ô(4
+%73bool""string.operator !=(string, string)*
+"
+string*
+
+%72string*
+""*
+21
+22*≠	
+21s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÒ Û( ‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÒ Ò(+
+%74System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÒ Ò(29
+%752System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%74System.Web.HttpRequestÿ
+’
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÒ Ò(8
+%76string"
+__arrayGet*;
+9
+%752System.Collections.Specialized.NameValueCollection*
+rzù
+ö
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÒ Ò(8
+rzstring"__id*
+
+%76stringœ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÛ Û( 
+%77bool""string.operator ==(string, string)*
+"
+string*
+
+rzstring*
+true*
+23
+22*ò
+23s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csı ı(!ñ
+ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csı ı(!
+resizebool"__id*
+""*
+22*å
+22s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs˙ ˙(4‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs˙ ˙(
+%78System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs˙ ˙(&9
+%792System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%78System.Web.HttpRequestÿ
+’
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs˙ ˙(,
+%80string"
+__arrayGet*;
+9
+%792System.Collections.Specialized.NameValueCollection*
+koŒ
+À
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs˙ ˙(4
+%81bool""string.operator !=(string, string)*
+"
+string*
+
+%80string*
+""*
+24
+25*≠	
+24s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¸ ˛( ‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¸ ¸(+
+%82System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¸ ¸(29
+%832System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%82System.Web.HttpRequestÿ
+’
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¸ ¸(8
+%84string"
+__arrayGet*;
+9
+%832System.Collections.Specialized.NameValueCollection*
+koù
+ö
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¸ ¸(8
+kostring"__id*
+
+%84stringœ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs˛ ˛( 
+%85bool""string.operator ==(string, string)*
+"
+string*
+
+kostring*
+true*
+26
+25*¢
+26s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÄ Ä(+†
+ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÄ Ä(+
+keepOriginalSizebool"__id*
+""*
+25*ﬂ
+25s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÖ ã(D‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÖ Ö(*
+%86System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext·
+ﬁ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÖ Ö(0$
+%87System.Web.HttpFileCollection" System.Web.HttpRequest.Files.get*
+
+%86System.Web.HttpRequest“
+œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÖ Ö(3 
+%88System.Web.HttpPostedFile"
+__arrayGet*&
+$
+%87System.Web.HttpFileCollection*2 ˆ
+Û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÖ Ö(3R%
+#mojoPortal.Web.Services.FileService")
+fileUploadedSystem.Web.HttpPostedFile"__id*"
+ 
+%88System.Web.HttpPostedFileò
+ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csá á( 
+doUploadbool"__id*
+""ˆ
+Û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csâ  â(, 
+%89System.Web.HttpPostedFile"__id*T*R%
+#mojoPortal.Web.Services.FileService")
+fileUploadedSystem.Web.HttpPostedFile’
+“
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csâ  â(:
+
+%90int"+System.Web.HttpPostedFile.ContentLength.get*"
+ 
+%89System.Web.HttpPostedFile¢
+ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csâ â(:
+contentLengthint"__id*
+
+
+%90intÑ
+Å
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csã  ã(*(
+%91!mojoPortal.FileSystem.IFileSystem"__id*Z*X%
+#mojoPortal.Web.Services.FileService"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemöó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csã  ã(52
+%92+mojoPortal.FileSystem.IFileSystemPermission"0mojoPortal.FileSystem.IFileSystem.Permission.get**
+(
+%91!mojoPortal.FileSystem.IFileSystem2Permission.getèå
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csã  ã(D
+%93long">mojoPortal.FileSystem.IFileSystemPermission.MaxSizePerFile.get*4
+2
+%92+mojoPortal.FileSystem.IFileSystemPermission2MaxSizePerFile.get*
+27
+28*˘
+27s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csç é( ”
+–
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csç ç(
+%94log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.FileService"
+loglog4net.ILogÜÉ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csç ç(W
+%95void"log4net.ILog.Info(object)*
+
+%94log4net.ILog*?=
+;upload rejected due to fileSystem.Permission.MaxSizePerFile2Info(object)ò
+ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csé é( 
+doUploadbool"__id*
+""*
+29*´
+28s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csë ë(QÑ
+Å
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csë ë((
+%96!mojoPortal.FileSystem.IFileSystem"__id*Z*X%
+#mojoPortal.Web.Services.FileService"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemÙÒ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csë ë(/
+
+%97int"1mojoPortal.FileSystem.IFileSystem.CountAllFiles()**
+(
+%96!mojoPortal.FileSystem.IFileSystem2CountAllFiles()Ñ
+Å
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csë3 ë(=(
+%98!mojoPortal.FileSystem.IFileSystem"__id*Z*X%
+#mojoPortal.Web.Services.FileService"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemöó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csë3 ë(H2
+%99+mojoPortal.FileSystem.IFileSystemPermission"0mojoPortal.FileSystem.IFileSystem.Permission.get**
+(
+%98!mojoPortal.FileSystem.IFileSystem2Permission.getÉÄ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csë3 ë(Q
+%100int"8mojoPortal.FileSystem.IFileSystemPermission.MaxFiles.get*4
+2
+%99+mojoPortal.FileSystem.IFileSystemPermission2MaxFiles.get*
+30
+31*ˆ
+30s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csì î( ‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csì ì(
+%101log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.FileService"
+loglog4net.ILogÇˇ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csì ì(Q
+%102void"log4net.ILog.Info(object)*
+
+%101log4net.ILog*97
+5upload rejected due to fileSystem.Permission.MaxFiles2Info(object)ò
+ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csî î( 
+doUploadbool"__id*
+""*
+29*¨
+31s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csò ò(]Ö
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csò ò()
+%103!mojoPortal.FileSystem.IFileSystem"__id*Z*X%
+#mojoPortal.Web.Services.FileService"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemıÚ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csò ò(.
+%104long"0mojoPortal.FileSystem.IFileSystem.GetTotalSize()*+
+)
+%103!mojoPortal.FileSystem.IFileSystem2GetTotalSize()Ö
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csòB ò(L)
+%105!mojoPortal.FileSystem.IFileSystem"__id*Z*X%
+#mojoPortal.Web.Services.FileService"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemúô
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csòB ò(W3
+%106+mojoPortal.FileSystem.IFileSystemPermission"0mojoPortal.FileSystem.IFileSystem.Permission.get*+
+)
+%105!mojoPortal.FileSystem.IFileSystem2Permission.getˇ¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csòB ò(]
+%107long"5mojoPortal.FileSystem.IFileSystemPermission.Quota.get*5
+3
+%106+mojoPortal.FileSystem.IFileSystemPermission2	Quota.get*
+32
+29*Û
+32s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csö õ( ‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csö ö(
+%108log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.FileService"
+loglog4net.ILogˇ¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csö ö(N
+%109void"log4net.ILog.Info(object)*
+
+%108log4net.ILog*64
+2upload rejected due to fileSystem.Permission.Quota2Info(object)ò
+ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csõ õ( 
+doUploadbool"__id*
+""*
+29*ö
+29s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs† †(iÖ
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs† †()
+%110!mojoPortal.FileSystem.IFileSystem"__id*Z*X%
+#mojoPortal.Web.Services.FileService"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemúô
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs† †(&3
+%111+mojoPortal.FileSystem.IFileSystemPermission"0mojoPortal.FileSystem.IFileSystem.Permission.get*+
+)
+%110!mojoPortal.FileSystem.IFileSystem2Permission.get˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs†T †(`!
+%112System.Web.HttpPostedFile"__id*T*R%
+#mojoPortal.Web.Services.FileService")
+fileUploadedSystem.Web.HttpPostedFile’
+“
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs†T †(i
+%113string"&System.Web.HttpPostedFile.FileName.get*#
+!
+%112System.Web.HttpPostedFileÒ
+Ó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs†4 †(j
+%114string"2System.Web.VirtualPathUtility.GetExtension(string)*!"
+System.Web.VirtualPathUtility*
+
+%113stringß§
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs† †(k
+%115bool"@mojoPortal.FileSystem.IFileSystemPermission.IsExtAllowed(string)*5
+3
+%111+mojoPortal.FileSystem.IFileSystemPermission*
+
+%114string2IsExtAllowed(string)*
+33
+34*Ú
+33s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¢ £( ‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¢ ¢(
+%116log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.FileService"
+loglog4net.ILog˛˚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¢ ¢(M
+%117void"log4net.ILog.Info(object)*
+
+%116log4net.ILog*53
+1upload rejected due to not allowed file extension2Info(object)ò
+ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs£ £( 
+doUploadbool"__id*
+""*
+34*∆ 
+34s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csß Ø(˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csß2 ß(>!
+%118System.Web.HttpPostedFile"__id*T*R%
+#mojoPortal.Web.Services.FileService")
+fileUploadedSystem.Web.HttpPostedFile’
+“
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csß2 ß(G
+%119string"&System.Web.HttpPostedFile.FileName.get*#
+!
+%118System.Web.HttpPostedFile“
+œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csß! ß(H
+%120string""System.IO.Path.GetFileName(string)*"
+System.IO.Path*
+
+%119stringÚ
+Ô
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csßY ß(â
+%121bool"CmojoPortal.Web.WebConfigSettings.ForceLowerCaseForUploadedFiles.get*$""
+ mojoPortal.Web.WebConfigSettingsì
+ê
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csß! ß(ä
+%122string"?mojoPortal.Web.Framework.IOHelper.ToCleanFileName(string, bool)*%"#
+!mojoPortal.Web.Framework.IOHelper*
+
+%120string*
+
+%121bool®
+•
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csß ß(ä
+newFileNamestring"__id*
+
+%122string–
+Õ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs©9 ©(D
+%123string"__id*@*>%
+#mojoPortal.Web.Services.FileService"
+virtualPathstringç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs© ©(R
+%124string"5System.Web.VirtualPathUtility.Combine(string, string)*!"
+System.Web.VirtualPathUtility*
+
+%123string*
+
+newFileNamestring§
+°
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs© ©(R
+destPathstring"__id*
+
+%124string˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs´+ ´(7!
+%125System.Web.HttpPostedFile"__id*T*R%
+#mojoPortal.Web.Services.FileService")
+fileUploadedSystem.Web.HttpPostedFile’
+“
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs´+ ´(@
+%126string"&System.Web.HttpPostedFile.FileName.get*#
+!
+%125System.Web.HttpPostedFile”
+–
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs´ ´(A
+%127string"#System.IO.Path.GetExtension(string)*"
+System.IO.Path*
+
+%126string¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs´ ´(K
+%128string"string.ToLower()*
+
+%127stringü
+ú
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs´ ´(K
+extstring"__id*
+
+%128string˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¨ ¨(7
+%129string"5mojoPortal.Web.Framework.IOHelper.GetMimeType(string)*%"#
+!mojoPortal.Web.Framework.IOHelper*
+
+extstring§
+°
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¨ ¨(7
+mimeTypestring"__id*
+
+%129string¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≠< ≠(G
+%130string"__concat*
+-fs*
+
+extstring·
+ﬁ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≠& ≠(H
+%131string"string.Replace(string, string)*
+
+destPathstring*
+
+extstring*
+
+%130string¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≠ ≠(H
+fullSizeFilePathstring"__id*
+
+%131string*
+35
+36*Ÿ
+35s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≤ ¥(D„
+‡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≤ ≤( 
+%132System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÍ
+Á
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≤ ≤(A
+%133string"'System.Web.HttpResponse.ContentType.set*!
+
+%132System.Web.HttpResponse*
+application/json»≈
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≥ ≥(5*
+%134"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>ﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≥ ≥(3
+%135void")System.Collections.Generic.List<T>.List()*,
+*
+%134"System.Collections.Generic.List<T>’
+“
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs≥ ≥(5'
+r"System.Collections.Generic.List<T>"__id*,
+*
+%134"System.Collections.Generic.List<T>ÏÈ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¥* ¥(D<
+%1364System.Web.Script.Serialization.JavaScriptSerializer"4System.Web.Script.Serialization.JavaScriptSerializerì
+ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¥. ¥(B
+%137void"KSystem.Web.Script.Serialization.JavaScriptSerializer.JavaScriptSerializer()*>
+<
+%1364System.Web.Script.Serialization.JavaScriptSerializer˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¥% ¥(D:
+js4System.Web.Script.Serialization.JavaScriptSerializer"__id*>
+<
+%1364System.Web.Script.Serialization.JavaScriptSerializer*
+37*ﬁ
+37s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∏ ∏(3˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∏ ∏('!
+%138System.Web.HttpPostedFile"__id*T*R%
+#mojoPortal.Web.Services.FileService")
+fileUploadedSystem.Web.HttpPostedFile‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∏ ∏(3
+%139System.IO.Stream")System.Web.HttpPostedFile.InputStream.get*#
+!
+%138System.Web.HttpPostedFile*
+38*Ç
+38s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∫ ∫(oÖ
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∫ ∫(")
+%140!mojoPortal.FileSystem.IFileSystem"__id*Z*X%
+#mojoPortal.Web.Services.FileService"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystem˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∫6 ∫(B!
+%141System.Web.HttpPostedFile"__id*T*R%
+#mojoPortal.Web.Services.FileService")
+fileUploadedSystem.Web.HttpPostedFile‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∫6 ∫(N
+%142System.IO.Stream")System.Web.HttpPostedFile.InputStream.get*#
+!
+%141System.Web.HttpPostedFile˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∫P ∫(i
+%143string"5mojoPortal.Web.Framework.IOHelper.GetMimeType(string)*%"#
+!mojoPortal.Web.Framework.IOHelper*
+
+extstringüú
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∫ ∫(p&
+%144mojoPortal.FileSystem.OpResult"RmojoPortal.FileSystem.IFileSystem.SaveFile(string, System.IO.Stream, string, bool)*+
+)
+%140!mojoPortal.FileSystem.IFileSystem*
+
+destPathstring*
+
+%142System.IO.Stream*
+
+%143string*
+""20SaveFile(string, System.IO.Stream, string, bool)*
+39*É
+39s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csΩ Ω(*
+40
+41*É
+40s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csΩ! Ω(1*
+42
+41*ı
+42s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csø ø(LÖ
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csø ø(")
+%145!mojoPortal.FileSystem.IFileSystem"__id*Z*X%
+#mojoPortal.Web.Services.FileService"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemÎË
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csø ø(M&
+%146mojoPortal.FileSystem.OpResult"@mojoPortal.FileSystem.IFileSystem.CopyFile(string, string, bool)*+
+)
+%145!mojoPortal.FileSystem.IFileSystem*
+
+destPathstring*
+
+fullSizeFilePathstring*
+""2CopyFile(string, string, bool)*
+41*Ú
+41s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¬ ¬(:Ï
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¬ ¬(;
+%147bool"5mojoPortal.Web.SiteUtils.IsImageFileExtension(string)*"
+mojoPortal.Web.SiteUtils*
+
+extstring*
+43
+44*É
+43s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csƒ ƒ("*
+45
+44*˚
+45s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∆ À(Nˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÀ  À(N
+%148System.Drawing.Color"AmojoPortal.Web.WebConfigSettings.DefaultResizeBackgroundColor.get*$""
+ mojoPortal.Web.WebConfigSettings˜
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs∆ À(O
+%149void"VmojoPortal.Web.ImageHelper.ResizeImage(string, string, int, int, System.Drawing.Color)*"
+mojoPortal.Web.ImageHelper*
+
+destPathstring*
+
+mimeTypestring*
+
+resizeWidthint*
+
+resizeHeightint*
+
+%148System.Drawing.Color*
+44*É
+44s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¸	 ¸(	*
+46
+47*¸
+46s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs” ‘(5‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs” ”(
+%150log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.FileService"
+loglog4net.ILog„‡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs” ”(!
+%151void"log4net.ILog.Error(object)*
+
+%150log4net.ILog*
+
+exSystem.Exception2Error(object)„
+‡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs‘ ‘($
+%152System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext◊
+‘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs‘ ‘(5
+%153int"&System.Web.HttpResponse.StatusCode.set*!
+
+%152System.Web.HttpResponse*2î*
+47*É
+47s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs÷ ÷(*
+48
+49*É
+48s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs÷ ÷(-*
+50
+49*∞
+50s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÿ ﬂ(' «
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÿ ‡(+
+%154#mojoPortal.Web.UI.UploadFilesResult"#mojoPortal.Web.UI.UploadFilesResultÓ
+Î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÿ ÿ(/
+%155void"7mojoPortal.Web.UI.UploadFilesResult.UploadFilesResult()*-
++
+%154#mojoPortal.Web.UI.UploadFilesResult˚
+¯
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs€" €(?
+%156string"4mojoPortal.Web.Framework.WebUtils.ResolveUrl(string)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+destPathstring˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs€ €(?
+%157string"/mojoPortal.Web.UI.UploadFilesResult.FileUrl.set*-
++
+%154#mojoPortal.Web.UI.UploadFilesResult*
+
+%156stringÉ
+Ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs‹& ‹(K
+%158string"4mojoPortal.Web.Framework.WebUtils.ResolveUrl(string)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+fullSizeFilePathstring˛
+˚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs‹ ‹(K
+%159string"3mojoPortal.Web.UI.UploadFilesResult.FullSizeUrl.set*-
++
+%154#mojoPortal.Web.UI.UploadFilesResult*
+
+%158string˛
+˚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs› ›(*
+%160string",mojoPortal.Web.UI.UploadFilesResult.Name.set*-
++
+%154#mojoPortal.Web.UI.UploadFilesResult*
+
+newFileNamestring¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csﬁ ﬁ(.
+%161int".mojoPortal.Web.UI.UploadFilesResult.Length.set*-
++
+%154#mojoPortal.Web.UI.UploadFilesResult*
+
+contentLengthint˚
+¯
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csﬂ ﬂ('
+%162string",mojoPortal.Web.UI.UploadFilesResult.Type.set*-
++
+%154#mojoPortal.Web.UI.UploadFilesResult*
+
+mimeTypestring
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÿ ‡(
+%163void"
+__arrayAdd*)
+'
+r"System.Collections.Generic.List<T>*: *-
++
+%154#mojoPortal.Web.UI.UploadFilesResult*
+51*©
+49s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÂ Î(' «
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÂ Ï(+
+%164#mojoPortal.Web.UI.UploadFilesResult"#mojoPortal.Web.UI.UploadFilesResultÓ
+Î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÂ Â(/
+%165void"7mojoPortal.Web.UI.UploadFilesResult.UploadFilesResult()*-
++
+%164#mojoPortal.Web.UI.UploadFilesResult˚
+¯
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csË" Ë(?
+%166string"4mojoPortal.Web.Framework.WebUtils.ResolveUrl(string)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+destPathstring˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csË Ë(?
+%167string"/mojoPortal.Web.UI.UploadFilesResult.FileUrl.set*-
++
+%164#mojoPortal.Web.UI.UploadFilesResult*
+
+%166string˛
+˚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÈ È(*
+%168string",mojoPortal.Web.UI.UploadFilesResult.Name.set*-
++
+%164#mojoPortal.Web.UI.UploadFilesResult*
+
+newFileNamestring¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÍ Í(.
+%169int".mojoPortal.Web.UI.UploadFilesResult.Length.set*-
++
+%164#mojoPortal.Web.UI.UploadFilesResult*
+
+contentLengthint˚
+¯
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÎ Î('
+%170string",mojoPortal.Web.UI.UploadFilesResult.Type.set*-
++
+%164#mojoPortal.Web.UI.UploadFilesResult*
+
+mimeTypestring
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÂ Ï(
+%171void"
+__arrayAdd*)
+'
+r"System.Collections.Generic.List<T>*: *-
++
+%164#mojoPortal.Web.UI.UploadFilesResult*
+51*‚
+51s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÒ ˆ(9Ä
+˝
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÛ Û('-
+%172%mojoPortal.Web.UI.UploadFilesResult[]",System.Collections.Generic.List<T>.ToArray()*)
+'
+r"System.Collections.Generic.List<T>÷
+”
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csÒ Ù(N
+uploadedFiles=<anonymous type: mojoPortal.Web.UI.UploadFilesResult[] files>"__id*
+""‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csı ı(9
+%173string"FSystem.Web.Script.Serialization.JavaScriptSerializer.Serialize(object)*<
+:
+js4System.Web.Script.Serialization.JavaScriptSerializer*P
+N
+uploadedFiles=<anonymous type: mojoPortal.Web.UI.UploadFilesResult[] files>£
+†
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csı ı(9
+jsonObjstring"__id*
+
+%173string„
+‡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csˆ ˆ( 
+%174System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext∞
+≠
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csˆ' ˆ(9
+%175string"string.ToString()*
+
+jsonObjstring‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.csˆ ˆ(:
+%176void"%System.Web.HttpResponse.Write(string)*!
+
+%174System.Web.HttpResponse*
+
+%175string*
+36*Ü
+36s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¸	 ¸(	"ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\FileService.ashx.cs¸ ¸(	
+implicit return:!
+contextSystem.Web.HttpContextB'%
+#mojoPortal.Web.Services.FileService

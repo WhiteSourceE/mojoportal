@@ -1,0 +1,554 @@
+
+GmojoPortal.Web.UI.Pages.SiteMapPage.Page_Load(object, System.EventArgs)d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csR R( "0*²
+0d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csT T(+¾
+»
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csT T(+
+
+%0bool")mojoPortal.Web.SiteUtils.SslIsAvailable()*"
+mojoPortal.Web.SiteUtils*
+1
+2*Æ
+1d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csT2 T(TÒ
+Ï
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csT2 T(T
+
+%1bool"5mojoPortal.Web.WebConfigSettings.UseSslForSiteMap.get*$""
+ mojoPortal.Web.WebConfigSettings*
+3
+4*¹
+4d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csTX T(uì
+é
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csTX T(d&
+%2 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÖ
+Ó
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csTX T(u
+
+%3bool"5mojoPortal.Business.SiteSettings.UseSslOnAllPages.get*(
+&
+%2 mojoPortal.Business.SiteSettings*
+3
+2*©
+3d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csV V($¸
+µ
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csV V($
+
+%4void"#mojoPortal.Web.SiteUtils.ForceSsl()*"
+mojoPortal.Web.SiteUtils*
+5*©
+2d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csZ Z($¸
+µ
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csZ Z($
+
+%5void"#mojoPortal.Web.SiteUtils.ClearSsl()*"
+mojoPortal.Web.SiteUtils*
+5*ž
+5d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs] e(=ì
+é
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs]. ](:&
+%6 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings³
+°
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs]< ](P
+%7string""Resources.Resource.SiteMapLink.get*"
+Resources.Resource£
+ 
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs] ](Q
+%8string"RmojoPortal.Web.SiteUtils.FormatPageTitle(mojoPortal.Business.SiteSettings, string)*"
+mojoPortal.Web.SiteUtils*(
+&
+%6 mojoPortal.Business.SiteSettings*
+
+%7string½
+º
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs] ](Q
+%9string"System.Web.UI.Page.Title.set*
+System.Web.UI.Page*
+
+%8stringð
+í
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs^ ^('
+%10 mojoPortal.Web.UI.HeadingControl"__id*V*T%
+#mojoPortal.Web.UI.Pages.SiteMapPage"+
+heading mojoPortal.Web.UI.HeadingControl´
+±
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs^ ^(/
+%11string""Resources.Resource.SiteMapLink.get*"
+Resources.Resourceß
+Ü
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs^ ^(/
+%12string")mojoPortal.Web.UI.HeadingControl.Text.set*)
+'
+%10 mojoPortal.Web.UI.HeadingControl*
+
+%11stringÉÆ
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csa+ a(/
+%13System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getô
+ñ
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csa a(0
+%14void"AmojoPortal.Web.SiteUtils.AddNoIndexFollowMeta(System.Web.UI.Page)*"
+mojoPortal.Web.SiteUtils*
+
+%13System.Web.UI.Pageð
+í
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csd< d({
+%15bool"RmojoPortal.Web.WebConfigSettings.ResolveFullUrlsForMenuItemProtocolDifferences.get*$""
+ mojoPortal.Web.WebConfigSettingsÞ
+Û
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csd d({^%
+#mojoPortal.Web.UI.Pages.SiteMapPage"5
+-resolveFullUrlsForMenuItemProtocolDifferencesbool"__id*
+
+%15bool}
+{
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cse e(=
+%16"__id*
+""*
+6
+7*Ü
+6d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csg h(IÖ
+Ó
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csg! g(=
+%17string"5mojoPortal.Web.Framework.WebUtils.GetSecureSiteRoot()*%"#
+!mojoPortal.Web.Framework.WebUtilsÃ
+À
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csg g(=A%
+#mojoPortal.Web.UI.Pages.SiteMapPage"
+secureSiteRootstring"__id*
+
+%17stringÃ
+À
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csh# h(1
+%18string"__id*C*A%
+#mojoPortal.Web.UI.Pages.SiteMapPage"
+secureSiteRootstring¾
+»
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csh# h(J
+%19string"string.Replace(string, string)*
+
+%18string*	
+https*
+httpÅ
+Â
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csh h(JC%
+#mojoPortal.Web.UI.Pages.SiteMapPage"
+insecureSiteRootstring"__id*
+
+%19string*
+7*‹
+7d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csk n(À
+½
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csk k(9
+%20bool"*mojoPortal.Web.SiteUtils.IsSecureRequest()*"
+mojoPortal.Web.SiteUtilsÀ
+½
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csk k(9@%
+#mojoPortal.Web.UI.Pages.SiteMapPage"
+isSecureRequestbool"__id*
+
+%20bool¾
+»
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csl l(4
+%21bool"(mojoPortal.Web.SiteUtils.UseMobileSkin()*"
+mojoPortal.Web.SiteUtils½
+º
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csl l(4=%
+#mojoPortal.Web.UI.Pages.SiteMapPage"
+isMobileSkinbool"__id*
+
+%21boolÖ
+Ó
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csm m(%
+%22bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser¸
+µ
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csm m(%8%
+#mojoPortal.Web.UI.Pages.SiteMapPage"
+isAdminbool"__id*
+
+%22bool}
+{
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csn n(
+%23"__id*
+""*
+8
+9*
+8d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csn n(CÝ
+Ú
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csn- n(C
+%24bool"9mojoPortal.Business.WebHelpers.WebUser.IsContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser¿
+¼
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csn n(C?%
+#mojoPortal.Web.UI.Pages.SiteMapPage"
+isContentAdminbool"__id*
+
+%24bool*
+9*ò
+9d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cso o(}
+{
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cso o(
+%25"__id*
+""*
+10
+11*ó
+10d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cso o(.}
+{
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cso  o(.
+%26"__id*
+""*
+12
+11*ô
+12d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cso3 o(^Á
+¾
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csoB o(^
+%27bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtils½
+º
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cso3 o(^=%
+#mojoPortal.Web.UI.Pages.SiteMapPage"
+isSiteEditorbool"__id*
+
+%27bool*
+11*Ü*
+11d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csq z(3æ
+ã
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csq) q(6+
+%28$mojoPortal.Web.UI.StyleSheetCombiner"-mojoPortal.Web.mojoBasePage.StyleCombiner.get*
+mojoPortal.Web.mojoBasePageê
+ç
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csq) q(Q
+%29bool"CmojoPortal.Web.UI.StyleSheetCombiner.UseMenuTooltipForCustomCss.get*-
++
+%28$mojoPortal.Web.UI.StyleSheetCombinerË
+È
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csq q(QK%
+#mojoPortal.Web.UI.Pages.SiteMapPage""
+useMenuTooltipForCustomCssbool"__id*
+
+%29boolï
+ì
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.css, s(H'
+%30 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÅ
+Â
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cst t(5
+%31string"3Resources.Resource.MetaDescriptionSiteMapFormat.get*"
+Resources.Resourceí
+ê
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cst7 t(C'
+%32 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÒ
+Ï
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cst7 t(L
+%33string"-mojoPortal.Business.SiteSettings.SiteName.get*)
+'
+%32 mojoPortal.Business.SiteSettingsˆ
+…
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.css t(M
+%34string"5string.Format(System.IFormatProvider, string, object)*
+"
+string*)
+'
+%30 System.Globalization.CultureInfo*
+
+%31string*
+
+%33stringÛ
+Ø
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.css t(M
+%35string"/mojoPortal.Web.mojoBasePage.MetaDescription.set*
+mojoPortal.Web.mojoBasePage*
+
+%34string×Ô
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csv3 v(<
+%36System.Web.UI.Page"System.Web.UI.Control.Page.get*'%
+#mojoPortal.Web.UI.Pages.SiteMapPage2Page.getÆ
+Ã
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csv3 v(C
+%37System.Web.UI.MasterPage"System.Web.UI.Page.Master.get*
+
+%36System.Web.UI.Pageûø
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csv3 v(^
+%38System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*!
+
+%37System.Web.UI.MasterPage*
+SiteMapData2FindControl(string)–
+“
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csv  v(^
+%39"__id*
+
+%38System.Web.UI.Controlã
+à
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csv v(^i%
+#mojoPortal.Web.UI.Pages.SiteMapPage"@
+siteMapDataSource+System.Web.UI.WebControls.SiteMapDataSource"__id*
+
+%39
+
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csx x(2
+%40+System.Web.UI.WebControls.SiteMapDataSource"__id*k*i%
+#mojoPortal.Web.UI.Pages.SiteMapPage"@
+siteMapDataSource+System.Web.UI.WebControls.SiteMapDataSourceí
+ê
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csx= x(I'
+%41 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÍ
+Ê
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csx= x(P
+
+%42int"+mojoPortal.Business.SiteSettings.SiteId.get*)
+'
+%41 mojoPortal.Business.SiteSettingsç
+ä
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csx= x(d
+%43string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+
+
+%42int¡
+ž
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csx0 x(d
+%44string"__concat*
+
+mojosite*
+
+%43string•’
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csx x(d
+%45string"?System.Web.UI.WebControls.SiteMapDataSource.SiteMapProvider.set*4
+2
+%40+System.Web.UI.WebControls.SiteMapDataSource*
+
+%44string2SiteMapProvider.setÀ
+½
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csz z(
+%46System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Pageè
+å
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csz z(9
+%472System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%46System.Web.HttpRequestÐ
+Í
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csz z(+
+%48string"
+__arrayGet*;
+9
+%472System.Collections.Specialized.NameValueCollection*
+	startnode¿
+¼
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csz z(3
+%49bool""string.operator !=(string, string)*
+"
+string*
+
+%48string*
+""*
+13
+14*Ë
+13d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs| ( Å
+Â
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs|# |()#
+%50System.Web.HttpServerUtility"System.Web.UI.Page.Server.get*
+System.Web.UI.PageÀ
+½
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs|4 |(;
+%51System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Pageè
+å
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs|4 |(B9
+%522System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%51System.Web.HttpRequestÐ
+Í
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs|4 |(O
+%53string"
+__arrayGet*;
+9
+%522System.Collections.Specialized.NameValueCollection*
+	startnodeà
+Ý
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs|# |(P
+%54string".System.Web.HttpServerUtility.UrlDecode(string)*%
+#
+%50System.Web.HttpServerUtility*
+
+%53string•
+’
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs| |(P
+	startNodestring"__id*
+
+%54string
+
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs~ ~('2
+%55+System.Web.UI.WebControls.SiteMapDataSource"__id*k*i%
+#mojoPortal.Web.UI.Pages.SiteMapPage"@
+siteMapDataSource+System.Web.UI.WebControls.SiteMapDataSourceü
+ù
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs~ ~(0!
+%56System.Web.SiteMapProvider"8System.Web.UI.WebControls.SiteMapDataSource.Provider.get*4
+2
+%55+System.Web.UI.WebControls.SiteMapDataSourceø
+õ
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs~ ~(K
+%57System.Web.SiteMapNode"2System.Web.SiteMapProvider.FindSiteMapNode(string)*#
+!
+%56System.Web.SiteMapProvider*
+
+	startNodestring°
+­
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs} ~(K
+nodeSystem.Web.SiteMapNode"__id*
+
+%57System.Web.SiteMapNodeÐ
+Í
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs ( 
+%58bool""object.operator !=(object, object)*
+"
+object* 
+
+nodeSystem.Web.SiteMapNode*
+""*
+15
+14*§
+15f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs (A’
+
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs (%2
+%59+System.Web.UI.WebControls.SiteMapDataSource"__id*k*i%
+#mojoPortal.Web.UI.Pages.SiteMapPage"@
+siteMapDataSource+System.Web.UI.WebControls.SiteMapDataSourceš
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs (A
+%60string"?System.Web.UI.WebControls.SiteMapDataSource.StartingNodeUrl.set*4
+2
+%59+System.Web.UI.WebControls.SiteMapDataSource*
+
+	startNodestring2StartingNodeUrl.set*
+14*Ò
+14f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs… Š(Û
+Ø
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs…! …(I
+%61bool";mojoPortal.Web.WebConfigSettings.UsePageImagesInSiteMap.get*$""
+ mojoPortal.Web.WebConfigSettingsÅ
+Â
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs… …(IC%
+#mojoPortal.Web.UI.Pages.SiteMapPage"
+useImagesInSiteMapbool"__id*
+
+%61boolÞ
+Û
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs‡ ‡()
+%62void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+sitemappageÖ
+Ó
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.csŠ Š(
+%63void"3mojoPortal.Web.UI.Pages.SiteMapPage.RenderSiteMap()*'%
+#mojoPortal.Web.UI.Pages.SiteMapPage*
+16*ë
+16f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs‹	 ‹(	"}
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SiteMap.aspx.cs‹ ‹(	
+implicit return:
+senderobject:
+eSystem.EventArgsB'%
+#mojoPortal.Web.UI.Pages.SiteMapPage

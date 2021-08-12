@@ -1,0 +1,329 @@
+
+<mojoPortal.Web.SiteUtils.IsFishyPost(System.Web.HttpRequest)n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs£ £( "0*Ü
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(,Þ
+Û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(,
+
+%0bool"7mojoPortal.Web.WebConfigSettings.CheckFishyReferrer.get*$""
+ mojoPortal.Web.WebConfigSettings*
+1
+2*í
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §(
+""*—
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csª ª(#Î
+Ë
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csª ª(
+%1string"&System.Web.HttpRequest.RequestType.get*#
+!
+requestSystem.Web.HttpRequestÈ
+Å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csª ª(#
+
+%2bool""string.operator ==(string, string)*
+"
+string*
+
+%1string*
+GET*
+3
+4*í
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csª. ª(3"x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csª' ª(4
+""*
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¬ ¬(8Ò
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¬ ¬(
+%3
+System.Uri"&System.Web.HttpRequest.UrlReferrer.get*#
+!
+requestSystem.Web.HttpRequest¼
+¹
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¬ ¬(8
+
+%4bool"'System.Uri.IsWellFormedOriginalString()*
+
+%3
+System.Uri*
+5
+6*Ú
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs® ®(*Ü
+Ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs® ®(*
+
+%5bool"5mojoPortal.Web.WebConfigSettings.LogFishyReferrer.get*$""
+ mojoPortal.Web.WebConfigSettings*
+7
+8*¿
+
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs° °(_Â
+¿
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs° °(
+%6log4net.ILog"__id*3*1
+mojoPortal.Web.SiteUtils"
+loglog4net.ILogÌ
+É
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs° °(?
+%7string"1Resources.Resource.FishyPostFoundFromReferrer.get*"
+Resources.ResourceÒ
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs°A °(T
+%8
+System.Uri"&System.Web.HttpRequest.UrlReferrer.get*#
+!
+requestSystem.Web.HttpRequest¸µ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs°A °(_
+%9string"System.Uri.ToString()*
+
+%8
+System.Uri2
+ToString()Í
+Ê
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs° °(`
+%10string"string.Format(string, object)*
+"
+string*
+
+%7string*
+
+%9stringÐÍ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs° °(a
+%11void"log4net.ILog.Info(object)*
+
+%6log4net.ILog*
+
+%10string2Info(object)*
+8*í
+8n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs³ ³("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs³ ³(
+""*º
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶ ¶(8Ó
+Ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶ ¶(
+%12
+System.Uri"&System.Web.HttpRequest.UrlReferrer.get*#
+!
+requestSystem.Web.HttpRequest¬
+©
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶ ¶( 
+%13string"System.Uri.Host.get*
+
+%12
+System.UriË
+È
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶( ¶(3
+%14
+System.Uri"System.Web.HttpRequest.Url.get*#
+!
+requestSystem.Web.HttpRequest¬
+©
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶( ¶(8
+%15string"System.Uri.Host.get*
+
+%14
+System.Uri¹
+¶
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶ ¶(9
+%16bool"string.Equals(string)*
+
+%13string*
+
+%15string*
+9
+10*Ý
+9n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¸ ¸(*Ý
+Ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¸ ¸(*
+%17bool"5mojoPortal.Web.WebConfigSettings.LogFishyReferrer.get*$""
+ mojoPortal.Web.WebConfigSettings*
+11
+12*É
+
+11n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csº º(_Ã
+À
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csº º(
+%18log4net.ILog"__id*3*1
+mojoPortal.Web.SiteUtils"
+loglog4net.ILogÍ
+Ê
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csº º(?
+%19string"1Resources.Resource.FishyPostFoundFromReferrer.get*"
+Resources.ResourceÓ
+Ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csºA º(T
+%20
+System.Uri"&System.Web.HttpRequest.UrlReferrer.get*#
+!
+requestSystem.Web.HttpRequestº·
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csºA º(_
+%21string"System.Uri.ToString()*
+
+%20
+System.Uri2
+ToString()Ï
+Ì
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csº º(`
+%22string"string.Format(string, object)*
+"
+string*
+
+%19string*
+
+%21stringÑÎ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csº º(a
+%23void"log4net.ILog.Info(object)*
+
+%18log4net.ILog*
+
+%22string2Info(object)*
+12*î
+12n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs½ ½("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs½ ½(
+""*×
+10n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÀ À(SÓ
+Ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÀ À((
+%24
+System.Uri"&System.Web.HttpRequest.UrlReferrer.get*#
+!
+requestSystem.Web.HttpRequestº·
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÀ À(3
+%25string"System.Uri.ToString()*
+
+%24
+System.Uri2
+ToString()ˆ
+…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÀ< À(S
+%26"__id*
+""¸
+µ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÀ À(T
+%27bool"iSystem.Text.RegularExpressions.Regex.IsMatch(string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+%25string*
+%3C*
+
+%26*
+13
+14*Þ
+13n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÂ Â(*Ý
+Ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÂ Â(*
+%28bool"5mojoPortal.Web.WebConfigSettings.LogFishyReferrer.get*$""
+ mojoPortal.Web.WebConfigSettings*
+15
+16*É
+
+15n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÄ Ä(_Ã
+À
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÄ Ä(
+%29log4net.ILog"__id*3*1
+mojoPortal.Web.SiteUtils"
+loglog4net.ILogÍ
+Ê
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÄ Ä(?
+%30string"1Resources.Resource.FishyPostFoundFromReferrer.get*"
+Resources.ResourceÓ
+Ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÄA Ä(T
+%31
+System.Uri"&System.Web.HttpRequest.UrlReferrer.get*#
+!
+requestSystem.Web.HttpRequestº·
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÄA Ä(_
+%32string"System.Uri.ToString()*
+
+%31
+System.Uri2
+ToString()Ï
+Ì
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÄ Ä(`
+%33string"string.Format(string, object)*
+"
+string*
+
+%30string*
+
+%32stringÑÎ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÄ Ä(a
+%34void"log4net.ILog.Info(object)*
+
+%29log4net.ILog*
+
+%33string2Info(object)*
+16*î
+16n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÇ Ç("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÇ Ç(
+""*î
+14n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csË
+ Ë("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csË Ë(
+""*ü
+17n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÌ Ì("…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÌ Ì(
+implicit return:!
+requestSystem.Web.HttpRequestB"
+mojoPortal.Web.SiteUtils

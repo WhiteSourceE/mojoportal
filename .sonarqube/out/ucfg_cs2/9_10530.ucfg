@@ -1,0 +1,109 @@
+
+;mojoPortal.Web.mojoMembershipProvider.GetSHA512Hash(string){
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs® ®($"0*ÿ
+0{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs™ ™(.Õ
+ 
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs™ ™(/
+
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+	cleanTextstring*
+1
+2*∆
+1{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs™: ™(F≥
+∞
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs™: ™(F
+%1string"__id**
+string"
+Emptystring"ç
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs™3 ™(G
+
+%1string*∫
+2{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¨/ ¨(Y˙˜
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¨8 ¨(Y>
+%28System.Security.Cryptography.SHA512CryptoServiceProvider"8System.Security.Cryptography.SHA512CryptoServiceProvider¶
+£
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¨< ¨(W
+
+%3void"VSystem.Security.Cryptography.SHA512CryptoServiceProvider.SHA512CryptoServiceProvider()*@
+>
+%28System.Security.Cryptography.SHA512CryptoServiceProviderå
+â
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¨/ ¨(YB
+hasher8System.Security.Cryptography.SHA512CryptoServiceProvider"__id*@
+>
+%28System.Security.Cryptography.SHA512CryptoServiceProvider*
+3*≥
+3{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÆ ±(8¿Ω
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÆ$ Æ(9!
+%4System.Text.UnicodeEncoding"System.Text.UnicodeEncoding‡
+›
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÆ( Æ(7
+
+%5void"-System.Text.UnicodeEncoding.UnicodeEncoding()*#
+!
+%4System.Text.UnicodeEncodingÉÄ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÆ$ Æ(M
+%6byte[]"%System.Text.Encoding.GetBytes(string)*#
+!
+%4System.Text.UnicodeEncoding*
+
+	cleanTextstring2GetBytes(string)¨
+©
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÆ Æ(M
+
+clearBytesbyte[]"__id*
+
+%6byte[]¨
+©
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csØ% Ø(C
+%7byte[]">System.Security.Cryptography.HashAlgorithm.ComputeHash(byte[])*D
+B
+hasher8System.Security.Cryptography.SHA512CryptoServiceProvider*
+
+
+clearBytesbyte[]≠
+™
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csØ Ø(C
+hashedBytesbyte[]"__id*
+
+%7byte[]Ê
+„
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs± ±(9
+%8string"$System.BitConverter.ToString(byte[])*"
+System.BitConverter*
+
+hashedBytesbyte[]"ç
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs± ±(:
+
+%8string*Ö
+4{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csµ	 µ(	*
+5*ï
+5{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csµ	 µ(	"í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csµ µ(	
+implicit return:
+	cleanTextstringB)'
+%mojoPortal.Web.mojoMembershipProvider

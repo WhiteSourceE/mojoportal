@@ -1,0 +1,79 @@
+
+8mojoPortal.Data.DBSiteSettings.GetSiteIdByFolder(string)z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csè è(+"0*à
+0z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csê í(6ï
+ì
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csê< ê(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÎË
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csê% ê(‘(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÂ
+¿
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csê) ê(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*'%
+#mp_SiteFolders_SelectSiteIdByFolder*2Ý
+Ú
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csê ê(‘)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper“
+
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csë2 ë(D
+%3"__id*
+""“
+
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csëK ë(c
+%4"__id*
+""ü
+ù
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csë ë(p
+
+%5void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@FolderName*
+
+%3*2ÿ*
+
+%4*
+
+
+folderNamestringî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csí# í(6
+%6object"2mojoPortal.Data.SqlParameterHelper.ExecuteScalar()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperÎ
+Ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csí í(7	
+%7int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%6object"‰
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csí í(8
+	
+%7int*“
+1z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csï	 ï(	"‘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSiteSettings.csï ï(	
+implicit return:
+
+folderNamestringB"" 
+mojoPortal.Data.DBSiteSettings

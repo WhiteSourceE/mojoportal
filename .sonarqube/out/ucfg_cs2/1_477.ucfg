@@ -1,0 +1,398 @@
+
+:mojoPortal.Data.DBWebPartContent.GetWebPartsForMyPage(int)|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs¥" ¥(6"0*˙i
+0|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs∫ È(&Ω∫
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs∫' ∫(:
+%0System.Text.StringBuilder"System.Text.StringBuilder€
+ÿ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs∫+ ∫(8
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilder”
+–
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs∫ ∫(:'
+
+sqlCommandSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilderê
+ç
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csº º(4
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+SELECT  dt.* FROM  Ç
+ˇ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csΩ Ω(&
+%3System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*	
+ (   Ü
+É
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csæ æ(*
+%4System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+	SELECT   â
+Ü
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csø ø(-
+%5System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+m.ModuleID, á
+Ñ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs¿ ¿(+
+%6System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+
+m.SiteID, å
+â
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs¡ ¡(0
+%7System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+m.ModuleDefID, å
+â
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs¬ ¬(0
+%8System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+m.ModuleTitle, ü
+ú
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs√ √(C
+%9System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*&$
+"m.AllowMultipleInstancesOnMyPage, ï
+í
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csƒ ƒ(8 
+%10System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+m.CountOfUseOnMyPage , î
+ë
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs≈ ≈(7 
+%11System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+m.Icon As ModuleIcon, ñ
+ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs∆ ∆(9 
+%12System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+md.Icon As FeatureIcon, é
+ã
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs« «(1 
+%13System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+md.FeatureName, è
+å
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs» »(2 
+%14System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+md.ResourceFile, è
+å
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs… …(2 
+%15System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+0 As IsAssembly, é
+ã
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs   (1 
+%16System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+'' As WebPartID ë
+é
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÃ Ã(4 
+%17System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+FROM  mp_Modules m ú
+ô
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÕ Õ(? 
+%18System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*" 
+JOIN  mp_ModuleDefinitions md †
+ù
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csŒ Œ(C 
+%19System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*&$
+"ON m.ModuleDefID = md.ModuleDefID ¥
+±
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs– –(W 
+%20System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*:8
+6WHERE m.SiteID = @SiteID AND m.AvailableForMyPage = 1 Ö
+Ç
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs” ”(( 
+%21System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*	
+ UNION á
+Ñ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs’ ’(* 
+%22System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+	SELECT   é
+ã
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs÷ ÷(1 
+%23System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+-1 As ModuleID, à
+Ö
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs◊ ◊(+ 
+%24System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+
+w.SiteID, ê
+ç
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÿ ÿ(3 
+%25System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+0 As ModuleDefID, ñ
+ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csŸ Ÿ(9 
+%26System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+w.Title As ModuleTitle, †
+ù
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs⁄ ⁄(C 
+%27System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*&$
+"w.AllowMultipleInstancesOnMyPage, ï
+í
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs€ €(8 
+%28System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+w.CountOfUseOnMyPage , ò
+ï
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs‹ ‹(; 
+%29System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+w.ImageUrl As ModuleIcon, ô
+ñ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs› ›(< 
+%30System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+w.ImageUrl As FeatureIcon, ú
+ô
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csﬁ ﬁ(? 
+%31System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*" 
+w.Description As FeatureName, ö
+ó
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csﬂ ﬂ(= 
+%32System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder* 
+'Resource' As ResourceFile, è
+å
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs‡ ‡(2 
+%33System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+1 As IsAssembly, ¨
+©
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs· ·(O 
+%34System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*20
+.CONVERT(varchar(36),w.WebPartID) As WebPartID í
+è
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs‚ ‚(5 
+%35System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+FROM  mp_WebParts w ¥
+±
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs„ „(W 
+%36System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*:8
+6WHERE w.SiteID = @SiteID AND w.AvailableForMyPage = 1 Ü
+É
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.cs‰ ‰() 
+%37System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+
+ ) dt   ó
+î
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÂ Â(: 
+%38System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+ORDER BY  dt.ModuleTitle Ú
+Ô
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÁ< Á(f
+%39string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionString·
+ﬁ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÁh Á(}
+%40string"$System.Text.StringBuilder.ToString()*)
+'
+
+sqlCommandSystem.Text.StringBuilderó
+î
+}
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÁ Á(è
+%41"__id*
+""—Œ
+}
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÁ% Á(ì)
+%42"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper—
+Œ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÁ) Á(;
+%43void"cmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, System.Data.CommandType, int)*+
+)
+%42"mojoPortal.Data.SqlParameterHelper*
+
+%39string*
+
+%40string*
+
+%41*2‡
+›
+}
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÁ Á(ì)
+sph"mojoPortal.Data.SqlParameterHelper"__id*+
+)
+%42"mojoPortal.Data.SqlParameterHelperñ
+ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csË. Ë(;
+%44"__id*
+""ñ
+ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csË= Ë(U
+%45"__id*
+""‡
+›
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csË Ë(^
+%46void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@SiteID*
+
+%44*
+
+%45*
+""Ç
+ˇ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÈ È(&
+%47System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper"†
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÈ È(' 
+
+%47System.Data.IDataReader*ó
+1|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÎ	 Î(	"ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbWebPartContent.csÎ Î(	
+implicit return:
+siteIdintB$""
+ mojoPortal.Data.DBWebPartContent

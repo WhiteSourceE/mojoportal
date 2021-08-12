@@ -1,0 +1,100 @@
+
+AmojoPortal.Data.DBPortal.DatabaseHelperCanCreateTemporaryTables()t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csÜ Ü(A"0*Ü
+0t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csà ô(ó
+î
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csà à(
+resultbool"__id*
+""µ≤
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csä' ä(:
+%0System.Text.StringBuilder"System.Text.StringBuilder”
+–
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csä+ ä(8
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilderÀ
+»
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csä ä(:'
+
+sqlCommandSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilderè
+å
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csã ô(
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*ùö
+óSET ANSI_NULLS ON
+                GO
+                SET QUOTED_IDENTIFIER ON
+                GO
+                CREATE TABLE #Test 
+                (
+                  IndexID int IDENTITY (1, 1) NOT NULL,
+                  UserName nvarchar(50),
+                  LoginName nvarchar(50)
+                )
+                DROP TABLE #Test
+                GO
+                  
+                *
+1*Î
+1t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csù û(ÿ
+’
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csù( ù(=
+%3string"$System.Text.StringBuilder.ToString()*)
+'
+
+sqlCommandSystem.Text.StringBuilderÍ
+Á
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csù? ù(j
+%4string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÖ
+Ç
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csù ù(k
+
+%5bool"@mojoPortal.Data.DBPortal.DatabaseHelperRunScript(string, string)*"
+mojoPortal.Data.DBPortal*
+
+%3string*
+
+%4stringó
+î
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csû û(
+resultbool"__id*
+""*
+2
+3*ò
+2t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs¢ ¢(ó
+î
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs¢ ¢(
+resultbool"__id*
+""*
+3*Ñ
+3t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs¶ ¶("à
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs¶ ¶(
+
+resultbool*á
+4t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs®	 ®(	"ã
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs® ®(	
+implicit returnB"
+mojoPortal.Data.DBPortal

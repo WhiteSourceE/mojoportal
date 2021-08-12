@@ -1,0 +1,319 @@
+
+4mojoPortal.Web.SiteUtils.GetSmtpSettingsFromConfig()n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csõ õ(7"0*ê
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csù ü(;≥∞
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csù ù(1!
+%0mojoPortal.Net.SmtpSettings"mojoPortal.Net.SmtpSettings–
+Õ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csù# ù(/
+
+%1void"*mojoPortal.Net.SmtpSettings.SmtpSettings()*#
+!
+%0mojoPortal.Net.SmtpSettingsÀ
+»
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csù ù(1+
+smtpSettingsmojoPortal.Net.SmtpSettings"__id*#
+!
+%0mojoPortal.Net.SmtpSettingsó
+î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csü ü('8
+%22System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManager◊
+‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csü ü(3
+%3string"
+__arrayGet*:
+8
+%22System.Collections.Specialized.NameValueCollection*
+
+SMTPUser«
+ƒ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csü ü(;
+
+%4bool""string.operator !=(string, string)*
+"
+string*
+
+%3string*
+""*
+1
+2*’
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs° °(Có
+î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs° °(88
+%52System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManager◊
+‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs° °(D
+%6string"
+__arrayGet*:
+8
+%52System.Collections.Specialized.NameValueCollection*
+
+SMTPUserÊ
+„
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs° °(D
+%7string"$mojoPortal.Net.SmtpSettings.User.set*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+%6string*
+2*æ
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §(?ó
+î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §('8
+%82System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManager€
+ÿ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §(7
+%9string"
+__arrayGet*:
+8
+%82System.Collections.Specialized.NameValueCollection*
+SMTPPassword»
+≈
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §(?
+%10bool""string.operator !=(string, string)*
+"
+string*
+
+%9string*
+""*
+3
+4*‚
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶ ¶(Kò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶ ¶(<9
+%112System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManager›
+⁄
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶ ¶(L
+%12string"
+__arrayGet*;
+9
+%112System.Collections.Specialized.NameValueCollection*
+SMTPPasswordÏ
+È
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶ ¶(L
+%13string"(mojoPortal.Net.SmtpSettings.Password.set*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+%12string*
+4*¿
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs® ®(=ò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs® ®('9
+%142System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManager€
+ÿ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs® ®(5
+%15string"
+__arrayGet*;
+9
+%142System.Collections.Specialized.NameValueCollection*
+
+SMTPServer…
+∆
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs® ®(=
+%16bool""string.operator !=(string, string)*
+"
+string*
+
+%15string*
+""*
+5
+6*ﬁ
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs™ ™(Gò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs™ ™(:9
+%172System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManager€
+ÿ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs™ ™(H
+%18string"
+__arrayGet*;
+9
+%172System.Collections.Specialized.NameValueCollection*
+
+SMTPServerÍ
+Á
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs™ ™(H
+%19string"&mojoPortal.Net.SmtpSettings.Server.set*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+%18string*
+6*µ
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs≠ ¥(Gã
+à
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs≠ ≠(I
+
+%20int"FmojoPortal.Core.Configuration.ConfigHelper.GetIntProperty(string, int)*.",
+*mojoPortal.Core.Configuration.ConfigHelper*
+
+SMTPPort*2‚
+ﬂ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs≠ ≠(I
+
+%21int"$mojoPortal.Net.SmtpSettings.Port.set*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+
+%20intò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csØ Ø(
+byPassContextbool"__id*
+""¬
+ø
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∞) ∞(Ä
+%22bool"NmojoPortal.Core.Configuration.ConfigHelper.GetBoolProperty(string, bool, bool)*.",
+*mojoPortal.Core.Configuration.ConfigHelper*
+SMTPRequiresAuthentication*
+""*
+
+byPassContextbool˜
+Ù
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∞ ∞(Ä
+%23bool"6mojoPortal.Net.SmtpSettings.RequiresAuthentication.set*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+%22bool±
+Æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs± ±(`
+%24bool"NmojoPortal.Core.Configuration.ConfigHelper.GetBoolProperty(string, bool, bool)*.",
+*mojoPortal.Core.Configuration.ConfigHelper*
+
+SMTPUseSsl*
+""*
+
+byPassContextboolÊ
+„
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs± ±(`
+%25bool"&mojoPortal.Net.SmtpSettings.UseSsl.set*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+%24boolò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(&9
+%262System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerÊ
+„
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(?
+%27string"
+__arrayGet*;
+9
+%262System.Collections.Specialized.NameValueCollection*
+SmtpPreferredEncoding…
+∆
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(G
+%28bool""string.operator !=(string, string)*
+"
+string*
+
+%27string*
+""*
+7
+8*•
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csµ	 µ(Mò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csµ	 µ()9
+%292System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerÊ
+„
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csµ	 µ(B
+%30string"
+__arrayGet*;
+9
+%292System.Collections.Specialized.NameValueCollection*
+SmtpPreferredEncoding£
+†
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csµ	 µ(I
+
+%31int"string.Length.get*
+
+%30string*
+9
+8*Ù
+9n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∏ ∏(]ò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∏% ∏(E9
+%322System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerÊ
+„
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∏% ∏(^
+%33string"
+__arrayGet*;
+9
+%322System.Collections.Specialized.NameValueCollection*
+SmtpPreferredEncodingı
+Ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∏ ∏(^
+%34string"1mojoPortal.Net.SmtpSettings.PreferredEncoding.set*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+%33string*
+8*ï
+8n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csª
+ ª("ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csª ª(-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*¸
+10n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csº º("Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csº º(
+implicit returnB"
+mojoPortal.Web.SiteUtils

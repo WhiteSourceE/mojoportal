@@ -1,0 +1,139 @@
+
+3mojoPortal.Web.UI.CmsPage.EnforceSecuritySettings()f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csà à(,"0*§
+0f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csâ â((á
+Þ
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csâ â(&
+%0 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageÍ
+Ê
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csâ â("	
+%1int"+mojoPortal.Business.PageSettings.PageId.get*(
+&
+%0 mojoPortal.Business.PageSettings*
+1
+2*Ý
+1f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csþ	 þ(	"p
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csâ, â(3
+""*³
+2f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csä ä(.á
+Þ
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csä ä(&
+%2 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageÙ
+Ö
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csä ä(.
+
+%3bool"6mojoPortal.Business.PageSettings.AllowBrowserCache.get*(
+&
+%2 mojoPortal.Business.PageSettings*
+3
+4*Ö
+3f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csæ æ(4ã
+à
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csæ æ(4
+
+%4void"=mojoPortal.Web.Framework.SecurityHelper.DisableBrowserCache()*+")
+'mojoPortal.Web.Framework.SecurityHelper*
+4*Â
+4f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csé ë(*‰
+†
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csé é(
+useSslbool"__id*
+""À
+½
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csë ë(*
+
+%5bool")mojoPortal.Web.SiteUtils.SslIsAvailable()*"
+mojoPortal.Web.SiteUtils*
+5
+6*Ì
+5f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csí í(8Ö
+Ó
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csí í(8
+
+%6bool"7mojoPortal.Web.WebConfigSettings.ForceSslOnAllPages.get*$""
+ mojoPortal.Web.WebConfigSettings*
+7
+8*¿
+8f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csí< í(Yî
+ë
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csí< í(H&
+%7 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsØ
+Õ
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csí< í(Y
+
+%8bool"5mojoPortal.Business.SiteSettings.UseSslOnAllPages.get*(
+&
+%7 mojoPortal.Business.SiteSettings*
+7
+9*­
+9f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csí] í(sá
+Þ
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csí] í(h&
+%9 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageÓ
+Ð
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csí] í(s
+%10bool"/mojoPortal.Business.PageSettings.RequireSsl.get*(
+&
+%9 mojoPortal.Business.PageSettings*
+7
+6*ü
+7f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csï ï(!‰
+†
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csï ï(!
+useSslbool"__id*
+""*
+6*u
+6f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csó ó(*
+10
+11*°
+10f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csõ õ($»
+¸
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csõ õ($
+%11void"#mojoPortal.Web.SiteUtils.ForceSsl()*"
+mojoPortal.Web.SiteUtils*
+12*°
+11f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csù ù(#»
+¸
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csù ù(#
+%12void"#mojoPortal.Web.SiteUtils.ClearSsl()*"
+mojoPortal.Web.SiteUtils*
+12*ë
+12f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csþ	 þ(	"}
+f
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Default.aspx.csþ þ(	
+implicit returnB
+mojoPortal.Web.UI.CmsPage

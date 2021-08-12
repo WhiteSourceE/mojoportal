@@ -1,0 +1,513 @@
+
+bSuperFlexiData.DBItems.GetForModuleWithValues_Paged(System.Guid, int, int, string, string, string)r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs◊ ◊(8"0*Ä
+0r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csﬂ ·(,∞
+≠
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csﬂ ﬂ( )
+sph"mojoPortal.Data.SqlParameterHelper"__id*
+""À
+»
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs· ·(-
+
+%0bool"!string.IsNullOrWhiteSpace(string)*
+"
+string*
+
+searchFieldstring*
+1
+2*Ã
+1r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs·1 ·(V 
+«
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs·2 ·(W
+
+%1bool"!string.IsNullOrWhiteSpace(string)*
+"
+string*
+
+
+searchTermstring*
+3
+2*Ê!
+3r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs„ Ë(jÁ
+‰
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs„! „(K
+%2string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionString≈¬
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs„
+ „(~(
+%3"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper¬
+ø
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs„ „( 
+
+%4void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%3"mojoPortal.Data.SqlParameterHelper*
+
+%2string*/-
++i7_sflexi_items_SelectPageForModuleWithTerm*2‘
+—
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs„ „(~)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%3"mojoPortal.Data.SqlParameterHelperã
+à
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs‰* ‰(D
+%5"__id*
+""ã
+à
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs‰F ‰(^
+%6"__id*
+""◊
+‘
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs‰ ‰(k
+
+%7void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ModuleGuid*
+
+%5*
+
+%6*
+""ã
+à
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÂ* Â(7
+%8"__id*
+""ã
+à
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÂ9 Â(Q
+%9"__id*
+""ÿ
+’
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÂ Â(^
+%10void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@PageNumber*
+
+%8*
+
+%9*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÊ( Ê(5
+%11"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÊ7 Ê(O
+%12"__id*
+""ÿ
+’
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÊ Ê(Z
+%13void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@PageSize*
+
+%11*
+
+%12*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÁ* Á(<
+%14"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÁB Á(Z
+%15"__id*
+""¯
+ı
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÁ Á(g
+%16void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SearchTerm*
+
+%14*
+""*
+
+%15*
+
+
+searchTermstringå
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csË- Ë(>
+%17"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csËC Ë([
+%18"__id*
+""¸
+˘
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csË Ë(k
+%19void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SortDirection*
+
+%17*2*
+
+%18*
+
+sortDirectionstring*
+4*Œ
+2r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÍ Í(2Ã
+…
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÍ Í(3
+%20bool"!string.IsNullOrWhiteSpace(string)*
+"
+string*
+
+searchFieldstring*
+5
+6*Õ
+5r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÍ7 Í(\À
+»
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÍ8 Í(]
+%21bool"!string.IsNullOrWhiteSpace(string)*
+"
+string*
+
+
+searchTermstring*
+7
+6*ö'
+7r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÏ Ú(jË
+Â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÏ! Ï(K
+%22string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionString«ƒ
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÏ
+ Ï(Ü)
+%23"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÕ
+ 
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÏ Ï( 
+%24void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)*+
+)
+%23"mojoPortal.Data.SqlParameterHelper*
+
+%22string*75
+3i7_sflexi_items_SelectPageForModuleWithTermAndField*2÷
+”
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÏ Ï(Ü)
+sph"mojoPortal.Data.SqlParameterHelper"__id*+
+)
+%23"mojoPortal.Data.SqlParameterHelperå
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÌ* Ì(D
+%25"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÌF Ì(^
+%26"__id*
+""⁄
+◊
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÌ Ì(k
+%27void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ModuleGuid*
+
+%25*
+
+%26*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÓ* Ó(7
+%28"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÓ9 Ó(Q
+%29"__id*
+""⁄
+◊
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÓ Ó(^
+%30void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@PageNumber*
+
+%28*
+
+%29*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÔ( Ô(5
+%31"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÔ7 Ô(O
+%32"__id*
+""ÿ
+’
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÔ Ô(Z
+%33void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@PageSize*
+
+%31*
+
+%32*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs* (<
+%34"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csB (Z
+%35"__id*
+""¯
+ı
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs (g
+%36void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SearchTerm*
+
+%34*
+""*
+
+%35*
+
+
+searchTermstringå
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÒ+ Ò(=
+%37"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÒC Ò([
+%38"__id*
+""˙
+˜
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÒ Ò(i
+%39void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SearchField*
+
+%37*
+""*
+
+%38*
+
+searchFieldstringå
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÚ- Ú(>
+%40"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÚC Ú([
+%41"__id*
+""¸
+˘
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csÚ Ú(k
+%42void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SortDirection*
+
+%40*2*
+
+%41*
+
+sortDirectionstring*
+4*‘
+6r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csˆ ˙(jË
+Â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csˆ! ˆ(K
+%43string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionString∆√
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csˆ
+ ˆ(v)
+%44"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperΩ
+∫
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csˆ ˆ( 
+%45void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)*+
+)
+%44"mojoPortal.Data.SqlParameterHelper*
+
+%43string*'%
+#i7_sflexi_items_SelectPageForModule*2’
+“
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.csˆ ˆ(v)
+sph"mojoPortal.Data.SqlParameterHelper"__id*+
+)
+%44"mojoPortal.Data.SqlParameterHelperå
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs˜* ˜(D
+%46"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs˜F ˜(^
+%47"__id*
+""⁄
+◊
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs˜ ˜(k
+%48void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ModuleGuid*
+
+%46*
+
+%47*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs¯* ¯(7
+%49"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs¯9 ¯(Q
+%50"__id*
+""⁄
+◊
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs¯ ¯(^
+%51void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@PageNumber*
+
+%49*
+
+%50*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs˘( ˘(5
+%52"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs˘7 ˘(O
+%53"__id*
+""ÿ
+’
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs˘ ˘(Z
+%54void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@PageSize*
+
+%52*
+
+%53*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs˙- ˙(>
+%55"__id*
+""å
+â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs˙C ˙([
+%56"__id*
+""¸
+˘
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs˙ ˙(k
+%57void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SortDirection*
+
+%55*2*
+
+%56*
+
+sortDirectionstring*
+4*ã
+4r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs¸
+ ¸(¯
+ı
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs¸
+ ¸(
+%58System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper"ñ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs¸ ¸( 
+
+%58System.Data.IDataReader*É
+8r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs˝ ˝("â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs˝ ˝(
+implicit return:
+
+moduleGuidSystem.Guid:
+
+pageNumberint:
+pageSizeint:
+
+searchTermstring:
+searchFieldstring:
+sortDirectionstringB"
+SuperFlexiData.DBItems

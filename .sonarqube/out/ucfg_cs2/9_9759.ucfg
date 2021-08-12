@@ -1,0 +1,193 @@
+
+KmojoPortal.Web.UI.CommentsWidget.GetProfileLinkOrLabel(int, string, string)Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÒ Ò(."0*µ
+0Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÛ Û(ü
+ú
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÛ Û(
+%0"__id*
+""*
+1
+2*Ó
+1Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÛ! Û(@ÿ
+’
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÛ" Û(A
+
+%1bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+	authorUrlstring*
+3
+2*‚
+
+3Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csı ı(uõ
+ò
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csı4 ı(Z
+%2string"<mojoPortal.Web.Framework.SecurityHelper.SanitizeHtml(string)*+")
+'mojoPortal.Web.Framework.SecurityHelper*
+
+	authorUrlstring—
+Œ
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csı ı(Z
+%3string"__concat*
+<a rel='nofollow' href='*
+
+%2stringª
+∏
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csı ı(a
+%4string"__concat*
+
+%3string*
+'>…
+∆
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csı ı(l
+%5string"__concat*
+
+%4string*
+
+userNamestringΩ
+∫
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csı ı(u
+%6string"__concat*
+
+%5string*
+</a>"ò
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csı ı(v
+
+%6string*ì
+2Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.cs¯ ¯(*
+4
+5*¨
+4Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.cs¯( ¯(0"û
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.cs¯! ¯(1
+
+userNamestring*Î
+5Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.cs˚ ˚('Ô
+Ï
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.cs˚ ˚(
+%7System.Web.HttpRequest"%System.Web.UI.UserControl.Request.get*
+System.Web.UI.UserControl„
+‡
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.cs˚ ˚('
+
+%8bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%7System.Web.HttpRequest*
+6
+7*√
+6Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.cs˛ ˛(Nì
+ê
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.cs˛' ˛(3&
+%9 mojoPortal.Business.SiteSettings"__id*X*V"
+ mojoPortal.Web.UI.CommentsWidget"0
+siteSettings mojoPortal.Business.SiteSettingsÖ
+Ç
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.cs˛' ˛(N
+%10string"?mojoPortal.Business.SiteSettings.RolesThatCanViewMemberList.get*(
+&
+%9 mojoPortal.Business.SiteSettingsè
+å
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.cs˛ ˛(O
+%11bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%10string*
+8
+7*¨
+8Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.cs˛Z ˛(b"û
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.cs˛S ˛(c
+
+userNamestring*È
+7Ü
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÑ Ñ(éÔ
+Ï
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÑ0 Ñ(8
+%12string"-mojoPortal.Web.UI.CommentsWidget.SiteRoot.get*$"
+ mojoPortal.Web.UI.CommentsWidget”
+–
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÑ Ñ(8
+%13string"__concat*
+<a rel='nofollow' href='*
+
+%12string‘
+—
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÑ Ñ(V
+%14string"__concat*
+
+%13string*
+/ProfileView.aspx?userid=É
+Ä
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÑY Ñ(s
+%15string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+""∆
+√
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÑ Ñ(s
+%16string"__concat*
+
+%14string*
+
+%15stringΩ
+∫
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÑ Ñ(z
+%17string"__concat*
+
+%16string*
+'>Ã
+…
+Ü
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÑ Ñ(Ö
+%18string"__concat*
+
+%17string*
+
+userNamestring¿
+Ω
+Ü
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÑ Ñ(é
+%19string"__concat*
+
+%18string*
+</a>"ö
+Ü
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÑ Ñ(è
+
+%19string*´
+9Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÜ	 Ü(	"ù
+Ö
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\CommentsWidget.ascx.csÜ Ü(	
+implicit return:
+userIdint:
+userNamestring:
+	authorUrlstringB$"
+ mojoPortal.Web.UI.CommentsWidget

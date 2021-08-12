@@ -1,0 +1,28 @@
+Ê
+(mojoPortal.Business.SubscriberRepositoryobjectY
+SubscriberRepository()?mojoPortal.Business.SubscriberRepository.SubscriberRepository()Å
+*Save(mojoPortal.Business.LetterSubscriber)SmojoPortal.Business.SubscriberRepository.Save(mojoPortal.Business.LetterSubscriber)Q
+Fetch(System.Guid);mojoPortal.Business.SubscriberRepository.Fetch(System.Guid){
+'Fetch(System.Guid, System.Guid, string)PmojoPortal.Business.SubscriberRepository.Fetch(System.Guid, System.Guid, string)c
+Exists(System.Guid, string)DmojoPortal.Business.SubscriberRepository.Exists(System.Guid, string)y
+&Verify(System.Guid, bool, System.Guid)OmojoPortal.Business.SubscriberRepository.Verify(System.Guid, bool, System.Guid)Ö
+,Delete(mojoPortal.Business.LetterSubscriber)UmojoPortal.Business.SubscriberRepository.Delete(mojoPortal.Business.LetterSubscriber)ë
+2Delete(mojoPortal.Business.LetterSubscriber, bool)[mojoPortal.Business.SubscriberRepository.Delete(mojoPortal.Business.LetterSubscriber, bool)c
+DeleteByLetter(System.Guid)DmojoPortal.Business.SubscriberRepository.DeleteByLetter(System.Guid)â
+.DeleteUnverified(System.Guid, System.DateTime)WmojoPortal.Business.SubscriberRepository.DeleteUnverified(System.Guid, System.DateTime)_
+DeleteByUser(System.Guid)BmojoPortal.Business.SubscriberRepository.DeleteByUser(System.Guid)_
+DeleteBySite(System.Guid)BmojoPortal.Business.SubscriberRepository.DeleteBySite(System.Guid)m
+ DeleteHistoryBySite(System.Guid)ImojoPortal.Business.SubscriberRepository.DeleteHistoryBySite(System.Guid)y
+&DeleteHistoryByLetterInfo(System.Guid)OmojoPortal.Business.SubscriberRepository.DeleteHistoryByLetterInfo(System.Guid)S
+GetOne(System.Guid)<mojoPortal.Business.SubscriberRepository.GetOne(System.Guid)]
+GetByLetter(System.Guid)AmojoPortal.Business.SubscriberRepository.GetByLetter(System.Guid)Ö
+,GetVerifiedSubscribersForExport(System.Guid)UmojoPortal.Business.SubscriberRepository.GetVerifiedSubscribersForExport(System.Guid)s
+#GetByUser(System.Guid, System.Guid)LmojoPortal.Business.SubscriberRepository.GetByUser(System.Guid, System.Guid)k
+GetByEmail(System.Guid, string)HmojoPortal.Business.SubscriberRepository.GetByEmail(System.Guid, string)s
+#GetListByEmail(System.Guid, string)LmojoPortal.Business.SubscriberRepository.GetListByEmail(System.Guid, string){
+'GetListByUser(System.Guid, System.Guid)PmojoPortal.Business.SubscriberRepository.GetListByUser(System.Guid, System.Guid)ë
+2GetSubscribersNotSentYet(System.Guid, System.Guid)[mojoPortal.Business.SubscriberRepository.GetSubscribersNotSentYet(System.Guid, System.Guid)c
+Search(System.Guid, string)DmojoPortal.Business.SubscriberRepository.Search(System.Guid, string)g
+GetCountByLetter(System.Guid)FmojoPortal.Business.SubscriberRepository.GetCountByLetter(System.Guid){
+'GetPage(System.Guid, int, int, out int)PmojoPortal.Business.SubscriberRepository.GetPage(System.Guid, int, int, out int){
+'LoadFromReader(System.Data.IDataReader)PmojoPortal.Business.SubscriberRepository.LoadFromReader(System.Data.IDataReader)

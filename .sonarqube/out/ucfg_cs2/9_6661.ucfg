@@ -1,0 +1,229 @@
+
+6mojoPortal.Web.SiteUtils.GetSecureNavigationSiteRoot()n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(2"0*©
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §("Ñ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §(
+%0System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext×
+Ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §("
+
+%1bool""object.operator ==(object, object)*
+"
+object*
+
+%0System.Web.HttpContext*
+""*
+1
+2*Ÿ
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§+ §(7¦
+£
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§+ §(7
+%2string"__id**
+string"
+Emptystring"€
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§$ §(8
+
+%2string*Ç
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs© ©(@Ñ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs© ©(
+%3System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÛ
+Ø
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs© ©( $
+%4System.Collections.IDictionary" System.Web.HttpContext.Items.get*
+
+%3System.Web.HttpContextÍ
+Ê
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs© ©(8
+%5object"__mapGet*&
+$
+%4System.Collections.IDictionary*
+securenavigationRootÇ
+Ä
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs© ©(@
+
+%6bool""object.operator !=(object, object)*
+"
+object*
+
+%5object*
+""*
+3
+4*­
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs« «(;Ñ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs« «(
+%7System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÛ
+Ø
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs« «($$
+%8System.Collections.IDictionary" System.Web.HttpContext.Items.get*
+
+%7System.Web.HttpContextÍ
+Ê
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs« «(<
+%9object"__mapGet*&
+$
+%8System.Collections.IDictionary*
+securenavigationRoot±®
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs« «(G
+%10string"object.ToString()*
+
+%9object2
+ToString()"
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs« «(H
+
+%10string*ê
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs®
+ ±( à
+Ý
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs® ®(7
+%11string"5mojoPortal.Web.Framework.WebUtils.GetSecureSiteRoot()*%"#
+!mojoPortal.Web.Framework.WebUtils¤
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs®
+ ®(7
+navigationRootstring"__id*
+
+%11string´
+±
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¯$ ¯(~
+%12bool"HmojoPortal.Core.Configuration.ConfigHelper.GetBoolProperty(string, bool)*.",
+*mojoPortal.Core.Configuration.ConfigHelper*0.
+,UseFoldersInsteadOfHostnamesForMultipleSites*
+""«
+¨
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¯ ¯(~!
+useFolderForSiteDetectionbool"__id*
+
+%12bool*
+5
+6*×
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs³ µ(‘
+Ž
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs³  ³(D'
+%13 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperÖ
+Ó
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs³ ³(D0
+siteSettings mojoPortal.Business.SiteSettings"__id*)
+'
+%13 mojoPortal.Business.SiteSettingsì
+é
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csµ	 µ(
+%14bool""object.operator !=(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+7
+6*
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶	 ¶(/ë
+è
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶	 ¶($
+%15string"3mojoPortal.Business.SiteSettings.SiteFolderName.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings£
+ 
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶	 ¶(+
+
+%16int"string.Length.get*
+
+%15string*
+8
+6*ð
+8n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¸ ¸(H¯
+¬
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¸ ¸(*
+%17string"__concat*
+
+navigationRootstring*
+/ë
+è
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¸- ¸(H
+%18string"3mojoPortal.Business.SiteSettings.SiteFolderName.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings®
+«
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¸ ¸(H
+%19string"__concat*
+
+%17string*
+
+%18string¤
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¸ ¸(H
+navigationRootstring"__id*
+
+%19string*
+6*
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¼ ¾(Ò
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¼ ¼(
+%20System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÝ
+Ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¼ ¼(%
+%21System.Collections.IDictionary" System.Web.HttpContext.Items.get*
+
+%20System.Web.HttpContextã
+à
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¼ ¼(E
+%22"__mapSet*'
+%
+%21System.Collections.IDictionary*
+securenavigationRoot*
+
+navigationRootstring"Œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¾ ¾(
+
+navigationRootstring*û
+9n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÀ À("…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÀ À(
+implicit returnB"
+mojoPortal.Web.SiteUtils

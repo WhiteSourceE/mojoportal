@@ -1,0 +1,140 @@
+
+OmojoPortal.Web.AdminUI.PageSettingsSaved.ProcessRequest(System.Web.HttpContext)t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs (""0*«
+0t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs "(8à
+Ý
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs (+
+%0System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContextû
+ø
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs (78
+%12System.Collections.Specialized.NameValueCollection"&System.Web.HttpRequest.QueryString.get*
+
+%0System.Web.HttpRequestÛ
+Ø
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs (A
+%2string"
+__arrayGet*:
+8
+%12System.Collections.Specialized.NameValueCollection*
+
+pageId¡
+ž
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs (A
+pageIdstring"__id*
+
+%2stringà
+Ý
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs (  (7
+%3System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContextû
+ø
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs (  (C8
+%42System.Collections.Specialized.NameValueCollection"&System.Web.HttpRequest.QueryString.get*
+
+%3System.Web.HttpRequestá
+Þ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs (  (S
+%5string"
+__arrayGet*:
+8
+%42System.Collections.Specialized.NameValueCollection*
+newlycreated­
+ª
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs   (S
+pageIsNewlyCreatedstring"__id*
+
+%5stringÏ
+Ì
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs" "(9
+
+%6bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+pageIsNewlyCreatedstring*
+1
+2*ß
+1t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs"= "(aÛ
+Ø
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs"= "(b
+
+%7bool" System.Convert.ToBoolean(string)*"
+System.Convert*
+
+pageIsNewlyCreatedstring*
+3
+2*²
+3t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs$ $(^â
+ß
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs$ $( 
+%8System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextè
+å
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs$* $(_
+%9string"string.Format(string, object)*
+"
+string* 
+PageSettings.aspx?pageid={0}*
+
+pageIdstringá
+Þ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs$ $(`
+%10void"(System.Web.HttpResponse.Redirect(string)*
+
+%8System.Web.HttpResponse*
+
+%9string*
+4*¶
+2t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs( ((^ã
+à
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs( (( 
+%11System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContexté
+æ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs(* ((_
+%12string"string.Format(string, object)*
+"
+string* 
+PageSettings.aspx?pageid={0}*
+
+pageIdstringã
+à
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs( ((`
+%13void"(System.Web.HttpResponse.Redirect(string)* 
+
+%11System.Web.HttpResponse*
+
+%12string*
+4*‡
+4t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs*	 *(	"‹
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettingsSaved.ashx.cs* *(	
+implicit return:!
+contextSystem.Web.HttpContextB,*
+(mojoPortal.Web.AdminUI.PageSettingsSaved

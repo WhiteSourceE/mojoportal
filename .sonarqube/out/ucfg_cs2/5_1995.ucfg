@@ -1,0 +1,521 @@
+
+emojoPortal.Business.LdapHelper.ActiveDirectoryLogin(mojoPortal.Business.LdapSettings, string, string)t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs—  —(4"0*á
+0t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs” ’()ò
+ï
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs” ”( 
+successbool"__id*
+""≠
+™
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‘ ‘( $
+usermojoPortal.Business.LdapUser"__id*
+""ª
+∏
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs’ ’()2
+adentry'System.DirectoryServices.DirectoryEntry"__id*
+""*
+1*Ï
+1t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs⁄ ⁄(2Ë
+Â
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs⁄ ⁄(2
+
+%0bool"=mojoPortal.Business.LdapHelper.UseRootDNWithActiveDirectory()*"" 
+mojoPortal.Business.LdapHelper*
+2
+3*∞
+2u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‹ ‹(òË
+Â
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‹= ‹(P
+%1string"+mojoPortal.Business.LdapSettings.Server.get*2
+0
+ldapSettings mojoPortal.Business.LdapSettingsÆ
+´
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‹1 ‹(P
+%2string"__concat*	
+LDAP://*
+
+%1string®
+•
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‹1 ‹(V
+%3string"__concat*
+
+%2string*
+/Ë
+Â
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‹Y ‹(l
+%4string"+mojoPortal.Business.LdapSettings.RootDN.get*2
+0
+ldapSettings mojoPortal.Business.LdapSettings±
+Æ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‹1 ‹(l
+%5string"__concat*
+
+%3string*
+
+%4stringÈ
+Ê
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‹n ‹(Å
+%6string"+mojoPortal.Business.LdapSettings.Domain.get*2
+0
+ldapSettings mojoPortal.Business.LdapSettings©
+¶
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‹n ‹(à
+%7string"__concat*
+
+%6string*
+\≥
+∞
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‹n ‹(é
+%8string"__concat*
+
+%7string*
+
+uidstring“œ
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‹ ‹(ô-
+%9'System.DirectoryServices.DirectoryEntry"'System.DirectoryServices.DirectoryEntryΩ
+∫
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‹" ‹(0
+%10void"NSystem.DirectoryServices.DirectoryEntry.DirectoryEntry(string, string, string)*/
+-
+%9'System.DirectoryServices.DirectoryEntry*
+
+%5string*
+
+%8string*
+
+passwordstringÂ
+‚
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‹ ‹(ô2
+adentry'System.DirectoryServices.DirectoryEntry"__id*/
+-
+%9'System.DirectoryServices.DirectoryEntry*
+4*Ì
+3t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‡ ‡(|È
+Ê
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‡= ‡(P
+%11string"+mojoPortal.Business.LdapSettings.Server.get*2
+0
+ldapSettings mojoPortal.Business.LdapSettings∞
+≠
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‡1 ‡(P
+%12string"__concat*	
+LDAP://*
+
+%11stringÈ
+Ê
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‡R ‡(e
+%13string"+mojoPortal.Business.LdapSettings.Domain.get*2
+0
+ldapSettings mojoPortal.Business.LdapSettings™
+ß
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‡R ‡(l
+%14string"__concat*
+
+%13string*
+\¥
+±
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‡R ‡(r
+%15string"__concat*
+
+%14string*
+
+uidstring“œ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‡ ‡(}.
+%16'System.DirectoryServices.DirectoryEntry"'System.DirectoryServices.DirectoryEntry¿
+Ω
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‡" ‡(0
+%17void"NSystem.DirectoryServices.DirectoryEntry.DirectoryEntry(string, string, string)*0
+.
+%16'System.DirectoryServices.DirectoryEntry*
+
+%12string*
+
+%15string*
+
+passwordstringÂ
+‚
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs‡ ‡(}2
+adentry'System.DirectoryServices.DirectoryEntry"__id*0
+.
+%16'System.DirectoryServices.DirectoryEntry*
+4*Ñ
+4t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csô	 ô(	*	
+5
+6
+7*®
+5t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÂ Â(&œ
+Ã
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÂ Â(
+%18log4net.ILog"__id*9*7 
+mojoPortal.Business.LdapHelper"
+loglog4net.ILog“œ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÂ Â(&
+%19bool"log4net.ILog.IsErrorEnabled.get*
+
+%18log4net.ILog2IsErrorEnabled.get*
+8
+6*§	
+8t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csË È(%¡
+æ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csË! Ë(A
+%20string"__concat*
+Login failure for user: *
+
+uidstring∂
+≥
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csË! Ë(S
+%21string"__concat*
+
+%20string*
+. Exception: ü
+ú
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csË Ë(S
+msgstring"__id*
+
+%21stringœ
+Ã
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÈ È(
+%22log4net.ILog"__id*9*7 
+mojoPortal.Business.LdapHelper"
+loglog4net.ILog≤Ø
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÈ È(&
+%23void",log4net.ILog.Error(object, System.Exception)*
+
+%22log4net.ILog*
+
+msgstring*3
+1
+ex+System.Runtime.InteropServices.COMException2Error(object, System.Exception)*
+6*˘
+6t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÏ Ï(Ù
+Ò
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÏ Ï(
+%24bool""object.operator !=(object, object)*
+"
+object*4
+2
+adentry'System.DirectoryServices.DirectoryEntry*
+""*
+9
+10*¬
+9t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÒ Ú("¯
+ı
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÒ% Ò(9
+%25object"8System.DirectoryServices.DirectoryEntry.NativeObject.get*4
+2
+adentry'System.DirectoryServices.DirectoryEntry£
+†
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÒ Ò(9
+testobjobject"__id*
+
+%25objectò
+ï
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÚ Ú("
+successbool"__id*
+""*
+11
+12
+7*´
+11t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csˆ ˆ(*œ
+Ã
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csˆ ˆ(
+%26log4net.ILog"__id*9*7 
+mojoPortal.Business.LdapHelper"
+loglog4net.ILog“œ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csˆ ˆ(*
+%27bool"log4net.ILog.IsErrorEnabled.get*
+
+%26log4net.ILog2IsErrorEnabled.get*
+13
+14*â
+13t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs¯ ¯(5œ
+Ã
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs¯ ¯(
+%28log4net.ILog"__id*9*7 
+mojoPortal.Business.LdapHelper"
+loglog4net.ILog¥±
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs¯ ¯(6
+%29void",log4net.ILog.Error(object, System.Exception)*
+
+%28log4net.ILog*
+login failure*3
+1
+ex+System.Runtime.InteropServices.COMException2Error(object, System.Exception)*
+14*õ
+14t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs˙ ˙(#ò
+ï
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs˙ ˙(#
+successbool"__id*
+""*
+12*Ñ
+12t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs¸ ¸(*
+15
+10*˚
+15t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs¸ ¸(.Ù
+Ò
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs¸ ¸(.
+%30bool""object.operator !=(object, object)*
+"
+object*4
+2
+adentry'System.DirectoryServices.DirectoryEntry*
+""*
+16
+10*
+16t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs˛ ˛(6È
+Ê
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs˛ ˛(6
+%31bool"=mojoPortal.Business.LdapHelper.UseRootDNWithActiveDirectory()*"" 
+mojoPortal.Business.LdapHelper*
+17
+18*Å
+17t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÄ* É(*ÿ’
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÄ/ Ä(M1
+%32*System.DirectoryServices.DirectorySearcher"*System.DirectoryServices.DirectorySearcherÿ
+’
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÄ3 Ä(D
+%33void"eSystem.DirectoryServices.DirectorySearcher.DirectorySearcher(System.DirectoryServices.DirectoryEntry)*3
+1
+%32*System.DirectoryServices.DirectorySearcher*4
+2
+adentry'System.DirectoryServices.DirectoryEntryÊ
+„
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÄ* Ä(M0
+ds*System.DirectoryServices.DirectorySearcher"__id*3
+1
+%32*System.DirectoryServices.DirectorySearcherª
+∏
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÅ$ Å(>
+%34string"__concat*
+(&(sAMAccountName=*
+
+uidstring´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÅ$ Å(E
+%35string"__concat*
+
+%34string*
+))Ñ
+Å
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÅ Å(E
+%36string"5System.DirectoryServices.DirectorySearcher.Filter.set*2
+0
+ds*System.DirectoryServices.DirectorySearcher*
+
+%35stringë
+é
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÇ. Ç(:,
+%37%System.DirectoryServices.SearchResult"4System.DirectoryServices.DirectorySearcher.FindOne()*2
+0
+ds*System.DirectoryServices.DirectorySearcher‡
+›
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÇ% Ç(:/
+result%System.DirectoryServices.SearchResult"__id*.
+,
+%37%System.DirectoryServices.SearchResultÒ
+Ó
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÉ É(*
+%38bool""object.operator !=(object, object)*
+"
+object*1
+/
+result%System.DirectoryServices.SearchResult*
+""*
+19
+20*≥
+19t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÜ Ü(Jºπ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÜ# Ü(K#
+%39mojoPortal.Business.LdapUser"mojoPortal.Business.LdapUser¢
+ü
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÜ' Ü(/
+%40void"xmojoPortal.Business.LdapUser.LdapUser(System.DirectoryServices.DirectoryEntry, string, mojoPortal.Business.LdapSettings)*%
+#
+%39mojoPortal.Business.LdapUser*4
+2
+adentry'System.DirectoryServices.DirectoryEntry*
+
+uidstring*2
+0
+ldapSettings mojoPortal.Business.LdapSettingsÃ
+…
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csÜ Ü(K$
+usermojoPortal.Business.LdapUser"__id*%
+#
+%39mojoPortal.Business.LdapUser*
+10*∆
+20u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csä ä(´œ
+Ã
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csä ä(
+%41log4net.ILog"__id*9*7 
+mojoPortal.Business.LdapHelper"
+loglog4net.ILogÈ
+Ê
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csäb ä(u
+%42string"+mojoPortal.Business.LdapSettings.Server.get*2
+0
+ldapSettings mojoPortal.Business.LdapSettings·
+ﬁ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csä% ä(u
+%43string"__concat*<:
+8failed authentication to ldap server in OU with Server: *
+
+%42string¥
+±
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csä% ä(Ñ
+%44string"__concat*
+
+%43string*
+
+; RootDN: Î
+Ë
+v
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csäá ä(ö
+%45string"+mojoPortal.Business.LdapSettings.RootDN.get*2
+0
+ldapSettings mojoPortal.Business.LdapSettingsµ
+≤
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csä% ä(ö
+%46string"__concat*
+
+%44string*
+
+%45string∞
+≠
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csä% ä(•
+%47string"__concat*
+
+%46string*
+
+; UID=µ
+≤
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csä% ä(´
+%48string"__concat*
+
+%47string*
+
+uidstringÿ’
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csä ä(¨
+%49void"log4net.ILog.Info(object)*
+
+%41log4net.ILog*
+
+%48string2Info(object)*
+10*≥
+18t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csí í(Fºπ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csí í(G#
+%50mojoPortal.Business.LdapUser"mojoPortal.Business.LdapUser¢
+ü
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csí# í(+
+%51void"xmojoPortal.Business.LdapUser.LdapUser(System.DirectoryServices.DirectoryEntry, string, mojoPortal.Business.LdapSettings)*%
+#
+%50mojoPortal.Business.LdapUser*4
+2
+adentry'System.DirectoryServices.DirectoryEntry*
+
+uidstring*2
+0
+ldapSettings mojoPortal.Business.LdapSettingsÃ
+…
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csí í(G$
+usermojoPortal.Business.LdapUser"__id*%
+#
+%50mojoPortal.Business.LdapUser*
+10*õ
+10t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csò ò("û
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csò ò(&
+$
+usermojoPortal.Business.LdapUser*á
+7t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csô	 ô(	"ã
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csô ô(	
+implicit return:0
+ldapSettings mojoPortal.Business.LdapSettings:
+uidstring:
+passwordstringB"" 
+mojoPortal.Business.LdapHelper

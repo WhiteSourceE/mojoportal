@@ -1,0 +1,263 @@
+
+*mojoPortal.Web.Global.StartOrResumeTasks()e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.cs· ·(!"0*«
+0e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÊ Ê((“
+œ
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÊ Ê((
+
+%0bool"4mojoPortal.Web.WebConfigSettings.UseAppKeepAlive.get*$""
+ mojoPortal.Web.WebConfigSettings*
+1
+2*o
+1e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csË Ë(*
+3*u
+3e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csñ ñ(*	
+4
+2
+5*é
+5e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÌ Ì(&»
+≈
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÌ Ì(
+%1System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextŒ
+À
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÌ Ì(&
+
+%2bool""object.operator !=(object, object)*
+"
+object*
+
+%1System.Web.HttpContext*
+""*
+6
+7*›
+6e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÌ, Ì(O»
+≈
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÌ, Ì(?
+%3System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÃ
+…
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÌ, Ì(G
+%4System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%3System.Web.HttpContextŒ
+À
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÌ, Ì(O
+
+%5bool""object.operator !=(object, object)*
+"
+object*
+
+%4System.Web.HttpRequest*
+""*
+8
+7*ı
+8e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÔ Û(≤Ø
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÔ Ô()%
+%6mojoPortal.Web.AppKeepAliveTask"mojoPortal.Web.AppKeepAliveTask”
+–
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÔ Ô('
+
+%7void"2mojoPortal.Web.AppKeepAliveTask.AppKeepAliveTask()*'
+%
+%6mojoPortal.Web.AppKeepAliveTask«
+ƒ
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÔ Ô(),
+	keepAlivemojoPortal.Web.AppKeepAliveTask"__id*'
+%
+%6mojoPortal.Web.AppKeepAliveTask–
+Õ
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.cs  (6
+%8string"/mojoPortal.Web.Framework.WebUtils.GetSiteRoot()*%"#
+!mojoPortal.Web.Framework.WebUtilsÍ
+Á
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.cs (6
+%9string"0mojoPortal.Web.AppKeepAliveTask.UrlToRequest.set*.
+,
+	keepAlivemojoPortal.Web.AppKeepAliveTask*
+
+%8string‡
+›
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÒ% Ò(T
+
+%10int"BmojoPortal.Web.WebConfigSettings.AppKeepAliveMaxRunTimeMinutes.get*$""
+ mojoPortal.Web.WebConfigSettingsÎ
+Ë
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÒ Ò(T
+
+%11int"5mojoPortal.Web.AppKeepAliveTask.MaxRunTimeMinutes.set*.
+,
+	keepAlivemojoPortal.Web.AppKeepAliveTask*
+
+
+%10int€
+ÿ
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÚ" Ú(L
+
+%12int"=mojoPortal.Web.WebConfigSettings.AppKeepAliveSleepMinutes.get*$""
+ mojoPortal.Web.WebConfigSettingsË
+Â
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÚ Ú(L
+
+%13int"2mojoPortal.Web.AppKeepAliveTask.MinutesToSleep.set*.
+,
+	keepAlivemojoPortal.Web.AppKeepAliveTask*
+
+
+%12int‘
+—
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÛ Û(
+%14void"+mojoPortal.Web.AppKeepAliveTask.QueueTask()*.
+,
+	keepAlivemojoPortal.Web.AppKeepAliveTask*
+7*w
+7e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csñ ñ(*
+9
+10
+11*È
+9e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.cs˚
+ ˚(6’
+“
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.cs˚
+ ˚(+
+%15string"4mojoPortal.Web.WebConfigSettings.AppKeepAliveUrl.get*$""
+ mojoPortal.Web.WebConfigSettingsö
+ó
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.cs˚
+ ˚(2
+
+%16int"string.Length.get*
+
+%15string*
+12
+10*Ç
+12e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.cs˛ Ç(≥∞
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.cs˛ ˛()&
+%17mojoPortal.Web.AppKeepAliveTask"mojoPortal.Web.AppKeepAliveTask’
+“
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.cs˛ ˛('
+%18void"2mojoPortal.Web.AppKeepAliveTask.AppKeepAliveTask()*(
+&
+%17mojoPortal.Web.AppKeepAliveTask»
+≈
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.cs˛ ˛(),
+	keepAlivemojoPortal.Web.AppKeepAliveTask"__id*(
+&
+%17mojoPortal.Web.AppKeepAliveTask’
+“
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csˇ  ˇ(A
+%19string"4mojoPortal.Web.WebConfigSettings.AppKeepAliveUrl.get*$""
+ mojoPortal.Web.WebConfigSettingsÏ
+È
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csˇ ˇ(A
+%20string"0mojoPortal.Web.AppKeepAliveTask.UrlToRequest.set*.
+,
+	keepAlivemojoPortal.Web.AppKeepAliveTask*
+
+%19string‡
+›
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÄ% Ä(T
+
+%21int"BmojoPortal.Web.WebConfigSettings.AppKeepAliveMaxRunTimeMinutes.get*$""
+ mojoPortal.Web.WebConfigSettingsÎ
+Ë
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÄ Ä(T
+
+%22int"5mojoPortal.Web.AppKeepAliveTask.MaxRunTimeMinutes.set*.
+,
+	keepAlivemojoPortal.Web.AppKeepAliveTask*
+
+
+%21int€
+ÿ
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÅ" Å(L
+
+%23int"=mojoPortal.Web.WebConfigSettings.AppKeepAliveSleepMinutes.get*$""
+ mojoPortal.Web.WebConfigSettingsË
+Â
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÅ Å(L
+
+%24int"2mojoPortal.Web.AppKeepAliveTask.MinutesToSleep.set*.
+,
+	keepAlivemojoPortal.Web.AppKeepAliveTask*
+
+
+%23int‘
+—
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csÇ Ç(
+%25void"+mojoPortal.Web.AppKeepAliveTask.QueueTask()*.
+,
+	keepAlivemojoPortal.Web.AppKeepAliveTask*
+10*s
+10e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csñ ñ(*
+4
+2*ˇ
+4e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csã ã(∑
+¥
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csã ã(
+%26log4net.ILog"__id*0*.
+mojoPortal.Web.Global"
+loglog4net.ILog”–
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csã ã(
+%27void"log4net.ILog.Error(object)*
+
+%26log4net.ILog*
+
+exSystem.Exception2Error(object)*
+2*Õ
+2e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csî î()⁄
+◊
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csî î(*
+%28void"6mojoPortal.Web.WebTaskManager.StartOrResumeTasks(bool)*!"
+mojoPortal.Web.WebTaskManager*
+""*
+11*È
+11e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csñ ñ("|
+e
+YD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Global.asax.csñ ñ(
+implicit returnB
+mojoPortal.Web.Global

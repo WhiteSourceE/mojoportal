@@ -1,0 +1,234 @@
+
+]mojoPortal.Web.SiteUtils.SuggestFriendlyUrl(string, mojoPortal.Business.SiteSettings, string)l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cst t()"0*ê	
+0l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csy
+ z((Û
+
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csy y(8
+%0string"8mojoPortal.Web.SiteUtils.CleanStringForUrl(string, bool)*"
+mojoPortal.Web.SiteUtils*
+
+prefixstring*
+""ı
+Ú
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csy; y(V
+%1string"8mojoPortal.Web.SiteUtils.CleanStringForUrl(string, bool)*"
+mojoPortal.Web.SiteUtils*
+
+pageNamestring*
+""©
+¶
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csy y(V
+%2string"__concat*
+
+%0string*
+
+%1stringû
+õ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csy
+ y(V
+friendlyUrlstring"__id*
+
+%2stringŸ
+÷
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csz z((
+
+%3bool"4mojoPortal.Web.WebConfigSettings.AlwaysUrlEncode.get*$""
+ mojoPortal.Web.WebConfigSettings*
+1
+2*¯
+1l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs| |(3ﬁ
+€
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs| |(4
+%4string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+friendlyUrlstringû
+õ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs| |(4
+friendlyUrlstring"__id*
+
+%4string*
+2*‡
+2m
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs
+ Ä(1§
+°
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs ( 
+%5string"__id**
+string"
+Emptystringö
+ó
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs
+ ( 
+urlTailstring"__id*
+
+%5string¢
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÄ Ä(19
+%63mojoPortal.Business.SiteSettings.FriendlyUrlPattern">mojoPortal.Business.SiteSettings.DefaultFriendlyUrlPattern.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+3*{
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÄ Ä(1*
+4
+5*í
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÉ É(ó
+î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÉ É(
+urlTailstring"__id*	
+.aspx*
+5*¥
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csà
+ â(≠
+™
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csà
+ à('
+tempFriendlyUrlstring"__id*
+
+friendlyUrlstringâ
+Ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csâ â(
+iint"__id*2*
+6*ñ
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csã
+ ã(Kﬂ
+‹
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csã ã(0	
+%7int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsΩ
+∫
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csã2 ã(K
+%8string"__concat*
+
+tempFriendlyUrlstring*
+
+urlTailstringˆ
+Û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csã
+ ã(L
+
+%9bool"3mojoPortal.Business.FriendlyUrl.Exists(int, string)*#"!
+mojoPortal.Business.FriendlyUrl*
+	
+%7int*
+
+%8string*
+7
+8*Ó
+8n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csãP ã(q
+Ì
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csãP ã(r
+%10bool"-mojoPortal.Business.SiteFolder.Exists(string)*"" 
+mojoPortal.Business.SiteFolder*
+
+tempFriendlyUrlstring*
+7
+9*°
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csç é(¨
+©
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csç ç('
+%11string"__concat*
+
+friendlyUrlstring*
+-û
+õ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csç* ç(6
+%12string"int.ToString()*
+
+
+iintÆ
+´
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csç ç(6
+%13string"__concat*
+
+%11string*
+
+%12string•
+¢
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csç ç(6
+tempFriendlyUrlstring"__id*
+
+%13string*
+6*Œ
+9n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csë ì(5æ
+ª
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csë ë(*
+%14string"__concat*
+
+tempFriendlyUrlstring*
+
+urlTailstring°
+û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csë ë(*
+friendlyUrlstring"__id*
+
+%14stringÈ
+Ê
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csì ì(5
+%15bool"AmojoPortal.Web.WebConfigSettings.ForceFriendlyUrlsToLowerCase.get*$""
+ mojoPortal.Web.WebConfigSettings*
+10
+11*®
+10n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csì@ ì(U≠
+™
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csì@ ì(U
+%16string"string.ToLower()*
+
+friendlyUrlstring"Å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csì9 ì(V
+
+%16string*Ä
+11n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csï
+ ï("â
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csï ï(
+
+friendlyUrlstring*¸
+12n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csñ ñ("Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csñ ñ(
+implicit return:
+pageNamestring:0
+siteSettings mojoPortal.Business.SiteSettings:
+prefixstringB"
+mojoPortal.Web.SiteUtils

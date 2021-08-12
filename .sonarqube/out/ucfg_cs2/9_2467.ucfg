@@ -1,0 +1,160 @@
+
+kmojoPortal.Web.AdminUI.SecurityRoles.btnSetUserFromGreyBox_Click(object, System.Web.UI.ImageClickEventArgs)p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csF F(("0*Ÿ
+0p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csH H(+ˆ
+…
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csH H(+
+%0%System.Web.UI.WebControls.HiddenField"__id*^*\&
+$mojoPortal.Web.AdminUI.SecurityRoles"2
+	hdnUserID%System.Web.UI.WebControls.HiddenFieldîë
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csH H(
+%1string"/System.Web.UI.WebControls.HiddenField.Value.get*-
++
+%0%System.Web.UI.WebControls.HiddenField2	Value.get£
+ 
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csH H(&	
+%2int"string.Length.get*
+
+%1string*
+1
+2*ñ
+1p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csW	 W(	"z
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csH/ H(6
+""*ò 
+2p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csK R(;ˆ
+…
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csK- K(6+
+%3%System.Web.UI.WebControls.HiddenField"__id*^*\&
+$mojoPortal.Web.AdminUI.SecurityRoles"2
+	hdnUserID%System.Web.UI.WebControls.HiddenFieldîë
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csK- K(<
+%4string"/System.Web.UI.WebControls.HiddenField.Value.get*-
++
+%3%System.Web.UI.WebControls.HiddenField2	Value.getÄ
+Á
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csK K(=	
+%5int"System.Convert.ToInt32(string)*"
+System.Convert*
+
+%4string—
+”
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csK K(=
+userIdint"__id*
+	
+%5intø
+õ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csL- L(9&
+%6 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings·´
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csL  L(B"
+%7mojoPortal.Business.SiteUser"mojoPortal.Business.SiteUser°
+­
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csL$ L(,
+
+%8void"LmojoPortal.Business.SiteUser.SiteUser(mojoPortal.Business.SiteSettings, int)*$
+"
+%7mojoPortal.Business.SiteUser*(
+&
+%6 mojoPortal.Business.SiteSettings*
+
+userIdintÇ
+Ä
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csL L(B$
+usermojoPortal.Business.SiteUser"__id*$
+"
+%7mojoPortal.Business.SiteUser‰
+†
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csN N(#
+%9"__id*
+""ê
+ç
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csN- N(1
+%10mojoPortal.Business.Role"__id*L*J&
+$mojoPortal.Web.AdminUI.SecurityRoles" 
+rolemojoPortal.Business.RoleÓ
+Ð
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csN- N(:
+%11System.Guid"%mojoPortal.Business.Role.RoleGuid.get*!
+
+%10mojoPortal.Business.RoleÜ
+Ù
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csN< N(I
+%12System.Guid")mojoPortal.Business.SiteUser.UserGuid.get*&
+$
+usermojoPortal.Business.SiteUser«
+¨
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csN N(J
+%13bool"DmojoPortal.Business.Role.AddUser(int, int, System.Guid, System.Guid)*"
+mojoPortal.Business.Role*
+
+%9*
+
+userIdint*
+
+%11System.Guid*
+
+%12System.Guidá
+Þ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csO O((
+%14bool"-mojoPortal.Business.SiteUser.RolesChanged.set*&
+$
+usermojoPortal.Business.SiteUser*
+""Ï
+Ì
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csP P(
+%15bool"#mojoPortal.Business.SiteUser.Save()*&
+$
+usermojoPortal.Business.SiteUserÌ
+É
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csR- R(4
+%16System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÈ
+Å
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csR- R(;
+%17string"!System.Web.HttpRequest.RawUrl.get*
+
+%16System.Web.HttpRequest´
+±
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csR R(<
+%18void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*(&
+$mojoPortal.Web.AdminUI.SecurityRoles*
+
+%17string*	
+3
+3
+3*ÿ
+3p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csW	 W(	"‡
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityRoles.aspx.csW W(	
+implicit return:
+senderobject:&
+e!System.Web.UI.ImageClickEventArgsB(&
+$mojoPortal.Web.AdminUI.SecurityRoles

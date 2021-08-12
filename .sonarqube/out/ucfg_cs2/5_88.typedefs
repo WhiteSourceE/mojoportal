@@ -1,0 +1,190 @@
+o
+mojoPortal.Business.SiteUserobject5
+
+SiteUser()'mojoPortal.Business.SiteUser.SiteUser()u
+*SiteUser(mojoPortal.Business.SiteSettings)GmojoPortal.Business.SiteUser.SiteUser(mojoPortal.Business.SiteSettings)
+0SiteUser(mojoPortal.Business.SiteSettings, bool)MmojoPortal.Business.SiteUser.SiteUser(mojoPortal.Business.SiteSettings, bool)
+/SiteUser(mojoPortal.Business.SiteSettings, int)LmojoPortal.Business.SiteUser.SiteUser(mojoPortal.Business.SiteSettings, int)…
+2SiteUser(mojoPortal.Business.SiteSettings, string)OmojoPortal.Business.SiteUser.SiteUser(mojoPortal.Business.SiteSettings, string)
+7SiteUser(mojoPortal.Business.SiteSettings, System.Guid)TmojoPortal.Business.SiteUser.SiteUser(mojoPortal.Business.SiteSettings, System.Guid)?
+GetUser(string),mojoPortal.Business.SiteUser.GetUser(string)9
+GetUser(int))mojoPortal.Business.SiteUser.GetUser(int)I
+GetUser(System.Guid)1mojoPortal.Business.SiteUser.GetUser(System.Guid)a
+ GetUser(System.Data.IDataReader)=mojoPortal.Business.SiteUser.GetUser(System.Data.IDataReader)1
+Create()%mojoPortal.Business.SiteUser.Create()1
+Update()%mojoPortal.Business.SiteUser.Update()7
+LoadRoles()(mojoPortal.Business.SiteUser.LoadRoles()-
+Save()#mojoPortal.Business.SiteUser.Save()3
+	IsValid()&mojoPortal.Business.SiteUser.IsValid()G
+GetRuleViolations()0mojoPortal.Business.SiteUser.GetRuleViolations()9
+DeleteUser())mojoPortal.Business.SiteUser.DeleteUser()=
+UndeleteUser()+mojoPortal.Business.SiteUser.UndeleteUser()Q
+UpdateLastActivityTime()5mojoPortal.Business.SiteUser.UpdateLastActivityTime()K
+UpdateLastLoginTime()2mojoPortal.Business.SiteUser.UpdateLastLoginTime()A
+LockoutAccount()-mojoPortal.Business.SiteUser.LockoutAccount()?
+UnlockAccount(),mojoPortal.Business.SiteUser.UnlockAccount()
+/UpdatePasswordQuestionAndAnswer(string, string)LmojoPortal.Business.SiteUser.UpdatePasswordQuestionAndAnswer(string, string)]
+UpdateLastPasswordChangeTime();mojoPortal.Business.SiteUser.UpdateLastPasswordChangeTime()—
+;IncrementPasswordAttempts(mojoPortal.Business.SiteSettings)XmojoPortal.Business.SiteUser.IncrementPasswordAttempts(mojoPortal.Business.SiteSettings)£
+AIncrementPasswordAnswerAttempts(mojoPortal.Business.SiteSettings)^mojoPortal.Business.SiteUser.IncrementPasswordAnswerAttempts(mojoPortal.Business.SiteSettings)y
+,SetRegistrationConfirmationGuid(System.Guid)ImojoPortal.Business.SiteUser.SetRegistrationConfirmationGuid(System.Guid)C
+IsInRoles(string).mojoPortal.Business.SiteUser.IsInRoles(string)W
+SetProperty(string, string)8mojoPortal.Business.SiteUser.SetProperty(string, string)«
+ESetProperty(string, object, System.Configuration.SettingsSerializeAs)bmojoPortal.Business.SiteUser.SetProperty(string, object, System.Configuration.SettingsSerializeAs)·
+KSetProperty(string, object, System.Configuration.SettingsSerializeAs, bool)hmojoPortal.Business.SiteUser.SetProperty(string, object, System.Configuration.SettingsSerializeAs, bool)½
+NCreateProperty(string, object, System.Configuration.SettingsSerializeAs, bool)kmojoPortal.Business.SiteUser.CreateProperty(string, object, System.Configuration.SettingsSerializeAs, bool)½
+NUpdateProperty(string, object, System.Configuration.SettingsSerializeAs, bool)kmojoPortal.Business.SiteUser.UpdateProperty(string, object, System.Configuration.SettingsSerializeAs, bool)Ë
+UCreatePropertyLocalInstance(string, object, System.Configuration.SettingsSerializeAs)rmojoPortal.Business.SiteUser.CreatePropertyLocalInstance(string, object, System.Configuration.SettingsSerializeAs)Ë
+UUpdatePropertyLocalInstance(string, object, System.Configuration.SettingsSerializeAs)rmojoPortal.Business.SiteUser.UpdatePropertyLocalInstance(string, object, System.Configuration.SettingsSerializeAs)›
+=GetProperty(string, System.Configuration.SettingsSerializeAs)ZmojoPortal.Business.SiteUser.GetProperty(string, System.Configuration.SettingsSerializeAs)c
+!GetCustomPropertyAsString(string)>mojoPortal.Business.SiteUser.GetCustomPropertyAsString(string)§
+CGetProperty(string, System.Configuration.SettingsSerializeAs, bool)`mojoPortal.Business.SiteUser.GetProperty(string, System.Configuration.SettingsSerializeAs, bool)_
+EnsureNonLazyLoadedProperties()<mojoPortal.Business.SiteUser.EnsureNonLazyLoadedProperties()µ
+JGetNonLazyLoadedProperty(string, System.Configuration.SettingsSerializeAs)gmojoPortal.Business.SiteUser.GetNonLazyLoadedProperty(string, System.Configuration.SettingsSerializeAs)¯
+GGetLazyLoadedProperty(string, System.Configuration.SettingsSerializeAs)dmojoPortal.Business.SiteUser.GetLazyLoadedProperty(string, System.Configuration.SettingsSerializeAs)A
+PasswordHash.get-mojoPortal.Business.SiteUser.PasswordHash.getA
+PasswordHash.set-mojoPortal.Business.SiteUser.PasswordHash.setE
+PasswordFormat.get/mojoPortal.Business.SiteUser.PasswordFormat.getE
+PasswordFormat.set/mojoPortal.Business.SiteUser.PasswordFormat.setC
+SecurityStamp.get.mojoPortal.Business.SiteUser.SecurityStamp.getC
+SecurityStamp.set.mojoPortal.Business.SiteUser.SecurityStamp.setE
+EmailConfirmed.get/mojoPortal.Business.SiteUser.EmailConfirmed.getE
+EmailConfirmed.set/mojoPortal.Business.SiteUser.EmailConfirmed.set?
+PhoneNumber.get,mojoPortal.Business.SiteUser.PhoneNumber.get?
+PhoneNumber.set,mojoPortal.Business.SiteUser.PhoneNumber.setQ
+PhoneNumberConfirmed.get5mojoPortal.Business.SiteUser.PhoneNumberConfirmed.getQ
+PhoneNumberConfirmed.set5mojoPortal.Business.SiteUser.PhoneNumberConfirmed.setI
+TwoFactorEnabled.get1mojoPortal.Business.SiteUser.TwoFactorEnabled.getI
+TwoFactorEnabled.set1mojoPortal.Business.SiteUser.TwoFactorEnabled.setK
+LockoutEndDateUtc.get2mojoPortal.Business.SiteUser.LockoutEndDateUtc.getK
+LockoutEndDateUtc.set2mojoPortal.Business.SiteUser.LockoutEndDateUtc.set?
+DateOfBirth.get,mojoPortal.Business.SiteUser.DateOfBirth.get?
+DateOfBirth.set,mojoPortal.Business.SiteUser.DateOfBirth.set5
+
+UserId.get'mojoPortal.Business.SiteUser.UserId.get5
+
+UserId.set'mojoPortal.Business.SiteUser.UserId.setA
+TotalRevenue.get-mojoPortal.Business.SiteUser.TotalRevenue.getA
+TotalRevenue.set-mojoPortal.Business.SiteUser.TotalRevenue.set9
+SiteGuid.get)mojoPortal.Business.SiteUser.SiteGuid.get9
+SiteGuid.set)mojoPortal.Business.SiteUser.SiteGuid.set5
+
+SiteId.get'mojoPortal.Business.SiteUser.SiteId.get5
+
+SiteId.set'mojoPortal.Business.SiteUser.SiteId.set;
+IsDeleted.get*mojoPortal.Business.SiteUser.IsDeleted.get;
+IsDeleted.set*mojoPortal.Business.SiteUser.IsDeleted.set9
+UserGuid.get)mojoPortal.Business.SiteUser.UserGuid.get9
+UserGuid.set)mojoPortal.Business.SiteUser.UserGuid.setO
+RegisterConfirmGuid.get4mojoPortal.Business.SiteUser.RegisterConfirmGuid.getO
+RegisterConfirmGuid.set4mojoPortal.Business.SiteUser.RegisterConfirmGuid.set1
+Name.get%mojoPortal.Business.SiteUser.Name.get1
+Name.set%mojoPortal.Business.SiteUser.Name.set;
+LoginName.get*mojoPortal.Business.SiteUser.LoginName.get;
+LoginName.set*mojoPortal.Business.SiteUser.LoginName.set3
+	Email.get&mojoPortal.Business.SiteUser.Email.get3
+	Email.set&mojoPortal.Business.SiteUser.Email.set;
+FirstName.get*mojoPortal.Business.SiteUser.FirstName.get;
+FirstName.set*mojoPortal.Business.SiteUser.FirstName.set9
+LastName.get)mojoPortal.Business.SiteUser.LastName.get9
+LastName.set)mojoPortal.Business.SiteUser.LastName.set;
+AuthorBio.get*mojoPortal.Business.SiteUser.AuthorBio.get;
+AuthorBio.set*mojoPortal.Business.SiteUser.AuthorBio.set9
+NewEmail.get)mojoPortal.Business.SiteUser.NewEmail.get9
+NewEmail.set)mojoPortal.Business.SiteUser.NewEmail.setI
+EditorPreference.get1mojoPortal.Business.SiteUser.EditorPreference.getI
+EditorPreference.set1mojoPortal.Business.SiteUser.EditorPreference.setG
+EmailChangeGuid.get0mojoPortal.Business.SiteUser.EmailChangeGuid.getG
+EmailChangeGuid.set0mojoPortal.Business.SiteUser.EmailChangeGuid.set9
+Password.get)mojoPortal.Business.SiteUser.Password.get9
+Password.set)mojoPortal.Business.SiteUser.Password.setC
+MustChangePwd.get.mojoPortal.Business.SiteUser.MustChangePwd.getC
+MustChangePwd.set.mojoPortal.Business.SiteUser.MustChangePwd.setA
+RolesChanged.get-mojoPortal.Business.SiteUser.RolesChanged.getA
+RolesChanged.set-mojoPortal.Business.SiteUser.RolesChanged.set5
+
+Gender.get'mojoPortal.Business.SiteUser.Gender.get5
+
+Gender.set'mojoPortal.Business.SiteUser.Gender.setG
+ProfileApproved.get0mojoPortal.Business.SiteUser.ProfileApproved.getG
+ProfileApproved.set0mojoPortal.Business.SiteUser.ProfileApproved.setI
+ApprovedForLogin.get1mojoPortal.Business.SiteUser.ApprovedForLogin.getI
+ApprovedForLogin.set1mojoPortal.Business.SiteUser.ApprovedForLogin.set7
+Trusted.get(mojoPortal.Business.SiteUser.Trusted.get7
+Trusted.set(mojoPortal.Business.SiteUser.Trusted.setO
+DisplayInMemberList.get4mojoPortal.Business.SiteUser.DisplayInMemberList.getO
+DisplayInMemberList.set4mojoPortal.Business.SiteUser.DisplayInMemberList.set=
+WebSiteUrl.get+mojoPortal.Business.SiteUser.WebSiteUrl.get=
+WebSiteUrl.set+mojoPortal.Business.SiteUser.WebSiteUrl.set7
+Country.get(mojoPortal.Business.SiteUser.Country.get7
+Country.set(mojoPortal.Business.SiteUser.Country.set3
+	State.get&mojoPortal.Business.SiteUser.State.get3
+	State.set&mojoPortal.Business.SiteUser.State.set=
+Occupation.get+mojoPortal.Business.SiteUser.Occupation.get=
+Occupation.set+mojoPortal.Business.SiteUser.Occupation.set;
+Interests.get*mojoPortal.Business.SiteUser.Interests.get;
+Interests.set*mojoPortal.Business.SiteUser.Interests.set/
+MSN.get$mojoPortal.Business.SiteUser.MSN.get/
+MSN.set$mojoPortal.Business.SiteUser.MSN.set3
+	Yahoo.get&mojoPortal.Business.SiteUser.Yahoo.get3
+	Yahoo.set&mojoPortal.Business.SiteUser.Yahoo.set/
+AIM.get$mojoPortal.Business.SiteUser.AIM.get/
+AIM.set$mojoPortal.Business.SiteUser.AIM.set/
+ICQ.get$mojoPortal.Business.SiteUser.ICQ.get/
+ICQ.set$mojoPortal.Business.SiteUser.ICQ.set=
+TotalPosts.get+mojoPortal.Business.SiteUser.TotalPosts.get=
+TotalPosts.set+mojoPortal.Business.SiteUser.TotalPosts.set;
+AvatarUrl.get*mojoPortal.Business.SiteUser.AvatarUrl.get;
+AvatarUrl.set*mojoPortal.Business.SiteUser.AvatarUrl.set=
+TimeZoneId.get+mojoPortal.Business.SiteUser.TimeZoneId.get=
+TimeZoneId.set+mojoPortal.Business.SiteUser.TimeZoneId.setG
+TimeOffsetHours.get0mojoPortal.Business.SiteUser.TimeOffsetHours.getG
+TimeOffsetHours.set0mojoPortal.Business.SiteUser.TimeOffsetHours.seta
+ EnableLiveMessengerOnProfile.get=mojoPortal.Business.SiteUser.EnableLiveMessengerOnProfile.geta
+ EnableLiveMessengerOnProfile.set=mojoPortal.Business.SiteUser.EnableLiveMessengerOnProfile.setG
+LiveMessengerId.get0mojoPortal.Business.SiteUser.LiveMessengerId.getG
+LiveMessengerId.set0mojoPortal.Business.SiteUser.LiveMessengerId.seta
+ LiveMessengerDelegationToken.get=mojoPortal.Business.SiteUser.LiveMessengerDelegationToken.geta
+ LiveMessengerDelegationToken.set=mojoPortal.Business.SiteUser.LiveMessengerDelegationToken.set;
+Signature.get*mojoPortal.Business.SiteUser.Signature.get;
+Signature.set*mojoPortal.Business.SiteUser.Signature.set?
+DateCreated.get,mojoPortal.Business.SiteUser.DateCreated.get?
+DateCreated.set,mojoPortal.Business.SiteUser.DateCreated.set1
+Skin.get%mojoPortal.Business.SiteUser.Skin.get1
+Skin.set%mojoPortal.Business.SiteUser.Skin.setA
+LoweredEmail.get-mojoPortal.Business.SiteUser.LoweredEmail.getA
+LoweredEmail.set-mojoPortal.Business.SiteUser.LoweredEmail.setI
+PasswordQuestion.get1mojoPortal.Business.SiteUser.PasswordQuestion.getI
+PasswordQuestion.set1mojoPortal.Business.SiteUser.PasswordQuestion.setE
+PasswordAnswer.get/mojoPortal.Business.SiteUser.PasswordAnswer.getE
+PasswordAnswer.set/mojoPortal.Business.SiteUser.PasswordAnswer.setI
+LastActivityDate.get1mojoPortal.Business.SiteUser.LastActivityDate.getI
+LastActivityDate.set1mojoPortal.Business.SiteUser.LastActivityDate.setC
+LastLoginDate.get.mojoPortal.Business.SiteUser.LastLoginDate.getC
+LastLoginDate.set.mojoPortal.Business.SiteUser.LastLoginDate.setW
+LastPasswordChangedDate.get8mojoPortal.Business.SiteUser.LastPasswordChangedDate.getW
+LastPasswordChangedDate.set8mojoPortal.Business.SiteUser.LastPasswordChangedDate.setG
+LastLockoutDate.get0mojoPortal.Business.SiteUser.LastLockoutDate.getG
+LastLockoutDate.set0mojoPortal.Business.SiteUser.LastLockoutDate.set]
+FailedPasswordAttemptCount.get;mojoPortal.Business.SiteUser.FailedPasswordAttemptCount.get]
+FailedPasswordAttemptCount.set;mojoPortal.Business.SiteUser.FailedPasswordAttemptCount.seti
+$FailedPasswordAttemptWindowStart.getAmojoPortal.Business.SiteUser.FailedPasswordAttemptWindowStart.geti
+$FailedPasswordAttemptWindowStart.setAmojoPortal.Business.SiteUser.FailedPasswordAttemptWindowStart.seti
+$FailedPasswordAnswerAttemptCount.getAmojoPortal.Business.SiteUser.FailedPasswordAnswerAttemptCount.geti
+$FailedPasswordAnswerAttemptCount.setAmojoPortal.Business.SiteUser.FailedPasswordAnswerAttemptCount.setu
+*FailedPasswordAnswerAttemptWindowStart.getGmojoPortal.Business.SiteUser.FailedPasswordAnswerAttemptWindowStart.getu
+*FailedPasswordAnswerAttemptWindowStart.setGmojoPortal.Business.SiteUser.FailedPasswordAnswerAttemptWindowStart.set?
+IsLockedOut.get,mojoPortal.Business.SiteUser.IsLockedOut.get?
+IsLockedOut.set,mojoPortal.Business.SiteUser.IsLockedOut.set;
+MobilePin.get*mojoPortal.Business.SiteUser.MobilePin.get;
+MobilePin.set*mojoPortal.Business.SiteUser.MobilePin.setA
+PasswordSalt.get-mojoPortal.Business.SiteUser.PasswordSalt.getA
+PasswordSalt.set-mojoPortal.Business.SiteUser.PasswordSalt.set7
+Comment.get(mojoPortal.Business.SiteUser.Comment.get7
+Comment.set(mojoPortal.Business.SiteUser.Comment.set;
+OpenIdUri.get*mojoPortal.Business.SiteUser.OpenIdUri.get;
+OpenIdUri.set*mojoPortal.Business.SiteUser.OpenIdUri.setC
+WindowsLiveId.get.mojoPortal.Business.SiteUser.WindowsLiveId.getC
+WindowsLiveId.set.mojoPortal.Business.SiteUser.WindowsLiveId.setK
+PasswordResetGuid.get2mojoPortal.Business.SiteUser.PasswordResetGuid.getK
+PasswordResetGuid.set2mojoPortal.Business.SiteUser.PasswordResetGuid.set

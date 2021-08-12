@@ -1,0 +1,129 @@
+
+VmojoPortal.Data.DBSitePersonalization.GetPersonalizationBlob(int, string, System.Guid)
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs* *(3"0*À
+0
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs/ 4(Ù
+Ò
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs/< /(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionString‘—
+Ä
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs/% /(õ(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper—
+Œ
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs/) /(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*1/
+-mp_SitePersonalizationPerUser_GetPageSettings*2„
+‡
+Ä
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs/ /(õ)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperò
+ï
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs0. 0(;
+%3"__id*
+""ò
+ï
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs0= 0(U
+%4"__id*
+""‡
+›
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs0 0(^
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@SiteID*
+
+%3*
+
+%4*
+""ò
+ï
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs1, 1(>
+%6"__id*
+""ò
+ï
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs1E 1(]
+%7"__id*
+""ı
+Ú
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs1 1(d
+
+%8void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@Path*
+
+%6*2ˇ*
+
+%7*
+
+pathstringò
+ï
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs2. 2(H
+%9"__id*
+""ô
+ñ
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs2J 2(b
+%10"__id*
+""‚
+ﬂ
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs2 2(m
+%11void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@UserId*
+
+%9*
+
+%10*
+""Ù
+Ò
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs3$ 3(7
+%12object"2mojoPortal.Data.SqlParameterHelper.ExecuteScalar()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper¢
+ü
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs3 3(7
+%13"__id*
+
+%12object•
+¢
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs3 3(7
+resultbyte[]"__id*
+
+%13"ï
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs4 4(
+
+resultbyte[]*ù
+1
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs5	 5(	"ñ
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.cs5 5(	
+implicit return:
+siteIdint:
+pathstring:
+userGuidSystem.GuidB)"'
+%mojoPortal.Data.DBSitePersonalization

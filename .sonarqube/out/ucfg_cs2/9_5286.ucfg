@@ -1,0 +1,231 @@
+
+6mojoPortal.Web.Editor.TinyMCE.SetupFileBrowserScript()z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs– –(+"0*‡>
+0z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs“ Ò(!ª∏
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs“# “(6
+%0System.Text.StringBuilder"System.Text.StringBuilderŸ
+÷
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs“' “(4
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilderÕ
+ 
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs“ “(6#
+scriptSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilderó
+î
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs” ”(@
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*$"
+ 
+<script type="text/javascript">“
+œ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs◊1 ◊(?
+%3string"__id*=*;
+mojoPortal.Web.Editor.TinyMCE"
+fileManagerUrlstringø
+º
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs◊ ◊(?
+%4string"__concat*
+var serviceUrl = '*
+
+%3string∞
+≠
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs◊ ◊(G
+%5string"__concat*
+
+%4string*
+'; Å
+˛
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs◊ ◊(H
+%6System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%5string¨
+©
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csÿ ÿ(R
+%7System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*97
+5function myFileBrowser (field_name, url, type, win) {†
+ù
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs‹ ‹(F
+%8System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*-+
+)tinyMCE.activeEditor.windowManager.open({£
+†
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs› ›(I
+%9System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*0.
+,file : serviceUrl + '?ed=tmc&type=' + type,  
+«
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csﬁ( ﬁ(<
+%10string""Resources.Resource.FileBrowser.get*"
+Resources.Resourceä
+á
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csﬁ( ﬁ(O
+%11string">mojoPortal.Web.Framework.StringHelper.HtmlEscapeQuotes(string)*)"'
+%mojoPortal.Web.Framework.StringHelper*
+
+%10string∏
+µ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csﬁ ﬁ(O
+%12string"__concat*
+	title : '*
+
+%11string≤
+Ø
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csﬁ ﬁ(W
+%13string"__concat*
+
+%12string*
+', É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csﬁ ﬁ(X 
+%14System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%13stringÑ
+Å
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csﬂ ﬂ() 
+%15System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+width : 860,Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs‡ ‡(* 
+%16System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+height : 700,ä
+á
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs· ·(/ 
+%17System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+resizable : 'yes',á
+Ñ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs‚ ‚(, 
+%18System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+inline : 'yes',é
+ã
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs„ „(3 
+%19System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+ close_previous : 'no'¸
+˘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.cs‰ ‰(! 
+%20System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}, {Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csÂ Â(* 
+%21System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+window : win,ä
+á
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csÊ Ê(/ 
+%22System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+input : field_name¸
+˘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csÁ Á(! 
+%23System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csË Ë(* 
+%24System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+return false;˘
+ˆ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csÎ Î( 
+%25System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}Ç
+ˇ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csÏ Ï(( 
+%26System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+
+</script>Á‰
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csÓ Ó(
+%27System.Web.UI.Page"System.Web.UI.Control.Page.get*!
+mojoPortal.Web.Editor.TinyMCE2Page.getÎ
+Ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csÓ Ó("(
+%28!System.Web.UI.ClientScriptManager"#System.Web.UI.Page.ClientScript.get*
+
+%27System.Web.UI.Page€
+ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csÒ Ò(!
+%29string"$System.Text.StringBuilder.ToString()*%
+#
+scriptSystem.Text.StringBuilder∂
+≥
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csÓ Ò("
+%30void"XSystem.Web.UI.ClientScriptManager.RegisterClientScriptBlock(System.Type, string, string)**
+(
+%28!System.Web.UI.ClientScriptManager*
+""*	
+tmcfb*
+
+%29string*
+1*ì
+1z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csÛ	 Û(	"ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Editors\TinyMCE\TinyMCE.csÛ Û(	
+implicit returnB!
+mojoPortal.Web.Editor.TinyMCE

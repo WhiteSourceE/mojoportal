@@ -1,0 +1,145 @@
+
+@mojoPortal.Web.Framework.WebUtils.ResolveServerUrl(string, bool)w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÈ È(-"0*–
+0w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÎ Î(.…
+∆
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÎ Î(/
+
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+	serverUrlstring*
+1
+2*è
+1w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÏ Ï( "ê
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÏ Ï(!
+
+	serverUrlstring*á
+2w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÔ Ô((Ä
+˝
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÔ Ô()
+
+%1bool"8mojoPortal.Web.Framework.WebUtils.IsAbsolutePath(string)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+	serverUrlstring*
+3
+4*è
+3w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs ( "ê
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs (!
+
+	serverUrlstring*˛
+4w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÚ ı(˛
+˚
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÚ" Ú(7
+%2string"4mojoPortal.Web.Framework.WebUtils.ResolveUrl(string)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+	serverUrlstring™
+ß
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÚ Ú(7
+newServerUrlstring"__id*
+
+%2string⁄
+◊
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÛ! Û(4
+%3System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextﬁ
+€
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÛ! Û(<
+%4System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%3System.Web.HttpContextŒ
+À
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÛ! Û(@
+%5
+System.Uri"System.Web.HttpRequest.Url.get*
+
+%4System.Web.HttpRequestöó
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÛ Û(O
+%6
+System.Uri"
+System.UriÓ
+Î
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÛ Û( 
+
+%7void""System.Uri.Uri(System.Uri, string)*
+
+%6
+System.Uri*
+
+%5
+System.Uri*
+
+newServerUrlstring¨
+©
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÛ Û(O
+result
+System.Uri"__id*
+
+%6
+System.Uri*
+5
+6*–
+5w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csˆ ˆ((≈¬
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csˆ ˆ((
+%8string"System.Uri.ToString()*
+
+result
+System.Uri2
+ToString()"â
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csˆ ˆ()
+
+%8string*›
+6w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs¯ ¯(-å
+â
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs¯ ¯(.
+%9
+System.Uri"=mojoPortal.Web.Framework.WebUtils.ForceUriToHttps(System.Uri)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+result
+System.Uri¬ø
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs¯ ¯(9
+%10string"System.Uri.ToString()*
+
+%9
+System.Uri2
+ToString()"ä
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs¯ ¯(:
+
+%10string*ç
+7w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs˙	 ˙(	"é
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs˙ ˙(	
+implicit return:
+	serverUrlstring:
+
+forceHttpsboolB%"#
+!mojoPortal.Web.Framework.WebUtils

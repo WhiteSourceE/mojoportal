@@ -1,0 +1,76 @@
+
+?mojoPortal.Data.DBGoogleCheckoutLog.GetCountByCart(System.Guid)
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs¹ ¹(("0*ú
+0
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs» ¾(6ô
+ñ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs»< »(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÔÑ
+€
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs»% »(‘(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÇ
+Ä
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs») »(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*'%
+#mp_GoogleCheckoutLog_GetCountByCart*2ã
+à
+€
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs» »(‘)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper˜
+•
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs¼0 ¼(J
+%3"__id*
+""˜
+•
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs¼L ¼(d
+%4"__id*
+""â
+ß
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs¼ ¼(o
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@CartGuid*
+
+%3*
+
+%4*
+""ó
+ð
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs¾# ¾(6
+%6object"2mojoPortal.Data.SqlParameterHelper.ExecuteScalar()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperÓ
+Ð
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs¾ ¾(7	
+%7int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%6object"Ž
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.cs¾ ¾(8
+	
+%7int*
+1
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÀ	 À(	"–
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBGoogleCheckoutLog.csÀ À(	
+implicit return:
+cartGuidSystem.GuidB'"%
+#mojoPortal.Data.DBGoogleCheckoutLog

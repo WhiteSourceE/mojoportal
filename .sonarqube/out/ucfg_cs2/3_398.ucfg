@@ -1,0 +1,87 @@
+
+CmojoPortal.Web.Framework.ScriptHandler.CreateHttpWebRequest(string)|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csî î(3"0*◊
+0|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csñ û(
+Ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csñ% ñ(;
+%0System.Net.WebRequest"$System.Net.WebRequest.Create(string)*"
+System.Net.WebRequest*
+
+urlstring√
+¿
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csñ% ñ(M
+%1System.Net.WebRequest"__id*
+
+%0System.Net.WebRequestÃ
+…
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csñ ñ(M$
+requestSystem.Net.HttpWebRequest"__id*
+
+%1System.Net.WebRequestÉÄ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csó ó($
+%2System.Net.WebHeaderCollection"%System.Net.HttpWebRequest.Headers.get*&
+$
+requestSystem.Net.HttpWebRequest2Headers.getùö
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csó ó(:
+
+%3void"2System.Net.WebHeaderCollection.Add(string, string)*&
+$
+%2System.Net.WebHeaderCollection*
+Accept-Encoding*
+gzip2Add(string, string)ï
+í
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csò- ò(F
+%4"__id*
+""é
+ã
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csò ò(F%
+%5System.Net.DecompressionMethods"4System.Net.HttpWebRequest.AutomaticDecompression.set*&
+$
+requestSystem.Net.HttpWebRequest*
+
+%4ˆ
+Û
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csô ô(4	
+%6int":System.Net.HttpWebRequest.MaximumAutomaticRedirections.set*&
+$
+requestSystem.Net.HttpWebRequest*2¯
+ı
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csö ö(;	
+%7int":System.Net.HttpWebRequest.MaximumResponseHeadersLength.set*&
+$
+requestSystem.Net.HttpWebRequest*
+""Ï
+È
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csõ õ(/	
+%8int".System.Net.HttpWebRequest.ReadWriteTimeout.set*&
+$
+requestSystem.Net.HttpWebRequest*
+""Ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csú ú(&	
+%9int"%System.Net.HttpWebRequest.Timeout.set*&
+$
+requestSystem.Net.HttpWebRequest*
+""2Timeout.set"¶
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csû û(&
+$
+requestSystem.Net.HttpWebRequest*ó
+1|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csü	 ü(	"ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ScriptHandler.csü ü(	
+implicit return:
+urlstringB*(
+&mojoPortal.Web.Framework.ScriptHandler

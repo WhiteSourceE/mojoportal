@@ -1,0 +1,379 @@
+
+1mojoPortal.Web.UI.BingSearchControl.BindResults()Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csW W("0*•
+0Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csY Y(%€
+ÿ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csY Y(
+%0string"__id*>*<%
+#mojoPortal.Web.UI.BingSearchControl"
+	queryTextstringµ
+≤
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csY Y( 	
+%1int"string.Length.get*
+
+%0string*
+1
+2*ò
+1É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs•	 •(	"å
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csY) Y(0
+""*≥/
+2Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs[ |(ñ
+ì
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs[ [(+
+%2%System.Web.UI.WebControls.HiddenField"__id*Z*X%
+#mojoPortal.Web.UI.BingSearchControl"/
+hdnSHC%System.Web.UI.WebControls.HiddenField€
+ÿ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs[ [($
+%3string"__id*>*<%
+#mojoPortal.Web.UI.BingSearchControl"
+	queryTextstring∏
+µ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs[ [(2	
+%4int"string.GetHashCode()*
+
+%3stringÉ
+Ä
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs[ [(F
+%5string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+	
+%4intêç
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs[ [(F
+%6string"/System.Web.UI.WebControls.HiddenField.Value.set*-
++
+%2%System.Web.UI.WebControls.HiddenField*
+
+%5string2	Value.setÏ
+È
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csqP q(l
+%7string"/mojoPortal.Web.WebConfigSettings.BingApiUrl.get*$""
+ mojoPortal.Web.WebConfigSettings•¢
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csqH q(m
+%8
+System.Uri"
+System.Uriœ
+Ã
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csqL q(O
+
+%9void"System.Uri.Uri(string)*
+
+%8
+System.Uri*
+
+%7string¬ø
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csq0 q(n
+%10Bing.BingSearchContainer"Bing.BingSearchContainerÖ
+Ç
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csq4 q(G
+%11void"8Bing.BingSearchContainer.BingSearchContainer(System.Uri)*!
+
+%10Bing.BingSearchContainer*
+
+%8
+System.Uri€
+ÿ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csq  q(n)
+bingContainerBing.BingSearchContainer"__id*!
+
+%10Bing.BingSearchContainer·
+ﬁ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.css> s(L
+%12string"__id*C*A%
+#mojoPortal.Web.UI.BingSearchControl"
+bingAccountKeystring·
+ﬁ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cssN s(\
+%13string"__id*C*A%
+#mojoPortal.Web.UI.BingSearchControl"
+bingAccountKeystring «
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.css( s(]#
+%14System.Net.NetworkCredential"System.Net.NetworkCredentialù
+ö
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.css, s(=
+%15void">System.Net.NetworkCredential.NetworkCredential(string, string)*%
+#
+%14System.Net.NetworkCredential*
+
+%12string*
+
+%13stringª
+∏
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.css s(]
+%16System.Net.ICredentials">System.Data.Services.Client.DataServiceContext.Credentials.set*+
+)
+bingContainerBing.BingSearchContainer*%
+#
+%14System.Net.NetworkCredentialﬂ
+‹
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cst9 t(E
+%17string"__id*A*?%
+#mojoPortal.Web.UI.BingSearchControl"
+searchDomainstringº
+π
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cst/ t(E
+%18string"__concat*	
+site:*
+
+%17string∏
+µ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cst/ t(K
+%19string"__concat*
+
+%18string*
+ ‹
+Ÿ
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cstN t(W
+%20string"__id*>*<%
+#mojoPortal.Web.UI.BingSearchControl"
+	queryTextstring¬
+ø
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cst/ t(W
+%21string"__concat*
+
+%19string*
+
+%20stringú
+ô
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs{ {(
+%22"__id*
+""Ï
+È
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs| |(
+
+%23int".mojoPortal.Web.UI.BingSearchControl.Offset.get*'%
+#mojoPortal.Web.UI.BingSearchControl≠
+™
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cst |(=
+%246System.Data.Services.Client.DataServiceQuery<TElement>"`Bing.BingSearchContainer.Web(string, string, string, double?, double?, string, string, int, int)*+
+)
+bingContainerBing.BingSearchContainer*
+
+%21string*
+""*
+""*
+""*
+""*
+""*
+""*
+
+%22*
+
+
+%23intî
+ë
+Å
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cst |(D
+
+webResults6System.Data.Services.Client.DataServiceQuery<TElement>"__id*?
+=
+%246System.Data.Services.Client.DataServiceQuery<TElement>*
+3*Õ
+3É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csÇ Ñ(4ó
+î
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csÇ Ç()
+%25"System.Web.UI.WebControls.Repeater"__id*[*Y%
+#mojoPortal.Web.UI.BingSearchControl"0
+
+rptResults"System.Web.UI.WebControls.Repeater–Õ
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csÇ Ç(2
+%26object"1System.Web.UI.WebControls.Repeater.DataSource.set*+
+)
+%25"System.Web.UI.WebControls.Repeater*F
+D
+
+webResults6System.Data.Services.Client.DataServiceQuery<TElement>2DataSource.setó
+î
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csÉ É()
+%27"System.Web.UI.WebControls.Repeater"__id*[*Y%
+#mojoPortal.Web.UI.BingSearchControl"0
+
+rptResults"System.Web.UI.WebControls.Repeater˛˚
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csÉ É(%
+%28void"-System.Web.UI.WebControls.Repeater.DataBind()*+
+)
+%27"System.Web.UI.WebControls.Repeater2
+DataBind()ó
+î
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csÑ Ñ(()
+%29"System.Web.UI.WebControls.Repeater"__id*[*Y%
+#mojoPortal.Web.UI.BingSearchControl"0
+
+rptResults"System.Web.UI.WebControls.Repeater®•
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csÑ Ñ(.7
+%300System.Web.UI.WebControls.RepeaterItemCollection",System.Web.UI.WebControls.Repeater.Items.get*+
+)
+%29"System.Web.UI.WebControls.Repeater2	Items.getå
+â
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csÑ Ñ(4
+
+%31int":System.Web.UI.WebControls.RepeaterItemCollection.Count.get*9
+7
+%300System.Web.UI.WebControls.RepeaterItemCollection⁄
+◊
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csÑ Ñ(4;%
+#mojoPortal.Web.UI.BingSearchControl"
+resultCountint"__id*
+
+
+%31int*	
+4
+4
+5*Ë
+
+4É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csç è(!à
+Ö
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csç ç(#
+%32mojoPortal.Web.UI.mojoButton"__id*R*P%
+#mojoPortal.Web.UI.BingSearchControl"'
+btnNextmojoPortal.Web.UI.mojoButtonû
+õ
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csç ç(*
+%33"__id*
+""û
+õ
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csç. ç(6
+%34"__id*
+""ıÚ
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csç ç(7
+%35bool"!System.Web.UI.Control.Visible.set*%
+#
+%32mojoPortal.Web.UI.mojoButton*
+""2Visible.setÓ
+Î
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csè è(
+
+%36int".mojoPortal.Web.UI.BingSearchControl.Offset.get*'%
+#mojoPortal.Web.UI.BingSearchControlû
+õ
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csè è(!
+%37"__id*
+""*
+6
+7*ô	
+6É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csë í(+â
+Ü
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csë ë(#
+%38mojoPortal.Web.UI.mojoButton"__id*S*Q%
+#mojoPortal.Web.UI.BingSearchControl"(
+btnFirstmojoPortal.Web.UI.mojoButtonıÚ
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csë ë((
+%39bool"!System.Web.UI.Control.Visible.set*%
+#
+%38mojoPortal.Web.UI.mojoButton*
+""2Visible.setå
+â
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csí í(#
+%40mojoPortal.Web.UI.mojoButton"__id*V*T%
+#mojoPortal.Web.UI.BingSearchControl"+
+btnPreviousmojoPortal.Web.UI.mojoButtonıÚ
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csí í(+
+%41bool"!System.Web.UI.Control.Visible.set*%
+#
+%40mojoPortal.Web.UI.mojoButton*
+""2Visible.set*
+8*ô	
+7É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csñ ó(*â
+Ü
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csñ ñ(#
+%42mojoPortal.Web.UI.mojoButton"__id*S*Q%
+#mojoPortal.Web.UI.BingSearchControl"(
+btnFirstmojoPortal.Web.UI.mojoButtonıÚ
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csñ ñ('
+%43bool"!System.Web.UI.Control.Visible.set*%
+#
+%42mojoPortal.Web.UI.mojoButton*
+""2Visible.setå
+â
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csó ó(#
+%44mojoPortal.Web.UI.mojoButton"__id*V*T%
+#mojoPortal.Web.UI.BingSearchControl"+
+btnPreviousmojoPortal.Web.UI.mojoButtonıÚ
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.csó ó(*
+%45bool"!System.Web.UI.Control.Visible.set*%
+#
+%44mojoPortal.Web.UI.mojoButton*
+""2Visible.set*
+8*¿
+8É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs† †(4ì
+ê
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs† †(&
+%46System.Web.UI.WebControls.Panel"__id*Z*X%
+#mojoPortal.Web.UI.BingSearchControl"/
+pnlNoResultsSystem.Web.UI.WebControls.Panelû
+õ
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs†$ †(/
+%47"__id*
+""¯ı
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs† †(5
+%48bool"!System.Web.UI.Control.Visible.set*(
+&
+%46System.Web.UI.WebControls.Panel*
+""2Visible.set*
+5*ß
+5É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs•	 •(	"õ
+É
+wD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\Microsoft\BingSearchControl.ascx.cs• •(	
+implicit returnB'%
+#mojoPortal.Web.UI.BingSearchControl

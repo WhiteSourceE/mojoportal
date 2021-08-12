@@ -1,0 +1,331 @@
+
+9mojoPortal.Web.Controls.CollapseLinkButton.SetupScripts()Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csÊ Ê(!"0*Û
+0Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csË å(#Œ
+À
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csË à(
+
+scriptstring"__id*≠™
+ß
+<script language="javascript" type="text/javascript">
+<!--
+	function toggleCollapse(lnk, img, objToHide, collapseUrl, expandUrl, collapseText, expandText) {
+	var el = document.getElementById(objToHide);
+    var toggleImage = document.getElementById(img);
+	if ( el.style.display != 'none' ) 
+    {
+        DoCollapse(el, toggleImage,expandUrl,expandText);
+	}
+	else 
+    {
+        DoExpand(el,toggleImage,collapseUrl,collapseText);
+	}
+    
+}
+
+function DoCollapse(objToHide, image, expandUrl,expandText)
+{
+    objToHide.style.display = 'none';
+    image.src = expandUrl;
+    image.alt = expandText;
+}
+
+function DoExpand(objToHide, image, collapseUrl,collapseText)
+{
+    objToHide.style.display = '';
+    image.src = collapseUrl;
+    image.alt = collapseText;
+}
+
+//-->
+</script>Â‚
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csä ä(
+%0System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get
+Ì
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csä ä('
+%1!System.Web.UI.ClientScriptManager"#System.Web.UI.Page.ClientScript.get*
+
+%0System.Web.UI.Page€
+ÿ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csä8 ä(F
+%2System.Type"object.GetType()*.,
+*mojoPortal.Web.Controls.CollapseLinkButton‘
+—
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csä ä(a
+
+%3void"XSystem.Web.UI.ClientScriptManager.RegisterClientScriptBlock(System.Type, string, string)*)
+'
+%1!System.Web.UI.ClientScriptManager*
+
+%2System.Type*
+toggleCollapse*
+
+scriptstringÅ
+˛
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.cså å(#
+
+%4bool"=mojoPortal.Web.Controls.CollapseLinkButton.StartCollapsed.get*.,
+*mojoPortal.Web.Controls.CollapseLinkButton*
+1
+2*”G
+1Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csé ¢(-¬ø
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csé/ é(B
+%5System.Text.StringBuilder"System.Text.StringBuilder‡
+›
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csé3 é(@
+
+%6void")System.Text.StringBuilder.StringBuilder()*!
+
+%5System.Text.StringBuilder‹
+Ÿ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csé é(B+
+collapseScriptSystem.Text.StringBuilder"__id*!
+
+%5System.Text.StringBuilder¶
+£
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csè è(K
+%7System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*-
++
+collapseScriptSystem.Text.StringBuilder*$"
+ <script type="text/javascript"> å
+â
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csê ê(0
+%8System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*-
++
+collapseScriptSystem.Text.StringBuilder*
+
+
+<!-- î
+ë
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csë ë(8
+%9System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*-
++
+collapseScriptSystem.Text.StringBuilder*
+
+ DoCollapse( ˇ¸
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csì ì(%
+%10System.Web.UI.Control")System.Web.UI.Control.NamingContainer.get*
+System.Web.UI.Control2NamingContainer.getá
+Ñ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csì2 ì(C
+%11string"@mojoPortal.Web.Controls.CollapseLinkButton.ControlToCollapse.get*.,
+*mojoPortal.Web.Controls.CollapseLinkButtonïí
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csì ì(D
+%12System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*
+
+%10System.Web.UI.Control*
+
+%11string2FindControl(string)Á‰
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csì ì(M
+%13string""System.Web.UI.Control.ClientID.get*
+
+%12System.Web.UI.Control2ClientID.getœ
+Ã
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csí& ì(M
+%14string"__concat*
+document.getElementById("*
+
+%13string∫
+∑
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csí& î(
+%15string"__concat*
+
+%14string*
+"), í
+è
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csí î( 
+%16System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*-
++
+collapseScriptSystem.Text.StringBuilder*
+
+%15stringû
+õ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csñ ñ($+
+%17$System.Web.UI.HtmlControls.HtmlImage"__id*c*a,
+*mojoPortal.Web.Controls.CollapseLinkButton"1
+	imgToggle$System.Web.UI.HtmlControls.HtmlImageˆÛ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csñ ñ(-
+%18string""System.Web.UI.Control.ClientID.get*-
++
+%17$System.Web.UI.HtmlControls.HtmlImage2ClientID.getœ
+Ã
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csï& ñ(-
+%19string"__concat*
+document.getElementById("*
+
+%18string∫
+∑
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csï& ñ(7
+%20string"__concat*
+
+%19string*
+"), í
+è
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csï ñ(8 
+%21System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*-
++
+collapseScriptSystem.Text.StringBuilder*
+
+%20stringÑ
+Å
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csò& ò(9
+%22string"=mojoPortal.Web.Controls.CollapseLinkButton.ExpandImageUrl.get*.,
+*mojoPortal.Web.Controls.CollapseLinkButtonÄ
+˝
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csò ò(:
+%23string"(System.Web.UI.Control.ResolveUrl(string)*.,
+*mojoPortal.Web.Controls.CollapseLinkButton*
+
+%22string∑
+¥
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csó& ò(:
+%24string"__concat*
+"*
+
+%23stringπ
+∂
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csó& ô(
+%25string"__concat*
+
+%24string*
+", í
+è
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csó ô( 
+%26System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*-
++
+collapseScriptSystem.Text.StringBuilder*
+
+%25stringÄ
+˝
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csö- ö(<
+%27string"9mojoPortal.Web.Controls.CollapseLinkButton.ExpandText.get*.,
+*mojoPortal.Web.Controls.CollapseLinkButton∑
+¥
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csö& ö(<
+%28string"__concat*
+"*
+
+%27string∏
+µ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csö& ö(D
+%29string"__concat*
+
+%28string*
+" í
+è
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csö ö(E 
+%30System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*-
++
+collapseScriptSystem.Text.StringBuilder*
+
+%29stringä
+á
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csõ õ(, 
+%31System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*-
++
+collapseScriptSystem.Text.StringBuilder*
+); é
+ã
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csú ú(1 
+%32System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*-
++
+collapseScriptSystem.Text.StringBuilder*	
+
+//--> ë
+é
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csù ù(3 
+%33System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*-
++
+collapseScriptSystem.Text.StringBuilder*
+
+ </script>Ê„
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csü ü(
+%34System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÚ
+Ô
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csü ü(!(
+%35!System.Web.UI.ClientScriptManager"#System.Web.UI.Page.ClientScript.get*
+
+%34System.Web.UI.Page‹
+Ÿ
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.cs† †("
+%36System.Type"object.GetType()*.,
+*mojoPortal.Web.Controls.CollapseLinkButton˜Ù
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.cs° °('
+%37string""System.Web.UI.Control.ClientID.get*.,
+*mojoPortal.Web.Controls.CollapseLinkButton2ClientID.get∑
+¥
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.cs° °('
+%38string"__concat*
+s*
+
+%37stringÍ
+Á
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.cs¢ ¢(-
+%39string"$System.Text.StringBuilder.ToString()*-
++
+collapseScriptSystem.Text.StringBuilderÕ
+ 
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csü ¢(.
+%40void"TSystem.Web.UI.ClientScriptManager.RegisterStartupScript(System.Type, string, string)**
+(
+%35!System.Web.UI.ClientScriptManager*
+
+%36System.Type*
+
+%38string*
+
+%39string*
+2*°
+2Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csß	 ß(	"ò
+Ä
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Controls\CollapseLinkButton.csß ß(	
+implicit returnB.,
+*mojoPortal.Web.Controls.CollapseLinkButton

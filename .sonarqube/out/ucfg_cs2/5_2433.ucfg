@@ -1,0 +1,289 @@
+
+'mojoPortal.Business.Role.GetBySite(int)n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs—' —(0"0*Ì
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs™ ™("Î
+Ë
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs™ ™("
+
+%0bool"/mojoPortal.Business.Role.UseRelatedSiteMode.get*"
+mojoPortal.Business.Role*
+1
+2*Û
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs™& ™(<È
+Å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs™/ ™(<	
+%1int"*mojoPortal.Business.Role.RelatedSiteID.get*"
+mojoPortal.Business.Role•
+’
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs™& ™(<
+siteIdint"__id*
+	
+%1int*
+2*Ñ	
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs› œ(CÕÒ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs›% ›(;2
+%2,System.Collections.ObjectModel.Collection<T>",System.Collections.ObjectModel.Collection<T>ð
+í
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs›) ›(9
+
+%3void"9System.Collections.ObjectModel.Collection<T>.Collection()*4
+2
+%2,System.Collections.ObjectModel.Collection<T>æ
+ã
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs› ›(;5
+roles,System.Collections.ObjectModel.Collection<T>"__id*4
+2
+%2,System.Collections.ObjectModel.Collection<T>â
+ß
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.csœ( œ(D
+%4System.Data.IDataReader")mojoPortal.Data.DBRoles.GetSiteRoles(int)*"
+mojoPortal.Data.DBRoles*
+""½
+º
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.csœ œ(D!
+readerSystem.Data.IDataReader"__id*
+
+%4System.Data.IDataReader*
+3*Ê
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.csž ž($ÌÉ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.csž ž($
+
+%5bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+4
+5*Ñ0
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs  ©("­ª
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs    (*
+%6mojoPortal.Business.Role"mojoPortal.Business.RoleÂ
+¿
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs $  ((
+
+%7void"mojoPortal.Business.Role.Role()* 
+
+%6mojoPortal.Business.Role½
+º
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs   (* 
+rolemojoPortal.Business.Role"__id* 
+
+%6mojoPortal.Business.Roleîë
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¡2 ¡(B
+%8object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+RoleID2this[string].getÂ
+¿
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¡" ¡(C	
+%9int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%8objectÕ
+Ò
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¡ ¡(C
+
+%10int"#mojoPortal.Business.Role.RoleId.set*"
+ 
+rolemojoPortal.Business.Role*
+	
+%9intïì
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¢2 ¢(B
+%11object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SiteID2this[string].getÄ
+Á
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¢" ¢(C
+
+%12int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%11objectÖ
+Ó
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¢ ¢(C
+
+%13int"#mojoPortal.Business.Role.SiteId.set*"
+ 
+rolemojoPortal.Business.Role*
+
+
+%12intôñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs£' £(<
+%14object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+DisplayName2this[string].get²¯
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs£' £(G
+%15string"object.ToString()*
+
+%14object2
+ToString()á
+Þ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs£ £(G
+%16string"(mojoPortal.Business.Role.DisplayName.set*"
+ 
+rolemojoPortal.Business.Role*
+
+%15stringñî
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¤$ ¤(6
+%17object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+RoleName2this[string].get²¯
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¤$ ¤(A
+%18string"object.ToString()*
+
+%17object2
+ToString()Þ
+Û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¤ ¤(A
+%19string"%mojoPortal.Business.Role.RoleName.set*"
+ 
+rolemojoPortal.Business.Role*
+
+%18stringñî
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¥- ¥(?
+%20object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+RoleGuid2this[string].get²¯
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¥- ¥(J
+%21string"object.ToString()*
+
+%20object2
+ToString()”‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¥$ ¥(K
+%22System.Guid"System.GuidÁ
+¾
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¥( ¥(,
+%23void"System.Guid.Guid(string)*
+
+%22System.Guid*
+
+%21stringè
+å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¥ ¥(K
+%24System.Guid"%mojoPortal.Business.Role.RoleGuid.set*"
+ 
+rolemojoPortal.Business.Role*
+
+%22System.Guidñî
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¦- ¦(?
+%25object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SiteGuid2this[string].get²¯
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¦- ¦(J
+%26string"object.ToString()*
+
+%25object2
+ToString()”‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¦$ ¦(K
+%27System.Guid"System.GuidÁ
+¾
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¦( ¦(,
+%28void"System.Guid.Guid(string)*
+
+%27System.Guid*
+
+%26stringè
+å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¦ ¦(K
+%29System.Guid"%mojoPortal.Business.Role.SiteGuid.set*"
+ 
+rolemojoPortal.Business.Role*
+
+%27System.Guidôñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs§7 §(L
+%30object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+MemberCount2this[string].getÄ
+Á
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs§' §(M
+
+%31int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%30objectÛ
+Ø
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs§ §(M
+
+%32int"(mojoPortal.Business.Role.MemberCount.set*"
+ 
+rolemojoPortal.Business.Role*
+
+
+%31intí
+ê
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs© ©(#
+%33void"
+__arrayAdd*7
+5
+roles,System.Collections.ObjectModel.Collection<T>*: *"
+ 
+rolemojoPortal.Business.Role*
+3*x
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¯	 ¯(	*
+6*Ÿ
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs­ ­("©
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs­ ­(7
+5
+roles,System.Collections.ObjectModel.Collection<T>*û
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¯	 ¯(	"…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Role.cs¯ ¯(	
+implicit return:
+siteIdintB"
+mojoPortal.Business.Role

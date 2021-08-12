@@ -1,0 +1,208 @@
+
+rmojoPortal.Web.mojoVirtualPathProvider.GetCacheDependency(string, System.Collections.IEnumerable, System.DateTime)z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.cs^( ^(:"0*ñ
+0z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csd d('å
+â
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csd d((
+
+%0bool":mojoPortal.Web.mojoVirtualPathProvider.IsThemePath(string)**(
+&mojoPortal.Web.mojoVirtualPathProvider*
+
+virtualPathstring*
+1
+2*Œ
+1z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csf) k(=ﬂ‹
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csf6 f(T1
+%1+System.Web.Caching.AggregateCacheDependency"+System.Web.Caching.AggregateCacheDependencyà
+Ö
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csf: f(R
+
+%2void"FSystem.Web.Caching.AggregateCacheDependency.AggregateCacheDependency()*3
+1
+%1+System.Web.Caching.AggregateCacheDependencyı
+Ú
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csf) f(T9
+
+dependency+System.Web.Caching.AggregateCacheDependency"__id*3
+1
+%1+System.Web.Caching.AggregateCacheDependencyÇ
+ˇ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csh) h(M
+%3string"CmojoPortal.Business.WebHelpers.CacheHelper.GetPathToWebConfigFile()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper∞
+≠
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csh h(M
+pathToWebConfigstring"__id*
+
+%3stringÕ 
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csi i(C(
+%4"System.Web.Caching.CacheDependency""System.Web.Caching.CacheDependencyê
+ç
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csi# i(2
+
+%5void":System.Web.Caching.CacheDependency.CacheDependency(string)**
+(
+%4"System.Web.Caching.CacheDependency*
+
+pathToWebConfigstring“
+œ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csi i(D
+
+%6void"\System.Web.Caching.AggregateCacheDependency.Add(params System.Web.Caching.CacheDependency[])*;
+9
+
+dependency+System.Web.Caching.AggregateCacheDependency**
+(
+%4"System.Web.Caching.CacheDependencyÔ
+Ï
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csk k(=
+
+%7bool"<mojoPortal.Web.WebConfigSettings.UseCacheDependencyFiles.get*$""
+ mojoPortal.Web.WebConfigSettings*
+3
+4*©
+3z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csm n(Bç
+ä
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csm2 m(a
+%8string"NmojoPortal.Business.WebHelpers.CacheHelper.GetPathToThemeCacheDependencyFile()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperµ
+≤
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csm m(a
+pathToDependencyFilestring"__id*
+
+%8string◊
+‘
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csn n(C
+
+%9bool"string.IsNullOrEmpty(string)*
+"
+string* 
+
+pathToDependencyFilestring*
+5
+4*«
+5z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csnG n(~ŒÀ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csnV n()
+%10"System.Web.Caching.CacheDependency""System.Web.Caching.CacheDependencyó
+î
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csnZ n(i
+%11void":System.Web.Caching.CacheDependency.CacheDependency(string)*+
+)
+%10"System.Web.Caching.CacheDependency* 
+
+pathToDependencyFilestring’
+“
+{
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csnG n(Ä
+%12void"\System.Web.Caching.AggregateCacheDependency.Add(params System.Web.Caching.CacheDependency[])*;
+9
+
+dependency+System.Web.Caching.AggregateCacheDependency*+
+)
+%10"System.Web.Caching.CacheDependency*
+4*Û
+4z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csq r(9ﬂ
+‹
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csq) q(K
+%13string"1mojoPortal.Web.SiteUtils.GetFullPathToThemeFile()*"
+mojoPortal.Web.SiteUtils±
+Æ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csq q(K
+pathToThemeFilestring"__id*
+
+%13string”
+–
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csr r(:
+%14bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+pathToThemeFilestring*
+6
+7*«
+6z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csv v(JŒÀ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csv' v(K)
+%15"System.Web.Caching.CacheDependency""System.Web.Caching.CacheDependencyí
+è
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csv+ v(:
+%16void":System.Web.Caching.CacheDependency.CacheDependency(string)*+
+)
+%15"System.Web.Caching.CacheDependency*
+
+pathToThemeFilestring‘
+—
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csv v(L
+%17void"\System.Web.Caching.AggregateCacheDependency.Add(params System.Web.Caching.CacheDependency[])*;
+9
+
+dependency+System.Web.Caching.AggregateCacheDependency*+
+)
+%15"System.Web.Caching.CacheDependency*	
+7
+7
+8*ª
+7z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.cs} }(!"π
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.cs} }(";
+9
+
+dependency+System.Web.Caching.AggregateCacheDependency*Ÿ
+2|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csÅ Å(]ë
+é
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csÅ Å(-
+%18&System.Web.Hosting.VirtualPathProvider"3System.Web.Hosting.VirtualPathProvider.Previous.get**(
+&System.Web.Hosting.VirtualPathProviderìê
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csÅ Å(^)
+%19"System.Web.Caching.CacheDependency"rSystem.Web.Hosting.VirtualPathProvider.GetCacheDependency(string, System.Collections.IEnumerable, System.DateTime)*/
+-
+%18&System.Web.Hosting.VirtualPathProvider*
+
+virtualPathstring*;
+9
+virtualPathDependenciesSystem.Collections.IEnumerable*
+
+utcStartSystem.DateTime2KGetCacheDependency(string, System.Collections.IEnumerable, System.DateTime)"´
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csÅ Å(_+
+)
+%19"System.Web.Caching.CacheDependency*ó
+8|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csÇ	 Ç(	"ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoVirtualPathProvider.csÇ Ç(	
+implicit return:
+virtualPathstring:9
+virtualPathDependenciesSystem.Collections.IEnumerable:
+utcStartSystem.DateTimeB*(
+&mojoPortal.Web.mojoVirtualPathProvider

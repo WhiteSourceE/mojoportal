@@ -1,0 +1,332 @@
+
+0mojoPortal.Web.mojoSetup.DoSchemaUpgrade(string)n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÙ Ù($"0*ƒ
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÛ Þ(#Â
+¿
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÛ Û(
+%0log4net.ILog"__id*3*1
+mojoPortal.Web.mojoSetup"
+loglog4net.ILogçä
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÛ Û(1
+
+%1void"log4net.ILog.Debug(object)*
+
+%0log4net.ILog*%#
+!mojoSetup entered DoSchemaUpgrade2Debug(object)†
+ƒ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÜ Ü(N
+
+%2bool"9mojoPortal.Business.DatabaseHelper.CanAlterSchema(string)*&"$
+"mojoPortal.Business.DatabaseHelper*"
+ 
+overrideConnectionInfostringŸ
+œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÜ Ü(N
+canAlterSchemabool"__id*
+
+
+%2boolÑ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÞ Þ(
+%3System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext×
+Ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÞ Þ(#
+
+%4bool""object.operator !=(object, object)*
+"
+object*
+
+%3System.Web.HttpContext*
+""*
+1
+2*{
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÞ( Þ(6*
+3
+2*¼
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csà ë(+ç
+ä
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csà# à(C
+%5System.Version"4mojoPortal.Business.DatabaseHelper.DBSchemaVersion()*&"$
+"mojoPortal.Business.DatabaseHelper¹
+¶
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csà à(C&
+currentSchemaVersionSystem.Version"__id*
+
+%5System.Versionå
+â
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csâ â(2
+%6System.Guid"5mojoPortal.Business.DatabaseHelper.GetApplicationId()*&"$
+"mojoPortal.Business.DatabaseHelper¤
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csâ	 â(2
+appIDSystem.Guid"__id*
+
+%6System.GuidÑ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csä ä(
+%7System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÚ
+×
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csä ä("
+%8System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*
+
+%7System.Web.HttpContextÚ
+×
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cså å(!
+%9string"/mojoPortal.Business.DatabaseHelper.DBPlatform()*&"$
+"mojoPortal.Business.DatabaseHelper­
+ª
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cså å(4
+%10string"string.ToLowerInvariant()*
+
+%9stringÀ
+½
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csä( å(4
+%11string"__concat*!
+~/Setup/SchemaUpgradeScripts/*
+
+%10string¤
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csä( æ(	
+%12string"__concat*
+
+%11string*
+/ã
+à
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csç ç()
+%13string"7mojoPortal.Business.DatabaseHelper.GetApplicationName()*&"$
+"mojoPortal.Business.DatabaseHelper®
+«
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csç ç(<
+%14string"string.ToLowerInvariant()*
+
+%13string®
+«
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csä( ç(<
+%15string"__concat*
+
+%12string*
+
+%14string¤
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csä( è(	
+%16string"__concat*
+
+%15string*
+/ç
+ä
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csä é(
+%17string",System.Web.HttpServerUtility.MapPath(string)*$
+"
+%8System.Web.HttpServerUtility*
+
+%16string¨
+¥
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csã é(
+pathToScriptFolderstring"__id*
+
+%17stringÝ
+Ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csë ë(,
+%18bool""System.IO.Directory.Exists(string)*"
+System.IO.Directory*
+
+pathToScriptFolderstring*
+4
+5*š	
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csí ð(.¬©
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csí# í(H
+%19System.IO.DirectoryInfo"System.IO.DirectoryInfoñ
+î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csí' í(4
+%20void"-System.IO.DirectoryInfo.DirectoryInfo(string)* 
+
+%19System.IO.DirectoryInfo*
+
+pathToScriptFolderstringÅ
+Â
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csí í(H(
+directoryInfoSystem.IO.DirectoryInfo"__id* 
+
+%19System.IO.DirectoryInfoô
+ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csî î(@
+%21System.IO.FileInfo[]"(System.IO.DirectoryInfo.GetFiles(string)**
+(
+directoryInfoSystem.IO.DirectoryInfo*
+
+*.config½
+º
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csî î(@#
+scriptFilesSystem.IO.FileInfo[]"__id*
+
+%21System.IO.FileInfo[]*
+6*{
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs„ „(*
+7
+8*þ
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csò ô( Á
+¾
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csòF ò(S
+%22string"System.IO.FileInfo.Name.get* 
+
+fileInfoSystem.IO.FileInfoˆ
+…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csò ò(T
+%23System.Version"CmojoPortal.Business.DatabaseHelper.ParseVersionFromFileName(string)*&"$
+"mojoPortal.Business.DatabaseHelper*
+
+%22string³
+°
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csò ò(T
+scriptVersionSystem.Version"__id*
+
+%23System.Versionû
+ø
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csô ô( 
+%24bool":System.Version.operator !=(System.Version, System.Version)*"
+System.Version*!
+
+scriptVersionSystem.Version*
+""*
+9
+6*›
+9n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csô& ô(Jœ
+™
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csô& ô(J
+%25bool"9System.Version.operator >(System.Version, System.Version)*"
+System.Version*!
+
+scriptVersionSystem.Version*(
+&
+currentSchemaVersionSystem.Version*
+10
+6*è
+10o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csôO ô(ŠÂ
+¿
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csô} ô(Š
+%26string"System.IO.FileInfo.Name.get* 
+
+fileInfoSystem.IO.FileInfo¢
+Ÿ
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csôP ô(‹
+%27bool"NmojoPortal.Business.DatabaseHelper.SchemaScriptHasBeenRun(System.Guid, string)*&"$
+"mojoPortal.Business.DatabaseHelper*
+
+appIDSystem.Guid*
+
+%26string*
+11
+6*‡
+11n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csö ÷(>ß
+Ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csö ö(H
+%28string"UmojoPortal.Business.DatabaseHelper.RunScript(System.Guid, System.IO.FileInfo, string)*&"$
+"mojoPortal.Business.DatabaseHelper*
+
+appIDSystem.Guid* 
+
+fileInfoSystem.IO.FileInfo*"
+ 
+overrideConnectionInfostring©
+¦
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs÷ ÷(?
+%29void"BmojoPortal.Web.mojoSetup.DoPostScriptTasks(System.Version, string)*"
+mojoPortal.Web.mojoSetup*!
+
+scriptVersionSystem.Version*"
+ 
+overrideConnectionInfostring*
+6*þ
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csý ý([Ã
+À
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csý ý(
+%30log4net.ILog"__id*3*1
+mojoPortal.Web.mojoSetup"
+loglog4net.ILogç
+ä
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csý ý([
+%31string"__concat*97
+5mojoSetup.DoSchemaUpgrade Error could not find path: *
+
+pathToScriptFolderstringÓÐ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csý ý(\
+%32void"log4net.ILog.Error(object)*
+
+%30log4net.ILog*
+
+%31string2Error(object)*
+8*Û
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs‚ ‚(bÃ
+À
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs‚ ‚(
+%33log4net.ILog"__id*3*1
+mojoPortal.Web.mojoSetup"
+loglog4net.ILogš—
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs‚ ‚(c
+%34void"log4net.ILog.Error(object)*
+
+%33log4net.ILog*VT
+RmojoSetup.DoSchemaUpgrade Error: no httpcontext or no permission to alter schema. 2Error(object)*
+8*û
+8n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs„ „("…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs„ „(
+implicit return: 
+overrideConnectionInfostringB"
+mojoPortal.Web.mojoSetup

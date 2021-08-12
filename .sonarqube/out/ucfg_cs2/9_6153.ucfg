@@ -1,0 +1,138 @@
+
+-mojoPortal.Web.WindowsLiveLogin.fetch(string)p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csà à("0*ê
+0p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csä ä(ì
+ê
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csä ä(
+bodystring"__id*
+""*
+1*Ú
+1p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csç ê(`‰
+·
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csç! ç(;
+%0System.Net.WebRequest"$System.Net.WebRequest.Create(string)*"
+System.Net.WebRequest*
+
+urlstring∏
+µ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csç ç(;
+reqSystem.Net.WebRequest"__id*
+
+%0System.Net.WebRequest⁄◊
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csé é("
+%1string" System.Net.WebRequest.Method.set*
+
+reqSystem.Net.WebRequest*
+GET2
+Method.setÁ‰
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csè" è(3
+%2System.Net.WebResponse"#System.Net.WebRequest.GetResponse()*
+
+reqSystem.Net.WebRequest2GetResponse()∫
+∑
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csè è(3
+resSystem.Net.WebResponse"__id*
+
+%2System.Net.WebResponseÔÏ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csê: ê(Q
+%3System.IO.Stream"*System.Net.WebResponse.GetResponseStream()*
+
+resSystem.Net.WebResponse2GetResponseStream() 
+«
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csêS ê(`
+%4System.Text.Encoding"System.Text.Encoding.UTF8.get*"
+System.Text.Encoding´®
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csê) ê(a
+%5System.IO.StreamReader"System.IO.StreamReader¶
+£
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csê- ê(9
+
+%6void"KSystem.IO.StreamReader.StreamReader(System.IO.Stream, System.Text.Encoding)*
+
+%5System.IO.StreamReader*
+
+%3System.IO.Stream*
+
+%4System.Text.Encodingπ
+∂
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csê$ ê(a
+srSystem.IO.StreamReader"__id*
+
+%5System.IO.StreamReader*
+2*Ô
+2p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csí í()‘—
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csí í()
+%7string""System.IO.StreamReader.ReadToEnd()*
+
+srSystem.IO.StreamReader2ReadToEnd()õ
+ò
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csí í()
+bodystring"__id*
+
+%7string*
+3*}
+3p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csõ	 õ(	*
+4
+5*ó
+4p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csó ò(Œ
+À
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csó ó(H
+%8string"__concat*.,
+*Error: fetch: Failed to get the document: *
+
+urlstring•
+¢
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csó ò(
+%9string"__concat*
+
+%8string*
+, ∑
+¥
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csó ò(
+%10string"__concat*
+
+%9string*
+
+eSystem.ExceptionÁ
+‰
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csó ò(
+%11void"-mojoPortal.Web.WindowsLiveLogin.debug(string)*#"!
+mojoPortal.Web.WindowsLiveLogin*
+
+%10string*
+5*¸
+5p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csö ö("Ñ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csö ö(
+
+bodystring*ˇ
+6p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csõ	 õ(	"á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csõ õ(	
+implicit return:
+urlstringB#"!
+mojoPortal.Web.WindowsLiveLogin

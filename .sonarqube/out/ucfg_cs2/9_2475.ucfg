@@ -1,0 +1,608 @@
+
+:mojoPortal.Web.UI.Pages.PasswordResetPage.PopulateLabels()s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs† †(#"0*≥,
+0s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs¢ ©(<˚
+¯
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs¢. ¢(:&
+%0 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsƒ
+¡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs¢< ¢(R
+%1string"$Resources.Resource.PasswordReset.get*"
+Resources.Resource≤
+Ø
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs¢ ¢(S
+%2string"RmojoPortal.Web.SiteUtils.FormatPageTitle(mojoPortal.Business.SiteSettings, string)*"
+mojoPortal.Web.SiteUtils*(
+&
+%0 mojoPortal.Business.SiteSettings*
+
+%1stringÃ
+…
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs¢ ¢(S
+%3string"System.Web.UI.Page.Title.set*
+System.Web.UI.Page*
+
+%2stringÜ
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs§ §("
+%4mojoPortal.Web.UI.mojoButton"__id*b*`+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"1
+btnChangePasswordmojoPortal.Web.UI.mojoButtonÀ
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs§% §(B
+%5string"+Resources.Resource.ChangePasswordButton.get*"
+Resources.ResourceÁ
+‰
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs§ §(B
+%6string")System.Web.UI.WebControls.Button.Text.set*$
+"
+%4mojoPortal.Web.UI.mojoButton*
+
+%5string£
+†
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs• •(0
+%7*System.Web.UI.WebControls.CompareValidator"__id*q*o+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"@
+NewPasswordCompare*System.Web.UI.WebControls.CompareValidator‹
+Ÿ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs•. •(\
+%8string"<Resources.Resource.ChangePasswordMustMatchConfirmMessage.get*"
+Resources.ResourceÑ
+Å
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs• •(\
+%9string"8System.Web.UI.WebControls.BaseValidator.ErrorMessage.set*2
+0
+%7*System.Web.UI.WebControls.CompareValidator*
+
+%8string∏
+µ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs¶ ¶(&7
+%100System.Web.UI.WebControls.RequiredFieldValidator"__id**}+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"N
+ConfirmNewPasswordRequired0System.Web.UI.WebControls.RequiredFieldValidator‰
+·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs¶6 ¶(k
+%11string"CResources.Resource.ChangePasswordConfirmPasswordRequiredMessage.get*"
+Resources.Resourceç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs¶ ¶(k
+%12string"8System.Web.UI.WebControls.BaseValidator.ErrorMessage.set*9
+7
+%100System.Web.UI.WebControls.RequiredFieldValidator*
+
+%11string±
+Æ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csß ß(7
+%130System.Web.UI.WebControls.RequiredFieldValidator"__id*x*v+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"G
+NewPasswordRequired0System.Web.UI.WebControls.RequiredFieldValidatorŸ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csß/ ß(Y
+%14string"8Resources.Resource.ChangePasswordNewPasswordRequired.get*"
+Resources.Resourceç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csß ß(Y
+%15string"8System.Web.UI.WebControls.BaseValidator.ErrorMessage.set*9
+7
+%130System.Web.UI.WebControls.RequiredFieldValidator*
+
+%14string∂
+≥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs® ®(;
+%164System.Web.UI.WebControls.RegularExpressionValidator"__id*y*w+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"H
+NewPasswordRegex4System.Web.UI.WebControls.RegularExpressionValidator·
+ﬁ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs®, ®(^
+%17string"@Resources.Resource.ChangePasswordPasswordRegexFailureMessage.get*"
+Resources.Resourceë
+é
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs® ®(^
+%18string"8System.Web.UI.WebControls.BaseValidator.ErrorMessage.set*=
+;
+%164System.Web.UI.WebControls.RegularExpressionValidator*
+
+%17string¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs© ©('
+%19 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÌ
+Í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs© ©(1
+%20string"9mojoPortal.Business.SiteSettings.PasswordRegexWarning.get*)
+'
+%19 mojoPortal.Business.SiteSettings®
+•
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs© ©(8
+
+%21int"string.Length.get*
+
+%20string*
+1
+2*π	
+1s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs´ ´(Q∂
+≥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs´ ´( ;
+%224System.Web.UI.WebControls.RegularExpressionValidator"__id*y*w+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"H
+NewPasswordRegex4System.Web.UI.WebControls.RegularExpressionValidator¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs´0 ´(<'
+%23 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÌ
+Í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs´0 ´(Q
+%24string"9mojoPortal.Business.SiteSettings.PasswordRegexWarning.get*)
+'
+%23 mojoPortal.Business.SiteSettingsë
+é
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs´ ´(Q
+%25string"8System.Web.UI.WebControls.BaseValidator.ErrorMessage.set*=
+;
+%224System.Web.UI.WebControls.RegularExpressionValidator*
+
+%24string*
+2*ı
+
+2s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csÆ Ø(H∂
+≥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csÆ Æ(;
+%264System.Web.UI.WebControls.RegularExpressionValidator"__id*y*w+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"H
+NewPasswordRegex4System.Web.UI.WebControls.RegularExpressionValidatorÒ
+Ó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csÆ4 Æ(`
+%27string"DSystem.Web.Security.Membership.PasswordStrengthRegularExpression.get*"" 
+System.Web.Security.Membership¶
+£
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csÆ Æ(`
+%28string"MSystem.Web.UI.WebControls.RegularExpressionValidator.ValidationExpression.set*=
+;
+%264System.Web.UI.WebControls.RegularExpressionValidator*
+
+%27stringÒ
+Ó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csØ Ø(<
+%29string"DSystem.Web.Security.Membership.PasswordStrengthRegularExpression.get*"" 
+System.Web.Security.Membership®
+•
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csØ Ø(C
+
+%30int"string.Length.get*
+
+%29string*
+3
+4*«
+3s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs± ±(0∂
+≥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs± ±( ;
+%314System.Web.UI.WebControls.RegularExpressionValidator"__id*y*w+
+)mojoPortal.Web.UI.Pages.PasswordResetPage"H
+NewPasswordRegex4System.Web.UI.WebControls.RegularExpressionValidatoréã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs± ±(0
+%32bool"3System.Web.UI.WebControls.BaseValidator.Enabled.set*=
+;
+%314System.Web.UI.WebControls.RegularExpressionValidator*
+""2Enabled.set*
+4*˚
+4s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs¥ ¥(?¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs¥ ¥('
+%33 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings˘
+ˆ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs¥ ¥(?
+%34bool"GmojoPortal.Business.SiteSettings.ShowPasswordStrengthOnRegistration.get*)
+'
+%33 mojoPortal.Business.SiteSettings*
+5
+6*ø8
+5s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs∑ ø(wõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs∑ ∑('*
+%35#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrengthÔ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs∑ ∑(6
+%36bool"2AjaxControlToolkit.ExtenderControlBase.Enabled.set*,
+*
+%35#AjaxControlToolkit.PasswordStrength*
+""õ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs∏ ∏('*
+%37#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrengthà
+Ö
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs∏ ∏(R
+%38bool"KAjaxControlToolkit.PasswordStrength.RequiresUpperAndLowerCaseCharacters.set*,
+*
+%37#AjaxControlToolkit.PasswordStrength*
+""õ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csπ π('*
+%39#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrength¸
+˘
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csπE π(Å
+
+%40int"OmojoPortal.Web.WebConfigSettings.PasswordStrengthMinimumLowerCaseCharacters.get*$""
+ mojoPortal.Web.WebConfigSettingsÖ
+Ç
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csπ π(Å
+
+%41int"BAjaxControlToolkit.PasswordStrength.MinimumLowerCaseCharacters.set*,
+*
+%39#AjaxControlToolkit.PasswordStrength*
+
+
+%40intõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs∫ ∫('*
+%42#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrength¸
+˘
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs∫E ∫(Å
+
+%43int"OmojoPortal.Web.WebConfigSettings.PasswordStrengthMinimumUpperCaseCharacters.get*$""
+ mojoPortal.Web.WebConfigSettingsÖ
+Ç
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs∫ ∫(Å
+
+%44int"BAjaxControlToolkit.PasswordStrength.MinimumUpperCaseCharacters.set*,
+*
+%42#AjaxControlToolkit.PasswordStrength*
+
+
+%43intõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csª ª('*
+%45#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrength¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csªB ª(N'
+%46 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csªB ª(s
+
+%47int"ImojoPortal.Business.SiteSettings.MinRequiredNonAlphanumericCharacters.get*)
+'
+%46 mojoPortal.Business.SiteSettingsÅ
+˛
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csª ª(s
+
+%48int"?AjaxControlToolkit.PasswordStrength.MinimumSymbolCharacters.set*,
+*
+%45#AjaxControlToolkit.PasswordStrength*
+
+
+%47intõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csº º('*
+%49#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrength¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csºB º(N'
+%50 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÔ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csºB º(h
+
+%51int">mojoPortal.Business.SiteSettings.MinRequiredPasswordLength.get*)
+'
+%50 mojoPortal.Business.SiteSettingsÅ
+˛
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csº º(h
+
+%52int"?AjaxControlToolkit.PasswordStrength.PreferredPasswordLength.set*,
+*
+%49#AjaxControlToolkit.PasswordStrength*
+
+
+%51intõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csΩ Ω('*
+%53#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrengthŒ
+À
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csΩ5 Ω(T
+%54string"-Resources.Resource.PasswordStrengthPrefix.get*"
+Resources.Resource˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csΩ Ω(T
+%55string"2AjaxControlToolkit.PasswordStrength.PrefixText.set*,
+*
+%53#AjaxControlToolkit.PasswordStrength*
+
+%54stringõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csæ æ('*
+%56#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrength‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csæC æ(h
+%57string"3Resources.Resource.PasswordStrengthDescriptions.get*"
+Resources.Resourceà
+Ö
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csæ æ(h
+%58string"@AjaxControlToolkit.PasswordStrength.TextStrengthDescriptions.set*,
+*
+%56#AjaxControlToolkit.PasswordStrength*
+
+%57stringõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csø ø('*
+%59#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrength˘
+ˆ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csø@ ø(w
+%60string"JmojoPortal.Web.WebConfigSettings.PasswordStrengthCalculationWeightings.get*$""
+ mojoPortal.Web.WebConfigSettingsÖ
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csø ø(w
+%61string"=AjaxControlToolkit.PasswordStrength.CalculationWeightings.set*,
+*
+%59#AjaxControlToolkit.PasswordStrength*
+
+%60string*
+7*≈
+
+7t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs√ √(ºõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs√ √(+*
+%62#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrengthÛ
+
+u
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs√á √(∂
+%63string"BmojoPortal.Web.WebConfigSettings.PasswordStrengthIndicatorType.get*$""
+ mojoPortal.Web.WebConfigSettingsË
+Â
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs√\ √(Ω
+%64object",System.Enum.Parse(System.Type, string, bool)*"
+System.Enum*
+""*
+
+%63string*
+""ó
+î
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs√D √(Ω
+%65"__id*
+
+%64object°
+û
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs√ √(Ω0
+%66)AjaxControlToolkit.StrengthIndicatorTypes"=AjaxControlToolkit.PasswordStrength.StrengthIndicatorType.set*,
+*
+%62#AjaxControlToolkit.PasswordStrength*
+
+%65*
+8
+9
+10
+6*œ
+9s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs« «(_õ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs« «(+*
+%67#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrengthç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs«D «(_
+%68"__id*
+""†
+ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs« «(_0
+%69)AjaxControlToolkit.StrengthIndicatorTypes"=AjaxControlToolkit.PasswordStrength.StrengthIndicatorType.set*,
+*
+%67#AjaxControlToolkit.PasswordStrength*
+
+%68*
+10*œ
+8s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csÀ À(_õ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csÀ À(+*
+%70#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrengthç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csÀD À(_
+%71"__id*
+""†
+ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csÀ À(_0
+%72)AjaxControlToolkit.StrengthIndicatorTypes"=AjaxControlToolkit.PasswordStrength.StrengthIndicatorType.set*,
+*
+%70#AjaxControlToolkit.PasswordStrength*
+
+%71*
+10*ª
+
+10t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs– –(™õ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs– –(+*
+%73#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrengthÙ
+Ò
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs–s –(§
+%74string"DmojoPortal.Web.WebConfigSettings.PasswordStrengthDisplayPosition.get*$""
+ mojoPortal.Web.WebConfigSettingsË
+Â
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs–O –(´
+%75object",System.Enum.Parse(System.Type, string, bool)*"
+System.Enum*
+""*
+
+%74string*
+""ó
+î
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs–> –(´
+%76"__id*
+
+%75objectî
+ë
+t
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs– –(´)
+%77"AjaxControlToolkit.DisplayPosition"7AjaxControlToolkit.PasswordStrength.DisplayPosition.set*,
+*
+%73#AjaxControlToolkit.PasswordStrength*
+
+%76*
+11
+12
+6
+6*¬
+12s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs‘ ‘(Wõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs‘ ‘(+*
+%78#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrengthç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs‘> ‘(W
+%79"__id*
+""ì
+ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.cs‘ ‘(W)
+%80"AjaxControlToolkit.DisplayPosition"7AjaxControlToolkit.PasswordStrength.DisplayPosition.set*,
+*
+%78#AjaxControlToolkit.PasswordStrength*
+
+%79*
+6*¬
+11s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csÿ ÿ(Wõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csÿ ÿ(+*
+%81#AjaxControlToolkit.PasswordStrength"__id*o*m+
+)mojoPortal.Web.UI.Pages.PasswordResetPage">
+passwordStrengthChecker#AjaxControlToolkit.PasswordStrengthç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csÿ> ÿ(W
+%82"__id*
+""ì
+ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csÿ ÿ(W)
+%83"AjaxControlToolkit.DisplayPosition"7AjaxControlToolkit.PasswordStrength.DisplayPosition.set*,
+*
+%81#AjaxControlToolkit.PasswordStrength*
+
+%82*
+6*Ö
+6s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csﬁ	 ﬁ(	"ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\PasswordReset.aspx.csﬁ ﬁ(	
+implicit returnB-+
+)mojoPortal.Web.UI.Pages.PasswordResetPage

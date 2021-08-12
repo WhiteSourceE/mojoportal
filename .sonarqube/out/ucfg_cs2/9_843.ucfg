@@ -1,0 +1,146 @@
+
+SmojoPortal.Core.API.MetaWeblog.XMLRPCResponse.ConvertDatetoISO8601(System.DateTime)~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csì ì(2"0*´
+0~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csï ù(√
+¿
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csó ó(	
+%0int"System.DateTime.Year.get*
+
+dateSystem.DateTimeƒ
+¡
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csò ò(	
+%1int"System.DateTime.Month.get*
+
+dateSystem.DateTimeÆ
+´
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csò ò(%
+%2string"int.ToString()*
+	
+%1int…
+∆
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csò ò(5
+%3string"string.PadLeft(int, char)*
+
+%2string*2*
+0¬
+ø
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csô ô(	
+%4int"System.DateTime.Day.get*
+
+dateSystem.DateTimeÆ
+´
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csô ô(#
+%5string"int.ToString()*
+	
+%4int…
+∆
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csô ô(3
+%6string"string.PadLeft(int, char)*
+
+%5string*2*
+0√
+¿
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csö ö(	
+%7int"System.DateTime.Hour.get*
+
+dateSystem.DateTimeÆ
+´
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csö ö($
+%8string"int.ToString()*
+	
+%7int…
+∆
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csö ö(4
+%9string"string.PadLeft(int, char)*
+
+%8string*2*
+0∆
+√
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csõ õ(
+
+%10int"System.DateTime.Minute.get*
+
+dateSystem.DateTime∞
+≠
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csõ õ(&
+%11string"int.ToString()*
+
+
+%10intÀ
+»
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csõ õ(6
+%12string"string.PadLeft(int, char)*
+
+%11string*2*
+0∆
+√
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csú ú(
+
+%13int"System.DateTime.Second.get*
+
+dateSystem.DateTime∞
+≠
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csú ú(&
+%14string"int.ToString()*
+
+
+%13intÀ
+»
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csú ú(6
+%15string"string.PadLeft(int, char)*
+
+%14string*2*
+0¿
+Ω
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csï ú(7
+%16string"&string.Format(string, params object[])*
+"
+string*
+{0}{1}{2}T{3}:{4}:{5}*
+	
+%0int*
+
+%3string*
+
+%6string*
+
+%9string*
+
+%12string*
+
+%15string™
+ß
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csï ú(7
+tempstring"__id*
+
+%16string"í
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csù ù(
+
+tempstring*õ
+1~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csû	 û(	"ï
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\MetaWeblog\XMLRPCResponse.csû û(	
+implicit return:
+dateSystem.DateTimeB1"/
+-mojoPortal.Core.API.MetaWeblog.XMLRPCResponse

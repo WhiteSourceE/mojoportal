@@ -1,0 +1,2755 @@
+
+8mojoPortal.Web.UI.jQueryFileUpload.SetupInstanceScript()z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csê ê(("0*ÛY
+0z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csí √(/ª∏
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csí# í(6
+%0System.Text.StringBuilder"System.Text.StringBuilderŸ
+÷
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csí' í(4
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilderÕ
+ 
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csí í(6#
+scriptSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilderò
+ï
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csì ì(B
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*%#
+!
+<script type="text/javascript">
+⁄◊
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csó6 ó(>
+%3string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getƒ
+¡
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csó ó(>
+%4string"__concat*
+ function addFileToList*
+
+%3stringÕ
+ 
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csó ó(c
+%5string"__concat*
+
+%4string*$"
+  (data, fileList, index, file) {Å
+˛
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csó ó(d
+%6System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%5string€
+ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csú8 ú(J
+%7string"__id*F*D$
+"mojoPortal.Web.UI.jQueryFileUpload"
+deleteSpanCssClassstring≈
+¬
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csú ú(J
+%8string"__concat*
+var d = $("<span class='*
+
+%7string«
+ƒ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csú ú(j
+%9string"__concat*
+
+%8string*
+' title='Remove'></span>")Ç
+ˇ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csú ú(k 
+%10System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%9stringã
+à
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csù ù(0 
+%11System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+.click(function(){ €ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csü@ ü(H
+%12string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.get–
+Õ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csü ü(H
+%13string"__concat*%#
+!var indexAtRuntime = $('#filelist*
+
+%12string„
+‡
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csü ü(Ä
+%14string"__concat*
+
+%13string*75
+3 ul:not(.file-errors) li').index($(this).parent());Ñ
+Å
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csü ü(Å 
+%15System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%14stringû
+õ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs† †(C 
+%16System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder**(
+& data.files.splice(indexAtRuntime,1); ê
+ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¢ ¢(5 
+%17System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+ fileList = data.files; €ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs§+ §(3
+%18string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getª
+∏
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs§ §(3
+%19string"__concat*
+$('#filelist*
+
+%18string“
+œ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs§ §([
+%20string"__concat*
+
+%19string*'%
+# li').eq(indexAtRuntime).remove(); É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs§ §(\ 
+%21System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%20stringì
+ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs• •(8 
+%22System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if(fileList.length === 0) {€ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¶+ ¶(3
+%23string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getª
+∏
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¶ ¶(3
+%24string"__concat*
+$('#filelist*
+
+%23stringª
+∏
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¶ ¶(D
+%25string"__concat*
+
+%24string*
+').html('');É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¶ ¶(E 
+%26System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%25string˙
+˜
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csß ß( 
+%27System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} ¸
+˘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs® ®(! 
+%28System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}); ©
+¶
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs™ ™(P 
+%29System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*53
+1var item = $("<li>", {text:file.name}).append(d);€ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs´- ´(5
+%30string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getº
+π
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs´ ´(5
+%31string"__concat*
+
+$('#filelist*
+
+%30string√
+¿
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs´ ´(N
+%32string"__concat*
+
+%31string*
+ ul').append(item); É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs´ ´(O 
+%33System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%32string˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≠ ≠(! 
+%34System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}
+ €ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csØ7 Ø(?
+%35string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.get«
+ƒ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csØ Ø(?
+%36string"__concat*
+ function addErrorToList*
+
+%35stringæ
+ª
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csØ Ø(S
+%37string"__concat*
+
+%36string*
+ (index,file) {É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csØ Ø(T 
+%38System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%37stringß
+§
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≥ ≥(N 
+%39System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*31
+/var item = $("<li>", {text:file.ErrorMessage});€ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¥- ¥(5
+%40string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getº
+π
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¥ ¥(5
+%41string"__concat*
+
+$('#filelist*
+
+%40string√
+¿
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¥ ¥(N
+%42string"__concat*
+
+%41string*
+ ul').append(item); É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¥ ¥(O 
+%43System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%42string˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∂ ∂(! 
+%44System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}
+ à
+Ö
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csº º(- 
+%45System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$(function () { ﬁ
+€
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs√ √($
+%46string"__id*H*F$
+"mojoPortal.Web.UI.jQueryFileUpload"
+uploadButtonClientIdstringØ
+¨
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs√ √(+
+
+%47int"string.Length.get*
+
+%46string*
+1
+2*ﬁ
+1z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≈ ≈(Kﬁ
+€
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≈' ≈(;
+%48string"__id*H*F$
+"mojoPortal.Web.UI.jQueryFileUpload"
+uploadButtonClientIdstring≥
+∞
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≈ ≈(;
+%49string"__concat*
+$('#*
+
+%48string∫
+∑
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≈ ≈(K
+%50string"__concat*
+
+%49string*
+').hide(); É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≈ ≈(L 
+%51System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%50string*
+2*ö
+2z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs» »(/ﬁ
+€
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs» »($
+%52string"__id*H*F$
+"mojoPortal.Web.UI.jQueryFileUpload"
+browseButtonCssClassstringØ
+¨
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs» »(+
+
+%53int"string.Length.get*
+
+%52string*
+3
+4*Ω
+3z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs   (m€ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs 3  (;
+%54string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getø
+º
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs   (;
+%55string"__concat*
+$('#browseButton*
+
+%54stringº
+π
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs   (M
+%56string"__concat*
+
+%55string*
+').addClass('ﬁ
+€
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs P  (d
+%57string"__id*H*F$
+"mojoPortal.Web.UI.jQueryFileUpload"
+browseButtonCssClassstring∫
+∑
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs   (d
+%58string"__concat*
+
+%56string*
+
+%57string≥
+∞
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs   (m
+%59string"__concat*
+
+%58string*
+'); É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs   (n 
+%60System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%59string*
+4*ú
+4z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ —(8€ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ/ œ(7
+%61string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getø
+º
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ œ(7
+%62string"__concat*
+$('#browseButton*
+
+%61string–
+Õ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ œ(]
+%63string"__concat*
+
+%62string*%#
+!').addClass('fileinput-button'); É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ œ(^ 
+%64System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%63stringÁ
+‰
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs— —(-
+%65string"__id*Q*O$
+"mojoPortal.Web.UI.jQueryFileUpload"'
+browseButtonExtraBottomMarkupstringØ
+¨
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs— —(4
+
+%66int"string.Length.get*
+
+%65string*
+5
+6*÷
+5z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs” ’(TÁ
+‰
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs”2 ”(O
+%67string"__id*Q*O$
+"mojoPortal.Web.UI.jQueryFileUpload"'
+browseButtonExtraBottomMarkupstringΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs” ”(O
+%68string"__concat*
+var btnb = $("*
+
+%67string≥
+∞
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs” ”(Y
+%69string"__concat*
+
+%68string*
+"); É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs” ”(Z 
+%70System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%69string€ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs’B ’(J
+%71string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getŒ
+À
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs’ ’(J
+%72string"__concat*#!
+btnb.prependTo($('#browseButton*
+
+%71string¥
+±
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs’ ’(T
+%73string"__concat*
+
+%72string*	
+')); É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs’ ’(U 
+%74System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%73string*
+6*‰	
+6z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÿ Ÿ(#‡
+›
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÿ@ ÿ(V
+%75string"__id*J*H$
+"mojoPortal.Web.UI.jQueryFileUpload" 
+addFilesButtonCssClassstringœ
+Ã
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÿ ÿ(V
+%76string"__concat*$"
+ var btnText = $("<button class='*
+
+%75string±
+Æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÿ ÿ(]
+%77string"__concat*
+
+%76string*
+'>É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÿ ÿ(^ 
+%78System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%77stringÎ
+Ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csŸ Ÿ(
+
+%79int"6mojoPortal.Web.UI.jQueryFileUpload.MaxFilesAllowed.get*&$
+"mojoPortal.Web.UI.jQueryFileUpload*
+7
+8*„
+7z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs€ €(*÷
+”
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs€ €(*
+%80string"__id*@*>$
+"mojoPortal.Web.UI.jQueryFileUpload"
+addFilesTextstringÉ
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs€ €(+ 
+%81System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%80string*
+9*‚
+8z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csﬂ ﬂ()’
+“
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csﬂ ﬂ()
+%82string"__id*?*=$
+"mojoPortal.Web.UI.jQueryFileUpload"
+addFileTextstringÉ
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csﬂ ﬂ(* 
+%83System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%82string*
+9*ô
+9z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs· Â(5Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs· ·(+ 
+%84System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+</button>"); €ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs„A „(I
+%85string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.get—
+Œ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs„ „(I
+%86string"__concat*&$
+"btnText.prependTo($('#browseButton*
+
+%85string¥
+±
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs„ „(S
+%87string"__concat*
+
+%86string*	
+')); É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs„ „(T 
+%88System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%87string‰
+·
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÂ Â(*
+%89string"__id*N*L$
+"mojoPortal.Web.UI.jQueryFileUpload"$
+browseButtonExtraTopMarkupstringØ
+¨
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÂ Â(1
+
+%90int"string.Length.get*
+
+%89string*
+10
+11*’
+10z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÁ È(T‰
+·
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÁ2 Á(L
+%91string"__id*N*L$
+"mojoPortal.Web.UI.jQueryFileUpload"$
+browseButtonExtraTopMarkupstringΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÁ Á(L
+%92string"__concat*
+var btnt = $("*
+
+%91string≥
+∞
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÁ Á(V
+%93string"__concat*
+
+%92string*
+"); É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÁ Á(W 
+%94System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%93string€ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÈB È(J
+%95string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getŒ
+À
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÈ È(J
+%96string"__concat*#!
+btnt.prependTo($('#browseButton*
+
+%95string¥
+±
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÈ È(T
+%97string"__concat*
+
+%96string*	
+')); É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÈ È(U 
+%98System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%97string*
+11*°
+11z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÏ Ï(î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÏ Ï(
+%99"__id*
+""*
+12
+13*…
+12z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÓ ('‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÓ/ Ó(7
+%100string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÓ Ó(7
+%101string"__concat*
+$('#dropZone*
+
+%100stringæ
+ª
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÓ Ó(I
+%102string"__concat*
+
+%101string*
+').addClass('€
+ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÓL Ó(\
+%103string"__id*D*B$
+"mojoPortal.Web.UI.jQueryFileUpload"
+dropZoneCssClassstringΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÓ Ó(\
+%104string"__concat*
+
+%102string*
+
+%103stringµ
+≤
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÓ Ó(e
+%105string"__concat*
+
+%104string*
+'); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÓ Ó(f!
+%106System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%105stringè
+å
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÔ Ô(8!
+%107System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var dzText = $("<span>Ï
+È
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs (#
+%108int"6mojoPortal.Web.UI.jQueryFileUpload.MaxFilesAllowed.get*&$
+"mojoPortal.Web.UI.jQueryFileUpload*
+14
+15*È
+14z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÚ Ú(/ÿ
+’
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÚ" Ú(/
+%109string"__id*A*?$
+"mojoPortal.Web.UI.jQueryFileUpload"
+dropFilesTextstringÖ
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÚ Ú(0!
+%110System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%109string*
+16*Ë
+15z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csˆ ˆ(.◊
+‘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csˆ" ˆ(.
+%111string"__id*@*>$
+"mojoPortal.Web.UI.jQueryFileUpload"
+dropFileTextstringÖ
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csˆ ˆ(/!
+%112System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%111string*
+16*∫
+16z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¯ ˝($Ñ
+Å
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¯ ¯(-!
+%113System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+</span>"); ‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs˘@ ˘(H
+%114string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getŒ
+À
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs˘ ˘(H
+%115string"__concat*!
+dzText.prependTo($('#dropZone*
+
+%114string∂
+≥
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs˘ ˘(R
+%116string"__concat*
+
+%115string*	
+')); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs˘ ˘(S!
+%117System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%116string©
+¶
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs˚ ˚(Q!
+%118System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*42
+0$(document).bind('drop dragover', function (e) {ç
+ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¸ ¸(5!
+%119System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+e.preventDefault(); ˝
+˙
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs˝ ˝(%!
+%120System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}); *
+13*Æ$
+13z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÇ ã(!‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÇ+ Ç(3
+%121string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÇ Ç(3
+%122string"__concat*
+$('#progress*
+
+%121stringŒ
+À
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÇ Ç(U
+%123string"__concat*
+
+%122string*!
+').progressbar({ value: 0 });Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÇ Ç(V!
+%124System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%123string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÉ+ É(3
+%125string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÉ É(3
+%126string"__concat*
+$('#progress*
+
+%125stringº
+π
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÉ É(C
+%127string"__concat*
+
+%126string*
+').hide(); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÉ É(D!
+%128System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%127string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÖ, Ö(4
+%129string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getæ
+ª
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÖ Ö(4
+%130string"__concat*
+ var fileList*
+
+%129string∏
+µ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÖ Ö(@
+%131string"__concat*
+
+%130string*	
+ = []; Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÖ Ö(A!
+%132System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%131string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csà+ à(3
+%133string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csà à(3
+%134string"__concat*
+$('#pnlFiles*
+
+%133string¿
+Ω
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csà à(G
+%135string"__concat*
+
+%134string*
+').fileupload({Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csà à(H!
+%136System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%135string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csä. ä(6
+%137string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.get¿
+Ω
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csä ä(6
+%138string"__concat*
+fileInput: $('#*
+
+%137string¥
+±
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csä ä(>
+%139string"__concat*
+
+%138string*
+') Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csä ä(?!
+%140System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%139stringï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csã ã(!
+%141"__id*
+""*
+17
+18*ö
+17z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csã% ã(Më
+é
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csã% ã(N!
+%142System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,replaceFileInput:false *
+18*ì
+18z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cså ê(+‡›
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cså& å(*
+%143System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get’
+“
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cså6 å(@
+%144string"__id*>*<$
+"mojoPortal.Web.UI.jQueryFileUpload"
+
+serviceUrlstringÈ
+Ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cså& å(A
+%145string"(System.Web.UI.Control.ResolveUrl(string)*
+
+%143System.Web.UI.Page*
+
+%144string∏
+µ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cså å(A
+%146string"__concat*	
+,url: '*
+
+%145string≤
+Ø
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cså å(G
+%147string"__concat*
+
+%146string*
+'Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cså å(H!
+%148System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%147stringï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csç6 ç(E
+%149"__id*
+""©
+¶
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csç6 ç(P
+%150string"int.ToString()*
+
+%149»
+≈
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csç ç(P
+%151string"__concat*
+,limitMultiFileUploads:*
+
+%150stringÖ
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csç ç(Q!
+%152System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%151stringï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csé7 é(R
+%153"__id*
+""©
+¶
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csé7 é(]
+%154string"int.ToString()*
+
+%153…
+∆
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csé é(]
+%155string"__concat*
+,limitConcurrentUploads:*
+
+%154stringÖ
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csé é(^!
+%156System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%155string◊
+‘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csê ê(
+%157string"__id*@*>$
+"mojoPortal.Web.UI.jQueryFileUpload"
+maxChunkSizestringﬁ
+€
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csê ê(+
+%158bool""string.operator !=(string, string)*
+"
+string*
+
+%157string*
+	undefined*
+19
+20*™
+19z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csê/ ê(\◊
+‘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csêP ê(\
+%159string"__id*@*>$
+"mojoPortal.Web.UI.jQueryFileUpload"
+maxChunkSizestringø
+º
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csê= ê(\
+%160string"__concat*
+,maxChunkSize:*
+
+%159stringÖ
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csê/ ê(]!
+%161System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%160string*
+20*¢
+20z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csë ë(&ï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csë ë(
+%162"__id*
+""*
+21
+22*ó
+21z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csë* ë(hï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csëN ë(]
+%163"__id*
+""©
+¶
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csëN ë(h
+%164string"int.ToString()*
+
+%163¬
+ø
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csë8 ë(h
+%165string"__concat*
+,bitrateInterval:*
+
+%164stringÖ
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csë* ë(i!
+%166System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%165string*
+22*¢
+22z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csì ì("ï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csì ì("
+%167"__id*
+""*
+23
+24*ö
+23z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csì& ì(Në
+é
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csì& ì(O!
+%168System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,singleFileUploads:false*
+24*¢
+24z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csî î(!ï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csî î(!
+%169"__id*
+""*
+25
+26*ö
+25z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csî% î(Më
+é
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csî% î(N!
+%170System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,sequentialUploads: true*
+26*¢
+26z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csñ ñ($ï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csñ ñ($
+%171"__id*
+""*
+27
+28*ù
+27z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csñ( ñ(Sî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csñ( ñ(T!
+%172System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,forceIframeTransport: true*
+28*ù
+28z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csó ó(,‹
+Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csó ó(!
+%173string"__id*E*C$
+"mojoPortal.Web.UI.jQueryFileUpload"
+formAcceptCharsetstring±
+Æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csó ó((
+%174int"string.Length.get*
+
+%173string*
+29
+30*Í
+29z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csó0 ó(n‹
+Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csóW ó(h
+%175string"__id*E*C$
+"mojoPortal.Web.UI.jQueryFileUpload"
+formAcceptCharsetstring≈
+¬
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csó> ó(h
+%176string"__concat*
+,formAcceptCharset:'*
+
+%175string≤
+Ø
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csó> ó(n
+%177string"__concat*
+
+%176string*
+'Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csó0 ó(o!
+%178System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%177string*
+30*¢
+30z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csô ô(ï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csô ô(
+%179"__id*
+""*
+31
+32*Ÿ
+31z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csõ ú(K‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csõ: õ(B
+%180string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.get»
+≈
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csõ õ(B
+%181string"__concat*
+,dropZone: $('#dropZone*
+
+%180string¥
+±
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csõ õ(J
+%182string"__concat*
+
+%181string*
+') Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csõ õ(K!
+%183System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%182string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csú; ú(C
+%184string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.get…
+∆
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csú ú(C
+%185string"__concat*
+,pasteZone: $('#dropZone*
+
+%184string¥
+±
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csú ú(K
+%186string"__concat*
+
+%185string*
+') Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csú ú(L!
+%187System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%186string*
+32*ø
+32z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs† †(%÷
+”
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs† †(
+%188string"__id*?*=$
+"mojoPortal.Web.UI.jQueryFileUpload"
+requestTypestringŸ
+÷
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs† †(%
+%189bool""string.operator !=(string, string)*
+"
+string*
+
+%188string*
+POST*
+33
+34*◊
+33z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs†) †(T÷
+”
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs†C †(N
+%190string"__id*?*=$
+"mojoPortal.Web.UI.jQueryFileUpload"
+requestTypestring∏
+µ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs†7 †(N
+%191string"__concat*	
+,type:'*
+
+%190string≤
+Ø
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs†7 †(T
+%192string"__concat*
+
+%191string*
+'Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs†) †(U!
+%193System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%192string*
+34*´
+34z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs° ¨(*ä
+á
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs° °(.!
+%194System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,dataType: 'json'ì
+ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs£ £(7!
+%195System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,add: function (e, data) {‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¶+ ¶(3
+%196string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¶ ¶(3
+%197string"__concat*
+$('#filelist*
+
+%196stringΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¶ ¶(D
+%198string"__concat*
+
+%197string*
+').html('');Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¶ ¶(E!
+%199System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%198string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csß+ ß(3
+%200string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csß ß(3
+%201string"__concat*
+$('#filelist*
+
+%200string‹
+Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csß ß(e
+%202string"__concat*
+
+%201string*/-
++').append($("<ul class='filelist'></ul>"));Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csß ß(f!
+%203System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%202string⁄
+◊
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¨ ¨(
+%204string"__id*C*A$
+"mojoPortal.Web.UI.jQueryFileUpload"
+acceptFileTypesstring±
+Æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¨ ¨(&
+%205int"string.Length.get*
+
+%204string*
+35
+36*·
+35z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∞ ª("⁄
+◊
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∞. ∞(=
+%206string"__id*C*A$
+"mojoPortal.Web.UI.jQueryFileUpload"
+acceptFileTypesstringº
+π
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∞ ∞(=
+%207string"__concat*
+var regx = *
+
+%206string≥
+∞
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∞ ∞(D
+%208string"__concat*
+
+%207string*
+; Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∞ ∞(E!
+%209System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%208stringÑ
+Å
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs± ±(,!
+%210System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var j = 0; î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≤ ≤(<!
+%211System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var k = data.files.length; â
+Ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≥ ≥(1!
+%212System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+while (j < k) { ™
+ß
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¥ ¥(R!
+%213System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*53
+1if ((regx.test(data.files[j].name)) === false) { í
+è
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∂ ∂(:!
+%214System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+data.files.splice(j, 1); ê
+ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∑ ∑(8!
+%215System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+k = data.files.length; Å
+˛
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∏ ∏()!
+%216System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+j = -1; ˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csπ π(#!
+%217System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} ˇ
+¸
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∫ ∫('!
+%218System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+j ++; ˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csª ª(#!
+%219System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} *
+36*¨é
+36z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csø Ù(7‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csø' ø(/
+%220string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getπ
+∂
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csø ø(/
+%221string"__concat*
+
+fileList*
+
+%220stringº
+π
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csø ø(?
+%222string"__concat*
+
+%221string*
+ = fileList‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csøB ø(J
+%223string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csø ø(J
+%224string"__concat*
+
+%222string*
+
+%223string∆
+√
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csø ø(d
+%225string"__concat*
+
+%224string*
+.concat(data.files); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csø ø(e!
+%226System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%225stringï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¬0 ¬(?
+%227"__id*
+""©
+¶
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¬0 ¬(J
+%228string"int.ToString()*
+
+%227¬
+ø
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¬ ¬(J
+%229string"__concat*
+var maxAllowed = *
+
+%228string≥
+∞
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¬ ¬(Q
+%230string"__concat*
+
+%229string*
+; Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¬ ¬(R!
+%231System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%230string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs√- √(5
+%232string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getø
+º
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs√ √(5
+%233string"__concat*
+while(fileList*
+
+%232string»
+≈
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs√ √(Q
+%234string"__concat*
+
+%233string*
+.length > maxAllowed) {Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs√ √(R!
+%235System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%234string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csƒ' ƒ(/
+%236string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getπ
+∂
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csƒ ƒ(/
+%237string"__concat*
+
+fileList*
+
+%236stringπ
+∂
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csƒ ƒ(<
+%238string"__concat*
+
+%237string*
+
+.pop(); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csƒ ƒ(=!
+%239System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%238string˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≈ ≈(!
+%240System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} ‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs«4 «(<
+%241string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.get∆
+√
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs« «(<
+%242string"__concat*
+data.files = fileList*
+
+%241string≥
+∞
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs« «(C
+%243string"__concat*
+
+%242string*
+; Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs« «(D!
+%244System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%243stringî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs   (8!
+%245System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+if(data.files.length > 0) {‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœD œ(L
+%246string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.get’
+“
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ œ(L
+%247string"__concat*(&
+$var btnSend = $("<button id='btnSend*
+
+%246string∫
+∑
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ œ(Z
+%248string"__concat*
+
+%247string*
+	' class='·
+ﬁ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ] œ(s
+%249string"__id*J*H$
+"mojoPortal.Web.UI.jQueryFileUpload" 
+addFilesButtonCssClassstringΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ œ(s
+%250string"__concat*
+
+%248string*
+
+%249string≥
+∞
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ œ(z
+%251string"__concat*
+
+%250string*
+'>€
+ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs– –(!
+%252string"__id*D*B$
+"mojoPortal.Web.UI.jQueryFileUpload"
+uploadButtonTextstringΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ –(!
+%253string"__concat*
+
+%251string*
+
+%252stringæ
+ª
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ —(!
+%254string"__concat*
+
+%253string*
+</button>"); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csœ —("!
+%255System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%254string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs”< ”(D
+%256string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getŒ
+À
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs” ”(D
+%257string"__concat*!
+btnSend.appendTo($('#filelist*
+
+%256string∂
+≥
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs” ”(N
+%258string"__concat*
+
+%257string*	
+')); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs” ”(O!
+%259System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%258string˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs‘ ‘(!
+%260System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} §
+°
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs◊ ◊(H!
+%261System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*/-
++$.each(data.files, function (index, file) {‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÿ, ÿ(4
+%262string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getæ
+ª
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÿ ÿ(4
+%263string"__concat*
+addFileToList*
+
+%262string¡
+æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÿ ÿ(I
+%264string"__concat*
+
+%263string*
+ (data, fileList‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÿL ÿ(T
+%265string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÿ ÿ(T
+%266string"__concat*
+
+%264string*
+
+%265string¡
+æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÿ ÿ(i
+%267string"__concat*
+
+%266string*
+, index, file); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÿ ÿ(j!
+%268System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%267string˝
+˙
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csŸ Ÿ(!!
+%269System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}); ‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs€* €(2
+%270string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getº
+π
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs€ €(2
+%271string"__concat*
+$('#btnSend*
+
+%270string«
+ƒ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs€ €(M
+%272string"__concat*
+
+%271string*
+').click(function () {Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs€ €(N!
+%273System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%272stringÿ
+’
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs‹^ ‹(k
+%274string"__id*A*?$
+"mojoPortal.Web.UI.jQueryFileUpload"
+uploadingTextstringÒ
+Ó
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs‹> ‹(l
+%275string"2System.Web.HttpUtility.HtmlAttributeEncode(string)*"
+System.Web.HttpUtility*
+
+%274string–
+Õ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs‹ ‹(l
+%276string"__concat*#!
+data.context = $('<p/>').text('*
+
+%275string…
+∆
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs‹ ‹(à
+%277string"__concat*
+
+%276string*
+').replaceAll($(this));Ü
+É
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs‹ ‹(â!
+%278System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%277stringà
+Ö
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs› ›(,!
+%279System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+data.submit(); ˝
+˙
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csﬁ ﬁ(!!
+%280System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}); ˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs‡ ‡(!
+%281System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÈ È(8!
+%282System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,done: function (e, data) {›
+⁄
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÏR Ï(d
+%283string"__id*F*D$
+"mojoPortal.Web.UI.jQueryFileUpload"
+uploadCompleteTextstringÒ
+Ó
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÏ2 Ï(e
+%284string"2System.Web.HttpUtility.HtmlAttributeEncode(string)*"
+System.Web.HttpUtility*
+
+%283stringƒ
+¡
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÏ Ï(e
+%285string"__concat*
+data.context.text('*
+
+%284string¥
+±
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÏ Ï(m
+%286string"__concat*
+
+%285string*
+');Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÏ Ï(n!
+%287System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%286string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÔ+ Ô(3
+%288string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÔ Ô(3
+%289string"__concat*
+$('#progress*
+
+%288stringª
+∏
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÔ Ô(B
+%290string"__concat*
+
+%289string*
+
+').hide();Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÔ Ô(C!
+%291System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%290string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs+ (3
+%292string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs (3
+%293string"__concat*
+$('#filelist*
+
+%292stringΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs (D
+%294string"__concat*
+
+%293string*
+').html('');Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs (E!
+%295System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%294string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÒ' Ò(/
+%296string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getπ
+∂
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÒ Ò(/
+%297string"__concat*
+
+fileList*
+
+%296string∏
+µ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÒ Ò(;
+%298string"__concat*
+
+%297string*	
+ = []; Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÒ Ò(<!
+%299System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%298stringÁ
+‰
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÙ Ù(,
+%300string"__id*P*N$
+"mojoPortal.Web.UI.jQueryFileUpload"&
+returnValueFormFieldClientIdstring±
+Æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÙ Ù(3
+%301int"string.Length.get*
+
+%300string*
+37
+38*Õ
+37z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csˆ ¸("Á
+‰
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csˆ3 ˆ(O
+%302string"__id*P*N$
+"mojoPortal.Web.UI.jQueryFileUpload"&
+returnValueFormFieldClientIdstring¡
+æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csˆ ˆ(O
+%303string"__concat*
+var input = $('#*
+
+%302stringµ
+≤
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csˆ ˆ(X
+%304string"__concat*
+
+%303string*
+'); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csˆ ˆ(Y!
+%305System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%304stringÉ
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs˜ ˜(+!
+%306System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+if(input){´
+®
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs˘ ˘(S!
+%307System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*64
+2if (data.result && $.isArray(data.result.files)) {¶
+£
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs˙ ˙(N!
+%308System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*1/
+-input.val(data.result.files[0].ReturnValue); ˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs˚ ˚(#!
+%309System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} ˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¸ ¸(#!
+%310System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} *
+38*¢#
+38z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÅ î(1‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÅ+ Å(3
+%311string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÅ Å(3
+%312string"__concat*
+$('#filelist*
+
+%311stringË
+Â
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÅ Å(q
+%313string"__concat*
+
+%312string*;9
+7').append($("<ul class='filelist file-errors'></ul>"));Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÅ Å(r!
+%314System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%313stringÑ
+Å
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÉ É((!
+%315System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var j = 0; ï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÑ Ñ(9!
+%316System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder* 
+var errorsOccurred = false; †
+ù
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÖ Ö(D!
+%317System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*+)
+'while (j < data.result.files.length) { †
+ù
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÜ Ü(D!
+%318System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*+)
+'if(data.result.files[j].ErrorMessage) {ê
+ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csà à(4!
+%319System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+errorsOccurred = true; ‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csä- ä(5
+%320string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getø
+º
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csä ä(5
+%321string"__concat*
+addErrorToList*
+
+%320stringÕ
+ 
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csä ä(V
+%322string"__concat*
+
+%321string* 
+ (j, data.result.files[j]); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csä ä(W!
+%323System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%322string˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csç ç(!
+%324System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} ˛
+˚
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csè è("!
+%325System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*	
+j++; ˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csë ë(!
+%326System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} ·
+ﬁ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csî î(&
+%327string"__id*J*H$
+"mojoPortal.Web.UI.jQueryFileUpload" 
+uploadCompleteCallbackstring±
+Æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csî î(-
+%328int"string.Length.get*
+
+%327string*
+39
+40*æ
+39z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csñ ñ(Q·
+ﬁ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csñ ñ(4
+%329string"__id*J*H$
+"mojoPortal.Web.UI.jQueryFileUpload" 
+uploadCompleteCallbackstring…
+∆
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csñ ñ(Q
+%330string"__concat*
+
+%329string*
+(data, errorsOccurred); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csñ ñ(R!
+%331System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%330string*
+40*ü
+40z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csô õ(˙
+˜
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csô ô(!
+%332System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}ï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csõ õ(
+%333"__id*
+""*
+41
+42*Æ
+41z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csù ü(!î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csù ù(<!
+%334System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,fail: function (e, data) {ë
+é
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csû û(9!
+%335System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+alert(data.errorThrown);˙
+˜
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csü ü("!
+%336System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}*
+43*Í"
+42z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs£ ©(!î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs£ £(<!
+%337System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,fail: function (e, data) {‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs§/ §(7
+%338string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs§ §(7
+%339string"__concat*
+$('#filelist*
+
+%338stringΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs§ §(H
+%340string"__concat*
+
+%339string*
+').html('');Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs§ §(I!
+%341System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%340string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs•/ •(7
+%342string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs• •(7
+%343string"__concat*
+$('#filelist*
+
+%342stringË
+Â
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs• •(u
+%344string"__concat*
+
+%343string*;9
+7').append($("<ul class='filelist file-errors'></ul>"));Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs• •(v!
+%345System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%344stringﬁ
+€
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csßb ß(u
+%346string"__id*G*E$
+"mojoPortal.Web.UI.jQueryFileUpload"
+errorOcurredMessagestringÒ
+Ó
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csßB ß(v
+%347string"2System.Web.HttpUtility.HtmlAttributeEncode(string)*"
+System.Web.HttpUtility*
+
+%346stringÕ
+ 
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csß ß(v
+%348string"__concat* 
+var item = $("<li>", {text:"*
+
+%347string∂
+≥
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csß ß(Ä
+%349string"__concat*
+
+%348string*
+"});Ü
+É
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csß ß(Å!
+%350System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%349string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs®1 ®(9
+%351string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getæ
+ª
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs® ®(9
+%352string"__concat*
+
+$('#filelist*
+
+%351string≈
+¬
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs® ®(R
+%353string"__concat*
+
+%352string*
+ ul').append(item); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs® ®(S!
+%354System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%353string˙
+˜
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs© ©("!
+%355System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}*
+43*›
+43z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≠ ∂(,õ
+ò
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≠ ≠(?!
+%356System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*&$
+",progressall: function (e, data) {∂
+≥
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csÆ Æ(Z!
+%357System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*A?
+=var progress = parseInt(data.loaded / data.total * 100, 10); ‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csØ+ Ø(3
+%358string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csØ Ø(3
+%359string"__concat*
+$('#progress*
+
+%358stringº
+π
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csØ Ø(C
+%360string"__concat*
+
+%359string*
+').show(); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csØ Ø(D!
+%361System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%360string‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∞+ ∞(3
+%362string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∞ ∞(3
+%363string"__concat*
+$('#progress*
+
+%362string›
+⁄
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∞ ∞(d
+%364string"__concat*
+
+%363string*0.
+,').progressbar('option', 'value', progress);Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∞ ∞(e!
+%365System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%364string˙
+˜
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs± ±(!
+%366System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}¸
+˘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs≥ ≥( !
+%367System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});‹
+Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∂ ∂(!
+%368string"__id*E*C$
+"mojoPortal.Web.UI.jQueryFileUpload"
+formFieldClientIdstring±
+Æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∂ ∂((
+%369int"string.Length.get*
+
+%368string*
+44
+45*ò
+44z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∏ ª($‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∏/ ∏(7
+%370string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.getΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∏ ∏(7
+%371string"__concat*
+$('#pnlFiles*
+
+%370string·
+ﬁ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∏ ∏(l
+%372string"__concat*
+
+%371string*42
+0').bind('fileuploadsubmit', function (e, data) {Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∏ ∏(m!
+%373System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%372string‹
+Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csπ3 π(D
+%374string"__id*E*C$
+"mojoPortal.Web.UI.jQueryFileUpload"
+formFieldClientIdstring¡
+æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csπ π(D
+%375string"__concat*
+var input = $('#*
+
+%374stringµ
+≤
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csπ π(M
+%376string"__concat*
+
+%375string*
+'); Ö
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csπ π(N!
+%377System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%376string°
+û
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∫ ∫(I!
+%378System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*,*
+(data.formData = {frmData: input.val()}; ˝
+˙
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csª ª(%!
+%379System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}); *
+45*ƒ
+45z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csø »(˝
+˙
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.csø ø(!!
+%380System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}); É
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs¡ ¡((!
+%381System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+
+</script>‹Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs∆ ∆(
+%382string""System.Web.UI.Control.UniqueID.get*
+System.Web.UI.Control2UniqueID.get‹
+Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs« «(!
+%383string"$System.Text.StringBuilder.ToString()*%
+#
+scriptSystem.Text.StringBuilder˜
+Ù
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs√ »(
+%384void"kSystem.Web.UI.ScriptManager.RegisterStartupScript(System.Web.UI.Control, System.Type, string, string, bool)*"
+System.Web.UI.ScriptManager*&$
+"mojoPortal.Web.UI.jQueryFileUpload*
+""*
+
+%382string*
+
+%383string*
+""*
+46*î
+46z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs 	  (	"ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\jQuery\jQueryFileUpload.cs   (	
+implicit returnB&$
+"mojoPortal.Web.UI.jQueryFileUpload

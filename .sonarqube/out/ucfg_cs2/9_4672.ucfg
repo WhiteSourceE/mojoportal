@@ -1,0 +1,217 @@
+
+4mojoPortal.Web.UI.PageTitle.OnInit(System.EventArgs)j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs.  .(&"0*û
+0j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs0 6(ˇ¸
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs0 0(
+
+%0void".System.Web.UI.Control.OnInit(System.EventArgs)*
+mojoPortal.Web.UI.PageTitle*
+
+eSystem.EventArgs2OnInit(System.EventArgs)å
+â
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs4 4(
+pageIdint"__id*
+""ˇ
+¸
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs5 5(E	
+%1int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+pageid*
+""ë
+é
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs5 5(E
+pageIdint"__id*
+	
+%1int*
+1
+2*»
+2j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs6$ 6(3ŒÀ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs6$ 6((
+%2System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get*
+1
+3*∫
+1j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs8 9('Ñ
+Å
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs8+ 8(G&
+%3 mojoPortal.Business.PageSettings";mojoPortal.Business.WebHelpers.CacheHelper.GetCurrentPage()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper–
+Õ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs8 8(G/
+currentPage mojoPortal.Business.PageSettings"__id*(
+&
+%3 mojoPortal.Business.PageSettingsÊ
+„
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs9 9('
+
+%4bool""object.operator ==(object, object)*
+"
+object*1
+/
+currentPage mojoPortal.Business.PageSettings*
+""*
+4
+5*Â
+4j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csJ	 J(	"t
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs9+ 9(2
+""*ﬁ
+5j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs: :(0‰
+·
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs: :(0
+
+%5bool"4mojoPortal.Business.PageSettings.ShowPageHeading.get*1
+/
+currentPage mojoPortal.Business.PageSettings*
+6
+7*Â
+6j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csJ	 J(	"t
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs:4 :(;
+""*¸
+7j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs< <(5‚
+ﬂ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs< <(*
+%6string"0mojoPortal.Business.PageSettings.PageHeading.get*1
+/
+currentPage mojoPortal.Business.PageSettingsù
+ö
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs< <(1	
+%7int"string.Length.get*
+
+%6string*
+8
+9*ì
+8j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs> >(XÌ
+Í
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs> >('
+%8!System.Web.UI.WebControls.Literal"__id*M*K
+mojoPortal.Web.UI.PageTitle"*
+Title!System.Web.UI.WebControls.Literal‚
+ﬂ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs>A >(X
+%9string"0mojoPortal.Business.PageSettings.PageHeading.get*1
+/
+currentPage mojoPortal.Business.PageSettingsﬁ
+€
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs>! >(Y
+%10string"2System.Web.HttpUtility.HtmlAttributeEncode(string)*"
+System.Web.HttpUtility*
+
+%9stringÊ
+„
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs> >(Y
+%11string"*System.Web.UI.WebControls.Literal.Text.set*)
+'
+%8!System.Web.UI.WebControls.Literal*
+
+%10string*
+3*ˇ
+9j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs@ @(9·
+ﬁ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs@ @(.
+%12string".mojoPortal.Business.PageSettings.PageTitle.get*1
+/
+currentPage mojoPortal.Business.PageSettingsü
+ú
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.cs@ @(5
+
+%13int"string.Length.get*
+
+%12string*
+10
+11*ñ
+10j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csB B(VÓ
+Î
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csB B((
+%14!System.Web.UI.WebControls.Literal"__id*M*K
+mojoPortal.Web.UI.PageTitle"*
+Title!System.Web.UI.WebControls.Literal·
+ﬁ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csBA B(V
+%15string".mojoPortal.Business.PageSettings.PageTitle.get*1
+/
+currentPage mojoPortal.Business.PageSettingsﬂ
+‹
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csB! B(W
+%16string"2System.Web.HttpUtility.HtmlAttributeEncode(string)*"
+System.Web.HttpUtility*
+
+%15stringÁ
+‰
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csB B(W
+%17string"*System.Web.UI.WebControls.Literal.Text.set**
+(
+%14!System.Web.UI.WebControls.Literal*
+
+%16string*
+3*ï
+11j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csF F(UÓ
+Î
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csF F((
+%18!System.Web.UI.WebControls.Literal"__id*M*K
+mojoPortal.Web.UI.PageTitle"*
+Title!System.Web.UI.WebControls.Literal‡
+›
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csFA F(U
+%19string"-mojoPortal.Business.PageSettings.PageName.get*1
+/
+currentPage mojoPortal.Business.PageSettingsﬂ
+‹
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csF! F(V
+%20string"2System.Web.HttpUtility.HtmlAttributeEncode(string)*"
+System.Web.HttpUtility*
+
+%19stringÁ
+‰
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csF F(V
+%21string"*System.Web.UI.WebControls.Literal.Text.set**
+(
+%18!System.Web.UI.WebControls.Literal*
+
+%20string*
+3*Û
+3j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csJ	 J(	"Å
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageTitle.csJ J(	
+implicit return:
+eSystem.EventArgsB
+mojoPortal.Web.UI.PageTitle

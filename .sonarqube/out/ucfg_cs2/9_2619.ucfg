@@ -1,0 +1,397 @@
+
+?mojoPortal.Web.Dialog.AvatarUploadDialog.GetFullSizeImageName()v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cs` `(+"0*Ù
+0v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csb c(1Æ
+´
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csb& b(2
+%0string"__id**
+string"
+Emptystring≠
+™
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csb b(2
+fullSizeFileNamestring"__id*
+
+%0stringÉ
+Ä
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csc c("
+%1mojoPortal.Business.SiteUser"__id*\*Z*
+(mojoPortal.Web.Dialog.AvatarUploadDialog",
+selectedUsermojoPortal.Business.SiteUser€
+ÿ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csc c(&
+%2string"*mojoPortal.Business.SiteUser.AvatarUrl.get*$
+"
+%1mojoPortal.Business.SiteUser©
+¶
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csc c(-	
+%3int"string.Length.get*
+
+%2string*
+1
+2*≠
+1v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cse f(KÉ
+Ä
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cse, e(8"
+%4mojoPortal.Business.SiteUser"__id*\*Z*
+(mojoPortal.Web.Dialog.AvatarUploadDialog",
+selectedUsermojoPortal.Business.SiteUser’
+“
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cse, e(?	
+%5int"'mojoPortal.Business.SiteUser.UserId.get*$
+"
+%4mojoPortal.Business.SiteUser˜
+Ù
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cse, e(S
+%6string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+	
+%5int≠
+™
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cse# e(S
+%7string"__concat*
+user*
+
+%6string±
+Æ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cse# e(`
+%8string"__concat*
+
+%7string*
+
+fullsizeÑ
+Å
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cseu e(Å"
+%9mojoPortal.Business.SiteUser"__id*\*Z*
+(mojoPortal.Web.Dialog.AvatarUploadDialog",
+selectedUsermojoPortal.Business.SiteUser›
+⁄
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cseu e(ã
+%10string"*mojoPortal.Business.SiteUser.AvatarUrl.get*$
+"
+%9mojoPortal.Business.SiteUser’
+“
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csec e(å
+%11string"#System.IO.Path.GetExtension(string)*"
+System.IO.Path*
+
+%10string∂
+≥
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cse# e(å
+%12string"__concat*
+
+%8string*
+
+%11stringØ
+¨
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cse e(å
+fullSizeFileNamestring"__id*
+
+%12stringå
+â
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csf f((
+%13!mojoPortal.FileSystem.IFileSystem"__id*_*]*
+(mojoPortal.Web.Dialog.AvatarUploadDialog"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystem⁄
+◊
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csf* f(8
+%14string"__id*H*F*
+(mojoPortal.Web.Dialog.AvatarUploadDialog"
+avatarBasePathstring√
+¿
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csf* f(K
+%15string"__concat*
+
+%14string*
+
+fullSizeFileNamestringèå
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csf f(L
+%16bool"4mojoPortal.FileSystem.IFileSystem.FileExists(string)**
+(
+%13!mojoPortal.FileSystem.IFileSystem*
+
+%15string2FileExists(string)*
+3
+2*î
+3v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csfW f(g"ñ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csfP f(h
+
+fullSizeFileNamestring*¡
+2v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csi j(GÑ
+Å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csi( i(4#
+%17mojoPortal.Business.SiteUser"__id*\*Z*
+(mojoPortal.Web.Dialog.AvatarUploadDialog",
+selectedUsermojoPortal.Business.SiteUser◊
+‘
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csi( i(;
+
+%18int"'mojoPortal.Business.SiteUser.UserId.get*%
+#
+%17mojoPortal.Business.SiteUser˘
+ˆ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csi( i(O
+%19string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+
+
+%18intØ
+¨
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csi i(O
+%20string"__concat*
+user*
+
+%19string∑
+¥
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csi i(`
+%21string"__concat*
+
+%20string*
+fullsize.jpgÆ
+´
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csi i(`
+fullSizeFileNamestring"__id*
+
+%21stringå
+â
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csj j((
+%22!mojoPortal.FileSystem.IFileSystem"__id*_*]*
+(mojoPortal.Web.Dialog.AvatarUploadDialog"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystem⁄
+◊
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csj& j(4
+%23string"__id*H*F*
+(mojoPortal.Web.Dialog.AvatarUploadDialog"
+avatarBasePathstring√
+¿
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csj& j(G
+%24string"__concat*
+
+%23string*
+
+fullSizeFileNamestringèå
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csj j(H
+%25bool"4mojoPortal.FileSystem.IFileSystem.FileExists(string)**
+(
+%22!mojoPortal.FileSystem.IFileSystem*
+
+%24string2FileExists(string)*
+4
+5*î
+4v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csjS j(c"ñ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csjL j(d
+
+fullSizeFileNamestring*¡
+5v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csl m(GÑ
+Å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csl( l(4#
+%26mojoPortal.Business.SiteUser"__id*\*Z*
+(mojoPortal.Web.Dialog.AvatarUploadDialog",
+selectedUsermojoPortal.Business.SiteUser◊
+‘
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csl( l(;
+
+%27int"'mojoPortal.Business.SiteUser.UserId.get*%
+#
+%26mojoPortal.Business.SiteUser˘
+ˆ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csl( l(O
+%28string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+
+
+%27intØ
+¨
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csl l(O
+%29string"__concat*
+user*
+
+%28string∑
+¥
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csl l(`
+%30string"__concat*
+
+%29string*
+fullsize.gifÆ
+´
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csl l(`
+fullSizeFileNamestring"__id*
+
+%30stringå
+â
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csm m((
+%31!mojoPortal.FileSystem.IFileSystem"__id*_*]*
+(mojoPortal.Web.Dialog.AvatarUploadDialog"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystem⁄
+◊
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csm& m(4
+%32string"__id*H*F*
+(mojoPortal.Web.Dialog.AvatarUploadDialog"
+avatarBasePathstring√
+¿
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csm& m(G
+%33string"__concat*
+
+%32string*
+
+fullSizeFileNamestringèå
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csm m(H
+%34bool"4mojoPortal.FileSystem.IFileSystem.FileExists(string)**
+(
+%31!mojoPortal.FileSystem.IFileSystem*
+
+%33string2FileExists(string)*
+6
+7*î
+6v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csmS m(c"ñ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csmL m(d
+
+fullSizeFileNamestring*¡
+7v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cso p(GÑ
+Å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cso( o(4#
+%35mojoPortal.Business.SiteUser"__id*\*Z*
+(mojoPortal.Web.Dialog.AvatarUploadDialog",
+selectedUsermojoPortal.Business.SiteUser◊
+‘
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cso( o(;
+
+%36int"'mojoPortal.Business.SiteUser.UserId.get*%
+#
+%35mojoPortal.Business.SiteUser˘
+ˆ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cso( o(O
+%37string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+
+
+%36intØ
+¨
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cso o(O
+%38string"__concat*
+user*
+
+%37string∑
+¥
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cso o(`
+%39string"__concat*
+
+%38string*
+fullsize.pngÆ
+´
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cso o(`
+fullSizeFileNamestring"__id*
+
+%39stringå
+â
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csp p((
+%40!mojoPortal.FileSystem.IFileSystem"__id*_*]*
+(mojoPortal.Web.Dialog.AvatarUploadDialog"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystem⁄
+◊
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csp& p(4
+%41string"__id*H*F*
+(mojoPortal.Web.Dialog.AvatarUploadDialog"
+avatarBasePathstring√
+¿
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csp& p(G
+%42string"__concat*
+
+%41string*
+
+fullSizeFileNamestringèå
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csp p(H
+%43bool"4mojoPortal.FileSystem.IFileSystem.FileExists(string)**
+(
+%40!mojoPortal.FileSystem.IFileSystem*
+
+%42string2FileExists(string)*
+8
+9*î
+8v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cspS p(c"ñ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.cspL p(d
+
+fullSizeFileNamestring*π
+9v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.css s(Ø
+¨
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.css s(
+%44string"__id**
+string"
+Emptystring"â
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.css s( 
+
+%44string*å
+10v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csu	 u(	"ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\AvatarUploadDialog.aspx.csu u(	
+implicit returnB,*
+(mojoPortal.Web.Dialog.AvatarUploadDialog

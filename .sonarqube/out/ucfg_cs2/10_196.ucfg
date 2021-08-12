@@ -1,0 +1,723 @@
+
+NmojoPortal.Data.DBEvents.GetEventsTable(int, System.DateTime, System.DateTime)ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∞  ∞(."0*Æv
+0ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csµ œ(2Å
+˛
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csµ< µ(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionString‡›
+å
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csµ% µ(å(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperœ
+Ã
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csµ) µ(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*" 
+mp_CalendarEvents_SelectByDate*2Ô
+Ï
+å
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csµ µ(å)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∂0 ∂(=
+%3"__id*
+""•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∂? ∂(W
+%4"__id*
+""Ô
+Ï
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∂ ∂(b
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@ModuleID*
+
+%3*
+
+%4*
+""•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∑1 ∑(C
+%6"__id*
+""•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∑E ∑(]
+%7"__id*
+""à
+Ö
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∑ ∑(i
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@BeginDate*
+
+%6*
+
+%7*
+
+	beginDateSystem.DateTime•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∏/ ∏(A
+%9"__id*
+""¶
+£
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∏C ∏([
+%10"__id*
+""Ü
+É
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∏ ∏(e
+%11void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@EndDate*
+
+%9*
+
+%10*
+
+endDateSystem.DateTime∆√
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∫ ∫(*
+%12System.Data.DataTable"System.Data.DataTable·
+ﬁ
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∫ ∫((
+%13void"!System.Data.DataTable.DataTable()*
+
+%12System.Data.DataTable‘
+—
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∫ ∫(*
+dtSystem.Data.DataTable"__id*
+
+%12System.Data.DataTable¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csº º('
+%14 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable™
+ß
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csº º(1
+%15System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%14 System.Data.DataColumnCollection*
+
+ItemID*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csΩ Ω('
+%16 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable¨
+©
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csΩ Ω(3
+%17System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%16 System.Data.DataColumnCollection*
+
+ModuleID*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csæ æ('
+%18 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable©
+¶
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csæ æ(3
+%19System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%18 System.Data.DataColumnCollection*	
+Title*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csø ø('
+%20 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTableØ
+¨
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csø ø(0
+%21System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%20 System.Data.DataColumnCollection*
+Description*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs¿ ¿('
+%22 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable≠
+™
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs¿ ¿(.
+%23System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%22 System.Data.DataColumnCollection*
+	ImageName*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs¡ ¡('
+%24 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable≠
+™
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs¡ ¡(0
+%25System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%24 System.Data.DataColumnCollection*
+	EventDate*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs¬ ¬('
+%26 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable≠
+™
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs¬ ¬(0
+%27System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%26 System.Data.DataColumnCollection*
+	StartTime*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs√ √('
+%28 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable´
+®
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs√ √(.
+%29System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%28 System.Data.DataColumnCollection*	
+EndTime*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csƒ ƒ('
+%30 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTableØ
+¨
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csƒ ƒ(2
+%31System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%30 System.Data.DataColumnCollection*
+CreatedDate*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs≈ ≈('
+%32 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable™
+ß
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs≈ ≈((
+%33System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%32 System.Data.DataColumnCollection*
+
+UserID*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∆ ∆('
+%34 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable¨
+©
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs∆ ∆(+
+%35System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%34 System.Data.DataColumnCollection*
+
+ItemGuid*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs« «('
+%36 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTableÆ
+´
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs« «(-
+%37System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%36 System.Data.DataColumnCollection*
+
+ModuleGuid*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs» »('
+%38 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable¨
+©
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs» »(+
+%39System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%38 System.Data.DataColumnCollection*
+
+UserGuid*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs… …('
+%40 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable¨
+©
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs… …(-
+%41System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%40 System.Data.DataColumnCollection*
+
+Location*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs   ('
+%42 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable≥
+∞
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs   (2
+%43System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%42 System.Data.DataColumnCollection*
+LastModUserGuid*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÀ À('
+%44 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTableÆ
+´
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÀ À(1
+%45System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%44 System.Data.DataColumnCollection*
+
+LastModUtc*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÃ Ã('
+%46 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTableØ
+¨
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÃ Ã(1
+%47System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%46 System.Data.DataColumnCollection*
+TicketPrice*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÕ Õ('
+%48 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable≤
+Ø
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÕ Õ(1
+%49System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%48 System.Data.DataColumnCollection*
+RequiresTicket*
+""¸
+˘
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csŒ Œ('
+%50 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+dtSystem.Data.DataTable´
+®
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csŒ Œ(*
+%51System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%50 System.Data.DataColumnCollection*	
+ShowMap*
+""í
+è
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csœ œ(2
+%52System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper‹
+Ÿ
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csœ œ(2!
+readerSystem.Data.IDataReader"__id* 
+
+%52System.Data.IDataReader*
+1*á
+1ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs— —($ÎË
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs— —($
+%53bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*ˆU
+2ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs” Á(Ï
+È
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs”" ”(-
+%54System.Data.DataRow"System.Data.DataTable.NewRow()*
+
+dtSystem.Data.DataTable—
+Œ
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs” ”(-
+rowSystem.Data.DataRow"__id*
+
+%54System.Data.DataRowçä
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs‘$ ‘(4
+%55object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ItemID2this[string].get
+Ì
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs‘ ‘(4
+%56object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+ItemIDèå
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs’& ’(8
+%57object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ModuleID2this[string].getÚ
+Ô
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs’ ’(8
+%58object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+ModuleIDåâ
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs÷# ÷(2
+%59object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Title2this[string].getÔ
+Ï
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs÷ ÷(2
+%60object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+Titleíè
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs◊ ◊(/
+%61object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Description2this[string].getı
+Ú
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs◊ ◊(/
+%62object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+Descriptionêç
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÿ ÿ(+
+%63object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	ImageName2this[string].getÛ
+
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÿ ÿ(+
+%64object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+	ImageNameêç
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csŸ' Ÿ(:
+%65object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	EventDate2this[string].getÛ
+
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csŸ Ÿ(:
+%66object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+	EventDateêç
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs⁄ ⁄(+
+%67object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	StartTime2this[string].getÛ
+
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs⁄ ⁄(+
+%68object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+	StartTimeéã
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs€ €('
+%69object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+EndTime2this[string].getÒ
+Ó
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs€ €('
+%70object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+EndTimeíè
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs‹ ‹(/
+%71object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+CreatedDate2this[string].getı
+Ú
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs‹ ‹(/
+%72object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+CreatedDateçä
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs› ›(%
+%73object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UserID2this[string].get
+Ì
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs› ›(%
+%74object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+UserIDèå
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csﬁ ﬁ()
+%75object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ItemGuid2this[string].getÚ
+Ô
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csﬁ ﬁ()
+%76object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+ItemGuidëé
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csﬂ ﬂ(-
+%77object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ModuleGuid2this[string].getÙ
+Ò
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csﬂ ﬂ(-
+%78object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+ModuleGuidèå
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs‡ ‡()
+%79object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UserGuid2this[string].getÚ
+Ô
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs‡ ‡()
+%80object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+UserGuidèå
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs· ·()
+%81object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+Location2this[string].getÚ
+Ô
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs· ·()
+%82object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+Locationñì
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs‚ ‚(7
+%83object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+LastModUserGuid2this[string].get˘
+ˆ
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs‚ ‚(7
+%84object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+LastModUserGuidëé
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs„ „(-
+%85object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+LastModUtc2this[string].getÙ
+Ò
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs„ „(-
+%86object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+LastModUtcíè
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs‰ ‰(/
+%87object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+TicketPrice2this[string].getı
+Ú
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.cs‰ ‰(/
+%88object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+TicketPriceïí
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÂ Â(5
+%89object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+RequiresTicket2this[string].get¯
+ı
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÂ Â(5
+%90object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+RequiresTicketéã
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÊ Ê('
+%91object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+ShowMap2this[string].getÒ
+Ó
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÊ Ê('
+%92object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+ShowMapˆ
+Û
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÁ Á($
+%93System.Data.DataRowCollection"System.Data.DataTable.Rows.get*
+
+dtSystem.Data.DataTableÙ
+Ò
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÁ Á(
+%94void"
+__arrayAdd*&
+$
+%93System.Data.DataRowCollection*: *
+
+rowSystem.Data.DataRow*
+1*ñ
+3ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÌ	 Ì(	*
+4*¡
+4ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÏ Ï("≠
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÏ Ï(
+
+dtSystem.Data.DataTable*∑
+5ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÌ	 Ì(	"£
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\EventCalendar\DBEvents.csÌ Ì(	
+implicit return:
+moduleIdint:
+	beginDateSystem.DateTime:
+endDateSystem.DateTimeB"
+mojoPortal.Data.DBEvents

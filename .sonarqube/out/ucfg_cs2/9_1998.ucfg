@@ -1,0 +1,89 @@
+
+|mojoPortal.Web.UI.Pages.RegisterWithOpenId.OpenIdLogin1_LoggedIn(object, DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs)v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.csY Y(,"0*≈
+0v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.cs^ h(&â
+Ü
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.cs^ ^(
+
+%0bool"=DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs.Cancel.set*9
+7
+e2DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs*
+""˛
+˚
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.csa a(&
+%1 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings›
+⁄
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.csa a(#	
+%2int"+mojoPortal.Business.SiteSettings.SiteId.get*(
+&
+%1 mojoPortal.Business.SiteSettings®
+•
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.csb b(#&
+%3 DotNetOpenAuth.OpenId.Identifier"HDotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs.ClaimedIdentifier.get*9
+7
+e2DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs“œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.csb b(.
+%4string"object.ToString()*(
+&
+%3 DotNetOpenAuth.OpenId.Identifier2
+ToString()é
+ã
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.cs` b(/
+%5System.Guid"?mojoPortal.Business.SiteUser.GetUserGuidFromOpenId(int, string)* "
+mojoPortal.Business.SiteUser*
+	
+%2int*
+
+%4stringØ
+¨
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.cs` b(/
+userGuidSystem.Guid"__id*
+
+%5System.Guidè
+å
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.csh h(&
+%6"__id*
+""*
+1
+2*‰
+1v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.csl l( ·
+ﬁ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.csl l(!
+
+%7void"mmojoPortal.Web.UI.Pages.RegisterWithOpenId.DoNewUserLogic(DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs)*.,
+*mojoPortal.Web.UI.Pages.RegisterWithOpenId*9
+7
+e2DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs*
+3*¢
+2v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.csq q(,ü
+ú
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.csq q(-
+
+%8void"KmojoPortal.Web.UI.Pages.RegisterWithOpenId.DoExistingUserLogic(System.Guid)*.,
+*mojoPortal.Web.UI.Pages.RegisterWithOpenId*
+
+userGuidSystem.Guid*
+3*ã
+3v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.csu	 u(	"ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\RegisterWithOpenID.aspx.csu u(	
+implicit return:
+senderobject:7
+e2DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgsB.,
+*mojoPortal.Web.UI.Pages.RegisterWithOpenId

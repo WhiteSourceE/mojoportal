@@ -1,0 +1,76 @@
+
+KmojoPortal.Data.DBContentWorkflow.GetWorkInProgressCountByPage(System.Guid)}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.cs§ §(6"0*ê
+0}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.cs© «(6ò
+ï
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.cs©< ©(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÑÎ
+~
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.cs©% ©(™(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÍ
+Ê
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.cs©) ©(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*/-
++mp_ContentWorkflow_GetInProgressCountByPage*2à
+Ý
+~
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.cs© ©(™)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper–
+“
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.csª0 ª(J
+%3"__id*
+""–
+“
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.csªL ª(d
+%4"__id*
+""à
+Ý
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.csª ª(o
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@PageGuid*
+
+%3*
+
+%4*
+""ñ
+î
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.cs«# «(6
+%6object"2mojoPortal.Data.SqlParameterHelper.ExecuteScalar()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperÑ
+Î
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.cs« «(7	
+%7int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%6object"Œ
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.cs« «(8
+	
+%7int*™
+1}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.cs¬	 ¬(	"”
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBContentWorkflow.cs¬ ¬(	
+implicit return:
+pageGuidSystem.GuidB%"#
+!mojoPortal.Data.DBContentWorkflow

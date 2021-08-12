@@ -1,0 +1,150 @@
+
+HPollFeature.Data.DBPollOption.Add(System.Guid, System.Guid, string, int)„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.cs; ;("0*¶#
+0„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csA G(û
+ø
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csA< A(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÙÖ
+…
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csA% A(„(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper¿
+¼
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csA) A(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*
+mp_PollOptions_Insert*2è
+å
+…
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csA A(„)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperž
+›
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csB2 B(L
+%3"__id*
+""ž
+›
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csBN B(f
+%4"__id*
+""ê
+ç
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csB B(s
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@OptionGuid*
+
+%3*
+
+%4*
+""ž
+›
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csC0 C(J
+%6"__id*
+""ž
+›
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csCL C(d
+%7"__id*
+""è
+å
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csC C(o
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@PollGuid*
+
+%6*
+
+%7*
+""ž
+›
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csD. D(@
+%9"__id*
+""Ÿ
+œ
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csDG D(_
+%10"__id*
+""
+þ
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csD D(h
+%11void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@Answer*
+
+%9*2ÿ*
+
+%10*
+
+answerstringŸ
+œ
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csE- E(:
+%12"__id*
+""Ÿ
+œ
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csE< E(T
+%13"__id*
+""è
+å
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csE E(\
+%14void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@Order*
+
+%12*
+
+%13*
+""ù
+ö
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csF F(4
+
+%15int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper³
+°
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csF F(4
+rowsAffectedint"__id*
+
+
+%15int"ž
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csG G( 
+
+rowsAffectedint*©
+1„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csI	 I(	"œ
+„
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Poll\DBPollOption.csI I(	
+implicit return:
+
+optionGuidSystem.Guid:
+pollGuidSystem.Guid:
+answerstring:
+orderintB!"
+PollFeature.Data.DBPollOption

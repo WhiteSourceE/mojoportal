@@ -1,0 +1,1218 @@
+
+ÕmojoPortal.Net.Email.Send(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string, string, string, bool, string, System.Collections.Generic.List<System.Net.Mail.Attachment>, out string)j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs£ £("0* 
+0j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs≤ ≤('–
+Õ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs≤ ≤('
+
+%0bool""string.operator ==(string, string)*
+"
+string*
+
+tostring*
+admin@admin.com*
+1
+2*ú
+1j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¥ µ(¥
+±
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¥ ¥(6
+resultstring"__id*+)
+'can't use admin@admin.com email address"t
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csµ µ(
+""*¨
+2j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∏ ∏(Hì
+ê
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∏ ∏(18
+%12System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManager÷
+”
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∏ ∏(@
+%2string"
+__arrayGet*:
+8
+%12System.Collections.Specialized.NameValueCollection*
+DisableSmtp√
+¿
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∏ ∏(H
+
+%3bool""string.operator !=(string, string)*
+"
+string*
+
+%2string*
+""*
+3
+4*∞
+3k
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∏N ∏(áì
+ê
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∏N ∏(n8
+%42System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManager÷
+”
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∏N ∏(}
+%5string"
+__arrayGet*:
+8
+%42System.Collections.Specialized.NameValueCollection*
+DisableSmtp∆
+√
+k
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∏N ∏(á
+
+%6bool""string.operator ==(string, string)*
+"
+string*
+
+%5string*
+true*
+5
+4*ª
+5j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∫ º(≈
+¬
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∫ ∫(G
+resultstring"__id*<:
+8Not Sending email because DisableSmtp is true in config.∫
+∑
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csª ª(
+%7log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILogŒÀ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csª ª( 
+
+%8void"log4net.ILog.Info(object)*
+
+%7log4net.ILog*
+
+resultstring2Info(object)"t
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csº º(
+""*‹
+4j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csø ø(%‚
+ﬂ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csø ø(%
+
+%9bool""object.operator ==(object, object)*
+"
+object*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+""*
+6
+7*Œ
+7j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csø+ ø(@‘
+—
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csø, ø(@
+%10bool"'mojoPortal.Net.SmtpSettings.IsValid.get*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+6
+8*µ
+6j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¡ √(∫
+∑
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¡ ¡(<
+resultstring"__id*1/
+-Invalid smtp settings detected in Email.Send ª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¬ ¬(
+%11log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILog“œ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¬ ¬(
+%12void"log4net.ILog.Error(object)*
+
+%11log4net.ILog*
+
+resultstring2Error(object)"t
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs√ √(
+""*ˇ
+8j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆ ∆(Ñ
+Å
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆ ∆(
+%13"__id*
+""*
+9
+10*ã
+9j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆ ∆(zª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆ ∆(
+%14log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILog¢
+ü
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%15string"__concat*
+""*
+
+fromstring°
+û
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%16string"__concat*
+
+%15string*
+""©
+¶
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%17string"__concat*
+
+%16string*
+
+tostring°
+û
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%18string"__concat*
+
+%17string*
+""©
+¶
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%19string"__concat*
+
+%18string*
+
+ccstring°
+û
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%20string"__concat*
+
+%19string*
+""™
+ß
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%21string"__concat*
+
+%20string*
+
+bccstring°
+û
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%22string"__concat*
+
+%21string*
+""Æ
+´
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%23string"__concat*
+
+%22string*
+
+subjectstring°
+û
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%24string"__concat*
+
+%23string*
+""≤
+Ø
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%25string"__concat*
+
+%24string*
+
+messageBodystring°
+û
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%26string"__concat*
+
+%25string*
+""°
+û
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%27string"__concat*
+
+%26string*
+""°
+û
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%28string"__concat*
+
+%27string*
+""Ø
+¨
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%29string"__concat*
+
+%28string*
+
+prioritystring°
+û
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆$ ∆(}
+%30string"__concat*
+
+%29string*
+""œÃ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs∆ ∆(~
+%31void"log4net.ILog.Debug(object)*
+
+%14log4net.ILog*
+
+%30string2Debug(object)*
+10*º
+10j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs» »(7∞≠
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs»& »(7"
+%32System.Net.Mail.MailMessage"System.Net.Mail.MailMessageÕ
+ 
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs»* »(5
+%33void")System.Net.Mail.MailMessage.MailMessage()*$
+"
+%32System.Net.Mail.MailMessage¿
+Ω
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs» »(7#
+mailSystem.Net.Mail.MailMessage"__id*$
+"
+%32System.Net.Mail.MailMessage*
+11*»
+11j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs  Õ('œ
+Ã
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs   (6
+%34void"amojoPortal.Net.Email.SetMessageEncoding(mojoPortal.Net.SmtpSettings, System.Net.Mail.MailMessage)*"
+mojoPortal.Net.Email*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*%
+#
+mailSystem.Net.Mail.MailMessage*
+12*¢
+12j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs– –(,•
+¢
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs– –((
+
+%35int"string.Length.get*
+
+	fromAliasstring*
+13
+14*˙
+13j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs“ “(E∞≠
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs“& “(F"
+%36System.Net.Mail.MailAddress"System.Net.Mail.MailAddressÑ
+Å
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs“* “(5
+%37void"7System.Net.Mail.MailAddress.MailAddress(string, string)*$
+"
+%36System.Net.Mail.MailAddress*
+
+fromstring*
+
+	fromAliasstring«
+ƒ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs“ “(F*
+fromAddressSystem.Net.Mail.MailAddress"__id*$
+"
+%36System.Net.Mail.MailAddress*
+15*€
+14j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs÷ ÷(:∞≠
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs÷& ÷(;"
+%38System.Net.Mail.MailAddress"System.Net.Mail.MailAddressÂ
+‚
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs÷* ÷(5
+%39void"/System.Net.Mail.MailAddress.MailAddress(string)*$
+"
+%38System.Net.Mail.MailAddress*
+
+fromstring«
+ƒ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs÷ ÷(;*
+fromAddressSystem.Net.Mail.MailAddress"__id*$
+"
+%38System.Net.Mail.MailAddress*
+15*Ç
+15j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¯	 ¯(	*
+16
+17
+18
+19*´
+17j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs€ ﬁ( ¢
+ü
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs€ €(,
+%40string"__concat*
+""*
+
+fromstringò
+ï
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs€ €(,
+resultstring"__id*
+
+%40stringª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‹ ‹(
+%41log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILog“œ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‹ ‹(%
+%42void"log4net.ILog.Error(object)*
+
+%41log4net.ILog*
+
+resultstring2Error(object)ª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs› ›(
+%43log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILog·
+ﬁ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs› ›(g
+%44string"__concat*><
+:no valid from address was provided so not sending message *
+
+messageBodystringÕ 
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs› ›(h
+%45void"log4net.ILog.Info(object)*
+
+%43log4net.ILog*
+
+%44string2Info(object)"t
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csﬁ ﬁ(!
+""*´
+16j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‚ Â( ¢
+ü
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‚ ‚(,
+%46string"__concat*
+""*
+
+fromstringò
+ï
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‚ ‚(,
+resultstring"__id*
+
+%46stringª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs„ „(
+%47log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILog“œ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs„ „(
+%48void"log4net.ILog.Error(object)*
+
+%47log4net.ILog*
+
+resultstring2Error(object)ª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‰ ‰(
+%49log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILog·
+ﬁ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‰ ‰(X
+%50string"__concat*><
+:no valid from address was provided so not sending message *
+
+messageBodystringÕ 
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‰ ‰(Y
+%51void"log4net.ILog.Info(object)*
+
+%49log4net.ILog*
+
+%50string2Info(object)"t
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÂ Â(!
+""*ø
+18j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csË Î(8é
+ã
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csË Ë('"
+%52System.Net.Mail.MailAddress"$System.Net.Mail.MailMessage.From.set*%
+#
+mailSystem.Net.Mail.MailMessage*,
+*
+fromAddressSystem.Net.Mail.MailAddressº
+π
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÍ+ Í(?
+%53string"string.Replace(string, string)*
+
+tostring*
+;*
+,û
+õ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÍ+ Í(P)
+%54"System.Collections.Generic.List<T>"?mojoPortal.Web.Framework.StringHelper.SplitOnChar(string, char)*)"'
+%mojoPortal.Web.Framework.StringHelper*
+
+%53string*
+,’
+“
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÍ Í(P1
+toAddresses"System.Collections.Generic.List<T>"__id*+
+)
+%54"System.Collections.Generic.List<T>*
+20*z
+20j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¯	 ¯(	*
+21
+22*∞	
+21j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÔ$ (%∞≠
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÔ( Ô(B"
+%55System.Net.Mail.MailAddress"System.Net.Mail.MailAddressÍ
+Á
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÔ, Ô(7
+%56void"/System.Net.Mail.MailAddress.MailAddress(string)*$
+"
+%55System.Net.Mail.MailAddress*
+
+	toAddressstringΩ
+∫
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÔ$ Ô(B 
+aSystem.Net.Mail.MailAddress"__id*$
+"
+%55System.Net.Mail.MailAddressË
+Â
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs (,
+%57%System.Net.Mail.MailAddressCollection""System.Net.Mail.MailMessage.To.get*%
+#
+mailSystem.Net.Mail.MailMessage‡
+›
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs (&
+%58void"
+__arrayAdd*.
+,
+%57%System.Net.Mail.MailAddressCollection*: *"
+ 
+aSystem.Net.Mail.MailAddress*
+23
+24
+20
+19* 
+24j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÙ Ù(Lª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÙ Ù(
+%59log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILog¡
+æ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÙ" Ù(L
+%60string"__concat* 
+ignoring invalid to address *
+
+	toAddressstringœÃ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÙ Ù(M
+%61void"log4net.ILog.Error(object)*
+
+%59log4net.ILog*
+
+%60string2Error(object)*
+20* 
+23j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¯ ¯(Lª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¯ ¯(
+%62log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILog¡
+æ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¯" ¯(L
+%63string"__concat* 
+ignoring invalid to address *
+
+	toAddressstringœÃ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¯ ¯(M
+%64void"log4net.ILog.Error(object)*
+
+%62log4net.ILog*
+
+%63string2Error(object)*
+20*À
+22j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs˝ ˝(&Ë
+Â
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs˝ ˝(,
+%65%System.Net.Mail.MailAddressCollection""System.Net.Mail.MailMessage.To.get*%
+#
+mailSystem.Net.Mail.MailMessage„
+‡
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs˝ ˝(!
+
+%66int"6System.Collections.ObjectModel.Collection<T>.Count.get*.
+,
+%65%System.Net.Mail.MailAddressCollection*
+25
+26*¿
+25j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csˇ Å( ©
+¶
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csˇ ˇ(V
+%67string"__concat*
+""*
+
+messageBodystringò
+ï
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csˇ ˇ(V
+resultstring"__id*
+
+%67stringª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÄ Ä(
+%68log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILog“œ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÄ Ä(
+%69void"log4net.ILog.Error(object)*
+
+%68log4net.ILog*
+
+resultstring2Error(object)"t
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÅ Å(!
+""*†
+26j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÑ Ñ(&£
+†
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÑ Ñ("
+
+%70int"string.Length.get*
+
+replyTostring*
+27
+28*Ä
+27j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csà$ â(3∞≠
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csà3 à(K"
+%71System.Net.Mail.MailAddress"System.Net.Mail.MailAddressË
+Â
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csà7 à(B
+%72void"/System.Net.Mail.MailAddress.MailAddress(string)*$
+"
+%71System.Net.Mail.MailAddress*
+
+replyTostring»
+≈
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csà$ à(K+
+replyAddressSystem.Net.Mail.MailAddress"__id*$
+"
+%71System.Net.Mail.MailAddressí
+è
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csâ â(3"
+%73System.Net.Mail.MailAddress"'System.Net.Mail.MailMessage.ReplyTo.set*%
+#
+mailSystem.Net.Mail.MailMessage*-
++
+replyAddressSystem.Net.Mail.MailAddress*
+29
+30
+28
+19*Õ
+30j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csç ç(Oª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csç ç(
+%74log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILogƒ
+¡
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csç" ç(O
+%75string"__concat*%#
+!ignoring invalid replyto address *
+
+replyTostringœÃ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csç ç(P
+%76void"log4net.ILog.Error(object)*
+
+%74log4net.ILog*
+
+%75string2Error(object)*
+28*Õ
+29j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csë ë(Oª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csë ë(
+%77log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILogƒ
+¡
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csë" ë(O
+%78string"__concat*%#
+!ignoring invalid replyto address *
+
+replyTostringœÃ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csë ë(P
+%79void"log4net.ILog.Error(object)*
+
+%77log4net.ILog*
+
+%78string2Error(object)*
+28*õ
+28j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csï ï(!û
+õ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csï ï(
+
+%80int"string.Length.get*
+
+ccstring*
+31
+32*Æ
+31j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csó! ô(<º
+π
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csó/ ó(C
+%81string"string.Replace(string, string)*
+
+ccstring*
+;*
+,û
+õ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csó/ ó(T)
+%82"System.Collections.Generic.List<T>"?mojoPortal.Web.Framework.StringHelper.SplitOnChar(string, char)*)"'
+%mojoPortal.Web.Framework.StringHelper*
+
+%81string*
+,’
+“
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csó! ó(T1
+ccAddresses"System.Collections.Generic.List<T>"__id*+
+)
+%82"System.Collections.Generic.List<T>*
+33*z
+33j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¯	 ¯(	*
+34
+32*∞	
+34j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csù( û()∞≠
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csù, ù(F"
+%83System.Net.Mail.MailAddress"System.Net.Mail.MailAddressÍ
+Á
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csù0 ù(;
+%84void"/System.Net.Mail.MailAddress.MailAddress(string)*$
+"
+%83System.Net.Mail.MailAddress*
+
+	ccAddressstringΩ
+∫
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csù( ù(F 
+aSystem.Net.Mail.MailAddress"__id*$
+"
+%83System.Net.Mail.MailAddressË
+Â
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csû û(#,
+%85%System.Net.Mail.MailAddressCollection""System.Net.Mail.MailMessage.CC.get*%
+#
+mailSystem.Net.Mail.MailMessage‡
+›
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csû û(*
+%86void"
+__arrayAdd*.
+,
+%85%System.Net.Mail.MailAddressCollection*: *"
+ 
+aSystem.Net.Mail.MailAddress*
+35
+36
+33
+19* 
+36j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¢ ¢(Pª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¢ ¢(
+%87log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILog¡
+æ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¢& ¢(P
+%88string"__concat* 
+ignoring invalid cc address *
+
+	ccAddressstringœÃ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¢ ¢(Q
+%89void"log4net.ILog.Error(object)*
+
+%87log4net.ILog*
+
+%88string2Error(object)*
+33* 
+35j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¶ ¶(Pª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¶ ¶(
+%90log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILog¡
+æ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¶& ¶(P
+%91string"__concat* 
+ignoring invalid cc address *
+
+	ccAddressstringœÃ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¶ ¶(Q
+%92void"log4net.ILog.Error(object)*
+
+%90log4net.ILog*
+
+%91string2Error(object)*
+33*ú
+32j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¨ ¨("ü
+ú
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¨ ¨(
+
+%93int"string.Length.get*
+
+bccstring*
+37
+38*∞
+37j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÆ! ∞(>Ω
+∫
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÆ0 Æ(E
+%94string"string.Replace(string, string)*
+
+bccstring*
+;*
+,û
+õ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÆ0 Æ(V)
+%95"System.Collections.Generic.List<T>"?mojoPortal.Web.Framework.StringHelper.SplitOnChar(string, char)*)"'
+%mojoPortal.Web.Framework.StringHelper*
+
+%94string*
+,÷
+”
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÆ! Æ(V2
+bccAddresses"System.Collections.Generic.List<T>"__id*+
+)
+%95"System.Collections.Generic.List<T>*
+39*z
+39j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¯	 ¯(	*
+40
+38*≤	
+40j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¥( µ(*∞≠
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¥, ¥(G"
+%96System.Net.Mail.MailAddress"System.Net.Mail.MailAddressÎ
+Ë
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¥0 ¥(;
+%97void"/System.Net.Mail.MailAddress.MailAddress(string)*$
+"
+%96System.Net.Mail.MailAddress*
+
+
+bccAddressstringΩ
+∫
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¥( ¥(G 
+aSystem.Net.Mail.MailAddress"__id*$
+"
+%96System.Net.Mail.MailAddressÈ
+Ê
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csµ µ($,
+%98%System.Net.Mail.MailAddressCollection"#System.Net.Mail.MailMessage.Bcc.get*%
+#
+mailSystem.Net.Mail.MailMessage‡
+›
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csµ µ(+
+%99void"
+__arrayAdd*.
+,
+%98%System.Net.Mail.MailAddressCollection*: *"
+ 
+aSystem.Net.Mail.MailAddress*
+41
+42
+39
+19*»
+42j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csπ π(Iº
+π
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csπ π(
+%100log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILogª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csπ& π(I
+%101string"__concat*
+invalid bcc address *
+
+
+bccAddressstring“œ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csπ π(J
+%102void"log4net.ILog.Error(object)*
+
+%100log4net.ILog*
+
+%101string2Error(object)*
+39*»
+41j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csΩ Ω(Iº
+π
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csΩ Ω(
+%103log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILogª
+∏
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csΩ& Ω(I
+%104string"__concat*
+invalid bcc address *
+
+
+bccAddressstring“œ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csΩ Ω(J
+%105void"log4net.ILog.Error(object)*
+
+%103log4net.ILog*
+
+%104string2Error(object)*
+39*‹
+38j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs√ ≈( ˇ
+¸
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs√ √(9
+%106string">mojoPortal.Web.Framework.StringHelper.RemoveLineBreaks(string)*)"'
+%mojoPortal.Web.Framework.StringHelper*
+
+subjectstring·
+ﬁ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs√ √(9
+%107string"'System.Net.Mail.MailMessage.Subject.set*%
+#
+mailSystem.Net.Mail.MailMessage*
+
+%106string*
+43*z
+43j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs≈ ≈( *
+44
+45*Ò
+44j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs» »(9Ö
+Ç
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs»( »(9
+%108"__id*
+""
+Ì
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs» »(9$
+%109System.Net.Mail.MailPriority"(System.Net.Mail.MailMessage.Priority.set*%
+#
+mailSystem.Net.Mail.MailMessage*
+
+%108*
+46*z
+45j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs≈ ≈( *
+47
+48*Ò
+47j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÃ Ã(8Ö
+Ç
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÃ( Ã(8
+%110"__id*
+""
+Ì
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÃ Ã(8$
+%111System.Net.Mail.MailPriority"(System.Net.Mail.MailMessage.Priority.set*%
+#
+mailSystem.Net.Mail.MailMessage*
+
+%110*
+46*z
+48j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs≈ ≈( *
+49
+49*Ò
+49j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs— —(;Ö
+Ç
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs—( —(;
+%112"__id*
+""
+Ì
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs— —(;$
+%113System.Net.Mail.MailPriority"(System.Net.Mail.MailMessage.Priority.set*%
+#
+mailSystem.Net.Mail.MailMessage*
+
+%112*
+46*z
+46j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÿ ÿ(*
+50
+51*Å
+50j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs⁄ ‹(Dÿ
+’
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs⁄ ⁄(*
+%114bool"*System.Net.Mail.MailMessage.IsBodyHtml.set*%
+#
+mailSystem.Net.Mail.MailMessage*
+""Ã
+…
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‹  ‹(E
+%115string"string.Replace(string, string)*
+
+messageBodystring*
+¬†*
+
+&nbsp;ﬁ
+€
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‹ ‹(E
+%116string"$System.Net.Mail.MailMessage.Body.set*%
+#
+mailSystem.Net.Mail.MailMessage*
+
+%115string*
+52*ﬁ
+51j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‡ ‡(+Â
+‚
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‡ ‡(+
+%117string"$System.Net.Mail.MailMessage.Body.set*%
+#
+mailSystem.Net.Mail.MailMessage*
+
+messageBodystring*
+52*Á
+52j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‰ ‰('Í
+Á
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs‰ ‰('
+%118bool""object.operator !=(object, object)*
+"
+object*3
+1
+attachments"System.Collections.Generic.List<T>*
+""*
+53
+54*v
+53j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÊ- Ê(8*
+55*z
+55j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¯	 ¯(	*
+56
+54*Õ
+56j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csË Ë(.Ò
+Ó
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csË Ë((,
+%119$System.Net.Mail.AttachmentCollection"+System.Net.Mail.MailMessage.Attachments.get*%
+#
+mailSystem.Net.Mail.MailMessage‡
+›
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csË Ë(/
+%120void"
+__arrayAdd*.
+,
+%119$System.Net.Mail.AttachmentCollection*: *!
+
+aSystem.Net.Mail.Attachment*
+55*‹
+54j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÏ Ï(2ﬂ
+‹
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÏ Ï(2
+%121bool"1mojoPortal.Net.SmtpSettings.AddBulkMailHeader.get*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+57
+58*©
+57j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÓ Ó(9˚
+¯
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÓ Ó( :
+%1222System.Collections.Specialized.NameValueCollection"'System.Net.Mail.MailMessage.Headers.get*%
+#
+mailSystem.Net.Mail.MailMessage≤Ø
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÓ Ó(:
+%123void"FSystem.Collections.Specialized.NameValueCollection.Add(string, string)*<
+:
+%1222System.Collections.Specialized.NameValueCollection*
+
+Precedence*
+bulk2Add(string, string)*
+58*”
+58j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÚ Ú(:‚
+ﬂ
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÚ Ú(;
+%124bool"_mojoPortal.Net.Email.Send(mojoPortal.Net.SmtpSettings, System.Net.Mail.MailMessage, out string)*"
+mojoPortal.Net.Email*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*%
+#
+mailSystem.Net.Mail.MailMessage*
+
+resultstring"|
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÚ Ú(<
+
+%124bool*v
+59j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¯	 ¯(	*
+19*Ù
+19j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¯	 ¯(	"Å
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs¯ ¯(	
+implicit return:+
+smtpSettingsmojoPortal.Net.SmtpSettings:
+fromstring:
+	fromAliasstring:
+replyTostring:
+tostring:
+ccstring:
+bccstring:
+subjectstring:
+messageBodystring:
+htmlbool:
+prioritystring:1
+attachments"System.Collections.Generic.List<T>:
+resultstringB"
+mojoPortal.Net.Email

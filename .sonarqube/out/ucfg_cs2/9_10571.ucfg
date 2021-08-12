@@ -1,0 +1,204 @@
+
+UmojoPortal.Web.mojoMembershipProvider.ChangeFromClearTextPasswordsToEncrypted(object){
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csº º(<"0*ò
+0{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¼ ½(±
+®
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¼  ¼(?
+%0object"__id*
+
+objSiteSettingsobjectÀ
+½
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¼ ¼(?(
+site mojoPortal.Business.SiteSettings"__id*
+
+%0objectð
+í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs½ ½(
+
+%1bool""object.operator ==(object, object)*
+"
+object**
+(
+site mojoPortal.Business.SiteSettings*
+""*
+1
+2*ˆ
+1{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÓ	 Ó(	"…
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs½ ½(%
+""*·
+2{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¿ À(0ä
+á
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¿L ¿(W	
+%2int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+site mojoPortal.Business.SiteSettings’
+
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¿  ¿(X
+%3System.Data.DataTable"DmojoPortal.Business.SiteUser.GetUserListForPasswordFormatChange(int)* "
+mojoPortal.Business.SiteUser*
+	
+%2intÇ
+Ä
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¿ ¿(X 
+dtUsersSystem.Data.DataTable"__id*
+
+%3System.Data.DataTableé
+æ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÀ$ À(0#
+%4System.Data.DataRowCollection"System.Data.DataTable.Rows.get*"
+ 
+dtUsersSystem.Data.DataTable*
+3*ˆ
+3{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÓ	 Ó(	*
+4
+5*š
+4{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÄ É(rÞ
+Û
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÄ1 Ä(>
+%5object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+
+UserIDÏ
+Ì
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÄ! Ä(?	
+%6int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%5object¢
+Ÿ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÄ Ä(?
+userIdint"__id*
+	
+%6intÛ
+Ø
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÅ) Å(3
+%7object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+Pwd½º
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÅ) Å(>
+%8string"object.ToString()*
+
+%7object2
+ToString()­
+ª
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÅ Å(>
+oldPasswordstring"__id*
+
+%8stringñ
+î
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÆE Æ(m
+%9string";mojoPortal.Web.WebConfigSettings.PasswordGeneratorChars.get*$""
+ mojoPortal.Web.WebConfigSettingsˆ
+…
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÆ" Æ(n
+%10string">mojoPortal.Business.SiteUser.CreateRandomPassword(int, string)* "
+mojoPortal.Business.SiteUser*2€*
+
+%9string§
+¤
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÆ Æ(n
+saltstring"__id*
+
+%10stringÄ
+Á
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÇ5 Ç(G
+%11string"__concat*
+
+saltstring*
+
+oldPasswordstring•
+’
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÇI Ç(k
+%12"__id*
+""À
+½
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÇ& Ç(l
+%13string"jmojoPortal.Web.mojoMembershipProvider.EncodePassword(string, System.Web.Security.MembershipPasswordFormat)*)'
+%mojoPortal.Web.mojoMembershipProvider*
+
+%11string*
+
+%12«
+¨
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÇ Ç(l
+passwordstring"__id*
+
+%13string•
+’
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÉ@ É(b
+%14"__id*
+""–
+“
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÉ; É(b
+%15"__id*
+
+%14¿
+¼
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÉ É(s
+%16bool"LmojoPortal.Business.SiteUser.UpdatePasswordAndSalt(int, int, string, string)* "
+mojoPortal.Business.SiteUser*
+
+userIdint*
+
+%15*
+
+passwordstring*
+
+saltstring*
+6
+3*¢
+6{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÐ Ð(KÝ
+Ú
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÐ Ð(
+%17log4net.ILog"__id*@*>'
+%mojoPortal.Web.mojoMembershipProvider"
+loglog4net.ILogº·
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÐ Ð(L
+%18void",log4net.ILog.Error(object, System.Exception)*
+
+%17log4net.ILog*+)
+'ChangeFromClearTextPasswordsToEncrypted*
+
+exSystem.Exception2Error(object, System.Exception)*
+3*•
+5{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÓ	 Ó(	"’
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÓ Ó(	
+implicit return:
+objSiteSettingsobjectB)'
+%mojoPortal.Web.mojoMembershipProvider

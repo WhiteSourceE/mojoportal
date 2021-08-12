@@ -1,0 +1,190 @@
+
+DmojoPortal.Web.AdminUI.ServerLog.Page_Load(object, System.EventArgs)l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs% %( "0*
+0l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs' '(Ç
+Ä
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs' '(
+%0System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÉ
+Æ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs' '(
+
+%1bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%0System.Web.HttpRequest*
+1
+2*ò
+1l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs) )(&†
+ƒ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs) )('
+
+%2void"CmojoPortal.Web.SiteUtils.RedirectToLoginPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*$"
+ mojoPortal.Web.AdminUI.ServerLog"v
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs* *(
+""*Ù
+2l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs, ,(Ý
+Ú
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs,	 ,(
+
+%3bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+3
+4*Ò
+4l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs, ,(;ô
+ñ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs, ,()&
+%4 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsß
+Ü
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs, ,(;
+
+%5bool"6mojoPortal.Business.SiteSettings.IsServerAdminSite.get*(
+&
+%4 mojoPortal.Business.SiteSettings*
+3
+5*ù
+3l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs. .(9
+Š
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs. .(:
+
+%6void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*$"
+ mojoPortal.Web.AdminUI.ServerLog"v
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs/ /(
+""*Â
+5l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs2 2(*Æ
+Ã
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs2 2(*
+
+%7bool")mojoPortal.Web.SiteUtils.SslIsAvailable()*"
+mojoPortal.Web.SiteUtils*
+6
+7*¹
+6l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs2, 2(@À
+½
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs2, 2(@
+
+%8void"#mojoPortal.Web.SiteUtils.ForceSsl()*"
+mojoPortal.Web.SiteUtils*
+7*
+7l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs4 :(>é
+æ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs4 4(0
+
+%9void"=mojoPortal.Web.Framework.SecurityHelper.DisableBrowserCache()*+")
+'mojoPortal.Web.Framework.SecurityHelperÕ
+Ò
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs6 6(
+%10void"/mojoPortal.Web.AdminUI.ServerLog.LoadSettings()*$"
+ mojoPortal.Web.AdminUI.ServerLog×
+Ô
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs8 8(
+%11void"1mojoPortal.Web.AdminUI.ServerLog.PopulateLabels()*$"
+ mojoPortal.Web.AdminUI.ServerLogç
+ä
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs: :(>
+%12bool"AmojoPortal.Web.WebConfigSettings.UseSystemLogInsteadOfFileLog.get*$""
+ mojoPortal.Web.WebConfigSettings*
+8
+9*Ž
+8l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs< >(Fî
+ë
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs< <("
+%13mojoPortal.Web.UI.BasePanel"__id*Q*O"
+ mojoPortal.Web.AdminUI.ServerLog")
+
+pnlFileLogmojoPortal.Web.UI.BasePanelÜÙ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs< <(*
+%14bool"!System.Web.UI.Control.Visible.set*$
+"
+%13mojoPortal.Web.UI.BasePanel*
+""2Visible.setÒ
+Ï
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs= =(
+%15void",mojoPortal.Web.AdminUI.ServerLog.BindDbLog()*$"
+ mojoPortal.Web.AdminUI.ServerLogë
+è
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs> >(F
+%16bool"EmojoPortal.Web.WebConfigSettings.ShowFileLogInAdditionToSystemLog.get*$""
+ mojoPortal.Web.WebConfigSettings*
+10
+11*Ÿ
+10l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs@ A(!î
+ë
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs@ @("
+%17mojoPortal.Web.UI.BasePanel"__id*Q*O"
+ mojoPortal.Web.AdminUI.ServerLog")
+
+pnlFileLogmojoPortal.Web.UI.BasePanelÜÙ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs@ @(-
+%18bool"!System.Web.UI.Control.Visible.set*$
+"
+%17mojoPortal.Web.UI.BasePanel*
+""2Visible.setÔ
+Ñ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csA A(!
+%19void".mojoPortal.Web.AdminUI.ServerLog.ShowFileLog()*$"
+ mojoPortal.Web.AdminUI.ServerLog*
+11*¨
+9l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csF G(ô
+ñ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csF F(&
+%20System.Web.UI.WebControls.Panel"__id*S*Q"
+ mojoPortal.Web.AdminUI.ServerLog"+
+pnlDbLogSystem.Web.UI.WebControls.PanelàÝ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csF F((
+%21bool"!System.Web.UI.Control.Visible.set*(
+&
+%20System.Web.UI.WebControls.Panel*
+""2Visible.setÔ
+Ñ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csG G(
+%22void".mojoPortal.Web.AdminUI.ServerLog.ShowFileLog()*$"
+ mojoPortal.Web.AdminUI.ServerLog*
+11*ø
+11l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csL	 L(	"ƒ
+l
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csL L(	
+implicit return:
+senderobject:
+eSystem.EventArgsB$"
+ mojoPortal.Web.AdminUI.ServerLog

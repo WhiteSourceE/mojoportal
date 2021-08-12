@@ -1,0 +1,149 @@
+
+‚mojoPortal.Data.SqlHelper.ExecuteScalar(string, System.Data.CommandType, string, int, params System.Data.SqlClient.SqlParameter[])u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csì ì(*"0*á
+0u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csî î((Ü
+Ù
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csî î((
+
+%0bool""string.operator ==(string, string)*
+"
+string*
+
+connectionStringstring*
+""*
+1
+2*»
+2u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csî, î(H¶
+³
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csî, î(C	
+%1int"string.Length.get*
+
+connectionStringstring*
+1
+3*¿
+1u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csîP î(|¼¹
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csîP î(}"
+%2System.ArgumentNullException"System.ArgumentNullExceptionþ
+û
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csîT î(i
+
+%3void":System.ArgumentNullException.ArgumentNullException(string)*$
+"
+%2System.ArgumentNullException*
+connectionString*
+4*¾
+3u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csï! ï(PÊÇ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csï. ï(Q)
+%4#System.Data.SqlClient.SqlConnection"#System.Data.SqlClient.SqlConnectionŒ
+‰
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csï2 ï(?
+
+%5void"9System.Data.SqlClient.SqlConnection.SqlConnection(string)*+
+)
+%4#System.Data.SqlClient.SqlConnection*
+
+connectionStringstringà
+Ý
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csï! ï(Q1
+
+connection#System.Data.SqlClient.SqlConnection"__id*+
+)
+%4#System.Data.SqlClient.SqlConnection*
+5*ì
+5u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csñ ò(<ç
+ä
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csñ ñ(!
+
+%6void"*System.Data.SqlClient.SqlConnection.Open()*3
+1
+
+connection#System.Data.SqlClient.SqlConnectionÄÁ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csò, ò(<&
+%7 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandß
+Ü
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csò0 ò(:
+
+%8void"-System.Data.SqlClient.SqlCommand.SqlCommand()*(
+&
+%7 System.Data.SqlClient.SqlCommand×
+Ô
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csò" ò(<+
+command System.Data.SqlClient.SqlCommand"__id*(
+&
+%7 System.Data.SqlClient.SqlCommand*
+6*Ê
+6u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csô ÷(2Ž
+‹
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csô8 ô(L
+%9"__id*
+""Ï
+Ì
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csô ô(z
+%10void"ÜmojoPortal.Data.SqlHelper.PrepareCommand(System.Data.SqlClient.SqlCommand, System.Data.SqlClient.SqlConnection, System.Data.SqlClient.SqlTransaction, System.Data.CommandType, string, System.Data.SqlClient.SqlParameter[])*"
+mojoPortal.Data.SqlHelper*-
++
+command System.Data.SqlClient.SqlCommand*3
+1
+
+connection#System.Data.SqlClient.SqlConnection*
+
+%9*
+""*
+
+commandTextstring*;
+9
+commandParameters$System.Data.SqlClient.SqlParameter[]ò
+ï
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csõ õ(;
+
+%11int"3System.Data.SqlClient.SqlCommand.CommandTimeout.set*-
++
+command System.Data.SqlClient.SqlCommand*
+""ê
+ç
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.cs÷ ÷(2
+%12object"0System.Data.SqlClient.SqlCommand.ExecuteScalar()*-
++
+command System.Data.SqlClient.SqlCommand"ˆ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.cs÷ ÷(3
+
+%12object*
+7u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csú	 ú(	*
+8*
+8u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csú	 ú(	*
+4*‰
+4u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csú	 ú(	"Œ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csú ú(	
+implicit return:
+connectionStringstring:&
+commandTypeSystem.Data.CommandType:
+commandTextstring:
+commandTimeoutint:9
+commandParameters$System.Data.SqlClient.SqlParameter[]B"
+mojoPortal.Data.SqlHelper

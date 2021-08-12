@@ -1,0 +1,32 @@
+¶
+#mojoPortal.Web.Services.FileServiceobjectt
+&ProcessRequest(System.Web.HttpContext)JmojoPortal.Web.Services.FileService.ProcessRequest(System.Web.HttpContext)h
+ Download(System.Web.HttpContext)DmojoPortal.Web.Services.FileService.Download(System.Web.HttpContext)‚
+-UploadFromFileManager(System.Web.HttpContext)QmojoPortal.Web.Services.FileService.UploadFromFileManager(System.Web.HttpContext)l
+"UploadSkin(System.Web.HttpContext)FmojoPortal.Web.Services.FileService.UploadSkin(System.Web.HttpContext)x
+(UploadFromDialog(System.Web.HttpContext)LmojoPortal.Web.Services.FileService.UploadFromDialog(System.Web.HttpContext)d
+Upload(System.Web.HttpContext)BmojoPortal.Web.Services.FileService.Upload(System.Web.HttpContext)ˆ
+0BuildHtmlWrapper(System.Web.HttpContext, string)TmojoPortal.Web.Services.FileService.BuildHtmlWrapper(System.Web.HttpContext, string)j
+!ListFiles(System.Web.HttpContext)EmojoPortal.Web.Services.FileService.ListFiles(System.Web.HttpContext)l
+"DeleteFile(System.Web.HttpContext)FmojoPortal.Web.Services.FileService.DeleteFile(System.Web.HttpContext)h
+ MoveFile(System.Web.HttpContext)DmojoPortal.Web.Services.FileService.MoveFile(System.Web.HttpContext)p
+$CreateFolder(System.Web.HttpContext)HmojoPortal.Web.Services.FileService.CreateFolder(System.Web.HttpContext)n
+#ListFolders(System.Web.HttpContext)GmojoPortal.Web.Services.FileService.ListFolders(System.Web.HttpContext)p
+$DeleteFolder(System.Web.HttpContext)HmojoPortal.Web.Services.FileService.DeleteFolder(System.Web.HttpContext)l
+"MoveFolder(System.Web.HttpContext)FmojoPortal.Web.Services.FileService.MoveFolder(System.Web.HttpContext)¸
+HRenderJsonResult(System.Web.HttpContext, mojoPortal.FileSystem.OpResult)lmojoPortal.Web.Services.FileService.RenderJsonResult(System.Web.HttpContext, mojoPortal.FileSystem.OpResult)p
+$LoadSettings(System.Web.HttpContext)HmojoPortal.Web.Services.FileService.LoadSettings(System.Web.HttpContext)T
+GetVirtualPath(string):mojoPortal.Web.Services.FileService.GetVirtualPath(string)P
+SanitizePath(string)8mojoPortal.Web.Services.FileService.SanitizePath(string)Z
+OnFileDownloading(string)=mojoPortal.Web.Services.FileService.OnFileDownloading(string) 
+<OnFolderCreating(string, ref mojoPortal.FileSystem.OpResult)`mojoPortal.Web.Services.FileService.OnFolderCreating(string, ref mojoPortal.FileSystem.OpResult)¬
+BOnFolderMoving(string, string, ref mojoPortal.FileSystem.OpResult)fmojoPortal.Web.Services.FileService.OnFolderMoving(string, string, ref mojoPortal.FileSystem.OpResult) 
+<OnFolderDeleting(string, ref mojoPortal.FileSystem.OpResult)`mojoPortal.Web.Services.FileService.OnFolderDeleting(string, ref mojoPortal.FileSystem.OpResult)Ž
+3OnFolderListing(ref mojoPortal.FileSystem.OpResult)WmojoPortal.Web.Services.FileService.OnFolderListing(ref mojoPortal.FileSystem.OpResult)š
+9OnFileListing(string, ref mojoPortal.FileSystem.OpResult)]mojoPortal.Web.Services.FileService.OnFileListing(string, ref mojoPortal.FileSystem.OpResult)Ô
+VOnFileUploading(string, System.Web.HttpPostedFile, ref mojoPortal.FileSystem.OpResult)zmojoPortal.Web.Services.FileService.OnFileUploading(string, System.Web.HttpPostedFile, ref mojoPortal.FileSystem.OpResult)¨
+@OnFileMoving(string, string, ref mojoPortal.FileSystem.OpResult)dmojoPortal.Web.Services.FileService.OnFileMoving(string, string, ref mojoPortal.FileSystem.OpResult)œ
+:OnFileDeleting(string, ref mojoPortal.FileSystem.OpResult)^mojoPortal.Web.Services.FileService.OnFileDeleting(string, ref mojoPortal.FileSystem.OpResult)B
+FileService()1mojoPortal.Web.Services.FileService.FileService()D
+IsReusable.get2mojoPortal.Web.Services.FileService.IsReusable.getD
+IsReusable.set2mojoPortal.Web.Services.FileService.IsReusable.set

@@ -1,0 +1,866 @@
+
+*mojoPortal.Web.UI.CodeEditor.SetupScript()m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÈ È( "0*ƒ.
+0m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÊ Ö( ØÕ
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÊ Ê(
+%0System.Web.UI.Page"System.Web.UI.Control.Page.get* 
+mojoPortal.Web.UI.CodeEditor2Page.getÜ
+Ù
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÊ Ê("'
+%1!System.Web.UI.ClientScriptManager"#System.Web.UI.Page.ClientScript.get*
+
+%0System.Web.UI.Page¹
+¶
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÊ= Ê(K
+%2System.Type"object.GetType()* 
+mojoPortal.Web.UI.CodeEditorÉ
+Æ
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csË Ë(0
+%3string"__id*A*?
+mojoPortal.Web.UI.CodeEditor"
+scriptBaseDirectorystring²
+¯
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csË Ë(G
+%4string"__concat*
+
+%3string*
+/edit_area_full.jsÕ
+Ò
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csË Ë(H
+%5string"(System.Web.UI.Control.ResolveUrl(string)*
+System.Web.UI.Control*
+
+%4string­
+ª
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÊY Ë(H
+%6string"__concat*
+<script src="*
+
+%5stringÂ
+¿
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÊY Ë(r
+%7string"__concat*
+
+%6string*&$
+"" type="text/javascript"></script>¶
+³
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÊ Ë(s
+
+%8void"XSystem.Web.UI.ClientScriptManager.RegisterClientScriptBlock(System.Type, string, string)*)
+'
+%1!System.Web.UI.ClientScriptManager*
+
+%2System.Type*
+
+editarea*
+
+%7string®«
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÍ# Í(6
+%9System.Text.StringBuilder"System.Text.StringBuilderÍ
+Ê
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÍ' Í(4
+%10void")System.Text.StringBuilder.StringBuilder()*!
+
+%9System.Text.StringBuilderÀ
+½
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÍ Í(6#
+scriptSystem.Text.StringBuilder"__id*!
+
+%9System.Text.StringBuilder‹
+ˆ
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÎ Î(? 
+%11System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*$"
+ <script type="text/javascript"> ò
+ï
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÏ Ï(& 
+%12System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*	
+
+<!-- 
+€
+ý
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÑ Ñ(2 
+%13System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+editAreaLoader.init({ÎË
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÒ$ Ò(,
+%14string""System.Web.UI.Control.ClientID.get*
+System.Web.UI.Control2ClientID.get¦
+£
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÒ Ò(,
+%15string"__concat*
+id:"*
+
+%14string¤
+¡
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÒ Ò(4
+%16string"__concat*
+
+%15string*
+" ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÒ Ò(5 
+%17System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%16string½
+º
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÓ) Ó(/
+%18string"__id*4*2
+mojoPortal.Web.UI.CodeEditor"
+syntaxstring«
+¨
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÓ Ó(/
+%19string"__concat*
+	,syntax:"*
+
+%18string£
+ 
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÓ Ó(6
+%20string"__concat*
+
+%19string*
+"ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÓ Ó(7 
+%21System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%20string¿
+¼
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÔ+ Ô(3
+%22string"__id*6*4
+mojoPortal.Web.UI.CodeEditor"
+languagestring­
+ª
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÔ Ô(3
+%23string"__concat*
+,language:"*
+
+%22string£
+ 
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÔ Ô(:
+%24string"__concat*
+
+%23string*
+"ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÔ Ô(; 
+%25System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%24string‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÖ Ö( 
+%26"__id*
+""*
+1
+2*ú
+1m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csØ Ø(5€
+ý
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csØ Ø(6 
+%27System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,start_highlight:true*
+2*„
+2m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÛ Û(‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÛ Û(
+%28"__id*
+""*
+3
+4*ù
+3m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÝ Ý(4ÿ
+ü
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÝ Ý(5 
+%29System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,is_multi_files:true*
+4*ß
+4m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csà å(‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csà* à(2
+%30"__id*
+""ë
+è
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csà* à(F
+%31string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+
+%30­
+ª
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csà à(F
+%32string"__concat*
+,min_width:*
+
+%31stringö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csà à(G 
+%33System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%32string‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csá+ á(4
+%34"__id*
+""ë
+è
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csá+ á(H
+%35string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+
+%34®
+«
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csá á(H
+%36string"__concat*
+,min_height:*
+
+%35stringö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csá á(I 
+%37System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%36stringÂ
+¿
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csã/ ã(:
+%38string"__id*9*7
+mojoPortal.Web.UI.CodeEditor"
+allowResizestring±
+®
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csã ã(:
+%39string"__concat*
+,allow_resize:"*
+
+%38string£
+ 
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csã ã(A
+%40string"__concat*
+
+%39string*
+"ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csã ã(B 
+%41System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%40string‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cså å(
+%42"__id*
+""*
+5
+6*ø
+5m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csç ç(3þ
+û
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csç ç(4 
+%43System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,allow_toggle:false*
+6*à
+6m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csê ê("¾
+»
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csê ê(
+%44string"__id*5*3
+mojoPortal.Web.UI.CodeEditor"
+pluginsstring¢
+Ÿ
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csê ê(
+
+%45int"string.Length.get*
+
+%44string*
+7
+8*†
+7m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csì ì(<¾
+»
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csì. ì(5
+%46string"__id*5*3
+mojoPortal.Web.UI.CodeEditor"
+pluginsstring¬
+©
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csì ì(5
+%47string"__concat*
+
+,plugins:"*
+
+%46string£
+ 
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csì ì(<
+%48string"__concat*
+
+%47string*
+"ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csì ì(= 
+%49System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%48string*
+8*•
+8m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csï ó('¿
+¼
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csï+ ï(3
+%50string"__id*6*4
+mojoPortal.Web.UI.CodeEditor"
+browsersstring­
+ª
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csï ï(3
+%51string"__concat*
+,browsers:"*
+
+%50string£
+ 
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csï ï(:
+%52string"__concat*
+
+%51string*
+"ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csï ï(; 
+%53System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%52string¾
+»
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csð* ð(1
+%54string"__id*5*3
+mojoPortal.Web.UI.CodeEditor"
+displaystring¬
+©
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csð ð(1
+%55string"__concat*
+
+,display:"*
+
+%54string£
+ 
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csð ð(8
+%56string"__concat*
+
+%55string*
+"ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csð ð(9 
+%57System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%56string¾
+»
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csñ* ñ(1
+%58string"__id*5*3
+mojoPortal.Web.UI.CodeEditor"
+toolbarstring¬
+©
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csñ ñ(1
+%59string"__concat*
+
+,toolbar:"*
+
+%58string£
+ 
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csñ ñ(8
+%60string"__concat*
+
+%59string*
+"ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csñ ñ(9 
+%61System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%60stringÃ
+À
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csó ó(
+%62string"__id*:*8
+mojoPortal.Web.UI.CodeEditor"
+beginToolbarstring¢
+Ÿ
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csó ó(#
+
+%63int"string.Length.get*
+
+%62string*
+9
+10*’
+9m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csõ õ(GÃ
+À
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csõ4 õ(@
+%64string"__id*:*8
+mojoPortal.Web.UI.CodeEditor"
+beginToolbarstring²
+¯
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csõ õ(@
+%65string"__concat*
+,begin_toolbar:"*
+
+%64string£
+ 
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csõ õ(G
+%66string"__concat*
+
+%65string*
+"ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csõ õ(H 
+%67System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%66string*
+10*æ
+10m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csø ø(%Á
+¾
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csø ø(
+%68string"__id*8*6
+mojoPortal.Web.UI.CodeEditor"
+
+endToolbarstring¢
+Ÿ
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csø ø(!
+
+%69int"string.Length.get*
+
+%68string*
+11
+12*
+11m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csú ú(CÁ
+¾
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csú2 ú(<
+%70string"__id*8*6
+mojoPortal.Web.UI.CodeEditor"
+
+endToolbarstring°
+­
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csú ú(<
+%71string"__concat*
+,end_toolbar:"*
+
+%70string£
+ 
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csú ú(C
+%72string"__concat*
+
+%71string*
+"ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csú ú(D 
+%73System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%72string*
+12*Ü
+12m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csý ("‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csý* ý(2
+%74"__id*
+""ë
+è
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csý* ý(F
+%75string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+
+%74­
+ª
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csý ý(F
+%76string"__concat*
+,font_size:*
+
+%75stringö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csý ý(G 
+%77System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%76stringÁ
+¾
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csþ. þ(8
+%78string"__id*8*6
+mojoPortal.Web.UI.CodeEditor"
+
+fontFamilystring°
+­
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csþ þ(8
+%79string"__concat*
+,font_family:"*
+
+%78string£
+ 
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csþ þ(?
+%80string"__concat*
+
+%79string*
+"ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csþ þ(@ 
+%81System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%80stringÅ
+Â
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÿ2 ÿ(@
+%82string"__id*<*:
+mojoPortal.Web.UI.CodeEditor"
+cursorPositionstring´
+±
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÿ ÿ(@
+%83string"__concat*
+,cursor_position:"*
+
+%82string£
+ 
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÿ ÿ(G
+%84string"__concat*
+
+%83string*
+"ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csÿ ÿ(H 
+%85System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%84string‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs ("
+%86"__id*
+""*
+13
+14*ý
+13m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csƒ ƒ(6
+þ
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csƒ ƒ(7 
+%87System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,gecko_spellcheck:true*
+14*’
+
+14m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs† ˆ(‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs†) †(0
+%88"__id*
+""ø
+õ
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs†: †(V'
+%89 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÛ
+Ø
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs†) †(W
+%90string"$int.ToString(System.IFormatProvider)*
+
+%88*)
+'
+%89 System.Globalization.CultureInfo¬
+©
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs† †(W
+%91string"__concat*
+
+,max_undo:*
+
+%90stringö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs† †(X 
+%92System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%91string‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csˆ ˆ(
+%93"__id*
+""*
+15
+16*÷
+15m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csŠ Š(0û
+ø
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csŠ Š(1 
+%94System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,fullscreen:true*
+16*‡
+16m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs (‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs (
+%95"__id*
+""*
+17
+18*ù
+17m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs (2ý
+ú
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs (3 
+%96System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,is_editable:false*
+18*‡
+18m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs’ ’(‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs’ ’(
+%97"__id*
+""*
+19
+20*ö
+19m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs” ”(/ú
+÷
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs” ”(0 
+%98System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,word_wrap:true*
+20*‡
+20m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs— —(%‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs— —(%
+%99"__id*
+""*
+21
+22*ƒ
+21m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs™ ™(;‡
+„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs™ ™(<!
+%100System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,replace_tab_by_spaces:true*
+22*ˆ
+22m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csœ œ(ˆ
+…
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csœ œ(
+%101"__id*
+""*
+23
+24*ó
+23m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csž ž(+÷
+ô
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.csž ž(,!
+%102System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+,debug:true*
+24*ê
+24m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs¡ ©(!ð
+í
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs¡ ¡(!!
+%103System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}); ó
+ð
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs£ £(%!
+%104System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*	
+
+//--> ö
+ó
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs¤ ¤('!
+%105System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+ </script>ÓÐ
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs¦ ¦(
+%106System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getà
+Ý
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs¦ ¦()
+%107!System.Web.UI.ClientScriptManager"#System.Web.UI.Page.ClientScript.get*
+
+%106System.Web.UI.Page»
+¸
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs§ §(
+%108System.Type"object.GetType()* 
+mojoPortal.Web.UI.CodeEditorÖÓ
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs¨ ¨('
+%109string""System.Web.UI.Control.ClientID.get* 
+mojoPortal.Web.UI.CodeEditor2ClientID.get©
+¦
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs¨ ¨('
+%110string"__concat*	
+setup*
+
+%109stringÏ
+Ì
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs© ©(!
+%111string"$System.Text.StringBuilder.ToString()*%
+#
+scriptSystem.Text.StringBuilder¾
+»
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs¦ ©("
+%112void"TSystem.Web.UI.ClientScriptManager.RegisterStartupScript(System.Type, string, string)*+
+)
+%107!System.Web.UI.ClientScriptManager*
+
+%108System.Type*
+
+%110string*
+
+%111string*
+25*ú
+25m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs«	 «(	"„
+m
+aD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CodeEditor.cs« «(	
+implicit returnB 
+mojoPortal.Web.UI.CodeEditor

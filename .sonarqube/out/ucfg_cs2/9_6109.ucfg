@@ -1,0 +1,173 @@
+
+7mojoPortal.Web.WindowsLiveLogin.GetTrustedToken(string)p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs— —(%"0*Ω
+0p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs” ”()Ω
+∫
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs” ”(*
+
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+userstring*
+1
+2*˛
+1p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs’ ÷(ä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs’ ’(H
+
+%1void"-mojoPortal.Web.WindowsLiveLogin.debug(string)*#"!
+mojoPortal.Web.WindowsLiveLogin*31
+/Error: GetTrustedToken: Invalid user specified."z
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs÷ ÷(
+""*∆
+2p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csŸ ›((”
+–
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csŸ& Ÿ(+
+%2string")mojoPortal.Web.WindowsLiveLogin.AppId.get*#!
+mojoPortal.Web.WindowsLiveLogin©
+¶
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csŸ Ÿ(+
+%3string"__concat*
+
+appid=*
+
+%2string®
+•
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csŸ Ÿ(5
+%4string"__concat*
+
+%3string*	
+&uid=€
+ÿ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs⁄ ⁄()
+%5string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+userstring≠
+™
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csŸ ⁄()
+%6string"__concat*
+
+%4string*
+
+%5stringß
+§
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csŸ ⁄(2
+%7string"__concat*
+
+%6string*
+&ts=ÿ
+’
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs⁄5 ⁄(C
+%8string".mojoPortal.Web.WindowsLiveLogin.getTimestamp()*#"!
+mojoPortal.Web.WindowsLiveLogin≠
+™
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csŸ ⁄(C
+%9string"__concat*
+
+%7string*
+
+%8stringú
+ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csŸ ⁄(C
+tokenstring"__id*
+
+%9stringÔ
+Ï
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs€ €(-
+%10byte[]"1mojoPortal.Web.WindowsLiveLogin.SignToken(string)*#!
+mojoPortal.Web.WindowsLiveLogin*
+
+tokenstringÁ
+‰
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs€ €(.
+%11string"+mojoPortal.Web.WindowsLiveLogin.e64(byte[])*#"!
+mojoPortal.Web.WindowsLiveLogin*
+
+%10byte[]õ
+ò
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs€ €(.
+sigstring"__id*
+
+%11stringΩ
+∫
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs› ›()
+%12bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+sigstring*
+3
+4*Å
+3p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csﬂ ‡(ç
+ä
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csﬂ ﬂ(J
+%13void"-mojoPortal.Web.WindowsLiveLogin.debug(string)*#"!
+mojoPortal.Web.WindowsLiveLogin*53
+1Error: GetTrustedToken: Failed to sign the token."z
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs‡ ‡(
+""*›
+4p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs„ ‰(.™
+ß
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs„ „("
+%14string"__concat*	
+&sig=*
+
+sigstring≤
+Ø
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs„ „("
+%15string"__concat*
+
+tokenstring*
+
+%14stringù
+ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs„ „("
+tokenstring"__id*
+
+%15string›
+⁄
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs‰ ‰(/
+%16string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+tokenstring"É
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs‰ ‰(0
+
+%16string*ˇ
+5p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csÂ	 Â(	"á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csÂ Â(	
+implicit return:
+userstringB#!
+mojoPortal.Web.WindowsLiveLogin

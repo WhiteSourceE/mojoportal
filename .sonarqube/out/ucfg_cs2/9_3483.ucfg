@@ -1,0 +1,132 @@
+
+3mojoPortal.Web.AdminUI.AdminMenuPage.LoadSettings()n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.csœ œ("0*’"
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.csž ¥(í
+ê
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.csž ž(8
+
+%0bool"@mojoPortal.Business.WebHelpers.WebUser.IsAdminOrContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUserÐ
+Í
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.csž ž(8G&
+$mojoPortal.Web.AdminUI.AdminMenuPage"
+IsAdminOrContentAdminbool"__id*
+
+
+%0boolß
+Ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.csŸ Ÿ(
+
+%1bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUserÂ
+¿
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.csŸ Ÿ(9&
+$mojoPortal.Web.AdminUI.AdminMenuPage"
+IsAdminbool"__id*
+
+
+%1boolÊ
+Ç
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs   (.
+
+%2bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtilsÇ
+Ä
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs   (.>&
+$mojoPortal.Web.AdminUI.AdminMenuPage"
+isSiteEditorbool"__id*
+
+
+%2boolö
+ó
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs¡. ¡(:&
+%3 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsé
+æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs¡. ¡(R
+%4string"<mojoPortal.Business.SiteSettings.CommerceReportViewRoles.get*(
+&
+%3 mojoPortal.Business.SiteSettingsõ
+ò
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs¡ ¡(S
+
+%5bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%4stringÑ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs¡ ¡(SH&
+$mojoPortal.Web.AdminUI.AdminMenuPage"
+isCommerceReportViewerbool"__id*
+
+
+%5boolë
+è
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs¢ ¢(1*
+%6$mojoPortal.Web.CommerceConfiguration",mojoPortal.Web.SiteUtils.GetCommerceConfig()*"
+mojoPortal.Web.SiteUtils‰
+†
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs¢ ¢(1`&
+$mojoPortal.Web.AdminUI.AdminMenuPage"6
+commerceConfig$mojoPortal.Web.CommerceConfiguration"__id*,
+*
+%6$mojoPortal.Web.CommerceConfigurationö
+ó
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs£@ £(L&
+%7 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÕ
+Ò
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs£@ £(S	
+%8int"+mojoPortal.Business.SiteSettings.SiteId.get*(
+&
+%7 mojoPortal.Business.SiteSettings¦
+£
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs£ £(T3
+%9-mojoPortal.Web.ContentAdminLinksConfiguration"<mojoPortal.Web.ContentAdminLinksConfiguration.GetConfig(int)*1"/
+-mojoPortal.Web.ContentAdminLinksConfiguration*
+	
+%8intž
+›
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs£ £(Tl&
+$mojoPortal.Web.AdminUI.AdminMenuPage"B
+supplementalLinks-mojoPortal.Web.ContentAdminLinksConfiguration"__id*5
+3
+%9-mojoPortal.Web.ContentAdminLinksConfigurationé
+æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs¤ ¤(#
+%10void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+administrationä
+á
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs¥ ¥(
+%11void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+	adminmenu*
+1*û
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs¦ ¦("…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\AdminMenu.aspx.cs¦ ¦(
+implicit returnB(&
+$mojoPortal.Web.AdminUI.AdminMenuPage

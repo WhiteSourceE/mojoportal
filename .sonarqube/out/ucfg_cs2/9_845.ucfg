@@ -1,0 +1,143 @@
+
+FmojoPortal.Web.UI.UpdateOpenIdPage.Page_Load(object, System.EventArgs)p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs ( "0*õ
+0p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs# #((À
+»
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs# #(
+%0System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÕ
+ 
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs# #((
+
+%1bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%0System.Web.HttpRequest*
+1
+2*Ä
+1p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs% %(2å
+â
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs% %(3
+
+%2void"CmojoPortal.Web.SiteUtils.RedirectToLoginPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*&$
+"mojoPortal.Web.UI.UpdateOpenIdPage"z
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs& &(
+""* 
+2p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs) )(* 
+«
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs) )(*
+
+%3bool")mojoPortal.Web.SiteUtils.SslIsAvailable()*"
+mojoPortal.Web.SiteUtils*
+3
+4*¡
+3p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs), )(@ƒ
+¡
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs), )(@
+
+%4void"#mojoPortal.Web.SiteUtils.ForceSsl()*"
+mojoPortal.Web.SiteUtils*
+4*ÿ
+4p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs* ,(>Ì
+Í
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs* *(0
+
+%5void"=mojoPortal.Web.Framework.SecurityHelper.DisableBrowserCache()*+")
+'mojoPortal.Web.Framework.SecurityHelperË
+Â
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs, ,(>
+
+%6bool"?mojoPortal.Web.WebConfigSettings.EnableOpenIdAuthentication.get*$""
+ mojoPortal.Web.WebConfigSettings*
+5
+6*Ÿ
+5p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs,B ,(^¯
+ı
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs,B ,(N&
+%7 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings·
+ﬁ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs,B ,(^
+
+%8bool"4mojoPortal.Business.SiteSettings.AllowOpenIdAuth.get*(
+&
+%7 mojoPortal.Business.SiteSettings*
+6*}
+6p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs, ,(_*
+7
+8*ˆ
+7p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs. .(5Œ
+À
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs.- .(5
+%9string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage±
+Æ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs. .(6
+%10void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*&$
+"mojoPortal.Web.UI.UpdateOpenIdPage*
+
+%9string"z
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs/ /(
+""*Å
+
+8p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs2 7(›
+⁄
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs2 2(
+%11void"1mojoPortal.Web.UI.UpdateOpenIdPage.LoadSettings()*&$
+"mojoPortal.Web.UI.UpdateOpenIdPageÁ
+‰
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs4 4(5#
+%12mojoPortal.Business.SiteUser"-mojoPortal.Web.SiteUtils.GetCurrentSiteUser()*"
+mojoPortal.Web.SiteUtilsÙ
+Ò
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs4 4(5P$
+"mojoPortal.Web.UI.UpdateOpenIdPage"(
+siteUsermojoPortal.Business.SiteUser"__id*%
+#
+%12mojoPortal.Business.SiteUserﬂ
+‹
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs6 6(
+%13void"3mojoPortal.Web.UI.UpdateOpenIdPage.PopulateLabels()*&$
+"mojoPortal.Web.UI.UpdateOpenIdPage·
+ﬁ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs7 7(
+%14void"5mojoPortal.Web.UI.UpdateOpenIdPage.PopulateControls()*&$
+"mojoPortal.Web.UI.UpdateOpenIdPage*
+9*ˇ
+9p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs9	 9(	"á
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\UpdateOpenID.aspx.cs9 9(	
+implicit return:
+senderobject:
+eSystem.EventArgsB&$
+"mojoPortal.Web.UI.UpdateOpenIdPage

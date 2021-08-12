@@ -1,0 +1,282 @@
+
+BmojoPortal.Web.mojoSetup.CreateDefaultLetterTemplates(System.Guid)n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs´
+ ´
+(1"0*©
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¶
+ ¶
+("Ñ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¶
+ ¶
+(
+%0System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext×
+Ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¶
+ ¶
+("
+
+%1bool""object.operator ==(object, object)*
+"
+object*
+
+%0System.Web.HttpContext*
+""*
+1
+2*í
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÈ
+ È
+("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¶
+$ ¶
+(+
+""*¢	
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¸
+
+ º
+((Ñ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¸
+ ¸
+(/
+%2System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÚ
+×
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¸
+ ¸
+(6"
+%3System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*
+
+%2System.Web.HttpContextð
+í
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¸
+ ¸
+(W
+%4string",System.Web.HttpServerUtility.MapPath(string)*$
+"
+%3System.Web.HttpServerUtility*
+~/Data/emailtemplates¤
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¸
+
+ ¸
+(W
+pathToTemplatesstring"__id*
+
+%4stringÙ
+Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csº
+ º
+()
+
+%5bool""System.IO.Directory.Exists(string)*"
+System.IO.Directory*
+
+pathToTemplatesstring*
+3
+4*í
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÈ
+ È
+("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csº
++ º
+(2
+""*û
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¼
+ ¾
+(*«¨
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¼
+ ¼
+(9
+%6System.IO.DirectoryInfo"System.IO.DirectoryInfoì
+é
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¼
+ ¼
+((
+
+%7void"-System.IO.DirectoryInfo.DirectoryInfo(string)*
+
+%6System.IO.DirectoryInfo*
+
+pathToTemplatesstringº
+·
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs¼
+ ¼
+(9
+dirSystem.IO.DirectoryInfo"__id*
+
+%6System.IO.DirectoryInfoé
+æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs½
+ ½
+(2
+%8System.IO.FileInfo[]"(System.IO.DirectoryInfo.GetFiles(string)* 
+
+dirSystem.IO.DirectoryInfo*
+
+*.configº
+·
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.cs½
+ ½
+(2!
+	templatesSystem.IO.FileInfo[]"__id*
+
+%8System.IO.FileInfo[]*
+5*{
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÈ
+ È
+(*
+6
+7*£
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÀ
+ Æ
+(ÉÆ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÀ
+' À
+(?,
+%9&mojoPortal.Business.LetterHtmlTemplate"&mojoPortal.Business.LetterHtmlTemplateí
+ê
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÀ
++ À
+(=
+%10void";mojoPortal.Business.LetterHtmlTemplate.LetterHtmlTemplate()*.
+,
+%9&mojoPortal.Business.LetterHtmlTemplateâ
+ß
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÀ
+ À
+(?7
+emailTemplate&mojoPortal.Business.LetterHtmlTemplate"__id*.
+,
+%9&mojoPortal.Business.LetterHtmlTemplateÿ
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÁ
+ Á
+(%
+%11System.Guid"3mojoPortal.Business.LetterHtmlTemplate.SiteGuid.set*9
+7
+emailTemplate&mojoPortal.Business.LetterHtmlTemplate*
+""Á
+¾
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÂ
+ Â
+('
+%12string"System.IO.FileInfo.Name.get* 
+
+templateSystem.IO.FileInfo§
+¤
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÂ
+; Â
+(G
+%13string"__id**
+string"
+EmptystringÑ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÂ
+ Â
+(H
+%14string"string.Replace(string, string)*
+
+%12string*	
+.config*
+
+%13string€
+ý
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÂ
+ Â
+(H
+%15string"0mojoPortal.Business.LetterHtmlTemplate.Title.set*9
+7
+emailTemplate&mojoPortal.Business.LetterHtmlTemplate*
+
+%14stringÓ
+Ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÃ
+! Ã
+(4
+%16System.IO.StreamReader"System.IO.FileInfo.OpenText()* 
+
+templateSystem.IO.FileInfoÃ
+À
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÃ
+ Ã
+(4'
+contentStreamSystem.IO.StreamReader"__id*
+
+%16System.IO.StreamReaderÞÛ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÄ
+ Ä
+(2
+%17string""System.IO.StreamReader.ReadToEnd()*)
+'
+contentStreamSystem.IO.StreamReader2ReadToEnd()ÿ
+ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÄ
+ Ä
+(2
+%18string"/mojoPortal.Business.LetterHtmlTemplate.Html.set*9
+7
+emailTemplate&mojoPortal.Business.LetterHtmlTemplate*
+
+%17stringÔÑ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÅ
+ Å
+(
+%19void"System.IO.StreamReader.Close()*)
+'
+contentStreamSystem.IO.StreamReader2Close()ê
+ç
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÆ
+ Æ
+(
+%20bool"-mojoPortal.Business.LetterHtmlTemplate.Save()*9
+7
+emailTemplate&mojoPortal.Business.LetterHtmlTemplate*
+5*û
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÈ
+ È
+("…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoSetup.csÈ
+ È
+(
+implicit return:
+siteGuidSystem.GuidB"
+mojoPortal.Web.mojoSetup

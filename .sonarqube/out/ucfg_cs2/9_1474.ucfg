@@ -1,0 +1,342 @@
+
+‡mojoPortal.Web.Services.GCheckoutNotificationHandler.HandleOrderStateChangeNotification(GCheckout.AutoGen.OrderStateChangeNotification)„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs– –(7"0*¶
+0„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs˜ œ('ú
+÷
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs˜' ˜(@
+%0string"__id*Z*X
+>
+notification.GCheckout.AutoGen.OrderStateChangeNotification"
+serialnumberstringþ
+û
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs˜ ˜(@\6
+4mojoPortal.Web.Services.GCheckoutNotificationHandler""
+NotificationSerialNumberstring"__id*
+
+%0stringÿ
+ü
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csšS š(q
+%1string"__id*_*]
+>
+notification.GCheckout.AutoGen.OrderStateChangeNotification"
+googleordernumberstring¡
+ž
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csš" š(r
+%2string"LmojoPortal.Business.GoogleCheckoutLog.GetProviderNameFromOrderNumber(string)*)"'
+%mojoPortal.Business.GoogleCheckoutLog*
+
+%1string¸
+µ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csš š(r
+providerNamestring"__id*
+
+%2stringÂ
+¿
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csœ œ(#	
+%3int"string.Length.get*
+
+providerNamestring*
+1
+2*¢
+1„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csž5 ¡($˜
+•
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csŸ Ÿ(<b
+%4\mojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProviderCollection"XmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationManager.Providers.get*N"L
+JmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationManagerð
+í
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csŸ Ÿ(JX
+%5RmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProvider"
+__arrayGet*d
+b
+%4\mojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProviderCollection*
+
+providerNamestringÌ
+É
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csž5 Ÿ(J^
+providerRmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProvider"__id*Z
+X
+%5RmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProvider°
+­
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¡ ¡($
+
+%6bool""object.operator !=(object, object)*
+"
+object*`
+^
+providerRmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProvider*
+""*
+3
+2*Œ
+3„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs£ £(Xð
+í
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs£@ £(J
+%7string"__id*P*N6
+4mojoPortal.Web.Services.GCheckoutNotificationHandler"
+
+RequestXmlstringú
+÷
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs£ £(Y
+
+%8void"­mojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProvider.HandleOrderStateChangeNotification(string, GCheckout.AutoGen.OrderStateChangeNotification)*`
+^
+providerRmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProvider*
+
+%7string*@
+>
+notification.GCheckout.AutoGen.OrderStateChangeNotification"
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¥ ¥(
+""*ûC
+2„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¬ ¾(õ
+ò
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¬ ¬(
+%9log4net.ILog"__id*O*M6
+4mojoPortal.Web.Services.GCheckoutNotificationHandler"
+loglog4net.ILog€
+ý
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¬S ¬(q
+%10string"__id*_*]
+>
+notification.GCheckout.AutoGen.OrderStateChangeNotification"
+googleordernumberstringó
+ð
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¬ ¬(q
+%11string"__concat*=;
+9No GCheckoutNotification Provider found for google order *
+
+%10stringÎ
+Ë
+…
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¬ ¬(‰
+%12string"__concat*
+
+%11string*
+ so just logging itèå
+…
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¬ ¬(Š
+%13void"log4net.ILog.Info(object)*
+
+%9log4net.ILog*
+
+%12string2Info(object)€
+ý
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs®J ®(h
+%14string"__id*_*]
+>
+notification.GCheckout.AutoGen.OrderStateChangeNotification"
+googleordernumberstring¤
+¡
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs® ®(i
+%15System.Guid"HmojoPortal.Business.GoogleCheckoutLog.GetCartGuidFromOrderNumber(string)*)"'
+%mojoPortal.Business.GoogleCheckoutLog*
+
+%14stringÀ
+½
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs® ®(i
+	orderGuidSystem.Guid"__id*
+
+%15System.Guid¨
+¥
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs°( °(L'
+%16 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperí
+ê
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs° °(L0
+siteSettings mojoPortal.Business.SiteSettings"__id*)
+'
+%16 mojoPortal.Business.SiteSettingsßÜ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs²% ²(<,
+%17%mojoPortal.Business.GoogleCheckoutLog"%mojoPortal.Business.GoogleCheckoutLog‚
+ÿ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs²) ²(:
+%18void"9mojoPortal.Business.GoogleCheckoutLog.GoogleCheckoutLog()*.
+,
+%17%mojoPortal.Business.GoogleCheckoutLogï
+ì
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs² ²(<-
+gLog%mojoPortal.Business.GoogleCheckoutLog"__id*.
+,
+%17%mojoPortal.Business.GoogleCheckoutLog
+þ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs³ ³(1
+%19System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings™
+–
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs³ ³(1
+%20System.Guid"2mojoPortal.Business.GoogleCheckoutLog.SiteGuid.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%19System.Guidñ
+î
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs´ ´()
+%21string"__id*P*N6
+4mojoPortal.Web.Services.GCheckoutNotificationHandler"
+
+RequestXmlstring’
+
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs´ ´()
+%22string"5mojoPortal.Business.GoogleCheckoutLog.RawResponse.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%21string¨
+¥
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csµ µ(B
+%23string":mojoPortal.Business.GoogleCheckoutLog.NotificationType.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog* 
+OrderStateChangeNotificationû
+ø
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¶  ¶(9
+%24string"__id*Z*X
+>
+notification.GCheckout.AutoGen.OrderStateChangeNotification"
+serialnumberstring“
+
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¶ ¶(9
+%25string"6mojoPortal.Business.GoogleCheckoutLog.SerialNumber.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%24string€
+ý
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs· ·(=
+%26string"__id*_*]
+>
+notification.GCheckout.AutoGen.OrderStateChangeNotification"
+googleordernumberstring’
+
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs· ·(=
+%27string"5mojoPortal.Business.GoogleCheckoutLog.OrderNumber.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%26stringŸ
+œ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¸  ¸(C
+%28"__id*
+""ÆÃ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¸  ¸(N
+%29string"System.Enum.ToString()*
+
+%282
+ToString()“
+
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¸ ¸(N
+%30string"6mojoPortal.Business.GoogleCheckoutLog.FinanceState.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%29stringŸ
+œ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¹! ¹(F
+%31"__id*
+""ÆÃ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¹! ¹(Q
+%32string"System.Enum.ToString()*
+
+%312
+ToString()”
+‘
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¹ ¹(Q
+%33string"7mojoPortal.Business.GoogleCheckoutLog.FullfillState.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%32stringŠ
+‡
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csº º(4
+%34System.DateTime"__id*`*^
+>
+notification.GCheckout.AutoGen.OrderStateChangeNotification"
+	timestampSystem.DateTime£
+ 
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csº º(4
+%35System.DateTime"4mojoPortal.Business.GoogleCheckoutLog.GTimestamp.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%34System.DateTimeõ
+ò
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs» »(2
+%36string"__id*T*R
+>
+notification.GCheckout.AutoGen.OrderStateChangeNotification"
+reasonstring’
+
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs» »(2
+%37string"5mojoPortal.Business.GoogleCheckoutLog.AvsResponse.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%36stringŸ
+œ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¼ ¼(%
+%38System.Guid"2mojoPortal.Business.GoogleCheckoutLog.CartGuid.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+	orderGuidSystem.Guidö
+ó
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¾ ¾(
+%39bool",mojoPortal.Business.GoogleCheckoutLog.Save()*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+4*©
+4„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÁ	 Á(	"œ
+„
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÁ Á(	
+implicit return:>
+notification.GCheckout.AutoGen.OrderStateChangeNotificationB86
+4mojoPortal.Web.Services.GCheckoutNotificationHandler

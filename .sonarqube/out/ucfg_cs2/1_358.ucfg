@@ -1,0 +1,84 @@
+
+1mojoPortal.Data.DBIndexingQueue.GetByPath(string){
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.csœ  œ()"0*®
+0{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.csž ¢(9ð
+í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.csž< ž(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÏÌ
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.csž% ž(‹(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper½
+º
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.csž) ž(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*!
+mp_IndexingQueue_SelectByPath*2Þ
+Û
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.csž ž(‹)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper”
+‘
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.csŸ1 Ÿ(C
+%3"__id*
+""”
+‘
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.csŸJ Ÿ(b
+%4"__id*
+""û
+ø
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.csŸ Ÿ(n
+
+%5void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@IndexPath*
+
+%3*2ÿ*
+
+%4*
+
+	indexPathstring€
+ý
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.cs !  (4
+%6System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperÊ
+Ç
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.cs   (4!
+readerSystem.Data.IDataReader"__id*
+
+%6System.Data.IDataReaderª
+§
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.cs¢ ¢(:
+%7System.Data.DataTable"HmojoPortal.Data.DBPortal.GetTableFromDataReader(System.Data.IDataReader)*"
+mojoPortal.Data.DBPortal*#
+!
+readerSystem.Data.IDataReader"œ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.cs¢ ¢(;
+
+%7System.Data.DataTable*•
+1{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.cs¤	 ¤(	"’
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBIndexingQueue.cs¤ ¤(	
+implicit return:
+	indexPathstringB#"!
+mojoPortal.Data.DBIndexingQueue

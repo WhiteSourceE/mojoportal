@@ -1,0 +1,170 @@
+
+EmojoPortal.Web.AdminUI.PageProperties.SetupParentPageSelectorScript()q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs› ›(,"0*ô-
+0q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csﬂ Û(d≤Ø
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csﬂ ﬂ(-
+%0System.Text.StringBuilder"System.Text.StringBuilder–
+Õ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csﬂ ﬂ(+
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilderƒ
+¡
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csﬂ ﬂ(-#
+scriptSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilderé
+ã
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs· ·(5
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*$"
+ 
+<script type='text/javascript'>í
+è
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs„ „(8
+%3System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*(&
+$function SetPage(pageId, pageName) {ê
+ç
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÁ; Á(J+
+%4%System.Web.UI.WebControls.HiddenField"__id*e*c'
+%mojoPortal.Web.AdminUI.PageProperties"8
+hdnParentPageId%System.Web.UI.WebControls.HiddenFieldÂ‚
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÁ; Á(S
+%5string""System.Web.UI.Control.ClientID.get*-
++
+%4%System.Web.UI.WebControls.HiddenField2ClientID.get…
+∆
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÁ Á(S
+%6string"__concat*)'
+%var hdnUI = document.getElementById('*
+
+%5string®
+•
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÁ Á(\
+%7string"__concat*
+
+%6string*
+'); ¯
+ı
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÁ Á(]
+%8System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%7stringÑ
+Å
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csË Ë(*
+%9System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+hdnUI.value = pageId; á
+Ñ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÍ9 Í(J&
+%10System.Web.UI.WebControls.Label"__id*a*_'
+%mojoPortal.Web.AdminUI.PageProperties"4
+lblParentPageNameSystem.Web.UI.WebControls.Label·ﬁ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÍ9 Í(S
+%11string""System.Web.UI.Control.ClientID.get*(
+&
+%10System.Web.UI.WebControls.Label2ClientID.get…
+∆
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÍ Í(S
+%12string"__concat*'%
+#var lbl = document.getElementById('*
+
+%11string´
+®
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÍ Í(]
+%13string"__concat*
+
+%12string*	
+');  ˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÍ Í(^ 
+%14System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%13stringâ
+Ü
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÎ Î(. 
+%15System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+lbl.innerHTML = pageName; É
+Ä
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÓ Ó(( 
+%16System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$.colorbox.close(); 
+Ì
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs ( 
+%17System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}¯
+ı
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÒ Ò( 
+%18System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+	</script>÷”
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÛ Û(
+%19System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get‚
+ﬂ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÛ Û((
+%20!System.Web.UI.ClientScriptManager"#System.Web.UI.Page.ClientScript.get*
+
+%19System.Web.UI.Page“
+œ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÛS Û(d
+%21string"$System.Text.StringBuilder.ToString()*%
+#
+scriptSystem.Text.StringBuilder∫
+∑
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÛ Û(e
+%22void"TSystem.Web.UI.ClientScriptManager.RegisterStartupScript(System.Type, string, string)**
+(
+%20!System.Web.UI.ClientScriptManager*
+""*
+SelectPrentPageHandler*
+
+%21string*
+1*Å
+1q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÙ Ù("à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÙ Ù(
+implicit returnB)'
+%mojoPortal.Web.AdminUI.PageProperties

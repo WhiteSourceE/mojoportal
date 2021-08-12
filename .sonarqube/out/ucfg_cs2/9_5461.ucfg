@@ -1,0 +1,91 @@
+
+\mojoPortal.Web.AdminUI.CacheToolPage.btnResetSkinVersionGuid_Click(object, System.EventArgs)r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.cs? ?(*"0*¯
+0r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csA E(.ú
+÷
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csA A(&
+%0 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings²
+¯
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csA' A(5
+%1System.Guid"System.Guid.NewGuid()*"
+System.Guidû
+ø
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csA A(5
+%2System.Guid"0mojoPortal.Business.SiteSettings.SkinVersion.set*(
+&
+%0 mojoPortal.Business.SiteSettings*
+
+%1System.Guidú
+÷
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csB B(&
+%3 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÖ
+Ó
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csB B(
+
+%4bool"'mojoPortal.Business.SiteSettings.Save()*(
+&
+%3 mojoPortal.Business.SiteSettingsú
+÷
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csC/ C(;&
+%5 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÙ
+Ö
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csC/ C(B	
+%6int"+mojoPortal.Business.SiteSettings.SiteId.get*(
+&
+%5 mojoPortal.Business.SiteSettingsˆ
+…
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csC C(C
+
+%7void"FmojoPortal.Business.WebHelpers.CacheHelper.ClearSiteSettingsCache(int)*.",
+*mojoPortal.Business.WebHelpers.CacheHelper*
+	
+%6intñ
+î
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csD D( 
+
+%8void"<mojoPortal.Business.WebHelpers.CacheHelper.ResetThemeCache()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperÍ
+Ê
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csE  E('
+%9System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÉ
+Æ
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csE  E(.
+%10string"!System.Web.HttpRequest.RawUrl.get*
+
+%9System.Web.HttpRequest¶
+³
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csE E(/
+%11void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*(&
+$mojoPortal.Web.AdminUI.CacheToolPage*
+
+%10string*
+1*ƒ
+1r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csF	 F(	"‰
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\DesignTools\CacheTool.aspx.csF F(	
+implicit return:
+senderobject:
+eSystem.EventArgsB(&
+$mojoPortal.Web.AdminUI.CacheToolPage

@@ -1,0 +1,216 @@
+
+ÅmojoPortal.Net.Email.SendEmail(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string, string, bool, string)h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csN N($"0*∆
+0h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csZ Z('Œ
+À
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csZ Z('
+
+%0bool""string.operator ==(string, string)*
+"
+string*
+
+tostring*
+admin@admin.com*
+1
+2*„
+1j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÖ	 Ö(	"r
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csZ+ Z(2
+""*§
+2h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs\ \(Hë
+é
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs\ \(18
+%12System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManager‘
+—
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs\ \(@
+%2string"
+__arrayGet*:
+8
+%12System.Collections.Specialized.NameValueCollection*
+DisableSmtp¡
+æ
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs\ \(H
+
+%3bool""string.operator !=(string, string)*
+"
+string*
+
+%2string*
+""*
+3
+4*®
+3i
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs\N \(áë
+é
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs\N \(n8
+%42System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManager‘
+—
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs\N \(}
+%5string"
+__arrayGet*:
+8
+%42System.Collections.Specialized.NameValueCollection*
+DisableSmtpƒ
+¡
+i
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs\N \(á
+
+%6bool""string.operator ==(string, string)*
+"
+string*
+
+%5string*
+true*
+5
+4*ï
+5h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs^ ^(S∏
+µ
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs^ ^(
+%7log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILogˆÛ
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs^ ^(T
+
+%8void"log4net.ILog.Info(object)*
+
+%7log4net.ILog*<:
+8Not Sending email because DisableSmtp is true in config.2Info(object)"r
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cs_ _(
+""*ÿ
+4h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csb b(%‡
+›
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csb b(%
+
+%9bool""object.operator ==(object, object)*
+"
+object*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+""*
+6
+7* 
+7h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csb+ b(@“
+œ
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csb, b(@
+%10bool"'mojoPortal.Net.SmtpSettings.IsValid.get*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+6
+8*é
+6h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csd d(Hπ
+∂
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csd d(
+%11log4net.ILog"__id*/*-
+mojoPortal.Net.Email"
+loglog4net.ILogÓÎ
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csd d(I
+%12void"log4net.ILog.Error(object)*
+
+%11log4net.ILog*0.
+,Invalid smtp settings detected in SendEmail 2Error(object)"r
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.cse e(
+""*ö
+8h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csi i("°
+û
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csi i(
+
+%13int"string.Length.get*
+
+replyTostring*
+9
+10*’
+9h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csk u(Ò
+Ó
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csk u(
+%14void"ámojoPortal.Net.Email.SendEmailNormal(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string, string, bool, string)*"
+mojoPortal.Net.Email*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+fromstring*
+
+replyTostring*
+
+tostring*
+
+ccstring*
+
+bccstring*
+
+subjectstring*
+
+messageBodystring*
+""*
+
+prioritystring"r
+h
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csw w(
+""*∆
+10i
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csz É(Œ
+À
+i
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csz É(
+%15void"ymojoPortal.Net.Email.SendEmail(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string, bool, string)*"
+mojoPortal.Net.Email*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+fromstring*
+
+tostring*
+
+ccstring*
+
+bccstring*
+
+subjectstring*
+
+messageBodystring*
+""*
+
+prioritystring*
+11*Ù
+11j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÖ	 Ö(	"Å
+j
+^D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Net\Email.csÖ Ö(	
+implicit return:+
+smtpSettingsmojoPortal.Net.SmtpSettings:
+fromstring:
+replyTostring:
+tostring:
+ccstring:
+bccstring:
+subjectstring:
+messageBodystring:
+htmlbool:
+prioritystringB"
+mojoPortal.Net.Email

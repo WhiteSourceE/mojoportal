@@ -1,0 +1,398 @@
+
+;mojoPortal.Web.UI.Pages.SearchResults.SetupInternalSearch()j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs (("0*ï
+0l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csÇ Ö(;›
+⁄
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csÇ Ç(
+
+%0void"3mojoPortal.Web.UI.Pages.SearchResults.SetupScript()*)'
+%mojoPortal.Web.UI.Pages.SearchResultsﬂ
+‹
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csÉ É(
+
+%1void"5mojoPortal.Web.UI.Pages.SearchResults.ShowNoResults()*)'
+%mojoPortal.Web.UI.Pages.SearchResults◊
+‘
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csÖ Ö(;
+
+%2bool":mojoPortal.Web.SiteUtils.ShowAlternateSearchIfConfigured()*"
+mojoPortal.Web.SiteUtils*
+1
+2*à
+1l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csá â()∆
+√
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csá# á(;
+%3string"'mojoPortal.Web.SiteUtils.GetBingApiId()*"
+mojoPortal.Web.SiteUtilsú
+ô
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csá á(;
+	bingApiIdstring"__id*
+
+%3string—
+Œ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csà. à(Q
+%4string"2mojoPortal.Web.SiteUtils.GetGoogleCustomSearchId()*"
+mojoPortal.Web.SiteUtilsß
+§
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csà à(Q
+googleCustomSearchIdstring"__id*
+
+%4string¶
+£
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csâ â(%	
+%5int"string.Length.get*
+
+	bingApiIdstring*
+3
+4*≠
+4l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csâ/ â(N±
+Æ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csâ/ â(J	
+%6int"string.Length.get* 
+
+googleCustomSearchIdstring*
+3
+5*Ö
+3l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csâS â(sù
+ö
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csâS â(d3
+%7-System.Web.UI.HtmlControls.HtmlGenericControl"__id*o*m'
+%mojoPortal.Web.UI.Pages.SearchResults"B
+spnAltSearchLinks-System.Web.UI.HtmlControls.HtmlGenericControlÏÈ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csâS â(s
+
+%8bool"!System.Web.UI.Control.Visible.set*5
+3
+%7-System.Web.UI.HtmlControls.HtmlGenericControl*
+""2Visible.set*
+5*µ
+5l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csã å(JÖ
+Ç
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csã ã()
+%9#System.Web.UI.WebControls.HyperLink"__id*a*_'
+%mojoPortal.Web.UI.Pages.SearchResults"4
+lnkBingSearch#System.Web.UI.WebControls.HyperLinkß
+§
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csã) ã(9
+
+%10int"string.Length.get*
+
+	bingApiIdstring„‡
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csã ã(>
+%11bool"!System.Web.UI.Control.Visible.set*+
+)
+%9#System.Web.UI.WebControls.HyperLink*
+""2Visible.setà
+Ö
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cså å(*
+%12#System.Web.UI.WebControls.HyperLink"__id*c*a'
+%mojoPortal.Web.UI.Pages.SearchResults"6
+lnkGoogleSearch#System.Web.UI.WebControls.HyperLink≤
+Ø
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cså+ å(F
+
+%13int"string.Length.get* 
+
+googleCustomSearchIdstring‰·
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cså å(K
+%14bool"!System.Web.UI.Control.Visible.set*,
+*
+%12#System.Web.UI.WebControls.HyperLink*
+""2Visible.set*
+2*‚
+2l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csè è(?Ê
+„
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csè è(?
+%15bool"@mojoPortal.Web.WebConfigSettings.DisableSearchFeatureFilters.get*$""
+ mojoPortal.Web.WebConfigSettings*
+6
+7*ö
+6l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csèD è(eû
+õ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csèD è(S5
+%16.mojoPortal.Web.UI.SearchResultsDisplaySettings"__id*n*l'
+%mojoPortal.Web.UI.Pages.SearchResults"A
+displaySettings.mojoPortal.Web.UI.SearchResultsDisplaySettings˝
+˙
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csèD è(e
+%17bool"DmojoPortal.Web.UI.SearchResultsDisplaySettings.ShowFeatureFilter.get*7
+5
+%16.mojoPortal.Web.UI.SearchResultsDisplaySettings*
+8
+7*è
+8l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csì ì($—Œ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csì ì(
+%18System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getæ
+ª
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csì ì($
+%19bool"!System.Web.UI.Page.IsPostBack.get*
+
+%18System.Web.UI.Page*
+9
+10*”
+9l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csï ó(5‚
+ﬂ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csï ï(%
+%20void"7mojoPortal.Web.UI.Pages.SearchResults.BindFeatureList()*)'
+%mojoPortal.Web.UI.Pages.SearchResultså
+â
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csñ ñ(!-
+%21&System.Web.UI.WebControls.DropDownList"__id*d*b'
+%mojoPortal.Web.UI.Pages.SearchResults"7
+ddFeatureList&System.Web.UI.WebControls.DropDownListìê
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csñ ñ('3
+%22,System.Web.UI.WebControls.ListItemCollection"/System.Web.UI.WebControls.ListControl.Items.get*/
+-
+%21&System.Web.UI.WebControls.DropDownList2	Items.get≈
+¬
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csñ? ñ(\
+%23string"+Resources.Resource.SearchAllContentItem.get*"
+Resources.ResourceÜ
+É
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csñ^ ñ(h
+%24"__id*
+""°
+û
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csñ^ ñ(s
+%25string"System.Guid.ToString()*
+
+%24¿Ω
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csñ2 ñ(t)
+%26"System.Web.UI.WebControls.ListItem""System.Web.UI.WebControls.ListItemä
+á
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csñ6 ñ(>
+%27void";System.Web.UI.WebControls.ListItem.ListItem(string, string)*+
+)
+%26"System.Web.UI.WebControls.ListItem*
+
+%23string*
+
+%25stringÚ
+Ô
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csñ ñ(u
+%28void"
+__arrayAdd*5
+3
+%22,System.Web.UI.WebControls.ListItemCollection*2 *+
+)
+%26"System.Web.UI.WebControls.ListItemå
+â
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csó ó(%-
+%29&System.Web.UI.WebControls.DropDownList"__id*d*b'
+%mojoPortal.Web.UI.Pages.SearchResults"7
+ddFeatureList&System.Web.UI.WebControls.DropDownListìê
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csó ó(+3
+%30,System.Web.UI.WebControls.ListItemCollection"/System.Web.UI.WebControls.ListControl.Items.get*/
+-
+%29&System.Web.UI.WebControls.DropDownList2	Items.getÏ
+È
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csó ó(1
+
+%31int"6System.Web.UI.WebControls.ListItemCollection.Count.get*5
+3
+%30,System.Web.UI.WebControls.ListItemCollection*
+11
+12*±
+11l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csô! ö((å
+â
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csô( ô(5-
+%32&System.Web.UI.WebControls.DropDownList"__id*d*b'
+%mojoPortal.Web.UI.Pages.SearchResults"7
+ddFeatureList&System.Web.UI.WebControls.DropDownListìê
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csô( ô(;3
+%33,System.Web.UI.WebControls.ListItemCollection"/System.Web.UI.WebControls.ListControl.Items.get*/
+-
+%32&System.Web.UI.WebControls.DropDownList2	Items.getÜ
+É
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csôH ô(S
+%34"__id*
+""°
+û
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csôH ô(^
+%35string"System.Guid.ToString()*
+
+%34¶
+£
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csô( ô(_)
+%36"System.Web.UI.WebControls.ListItem"@System.Web.UI.WebControls.ListItemCollection.FindByValue(string)*5
+3
+%33,System.Web.UI.WebControls.ListItemCollection*
+
+%35string–
+Õ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csô! ô(_*
+item"System.Web.UI.WebControls.ListItem"__id*+
+)
+%36"System.Web.UI.WebControls.ListItem‰
+·
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csö ö((
+%37bool""object.operator !=(object, object)*
+"
+object*,
+*
+item"System.Web.UI.WebControls.ListItem*
+""*
+13
+10*Î
+13l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csú ù(0å
+â
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csú ú()-
+%38&System.Web.UI.WebControls.DropDownList"__id*d*b'
+%mojoPortal.Web.UI.Pages.SearchResults"7
+ddFeatureList&System.Web.UI.WebControls.DropDownList˘ˆ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csú ú(:
+%39void"6System.Web.UI.WebControls.ListControl.ClearSelection()*/
+-
+%38&System.Web.UI.WebControls.DropDownList2ClearSelection()Â
+‚
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csù ù(0
+%40bool"/System.Web.UI.WebControls.ListItem.Selected.set*,
+*
+item"System.Web.UI.WebControls.ListItem*
+""*
+10*Ò
+12l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs£ £(5å
+â
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs£ £(%-
+%41&System.Web.UI.WebControls.DropDownList"__id*d*b'
+%mojoPortal.Web.UI.Pages.SearchResults"7
+ddFeatureList&System.Web.UI.WebControls.DropDownListÁ‰
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs£ £(5
+%42bool"!System.Web.UI.Control.Visible.set*/
+-
+%41&System.Web.UI.WebControls.DropDownList*
+""2Visible.set*
+10*
+7l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs™ ™(-å
+â
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs™ ™(-
+%43&System.Web.UI.WebControls.DropDownList"__id*d*b'
+%mojoPortal.Web.UI.Pages.SearchResults"7
+ddFeatureList&System.Web.UI.WebControls.DropDownListÁ‰
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs™ ™(-
+%44bool"!System.Web.UI.Control.Visible.set*/
+-
+%43&System.Web.UI.WebControls.DropDownList*
+""2Visible.set*
+10*˜
+10l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs± ±()—Œ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs± ±(
+%45System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getŒ
+À
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs± ±(!
+%46System.Web.UI.Page"#System.Web.UI.Page.PreviousPage.get*
+
+%45System.Web.UI.Page”
+–
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs± ±()
+%47bool""object.operator !=(object, object)*
+"
+object*
+
+%46System.Web.UI.Page*
+""*
+14
+15*·
+14l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs≥ ≥(%Ê
+„
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs≥ ≥(%
+%48void";mojoPortal.Web.UI.Pages.SearchResults.HandleCrossPagePost()*)'
+%mojoPortal.Web.UI.Pages.SearchResults*
+16*÷
+15l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs∑ ∑(€
+ÿ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs∑ ∑(
+%49void"0mojoPortal.Web.UI.Pages.SearchResults.DoSearch()*)'
+%mojoPortal.Web.UI.Pages.SearchResults*
+16*”
+16l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs∫ ∫("É
+Ä
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs∫ ∫((
+%50!System.Web.UI.WebControls.TextBox"__id*`*^'
+%mojoPortal.Web.UI.Pages.SearchResults"3
+txtSearchInput!System.Web.UI.WebControls.TextBox“œ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.cs∫ ∫("
+%51void"System.Web.UI.Control.Focus()**
+(
+%50!System.Web.UI.WebControls.TextBox2Focus()*
+17*¯
+17l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csº	 º(	"É
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.aspx.csº º(	
+implicit returnB)'
+%mojoPortal.Web.UI.Pages.SearchResults

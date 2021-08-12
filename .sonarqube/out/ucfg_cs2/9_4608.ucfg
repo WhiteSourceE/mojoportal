@@ -1,0 +1,905 @@
+
+1mojoPortal.Web.AdminUI.ManageUsers.LoadSettings()p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csƒ	 ƒ	(!"0*ø)
+0p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs«	 ‘	(-Ê
+„
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs«	 «	(8"
+%0mojoPortal.Business.SiteUser"-mojoPortal.Web.SiteUtils.GetCurrentSiteUser()*"
+mojoPortal.Web.SiteUtilsˆ
+Û
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs«	 «	(8S$
+"mojoPortal.Web.AdminUI.ManageUsers"+
+currentUsermojoPortal.Business.SiteUser"__id*$
+"
+%0mojoPortal.Business.SiteUser·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs»	 »	(%
+
+%1bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser¬
+ø
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs»	 »	(%7$
+"mojoPortal.Web.AdminUI.ManageUsers"
+isAdminbool"__id*
+
+
+%1boolÖ
+Ç
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs…	 …	(E	
+%2int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+pageid*
+""ø
+º
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs…	 …	(E5$
+"mojoPortal.Web.AdminUI.ManageUsers"
+pageIDint"__id*
+	
+%2intâ
+Ü
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs 	H  	(N
+%3"__id*
+""ì
+ê
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs 	  	(O	
+%4int"NmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, bool, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+userid*
+""*
+
+%3ø
+º
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs 	  	(O5$
+"mojoPortal.Web.AdminUI.ManageUsers"
+userIDint"__id*
+	
+%4intœ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÀ	 À	(6
+%5double",mojoPortal.Web.SiteUtils.GetUserTimeOffset()*"
+mojoPortal.Web.SiteUtils…
+∆
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÀ	 À	(6<$
+"mojoPortal.Web.AdminUI.ManageUsers"
+
+TimeOffsetdouble"__id*
+
+%5double⁄
+◊
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÃ	 Ã	(2
+%6System.TimeZoneInfo"*mojoPortal.Web.SiteUtils.GetUserTimeZone()*"
+mojoPortal.Web.SiteUtils·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÃ	 Ã	(2G$
+"mojoPortal.Web.AdminUI.ManageUsers"
+timeZoneSystem.TimeZoneInfo"__id*
+
+%6System.TimeZoneInfoâ
+Ü
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÕ	> Õ	(H
+%7"__id*
+""è
+å
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÕ	 Õ	(I
+%8System.Guid"OmojoPortal.Web.Framework.WebUtils.ParseGuidFromQueryString(string, System.Guid)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+u*
+
+%7—
+Œ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÕ	 Õ	(I?$
+"mojoPortal.Web.AdminUI.ManageUsers"
+userGuidSystem.Guid"__id*
+
+%8System.GuidÉ
+Ä
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csŒ	 Œ	(&
+%9 mojoPortal.Web.AdminUI.UserRoles"__id*^*\$
+"mojoPortal.Web.AdminUI.ManageUsers"4
+UserRolesControl mojoPortal.Web.AdminUI.UserRolesœ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csŒ	( Œ	(0
+%10string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePageÓ
+Î
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csŒ	 Œ	(0
+%11string"-mojoPortal.Web.AdminUI.UserRoles.SiteRoot.set*(
+&
+%9 mojoPortal.Web.AdminUI.UserRoles*
+
+%10stringô
+ñ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs–	 –	(4
+%12-System.Web.UI.HtmlControls.HtmlGenericControl"__id*f*d$
+"mojoPortal.Web.AdminUI.ManageUsers"<
+divTimeZone-System.Web.UI.HtmlControls.HtmlGenericControlÚÔ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs–	 –	(&
+%13bool"!System.Web.UI.Control.Visible.set*6
+4
+%12-System.Web.UI.HtmlControls.HtmlGenericControl*
+""2Visible.set˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs‘	 ‘	( '
+%14 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings‚
+ﬂ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs‘	 ‘	(-
+%15string"1mojoPortal.Business.SiteSettings.AvatarSystem.get*)
+'
+%14 mojoPortal.Business.SiteSettings*
+1*}
+1p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs‘	 ‘	(-*
+2
+3*Ü
+2p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs◊	 ÿ	(*√
+¿
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs◊	 ◊	()>$
+"mojoPortal.Web.AdminUI.ManageUsers"
+allowGravatarsbool"__id*
+""√
+¿
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÿ	 ÿ	(*>$
+"mojoPortal.Web.AdminUI.ManageUsers"
+disableAvatarsbool"__id*
+""*
+4*}
+3p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs‘	 ‘	(-*
+5
+6*ÿ
+5p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs‹	 ﬁ	(|√
+¿
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs‹	 ‹	(*>$
+"mojoPortal.Web.AdminUI.ManageUsers"
+allowGravatarsbool"__id*
+""√
+¿
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs›	 ›	(*>$
+"mojoPortal.Web.AdminUI.ManageUsers"
+disableAvatarsbool"__id*
+""á
+Ñ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csﬁ	 ﬁ	(!*
+%16#System.Web.UI.WebControls.HyperLink"__id*^*\$
+"mojoPortal.Web.AdminUI.ManageUsers"4
+lnkAvatarUpld#System.Web.UI.WebControls.HyperLinkœ
+Ã
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csﬁ	0 ﬁ	(8
+%17string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage«
+ƒ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csﬁ	0 ﬁ	(_
+%18string"__concat*
+
+%17string*&$
+"/Dialog/AvatarUploadDialog.aspx?u=ä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csﬁ	b ﬁ	(h
+%19"__id*
+""Ó
+Î
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csﬁ	b ﬁ	(|
+%20string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+
+%19∞
+≠
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csﬁ	0 ﬁ	(|
+%21string"__concat*
+
+%18string*
+
+%20string¯
+ı
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csﬁ	 ﬁ	(|
+%22string"3System.Web.UI.WebControls.HyperLink.NavigateUrl.set*,
+*
+%16#System.Web.UI.WebControls.HyperLink*
+
+%21string*
+4*}
+6p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs‘	 ‘	(-*
+7
+7*Ü
+7p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs‰	 Â	()√
+¿
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs‰	 ‰	(*>$
+"mojoPortal.Web.AdminUI.ManageUsers"
+allowGravatarsbool"__id*
+""√
+¿
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÂ	 Â	()>$
+"mojoPortal.Web.AdminUI.ManageUsers"
+disableAvatarsbool"__id*
+""*
+4*∑
+4p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÍ	 Í	(>ì
+ê
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÍ	 Í	(/
+%23(mojoPortal.Web.UI.ProfileDisplaySettings"__id*e*c$
+"mojoPortal.Web.AdminUI.ManageUsers";
+displaySettings(mojoPortal.Web.UI.ProfileDisplaySettings˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÍ	 Í	(3
+%24string"@mojoPortal.Web.UI.ProfileDisplaySettings.OverrideAvatarLabel.get*1
+/
+%23(mojoPortal.Web.UI.ProfileDisplaySettings•
+¢
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÍ	 Í	(:
+
+%25int"string.Length.get*
+
+%24string*
+8
+9*É	
+8p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÏ	 Ï	(Iˇ
+¸
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÏ	 Ï	((
+%26!mojoPortal.Web.Controls.SiteLabel"__id*X*V$
+"mojoPortal.Web.AdminUI.ManageUsers".
+	lblAvatar!mojoPortal.Web.Controls.SiteLabelì
+ê
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÏ	& Ï	(5/
+%27(mojoPortal.Web.UI.ProfileDisplaySettings"__id*e*c$
+"mojoPortal.Web.AdminUI.ManageUsers";
+displaySettings(mojoPortal.Web.UI.ProfileDisplaySettings˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÏ	& Ï	(I
+%28string"@mojoPortal.Web.UI.ProfileDisplaySettings.OverrideAvatarLabel.get*1
+/
+%27(mojoPortal.Web.UI.ProfileDisplaySettingsÚ
+Ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÏ	 Ï	(I
+%29string"/mojoPortal.Web.Controls.SiteLabel.ConfigKey.set**
+(
+%26!mojoPortal.Web.Controls.SiteLabel*
+
+%28string*
+9*—
+9p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs	 ı	(:í
+è
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs	 	($*
+%30#System.Web.UI.WebControls.HyperLink"__id*i*g$
+"mojoPortal.Web.AdminUI.ManageUsers"?
+lnkUnsubscribeFromForums#System.Web.UI.WebControls.HyperLink˜
+Ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs	/ 	(i
+%31bool"MmojoPortal.Web.WebConfigSettings.ShowForumUnsubscribeLinkInUserManagement.get*$""
+ mojoPortal.Web.WebConfigSettingsÔÏ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs	 	(i
+%32bool"!System.Web.UI.Control.Visible.set*,
+*
+%30#System.Web.UI.WebControls.HyperLink*
+
+%31bool2Visible.setÅ
+˛
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÛ	 Û	(!#
+%33mojoPortal.Web.UI.mojoButton"__id*_*]$
+"mojoPortal.Web.AdminUI.ManageUsers"5
+btnPurgeUserLocationsmojoPortal.Web.UI.mojoButtonı
+Ú
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÛ	, Û	(d
+%34bool"KmojoPortal.Web.WebConfigSettings.ShowPurgeUserLocationsInUserManagement.get*$""
+ mojoPortal.Web.WebConfigSettingsËÂ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÛ	 Û	(d
+%35bool"!System.Web.UI.Control.Visible.set*%
+#
+%33mojoPortal.Web.UI.mojoButton*
+
+%34bool2Visible.setÁ
+‰
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csı	 ı	(:
+%36bool"=mojoPortal.Web.WebConfigSettings.MaskPasswordsInUserAdmin.get*$""
+ mojoPortal.Web.WebConfigSettings*
+10
+11*¶
+10p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs˜	 ˜	(;Å
+˛
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs˜	 ˜	((
+%37!System.Web.UI.WebControls.TextBox"__id*Z*X$
+"mojoPortal.Web.AdminUI.ManageUsers"0
+txtPassword!System.Web.UI.WebControls.TextBoxä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs˜	' ˜	(;
+%38"__id*
+""ñì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs˜	 ˜	(;,
+%39%System.Web.UI.WebControls.TextBoxMode".System.Web.UI.WebControls.TextBox.TextMode.set**
+(
+%37!System.Web.UI.WebControls.TextBox*
+
+%382TextMode.set*
+11*‰
+11p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs¸	 ¸	(4·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs¸	 ¸	(4
+%40bool"7mojoPortal.Web.WebConfigSettings.UseRelatedSiteMode.get*$""
+ mojoPortal.Web.WebConfigSettings*
+12
+13*è
+12p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs˛	 ˛	(-õ
+ò
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs˛	 ˛	(4
+%41-System.Web.UI.HtmlControls.HtmlGenericControl"__id*h*f$
+"mojoPortal.Web.AdminUI.ManageUsers">
+divTotalPosts-System.Web.UI.HtmlControls.HtmlGenericControlÚÔ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs˛	 ˛	(-
+%42bool"!System.Web.UI.Control.Visible.set*6
+4
+%41-System.Web.UI.HtmlControls.HtmlGenericControl*
+""2Visible.set*
+13*ä
+13p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÄ
+ Ä
+(-ì
+ê
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÄ
+ Ä
+(/
+%43(mojoPortal.Web.UI.ProfileDisplaySettings"__id*e*c$
+"mojoPortal.Web.AdminUI.ManageUsers";
+displaySettings(mojoPortal.Web.UI.ProfileDisplaySettingsÒ
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÄ
+ Ä
+(-
+%44bool":mojoPortal.Web.UI.ProfileDisplaySettings.HidePostCount.get*1
+/
+%43(mojoPortal.Web.UI.ProfileDisplaySettings*
+14
+15*è
+14p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÄ
+1 Ä
+(Nõ
+ò
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÄ
+1 Ä
+(>4
+%45-System.Web.UI.HtmlControls.HtmlGenericControl"__id*h*f$
+"mojoPortal.Web.AdminUI.ManageUsers">
+divTotalPosts-System.Web.UI.HtmlControls.HtmlGenericControlÚÔ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÄ
+1 Ä
+(N
+%46bool"!System.Web.UI.Control.Visible.set*6
+4
+%45-System.Web.UI.HtmlControls.HtmlGenericControl*
+""2Visible.set*
+15*ˆ
+15p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÇ
+ É
+(,Ó
+Î
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÇ
+ Ç
+(:+
+%47$mojoPortal.Web.CommerceConfiguration",mojoPortal.Web.SiteUtils.GetCommerceConfig()*"
+mojoPortal.Web.SiteUtilsä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÇ
+ Ç
+(:^$
+"mojoPortal.Web.AdminUI.ManageUsers"6
+commerceConfig$mojoPortal.Web.CommerceConfiguration"__id*-
++
+%47$mojoPortal.Web.CommerceConfigurationä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÉ
+ É
+(+
+%48$mojoPortal.Web.CommerceConfiguration"__id*`*^$
+"mojoPortal.Web.AdminUI.ManageUsers"6
+commerceConfig$mojoPortal.Web.CommerceConfigurationË
+Â
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÉ
+ É
+(,
+%49bool"5mojoPortal.Web.CommerceConfiguration.IsConfigured.get*-
++
+%48$mojoPortal.Web.CommerceConfiguration*
+16
+17*•	
+16p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÖ
+ Ü
+(/ú
+ô
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÖ
+ Ö
+(4
+%50-System.Web.UI.HtmlControls.HtmlGenericControl"__id*i*g$
+"mojoPortal.Web.AdminUI.ManageUsers"?
+liOrderHistory-System.Web.UI.HtmlControls.HtmlGenericControlÚÔ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÖ
+ Ö
+(.
+%51bool"!System.Web.UI.Control.Visible.set*6
+4
+%50-System.Web.UI.HtmlControls.HtmlGenericControl*
+""2Visible.setù
+ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÜ
+ Ü
+(4
+%52-System.Web.UI.HtmlControls.HtmlGenericControl"__id*j*h$
+"mojoPortal.Web.AdminUI.ManageUsers"@
+tabOrderHistory-System.Web.UI.HtmlControls.HtmlGenericControlÚÔ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csÜ
+ Ü
+(/
+%53bool"!System.Web.UI.Control.Visible.set*6
+4
+%52-System.Web.UI.HtmlControls.HtmlGenericControl*
+""2Visible.set*
+17*ﬁ
+17p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csâ
+ ä
+(R˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csâ
+ â
+()'
+%54 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÊ
+„
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csâ
+ â
+(:
+%55string"5mojoPortal.Business.SiteSettings.WindowsLiveAppId.get*)
+'
+%54 mojoPortal.Business.SiteSettingsü
+ú
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csâ
+ â
+(:
+wlAppIdstring"__id*
+
+%55stringö
+ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csä
+ ä
+(09
+%562System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerÈ
+Ê
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csä
+ ä
+(J
+%57string"
+__arrayGet*;
+9
+%562System.Collections.Specialized.NameValueCollection*
+GlobalWindowsLiveAppIdÀ
+»
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csä
+ ä
+(R
+%58bool""string.operator !=(string, string)*
+"
+string*
+
+%57string*
+""*
+18
+19*◊
+18p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cså
+ ç
+('ö
+ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cså
+ å
+(:9
+%592System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerÈ
+Ê
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cså
+ å
+(T
+%60string"
+__arrayGet*;
+9
+%592System.Collections.Specialized.NameValueCollection*
+GlobalWindowsLiveAppIdü
+ú
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cså
+ å
+(T
+wlAppIdstring"__id*
+
+%60string©
+¶
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csç
+ ç
+("
+
+%61int"string.Length.get*
+
+wlAppIdstring*
+20
+19*É
+20p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csç
++ ç
+(R˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csç
+5 ç
+(A'
+%62 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÊ
+„
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csç
+5 ç
+(R
+%63string"5mojoPortal.Business.SiteSettings.WindowsLiveAppId.get*)
+'
+%62 mojoPortal.Business.SiteSettingsü
+ú
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csç
++ ç
+(R
+wlAppIdstring"__id*
+
+%63string*
+19*Ä
+19p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csë
+ ë
+(Q˝
+˙
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csë
+ ë
+(Q
+%64bool"SmojoPortal.Web.WebConfigSettings.GloballyDisableMemberUseOfWindowsLiveMessenger.get*$""
+ mojoPortal.Web.WebConfigSettings*
+21
+22*ˆ
+22p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csí
+ í
+(E˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csí
+ í
+(!'
+%65 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings˜
+Ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csí
+ í
+(E
+%66bool"HmojoPortal.Business.SiteSettings.AllowWindowsLiveMessengerForMembers.get*)
+'
+%65 mojoPortal.Business.SiteSettings*
+21
+23*¨
+23p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csì
+ ì
+('©
+¶
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csì
+ ì
+("
+
+%67int"string.Length.get*
+
+wlAppIdstring*
+21
+24*í
+21p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csñ
+ ñ
+(0û
+õ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csñ
+ ñ
+( 4
+%68-System.Web.UI.HtmlControls.HtmlGenericControl"__id*k*i$
+"mojoPortal.Web.AdminUI.ManageUsers"A
+divLiveMessenger-System.Web.UI.HtmlControls.HtmlGenericControlÚÔ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csñ
+ ñ
+(0
+%69bool"!System.Web.UI.Control.Visible.set*6
+4
+%68-System.Web.UI.HtmlControls.HtmlGenericControl*
+""2Visible.set*
+24*ô
+
+24p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csô
+ õ
+(°
+û
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csô
+ ô
+(4
+%70-System.Web.UI.HtmlControls.HtmlGenericControl"__id*n*l$
+"mojoPortal.Web.AdminUI.ManageUsers"D
+divEditorPreference-System.Web.UI.HtmlControls.HtmlGenericControl˘
+ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csô
+* ô
+(6'
+%71 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÌ
+Í
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csô
+* ô
+(P
+%72bool">mojoPortal.Business.SiteSettings.AllowUserEditorPreference.get*)
+'
+%71 mojoPortal.Business.SiteSettings˘ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csô
+ ô
+(P
+%73bool"!System.Web.UI.Control.Visible.set*6
+4
+%70-System.Web.UI.HtmlControls.HtmlGenericControl*
+
+%72bool2Visible.setä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csõ
+ õ
+(
+%74"__id*
+""*
+25
+26*Î
+25p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csõ
+  õ
+(=Ï
+È
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csõ
+  õ
+(=
+%75void"@mojoPortal.Web.AdminUI.ManageUsers.HideExtendedProfileControls()*&$
+"mojoPortal.Web.AdminUI.ManageUsers*
+26*Í
+26p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csù
+ †
+(-¢
+ü
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csù
+ ù
+( 4
+%76-System.Web.UI.HtmlControls.HtmlGenericControl"__id*o*m$
+"mojoPortal.Web.AdminUI.ManageUsers"E
+divReqPasswordChange-System.Web.UI.HtmlControls.HtmlGenericControlÎ
+Ë
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csù
++ ù
+(Y
+%77bool"AmojoPortal.Web.WebConfigSettings.AllowRequiringPasswordChange.get*$""
+ mojoPortal.Web.WebConfigSettings˘ˆ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.csù
+ ù
+(Y
+%78bool"!System.Web.UI.Control.Visible.set*6
+4
+%76-System.Web.UI.HtmlControls.HtmlGenericControl*
+
+%77bool2Visible.setä
+á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs†
+ †
+(
+%79"__id*
+""˜
+Ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs†
+ †
+(&#
+%80mojoPortal.Business.SiteUser"__id*U*S$
+"mojoPortal.Web.AdminUI.ManageUsers"+
+currentUsermojoPortal.Business.SiteUser—
+Œ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs†
+ †
+(-
+
+%81int"'mojoPortal.Business.SiteUser.UserId.get*%
+#
+%80mojoPortal.Business.SiteUser*
+27
+28*‘
+27p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs†
+1 †
+(I˜
+Ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs†
+2 †
+(=#
+%82mojoPortal.Business.SiteUser"__id*U*S$
+"mojoPortal.Web.AdminUI.ManageUsers"+
+currentUsermojoPortal.Business.SiteUser◊
+‘
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs†
+2 †
+(I
+%83bool",mojoPortal.Business.SiteUser.IsLockedOut.get*%
+#
+%82mojoPortal.Business.SiteUser*
+29
+28*È
+29p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs†
+N †
+(i˜
+Ù
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs†
+N †
+(Y#
+%84mojoPortal.Web.UI.mojoButton"__id*U*S$
+"mojoPortal.Web.AdminUI.ManageUsers"+
+btnLockUsermojoPortal.Web.UI.mojoButtonÌ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs†
+N †
+(i
+%85bool"0System.Web.UI.WebControls.WebControl.Enabled.set*%
+#
+%84mojoPortal.Web.UI.mojoButton*
+""2Enabled.set*
+28*’
+28p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs¢
+ £
+((Î
+Ë
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs¢
+ ¢
+(,
+%86void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+administrationË
+Â
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs£
+ £
+()
+%87void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+manageusers*
+30*Ä
+30p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs§
+	 §
+(	"á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ManageUsers.aspx.cs§
+ §
+(	
+implicit returnB&$
+"mojoPortal.Web.AdminUI.ManageUsers

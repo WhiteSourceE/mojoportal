@@ -1,0 +1,109 @@
+
+]SuperFlexiData.DBItemFieldValues.GetByItemGuids(System.Collections.Generic.List<System.Guid>)|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÍ Í(*"0*µ
+0|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÏ Ö(ñ
+î
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÏ3 Ï(]
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÐÍ
+}
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÏ Ï(‡(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÃ
+À
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÏ  Ï(2
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*&$
+"i7_sflexi_values_SelectByItemGuids*2ß
+Ü
+}
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÏ Ï(‡)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper˜
+•
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÐ Ð(*
+%3string"Astring.Join<T>(string, System.Collections.Generic.IEnumerable<T>)*
+"
+string*
+,*1
+/
+	itemGuids"System.Collections.Generic.List<T>¨
+¥
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÐ Ð(*
+guidsstring"__id*
+
+%3string•
+’
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÒ Ò(
+%4"__id*
+""•
+’
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÔ Ô(
+%5"__id*
+""•
+’
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÕ# Õ(=
+%6"__id*
+""ÃÀ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÕ Õ(>"
+%7mojoPortal.Data.CSV_splitter"mojoPortal.Data.CSV_splitter¥
+¢
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÕ
+ Õ(
+
+%8void"NmojoPortal.Data.CSV_splitter.CSV_splitter(string, char, System.Data.SqlDbType)*$
+"
+%7mojoPortal.Data.CSV_splitter*
+
+guidsstring*
+,*
+
+%6ž
+›
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÑ Õ(?
+
+%9void"„mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, string, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@ItemGuids*
+
+%4*
+guid_list_tbltype*
+
+%5*$
+"
+%7mojoPortal.Data.CSV_splitter‚
+ÿ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÖ
+ Ö(
+%10System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper" 
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csÖ Ö( 
+
+%10System.Data.IDataReader*—
+1|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.cs× ×("“
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.cs× ×(
+implicit return:/
+	itemGuids"System.Collections.Generic.List<T>B$""
+ SuperFlexiData.DBItemFieldValues

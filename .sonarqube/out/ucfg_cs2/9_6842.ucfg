@@ -1,0 +1,334 @@
+
+8mojoPortal.Web.AdminUI.ContentCatalogPage.LoadSettings()s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs— —(!"0*¬"
+0s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs™ £(4Ï
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs™ ™(7
+
+%0bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtilsÑ
+Î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs™ ™(7C+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+isSiteEditorbool"__id*
+
+
+%0boolò
+ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csš š(:
+
+%1bool"@mojoPortal.Business.WebHelpers.WebUser.IsAdminOrContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUserÓ
+Ð
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csš š(:E+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+isContentAdminbool"__id*
+
+
+%1boolä
+á
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs› ›(%
+
+%2bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUserÌ
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs› ›(%>+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+isAdminbool"__id*
+
+
+%2bool
+
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csœ œ(8
+%3string";mojoPortal.Web.SiteUtils.GetSkinBaseUrl(System.Web.UI.Page)*"
+mojoPortal.Web.SiteUtils*-+
+)mojoPortal.Web.AdminUI.ContentCatalogPageÔ
+Ñ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csœ œ(8D+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+skinBaseUrlstring"__id*
+
+%3stringŠ
+‡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs (L	
+%4int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+pagenumber*2Í
+Ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs (L@+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+
+pageNumberint"__id*
+	
+%4intŒ
+‰
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csžC ž(N
+%5"__id*
+""„
+
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csž ž(O	
+%6int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+md*
+
+%5Î
+Ë
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csž ž(OA+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+moduleDefIdint"__id*
+	
+%6intí
+ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs   (,
+
+%7void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+administrationæ
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¡ ¡(%
+
+%8void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*	
+cmadminÎ
+Ë
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs£ £(
+%9System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Pageû
+ø
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs£ £(#9
+%102System.Collections.Specialized.NameValueCollection"&System.Web.HttpRequest.QueryString.get*
+
+%9System.Web.HttpRequestÛ
+Ø
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs£ £(,
+%11string"
+__arrayGet*;
+9
+%102System.Collections.Specialized.NameValueCollection*	
+titleÎ
+Ë
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs£ £(4
+%12bool""string.operator !=(string, string)*
+"
+string*
+
+%11string*
+""*
+1
+2*þ
+1s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¥ ¥(3Ï
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¥ ¥(
+%13System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Pageü
+ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¥ ¥(+9
+%142System.Collections.Specialized.NameValueCollection"&System.Web.HttpRequest.QueryString.get*
+
+%13System.Web.HttpRequestÛ
+Ø
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¥ ¥(4
+%15string"
+__arrayGet*;
+9
+%142System.Collections.Specialized.NameValueCollection*	
+titleÏ
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¥ ¥(4>+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+titlestring"__id*
+
+%15string*
+2*†
+2s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¨ ª(6Ì
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¨ ¨(B+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+	sortParamstring"__id*
+sortØÕ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csª ª(
+%16System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÔ
+Ñ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csª ª(
+%17System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+
+%16System.Web.UI.Page÷
+ô
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csª ª(#9
+%182System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%17System.Web.HttpRequestÓ
+Ð
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csª$ ª(-
+%19string"__id*D*B+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+	sortParamstringá
+Þ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csª ª(.
+%20string"
+__arrayGet*;
+9
+%182System.Collections.Specialized.NameValueCollection*
+
+%19stringÎ
+Ë
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csª ª(6
+%21bool""string.operator !=(string, string)*
+"
+string*
+
+%20string*
+""*
+3
+4*…
+3s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¬ ­(ØÕ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¬ ¬(
+%22System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÔ
+Ñ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¬ ¬(#
+%23System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+
+%22System.Web.UI.Page÷
+ô
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¬ ¬(*9
+%242System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%23System.Web.HttpRequestÓ
+Ð
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¬+ ¬(4
+%25string"__id*D*B+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+	sortParamstringá
+Þ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¬ ¬(5
+%26string"
+__arrayGet*;
+9
+%242System.Collections.Specialized.NameValueCollection*
+
+%25stringÎ
+Ë
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¬ ¬(5=+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+sortstring"__id*
+
+%26stringÎ
+Ë
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs­ ­(
+%27string"__id*?*=+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+sortstring*
+5*€
+5s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs­ ­(*
+6
+7*š
+6s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs² ³(1Ì
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs² ²(1D+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+sortByFeaturebool"__id*
+""Ë
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs³ ³(1C+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+sortByAuthorbool"__id*
+""*
+4*€
+7s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs­ ­(*
+8
+9*š
+8s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs· ¸(0Ì
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs· ·(2D+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+sortByFeaturebool"__id*
+""Ë
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¸ ¸(0C+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+sortByAuthorbool"__id*
+""*
+4*‚
+9s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs­ ­(*
+10
+10*ì
+10s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¾ À(,Ì
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¾ ¾(2D+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+sortByFeaturebool"__id*
+""Ë
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.cs¿ ¿(1C+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+sortByAuthorbool"__id*
+""Î
+Ë
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csÀ À(,=+
+)mojoPortal.Web.AdminUI.ContentCatalogPage"
+sortstring"__id*
+ModuleTitle*
+4*…
+4s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csÇ	 Ç(	"Š
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ContentCatalog.aspx.csÇ Ç(	
+implicit returnB-+
+)mojoPortal.Web.AdminUI.ContentCatalogPage

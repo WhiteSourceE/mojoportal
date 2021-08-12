@@ -1,0 +1,280 @@
+
+3mojoPortal.Web.WebPageInfo.GetPhysicalPages(string)n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csV. V(>"0*“
+0n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csY$ ](,¿
+Ω
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csY$ Y(8=
+physicalPages,System.Collections.ObjectModel.Collection<T>"__id*
+""√
+¿
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csZ Z(G
+%0string"__concat*
+physicalwebpages* 
+
+fileExtensionPatternstringù
+ö
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csZ Z(G
+cachekeystring"__id*
+
+%0string—
+Œ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.cs] ]($
+%1System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext◊
+‘
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.cs] ](,
+
+%2bool""object.operator !=(object, object)*
+"
+object*
+
+%1System.Web.HttpContext*
+""*
+1
+2*Ä
+1n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.cs^ ^(7—
+Œ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.cs^ ^(%
+%3System.Web.Caching.Cache" System.Web.HttpRuntime.Cache.get*"
+System.Web.HttpRuntime‰
+·
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.cs^ ^(/
+%4object")System.Web.Caching.Cache.this[string].get* 
+
+%3System.Web.Caching.Cache*
+
+cachekeystring«
+ƒ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.cs^ ^(7
+
+%5bool""object.operator ==(object, object)*
+"
+object*
+
+%4object*
+""*
+3
+2*ï1
+3n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csa t(ƒ
+¡
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csa a(
+%6log4net.ILog"__id*5*3
+mojoPortal.Web.WebPageInfo"
+loglog4net.ILog¿
+Ω
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csa a(@
+%7string"__concat*
+couldn't find cache item *
+
+cachekeystring∫
+∑
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csa a(^
+%8string"__concat*
+
+%7string*
+ creating cache item now.–Õ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csa a(_
+
+%9void"log4net.ILog.Debug(object)*
+
+%6log4net.ILog*
+
+%8string2Debug(object)†
+ù
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csc  c(G3
+%10,System.Collections.ObjectModel.Collection<T>"4mojoPortal.Web.WebPageInfo.LoadPhysicalPages(string)*"
+mojoPortal.Web.WebPageInfo* 
+
+fileExtensionPatternstringÔ
+Ï
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csc c(G=
+physicalPages,System.Collections.ObjectModel.Collection<T>"__id*5
+3
+%10,System.Collections.ObjectModel.Collection<T>‘—
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.cseD e(b2
+%11+System.Web.Caching.AggregateCacheDependency"+System.Web.Caching.AggregateCacheDependency˛
+˚
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.cseH e(`
+%12void"FSystem.Web.Caching.AggregateCacheDependency.AggregateCacheDependency()*4
+2
+%11+System.Web.Caching.AggregateCacheDependency¯
+ı
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.cse) e(bG
+aggregateCacheDependency+System.Web.Caching.AggregateCacheDependency"__id*4
+2
+%11+System.Web.Caching.AggregateCacheDependency“
+œ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csfA f(T
+%13System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext‹
+Ÿ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csfA f([#
+%14System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*
+
+%13System.Web.HttpContextÈ
+Ê
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csfA f(s
+%15string",System.Web.HttpServerUtility.MapPath(string)*%
+#
+%14System.Web.HttpServerUtility*
+~/Web.config¬ø
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csf- f(t)
+%16"System.Web.Caching.CacheDependency""System.Web.Caching.CacheDependency˙
+˜
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csf1 f(@
+%17void":System.Web.Caching.CacheDependency.CacheDependency(string)*+
+)
+%16"System.Web.Caching.CacheDependency*
+
+%15string÷
+”
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csf f(u
+%18void"\System.Web.Caching.AggregateCacheDependency.Add(params System.Web.Caching.CacheDependency[])*I
+G
+aggregateCacheDependency+System.Web.Caching.AggregateCacheDependency*+
+)
+%16"System.Web.Caching.CacheDependencyπ
+∂
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csh. h(:
+%19System.DateTime"System.DateTime.Now.get*"
+System.DateTime„
+‡
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.cshF h(o
+
+%20int"<mojoPortal.Web.WebConfigSettings.WebPageInfoCacheMinutes.get*$""
+ mojoPortal.Web.WebConfigSettings◊
+‘
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csh. h(p
+%21System.DateTime""System.DateTime.AddMinutes(double)*
+
+%19System.DateTime*
+
+
+%20int∫
+∑
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csh h(p%
+absoluteExpirationSystem.DateTime"__id*
+
+%21System.DateTime¡
+æ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csi- i(:
+%22System.TimeSpan"__id*.*,
+System.TimeSpan"
+ZeroSystem.TimeSpanπ
+∂
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csi i(:$
+slidingExpirationSystem.TimeSpan"__id*
+
+%22System.TimeSpanà
+Ö
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csj- j(F
+%23"__id*
+""¥
+±
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csj" j(F0
+priority$System.Web.Caching.CacheItemPriority"__id*
+
+%23∫
+∑
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csk) k(87
+callback+System.Web.Caching.CacheItemRemovedCallback"__id*
+""“
+œ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csm m(!
+%24System.Web.Caching.Cache" System.Web.HttpRuntime.Cache.get*"
+System.Web.HttpRuntime–
+Õ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csm t(
+%25void"»System.Web.Caching.Cache.Insert(string, object, System.Web.Caching.CacheDependency, System.DateTime, System.TimeSpan, System.Web.Caching.CacheItemPriority, System.Web.Caching.CacheItemRemovedCallback)*!
+
+%24System.Web.Caching.Cache*
+
+cachekeystring*?
+=
+physicalPages,System.Collections.ObjectModel.Collection<T>*I
+G
+aggregateCacheDependency+System.Web.Caching.AggregateCacheDependency*'
+%
+absoluteExpirationSystem.DateTime*&
+$
+slidingExpirationSystem.TimeSpan*2
+0
+priority$System.Web.Caching.CacheItemPriority*9
+7
+callback+System.Web.Caching.CacheItemRemovedCallback*
+2*Õ
+2n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csx z( “
+œ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csx x(-
+%26System.Web.Caching.Cache" System.Web.HttpRuntime.Cache.get*"
+System.Web.HttpRuntimeÊ
+„
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csx x(7
+%27object")System.Web.Caching.Cache.this[string].get*!
+
+%26System.Web.Caching.Cache*
+
+cachekeystringô
+ñ
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csx x(R
+%28object"__id*
+
+%27object…
+∆
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csx x(R=
+physicalPages,System.Collections.ObjectModel.Collection<T>"__id*
+
+%28object"±
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.csz z(!?
+=
+physicalPages,System.Collections.ObjectModel.Collection<T>*˚
+4n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.cs|	 |(	"Ö
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebPageInfo.cs| |(	
+implicit return:
+fileExtensionPatternstringB"
+mojoPortal.Web.WebPageInfo

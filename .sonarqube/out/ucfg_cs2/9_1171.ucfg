@@ -1,0 +1,319 @@
+
+QmojoPortal.Web.Services.PayPalReturnHandler.HandleRequest(System.Web.HttpContext)y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs0 0(""0*î
+0y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs3 3('‹
+Ÿ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs3 3(
+%0string"__id*H*F-
++mojoPortal.Web.Services.PayPalReturnHandler"
+payPalTokenstring¨
+©
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs3 3("	
+%1int"string.Length.get*
+
+%0string*
+1
+2*Ω
+1y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs5 6(-‡
+›
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs5 5(
+%2log4net.ILog"__id*F*D-
++mojoPortal.Web.Services.PayPalReturnHandler"
+loglog4net.ILog˙˜
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs5 5(G
+
+%3void"log4net.ILog.Info(object)*
+
+%2log4net.ILog*/-
++invalid request no PayPalLog token provided2Info(object)÷
+”
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs6 6(-
+
+%4void",mojoPortal.Web.SiteUtils.RedirectToDefault()*"
+mojoPortal.Web.SiteUtils"É
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs7 7(
+""*‡
+2y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs: <(-‹
+Ÿ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs:N :(Y
+%5string"__id*H*F-
++mojoPortal.Web.Services.PayPalReturnHandler"
+payPalTokenstringì
+ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs:. :(Z#
+%6mojoPortal.Business.PayPalLog";mojoPortal.Business.PayPalLog.GetSetExpressCheckout(string)*!"
+mojoPortal.Business.PayPalLog*
+
+%5string„
+‡
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs: :(Z6
+setExpressCheckoutLogmojoPortal.Business.PayPalLog"__id*%
+#
+%6mojoPortal.Business.PayPalLog¸
+˘
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs< <(-
+
+%7bool""object.operator ==(object, object)*
+"
+object*8
+6
+setExpressCheckoutLogmojoPortal.Business.PayPalLog*
+""*
+3
+4*€
+
+3y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs> ?(-‡
+›
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs> >(
+%8log4net.ILog"__id*F*D-
++mojoPortal.Web.Services.PayPalReturnHandler"
+loglog4net.ILog‹
+Ÿ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs>K >(V
+%9string"__id*H*F-
++mojoPortal.Web.Services.PayPalReturnHandler"
+payPalTokenstring⁄
+◊
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs> >(V
+%10string"__concat*1/
+-invalid request no PayPalLog found for token *
+
+%9string€ÿ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs> >(W
+%11void"log4net.ILog.Info(object)*
+
+%8log4net.ILog*
+
+%10string2Info(object)◊
+‘
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs? ?(-
+%12void",mojoPortal.Web.SiteUtils.RedirectToDefault()*"
+mojoPortal.Web.SiteUtils"É
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs@ @(
+""*À
+4y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csE( F(+„
+‡
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csE( E(7U
+providerImojoPortal.Business.WebHelpers.PaymentGateway.PayPalReturnHandlerProvider"__id*
+""≤
+Ø
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csF F(+
+%13string"__id**
+string"
+Emptystring™
+ß
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csF F(+
+	returnUrlstring"__id*
+
+%13string*
+5*Ü
+5y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csJ J(bÄ
+˝
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csJ J(?Z
+%14SmojoPortal.Business.WebHelpers.PaymentGateway.PayPalReturnHandlerProviderCollection"VmojoPortal.Business.WebHelpers.PaymentGateway.PayPalReturnHandlerManager.Providers.get*L"J
+HmojoPortal.Business.WebHelpers.PaymentGateway.PayPalReturnHandlerManager˜
+Ù
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csJ@ J(b
+%15string".mojoPortal.Business.PayPalLog.ProviderName.get*8
+6
+setExpressCheckoutLogmojoPortal.Business.PayPalLogÀ
+»
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csJ J(cP
+%16ImojoPortal.Business.WebHelpers.PaymentGateway.PayPalReturnHandlerProvider"
+__arrayGet*\
+Z
+%14SmojoPortal.Business.WebHelpers.PaymentGateway.PayPalReturnHandlerProviderCollection*
+
+%15stringØ
+¨
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csJ J(cU
+providerImojoPortal.Business.WebHelpers.PaymentGateway.PayPalReturnHandlerProvider"__id*R
+P
+%16ImojoPortal.Business.WebHelpers.PaymentGateway.PayPalReturnHandlerProvider*	
+6
+7
+8*„
+6y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csN N(·
+ﬁ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csN N(
+%17log4net.ILog"__id*F*D-
++mojoPortal.Web.Services.PayPalReturnHandler"
+loglog4net.ILog˘ˆ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csN N(
+%18void"log4net.ILog.Error(object)*
+
+%17log4net.ILog**
+(
+ex"System.TypeInitializationException2Error(object)*
+7*¶
+7y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csQ Q( ú
+ô
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csQ Q( 
+%19bool""object.operator !=(object, object)*
+"
+object*W
+U
+providerImojoPortal.Business.WebHelpers.PaymentGateway.PayPalReturnHandlerProvider*
+""*
+9
+10*ï
+
+9y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csS W()›
+⁄
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csU U(
+%20string"__id*H*F-
++mojoPortal.Web.Services.PayPalReturnHandler"
+payPalTokenstringﬂ
+‹
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csV V(!
+%21string"__id*J*H-
++mojoPortal.Web.Services.PayPalReturnHandler"
+payPalPayerIdstringü
+ú
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csS W(*
+%22string"µmojoPortal.Business.WebHelpers.PaymentGateway.PayPalReturnHandlerProvider.HandleRequestAndReturnUrlForRedirect(System.Web.HttpContext, string, string, mojoPortal.Business.PayPalLog)*W
+U
+providerImojoPortal.Business.WebHelpers.PaymentGateway.PayPalReturnHandlerProvider*#
+!
+contextSystem.Web.HttpContext*
+
+%20string*
+
+%21string*8
+6
+setExpressCheckoutLogmojoPortal.Business.PayPalLog™
+ß
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csS W(*
+	returnUrlstring"__id*
+
+%22string*
+11*û
+10y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs\ \(k·
+ﬁ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs\ \(
+%23log4net.ILog"__id*F*D-
++mojoPortal.Web.Services.PayPalReturnHandler"
+loglog4net.ILog˜
+Ù
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs\I \(k
+%24string".mojoPortal.Business.PayPalLog.ProviderName.get*8
+6
+setExpressCheckoutLogmojoPortal.Business.PayPalLogŸ
+÷
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs\ \(k
+%25string"__concat*/-
++could not find PayPalReturnHandlerProvider *
+
+%24string‹Ÿ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs\ \(l
+%26void"log4net.ILog.Info(object)*
+
+%23log4net.ILog*
+
+%25string2Info(object)*
+11*¿
+11y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs` `(%¥
+±
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.cs` `( 
+
+%27int"string.Length.get*
+
+	returnUrlstring*
+12
+13*˛
+12y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csb c(=·
+ﬁ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csb b(
+%28log4net.ILog"__id*F*D-
++mojoPortal.Web.Services.PayPalReturnHandler"
+loglog4net.ILogÖÇ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csb b(P
+%29void"log4net.ILog.Info(object)*
+
+%28log4net.ILog*86
+4no return url determined so redirecting to site root2Info(object)›
+⁄
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csc c(=
+%30string"0mojoPortal.Web.SiteUtils.GetNavigationSiteRoot()*"
+mojoPortal.Web.SiteUtils™
+ß
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csc c(=
+	returnUrlstring"__id*
+
+%30string*
+13*‡
+13y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csg g(/Ë
+Â
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csg g(
+%31System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÓ
+Î
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csg g(0
+%32void"(System.Web.HttpResponse.Redirect(string)* 
+
+%31System.Web.HttpResponse*
+
+	returnUrlstring*
+8*ë
+8y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csk	 k(	"ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalReturnHandler.ashx.csk k(	
+implicit return:!
+contextSystem.Web.HttpContextB/-
++mojoPortal.Web.Services.PayPalReturnHandler

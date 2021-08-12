@@ -1,0 +1,111 @@
+
+GmojoPortal.Web.Services.MathMLHandler.HandleGet(System.Web.HttpContext)s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csG G("0*¹
+0s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csI N((á
+Þ
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csI I(
+%0System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextì
+é
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csI I(C
+%1string"'System.Web.HttpResponse.ContentType.set*
+
+%0System.Web.HttpResponse*
+application/mathml+xmlä
+á
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csL" L(0"
+%2System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*#
+!
+contextSystem.Web.HttpContextÿ
+ü
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csL" L([
+%3string",System.Web.HttpServerUtility.MapPath(string)*$
+"
+%2System.Web.HttpServerUtility*#!
+~/Data/Sites/1/mathml/math3.mml¦
+£
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csL L([
+downloadPathstring"__id*
+
+%3stringÑ
+Î
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csN N()
+
+%4bool"System.IO.File.Exists(string)*"
+System.IO.File*
+
+downloadPathstring*
+1
+2*ö
+1s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csR U(&á
+Þ
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csR R( 
+%5System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÑ
+Î
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csR R(/
+
+%6bool""System.Web.HttpResponse.Buffer.set*
+
+%5System.Web.HttpResponse*
+""á
+Þ
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csS S( 
+%7System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext×
+Ô
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csS S(5
+
+%8bool"(System.Web.HttpResponse.BufferOutput.set*
+
+%7System.Web.HttpResponse*
+""á
+Þ
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csT T( 
+%9System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextî
+ë
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csT T(;
+%10void",System.Web.HttpResponse.TransmitFile(string)*
+
+%9System.Web.HttpResponse*
+
+downloadPathstringâ
+ß
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csU U( 
+%11System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÆ
+Ã
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csU U(&
+%12void"System.Web.HttpResponse.End()* 
+
+%11System.Web.HttpResponse*
+2*…
+2s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csY	 Y(	"Š
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\MathMLHandler.ashx.csY Y(	
+implicit return:!
+contextSystem.Web.HttpContextB)'
+%mojoPortal.Web.Services.MathMLHandler

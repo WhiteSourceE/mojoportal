@@ -1,0 +1,591 @@
+
+LmojoPortal.Web.Controllers.FileServiceController.ListAllFilesFolders(string)á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÊ Ê(%"0*§&
+0á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csË Ô(◊
+‘
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csË Ë('
+%0string"SmojoPortal.Web.Controllers.FileServiceController.FilePath(string, bool, bool, bool)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+requestPathstring*
+""*
+""*
+""∑
+¥
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csË Ë('
+filePathstring"__id*
+
+%0string•
+¢
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÈ È('
+%1!mojoPortal.FileSystem.IFileSystem"__id*g*e2
+0mojoPortal.Web.Controllers.FileServiceController"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemÀ»
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÈ È(//
+%2)System.Collections.Generic.IEnumerable<T>"5mojoPortal.FileSystem.IFileSystem.GetFileList(string)*)
+'
+%1!mojoPortal.FileSystem.IFileSystem*
+
+filePathstring2GetFileList(string)ñ
+ì
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÈ È([/
+%3)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*1
+/
+%2)System.Collections.Generic.IEnumerable<T>*
+""ﬂ
+‹
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÈ È(d(
+%4"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%3)System.Collections.Generic.IEnumerable<T>Ï
+È
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÈ È(d+
+files"System.Collections.Generic.List<T>"__id**
+(
+%4"System.Collections.Generic.List<T>•
+¢
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÍ Í('
+%5!mojoPortal.FileSystem.IFileSystem"__id*g*e2
+0mojoPortal.Web.Controllers.FileServiceController"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemœÃ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÍ Í(3/
+%6)System.Collections.Generic.IEnumerable<T>"7mojoPortal.FileSystem.IFileSystem.GetFolderList(string)*)
+'
+%5!mojoPortal.FileSystem.IFileSystem*
+
+filePathstring2GetFolderList(string)ñ
+ì
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÍ Í(a/
+%7)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*1
+/
+%6)System.Collections.Generic.IEnumerable<T>*
+""ﬂ
+‹
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÍ Í(j(
+%8"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%7)System.Collections.Generic.IEnumerable<T>Ó
+Î
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÍ Í(j-
+folders"System.Collections.Generic.List<T>"__id**
+(
+%8"System.Collections.Generic.List<T>€ÿ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÎ Î(0(
+%9"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>Ò
+Ó
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÎ Î(.
+%10void")System.Collections.Generic.List<T>.List()**
+(
+%9"System.Collections.Generic.List<T>Û
+
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÎ Î(02
+allowedFiles"System.Collections.Generic.List<T>"__id**
+(
+%9"System.Collections.Generic.List<T>Í
+Á
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÔ Ô(
+%11bool""string.operator ==(string, string)*
+"
+string*
+
+requestPathstring*
+/*
+1
+2*Ó	
+1á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs (?¶
+£
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs ()(
+%12!mojoPortal.FileSystem.IFileSystem"__id*g*e2
+0mojoPortal.Web.Controllers.FileServiceController"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemØ¨
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs (42
+%13+mojoPortal.FileSystem.IFileSystemPermission"0mojoPortal.FileSystem.IFileSystem.Permission.get**
+(
+%12!mojoPortal.FileSystem.IFileSystem2Permission.getûõ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs (?
+%14string":mojoPortal.FileSystem.IFileSystemPermission.UserFolder.get*4
+2
+%13+mojoPortal.FileSystem.IFileSystemPermission2UserFolder.get⁄
+◊
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs (@
+%15bool"!string.IsNullOrWhiteSpace(string)*
+"
+string*
+
+%14string*
+3
+2*∏
+3á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÒ Ò(>¶
+£
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÒ Ò((
+%16!mojoPortal.FileSystem.IFileSystem"__id*g*e2
+0mojoPortal.Web.Controllers.FileServiceController"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemØ¨
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÒ Ò(2
+%17+mojoPortal.FileSystem.IFileSystemPermission"0mojoPortal.FileSystem.IFileSystem.Permission.get**
+(
+%16!mojoPortal.FileSystem.IFileSystem2Permission.getûõ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÒ Ò($
+%18string":mojoPortal.FileSystem.IFileSystemPermission.UserFolder.get*4
+2
+%17+mojoPortal.FileSystem.IFileSystemPermission2UserFolder.get¶
+£
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÒ( Ò(2(
+%19!mojoPortal.FileSystem.IFileSystem"__id*g*e2
+0mojoPortal.Web.Controllers.FileServiceController"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemåâ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÒ( Ò(>
+%20string"1mojoPortal.FileSystem.IFileSystem.VirtualRoot.get**
+(
+%19!mojoPortal.FileSystem.IFileSystem2VirtualRoot.getÏ
+È
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÒ Ò(>
+%21bool""string.operator !=(string, string)*
+"
+string*
+
+%18string*
+
+%20string*
+4
+2*≠0
+4á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÙ ˛(L‹Ÿ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÙ ¸()
+%22"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>Ú
+Ô
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÙ Ù((
+%23void")System.Collections.Generic.List<T>.List()*+
+)
+%22"System.Collections.Generic.List<T>÷”
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csı ˚(&
+%24mojoPortal.FileSystem.WebFolder"mojoPortal.FileSystem.WebFolderÒ
+Ó
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csı	 ı(
+%25void"+mojoPortal.FileSystem.WebFolder.WebFolder()*(
+&
+%24mojoPortal.FileSystem.WebFolder¶
+£
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csˆ ˆ((
+%26!mojoPortal.FileSystem.IFileSystem"__id*g*e2
+0mojoPortal.Web.Controllers.FileServiceController"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemØ¨
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csˆ ˆ()2
+%27+mojoPortal.FileSystem.IFileSystemPermission"0mojoPortal.FileSystem.IFileSystem.Permission.get**
+(
+%26!mojoPortal.FileSystem.IFileSystem2Permission.getûõ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csˆ ˆ(4
+%28string":mojoPortal.FileSystem.IFileSystemPermission.UserFolder.get*4
+2
+%27+mojoPortal.FileSystem.IFileSystemPermission2UserFolder.getï
+í
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csˆ ˆ(4
+%29string"<mojoPortal.FileSystem.AbstractFileSystemItem.VirtualPath.set*(
+&
+%24mojoPortal.FileSystem.WebFolder*
+
+%28string¶
+£
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˜ ˜((
+%30!mojoPortal.FileSystem.IFileSystem"__id*g*e2
+0mojoPortal.Web.Controllers.FileServiceController"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemØ¨
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˜ ˜("2
+%31+mojoPortal.FileSystem.IFileSystemPermission"0mojoPortal.FileSystem.IFileSystem.Permission.get**
+(
+%30!mojoPortal.FileSystem.IFileSystem2Permission.getûõ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˜ ˜(-
+%32string":mojoPortal.FileSystem.IFileSystemPermission.UserFolder.get*4
+2
+%31+mojoPortal.FileSystem.IFileSystemPermission2UserFolder.getÅ
+˛
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˜ ˜(-
+%33string"(mojoPortal.FileSystem.WebFolder.Path.set*(
+&
+%24mojoPortal.FileSystem.WebFolder*
+
+%32string”
+–
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs¯ ¯(
+%34System.DateTime"System.DateTime.Now.get*"
+System.DateTime£
+†
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs¯ ¯(
+%35System.DateTime"8mojoPortal.FileSystem.AbstractFileSystemItem.Created.set*(
+&
+%24mojoPortal.FileSystem.WebFolder*
+
+%34System.DateTime”
+–
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˘ ˘(
+%36System.DateTime"System.DateTime.Now.get*"
+System.DateTime§
+°
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˘ ˘(
+%37System.DateTime"9mojoPortal.FileSystem.AbstractFileSystemItem.Modified.set*(
+&
+%24mojoPortal.FileSystem.WebFolder*
+
+%36System.DateTime◊
+‘
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˙ ˙( 
+%38string"!Resources.Resource.UserFolder.get*"
+Resources.Resourceé
+ã
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˙ ˙( 
+%39string"5mojoPortal.FileSystem.AbstractFileSystemItem.Name.set*(
+&
+%24mojoPortal.FileSystem.WebFolder*
+
+%38stringÚ
+Ô
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÙ ¸(0
+
+userFolder"System.Collections.Generic.List<T>"__id*+
+)
+%22"System.Collections.Generic.List<T>ò
+ï
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˛ ˛(M0
+%40)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*2
+0
+
+userFolder"System.Collections.Generic.List<T>*
+""·
+ﬁ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˛ ˛(V)
+%41"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%40)System.Collections.Generic.IEnumerable<T>ã
+à
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs˛ ˛(W
+%42void"__arrayAddAll*/
+-
+folders"System.Collections.Generic.List<T>*: *+
+)
+%41"System.Collections.Generic.List<T>*
+2*Ò
+2á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÅ É(!•
+¢
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÅ Å(A
+%43string"LmojoPortal.Web.Framework.WebUtils.ParseStringFromQueryString(string, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+type*
+file¥
+±
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÅ Å(A
+typestring"__id*
+
+%43string*
+5*ï
+5á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö ö(*
+6
+7*û
+6á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÖ Ö(â
+Ü
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csÖ Ö(
+%44string"2mojoPortal.Web.Dtos.FileServiceDto.ContentType.set*.
+,
+folder"mojoPortal.Web.Dtos.FileServiceDto*
+dir*
+5*í
+7á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csà à(*
+8*ñ
+8á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö ö(*
+9
+10*Å
+9á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csä	 ä(Á
+‰
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csä	 ä(
+%45bool""string.operator ==(string, string)*
+"
+string*
+
+typestring*	
+image*
+11
+12*Œ
+11á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csä ä(3≥
+∞
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csä ä(3
+%46bool"KmojoPortal.Web.SiteUtils.IsWebImageFile(mojoPortal.Web.Dtos.FileServiceDto)*"
+mojoPortal.Web.SiteUtils*,
+*
+file"mojoPortal.Web.Dtos.FileServiceDto*
+13
+12*ì
+13á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö ö(*
+8*Ç
+12á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cså	 å(Á
+‰
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cså	 å(
+%47bool""string.operator ==(string, string)*
+"
+string*
+
+typestring*	
+media*
+14
+15*Ç
+15á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cså å(+Á
+‰
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cså å(+
+%48bool""string.operator ==(string, string)*
+"
+string*
+
+typestring*	
+audio*
+14
+16*Ç
+16á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cså/ å(>Á
+‰
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cså/ å(>
+%49bool""string.operator ==(string, string)*
+"
+string*
+
+typestring*	
+video*
+14
+17*“
+14á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csåC å(]∑
+¥
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csåD å(]
+%50bool"OmojoPortal.Web.SiteUtils.IsAllowedMediaFile(mojoPortal.Web.Dtos.FileServiceDto)*"
+mojoPortal.Web.SiteUtils*,
+*
+file"mojoPortal.Web.Dtos.FileServiceDto*
+18
+17*ì
+18á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö ö(*
+8*Ç
+17á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csé	 é(Á
+‰
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csé	 é(
+%51bool""string.operator ==(string, string)*
+"
+string*
+
+typestring*	
+audio*
+19
+20*È
+19á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csé é(Z¸
+˘
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csé5 é(Z
+%52string"8mojoPortal.Web.WebConfigSettings.AudioFileExtensions.get*$""
+ mojoPortal.Web.WebConfigSettingsœ
+Ã
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csé é([
+%53bool"VmojoPortal.Web.SiteUtils.IsAllowedFileType(mojoPortal.Web.Dtos.FileServiceDto, string)*"
+mojoPortal.Web.SiteUtils*,
+*
+file"mojoPortal.Web.Dtos.FileServiceDto*
+
+%52string*
+21
+20*ì
+21á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö ö(*
+8*Ç
+20á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csê	 ê(Á
+‰
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csê	 ê(
+%54bool""string.operator ==(string, string)*
+"
+string*
+
+typestring*	
+video*
+22
+23*È
+22á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csê ê(Z¸
+˘
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csê5 ê(Z
+%55string"8mojoPortal.Web.WebConfigSettings.VideoFileExtensions.get*$""
+ mojoPortal.Web.WebConfigSettingsœ
+Ã
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csê ê([
+%56bool"VmojoPortal.Web.SiteUtils.IsAllowedFileType(mojoPortal.Web.Dtos.FileServiceDto, string)*"
+mojoPortal.Web.SiteUtils*,
+*
+file"mojoPortal.Web.Dtos.FileServiceDto*
+
+%55string*
+24
+23*ì
+24á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö ö(*
+8*Å
+23á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csí	 í(Ê
+„
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csí	 í(
+%57bool""string.operator ==(string, string)*
+"
+string*
+
+typestring*
+file*
+25
+26*‰
+25á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csí í(E˜
+Ù
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csí4 í(E
+%58string"__id*S*Q2
+0mojoPortal.Web.Controllers.FileServiceController"
+allowedExtensionsstringœ
+Ã
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csí í(F
+%59bool"VmojoPortal.Web.SiteUtils.IsAllowedFileType(mojoPortal.Web.Dtos.FileServiceDto, string)*"
+mojoPortal.Web.SiteUtils*,
+*
+file"mojoPortal.Web.Dtos.FileServiceDto*
+
+%58string*
+27
+26*ì
+27á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö ö(*
+8*Ø
+26á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csï ñ(à
+Ö
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csï ï(
+%60string"2mojoPortal.Web.Dtos.FileServiceDto.ContentType.set*,
+*
+file"mojoPortal.Web.Dtos.FileServiceDto*
+fileé
+ã
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csñ ñ(
+%61void"
+__arrayAdd*4
+2
+allowedFiles"System.Collections.Generic.List<T>*: *,
+*
+file"mojoPortal.Web.Dtos.FileServiceDto*
+8*Û
+10á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csô
+ ô(4Õ
+ 
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csô ô(50
+%62)System.Collections.Generic.IEnumerable<T>"àSystem.Linq.Enumerable.Concat<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*/
+-
+folders"System.Collections.Generic.List<T>*4
+2
+allowedFiles"System.Collections.Generic.List<T>"í
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csô ô(8
+""*∞
+28á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö ö("ü
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö ö(
+implicit return:
+requestPathstringB42
+0mojoPortal.Web.Controllers.FileServiceController

@@ -1,0 +1,1335 @@
+
+~mojoPortal.Web.UI.SearchResultsHandler.RenderSearchResults(System.Web.HttpContext, mojoPortal.SearchIndex.IndexItemCollection)j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csU U(("0*Ô
+0j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csW ](jÿ
+’
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csW W(
+%0System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext‹
+Ÿ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csW W(<
+%1string"'System.Web.HttpResponse.ContentType.set*
+
+%0System.Web.HttpResponse*
+application/xml©¶
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csX  X(2
+%2System.Text.UTF8Encoding"System.Text.UTF8Encoding∆
+√
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csX$ X(0
+
+%3void"'System.Text.UTF8Encoding.UTF8Encoding()* 
+
+%2System.Text.UTF8Encodingπ
+∂
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csX X(2 
+encodingSystem.Text.Encoding"__id* 
+
+%2System.Text.UTF8Encodingÿ
+’
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csY Y(
+%4System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext˝
+˙
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csY Y(7
+%5System.Text.Encoding"+System.Web.HttpResponse.ContentEncoding.set*
+
+%4System.Web.HttpResponse*"
+ 
+encodingSystem.Text.Encoding¬
+ø
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs[@ [(E
+%6string"__id*=*;(
+&mojoPortal.Web.UI.SearchResultsHandler"
+querystring¯
+ı
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs[$ [(F
+%7string"<mojoPortal.Web.Framework.SecurityHelper.RemoveMarkup(string)*+")
+'mojoPortal.Web.Framework.SecurityHelper*
+
+%6stringü
+ú
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs[ [(F
+sanitizedQuerystring"__id*
+
+%7stringÿ
+’
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs]C ](S
+%8System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext“
+œ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs]C ](`
+%9System.IO.Stream"(System.Web.HttpResponse.OutputStream.get*
+
+%8System.Web.HttpResponse™ß
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs]1 ](k
+%10System.Xml.XmlTextWriter"System.Xml.XmlTextWriter≠
+™
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs]5 ](B
+%11void"NSystem.Xml.XmlTextWriter.XmlTextWriter(System.IO.Stream, System.Text.Encoding)*!
+
+%10System.Xml.XmlTextWriter*
+
+%9System.IO.Stream*"
+ 
+encodingSystem.Text.Encoding√
+¿
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs]! ](k)
+xmlTextWriterSystem.Xml.XmlTextWriter"__id*!
+
+%10System.Xml.XmlTextWriter*
+1*œ´
+1k
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs_ ¢("Ñ
+Å
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs_+ _(>
+%12"__id*
+""Ï
+È
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs_ _(>
+%13System.Xml.Formatting"'System.Xml.XmlTextWriter.Formatting.set*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+%12ÓÎ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csa a(2
+%14void"-System.Xml.XmlTextWriter.WriteStartDocument()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteStartDocument()„
+‡
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csc c(7
+%15void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+feedê
+ç
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csd d(Z
+%16void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*	
+xmlns*
+http://www.w3.org/2005/Atom§
+°
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cse e(n
+%17void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+xmlns:opensearch*(&
+$http://a9.com/-/spec/opensearch/1.1/‰
+·
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csg g(8
+%18void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*	
+titleı
+Ú
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csh7 h(S'
+%19 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo¿
+Ω
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cshU h(o
+%20string"(Resources.Resource.SearchTitleFormat.get*"
+Resources.Resource˛
+˚
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cshq h(}'
+%21 mojoPortal.Business.SiteSettings"__id*^*\(
+&mojoPortal.Web.UI.SearchResultsHandler"0
+siteSettings mojoPortal.Business.SiteSettingsŸ
+÷
+k
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cshq h(Ü
+%22string"-mojoPortal.Business.SiteSettings.SiteName.get*)
+'
+%21 mojoPortal.Business.SiteSettings≥
+∞
+k
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csh) h(ó
+%23string"=string.Format(System.IFormatProvider, string, object, object)*
+"
+string*)
+'
+%19 System.Globalization.CultureInfo*
+
+%20string*
+
+%22string*
+
+sanitizedQuerystring¯ı
+k
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csh h(ò
+%24void"'System.Xml.XmlWriter.WriteValue(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+%23string2WriteValue(string)ËÂ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csi i(/
+%25void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()„
+‡
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csk k(7
+%26void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+link∆
+√
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csl; l(C
+%27string"__id*@*>(
+&mojoPortal.Web.UI.SearchResultsHandler"
+SiteRootstringµ
+≤
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csl; l(^
+%28string"__concat*
+
+%27string*
+/SearchResults.ashx?q=‹
+Ÿ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csla l(o#
+%29System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*#
+!
+contextSystem.Web.HttpContextÚ
+Ô
+k
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csla l(â
+%30string".System.Web.HttpServerUtility.UrlEncode(string)*%
+#
+%29System.Web.HttpServerUtility*
+
+sanitizedQuerystring´
+®
+k
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csl; l(â
+%31string"__concat*
+
+%28string*
+
+%30stringÄ
+˝
+k
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csl l(ä
+%32void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+href*
+
+%31stringËÂ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csm m(/
+%33void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()Ê
+„
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cso o(:
+%34void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*	
+updated∏
+µ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csp) p(8
+%35System.DateTime"System.DateTime.UtcNow.get*"
+System.DateTimeı
+Ú
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cspG p(c'
+%36 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÑ
+Å
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csp) p(d
+%37string"8System.DateTime.ToString(string, System.IFormatProvider)*
+
+%35System.DateTime*
+u*)
+'
+%36 System.Globalization.CultureInfoΩ
+∫
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csp) p(v
+%38string"string.Replace(string, string)*
+
+%37string*
+ *
+T˜Ù
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csp p(w
+%39void"'System.Xml.XmlWriter.WriteValue(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+%38string2WriteValue(string)ËÂ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csq q(/
+%40void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()Â
+‚
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cst t(9
+%41void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+author„
+‡
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csv v(7
+%42void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+name˛
+˚
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csw) w(5'
+%43 mojoPortal.Business.SiteSettings"__id*^*\(
+&mojoPortal.Web.UI.SearchResultsHandler"0
+siteSettings mojoPortal.Business.SiteSettings€
+ÿ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csw) w(A
+%44string"0mojoPortal.Business.SiteSettings.CompanyName.get*)
+'
+%43 mojoPortal.Business.SiteSettings˜Ù
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csw w(B
+%45void"'System.Xml.XmlWriter.WriteValue(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+%44string2WriteValue(string)ËÂ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csx x(/
+%46void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()ËÂ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csy y(/
+%47void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()·
+ﬁ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs{ {(5
+%48void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+id˛
+˚
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs|7 |(C'
+%49 mojoPortal.Business.SiteSettings"__id*^*\(
+&mojoPortal.Web.UI.SearchResultsHandler"0
+siteSettings mojoPortal.Business.SiteSettings›
+⁄
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs|7 |(L
+%50System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*)
+'
+%49 mojoPortal.Business.SiteSettings¨
+©
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs|7 |(W
+%51string"System.Guid.ToString()*
+
+%50System.Guid®
+•
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs|) |(W
+%52string"__concat*
+	urn:uuid:*
+
+%51string˜Ù
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs| |(X
+%53void"'System.Xml.XmlWriter.WriteValue(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+%52string2WriteValue(string)ËÂ
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs} }(/
+%54void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()ˆ
+Û
+j
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs (J
+%55void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+opensearch:totalResultsÜ
+É
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÄ) Ä(2
+%56"__id*
+""˜
+Ù
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÄ< Ä(X'
+%57 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo⁄
+◊
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÄ) Ä(Y
+%58string"$int.ToString(System.IFormatProvider)*
+
+%56*)
+'
+%57 System.Globalization.CultureInfo˘ˆ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÄ Ä(Z
+%59void"'System.Xml.XmlWriter.WriteValue(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+%58string2WriteValue(string)ÍÁ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÅ Å(/
+%60void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()ˆ
+Û
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÉ É(H
+%61void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+opensearch:startIndexÜ
+É
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÑ) Ñ(.
+%62"__id*
+""˜
+Ù
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÑ8 Ñ(T'
+%63 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo⁄
+◊
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÑ) Ñ(U
+%64string"$int.ToString(System.IFormatProvider)*
+
+%62*)
+'
+%63 System.Globalization.CultureInfo˘ˆ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÑ Ñ(V
+%65void"'System.Xml.XmlWriter.WriteValue(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+%64string2WriteValue(string)ÍÁ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÖ Ö(/
+%66void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()¯
+ı
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csá á(J
+%67void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+opensearch:itemsPerPageÜ
+É
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csà) à(1
+%68"__id*
+""˜
+Ù
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csà; à(W'
+%69 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo⁄
+◊
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csà) à(X
+%70string"$int.ToString(System.IFormatProvider)*
+
+%68*)
+'
+%69 System.Globalization.CultureInfo˘ˆ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csà à(Y
+%71void"'System.Xml.XmlWriter.WriteValue(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+%70string2WriteValue(string)ÍÁ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csâ â(/
+%72void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()Ò
+Ó
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csã ã(C
+%73void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+opensearch:Query˝
+˙
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cså å(E
+%74void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+role*	
+requestì
+ê
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csç ç(Q
+%75void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+searchTerms*
+
+sanitizedQuerystring¸
+˘
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csé é(D
+%76void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+	startPage*
+1ÍÁ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csè è(/
+%77void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()Â
+‚
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csí í(7
+%78void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+link˛
+˚
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csì ì(F
+%79void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+rel*
+	alternate»
+≈
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csî; î(C
+%80string"__id*@*>(
+&mojoPortal.Web.UI.SearchResultsHandler"
+SiteRootstring∑
+¥
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csî; î(^
+%81string"__concat*
+
+%80string*
+/SearchResults.aspx?q=ﬁ
+€
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csï ï($#
+%82System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*#
+!
+contextSystem.Web.HttpContextÛ
+
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csï ï(>
+%83string".System.Web.HttpServerUtility.UrlEncode(string)*%
+#
+%82System.Web.HttpServerUtility*
+
+sanitizedQuerystring¨
+©
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csî; ï(>
+%84string"__concat*
+
+%81string*
+
+%83string§
+°
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csî; ñ(
+%85string"__concat*
+
+%84string*
+&p=Ü
+É
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csñ ñ((
+%86"__id*
+""˜
+Ù
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csñ2 ñ(N'
+%87 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo⁄
+◊
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csñ ñ(O
+%88string"$int.ToString(System.IFormatProvider)*
+
+%86*)
+'
+%87 System.Globalization.CultureInfo¨
+©
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csî; ñ(O
+%89string"__concat*
+
+%85string*
+
+%88stringÅ
+˛
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csî ñ(P
+%90void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+href*
+
+%89stringˇ
+¸
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csó ó(G
+%91void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+type*
+	text/htmlÍÁ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csò ò(/
+%92void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()Â
+‚
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csö ö(7
+%93void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+link˘
+ˆ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csõ õ(A
+%94void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+rel*
+self»
+≈
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csú; ú(C
+%95string"__id*@*>(
+&mojoPortal.Web.UI.SearchResultsHandler"
+SiteRootstring∑
+¥
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csú; ú(^
+%96string"__concat*
+
+%95string*
+/SearchResults.ashx?q=ﬁ
+€
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csù ù($#
+%97System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*#
+!
+contextSystem.Web.HttpContextÛ
+
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csù ù(>
+%98string".System.Web.HttpServerUtility.UrlEncode(string)*%
+#
+%97System.Web.HttpServerUtility*
+
+sanitizedQuerystring¨
+©
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csú; ù(>
+%99string"__concat*
+
+%96string*
+
+%98string•
+¢
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csú; û(
+%100string"__concat*
+
+%99string*
+&p=á
+Ñ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csû û((
+%101"__id*
+""¯
+ı
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csû2 û(N(
+%102 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo›
+⁄
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csû û(O
+%103string"$int.ToString(System.IFormatProvider)*
+
+%101**
+(
+%102 System.Globalization.CultureInfoØ
+¨
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csú; û(O
+%104string"__concat*
+
+%100string*
+
+%103stringÉ
+Ä
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csú û(P
+%105void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+href*
+
+%104stringã
+à
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csü ü(R
+%106void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+type*
+application/atom+xmlÎË
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs† †(/
+%107void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()á
+Ñ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs¢ ¢(
+%108"__id*
+""*
+2
+3*™
+2l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs§ ¨(&Ê
+„
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs§ §(;
+%109void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+link˚
+¯
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs• •(F
+%110void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+rel*	
+first…
+∆
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs¶? ¶(G
+%111string"__id*@*>(
+&mojoPortal.Web.UI.SearchResultsHandler"
+SiteRootstringπ
+∂
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs¶? ¶(b
+%112string"__concat*
+
+%111string*
+/SearchResults.ashx?q=ﬂ
+‹
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csß ß(($
+%113System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*#
+!
+contextSystem.Web.HttpContextı
+Ú
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csß ß(B
+%114string".System.Web.HttpServerUtility.UrlEncode(string)*&
+$
+%113System.Web.HttpServerUtility*
+
+sanitizedQuerystringØ
+¨
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs¶? ß(B
+%115string"__concat*
+
+%112string*
+
+%114stringß
+§
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs¶? ®( 
+%116string"__concat*
+
+%115string*
+&p=1É
+Ä
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs¶ ®(!
+%117void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+href*
+
+%116stringã
+à
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs© ©(V
+%118void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+type*
+application/atom+xmlÎË
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs™ ™(3
+%119void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()á
+Ñ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs¨ ¨("
+%120"__id*
+""*
+4
+5*Ã
+4l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÆ ¥(7Ê
+„
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÆ Æ(?
+%121void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+link˛
+˚
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csØ Ø(M
+%122void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+rel*
+
+previous…
+∆
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs∞C ∞(K
+%123string"__id*@*>(
+&mojoPortal.Web.UI.SearchResultsHandler"
+SiteRootstringπ
+∂
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs∞C ∞(f
+%124string"__concat*
+
+%123string*
+/SearchResults.ashx?q=ﬂ
+‹
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs± ±(,$
+%125System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*#
+!
+contextSystem.Web.HttpContextı
+Ú
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs± ±(F
+%126string".System.Web.HttpServerUtility.UrlEncode(string)*&
+$
+%125System.Web.HttpServerUtility*
+
+sanitizedQuerystringØ
+¨
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs∞C ±(F
+%127string"__concat*
+
+%124string*
+
+%126string¶
+£
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs∞C ≤(#
+%128string"__concat*
+
+%127string*
+&p=á
+Ñ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs≤' ≤(1
+%129"__id*
+""¯
+ı
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs≤? ≤([(
+%130 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo•
+¢
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs∞C ≤(\
+%131string"__concat*
+
+%128string*
+""É
+Ä
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs∞ ≤(]
+%132void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+href*
+
+%131stringã
+à
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs≥ ≥(Z
+%133void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+type*
+application/atom+xmlÎË
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs¥ ¥(7
+%134void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()*
+5*ç
+5l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs∏ ∏(/á
+Ñ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs∏ ∏("
+%135"__id*
+""á
+Ñ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs∏% ∏(/
+%136"__id*
+""*
+6
+7*»
+6l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs∫ ¿(7Ê
+„
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs∫ ∫(?
+%137void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+link˙
+˜
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csª ª(I
+%138void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+rel*
+next…
+∆
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csºC º(K
+%139string"__id*@*>(
+&mojoPortal.Web.UI.SearchResultsHandler"
+SiteRootstringπ
+∂
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csºC º(f
+%140string"__concat*
+
+%139string*
+/SearchResults.ashx?q=ﬂ
+‹
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csΩ Ω(,$
+%141System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*#
+!
+contextSystem.Web.HttpContextı
+Ú
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csΩ Ω(F
+%142string".System.Web.HttpServerUtility.UrlEncode(string)*&
+$
+%141System.Web.HttpServerUtility*
+
+sanitizedQuerystringØ
+¨
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csºC Ω(F
+%143string"__concat*
+
+%140string*
+
+%142string¶
+£
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csºC æ(#
+%144string"__concat*
+
+%143string*
+&p=á
+Ñ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csæ' æ(1
+%145"__id*
+""¯
+ı
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csæ@ æ(\(
+%146 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo•
+¢
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csºC æ(]
+%147string"__concat*
+
+%144string*
+""É
+Ä
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csº æ(^
+%148void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+href*
+
+%147stringã
+à
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csø ø(Z
+%149void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+type*
+application/atom+xmlÎË
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs¿ ¿(7
+%150void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()*
+7*≤
+7l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs≈ À(3Ê
+„
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs≈ ≈(;
+%151void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+link˙
+˜
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs∆ ∆(E
+%152void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+rel*
+last…
+∆
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs«? «(G
+%153string"__id*@*>(
+&mojoPortal.Web.UI.SearchResultsHandler"
+SiteRootstringπ
+∂
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs«? «(b
+%154string"__concat*
+
+%153string*
+/SearchResults.ashx?q=ﬂ
+‹
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs» »(($
+%155System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*#
+!
+contextSystem.Web.HttpContextı
+Ú
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs» »(B
+%156string".System.Web.HttpServerUtility.UrlEncode(string)*&
+$
+%155System.Web.HttpServerUtility*
+
+sanitizedQuerystringØ
+¨
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs«? »(B
+%157string"__concat*
+
+%154string*
+
+%156string¶
+£
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs«? …(
+%158string"__concat*
+
+%157string*
+&p=á
+Ñ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs…" …(,
+%159"__id*
+""¯
+ı
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs…6 …(R(
+%160 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo›
+⁄
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs…" …(S
+%161string"$int.ToString(System.IFormatProvider)*
+
+%159**
+(
+%160 System.Globalization.CultureInfoØ
+¨
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs«? …(S
+%162string"__concat*
+
+%158string*
+
+%161stringÉ
+Ä
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs« …(T
+%163void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+href*
+
+%162stringã
+à
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs   (V
+%164void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+type*
+application/atom+xmlÎË
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÀ À(3
+%165void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()*
+3*˘
+3l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs— ÿ(OÊ
+„
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs— —(7
+%166void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+link¸
+˘
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs“ “(C
+%167void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+rel*
+
+searchú
+ô
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs” ”(c
+%168void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+type*)'
+%application/opensearchdescription+xml…
+∆
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs‘; ‘(C
+%169string"__id*@*>(
+&mojoPortal.Web.UI.SearchResultsHandler"
+SiteRootstringπ
+∂
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs‘; ‘(^
+%170string"__concat*
+
+%169string*
+/SearchEngineInfo.ashxÉ
+Ä
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs‘ ‘(_
+%171void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+href*
+
+%170stringÎË
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs’ ’(/
+%172void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()*
+8*z
+8l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csı	 ı(	*
+9
+10*ä
+9l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs⁄ Ì(3Á
+‰
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs⁄ ⁄(<
+%173void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*	
+entryÊ
+„
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs‹ ‹(;
+%174void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+link¨
+©
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs›- ›(;
+%175string"QmojoPortal.Web.UI.SearchResultsHandler.BuildUrl(mojoPortal.SearchIndex.IndexItem)**(
+&mojoPortal.Web.UI.SearchResultsHandler**
+(
+item mojoPortal.SearchIndex.IndexItem˚¯
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs› ›(<
+%176void"'System.Xml.XmlWriter.WriteValue(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+%175string2WriteValue(string)ÎË
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csﬁ ﬁ(3
+%177void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()‰
+·
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs‡ ‡(9
+%178void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+id¨
+©
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs·- ·(;
+%179string"QmojoPortal.Web.UI.SearchResultsHandler.BuildUrl(mojoPortal.SearchIndex.IndexItem)**(
+&mojoPortal.Web.UI.SearchResultsHandler**
+(
+item mojoPortal.SearchIndex.IndexItem˚¯
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs· ·(<
+%180void"'System.Xml.XmlWriter.WriteValue(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+%179string2WriteValue(string)ÎË
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs‚ ‚(3
+%181void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()È
+Ê
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÁ Á(>
+%182void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*	
+content˚
+¯
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csË Ë(F
+%183void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+type*
+textŸ
+÷
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÈ- È(7
+%184string"*mojoPortal.SearchIndex.IndexItem.Intro.get**
+(
+item mojoPortal.SearchIndex.IndexItemˇ¸
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÈ È(8
+%185void"+System.Xml.XmlTextWriter.WriteCData(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+%184string2WriteCData(string)ÎË
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÍ Í(3
+%186void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()ÎË
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csÌ Ì(3
+%187void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()*
+8*Ê
+10l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs (/ÎË
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs (/
+%188void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()*
+11*¯
+11l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csı	 ı(	"É
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csı ı(	
+implicit return:!
+contextSystem.Web.HttpContext:;
+searchResults*mojoPortal.SearchIndex.IndexItemCollectionB*(
+&mojoPortal.Web.UI.SearchResultsHandler

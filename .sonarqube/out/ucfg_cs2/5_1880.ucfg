@@ -1,0 +1,431 @@
+
+xmojoPortal.Business.LdapUser.LdapUser(System.DirectoryServices.DirectoryEntry, string, mojoPortal.Business.LdapSettings)p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs' '("1*˝
+1p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.csG	 G(	”
+–
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs ($N
+mojoPortal.Business.LdapUser",
+email#Novell.Directory.Ldap.LdapAttribute"__id*
+""ÿ
+’
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs ()S
+mojoPortal.Business.LdapUser"1
+
+commonname#Novell.Directory.Ldap.LdapAttribute"__id*
+""÷
+”
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs ('Q
+mojoPortal.Business.LdapUser"/
+password#Novell.Directory.Ldap.LdapAttribute"__id*
+""‘
+—
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs (%O
+mojoPortal.Business.LdapUser"-
+userid#Novell.Directory.Ldap.LdapAttribute"__id*
+""◊
+‘
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs ((R
+mojoPortal.Business.LdapUser"0
+	uidNumber#Novell.Directory.Ldap.LdapAttribute"__id*
+""®
+•
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs   ("
+%0string"__id**
+string"
+Emptystringª
+∏
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs   (".
+mojoPortal.Business.LdapUser"
+dnstring"__id*
+
+%0string®
+•
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs!# !(/
+%1string"__id**
+string"
+Emptystring¬
+ø
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs! !(/5
+mojoPortal.Business.LdapUser"
+	firstNamestring"__id*
+
+%1string®
+•
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs"" "(.
+%2string"__id**
+string"
+Emptystring¡
+æ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs" "(.4
+mojoPortal.Business.LdapUser"
+lastNamestring"__id*
+
+%2string*
+0*‚
+0p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs) /(≈¬
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs) )(:)
+%3#Novell.Directory.Ldap.LdapAttribute"#Novell.Directory.Ldap.LdapAttributeì
+ê
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs) )(&
+
+%4void"ANovell.Directory.Ldap.LdapAttribute.LdapAttribute(string, string)*+
+)
+%3#Novell.Directory.Ldap.LdapAttribute*
+
+userid*
+
+userNamestring˘
+ˆ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs) )(:O
+mojoPortal.Business.LdapUser"-
+userid#Novell.Directory.Ldap.LdapAttribute"__id*+
+)
+%3#Novell.Directory.Ldap.LdapAttribute”–
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs*# *(A0
+%5*System.DirectoryServices.DirectorySearcher"*System.DirectoryServices.DirectorySearcher“
+œ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs*' *(8
+
+%6void"eSystem.DirectoryServices.DirectorySearcher.DirectorySearcher(System.DirectoryServices.DirectoryEntry)*2
+0
+%5*System.DirectoryServices.DirectorySearcher*4
+2
+adentry'System.DirectoryServices.DirectoryEntry·
+ﬁ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs* *(A0
+ds*System.DirectoryServices.DirectorySearcher"__id*2
+0
+%5*System.DirectoryServices.DirectorySearcherª
+∏
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs+ +(7
+%7string"__concat*
+(&(sAMAccountName=*
+
+userNamestring•
+¢
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs+ +(>
+%8string"__concat*
+
+%7string*
+))˛
+˚
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs+ +(>
+%9string"5System.DirectoryServices.DirectorySearcher.Filter.set*2
+0
+ds*System.DirectoryServices.DirectorySearcher*
+
+%8stringç
+ä
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs," ,(.,
+%10%System.DirectoryServices.SearchResult"4System.DirectoryServices.DirectorySearcher.FindOne()*2
+0
+ds*System.DirectoryServices.DirectorySearcher‹
+Ÿ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs, ,(./
+result%System.DirectoryServices.SearchResult"__id*.
+,
+%10%System.DirectoryServices.SearchResult≥
+∞
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs- -(%.
+ent'System.DirectoryServices.DirectoryEntry"__id*
+""Ì
+Í
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs/ /(
+%11bool""object.operator !=(object, object)*
+"
+object*1
+/
+result%System.DirectoryServices.SearchResult*
+""*
+2
+3*
+2p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs1 1(0ì
+ê
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs1 1(0.
+%12'System.DirectoryServices.DirectoryEntry"9System.DirectoryServices.SearchResult.GetDirectoryEntry()*1
+/
+result%System.DirectoryServices.SearchResult›
+⁄
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs1 1(0.
+ent'System.DirectoryServices.DirectoryEntry"__id*0
+.
+%12'System.DirectoryServices.DirectoryEntry*
+3*Ï
+3p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs4 4(Ï
+È
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs4 4(
+%13bool""object.operator !=(object, object)*
+"
+object*0
+.
+ent'System.DirectoryServices.DirectoryEntry*
+""*
+4
+5*ÿ
+4p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs6 6(6ì
+ê
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs6 6("2
+%14+System.DirectoryServices.PropertyCollection"6System.DirectoryServices.DirectoryEntry.Properties.get*0
+.
+ent'System.DirectoryServices.DirectoryEntryˆ
+Û
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs6 6((7
+%150System.DirectoryServices.PropertyValueCollection"__mapGet*4
+2
+%14+System.DirectoryServices.PropertyCollection*
+cn˚
+¯
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs6 6(.
+%16object":System.DirectoryServices.PropertyValueCollection.Value.get*9
+7
+%150System.DirectoryServices.PropertyValueCollectionÀ
+»
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs6 6(6
+%17bool""object.operator !=(object, object)*
+"
+object*
+
+%16object*
+""*
+6
+7*ü
+6p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs8 8(Tì
+ê
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs8A 8(O2
+%18+System.DirectoryServices.PropertyCollection"6System.DirectoryServices.DirectoryEntry.Properties.get*0
+.
+ent'System.DirectoryServices.DirectoryEntryˆ
+Û
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs8A 8(U7
+%190System.DirectoryServices.PropertyValueCollection"__mapGet*4
+2
+%18+System.DirectoryServices.PropertyCollection*
+cn˚
+¯
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs8A 8([
+%20object":System.DirectoryServices.PropertyValueCollection.Value.get*9
+7
+%190System.DirectoryServices.PropertyValueCollection¥±
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs8A 8(f
+%21string"object.ToString()*
+
+%20object2
+ToString()∆√
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs8! 8(g*
+%22#Novell.Directory.Ldap.LdapAttribute"#Novell.Directory.Ldap.LdapAttributeî
+ë
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs8% 8(2
+%23void"ANovell.Directory.Ldap.LdapAttribute.LdapAttribute(string, string)*,
+*
+%22#Novell.Directory.Ldap.LdapAttribute*
+
+commonname*
+
+%21string˛
+˚
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs8 8(gS
+mojoPortal.Business.LdapUser"1
+
+commonname#Novell.Directory.Ldap.LdapAttribute"__id*,
+*
+%22#Novell.Directory.Ldap.LdapAttribute*
+8*‡
+7p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs< <(I∆√
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs<! <(J*
+%24#Novell.Directory.Ldap.LdapAttribute"#Novell.Directory.Ldap.LdapAttributeô
+ñ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs<% <(2
+%25void"ANovell.Directory.Ldap.LdapAttribute.LdapAttribute(string, string)*,
+*
+%24#Novell.Directory.Ldap.LdapAttribute*
+
+commonname*
+
+userNamestring˛
+˚
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs< <(JS
+mojoPortal.Business.LdapUser"1
+
+commonname#Novell.Directory.Ldap.LdapAttribute"__id*,
+*
+%24#Novell.Directory.Ldap.LdapAttribute*
+8*€
+8p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs> >(8ì
+ê
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs> >("2
+%26+System.DirectoryServices.PropertyCollection"6System.DirectoryServices.DirectoryEntry.Properties.get*0
+.
+ent'System.DirectoryServices.DirectoryEntry¯
+ı
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs> >(*7
+%270System.DirectoryServices.PropertyValueCollection"__mapGet*4
+2
+%26+System.DirectoryServices.PropertyCollection*
+mail˚
+¯
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs> >(0
+%28object":System.DirectoryServices.PropertyValueCollection.Value.get*9
+7
+%270System.DirectoryServices.PropertyValueCollectionÀ
+»
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs> >(8
+%29bool""object.operator !=(object, object)*
+"
+object*
+
+%28object*
+""*
+9
+10*ó
+9p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs@ @(Lì
+ê
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs@7 @(E2
+%30+System.DirectoryServices.PropertyCollection"6System.DirectoryServices.DirectoryEntry.Properties.get*0
+.
+ent'System.DirectoryServices.DirectoryEntry¯
+ı
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs@7 @(M7
+%310System.DirectoryServices.PropertyValueCollection"__mapGet*4
+2
+%30+System.DirectoryServices.PropertyCollection*
+mail˚
+¯
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs@7 @(S
+%32object":System.DirectoryServices.PropertyValueCollection.Value.get*9
+7
+%310System.DirectoryServices.PropertyValueCollection¥±
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs@7 @(^
+%33string"object.ToString()*
+
+%32object2
+ToString()∆√
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs@ @(_*
+%34#Novell.Directory.Ldap.LdapAttribute"#Novell.Directory.Ldap.LdapAttributeè
+å
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs@  @(-
+%35void"ANovell.Directory.Ldap.LdapAttribute.LdapAttribute(string, string)*,
+*
+%34#Novell.Directory.Ldap.LdapAttribute*	
+email*
+
+%33string˘
+ˆ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.cs@ @(_N
+mojoPortal.Business.LdapUser",
+email#Novell.Directory.Ldap.LdapAttribute"__id*,
+*
+%34#Novell.Directory.Ldap.LdapAttribute*
+5*õ
+10p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.csD D([´
+®
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.csD7 D(E
+%36string"__concat*
+
+userNamestring*
+@Â
+‚
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.csDH D([
+%37string"+mojoPortal.Business.LdapSettings.Domain.get*2
+0
+ldapSettings mojoPortal.Business.LdapSettings∞
+≠
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.csD7 D([
+%38string"__concat*
+
+%36string*
+
+%37string∆√
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.csD D(\*
+%39#Novell.Directory.Ldap.LdapAttribute"#Novell.Directory.Ldap.LdapAttributeè
+å
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.csD  D(-
+%40void"ANovell.Directory.Ldap.LdapAttribute.LdapAttribute(string, string)*,
+*
+%39#Novell.Directory.Ldap.LdapAttribute*	
+email*
+
+%38string˘
+ˆ
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.csD D(\N
+mojoPortal.Business.LdapUser",
+email#Novell.Directory.Ldap.LdapAttribute"__id*,
+*
+%39#Novell.Directory.Ldap.LdapAttribute*
+5*ˇ
+5p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.csG	 G(	"á
+p
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapUser.csG G(	
+implicit return:2
+adentry'System.DirectoryServices.DirectoryEntry:
+userNamestring:0
+ldapSettings mojoPortal.Business.LdapSettingsB 
+mojoPortal.Business.LdapUser

@@ -1,0 +1,199 @@
+
+5mojoPortal.Web.WindowsLiveLogin.parseSettings(string)p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs€# €(0"0*Å
+0p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs‚ ‚(1Å
+Â
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs‚ ‚(2
+
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+settingsFilestring*
+1
+2*¬
+1p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs„ „(>·´
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs„ „(?"
+%1System.ArgumentNullException"System.ArgumentNullExceptionõ
+ò
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs„ „(/
+
+%2void":System.ArgumentNullException.ArgumentNullException(string)*$
+"
+%1System.ArgumentNullException*
+settingsFile*
+3*¯
+2p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csˆ («¨
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csˆ ˆ(.
+%3System.Xml.XmlDocument"System.Xml.XmlDocumentÇ
+Ä
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csˆ! ˆ(,
+
+%4void"$System.Xml.XmlDocument.XmlDocument()*
+
+%3System.Xml.XmlDocument¹
+¶
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csˆ ˆ(.
+xdSystem.Xml.XmlDocument"__id*
+
+%3System.Xml.XmlDocumentîë
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs‰ ‰(!
+
+%5void"#System.Xml.XmlDocument.Load(string)*
+
+xdSystem.Xml.XmlDocument*
+
+settingsFilestring2Load(string)ô
+ñ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs‹ ‹(G
+%6System.Xml.XmlNode"+System.Xml.XmlNode.SelectSingleNode(string)*
+
+xdSystem.Xml.XmlDocument*
+//windowslivelogin¶
+³
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs‹ ‹(G
+topNodeSystem.Xml.XmlNode"__id*
+
+%6System.Xml.XmlNodeÚ
+×
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs (
+
+%7bool""object.operator ==(object, object)*
+"
+object*
+
+topNodeSystem.Xml.XmlNode*
+""*
+4
+5*ó
+4p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs (mâ
+ß
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs' (m
+%8string"__concat*97
+5Error: parseSettings: Failed to parse settings file: *
+
+settingsFilestring­ª
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs (n
+%9System.Xml.XmlException"System.Xml.XmlExceptioná
+Þ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs (&
+%10void",System.Xml.XmlException.XmlException(string)*
+
+%9System.Xml.XmlException*
+
+%8string*
+3*Ÿ
+
+5p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs’  “(:äá
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs’+ ’(D9
+%112System.Collections.Specialized.NameValueCollection"2System.Collections.Specialized.NameValueCollection‰
+†
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs’/ ’(B
+%12void"HSystem.Collections.Specialized.NameValueCollection.NameValueCollection()*;
+9
+%112System.Collections.Specialized.NameValueCollectionø
+õ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs’  ’(D>
+settings2System.Collections.Specialized.NameValueCollection"__id*;
+9
+%112System.Collections.Specialized.NameValueCollectioná
+Þ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs“# “(:%
+%13System.Collections.IEnumerator""System.Xml.XmlNode.GetEnumerator()*
+
+topNodeSystem.Xml.XmlNodeÐ
+Í
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs“ “(:*
+childrenSystem.Collections.IEnumerator"__id*'
+%
+%13System.Collections.IEnumerator*
+6*ç
+6p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs• •(&çä
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs• •(&
+%14bool")System.Collections.IEnumerator.MoveNext()*,
+*
+childrenSystem.Collections.IEnumerator2
+MoveNext()*
+7
+8*«
+
+7p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs— ˜(6ëè
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs—) —(9
+%15object"*System.Collections.IEnumerator.Current.get*,
+*
+childrenSystem.Collections.IEnumerator2Current.get“
+
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs—  —(9
+%16"__id*
+
+%15object¡
+ž
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs— —(9
+childSystem.Xml.XmlNode"__id*
+
+%16À
+½
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs˜ ˜(#
+%17string"System.Xml.XmlNode.Name.get*
+
+childSystem.Xml.XmlNodeÔÑ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs˜' ˜(6
+%18string" System.Xml.XmlNode.InnerText.get*
+
+childSystem.Xml.XmlNode2InnerText.getì
+é
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs˜ ˜(6
+%19"
+__arraySet*@
+>
+settings2System.Collections.Specialized.NameValueCollection*
+
+%17string*
+
+%18string*
+6*¬
+8p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs› ›("´
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.cs› ›(@
+>
+settings2System.Collections.Specialized.NameValueCollection*ÿ
+3p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csœ	 œ(	"‡
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WindowsLive.csœ œ(	
+implicit return:
+settingsFilestringB#"!
+mojoPortal.Web.WindowsLiveLogin

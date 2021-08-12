@@ -1,0 +1,828 @@
+
+FmojoPortal.Web.WindowsLiveAuthHandler.DoExistingUserLogic(System.Guid)|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csﬁ ﬁ(("0*ü
+0|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs· Ê(3é
+ã
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs·) ·(5&
+%0 mojoPortal.Business.SiteSettings"__id*]*['
+%mojoPortal.Web.WindowsLiveAuthHandler"0
+siteSettings mojoPortal.Business.SiteSettings√¿
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs· ·(@"
+%1mojoPortal.Business.SiteUser"mojoPortal.Business.SiteUserª
+∏
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs·  ·((
+
+%2void"TmojoPortal.Business.SiteUser.SiteUser(mojoPortal.Business.SiteSettings, System.Guid)*$
+"
+%1mojoPortal.Business.SiteUser*(
+&
+%0 mojoPortal.Business.SiteSettings*
+""”
+–
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs· ·(@$
+usermojoPortal.Business.SiteUser"__id*$
+"
+%1mojoPortal.Business.SiteUser°
+û
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs„ „( 
+canLoginbool"__id*
+""é
+ã
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÊ Ê(&
+%3 mojoPortal.Business.SiteSettings"__id*]*['
+%mojoPortal.Web.WindowsLiveAuthHandler"0
+siteSettings mojoPortal.Business.SiteSettingsÛ
+
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÊ Ê(3
+
+%4bool":mojoPortal.Business.SiteSettings.UseSecureRegistration.get*(
+&
+%3 mojoPortal.Business.SiteSettings*
+1
+2*ñ
+1|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÁ Á(:Ú
+Ô
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÁ Á(,
+%5System.Guid"4mojoPortal.Business.SiteUser.RegisterConfirmGuid.get*&
+$
+usermojoPortal.Business.SiteUserï
+í
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÁ0 Á(:
+%6"__id*
+""*
+3
+2*É)
+3|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÍ ˜( Ó
+Î
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÎ Î(/!
+%7mojoPortal.Net.SmtpSettings"*mojoPortal.Web.SiteUtils.GetSmtpSettings()*"
+mojoPortal.Web.SiteUtils®
+•
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÏ Ï([
+%8string"BmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*&$
+"RegisterConfirmEmailMessage.configé
+ã
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÌ Ì( &
+%9 mojoPortal.Business.SiteSettings"__id*]*['
+%mojoPortal.Web.WindowsLiveAuthHandler"0
+siteSettings mojoPortal.Business.SiteSettings¯
+ı
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÌ Ì(8
+%10string"<mojoPortal.Business.SiteSettings.DefaultEmailFromAddress.get*(
+&
+%9 mojoPortal.Business.SiteSettingsè
+å
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÓ Ó( '
+%11 mojoPortal.Business.SiteSettings"__id*]*['
+%mojoPortal.Web.WindowsLiveAuthHandler"0
+siteSettings mojoPortal.Business.SiteSettings˜
+Ù
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÓ Ó(6
+%12string":mojoPortal.Business.SiteSettings.DefaultFromEmailAlias.get*)
+'
+%11 mojoPortal.Business.SiteSettings‡
+›
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÔ Ô(
+%13string"&mojoPortal.Business.SiteUser.Email.get*&
+$
+usermojoPortal.Business.SiteUserè
+å
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs ( '
+%14 mojoPortal.Business.SiteSettings"__id*]*['
+%mojoPortal.Web.WindowsLiveAuthHandler"0
+siteSettings mojoPortal.Business.SiteSettingsÍ
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs ()
+%15string"-mojoPortal.Business.SiteSettings.SiteName.get*)
+'
+%14 mojoPortal.Business.SiteSettingsË
+Â
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÒ Ò(*
+%16string"/mojoPortal.Web.Framework.WebUtils.GetSiteRoot()*%"#
+!mojoPortal.Web.Framework.WebUtils“
+œ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÒ Ò(P
+%17string"__concat*
+
+%16string*%#
+!/ConfirmRegistration.aspx?ticket=Û
+
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÚ Ú(,
+%18System.Guid"4mojoPortal.Business.SiteUser.RegisterConfirmGuid.get*&
+$
+usermojoPortal.Business.SiteUseræ
+ª
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÚ Ú(7
+%19string"System.Guid.ToString()*
+
+%18System.Guidº
+π
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÒ Ú(7
+%20string"__concat*
+
+%17string*
+
+%19string≈
+¬
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÍ Ú(8
+%21void"âmojoPortal.Net.Notification.SendRegistrationConfirmationLink(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string)*"
+mojoPortal.Net.Notification*#
+!
+%7mojoPortal.Net.SmtpSettings*
+
+%8string*
+
+%10string*
+
+%12string*
+
+%13string*
+
+%15string*
+
+%20stringﬁ
+€
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csı ı(
+%22log4net.ILog"__id*@*>'
+%mojoPortal.Web.WindowsLiveAuthHandler"
+loglog4net.ILogﬂ
+‹
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csı# ı(,
+%23string"%mojoPortal.Business.SiteUser.Name.get*&
+$
+usermojoPortal.Business.SiteUser∂
+≥
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csı ı(,
+%24string"__concat*	
+User *
+
+%23string‰
+·
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csı ı(d
+%25string"__concat*
+
+%24string*75
+3 tried to login but email address is not confirmed.ﬂ‹
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csı ı(e
+%26void"log4net.ILog.Info(object)*
+
+%22log4net.ILog*
+
+%25string2Info(object)°
+û
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs˜ ˜( 
+canLoginbool"__id*
+""*
+2*
+2|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs˙ ˙( ‰
+·
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs˙ ˙( 
+%27bool",mojoPortal.Business.SiteUser.IsLockedOut.get*&
+$
+usermojoPortal.Business.SiteUser*
+4
+5*‚
+
+4|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs˝ ˇ( ﬁ
+€
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs˝ ˝(
+%28log4net.ILog"__id*@*>'
+%mojoPortal.Web.WindowsLiveAuthHandler"
+loglog4net.ILogﬂ
+‹
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs˝# ˝(,
+%29string"%mojoPortal.Business.SiteUser.Name.get*&
+$
+usermojoPortal.Business.SiteUser∂
+≥
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs˝ ˝(,
+%30string"__concat*	
+User *
+
+%29string◊
+‘
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs˝ ˝(W
+%31string"__concat*
+
+%30string**(
+& tried to login but account is locked.ﬂ‹
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs˝ ˝(X
+%32void"log4net.ILog.Info(object)*
+
+%28log4net.ILog*
+
+%31string2Info(object)°
+û
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csˇ ˇ( 
+canLoginbool"__id*
+""*
+5*ò
+5|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÇ Ç(8è
+å
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÇ Ç('
+%33 mojoPortal.Business.SiteSettings"__id*]*['
+%mojoPortal.Web.WindowsLiveAuthHandler"0
+siteSettings mojoPortal.Business.SiteSettings˙
+˜
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÇ Ç(8
+%34bool"?mojoPortal.Business.SiteSettings.RequireApprovalBeforeLogin.get*)
+'
+%33 mojoPortal.Business.SiteSettings*
+6
+7*ı
+6|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÇ> Ç(TÈ
+Ê
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÇ? Ç(T
+%35bool"1mojoPortal.Business.SiteUser.ApprovedForLogin.get*&
+$
+usermojoPortal.Business.SiteUser*
+8
+7*Ï
+
+8|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÑ Ö( ﬁ
+€
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÑ Ñ(
+%36log4net.ILog"__id*@*>'
+%mojoPortal.Web.WindowsLiveAuthHandler"
+loglog4net.ILogﬂ
+‹
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÑ# Ñ(,
+%37string"%mojoPortal.Business.SiteUser.Name.get*&
+$
+usermojoPortal.Business.SiteUser∂
+≥
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÑ Ñ(,
+%38string"__concat*	
+User *
+
+%37string·
+ﬁ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÑ Ñ(a
+%39string"__concat*
+
+%38string*42
+0 tried to login but account is not approved yet.ﬂ‹
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÑ Ñ(b
+%40void"log4net.ILog.Info(object)*
+
+%36log4net.ILog*
+
+%39string2Info(object)°
+û
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csÖ Ö( 
+canLoginbool"__id*
+""*
+7*ä
+7|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csà à(*
+9
+10*ê
+9|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csä ä(1è
+å
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csä ä( '
+%41 mojoPortal.Business.SiteSettings"__id*]*['
+%mojoPortal.Web.WindowsLiveAuthHandler"0
+siteSettings mojoPortal.Business.SiteSettings
+Ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csä ä(1
+%42bool"5mojoPortal.Business.SiteSettings.UseEmailForLogin.get*)
+'
+%41 mojoPortal.Business.SiteSettings*
+11
+12*°
+11|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cså ç(1‡
+›
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csç ç("
+%43string"&mojoPortal.Business.SiteUser.Email.get*&
+$
+usermojoPortal.Business.SiteUserñ
+ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csç$ ç(1
+%44"__id*
+""ö
+ó
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cså ç(2
+%45void"CSystem.Web.Security.FormsAuthentication.SetAuthCookie(string, bool)*+")
+'System.Web.Security.FormsAuthentication*
+
+%43string*
+
+%44*
+13*•
+12|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csí ì(5‰
+·
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csì ì(&
+%46string"*mojoPortal.Business.SiteUser.LoginName.get*&
+$
+usermojoPortal.Business.SiteUserñ
+ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csì( ì(5
+%47"__id*
+""ö
+ó
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csí ì(6
+%48void"CSystem.Web.Security.FormsAuthentication.SetAuthCookie(string, bool)*+")
+'System.Web.Security.FormsAuthentication*
+
+%46string*
+
+%47*
+13*∫
+13|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csó ó(@˜
+Ù
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csó ó(5
+%49string"=mojoPortal.Business.SiteUser.LiveMessengerDelegationToken.get*&
+$
+usermojoPortal.Business.SiteUser±
+Æ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csó ó(<
+
+%50int"string.Length.get*
+
+%49string*
+14
+15*±
+14|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csô) ú(%å
+â
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csôF ô(Q&
+%51mojoPortal.Web.WindowsLiveLogin"__id*[*Y'
+%mojoPortal.Web.WindowsLiveAuthHandler".
+windowsLivemojoPortal.Web.WindowsLiveLogin“œ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csô- ô(R*
+%52#mojoPortal.Web.WindowsLiveMessenger"#mojoPortal.Web.WindowsLiveMessenger¡
+æ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csô1 ô(E
+%53void"YmojoPortal.Web.WindowsLiveMessenger.WindowsLiveMessenger(mojoPortal.Web.WindowsLiveLogin)*,
+*
+%52#mojoPortal.Web.WindowsLiveMessenger*(
+&
+%51mojoPortal.Web.WindowsLiveLoginﬂ
+‹
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csô) ô(R(
+m#mojoPortal.Web.WindowsLiveMessenger"__id*,
+*
+%52#mojoPortal.Web.WindowsLiveMessenger˜
+Ù
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csö7 ö(X
+%54string"=mojoPortal.Business.SiteUser.LiveMessengerDelegationToken.get*&
+$
+usermojoPortal.Business.SiteUser¨
+©
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csö) ö(Y3
+%55,mojoPortal.Web.WindowsLiveLogin.ConsentToken"7mojoPortal.Web.WindowsLiveMessenger.DecodeToken(string)**
+(
+m#mojoPortal.Web.WindowsLiveMessenger*
+
+%54stringı
+Ú
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csö! ö(Y5
+token,mojoPortal.Web.WindowsLiveLogin.ConsentToken"__id*5
+3
+%55,mojoPortal.Web.WindowsLiveLogin.ConsentToken˝
+˙
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csõ õ(33
+%56,mojoPortal.Web.WindowsLiveLogin.ConsentToken"`mojoPortal.Web.WindowsLiveMessenger.RefreshConsent(mojoPortal.Web.WindowsLiveLogin.ConsentToken)**
+(
+m#mojoPortal.Web.WindowsLiveMessenger*7
+5
+token,mojoPortal.Web.WindowsLiveLogin.ConsentTokenı
+Ú
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csõ õ(35
+token,mojoPortal.Web.WindowsLiveLogin.ConsentToken"__id*5
+3
+%56,mojoPortal.Web.WindowsLiveLogin.ConsentTokenˇ
+¸
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csú ú(%
+%57bool""object.operator !=(object, object)*
+"
+object*7
+5
+token,mojoPortal.Web.WindowsLiveLogin.ConsentToken*
+""*
+16
+15*˙
+16|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csû ü([ñ
+ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csû/ û(A
+%58"__id*
+""Å
+˛
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csûC û(N
+%59string"6mojoPortal.Web.WindowsLiveLogin.ConsentToken.Token.get*7
+5
+token,mojoPortal.Web.WindowsLiveLogin.ConsentTokenî
+ë
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csû û(O
+%60void"?mojoPortal.Web.Framework.CookieHelper.SetCookie(string, string)*)"'
+%mojoPortal.Web.Framework.CookieHelper*
+
+%58*
+
+%59stringñ
+ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csü/ ü(D
+%61"__id*
+""ã
+à
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csüF ü([
+%62string"@mojoPortal.Web.WindowsLiveLogin.ConsentToken.DelegationToken.get*7
+5
+token,mojoPortal.Web.WindowsLiveLogin.ConsentTokenî
+ë
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csü ü(\
+%63void"?mojoPortal.Web.Framework.CookieHelper.SetCookie(string, string)*)"'
+%mojoPortal.Web.Framework.CookieHelper*
+
+%61*
+
+%62string*
+15*ñ
+15|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs§ §(Rá
+Ñ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs§ §(R
+%64bool"QmojoPortal.Web.WebConfigSettings.UseFoldersInsteadOfHostnamesForMultipleSites.get*$""
+ mojoPortal.Web.WebConfigSettings*
+17
+18*Ç
+17|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs¶ ß(^è
+å
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs¶5 ¶(A'
+%65 mojoPortal.Business.SiteSettings"__id*]*['
+%mojoPortal.Web.WindowsLiveAuthHandler"0
+siteSettings mojoPortal.Business.SiteSettingsÔ
+Ï
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs¶5 ¶(J
+%66System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*)
+'
+%65 mojoPortal.Business.SiteSettings√
+¿
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs¶( ¶(J
+%67System.Guid"__concat*
+
+siteguid*
+
+%66System.Guid≥
+∞
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs¶ ¶(J
+
+cookieNamestring"__id*
+
+%67System.GuidË
+Â
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csß7 ß(D
+%68System.Guid")mojoPortal.Business.SiteUser.UserGuid.get*&
+$
+usermojoPortal.Business.SiteUseræ
+ª
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csß7 ß(O
+%69string"System.Guid.ToString()*
+
+%68System.Guidñ
+ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csßQ ß(^
+%70"__id*
+""≤
+Ø
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csß ß(_
+%71void"EmojoPortal.Web.Framework.CookieHelper.SetCookie(string, string, bool)*)"'
+%mojoPortal.Web.Framework.CookieHelper*
+
+
+cookieNamestring*
+
+%69string*
+
+%70*
+18*Ì
+18|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs™ ™($ﬁ
+€
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs™ ™(
+
+%72int"'mojoPortal.Business.SiteUser.UserId.get*&
+$
+usermojoPortal.Business.SiteUser*
+19
+20*è
+19|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs™( ™(Cè
+å
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs™( ™(4'
+%73 mojoPortal.Business.SiteSettings"__id*]*['
+%mojoPortal.Web.WindowsLiveAuthHandler"0
+siteSettings mojoPortal.Business.SiteSettingsÓ
+Î
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs™( ™(C
+%74bool"3mojoPortal.Business.SiteSettings.AllowUserSkins.get*)
+'
+%73 mojoPortal.Business.SiteSettings*
+21
+20*¢
+21|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs™G ™([ﬂ
+‹
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs™G ™(P
+%75string"%mojoPortal.Business.SiteUser.Skin.get*&
+$
+usermojoPortal.Business.SiteUser±
+Æ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs™G ™(W
+
+%76int"string.Length.get*
+
+%75string*
+22
+20*•
+22|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs¨ ¨(0ö
+ó
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs¨ ¨(1
+%77void"DmojoPortal.Web.SiteUtils.SetSkinCookie(mojoPortal.Business.SiteUser)*"
+mojoPortal.Web.SiteUtils*&
+$
+usermojoPortal.Business.SiteUser*
+20*ˆ1
+20|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs∞ ø(-Í
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs∞ ∞(*
+%78bool"2mojoPortal.Business.SiteUser.UpdateLastLoginTime()*&
+$
+usermojoPortal.Business.SiteUserË
+Â
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs≥= ≥(J
+%79System.Guid")mojoPortal.Business.SiteUser.UserGuid.get*&
+$
+usermojoPortal.Business.SiteUserÿ
+’
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs≥L ≥(e
+%80string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtilsÃ…
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs≥, ≥(f'
+%81 mojoPortal.Business.UserLocation" mojoPortal.Business.UserLocation§
+°
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs≥0 ≥(<
+%82void"BmojoPortal.Business.UserLocation.UserLocation(System.Guid, string)*)
+'
+%81 mojoPortal.Business.UserLocation*
+
+%79System.Guid*
+
+%80string‰
+·
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs≥ ≥(f0
+userLocation mojoPortal.Business.UserLocation"__id*)
+'
+%81 mojoPortal.Business.UserLocationè
+å
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs¥( ¥(4'
+%83 mojoPortal.Business.SiteSettings"__id*]*['
+%mojoPortal.Web.WindowsLiveAuthHandler"0
+siteSettings mojoPortal.Business.SiteSettingsÔ
+Ï
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs¥( ¥(=
+%84System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*)
+'
+%83 mojoPortal.Business.SiteSettingsé
+ã
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs¥ ¥(=
+%85System.Guid"-mojoPortal.Business.UserLocation.SiteGuid.set*2
+0
+userLocation mojoPortal.Business.UserLocation*
+
+%84System.Guid·ﬁ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csµ( µ(,
+%86System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get›
+⁄
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csµ( µ(4
+%87System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+
+%86System.Web.UI.Page⁄
+◊
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csµ( µ(A
+%88string"'System.Web.HttpRequest.UserHostName.get*
+
+%87System.Web.HttpRequestÑ
+Å
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csµ µ(A
+%89string"-mojoPortal.Business.UserLocation.Hostname.set*2
+0
+userLocation mojoPortal.Business.UserLocation*
+
+%88stringÎ
+Ë
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs∂ ∂(#
+%90bool"'mojoPortal.Business.UserLocation.Save()*2
+0
+userLocation mojoPortal.Business.UserLocationÙ
+Ò
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs∏% ∏(6
+%91string"7mojoPortal.Web.WindowsLiveAuthHandler.GetRedirectPath()*)'
+%mojoPortal.Web.WindowsLiveAuthHandlerØ
+¨
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs∏ ∏(6
+redirectUrlstring"__id*
+
+%91string‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csπ* π(=
+%92string"__id*J*H'
+%mojoPortal.Web.WindowsLiveAuthHandler"
+returnUrlCookieNamestringÜ
+É
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csπ π(>
+%93void":mojoPortal.Web.Framework.CookieHelper.ExpireCookie(string)*)"'
+%mojoPortal.Web.Framework.CookieHelper*
+
+%92stringñì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csª( ª(EL
+%94EmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs"EmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgsˇ
+¸
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csª, ª(?
+%95void"wmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs.UserSignInEventArgs(mojoPortal.Business.SiteUser)*N
+L
+%94EmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs*&
+$
+usermojoPortal.Business.SiteUser£
+†
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csª$ ª(EJ
+uEmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs"__id*N
+L
+%94EmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgsÇ
+ˇ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csº º(
+%96void"ymojoPortal.Web.WindowsLiveAuthHandler.OnUserSignIn(mojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs)*)'
+%mojoPortal.Web.WindowsLiveAuthHandler*L
+J
+uEmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs⁄
+◊
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csø ø(
+%97System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+System.Web.UI.PageÛ
+
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csø ø(.
+%98void"(System.Web.HttpResponse.Redirect(string)* 
+
+%97System.Web.HttpResponse*
+
+redirectUrlstring"Ü
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs¿ ¿(
+""*Á
+10|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs   (+⁄
+◊
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs   (
+%99System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+System.Web.UI.Pageó
+î
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs "  (+
+%100"__id*
+""Â
+‚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.cs   (,
+%101void"(System.Web.HttpResponse.Redirect(string)* 
+
+%99System.Web.HttpResponse*
+
+%100*
+23*ò
+23|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csŒ	 Œ(	"ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\WindowsLiveAuthHandler.aspx.csŒ Œ(	
+implicit return:
+userGuidSystem.GuidB)'
+%mojoPortal.Web.WindowsLiveAuthHandler

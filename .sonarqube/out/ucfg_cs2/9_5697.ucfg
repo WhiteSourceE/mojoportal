@@ -1,0 +1,997 @@
+
+>mojoPortal.Web.AdminUI.SecurityAdvisorPage.SslTest_HowsMySsl()r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs~ ~("0*å
+0t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csÜ ì(<óî
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csÜ( Ü(T
+%0
+System.Uri"
+System.Uriÿ
+’
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csÜ, Ü(/
+
+%1void"System.Uri.Uri(string)*
+
+%0
+System.Uri*%#
+!https://howsmyssl.com:443/a/check˜
+Ù
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csÜ Ü(U
+%2System.Net.HttpWebRequest",System.Net.WebRequest.CreateHttp(System.Uri)*"
+System.Net.WebRequest*
+
+%0
+System.Uri»
+≈
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csÜ Ü(U$
+requestSystem.Net.HttpWebRequest"__id*!
+
+%2System.Net.HttpWebRequest¨
+©
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csà à(W=
+%37System.Net.Security.RemoteCertificateValidationCallback"FSystem.Net.ServicePointManager.ServerCertificateValidationCallback.set*"" 
+System.Net.ServicePointManager*
+""˜Ù
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csã ã(0
+%4System.Net.WebResponse"'System.Net.HttpWebRequest.GetResponse()*&
+$
+requestSystem.Net.HttpWebRequest2GetResponse()√
+¿
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csã ã(0"
+responseSystem.Net.WebResponse"__id*
+
+%4System.Net.WebResponse¯ı
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csç ç(4
+%5System.IO.Stream"*System.Net.WebResponse.GetResponseStream()*$
+"
+responseSystem.Net.WebResponse2GetResponseStream()π
+∂
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csç ç(4
+
+dataStreamSystem.IO.Stream"__id*
+
+%5System.IO.StreamØ¨
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csé é(6
+%6System.IO.StreamReader"System.IO.StreamReader˛
+˚
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csé é(*
+
+%7void"5System.IO.StreamReader.StreamReader(System.IO.Stream)*
+
+%6System.IO.StreamReader* 
+
+
+dataStreamSystem.IO.Stream¡
+æ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csé é(6 
+readerSystem.IO.StreamReader"__id*
+
+%6System.IO.StreamReader‹Ÿ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csè  è(2
+%8string""System.IO.StreamReader.ReadToEnd()*"
+ 
+readerSystem.IO.StreamReader2ReadToEnd()≠
+™
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csè è(2
+responseFromServerstring"__id*
+
+%8string“œ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csë ë(
+
+%9void"System.IO.StreamReader.Close()*"
+ 
+readerSystem.IO.StreamReader2Close()’“
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csí í(
+%10void"System.Net.WebResponse.Close()*$
+"
+responseSystem.Net.WebResponse2Close()ı
+Ú
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csì ì(<
+%11bool"GmojoPortal.Web.WebConfigSettings.SecurityAdvisorLogTLSCheckResponse.get*$""
+ mojoPortal.Web.WebConfigSettings*
+1
+2*Û
+1t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csï ï(G€
+ÿ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csï ï(
+%12log4net.ILog"__id*E*C,
+*mojoPortal.Web.AdminUI.SecurityAdvisorPage"
+loglog4net.ILog∫
+∑
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csï ï(I
+%13string"__concat*
+""*
+
+responseFromServerstring◊‘
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csï ï(J
+%14void"log4net.ILog.Info(object)*
+
+%12log4net.ILog*
+
+%13string2Info(object)*
+2*≤:
+2t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csò §(å
+â
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csò ò(7#
+%15Newtonsoft.Json.Linq.JObject"*Newtonsoft.Json.Linq.JObject.Parse(string)* "
+Newtonsoft.Json.Linq.JObject*
+
+responseFromServerstringœ
+Ã
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csò ò(7'
+jObjectNewtonsoft.Json.Linq.JObject"__id*%
+#
+%15Newtonsoft.Json.Linq.JObjectÎ
+Ë
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csô% ô(C"
+%16Newtonsoft.Json.Linq.JToken"__mapGet*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*
+given_cipher_suites¨
+©
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csô ô(C
+%17"__id*$
+"
+%16Newtonsoft.Json.Linq.JTokenŸ
+÷
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csô ô([0
+%18)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*
+
+%17*
+""Õ
+ 
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csô ô(d)
+%19"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%18)System.Collections.Generic.IEnumerable<T>‹
+Ÿ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csô ô(d.
+ciphers#System.Collections.Generic.IList<T>"__id*+
+)
+%19"System.Collections.Generic.List<T>„
+‡
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csö ö(2"
+%20Newtonsoft.Json.Linq.JToken"__mapGet*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*
+tls_version¥
+±
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csö ö(2
+%21string"__id*$
+"
+%20Newtonsoft.Json.Linq.JToken¢
+ü
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csö ö(2
+tlsverstring"__id*
+
+%21stringﬁ
+€
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csõ õ(-"
+%22Newtonsoft.Json.Linq.JToken"__mapGet*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*
+
+rating¥
+±
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csõ õ(-
+%23string"__id*$
+"
+%22Newtonsoft.Json.Linq.JToken¢
+ü
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csõ õ(-
+ratingstring"__id*
+
+%23string
+Ì
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csú ú(;"
+%24Newtonsoft.Json.Linq.JToken"__mapGet*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*
+ephemeral_keys_supported¥
+±
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csú ú(;
+%25string"__id*$
+"
+%24Newtonsoft.Json.Linq.JToken°
+û
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csú ú(;
+ekeysstring"__id*
+
+%25string
+Ì
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csù ù(="
+%26Newtonsoft.Json.Linq.JToken"__mapGet*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*
+session_ticket_supported¥
+±
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csù ù(=
+%27string"__id*$
+"
+%26Newtonsoft.Json.Linq.JToken£
+†
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csù ù(=
+sticketstring"__id*
+
+%27stringÒ
+Ó
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csû û(?"
+%28Newtonsoft.Json.Linq.JToken"__mapGet*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*
+tls_compression_supported¥
+±
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csû û(?
+%29string"__id*$
+"
+%28Newtonsoft.Json.Linq.JToken§
+°
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csû û(?
+tlscomprstring"__id*
+
+%29stringˆ
+Û
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csü! ü(J"
+%30Newtonsoft.Json.Linq.JToken"__mapGet*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*" 
+unknown_cipher_suite_supported¥
+±
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csü ü(J
+%31string"__id*$
+"
+%30Newtonsoft.Json.Linq.JToken™
+ß
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csü ü(J
+unknownCiphersstring"__id*
+
+%31string‚
+ﬂ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs† †(-"
+%32Newtonsoft.Json.Linq.JToken"__mapGet*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*
+
+beast_vuln¥
+±
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs† †(-
+%33string"__id*$
+"
+%32Newtonsoft.Json.Linq.JToken°
+û
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs† †(-
+beaststring"__id*
+
+%33string¸
+˘
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs°( °(W"
+%34Newtonsoft.Json.Linq.JToken"__mapGet*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*(&
+$able_to_detect_n_minus_one_splitting¥
+±
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs°  °(W
+%35string"__id*$
+"
+%34Newtonsoft.Json.Linq.JToken±
+Æ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs° °(W
+n_minus_one_splittingstring"__id*
+
+%35stringÓ
+Î
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¢# ¢(D"
+%36Newtonsoft.Json.Linq.JToken"__mapGet*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*
+insecure_cipher_suites¨
+©
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¢ ¢(D
+%37"__id*$
+"
+%36Newtonsoft.Json.Linq.JTokenπ
+∂
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¢ ¢(D/
+insecureCiphersNewtonsoft.Json.Linq.JObject"__id*
+
+%37”
+–
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs§ §(
+%38bool""string.operator ==(string, string)*
+"
+string*
+
+ratingstring*
+Bad*
+3
+4*˙
+3t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¶ ¶(x˘
+ˆ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¶ ¶(x
+ratingstring"__id*fd
+b<span class="text-danger">Bad <i class="fa fa-exclamation-triangle" aria-hidden="true"></i></span>*
+4*‰H
+4t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs© ≤(!∂≥
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs© ©(* 
+%39System.Text.StringBuilder"System.Text.StringBuilder’
+“
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs© ©((
+%40void")System.Text.StringBuilder.StringBuilder()*"
+ 
+%39System.Text.StringBuilderƒ
+¡
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs© ©(*
+sbSystem.Text.StringBuilder"__id*"
+ 
+%39System.Text.StringBuilderﬂ
+‹
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs™ ™(H
+%41string"=Resources.Resource.SecurityAdvisorSecurityProtocolVersion.get*"
+Resources.Resource´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs™ ™(b
+%42string"__concat*
+""*
+
+%41string´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs™ ™(b
+%43string"__concat*
+
+%42string*
+""∑
+¥
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs™ ™(b
+%44string"__concat*
+
+%43string*
+
+tlsverstring´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs™ ™(b
+%45string"__concat*
+
+%44string*
+""˘
+ˆ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs™ ™(c 
+%46System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%45stringﬁ
+€
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs´ ´(G
+%47string"<Resources.Resource.SecurityAdvisorSecurityProtocolRating.get*"
+Resources.Resource´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs´ ´(a
+%48string"__concat*
+""*
+
+%47string´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs´ ´(a
+%49string"__concat*
+
+%48string*
+""∑
+¥
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs´ ´(a
+%50string"__concat*
+
+%49string*
+
+ratingstring´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs´ ´(a
+%51string"__concat*
+
+%50string*
+""˘
+ˆ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs´ ´(b 
+%52System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%51stringÂ
+‚
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¨ ¨(N
+%53string"CResources.Resource.SecurityAdvisorSecurityProtocolEphemeralKeys.get*"
+Resources.Resource´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¨ ¨(g
+%54string"__concat*
+""*
+
+%53string´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¨ ¨(g
+%55string"__concat*
+
+%54string*
+""∂
+≥
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¨ ¨(g
+%56string"__concat*
+
+%55string*
+
+ekeysstring´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¨ ¨(g
+%57string"__concat*
+
+%56string*
+""˘
+ˆ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¨ ¨(h 
+%58System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%57stringÊ
+„
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs≠ ≠(O
+%59string"DResources.Resource.SecurityAdvisorSecurityProtocolTLSCompression.get*"
+Resources.Resource´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs≠ ≠(k
+%60string"__concat*
+""*
+
+%59string´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs≠ ≠(k
+%61string"__concat*
+
+%60string*
+""π
+∂
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs≠ ≠(k
+%62string"__concat*
+
+%61string*
+
+tlscomprstring´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs≠ ≠(k
+%63string"__concat*
+
+%62string*
+""˘
+ˆ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs≠ ≠(l 
+%64System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%63stringÊ
+„
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csÆ Æ(O
+%65string"DResources.Resource.SecurityAdvisorSecurityProtocolUnknownCiphers.get*"
+Resources.Resource´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csÆ Æ(q
+%66string"__concat*
+""*
+
+%65string´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csÆ Æ(q
+%67string"__concat*
+
+%66string*
+""ø
+º
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csÆ Æ(q
+%68string"__concat*
+
+%67string*
+
+unknownCiphersstring´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csÆ Æ(q
+%69string"__concat*
+
+%68string*
+""˘
+ˆ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csÆ Æ(r 
+%70System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%69string·
+ﬁ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csØ Ø(J
+%71string"?Resources.Resource.SecurityAdvisorSecurityProtocolBeastVuln.get*"
+Resources.Resource´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csØ Ø(c
+%72string"__concat*
+""*
+
+%71string´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csØ Ø(c
+%73string"__concat*
+
+%72string*
+""∂
+≥
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csØ Ø(c
+%74string"__concat*
+
+%73string*
+
+beaststring´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csØ Ø(c
+%75string"__concat*
+
+%74string*
+""˘
+ˆ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csØ Ø(d 
+%76System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%75stringÍ
+Á
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∞ ∞(S
+%77string"HResources.Resource.SecurityAdvisorSecurityProtocolNMinusOneSplitting.get*"
+Resources.Resource´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∞ ∞(|
+%78string"__concat*
+""*
+
+%77string´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∞ ∞(|
+%79string"__concat*
+
+%78string*
+""∆
+√
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∞ ∞(|
+%80string"__concat*
+
+%79string*!
+
+n_minus_one_splittingstring´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∞ ∞(|
+%81string"__concat*
+
+%80string*
+""˘
+ˆ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∞ ∞(} 
+%82System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%81string„
+‡
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs≤ ≤(
+
+%83int")Newtonsoft.Json.Linq.JContainer.Count.get*1
+/
+insecureCiphersNewtonsoft.Json.Linq.JObject*
+5
+6*√
+5t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¥ µ(+Á
+‰
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¥, ¥(c
+%84string"EResources.Resource.SecurityAdvisorSecurityProtocolInsecureCiphers.get*"
+Resources.Resource¨
+©
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¥ ¥(∞
+%85string"__concat*
+""*
+
+%84string¨
+©
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¥ ¥(∞
+%86string"__concat*
+
+%85string*
+""˙
+˜
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¥ ¥(± 
+%87System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%86string*
+7*Å
+7t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs‘ ‘(*
+8
+9*à
+
+8t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∑ ∏(0ä
+á
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∑ ∑()
+%88string"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*A
+?
+cipher5System.Collections.Generic.KeyValuePair<TKey, TValue>´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∑ ∑(8
+%89string"__concat*
+""*
+
+%88string´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∑ ∑(8
+%90string"__concat*
+
+%89string*
+""˘
+ˆ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∑ ∑(9 
+%91System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%90string°
+û
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∏$ ∏(0"
+%92Newtonsoft.Json.Linq.JToken"?System.Collections.Generic.KeyValuePair<TKey, TValue>.Value.get*A
+?
+cipher5System.Collections.Generic.KeyValuePair<TKey, TValue>*
+10*Ñ
+10t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs‘ ‘(*
+11
+12*ô
+11t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∫ ∫(-æ
+ª
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∫ ∫(-
+%93string"__id*.
+,
+cipherWarningNewtonsoft.Json.Linq.JToken´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∫ ∫(4
+%94string"__concat*
+""*
+
+%93string´
+®
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∫ ∫(4
+%95string"__concat*
+
+%94string*
+""˘
+ˆ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∫ ∫(5 
+%96System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%95string*
+10*˙
+12t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csº º(¯
+ı
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csº º( 
+%97System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+</ul></li>*
+7*Ù
+9t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csæ æ(Û
+
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csæ æ( 
+%98System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*	
+</ul>*
+6*æ
+6t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¡ ¬(%ﬂ
+‹
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¡ ¡(D
+%99string"=Resources.Resource.SecurityAdvisorSecurityProtocolCiphers.get*"
+Resources.Resource¨
+©
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¡ ¡(O
+%100string"__concat*
+""*
+
+%99string≠
+™
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¡ ¡(O
+%101string"__concat*
+
+%100string*
+""˚
+¯
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs¡ ¡(P!
+%102System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%101string*
+13*Ñ
+13t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs‘ ‘(*
+14
+15*‡
+14t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csƒ ƒ(Ø
+¨
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csƒ ƒ(#
+%103string"__concat*
+""*
+
+cipherstring≠
+™
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csƒ ƒ(#
+%104string"__concat*
+
+%103string*
+""˚
+¯
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.csƒ ƒ($!
+%105System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%104string*
+13*é
+15t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∆  (zÙ
+Ò
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs∆ ∆(!
+%106System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*	
+</ul>Í
+Á
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs» »(N
+%107string"GResources.Resource.SecurityAdvisorSecurityProtocolFullCheckResponse.get*"
+Resources.Resourceë
+é
+v
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs»¢ »(µ
+%108"__id*
+""≤
+Ø
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs»} »(∂
+%109string"PNewtonsoft.Json.JsonConvert.SerializeObject(object?, Newtonsoft.Json.Formatting)*"
+Newtonsoft.Json.JsonConvert*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*
+
+%108Æ
+´
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs» »(≈
+%110string"__concat*
+""*
+
+%107stringÆ
+´
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs» »(≈
+%111string"__concat*
+
+%110string*
+""∏
+µ
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs» »(≈
+%112string"__concat*
+
+%111string*
+
+%109stringÆ
+´
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs» »(≈
+%113string"__concat*
+
+%112string*
+""¸
+˘
+u
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs» »(∆!
+%114System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*!
+
+sbSystem.Text.StringBuilder*
+
+%113string°
+û
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs   (")
+%115!System.Web.UI.WebControls.Literal"__id*u*s,
+*mojoPortal.Web.AdminUI.SecurityAdvisorPage"C
+litSecurityProtocolDescription!System.Web.UI.WebControls.Literal¶
+£
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs 8  (G3
+%116+mojoPortal.Web.AdminUI.AdminDisplaySettings"__id*p*n,
+*mojoPortal.Web.AdminUI.SecurityAdvisorPage">
+displaySettings+mojoPortal.Web.AdminUI.AdminDisplaySettingsï
+í
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs 8  (k
+%117string"SmojoPortal.Web.AdminUI.AdminDisplaySettings.SecurityProtocolCheckResponseMarkup.get*5
+3
+%116+mojoPortal.Web.AdminUI.AdminDisplaySettings“
+œ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs m  (z
+%118string"$System.Text.StringBuilder.ToString()*!
+
+sbSystem.Text.StringBuilderÿ
+’
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs *  ({
+%119string"string.Format(string, object)*
+"
+string*
+
+%117string*
+
+%118stringÙ
+Ò
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs   ({
+%120string"*System.Web.UI.WebControls.Literal.Text.set*+
+)
+%115!System.Web.UI.WebControls.Literal*
+
+%119string*
+16
+16
+16*à
+16t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs‘ ‘("ã
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SecurityAdvisor.aspx.cs‘ ‘(
+implicit returnB.,
+*mojoPortal.Web.AdminUI.SecurityAdvisorPage

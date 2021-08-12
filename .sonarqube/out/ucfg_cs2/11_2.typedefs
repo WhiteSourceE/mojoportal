@@ -1,0 +1,43 @@
+ã
+PollFeature.Business.Pollobject*
+Poll() PollFeature.Business.Poll.Poll()@
+Poll(System.Guid)+PollFeature.Business.Poll.Poll(System.Guid)0
+	Poll(int)#PollFeature.Business.Poll.Poll(int)F
+GetPoll(System.Guid).PollFeature.Business.Poll.GetPoll(System.Guid)6
+GetPoll(int)&PollFeature.Business.Poll.GetPoll(int)^
+ GetPoll(System.Data.IDataReader):PollFeature.Business.Poll.GetPoll(System.Data.IDataReader).
+Create()"PollFeature.Business.Poll.Create().
+Update()"PollFeature.Business.Poll.Update()*
+Save() PollFeature.Business.Poll.Save()6
+ClearVotes()&PollFeature.Business.Poll.ClearVotes().
+Delete()"PollFeature.Business.Poll.Delete()2
+
+Activate()$PollFeature.Business.Poll.Activate()6
+Deactivate()&PollFeature.Business.Poll.Deactivate()r
+*UserHasVoted(mojoPortal.Business.SiteUser)DPollFeature.Business.Poll.UserHasVoted(mojoPortal.Business.SiteUser)>
+AddToModule(int)*PollFeature.Business.Poll.AddToModule(int)v
+,CopyToNewPoll(out PollFeature.Business.Poll)FPollFeature.Business.Poll.CopyToNewPoll(out PollFeature.Business.Poll)6
+PollGuid.get&PollFeature.Business.Poll.PollGuid.get6
+PollGuid.set&PollFeature.Business.Poll.PollGuid.set6
+SiteGuid.get&PollFeature.Business.Poll.SiteGuid.get6
+SiteGuid.set&PollFeature.Business.Poll.SiteGuid.set6
+Question.get&PollFeature.Business.Poll.Question.get6
+Question.set&PollFeature.Business.Poll.Question.set6
+IsActive.get&PollFeature.Business.Poll.IsActive.get6
+IsActive.set&PollFeature.Business.Poll.IsActive.set:
+TotalVotes.get(PollFeature.Business.Poll.TotalVotes.get:
+TotalVotes.set(PollFeature.Business.Poll.TotalVotes.setD
+AnonymousVoting.get-PollFeature.Business.Poll.AnonymousVoting.getD
+AnonymousVoting.set-PollFeature.Business.Poll.AnonymousVoting.setd
+#AllowViewingResultsBeforeVoting.get=PollFeature.Business.Poll.AllowViewingResultsBeforeVoting.getd
+#AllowViewingResultsBeforeVoting.set=PollFeature.Business.Poll.AllowViewingResultsBeforeVoting.setF
+ShowOrderNumbers.get.PollFeature.Business.Poll.ShowOrderNumbers.getF
+ShowOrderNumbers.set.PollFeature.Business.Poll.ShowOrderNumbers.setZ
+ShowResultsWhenDeactivated.get8PollFeature.Business.Poll.ShowResultsWhenDeactivated.getZ
+ShowResultsWhenDeactivated.set8PollFeature.Business.Poll.ShowResultsWhenDeactivated.set:
+ActiveFrom.get(PollFeature.Business.Poll.ActiveFrom.get:
+ActiveFrom.set(PollFeature.Business.Poll.ActiveFrom.set6
+ActiveTo.get&PollFeature.Business.Poll.ActiveTo.get6
+ActiveTo.set&PollFeature.Business.Poll.ActiveTo.set8
+Activated.get'PollFeature.Business.Poll.Activated.get8
+Activated.set'PollFeature.Business.Poll.Activated.set

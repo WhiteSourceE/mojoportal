@@ -1,0 +1,182 @@
+
+ƒmojoPortal.Web.Caching.AppFabricCacheFactory.SetSecuritySettings(Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration)€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csI I(("0*Ý
+0€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csK P(%÷
+ô
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csK' K(O
+%0string";mojoPortal.Web.WebConfigSettings.AzureCacheSecurityMode.get*$""
+ mojoPortal.Web.WebConfigSettings¿
+¼
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csK' K(b
+%1string"string.ToLowerInvariant()*
+
+%0string¹
+¶
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csK K(b
+securityModeValuestring"__id*
+
+%1stringü
+ù
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csL' L(T
+%2string"@mojoPortal.Web.WebConfigSettings.AzureCacheAuthorizationInfo.get*$""
+ mojoPortal.Web.WebConfigSettings¹
+¶
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csL L(T
+securityAuthValuestring"__id*
+
+%2stringï
+ì
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csM M(<
+
+%3bool"5mojoPortal.Web.WebConfigSettings.AzureCacheUseSsl.get*$""
+ mojoPortal.Web.WebConfigSettingsª
+§
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csM M(<
+useSslbool"__id*
+
+
+%3bool*
+1*Ž
+1€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csP P(%*
+2
+3*Ô
+2€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csT T(4Ã
+À
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csT T(0	
+%4int"string.Length.get*
+
+securityAuthValuestring*
+4
+5* 
+4€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csV% W(<ÈÅ
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csV3 V(E"
+%5System.Security.SecureString"System.Security.SecureStringå
+â
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csV7 V(C
+
+%6void"+System.Security.SecureString.SecureString()*$
+"
+%5System.Security.SecureStringß
+Ü
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csV% V(E+
+secureTokenSystem.Security.SecureString"__id*$
+"
+%5System.Security.SecureString*
+6*Ž
+6€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csn	 n(	*
+7
+8*Œ
+7€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csY Y(5þ
+û
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csY Y(6
+
+%7void"-System.Security.SecureString.AppendChar(char)*-
++
+secureTokenSystem.Security.SecureString*
+
+
+chchar*
+6*Ú
+8€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.cs\ ](Aú÷
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.cs\( \(R;
+%85Microsoft.ApplicationServer.Caching.DataCacheSecurity"5Microsoft.ApplicationServer.Caching.DataCacheSecurityÿ
+ü
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.cs\, \(=
+
+%9void"kMicrosoft.ApplicationServer.Caching.DataCacheSecurity.DataCacheSecurity(System.Security.SecureString, bool)*=
+;
+%85Microsoft.ApplicationServer.Caching.DataCacheSecurity*-
++
+secureTokenSystem.Security.SecureString*
+
+useSslbool“
+
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.cs\ \(RF
+securityProps5Microsoft.ApplicationServer.Caching.DataCacheSecurity"__id*=
+;
+%85Microsoft.ApplicationServer.Caching.DataCacheSecurity·
+´
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.cs] ](A<
+%105Microsoft.ApplicationServer.Caching.DataCacheSecurity"XMicrosoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SecurityProperties.set*M
+K
+configAMicrosoft.ApplicationServer.Caching.DataCacheFactoryConfiguration*H
+F
+securityProps5Microsoft.ApplicationServer.Caching.DataCacheSecurity*
+5*‹
+5€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csn	 n(	*
+9*
+3€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csP P(%*
+10
+9*Â
+10€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csd e(.›
+˜
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csd: d(Y
+%11"__id*
+""›
+˜
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csdZ d(w
+%12"__id*
+""ûø
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csd$ d(x<
+%135Microsoft.ApplicationServer.Caching.DataCacheSecurity"5Microsoft.ApplicationServer.Caching.DataCacheSecurity¨
+¥
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csd( d(9
+%14void"ÀMicrosoft.ApplicationServer.Caching.DataCacheSecurity.DataCacheSecurity(Microsoft.ApplicationServer.Caching.DataCacheSecurityMode, Microsoft.ApplicationServer.Caching.DataCacheProtectionLevel)*>
+<
+%135Microsoft.ApplicationServer.Caching.DataCacheSecurity*
+
+%11*
+
+%12”
+‘
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csd d(xF
+securityProps5Microsoft.ApplicationServer.Caching.DataCacheSecurity"__id*>
+<
+%135Microsoft.ApplicationServer.Caching.DataCacheSecurity·
+´
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.cse e(.<
+%155Microsoft.ApplicationServer.Caching.DataCacheSecurity"XMicrosoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SecurityProperties.set*M
+K
+configAMicrosoft.ApplicationServer.Caching.DataCacheFactoryConfiguration*H
+F
+securityProps5Microsoft.ApplicationServer.Caching.DataCacheSecurity*
+9*¡
+9€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csn	 n(	"˜
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\Caching\AppFabricCacheFactory.csn n(	
+implicit return:K
+configAMicrosoft.ApplicationServer.Caching.DataCacheFactoryConfigurationB0.
+,mojoPortal.Web.Caching.AppFabricCacheFactory

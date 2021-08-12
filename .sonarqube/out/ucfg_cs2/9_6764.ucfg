@@ -1,0 +1,383 @@
+
+bmojoPortal.Web.SiteUtils.CreateMinimalUser(mojoPortal.Business.SiteSettings, string, bool, string)n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÇ Ç(*"0*é
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÉ É(ë
+è
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÉ É(
+
+%0bool""object.operator ==(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+1
+2*½
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csË
+ Ë(Y­ª
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csË
+ Ë(Z
+%1System.ArgumentException"System.ArgumentException’
+
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csË Ë(
+
+%2void"2System.ArgumentException.ArgumentException(string)* 
+
+%1System.ArgumentException*;9
+7a valid siteSettings object is required for this method*
+3*º
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÍ Í(!¼
+¹
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÍ Í("
+
+%3bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+emailstring*
+4
+5*·
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÏ
+ Ï(S­ª
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÏ
+ Ï(T
+%4System.ArgumentException"System.ArgumentExceptionŒ
+‰
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÏ Ï(
+
+%5void"2System.ArgumentException.ArgumentException(string)* 
+
+%4System.ArgumentException*53
+1a valid email address is required for this method*
+3*â
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÒ Ò(-ä
+á
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÒ Ò(.
+
+%6bool"6mojoPortal.Net.Email.IsValidEmailAddressSyntax(string)*"
+mojoPortal.Net.Email*
+
+emailstring*
+6
+7*·
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÔ
+ Ô(S­ª
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÔ
+ Ô(T
+%7System.ArgumentException"System.ArgumentExceptionŒ
+‰
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÔ Ô(
+
+%8void"2System.ArgumentException.ArgumentException(string)* 
+
+%7System.ArgumentException*53
+1a valid email address is required for this method*
+3*„
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csØ Ù(Ó
+Ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csØ Ø(?"
+%9mojoPortal.Business.SiteUser"QmojoPortal.Business.SiteUser.GetByEmail(mojoPortal.Business.SiteSettings, string)* "
+mojoPortal.Business.SiteUser*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+
+emailstringÉ
+Æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csØ Ø(?(
+siteUsermojoPortal.Business.SiteUser"__id*$
+"
+%9mojoPortal.Business.SiteUserä
+á
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÙ Ù(
+%10bool""object.operator !=(object, object)*
+"
+object**
+(
+siteUsermojoPortal.Business.SiteUser*
+""*
+8
+9*è
+8n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÙ Ù(;Þ
+Û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÙ Ù(-
+%11System.Guid")mojoPortal.Business.SiteUser.UserGuid.get**
+(
+siteUsermojoPortal.Business.SiteUserˆ
+…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÙ1 Ù(;
+%12"__id*
+""*
+10
+9*“
+10n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÙG Ù(O"œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÙ@ Ù(P*
+(
+siteUsermojoPortal.Business.SiteUser*Ù
+9n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÛ é(¶³
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÛ Û((#
+%13mojoPortal.Business.SiteUser"mojoPortal.Business.SiteUser¤
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÛ Û(
+%14void"GmojoPortal.Business.SiteUser.SiteUser(mojoPortal.Business.SiteSettings)*%
+#
+%13mojoPortal.Business.SiteUser*2
+0
+siteSettings mojoPortal.Business.SiteSettingsÊ
+Ç
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÛ Û(((
+siteUsermojoPortal.Business.SiteUser"__id*%
+#
+%13mojoPortal.Business.SiteUseré
+æ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÜ Ü(
+%15string"&mojoPortal.Business.SiteUser.Email.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+emailstringà
+Ý
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÝ, Ý(?
+
+%16int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings‚
+ÿ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÝ Ý(G
+%17string"?mojoPortal.Web.SiteUtils.SuggestLoginNameFromEmail(int, string)*"
+mojoPortal.Web.SiteUtils*
+
+
+%16int*
+
+emailstring›
+˜
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÝ
+ Ý(G
+loginstring"__id*
+
+%17stringí
+ê
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cså å(
+%18string"*mojoPortal.Business.SiteUser.LoginName.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+loginstringè
+å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csæ æ(
+%19string"%mojoPortal.Business.SiteUser.Name.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+loginstringó
+ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csç5 ç([
+
+%20int">mojoPortal.Business.SiteSettings.MinRequiredPasswordLength.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsæ
+ã
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csça ç(‰
+%21string";mojoPortal.Web.WebConfigSettings.PasswordGeneratorChars.get*$""
+ mojoPortal.Web.WebConfigSettingsþ
+û
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csç ç(Š
+%22string">mojoPortal.Business.SiteUser.CreateRandomPassword(int, string)* "
+mojoPortal.Business.SiteUser*
+""*
+
+%21stringë
+è
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csç ç(Š
+%23string")mojoPortal.Business.SiteUser.Password.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+%22stringó
+ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csè è(1-
+%24&System.Web.Security.MembershipProvider"+System.Web.Security.Membership.Provider.get*"" 
+System.Web.Security.MembershipÙ
+Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csè è(K-
+%25&System.Web.Security.MembershipProvider"__id*/
+-
+%24&System.Web.Security.MembershipProviderÖ
+Ó
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csè è(K*
+m%mojoPortal.Web.mojoMembershipProvider"__id*/
+-
+%25&System.Web.Security.MembershipProvideræ
+ã
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csé é(
+%26bool""object.operator !=(object, object)*
+"
+object*,
+*
+m%mojoPortal.Web.mojoMembershipProvider*
+""*
+11
+12*å
+11n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csë ë(RÙ
+Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csëA ë(R
+%27string")mojoPortal.Business.SiteUser.Password.get**
+(
+siteUsermojoPortal.Business.SiteUserŸ
+œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csë ë(S
+%28string"|mojoPortal.Web.mojoMembershipProvider.EncodePassword(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)*,
+*
+m%mojoPortal.Web.mojoMembershipProvider*2
+0
+siteSettings mojoPortal.Business.SiteSettings**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+%27stringê
+ç
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csë ë(S
+%29string")mojoPortal.Business.SiteUser.Password.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+%28string*
+12*²
+12n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csî ó(*æ
+ã
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csî î("
+%30bool"0mojoPortal.Business.SiteUser.ProfileApproved.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+""ê
+ç
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csï ï(5
+%31bool"4mojoPortal.Business.SiteUser.DisplayInMemberList.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+""Õ
+Ò
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csð ð(J
+%32string"9Resources.Resource.ManageUsersDefaultSecurityQuestion.get*"
+Resources.Resourceò
+ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csð ð(J
+%33string"1mojoPortal.Business.SiteUser.PasswordQuestion.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+%32stringÓ
+Ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csñ ñ(F
+%34string"7Resources.Resource.ManageUsersDefaultSecurityAnswer.get*"
+Resources.Resourceð
+í
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csñ ñ(F
+%35string"/mojoPortal.Business.SiteUser.PasswordAnswer.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+%34stringÅ
+Â
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csó ó(+
+%36bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+adminCommentsstring*
+13
+14*ð
+13n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csó/ ó(Oó
+ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csó/ ó(O
+%37string"(mojoPortal.Business.SiteUser.Comment.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+adminCommentsstring*
+14*‚
+14n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csõ ù(Ñ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csõ õ(
+%38bool"#mojoPortal.Business.SiteUser.Save()**
+(
+siteUsermojoPortal.Business.SiteUser˜
+•
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs÷ ÷('
+%39void"LmojoPortal.Business.Role.AddUserToDefaultRoles(mojoPortal.Business.SiteUser)*"
+mojoPortal.Business.Role**
+(
+siteUsermojoPortal.Business.SiteUser"œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csù ù(*
+(
+siteUsermojoPortal.Business.SiteUser*û
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csû û("…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csû û(
+implicit return:0
+siteSettings mojoPortal.Business.SiteSettings:
+emailstring:
+includeInMemberListbool:
+adminCommentsstringB"
+mojoPortal.Web.SiteUtils

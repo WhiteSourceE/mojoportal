@@ -1,0 +1,99 @@
+
+CmojoPortal.Web.SiteUtils.RedirectToLoginPage(System.Web.UI.Control)n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csª ª(("0*»
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csΩ
+ ¬(4¯
+ı
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csæ æ(0&
+%0 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoœ
+Ã
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csæ9 æ(N
+%1string".mojoPortal.Web.SiteUtils.GetLoginRelativeUrl()*"
+mojoPortal.Web.SiteUtils§
+°
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csæ1 æ(N
+%2string"__concat*
+{0}*
+
+%1stringØ
+¨
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csæ1 æ(a
+%3string"__concat*
+
+%2string*
+?returnurl={1}—
+Œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csø
+ ø(!
+%4string"0mojoPortal.Web.SiteUtils.GetNavigationSiteRoot()*"
+mojoPortal.Web.SiteUtils—
+Œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿  ¿(3
+%5System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext’
+“
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿  ¿(;
+%6System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%5System.Web.HttpContextƒ
+¡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿  ¿(B
+%7string"!System.Web.HttpRequest.RawUrl.get*
+
+%6System.Web.HttpRequest◊
+‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿
+ ¿(C
+%8string"(System.Web.HttpUtility.UrlEncode(string)*"
+System.Web.HttpUtility*
+
+%7string¶
+£
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csæ ¿(D
+%9string"=string.Format(System.IFormatProvider, string, object, object)*
+"
+string*(
+&
+%0 System.Globalization.CultureInfo*
+
+%3string*
+
+%4string*
+
+%8string†
+ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csΩ
+ ¿(D
+redirectUrlstring"__id*
+
+%9string∫
+∑
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¬ ¬(5
+%10void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*(
+&
+pageOrControlSystem.Web.UI.Control*
+
+redirectUrlstring*
+1*˚
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs√ √("Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs√ √(
+implicit return:&
+pageOrControlSystem.Web.UI.ControlB"
+mojoPortal.Web.SiteUtils

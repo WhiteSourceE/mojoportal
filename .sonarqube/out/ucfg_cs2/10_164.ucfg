@@ -1,0 +1,93 @@
+
+3mojoPortal.Data.DBGallery.GetImagesByPage(int, int)ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csÇ" Ç(1"0*Å
+0ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csÑ á(&Å
+˛
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csÑ< Ñ(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionString‡›
+å
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csÑ% Ñ(ã(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperŒ
+À
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csÑ) Ñ(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*!
+mp_GalleryImages_SelectByPage*2Ô
+Ï
+å
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csÑ Ñ(ã)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csÖ. Ö(;
+%3"__id*
+""•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csÖ= Ö(U
+%4"__id*
+""Ì
+Í
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csÖ Ö(^
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@SiteID*
+
+%3*
+
+%4*
+""•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csÜ. Ü(;
+%6"__id*
+""•
+¢
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csÜ= Ü(U
+%7"__id*
+""Ì
+Í
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csÜ Ü(^
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@PageID*
+
+%6*
+
+%7*
+""ë
+é
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csá á(&
+%9System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper"Ø
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csá á('
+
+%9System.Data.IDataReader*∑
+1ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csà	 à(	"£
+ã
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ImageGallery\DBGallery.csà à(	
+implicit return:
+siteIdint:
+pageIdintB"
+mojoPortal.Data.DBGallery

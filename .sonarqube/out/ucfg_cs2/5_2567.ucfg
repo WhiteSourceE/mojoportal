@@ -1,0 +1,162 @@
+
+tmojoPortal.Business.Statistics.MembershipStatistics.GetStatistics(mojoPortal.Business.SiteSettings, System.DateTime)á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csP P(""0*ù
+0á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csR R($Ö
+Ç
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csR R($
+
+%0bool""object.operator !=(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+1
+2*%
+1á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csT \(o˘
+ˆ
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csT T(,	
+%1int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsË
+Â
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csT T(,F5
+3mojoPortal.Business.Statistics.MembershipStatistics"
+siteIDint"__id*
+	
+%1int˛
+˚
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csU U(0
+%2string"-mojoPortal.Business.SiteSettings.SiteName.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings
+Ì
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csU U(0K5
+3mojoPortal.Business.Statistics.MembershipStatistics"
+siteNamestring"__id*
+
+%2string°
+û
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csW0 W(6
+%3"__id*
+""Ô
+Ï
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csW W(7	
+%4int"+mojoPortal.Business.SiteUser.UserCount(int)* "
+mojoPortal.Business.SiteUser*
+
+%3Ï
+È
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csW W(7J5
+3mojoPortal.Business.Statistics.MembershipStatistics"
+
+totalUsersint"__id*
+	
+%4int’
+“
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csX* X(N"
+%5mojoPortal.Business.SiteUser"LmojoPortal.Business.SiteUser.GetNewestUser(mojoPortal.Business.SiteSettings)* "
+mojoPortal.Business.SiteUser*2
+0
+siteSettings mojoPortal.Business.SiteSettingsÈ
+Ê
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csX X(N.
+newestSiteUsermojoPortal.Business.SiteUser"__id*$
+"
+%5mojoPortal.Business.SiteUserÙ
+Ò
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csY Y(0
+%6string"%mojoPortal.Business.SiteUser.Name.get*0
+.
+newestSiteUsermojoPortal.Business.SiteUserÚ
+Ô
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.csY Y(0M5
+3mojoPortal.Business.Statistics.MembershipStatistics"
+
+newestUserstring"__id*
+
+%6string°
+û
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.cs[K [(Q
+%7"__id*
+""Á
+‰
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.cs[Z [(j
+%8System.DateTime"System.DateTime.AddDays(double)*
+
+todaySystem.DateTime*2ﬁ
+€
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.cs[  [(k	
+%9int"emojoPortal.Business.SiteUser.CountUsersByRegistrationDateRange(int, System.DateTime, System.DateTime)* "
+mojoPortal.Business.SiteUser*
+
+%7*
+
+todaySystem.DateTime*
+
+%8System.DateTimeÔ
+Ï
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.cs[ [(kM5
+3mojoPortal.Business.Statistics.MembershipStatistics"
+newUsersTodayint"__id*
+	
+%9int¢
+ü
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.cs\O \(U
+%10"__id*
+""Í
+Á
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.cs\W \(h
+%11System.DateTime"System.DateTime.AddDays(double)*
+
+todaySystem.DateTime*
+""·
+ﬁ
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.cs\$ \(p
+
+%12int"emojoPortal.Business.SiteUser.CountUsersByRegistrationDateRange(int, System.DateTime, System.DateTime)* "
+mojoPortal.Business.SiteUser*
+
+%10*
+
+%11System.DateTime*
+
+todaySystem.DateTimeÙ
+Ò
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.cs\ \(pQ5
+3mojoPortal.Business.Statistics.MembershipStatistics"
+newUsersYesterdayint"__id*
+
+
+%12int*
+2*Ø
+2á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.cs`	 `(	"ü
+á
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\Statistics\MembershipStatistics.cs` `(	
+implicit return:0
+siteSettings mojoPortal.Business.SiteSettings:
+todaySystem.DateTimeB75
+3mojoPortal.Business.Statistics.MembershipStatistics

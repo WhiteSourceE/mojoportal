@@ -1,0 +1,206 @@
+
+>mojoPortal.Web.Framework.SecurityHelper.DisableDownloadCache()}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.cs˚ ˚(/"0*é
+0}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.cs˝ Ö(9‡
+›
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.cs˝ ˝(
+%0System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÊ
+„
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.cs˝ ˝((
+%1System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%0System.Web.HttpContextË
+Â
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.cs˝ ˝(. 
+%2System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get*
+
+%1System.Web.HttpResponse 
+«
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.cs˝: ˝(I
+%3System.DateTime"System.DateTime.UtcNow.get*"
+System.DateTimeŸ
+÷
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.cs˝: ˝(V
+%4System.DateTime"System.DateTime.AddYears(int)*
+
+%3System.DateTime*
+""É
+Ä
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.cs˝ ˝(W
+
+%5void"6System.Web.HttpCachePolicy.SetExpires(System.DateTime)*"
+ 
+%2System.Web.HttpCachePolicy*
+
+%4System.DateTime‡
+›
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csÉ É(%
+%6System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext‰
+·
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csÉ É(-
+%7System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%6System.Web.HttpContext
+Ì
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csÉ É(5(
+%8"System.Web.HttpBrowserCapabilities""System.Web.HttpRequest.Browser.get*
+
+%7System.Web.HttpRequest‰
+·
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csÇ$ É(5.
+oBrowser"System.Web.HttpBrowserCapabilities"__id**
+(
+%8"System.Web.HttpBrowserCapabilities˝
+˙
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csÖ Ö(!
+%9string"9System.Web.Configuration.HttpCapabilitiesBase.Browser.get*0
+.
+oBrowser"System.Web.HttpBrowserCapabilities≥
+∞
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csÖ Ö(+
+%10string"string.ToLower()*
+
+%9string¡
+æ
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csÖ Ö(:
+%11bool"string.Contains(string)*
+
+%10string*
+ie*
+1
+2*£
+1}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csá á(?·
+ﬁ
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csá á(#
+%12System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextË
+Â
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csá á(,
+%13System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%12System.Web.HttpContextÍ
+Á
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csá á(2!
+%14System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get* 
+
+%13System.Web.HttpResponse›
+⁄
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csá á(?
+%15void"'System.Web.HttpCachePolicy.SetNoStore()*#
+!
+%14System.Web.HttpCachePolicy*
+2*î
+2}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csç è(^·
+ﬁ
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csç ç(
+%16System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextË
+Â
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csç ç((
+%17System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%16System.Web.HttpContextÍ
+Á
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csç ç(.!
+%18System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get* 
+
+%17System.Web.HttpResponseó
+î
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csç? ç(W
+%19"__id*
+""Ü
+É
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csç ç(X
+%20void"GSystem.Web.HttpCachePolicy.SetCacheability(System.Web.HttpCacheability)*#
+!
+%18System.Web.HttpCachePolicy*
+
+%19·
+ﬁ
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csé é(
+%21System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextË
+Â
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csé é((
+%22System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%21System.Web.HttpContextÍ
+Á
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csé é(.!
+%23System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get* 
+
+%22System.Web.HttpResponseó
+î
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csé? é(^
+%24"__id*
+""ã
+à
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csé é(_
+%25void"LSystem.Web.HttpCachePolicy.SetRevalidation(System.Web.HttpCacheRevalidation)*#
+!
+%23System.Web.HttpCachePolicy*
+
+%24·
+ﬁ
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csè è(
+%26System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextË
+Â
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csè è((
+%27System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%26System.Web.HttpContextÍ
+Á
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csè è(.!
+%28System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get* 
+
+%27System.Web.HttpResponseã
+à
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csè è(_
+%29void"7System.Web.HttpCachePolicy.AppendCacheExtension(string)*#
+!
+%28System.Web.HttpCachePolicy*
+post-check=0,pre-check=0*
+3*ô
+3}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csë	 ë(	"î
+}
+qD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\SecurityHelper.csë ë(	
+implicit returnB+")
+'mojoPortal.Web.Framework.SecurityHelper

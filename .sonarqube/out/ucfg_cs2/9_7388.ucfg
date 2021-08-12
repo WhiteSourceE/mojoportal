@@ -1,0 +1,208 @@
+
+8mojoPortal.Web.UI.DisqusWidget.SetupCommentCountScript()~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÎ Î(,"0*ë8
+0~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÑ í(!¿¼
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÑ# Ñ(6
+%0System.Text.StringBuilder"System.Text.StringBuilderÝ
+Ú
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÑ' Ñ(4
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilderÑ
+Î
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÑ Ñ(6#
+scriptSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilder›
+˜
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÓ Ó(@
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*$"
+ 
+<script type="text/javascript">ü
+ù
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÕ Õ(
+%3System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+†
+ƒ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÖ Ö((
+%4System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+//<![CDATA[ü
+ù
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.cs× ×(
+%5System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+ˆ
+…
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csØ Ø(*
+%6System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+(function() {ª
+§
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÙ Ù(L
+%7System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*31
+/var links = document.getElementsByTagName('a');‹
+ˆ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÚ Ú(-
+%8System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+var query = '?';¢
+Ÿ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÛ Û(D
+%9System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*+)
+'for(var i = 0; i < links.length; i++) {®
+«
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÜ Ü(O 
+%10System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*64
+2if(links[i].href.indexOf('#disqus_thread') >= 0) {¿
+¼
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÝ Ý(` 
+%11System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*GE
+Cquery += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';ý
+ú
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csÞ Þ( 
+%12System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}ý
+ú
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csß ß( 
+%13System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}ø
+õ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csá á(~
+%14"__concat*HF
+Ddocument.write('<script charset="utf-8" type="text/javascript" src="*
+//disqus.com/forums/×
+Ô
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csâ â(
+%15string"__id*=*; 
+mojoPortal.Web.UI.DisqusWidget"
+siteShortNamestring®
+«
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csá â(
+%16"__concat*
+
+%14*
+
+%15stringÖ
+Ó
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csá â(X
+%17"__concat*
+
+%16*75
+3/get_num_replies.js' + query + '"></' + 'script>');ÿ
+ü
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csá â(Y 
+%18System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%17
+þ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csä ä(" 
+%19System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*	
+})();ý
+ú
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.cså å( 
+%20System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+
+þ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csæ æ(" 
+%21System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*	
+//]]>†
+ƒ
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csè è(( 
+%22System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+
+</script>ãà
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csê ê(
+%23System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getï
+ì
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csê ê((
+%24!System.Web.UI.ClientScriptManager"#System.Web.UI.Page.ClientScript.get*
+
+%23System.Web.UI.Pageß
+Ü
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csí í(!
+%25string"$System.Text.StringBuilder.ToString()*%
+#
+scriptSystem.Text.StringBuilder»
+¸
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csê í("
+%26void"TSystem.Web.UI.ClientScriptManager.RegisterStartupScript(System.Type, string, string)**
+(
+%24!System.Web.UI.ClientScriptManager*
+""*
+
+disqusmain*
+
+%25string*
+1*›
+1~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csð	 ð(	"•
+~
+rD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\CommentSystems\DisqusWidget.csð ð(	
+implicit returnB" 
+mojoPortal.Web.UI.DisqusWidget

@@ -1,0 +1,992 @@
+
+mmojoPortal.SearchIndex.HtmlContentIndexBuilderProvider.RebuildIndex(mojoPortal.Business.PageSettings, string)è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs' '()"0*ô
+0è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs+ ,("±
+Æ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs+& +(_
+
+%0bool"CmojoPortal.Web.Framework.ConfigHelper.GetBoolProperty(string, bool)*)"'
+%mojoPortal.Web.Framework.ConfigHelper*
+DisableSearchIndex*
+""≈
+¬
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs+ +(_
+disableSearchIndexbool"__id*
+
+
+%0bool*
+1
+2*¥
+1ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csû	 û(	"ö
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs,& ,(-
+""*≠
+2è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs. .($ç
+ä
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs. .($
+
+%1bool""object.operator ==(object, object)*
+"
+object*2
+0
+pageSettings mojoPortal.Business.PageSettings*
+""*
+3
+4*Ò
+3è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs0 0(kÇ
+ˇ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs0 0(
+%2log4net.ILog"__id*Q*O8
+6mojoPortal.SearchIndex.HtmlContentIndexBuilderProvider"
+loglog4net.ILog∑¥
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs0 0(l
+
+%3void"log4net.ILog.Error(object)*
+
+%2log4net.ILog*SQ
+OpageSettings passed in to HtmlContentIndexBuilderProvider.RebuildIndex was null2Error(object)"ö
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs1 1(
+""*•
+4è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs5 5(&Ö
+Ç
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs5 5(&
+
+%4bool".mojoPortal.Business.PageSettings.IsPending.get*2
+0
+pageSettings mojoPortal.Business.PageSettings*
+5
+6*¥
+5ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csû	 û(	"ö
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs5* 5(1
+""*∞
+6è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs7 7(bÇ
+ˇ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs7 7(
+%5log4net.ILog"__id*Q*O8
+6mojoPortal.SearchIndex.HtmlContentIndexBuilderProvider"
+loglog4net.ILogÍ
+Á
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs7 7(4
+%6string"-Resources.Resource.HtmlContentFeatureName.get*"
+Resources.Resource‘
+—
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs7 7(J
+%7string"__concat*
+
+%6string*
+ indexing page - Ü
+É
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs7M 7(b
+%8string"-mojoPortal.Business.PageSettings.PageName.get*2
+0
+pageSettings mojoPortal.Business.PageSettingsÕ
+ 
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs7 7(b
+%9string"__concat*
+
+%7string*
+
+%8stringÒÓ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs7 7(c
+%10void"log4net.ILog.Info(object)*
+
+%5log4net.ILog*
+
+%9string2Info(object)*
+7*£#
+7è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs; I(6∂≥
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs< <(F
+%11System.Guid"System.Guid¸
+˘
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs< <(
+%12void"System.Guid.Guid(string)*
+
+%11System.Guid*(&
+$881e4e00-93e4-444c-b7b0-6672fb55de10—
+Œ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs; <(F
+htmlFeatureGuidSystem.Guid"__id*
+
+%11System.GuidËÂ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs> >(;+
+%13$mojoPortal.Business.ModuleDefinition"$mojoPortal.Business.ModuleDefinition∑
+¥
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs> >(*
+%14void"BmojoPortal.Business.ModuleDefinition.ModuleDefinition(System.Guid)*-
++
+%13$mojoPortal.Business.ModuleDefinition* 
+
+htmlFeatureGuidSystem.Guidˇ
+¸
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs=! >(;3
+htmlFeature$mojoPortal.Business.ModuleDefinition"__id*-
++
+%13$mojoPortal.Business.ModuleDefinitionÇ
+ˇ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csA: A(M
+
+%15int"+mojoPortal.Business.PageSettings.PageId.get*2
+0
+pageSettings mojoPortal.Business.PageSettings¨
+©
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csA A(N)
+%16"System.Collections.Generic.List<T>"8mojoPortal.Business.PageModule.GetPageModulesByPage(int)*"" 
+mojoPortal.Business.PageModule*
+
+
+%15int˚
+¯
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs@! A(N1
+pageModules"System.Collections.Generic.List<T>"__id*+
+)
+%16"System.Collections.Generic.List<T>‰·
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csC, C(@)
+%17"mojoPortal.Business.HtmlRepository""mojoPortal.Business.HtmlRepositoryÑ
+Å
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csC0 C(>
+%18void"3mojoPortal.Business.HtmlRepository.HtmlRepository()*+
+)
+%17"mojoPortal.Business.HtmlRepository˙
+˜
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csC C(@0
+
+repository"mojoPortal.Business.HtmlRepository"__id*+
+)
+%17"mojoPortal.Business.HtmlRepositoryÇ
+ˇ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csF F('
+
+%19int"+mojoPortal.Business.PageSettings.SiteId.get*2
+0
+pageSettings mojoPortal.Business.PageSettingsÇ
+ˇ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csG G('
+
+%20int"+mojoPortal.Business.PageSettings.PageId.get*2
+0
+pageSettings mojoPortal.Business.PageSettings∆
+√
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csE& G((
+%21System.Data.DataTable"AmojoPortal.Business.HtmlRepository.GetHtmlContentByPage(int, int)*2
+0
+
+repository"mojoPortal.Business.HtmlRepository*
+
+
+%19int*
+
+
+%20intﬂ
+‹
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csE G(("
+	dataTableSystem.Data.DataTable"__id*
+
+%21System.Data.DataTableÅ
+˛
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csI( I(6$
+%22System.Data.DataRowCollection"System.Data.DataTable.Rows.get*$
+"
+	dataTableSystem.Data.DataTable*
+8*†
+8ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csû	 û(	*
+9
+10*ß2
+9è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csK X(3˝
+˙
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csK= K(S
+%23object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+IncludeInSearchÈ
+Ê
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csK+ K(T
+%24bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%23object√
+¿
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csK K(T
+includeInSearchbool"__id*
+
+%24boolÜ
+É
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csLF L(e
+%25object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+ExcludeFromRecentContentÈ
+Ê
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csL4 L(f
+%26bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%25objectÃ
+…
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csL L(f 
+excludeFromRecentContentbool"__id*
+
+%26bool‡›
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csN* N(9'
+%27 mojoPortal.SearchIndex.IndexItem" mojoPortal.SearchIndex.IndexItem˚
+¯
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csN. N(7
+%28void",mojoPortal.SearchIndex.IndexItem.IndexItem()*)
+'
+%27 mojoPortal.SearchIndex.IndexItemı
+Ú
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csN N(9-
+	indexItem mojoPortal.SearchIndex.IndexItem"__id*)
+'
+%27 mojoPortal.SearchIndex.IndexItem∂
+≥
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csO O(Q
+%29bool"=mojoPortal.SearchIndex.IndexItem.ExcludeFromRecentContent.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*"
+ 
+excludeFromRecentContentboolÇ
+ˇ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csP' P(:
+
+%30int"+mojoPortal.Business.PageSettings.SiteId.get*2
+0
+pageSettings mojoPortal.Business.PageSettingsç
+ä
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csP P(:
+
+%31int"+mojoPortal.SearchIndex.IndexItem.SiteId.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+
+%30intÇ
+ˇ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csQ' Q(:
+
+%32int"+mojoPortal.Business.PageSettings.PageId.get*2
+0
+pageSettings mojoPortal.Business.PageSettingsç
+ä
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csQ Q(:
+
+%33int"+mojoPortal.SearchIndex.IndexItem.PageId.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+
+%32intá
+Ñ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csR) R(>
+%34string"-mojoPortal.Business.PageSettings.PageName.get*2
+0
+pageSettings mojoPortal.Business.PageSettingsï
+í
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csR R(>
+%35string"-mojoPortal.SearchIndex.IndexItem.PageName.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%34string˚
+¯
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csT( T(<
+%36object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+CreatedByName‘—
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csT( T(G
+%37string"object.ToString()*
+
+%36object2
+ToString()¬
+ø
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csT T(G
+
+authorNamestring"__id*
+
+%37stringÄ
+˝
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csU- U(F
+%38object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+CreatedByFirstName‘—
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csU- U(Q
+%39string"object.ToString()*
+
+%38object2
+ToString()«
+ƒ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csU U(Q
+authorFirstNamestring"__id*
+
+%39stringˇ
+¸
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csV, V(D
+%40object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+CreatedByLastName‘—
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csV, V(O
+%41string"object.ToString()*
+
+%40object2
+ToString()∆
+√
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csV V(O
+authorLastNamestring"__id*
+
+%41string—
+Œ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csX X(/
+
+%42int"string.Length.get*
+
+authorFirstNamestring*
+11
+12*Û
+11è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csX9 X(R–
+Õ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csX9 X(N
+
+%43int"string.Length.get*
+
+authorLastNamestring*
+13
+12*¶
+
+13è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csZ [(]õ
+ò
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csZ9 Z(U'
+%44 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÏ
+È
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs[ [(<
+%45string".Resources.Resource.FirstNameLastNameFormat.get*"
+Resources.Resource‰
+·
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csZ+ [(^
+%46string"=string.Format(System.IFormatProvider, string, object, object)*
+"
+string*)
+'
+%44 System.Globalization.CultureInfo*
+
+%45string*
+
+authorFirstNamestring*
+
+authorLastNamestringì
+ê
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csZ [(^
+%47string"+mojoPortal.SearchIndex.IndexItem.Author.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%46string*
+14*π
+12è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs_ _(5ö
+ó
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs_ _(5
+%48string"+mojoPortal.SearchIndex.IndexItem.Author.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+
+authorNamestring*
+14*†
+14è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csb b((*
+15
+16*´
+15è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csb, b(Gå
+â
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csb, b(G
+%49bool"/mojoPortal.SearchIndex.IndexItem.RemoveOnly.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+""*
+16*π
+16è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csg g(Qñ
+ì
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csg g(Q
+%50bool"LmojoPortal.Web.WebConfigSettings.IndexPageKeywordsWithHtmlArticleContent.get*$""
+ mojoPortal.Web.WebConfigSettings*
+17
+18*Ü
+
+17è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csi j(Rí
+è
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csi8 i(X
+%51string"8mojoPortal.Business.PageSettings.PageMetaDescription.get*2
+0
+pageSettings mojoPortal.Business.PageSettings†
+ù
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csi i(X
+%52string"8mojoPortal.SearchIndex.IndexItem.PageMetaDescription.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%51stringè
+å
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csj5 j(R
+%53string"5mojoPortal.Business.PageSettings.PageMetaKeyWords.get*2
+0
+pageSettings mojoPortal.Business.PageSettingsù
+ö
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csj j(R
+%54string"5mojoPortal.SearchIndex.IndexItem.PageMetaKeywords.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%53string*
+18*¿
+18è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csm o(+é
+ã
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csm* m(F
+%55string"4mojoPortal.Business.PageSettings.AuthorizedRoles.get*2
+0
+pageSettings mojoPortal.Business.PageSettingsñ
+ì
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csm m(F
+%56string".mojoPortal.SearchIndex.IndexItem.ViewRoles.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%55string˜
+Ù
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csn0 n(@
+%57object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+	ViewRoles‘—
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csn0 n(K
+%58string"object.ToString()*
+
+%57object2
+ToString()ú
+ô
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csn n(K
+%59string"4mojoPortal.SearchIndex.IndexItem.ModuleViewRoles.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%58stringÉ
+Ä
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cso o(+
+%60bool"+mojoPortal.Business.PageSettings.UseUrl.get*2
+0
+pageSettings mojoPortal.Business.PageSettings*
+19
+20*¿
+19è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csq q(Iù
+ö
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csq q(I
+%61bool"EmojoPortal.Business.PageSettings.UrlHasBeenAdjustedForFolderSites.get*2
+0
+pageSettings mojoPortal.Business.PageSettings*
+21
+22*Ä	
+21è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.css s(få
+â
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.css1 s(K
+%62string"2mojoPortal.Business.PageSettings.UnmodifiedUrl.get*2
+0
+pageSettings mojoPortal.Business.PageSettings…
+∆
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cssZ s(f
+%63string"__id**
+string"
+EmptystringÓ
+Î
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.css1 s(g
+%64string"string.Replace(string, string)*
+
+%62string*
+~/*
+
+%63stringï
+í
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.css s(g
+%65string"-mojoPortal.SearchIndex.IndexItem.ViewPage.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%64string*
+23*ˆ
+22è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csw w(\Ç
+ˇ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csw1 w(A
+%66string"(mojoPortal.Business.PageSettings.Url.get*2
+0
+pageSettings mojoPortal.Business.PageSettings…
+∆
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cswP w(\
+%67string"__id**
+string"
+EmptystringÓ
+Î
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csw1 w(]
+%68string"string.Replace(string, string)*
+
+%66string*
+~/*
+
+%67stringï
+í
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csw w(]
+%69string"-mojoPortal.SearchIndex.IndexItem.ViewPage.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%68string*
+23*µ
+23è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csy y(>ñ
+ì
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csy y(>
+%70bool"9mojoPortal.SearchIndex.IndexItem.UseQueryStringParams.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+""*
+20*ù:
+20ê
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs{ ä(Aﬁ
+€
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs{* {(D
+%71string"System.Guid.ToString()* 
+
+htmlFeatureGuidSystem.Guidñ
+ì
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs{ {(D
+%72string".mojoPortal.SearchIndex.IndexItem.FeatureId.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%71stringë
+é
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs|, |(C
+%73string"4mojoPortal.Business.ModuleDefinition.FeatureName.get*5
+3
+htmlFeature$mojoPortal.Business.ModuleDefinitionò
+ï
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs| |(C
+%74string"0mojoPortal.SearchIndex.IndexItem.FeatureName.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%73stringí
+è
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs}4 }(L
+%75string"5mojoPortal.Business.ModuleDefinition.ResourceFile.get*5
+3
+htmlFeature$mojoPortal.Business.ModuleDefinition†
+ù
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs} }(L
+%76string"8mojoPortal.SearchIndex.IndexItem.FeatureResourceFile.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%75stringÙ
+Ò
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs7 (D
+%77object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+
+ItemIDÊ
+„
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs' (E
+
+%78int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%77objectç
+ä
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cs (E
+
+%79int"+mojoPortal.SearchIndex.IndexItem.ItemId.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+
+%78int¯
+ı
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÄ9 Ä(H
+%80object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+
+ModuleIDË
+Â
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÄ) Ä(I
+
+%81int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%80objectë
+é
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÄ Ä(I
+
+%82int"-mojoPortal.SearchIndex.IndexItem.ModuleId.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+
+%81int˚
+¯
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÅ, Å(>
+%83object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+ModuleTitle÷”
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÅ, Å(I
+%84string"object.ToString()*
+
+%83object2
+ToString()ö
+ó
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÅ Å(I
+%85string"0mojoPortal.SearchIndex.IndexItem.ModuleTitle.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%84stringı
+Ú
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÇ& Ç(2
+%86object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*	
+Title÷”
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÇ& Ç(=
+%87string"object.ToString()*
+
+%86object2
+ToString()î
+ë
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÇ Ç(=
+%88string"*mojoPortal.SearchIndex.IndexItem.Title.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%87stringÙ
+Ò
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÑD Ñ(O
+%89object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+Body÷”
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÑD Ñ(Z
+%90string"object.ToString()*
+
+%89object2
+ToString()¢
+ü
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÑ( Ñ([
+%91string"<mojoPortal.Web.Framework.SecurityHelper.RemoveMarkup(string)*+")
+'mojoPortal.Web.Framework.SecurityHelper*
+
+%90stringñ
+ì
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÑ Ñ([
+%92string",mojoPortal.SearchIndex.IndexItem.Content.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%91string˚
+¯
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÜ> Ü(P
+%93object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+CreatedDate˜
+Ù
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÜ+ Ü(Q
+%94System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%93object´
+®
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csÜ Ü(Q
+%95System.DateTime"/mojoPortal.SearchIndex.IndexItem.CreatedUtc.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%94System.DateTime˙
+˜
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csá> á(O
+%96object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+
+LastModUtc˜
+Ù
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csá+ á(P
+%97System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%96object´
+®
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csá á(P
+%98System.DateTime"/mojoPortal.SearchIndex.IndexItem.LastModUtc.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%97System.DateTime*
+24*¢
+24ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csû	 û(	*
+25
+26*¨
+25ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cså å(EÉ
+Ä
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cså å(.
+
+%99int"-mojoPortal.SearchIndex.IndexItem.ModuleId.get*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItemÅ
+˛
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.cså2 å(E
+%100int"+mojoPortal.Business.PageModule.ModuleId.get*.
+,
+
+pageModulemojoPortal.Business.PageModule*
+27
+24*∂
+
+27ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csé è(Pï
+í
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csé9 é(T
+%101System.DateTime"3mojoPortal.Business.PageModule.PublishBeginDate.get*.
+,
+
+pageModulemojoPortal.Business.PageModule≥
+∞
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csé é(T
+%102System.DateTime"5mojoPortal.SearchIndex.IndexItem.PublishBeginDate.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%101System.DateTimeì
+ê
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csè7 è(P
+%103System.DateTime"1mojoPortal.Business.PageModule.PublishEndDate.get*.
+,
+
+pageModulemojoPortal.Business.PageModule±
+Æ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csè è(P
+%104System.DateTime"3mojoPortal.SearchIndex.IndexItem.PublishEndDate.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%103System.DateTime*
+24*Ò
+26ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csì ï(:
+Ì
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csì ì(B
+%105void"YmojoPortal.SearchIndex.IndexHelper.RebuildIndex(mojoPortal.SearchIndex.IndexItem, string)*&"$
+"mojoPortal.SearchIndex.IndexHelper*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+	indexPathstringÜ
+É
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csï ï(
+%106log4net.ILog"__id*Q*O8
+6mojoPortal.SearchIndex.HtmlContentIndexBuilderProvider"
+loglog4net.ILogÑ
+Å
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csï+ ï(:
+%107string"*mojoPortal.SearchIndex.IndexItem.Title.get*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem—
+Œ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csï ï(:
+%108string"__concat*
+
+Indexed *
+
+%107string˙˜
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csï ï(;
+%109void"log4net.ILog.Debug(object)*
+
+%106log4net.ILog*
+
+%108string2Debug(object)*
+8*¶
+10ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csû	 û(	*
+28
+29
+29*∫
+28ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csõ õ(Ü
+É
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csõ õ(
+%110log4net.ILog"__id*Q*O8
+6mojoPortal.SearchIndex.HtmlContentIndexBuilderProvider"
+loglog4net.ILogêç
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csõ õ(
+%111void"log4net.ILog.Error(object)*
+
+%110log4net.ILog*&
+$
+exSystem.Data.Common.DbException2Error(object)*
+29*ƒ
+29ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csû	 û(	"©
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\HtmlContentIndexBuilderProvider.csû û(	
+implicit return:0
+pageSettings mojoPortal.Business.PageSettings:
+	indexPathstringB:8
+6mojoPortal.SearchIndex.HtmlContentIndexBuilderProvider

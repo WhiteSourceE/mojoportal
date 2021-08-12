@@ -1,0 +1,176 @@
+
+5mojoPortal.Web.AdminUI.RoleManagerPage.BindRoleList()n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csY Y(!"0*ô
+
+0n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.cs[ \( ˆ
+Û
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.cs[8 [(D&
+%0 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings’
+“
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.cs[8 [(K	
+%1int"+mojoPortal.Business.SiteSettings.SiteId.get*(
+&
+%0 mojoPortal.Business.SiteSettings˚
+¯
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.cs[) [(L2
+%2,System.Collections.ObjectModel.Collection<T>"'mojoPortal.Business.Role.GetBySite(int)*"
+mojoPortal.Business.Role*
+	
+%1intÍ
+Á
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.cs[ [(L9
+	siteRoles,System.Collections.ObjectModel.Collection<T>"__id*4
+2
+%2,System.Collections.ObjectModel.Collection<T>ﬂ
+‹
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.cs\ \( 
+
+%3bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+1
+2*x
+1n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csb# b(,*
+3*}
+3p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csâ	 â(	*
+4
+5*”
+4n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csd d()’
+“
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csd d(*
+
+%4bool"'mojoPortal.Business.Role.Equals(string)*
+
+rmojoPortal.Business.Role*
+
+Admins*
+6
+3*ê
+6n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csf f(*ï
+í
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csf f(+
+
+%5bool"6System.Collections.ObjectModel.Collection<T>.Remove(T)*;
+9
+	siteRoles,System.Collections.ObjectModel.Collection<T>*
+
+rmojoPortal.Business.Role*
+5*x
+5n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csl# l(,*
+7*}
+7p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csâ	 â(	*
+8
+9*Ÿ
+8n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csn n(.⁄
+◊
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csn n(/
+
+%6bool"'mojoPortal.Business.Role.Equals(string)*
+
+rmojoPortal.Business.Role*
+Role Admins*
+10
+7*ë
+10n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csp p(*ï
+í
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csp p(+
+
+%7bool"6System.Collections.ObjectModel.Collection<T>.Remove(T)*;
+9
+	siteRoles,System.Collections.ObjectModel.Collection<T>*
+
+rmojoPortal.Business.Role*
+9*Ò
+9n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csu u(MÚ
+Ô
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csu u(M
+
+%8bool"KmojoPortal.Web.WebConfigSettings.AllowRoleAdminsToCreateContentManagers.get*$""
+ mojoPortal.Web.WebConfigSettings*
+11
+2*z
+11n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csw' w(0*
+12*
+12p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csâ	 â(	*
+13
+2*Ê
+13n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csy y(=Â
+‚
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csy y(>
+
+%9bool"'mojoPortal.Business.Role.Equals(string)*
+
+rmojoPortal.Business.Role*
+Content Administrators*
+14
+12*í
+14n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.cs{ {(.ñ
+ì
+n
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.cs{ {(/
+%10bool"6System.Collections.ObjectModel.Collection<T>.Remove(T)*;
+9
+	siteRoles,System.Collections.ObjectModel.Collection<T>*
+
+rmojoPortal.Business.Role*
+2*ú	
+2p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csÑ Ö( ˝
+˙
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csÑ Ñ(%
+%11mojoPortal.Web.UI.mojoDataList"__id*Y*W(
+&mojoPortal.Web.AdminUI.RoleManagerPage"+
+	rolesListmojoPortal.Web.UI.mojoDataList±Æ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csÑ Ñ(,
+%12object"5System.Web.UI.WebControls.BaseDataList.DataSource.set*'
+%
+%11mojoPortal.Web.UI.mojoDataList*;
+9
+	siteRoles,System.Collections.ObjectModel.Collection<T>2DataSource.set˝
+˙
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csÖ Ö(%
+%13mojoPortal.Web.UI.mojoDataList"__id*Y*W(
+&mojoPortal.Web.AdminUI.RoleManagerPage"+
+	rolesListmojoPortal.Web.UI.mojoDataListÍÁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csÖ Ö( 
+%14void"1System.Web.UI.WebControls.BaseDataList.DataBind()*'
+%
+%13mojoPortal.Web.UI.mojoDataList2
+DataBind()*
+15*Ä
+15p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csâ	 â(	"á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RoleManager.aspx.csâ â(	
+implicit returnB*(
+&mojoPortal.Web.AdminUI.RoleManagerPage

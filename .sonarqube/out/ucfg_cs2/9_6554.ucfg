@@ -1,0 +1,154 @@
+
+5mojoPortal.Web.SiteUtils.DetermineSkinBaseUrl(string)n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÄ Ä(+"0*Ω
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÇ Ç(#ø
+º
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÇ Ç($
+
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+skinNamestring*
+1
+2*•
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÇ/ Ç(b‡
+›
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÇ> Ç(b
+%1string"7mojoPortal.Web.WebConfigSettings.DefaultInitialSkin.get*$""
+ mojoPortal.Web.WebConfigSettings£
+†
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÇ/ Ç(e
+%2string"__concat*
+""*
+
+%1string£
+†
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÇ/ Ç(e
+%3string"__concat*
+
+%2string*
+"""Ä
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÇ( Ç(f
+
+%3string*‘
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÑ Ö(ê
+ç
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÑ Ñ(C&
+%4 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper’
+“
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÑ Ñ(C0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%4 mojoPortal.Business.SiteSettingsÎ
+Ë
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÖ Ö(
+
+%5bool""object.operator ==(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+3
+4*•
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÖ& Ö(Y‡
+›
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÖ5 Ö(Y
+%6string"7mojoPortal.Web.WebConfigSettings.DefaultInitialSkin.get*$""
+ mojoPortal.Web.WebConfigSettings£
+†
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÖ& Ö(\
+%7string"__concat*
+""*
+
+%6string£
+†
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÖ& Ö(\
+%8string"__concat*
+
+%7string*
+"""Ä
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÖ Ö(]
+
+%8string*¨
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csà
+ å(ﬂ
+‹
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csâ â(	
+%9int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings
+Ì
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csâ â(.
+%10string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+	
+%9intØ
+¨
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csà â(.
+%11string"__concat*
+/Data/Sites/*
+
+%10string™
+ß
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csà ä(
+%12string"__concat*
+
+%11string*	
+/skins/≥
+∞
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csà ä(
+%13string"__concat*
+
+%12string*
+
+skinNamestring§
+°
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csà ä(!
+%14string"__concat*
+
+%13string*
+/ù
+ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csà
+ ä(!
+skinUrlstring"__id*
+
+%14string"Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cså å(
+
+skinUrlstring*˚
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csé é("Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csé é(
+implicit return:
+skinNamestringB"
+mojoPortal.Web.SiteUtils

@@ -1,0 +1,98 @@
+
+1mojoPortal.Web.UrlRewriter.GetRedirectUrl(string)p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csï ï(,"0*˙
+0p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csò õ(c®
+•
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csò ò((
+%0string"__id**
+string"
+Emptystringù
+ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csò ò((
+newUrlstring"__id*
+
+%0stringí
+è
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csö( ö(L&
+%1 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper◊
+‘
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csö ö(L0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%1 mojoPortal.Business.SiteSettings·
+ﬁ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csõE õ(X	
+%2int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsù
+ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csõ( õ(d
+%3System.Data.IDataReader"=mojoPortal.Business.RedirectInfo.GetBySiteAndUrl(int, string)*$""
+ mojoPortal.Business.RedirectInfo*
+	
+%2int*
+
+	targetUrlstringø
+º
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csõ õ(d!
+readerSystem.Data.IDataReader"__id*
+
+%3System.Data.IDataReader*
+1*Œ
+1p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csù ù(!ŒÀ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csù ù(!
+
+%4bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*¬
+2p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csü ü(,Ì
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csü ü(-
+%5object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+NewUrl2this[string].get≤Ø
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csü ü(8
+%6string"object.ToString()*
+
+%5object2
+ToString()ù
+ö
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.csü ü(8
+newUrlstring"__id*
+
+%6string*
+3*z
+3p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs§	 §(	*
+4*˛
+4p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs£ £("Ü
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs£ £(
+
+newUrlstring*ˇ
+5p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs§	 §(	"á
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\UrlRewriter.cs§ §(	
+implicit return:
+	targetUrlstringB"
+mojoPortal.Web.UrlRewriter

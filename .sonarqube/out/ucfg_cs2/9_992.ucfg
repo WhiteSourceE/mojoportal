@@ -1,0 +1,209 @@
+
+JmojoPortal.Web.UI.OpenIdRpxHandlerPage.Page_Load(object, System.EventArgs)t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs8 8("0*Å
+0t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs: ?(è
+å
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs: :(
+
+%0void"5mojoPortal.Web.UI.OpenIdRpxHandlerPage.LoadSettings()**(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPageê
+ç
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs; ;(
+
+%1void"7mojoPortal.Web.UI.OpenIdRpxHandlerPage.PopulateLabels()**(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPageû
+ø
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs< <($
+
+%2void"HmojoPortal.Web.UI.OpenIdRpxHandlerPage.PopulateRequiredProfileControls()**(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPageî
+ë
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs= =(
+
+%3void";mojoPortal.Web.UI.OpenIdRpxHandlerPage.BindNewsletterList()**(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPageÐ
+Í
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs? ?(
+%4string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	authTokenstring§
+¤
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs? ?(	
+%5int"string.Length.get*
+
+%4string*
+1
+2*´
+1t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csA C(Ö
+Ó
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csA A(
+%6log4net.ILog"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+loglog4net.ILog±®
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csA A(F
+
+%7void"1log4net.ILog.DebugFormat(string, params object[])*
+
+%6log4net.ILog*31
+/openid-debug: authToken ('token') cookie empty *
+""2$DebugFormat(string, params object[])Ï
+Ì
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csC C(
+%8System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÑ
+Î
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csC C(
+
+%9bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%8System.Web.HttpRequest*
+3
+4*¨
+3t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csE F(×
+Ô
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csE E(
+%10log4net.ILog"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+loglog4net.ILogÁ¾
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csE E(U
+%11void"1log4net.ILog.DebugFormat(string, params object[])*
+
+%10log4net.ILog*A?
+=openid-debug: user authenticated, don't need to check openid *
+""2$DebugFormat(string, params object[])Ò
+Ï
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csF F(
+%12System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+System.Web.UI.PageÓ
+Ð
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csF F(
+%13string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePageã
+à
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csF F( 
+%14void"(System.Web.HttpResponse.Redirect(string)* 
+
+%12System.Web.HttpResponse*
+
+%13string"~
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csH H(
+""*Å
+4t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csK K(Á
+¾
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csK	 K(
+%15bool"!System.Web.UI.Page.IsPostBack.get*
+System.Web.UI.Page*
+5
+6*Ø
+5t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csM N(6×
+Ô
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csM M(
+%16log4net.ILog"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+loglog4net.ILog®«
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csM M(B
+%17void"1log4net.ILog.DebugFormat(string, params object[])*
+
+%16log4net.ILog*.,
+*openid-debug: not postback, need to login *
+""2$DebugFormat(string, params object[])Ò
+Ï
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csN N(
+%18System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+System.Web.UI.PageÓ
+Ð
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csN N(
+%19string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage»
+¸
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csN N(6
+%20string"__concat*
+
+%19string*
+/Secure/Login.aspxã
+à
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csN N(7
+%21void"(System.Web.HttpResponse.Redirect(string)* 
+
+%18System.Web.HttpResponse*
+
+%20string*
+6*Ð
+
+2t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csS U(×
+Ô
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csS S(
+%22log4net.ILog"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+loglog4net.ILogÑ
+Î
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csS> S(G
+%23string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	authTokenstring«
+¨
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csS S(L
+%24string"__concat*
+""*
+
+%23string«
+¨
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csS S(L
+%25string"__concat*
+
+%24string*
+""ÙÖ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csS S(M
+%26void"log4net.ILog.Debug(object)*
+
+%22log4net.ILog*
+
+%25string2Debug(object)é
+æ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csU U(
+%27void"5mojoPortal.Web.UI.OpenIdRpxHandlerPage.ProcessToken()**(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage*
+6*‡
+6t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csW W("‹
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csW W(
+implicit return:
+senderobject:
+eSystem.EventArgsB*(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage

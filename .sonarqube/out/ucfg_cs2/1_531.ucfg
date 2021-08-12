@@ -1,0 +1,190 @@
+
+4mojoPortal.Data.DBRedirectList.GetCount(int, string)z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csë ë(""0*ˇ
+0z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csì ï(“
+œ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csì ì(9
+
+%0bool"!string.IsNullOrWhiteSpace(string)*
+"
+string*
+
+
+searchTermstring†
+ù
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csì ì(9
+	useSearchbool"__id*
+""*
+1
+2*È
+1z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csó ö(.Ô
+Ï
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csó4 ó(^
+%1string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringŒÀ
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csó ó(Ñ(
+%2"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperΩ
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csó! ó(3
+
+%3void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%2"mojoPortal.Data.SqlParameterHelper*
+
+%1string*" 
+mp_RedirectList_GetSearchCount*2›
+⁄
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csó ó(Ñ)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%2"mojoPortal.Data.SqlParameterHelperì
+ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csò& ò(3
+%4"__id*
+""ì
+ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csò5 ò(M
+%5"__id*
+""€
+ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csò ò(V
+
+%6void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@SiteID*
+
+%4*
+
+%5*
+""ì
+ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csô* ô(<
+%7"__id*
+""ì
+ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csôC ô([
+%8"__id*
+""¸
+˘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csô ô(h
+
+%9void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@SearchTerm*
+
+%7*2ˇ*
+
+%8*
+
+
+searchTermstringÔ
+Ï
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csö ö(.
+%10object"2mojoPortal.Data.SqlParameterHelper.ExecuteScalar()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper–
+Õ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csö ö(/
+
+%11int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%10object"ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csö ö(0
+
+
+%11int*¡
+2z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csû †(.
+Ì
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csû4 û(^
+%12string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringŒÀ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csû û(~)
+%13"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper∫
+∑
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csû! û(3
+%14void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)*+
+)
+%13"mojoPortal.Data.SqlParameterHelper*
+
+%12string*
+mp_RedirectList_GetCount*2›
+⁄
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csû û(~)
+sph"mojoPortal.Data.SqlParameterHelper"__id*+
+)
+%13"mojoPortal.Data.SqlParameterHelperî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csü& ü(3
+%15"__id*
+""î
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csü5 ü(M
+%16"__id*
+""ﬁ
+€
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.csü ü(V
+%17void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@SiteID*
+
+%15*
+
+%16*
+""Ô
+Ï
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.cs† †(.
+%18object"2mojoPortal.Data.SqlParameterHelper.ExecuteScalar()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper–
+Õ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.cs† †(/
+
+%19int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%18object"ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.cs† †(0
+
+
+%19int*ì
+3z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.cs£	 £(	"ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\DBRedirectList.cs£ £(	
+implicit return:
+siteIdint:
+
+searchTermstringB"" 
+mojoPortal.Data.DBRedirectList

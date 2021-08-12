@@ -1,0 +1,532 @@
+
+1mojoPortal.Web.UI.Pages.MemberList.LoadSettings()i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csÆ Æ("0*ÿ
+0i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∞ ¥(»
+≈
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∞ ∞(-
+%0double",mojoPortal.Web.SiteUtils.GetUserTimeOffset()*"
+mojoPortal.Web.SiteUtils¬
+ø
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∞ ∞(-<$
+"mojoPortal.Web.UI.Pages.MemberList"
+
+timeOffsetdouble"__id*
+
+%0double”
+–
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs± ±()
+%1System.TimeZoneInfo"*mojoPortal.Web.SiteUtils.GetUserTimeZone()*"
+mojoPortal.Web.SiteUtils⁄
+◊
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs± ±()G$
+"mojoPortal.Web.UI.Pages.MemberList"
+timeZoneSystem.TimeZoneInfo"__id*
+
+%1System.TimeZoneInfo⁄
+◊
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs≥ ≥(
+
+%2bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUserª
+∏
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs≥ ≥(7$
+"mojoPortal.Web.UI.Pages.MemberList"
+IsAdminbool"__id*
+
+
+%2boolÅ
+
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs¥ ¥(
+%3"__id*
+""*
+1
+2*¡
+2i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs¥ ¥(UÒ
+Ó
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs¥1 ¥(=&
+%4 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings‰
+·
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs¥1 ¥(U
+%5string"<mojoPortal.Business.SiteSettings.RolesThatCanManageUsers.get*(
+&
+%4 mojoPortal.Business.SiteSettings
+Ì
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs¥ ¥(V
+
+%6bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%5string*
+1*î
+1i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs¥ µ(Bº
+π
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs¥ ¥(V>$
+"mojoPortal.Web.UI.Pages.MemberList"
+canManageUsersbool"__id*
+""‹
+Ÿ
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csµ µ(B
+
+%7bool":mojoPortal.Web.WebConfigSettings.ShowEmailInMemberList.get*$""
+ mojoPortal.Web.WebConfigSettings*
+3
+4*Ù
+4i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csµF µ(_ë
+é
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csµF µ(U1
+%8+mojoPortal.Web.UI.MemberListDisplaySettings"__id*h*f$
+"mojoPortal.Web.UI.Pages.MemberList">
+displaySettings+mojoPortal.Web.UI.MemberListDisplaySettingsÍ
+Á
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csµF µ(_
+
+%9bool"9mojoPortal.Web.UI.MemberListDisplaySettings.ShowEmail.get*3
+1
+%8+mojoPortal.Web.UI.MemberListDisplaySettings*
+3*ù
+3i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csµ ∂(D√
+¿
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csµ µ(_E$
+"mojoPortal.Web.UI.Pages.MemberList"
+ShowEmailInMemberListbool"__id*
+""ﬁ
+€
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∂ ∂(D
+%10bool";mojoPortal.Web.WebConfigSettings.ShowUserIDInMemberList.get*$""
+ mojoPortal.Web.WebConfigSettings*
+5
+6*¯
+6i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∂H ∂(bí
+è
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∂H ∂(W2
+%11+mojoPortal.Web.UI.MemberListDisplaySettings"__id*h*f$
+"mojoPortal.Web.UI.Pages.MemberList">
+displaySettings+mojoPortal.Web.UI.MemberListDisplaySettingsÌ
+Í
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∂H ∂(b
+%12bool":mojoPortal.Web.UI.MemberListDisplaySettings.ShowUserId.get*4
+2
+%11+mojoPortal.Web.UI.MemberListDisplaySettings*
+5*°
+5i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∂ ∑(Jƒ
+¡
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∂ ∂(bF$
+"mojoPortal.Web.UI.Pages.MemberList"
+ShowUserIDInMemberListbool"__id*
+""·
+ﬁ
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∑ ∑(J
+%13bool">mojoPortal.Web.WebConfigSettings.ShowLoginNameInMemberList.get*$""
+ mojoPortal.Web.WebConfigSettings*
+7
+8*˚
+8i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∑N ∑(kí
+è
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∑N ∑(]2
+%14+mojoPortal.Web.UI.MemberListDisplaySettings"__id*h*f$
+"mojoPortal.Web.UI.Pages.MemberList">
+displaySettings+mojoPortal.Web.UI.MemberListDisplaySettings
+Ì
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∑N ∑(k
+%15bool"=mojoPortal.Web.UI.MemberListDisplaySettings.ShowLoginName.get*4
+2
+%14+mojoPortal.Web.UI.MemberListDisplaySettings*
+7*∞
+7i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∑ √(«
+ƒ
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∑ ∑(kI$
+"mojoPortal.Web.UI.Pages.MemberList"!
+ShowLoginNameInMemberListbool"__id*
+""í
+è
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∏ ∏(!2
+%16+mojoPortal.Web.UI.MemberListDisplaySettings"__id*h*f$
+"mojoPortal.Web.UI.Pages.MemberList">
+displaySettings+mojoPortal.Web.UI.MemberListDisplaySettingsÔ
+Ï
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∏ ∏(.
+%17bool"<mojoPortal.Web.UI.MemberListDisplaySettings.ShowJoinDate.get*4
+2
+%16+mojoPortal.Web.UI.MemberListDisplaySettings¡
+æ
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs∏ ∏(.<$
+"mojoPortal.Web.UI.Pages.MemberList"
+ShowJoinDatebool"__id*
+
+%17boolÚ
+Ô
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csΩ! Ω(-'
+%18 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÈ
+Ê
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csΩ! Ω(H
+%19string"?mojoPortal.Business.SiteSettings.RolesThatCanViewMemberList.get*)
+'
+%18 mojoPortal.Business.SiteSettingsÚ
+Ô
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csΩ Ω(I
+%20bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%19stringæ
+ª
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csΩ Ω(I9$
+"mojoPortal.Web.UI.Pages.MemberList"
+	allowViewbool"__id*
+
+%20boolÅ
+˛
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csø ø(C
+
+%21int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+pagenumber*2Ω
+∫
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csø ø(C9$
+"mojoPortal.Web.UI.Pages.MemberList"
+
+pageNumberint"__id*
+
+
+%21intÉ
+Ä
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs¡7 ¡(?
+%22"__id*
+""¸
+˘
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs¡ ¡(@
+
+%23int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+sd*
+
+%22ª
+∏
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs¡ ¡(@7$
+"mojoPortal.Web.UI.Pages.MemberList"
+sortModeint"__id*
+
+
+%23intÉ
+Ä
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs√ √(
+%24"__id*
+""*
+9
+10*á
+9i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs√ √(?í
+è
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs√ √(*2
+%25+mojoPortal.Web.UI.MemberListDisplaySettings"__id*h*f$
+"mojoPortal.Web.UI.Pages.MemberList">
+displaySettings+mojoPortal.Web.UI.MemberListDisplaySettings˜
+Ù
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs√ √(?
+%26bool"DmojoPortal.Web.UI.MemberListDisplaySettings.ShowFirstAndLastName.get*4
+2
+%25+mojoPortal.Web.UI.MemberListDisplaySettings*
+11
+10*´
+11i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs≈ ≈(≥
+∞
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs≈ ≈(7$
+"mojoPortal.Web.UI.Pages.MemberList"
+sortModeint"__id*2*
+10*Õ
+10i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs» »('≈
+¬
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs» »(
+%27System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÌ
+Í
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs» »(9
+%282System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%27System.Web.HttpRequest“
+œ
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs» »(
+%29string"
+__arrayGet*;
+9
+%282System.Collections.Specialized.NameValueCollection*
+
+letterƒ
+¡
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs» »('
+%30bool""string.operator !=(string, string)*
+"
+string*
+
+%29string*
+""*
+12
+13*Í
+12i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs   (*≈
+¬
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs   (
+%31System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÌ
+Í
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs   (!9
+%322System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%31System.Web.HttpRequest“
+œ
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs   (+
+%33string"
+__arrayGet*;
+9
+%322System.Collections.Specialized.NameValueCollection*
+
+letterù
+ö
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs   (2
+%34string"string.Trim()*
+
+%33string≈
+¬
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs   (2>$
+"mojoPortal.Web.UI.Pages.MemberList"
+filterLetterstring"__id*
+
+%34string*
+13*Õ
+13i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csÕ Õ('≈
+¬
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csÕ Õ(
+%35System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÌ
+Í
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csÕ Õ(9
+%362System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%35System.Web.HttpRequest“
+œ
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csÕ Õ(
+%37string"
+__arrayGet*;
+9
+%362System.Collections.Specialized.NameValueCollection*
+
+searchƒ
+¡
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csÕ Õ('
+%38bool""string.operator !=(string, string)*
+"
+string*
+
+%37string*
+""*
+14
+15*Ë
+14i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csœ œ((≈
+¬
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csœ œ(
+%39System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÌ
+Í
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csœ œ(9
+%402System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%39System.Web.HttpRequest“
+œ
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csœ œ()
+%41string"
+__arrayGet*;
+9
+%402System.Collections.Specialized.NameValueCollection*
+
+searchù
+ö
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csœ œ(0
+%42string"string.Trim()*
+
+%41string√
+¿
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csœ œ(0<$
+"mojoPortal.Web.UI.Pages.MemberList"
+
+searchTextstring"__id*
+
+%42string*
+15*Ä
+15i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs— ⁄(≈
+¬
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs—= —(I
+%43string"__id*@*>$
+"mojoPortal.Web.UI.Pages.MemberList"
+ipSearchTextstringå
+â
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs— —(J
+%44string"LmojoPortal.Web.Framework.WebUtils.ParseStringFromQueryString(string, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+ips*
+
+%43string≈
+¬
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs— —(J>$
+"mojoPortal.Web.UI.Pages.MemberList"
+ipSearchTextstring"__id*
+
+%44stringÉ
+Ä
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs“< “(F
+%45"__id*
+""Å
+˛
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs“ “(G
+%46bool"HmojoPortal.Web.Framework.WebUtils.ParseBoolFromQueryString(string, bool)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+locked*
+
+%45ø
+º
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs“ “(G:$
+"mojoPortal.Web.UI.Pages.MemberList"
+
+showLockedbool"__id*
+
+%46boolÉ
+Ä
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs”F ”(T
+%47"__id*
+""á
+Ñ
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs” ”(U
+%48bool"HmojoPortal.Web.Framework.WebUtils.ParseBoolFromQueryString(string, bool)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+needapproval*
+
+%47√
+¿
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs” ”(U>$
+"mojoPortal.Web.UI.Pages.MemberList"
+showUnApprovedbool"__id*
+
+%48boolŸ
+÷
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs’ ’(2
+
+%49int"7mojoPortal.Web.WebConfigSettings.MemberListPageSize.get*$""
+ mojoPortal.Web.WebConfigSettingsª
+∏
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs’ ’(27$
+"mojoPortal.Web.UI.Pages.MemberList"
+pageSizeint"__id*
+
+
+%49intŒÀ
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csÿ" ÿ(&
+%50System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get˘
+ˆ
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.csÿ ÿ('
+%51void"AmojoPortal.Web.SiteUtils.AddNoIndexFollowMeta(System.Web.UI.Page)*"
+mojoPortal.Web.SiteUtils*
+
+%50System.Web.UI.Page‡
+›
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs⁄ ⁄(
+%52void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+
+memberlist*
+16*Ú
+16i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs€ €("Ä
+i
+]D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\MemberList.aspx.cs€ €(
+implicit returnB&$
+"mojoPortal.Web.UI.Pages.MemberList

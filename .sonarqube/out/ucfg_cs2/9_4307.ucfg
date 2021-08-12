@@ -1,0 +1,157 @@
+
+LmojoPortal.Web.AdminUI.ModuleDefinitions.Page_Load(object, System.EventArgs)t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs. .("0*ß
+0t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs0 0(œ
+Ã
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs0 0(
+%0System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Page—
+Œ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs0 0(
+
+%1bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%0System.Web.HttpRequest*
+1
+2*í
+1t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs2 2(&ñ
+ì
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs2 2('
+
+%2void"CmojoPortal.Web.SiteUtils.RedirectToLoginPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*,*
+(mojoPortal.Web.AdminUI.ModuleDefinitions"~
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs3 3(
+""*È
+2t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs5 5(Â
+‚
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs5 5(
+
+%3bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+3
+4*ô
+3t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs7 7(9ù
+ö
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs7 7(:
+
+%4void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*,*
+(mojoPortal.Web.AdminUI.ModuleDefinitions"~
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs8 8(
+""*ﬁ
+4t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs; =(/Ò
+Ó
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs; ;(0
+
+%5void"=mojoPortal.Web.Framework.SecurityHelper.DisableBrowserCache()*+")
+'mojoPortal.Web.Framework.SecurityHelper¸
+˘
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs= =(&
+%6 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÁ
+‰
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs= =(/
+
+%7bool"6mojoPortal.Business.SiteSettings.IsServerAdminSite.get*(
+&
+%6 mojoPortal.Business.SiteSettings*
+5
+6*À
+5t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs? ?(O“
+œ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs?- ?(5
+%8string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePageº
+π
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs?- ?(O
+%9string"__concat*
+
+%8string*
+/Admin/AdminMenu.aspxª
+∏
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs? ?(P
+%10void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*,*
+(mojoPortal.Web.AdminUI.ModuleDefinitions*
+
+%9string"~
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.cs@ @(
+""*ê
+6t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csC C(*å
+â
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csC C(+
+%11bool"8mojoPortal.Web.SiteUtils.IsFishyPost(System.Web.UI.Page)*"
+mojoPortal.Web.SiteUtils*,*
+(mojoPortal.Web.AdminUI.ModuleDefinitions*
+7
+8*ö
+7t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csE E(9û
+õ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csE E(:
+%12void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*,*
+(mojoPortal.Web.AdminUI.ModuleDefinitions"~
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csF F(
+""*¶
+8t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csK O(Î
+Ë
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csK K(
+%13void"5mojoPortal.Web.AdminUI.ModuleDefinitions.LoadParams()*,*
+(mojoPortal.Web.AdminUI.ModuleDefinitionsÔ
+Ï
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csL L(
+%14void"9mojoPortal.Web.AdminUI.ModuleDefinitions.PopulateLabels()*,*
+(mojoPortal.Web.AdminUI.ModuleDefinitions¡
+æ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csO O(
+%15bool"!System.Web.UI.Page.IsPostBack.get*
+System.Web.UI.Page*
+9
+10*Û
+9t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csQ Q("Ò
+Ó
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csQ Q("
+%16void";mojoPortal.Web.AdminUI.ModuleDefinitions.PopulateControls()*,*
+(mojoPortal.Web.AdminUI.ModuleDefinitions*
+10*à
+10t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csS	 S(	"ã
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleDefinitions.aspx.csS S(	
+implicit return:
+senderobject:
+eSystem.EventArgsB,*
+(mojoPortal.Web.AdminUI.ModuleDefinitions

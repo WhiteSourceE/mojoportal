@@ -1,0 +1,444 @@
+
+=mojoPortal.Web.AdminUI.PageProperties.SetupRoleToggleScript()q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs® ®($"0*ﬂw
+0q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs™ Ÿ(X≤Ø
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs™ ™(-
+%0System.Text.StringBuilder"System.Text.StringBuilder–
+Õ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs™ ™(+
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilderƒ
+¡
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs™ ™(-#
+scriptSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilderé
+ã
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs¨ ¨(5
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*$"
+ 
+<script type='text/javascript'>ó
+î
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csÆ Æ(=
+%3System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*-+
+)function DeSelectRoles(chkBoxContainer) {»
+≈
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs≤ ≤(n
+%4System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*^\
+Z$(chkBoxContainer).find('input[type=checkbox]').each(function(){this.checked = false; }); 
+Ì
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs∂ ∂(
+%5System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+} å
+â
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs∏ ∏(2
+%6System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*" 
+$(document).ready(function() {ê
+ç
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs∫ ∫()+
+%7%System.Web.UI.WebControls.RadioButton"__id*e*c'
+%mojoPortal.Web.AdminUI.PageProperties"8
+rbViewAdminOnly%System.Web.UI.WebControls.RadioButtonÂ‚
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs∫ ∫(2
+%8string""System.Web.UI.Control.ClientID.get*-
++
+%7%System.Web.UI.WebControls.RadioButton2ClientID.get®
+•
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs∫ ∫(2
+%9string"__concat*
+$('#*
+
+%8string∫
+∑
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs∫ ∫(L
+%10string"__concat*
+
+%9string*
+').change(function(){˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs∫ ∫(M 
+%11System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%10stringë
+é
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csª, ª(;,
+%12%System.Web.UI.WebControls.RadioButton"__id*e*c'
+%mojoPortal.Web.AdminUI.PageProperties"8
+rbViewAdminOnly%System.Web.UI.WebControls.RadioButtonÁ‰
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csª, ª(D
+%13string""System.Web.UI.Control.ClientID.get*.
+,
+%12%System.Web.UI.WebControls.RadioButton2ClientID.getº
+π
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csª ª(D
+%14string"__concat*
+var selectedVal = $('#*
+
+%13string∫
+∑
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csª ª(]
+%15string"__concat*
+
+%14string*
+').attr('checked'); ˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csª ª(^ 
+%16System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%15stringç
+ä
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csº º(2 
+%17System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*" 
+if(selectedVal === 'checked'){î
+ë
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csΩ& Ω(6-
+%18&System.Web.UI.WebControls.CheckBoxList"__id*g*e'
+%mojoPortal.Web.AdminUI.PageProperties":
+chkListAuthRoles&System.Web.UI.WebControls.CheckBoxListËÂ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csΩ& Ω(?
+%19string""System.Web.UI.Control.ClientID.get*/
+-
+%18&System.Web.UI.WebControls.CheckBoxList2ClientID.get∂
+≥
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csΩ Ω(?
+%20string"__concat*
+DeSelectRoles('#*
+
+%19string™
+ß
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csΩ Ω(H
+%21string"__concat*
+
+%20string*
+');}˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csΩ Ω(I 
+%22System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%21stringÚ
+Ô
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csæ æ( 
+%23System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});ë
+é
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs¡ ¡(),
+%24%System.Web.UI.WebControls.RadioButton"__id*e*c'
+%mojoPortal.Web.AdminUI.PageProperties"8
+rbEditAdminOnly%System.Web.UI.WebControls.RadioButtonÁ‰
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs¡ ¡(2
+%25string""System.Web.UI.Control.ClientID.get*.
+,
+%24%System.Web.UI.WebControls.RadioButton2ClientID.get™
+ß
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs¡ ¡(2
+%26string"__concat*
+$('#*
+
+%25stringª
+∏
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs¡ ¡(L
+%27string"__concat*
+
+%26string*
+').change(function(){˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs¡ ¡(M 
+%28System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%27stringë
+é
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs¬, ¬(;,
+%29%System.Web.UI.WebControls.RadioButton"__id*e*c'
+%mojoPortal.Web.AdminUI.PageProperties"8
+rbEditAdminOnly%System.Web.UI.WebControls.RadioButtonÁ‰
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs¬, ¬(D
+%30string""System.Web.UI.Control.ClientID.get*.
+,
+%29%System.Web.UI.WebControls.RadioButton2ClientID.getº
+π
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs¬ ¬(D
+%31string"__concat*
+var selectedVal = $('#*
+
+%30string∫
+∑
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs¬ ¬(]
+%32string"__concat*
+
+%31string*
+').attr('checked'); ˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs¬ ¬(^ 
+%33System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%32stringç
+ä
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs√ √(2 
+%34System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*" 
+if(selectedVal === 'checked'){î
+ë
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csƒ& ƒ(6-
+%35&System.Web.UI.WebControls.CheckBoxList"__id*g*e'
+%mojoPortal.Web.AdminUI.PageProperties":
+chkListEditRoles&System.Web.UI.WebControls.CheckBoxListËÂ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csƒ& ƒ(?
+%36string""System.Web.UI.Control.ClientID.get*/
+-
+%35&System.Web.UI.WebControls.CheckBoxList2ClientID.get∂
+≥
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csƒ ƒ(?
+%37string"__concat*
+DeSelectRoles('#*
+
+%36string™
+ß
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csƒ ƒ(H
+%38string"__concat*
+
+%37string*
+');}˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csƒ ƒ(I 
+%39System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%38stringÚ
+Ô
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs≈ ≈( 
+%40System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});ò
+ï
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csœ œ(0,
+%41%System.Web.UI.WebControls.RadioButton"__id*l*j'
+%mojoPortal.Web.AdminUI.PageProperties"?
+rbCreateChildAdminOnly%System.Web.UI.WebControls.RadioButtonÁ‰
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csœ œ(9
+%42string""System.Web.UI.Control.ClientID.get*.
+,
+%41%System.Web.UI.WebControls.RadioButton2ClientID.get™
+ß
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csœ œ(9
+%43string"__concat*
+$('#*
+
+%42stringª
+∏
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csœ œ(S
+%44string"__concat*
+
+%43string*
+').change(function(){˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csœ œ(T 
+%45System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%44stringò
+ï
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs–, –(B,
+%46%System.Web.UI.WebControls.RadioButton"__id*l*j'
+%mojoPortal.Web.AdminUI.PageProperties"?
+rbCreateChildAdminOnly%System.Web.UI.WebControls.RadioButtonÁ‰
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs–, –(K
+%47string""System.Web.UI.Control.ClientID.get*.
+,
+%46%System.Web.UI.WebControls.RadioButton2ClientID.getº
+π
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs– –(K
+%48string"__concat*
+var selectedVal = $('#*
+
+%47string∫
+∑
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs– –(d
+%49string"__concat*
+
+%48string*
+').attr('checked'); ˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs– –(e 
+%50System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%49stringç
+ä
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs— —(2 
+%51System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*" 
+if(selectedVal === 'checked'){ü
+ú
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs“& “(A-
+%52&System.Web.UI.WebControls.CheckBoxList"__id*r*p'
+%mojoPortal.Web.AdminUI.PageProperties"E
+chkListCreateChildPageRoles&System.Web.UI.WebControls.CheckBoxListËÂ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs“& “(J
+%53string""System.Web.UI.Control.ClientID.get*/
+-
+%52&System.Web.UI.WebControls.CheckBoxList2ClientID.get∂
+≥
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs“ “(J
+%54string"__concat*
+DeSelectRoles('#*
+
+%53string™
+ß
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs“ “(S
+%55string"__concat*
+
+%54string*
+');}˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs“ “(T 
+%56System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%55stringÚ
+Ô
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs” ”( 
+%57System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});Û
+
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs’ ’( 
+%58System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}); ¯
+ı
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs◊ ◊( 
+%59System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+	</script>÷”
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csŸ Ÿ(
+%60System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get‚
+ﬂ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csŸ Ÿ((
+%61!System.Web.UI.ClientScriptManager"#System.Web.UI.Page.ClientScript.get*
+
+%60System.Web.UI.Page“
+œ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csŸG Ÿ(X
+%62string"$System.Text.StringBuilder.ToString()*%
+#
+scriptSystem.Text.StringBuilderÆ
+´
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.csŸ Ÿ(Y
+%63void"TSystem.Web.UI.ClientScriptManager.RegisterStartupScript(System.Type, string, string)**
+(
+%61!System.Web.UI.ClientScriptManager*
+""*
+
+roletoggle*
+
+%62string*
+1*Å
+1q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs⁄ ⁄("à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageSettings.aspx.cs⁄ ⁄(
+implicit returnB)'
+%mojoPortal.Web.AdminUI.PageProperties

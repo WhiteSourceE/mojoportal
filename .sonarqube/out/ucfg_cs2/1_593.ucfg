@@ -1,0 +1,155 @@
+
+KmojoPortal.Data.DBSitePersonalization.ResetPersonalizationBlob(int, string)
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csC C(3"0*≈'
+0
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csH T(!¿Ω
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csH' H(:
+%0System.Text.StringBuilder"System.Text.StringBuilderﬁ
+€
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csH+ H(8
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilder÷
+”
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csH H(:'
+
+sqlCommandSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilderà
+Ö
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csI I()
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+
+DELETE  •
+¢
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csJ J(F
+%3System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*)'
+%FROM  mp_SitePersonalizationAllUsers î
+ë
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csK K(5
+%4System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+WHERE PathID IN (   ë
+é
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csL L(2
+%5System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+SELECT PathID    ï
+í
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csM M(6
+%6System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+FROM mp_SitePaths    ò
+ï
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csN N(9
+%7System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+WHERE SiteID = @SiteID  Ñ
+Å
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csO O(%
+%8System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*
+ )  ı
+Ú
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csQ< Q(g
+%9string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionString‰
+·
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csQi Q(~
+%10string"$System.Text.StringBuilder.ToString()*)
+'
+
+sqlCommandSystem.Text.StringBuilderú
+ô
+Å
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csQÄ Q(ê
+%11"__id*
+""’“
+Ä
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csQ% Q(î)
+%12"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper”
+–
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csQ) Q(;
+%13void"cmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, System.Data.CommandType, int)*+
+)
+%12"mojoPortal.Data.SqlParameterHelper*
+
+%9string*
+
+%10string*
+
+%11*2‰
+·
+Ä
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csQ Q(î)
+sph"mojoPortal.Data.SqlParameterHelper"__id*+
+)
+%12"mojoPortal.Data.SqlParameterHelperô
+ñ
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csR. R(;
+%14"__id*
+""ô
+ñ
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csR= R(U
+%15"__id*
+""„
+‡
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csR R(^
+%16void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*	
+@SiteID*
+
+%14*
+
+%15*
+""Û
+
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csT T(!
+
+%17int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+1*ù
+1
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csU	 U(	"ñ
+
+uD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbSitePersonalization.csU U(	
+implicit return:
+siteIdint:
+pathstringB)"'
+%mojoPortal.Data.DBSitePersonalization

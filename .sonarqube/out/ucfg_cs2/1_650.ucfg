@@ -1,0 +1,236 @@
+
+=mojoPortal.Data.DBPortal.DatabaseHelperCanAlterSchema(string)t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs≤ ≤(7"0*µ
+0t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csµ È(ó
+î
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csµ µ(
+resultbool"__id*
+""µ≤
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs∏' ∏(:
+%0System.Text.StringBuilder"System.Text.StringBuilder”
+–
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs∏+ ∏(8
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilderÀ
+»
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs∏ ∏(:'
+
+sqlCommandSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilderæ
+ª
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs› È(
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*Ã…
+∆SET QUOTED_IDENTIFIER ON
+                GO
+                CREATE TABLE [dbo].[mp_Testdb](
+                  [FooID] [int] IDENTITY(1,1) NOT NULL,
+                  [Foo] [nvarchar](255) NOT NULL,
+                 CONSTRAINT [PK_mp_Testdb] PRIMARY KEY CLUSTERED 
+                (
+                  [FooID] ASC
+                ) WITH (STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF)
+                ) 
+                GO
+                *
+1*˛
+1t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csÌ Ô(*ÿ
+’
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csÓ Ó()
+%3string"$System.Text.StringBuilder.ToString()*)
+'
+
+sqlCommandSystem.Text.StringBuilderô
+ñ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csÌ Ô(+
+
+%4bool"@mojoPortal.Data.DBPortal.DatabaseHelperRunScript(string, string)*"
+mojoPortal.Data.DBPortal*
+
+%3string*"
+ 
+overrideConnectionInfostring*
+2
+3
+4
+5*ò
+3t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csÛ Û(ó
+î
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csÛ Û(
+resultbool"__id*
+""*
+4*ò
+2t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs˜ ˜(ó
+î
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs˜ ˜(
+resultbool"__id*
+""*
+4*À
+4t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs˙ ˇ(µ≤
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs˙ ˙(,
+%5System.Text.StringBuilder"System.Text.StringBuilder”
+–
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs˙ ˙(*
+
+%6void")System.Text.StringBuilder.StringBuilder()*!
+
+%5System.Text.StringBuilderÀ
+»
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs˙ ˙(,'
+
+sqlCommandSystem.Text.StringBuilder"__id*!
+
+%5System.Text.StringBuilderÓ
+Î
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs˚ ˇ(
+%7System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*}{
+yALTER TABLE [dbo].[mp_Testdb] ADD
+                [MoreFoo] [nvarchar] (255)  NULL
+                GO
+                *
+6*˛
+6t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csÉ Ö(*ÿ
+’
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csÑ Ñ()
+%8string"$System.Text.StringBuilder.ToString()*)
+'
+
+sqlCommandSystem.Text.StringBuilderô
+ñ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csÉ Ö(+
+
+%9bool"@mojoPortal.Data.DBPortal.DatabaseHelperRunScript(string, string)*"
+mojoPortal.Data.DBPortal*
+
+%8string*"
+ 
+overrideConnectionInfostring*
+7
+8
+9
+5*ò
+8t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csâ â(ó
+î
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csâ â(
+resultbool"__id*
+""*
+9*ò
+7t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csç ç(ó
+î
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csç ç(
+resultbool"__id*
+""*
+9*õ
+9t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csê î(∂≥
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csê ê(, 
+%10System.Text.StringBuilder"System.Text.StringBuilder’
+“
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csê ê(*
+%11void")System.Text.StringBuilder.StringBuilder()*"
+ 
+%10System.Text.StringBuilderÃ
+…
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csê ê(,'
+
+sqlCommandSystem.Text.StringBuilder"__id*"
+ 
+%10System.Text.StringBuilderπ
+∂
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csë î( 
+%12System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+sqlCommandSystem.Text.StringBuilder*GE
+CDROP TABLE [dbo].[mp_Testdb] 
+                GO
+                *
+10*Ö
+10t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csò ò(UŸ
+÷
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csò( ò(=
+%13string"$System.Text.StringBuilder.ToString()*)
+'
+
+sqlCommandSystem.Text.StringBuilderõ
+ò
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csò ò(V
+%14bool"@mojoPortal.Data.DBPortal.DatabaseHelperRunScript(string, string)*"
+mojoPortal.Data.DBPortal*
+
+%13string*"
+ 
+overrideConnectionInfostring*
+11
+12
+13
+5*ö
+12t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csú ú(ó
+î
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.csú ú(
+resultbool"__id*
+""*
+13*ö
+11t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs† †(ó
+î
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs† †(
+resultbool"__id*
+""*
+13*Ö
+13t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs© ©("à
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs© ©(
+
+resultbool*á
+5t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs´	 ´(	"ã
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\dbPortal.cs´ ´(	
+implicit return: 
+overrideConnectionInfostringB"
+mojoPortal.Data.DBPortal

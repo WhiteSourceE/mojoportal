@@ -1,0 +1,429 @@
+
+?mojoPortal.Web.Services.WorldPayPostbackHandler.HandleRequest()}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs8 8(""0*É
+0}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs; B("⁄
+◊
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs; ;(
+%0System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+System.Web.UI.Page–
+Õ
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs; ;(
+
+%1void"System.Web.HttpResponse.Clear()*
+
+%0System.Web.HttpResponse⁄
+◊
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs< <(
+%2System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+System.Web.UI.Page€
+ÿ
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs< <("
+
+%3bool""System.Web.HttpResponse.Buffer.set*
+
+%2System.Web.HttpResponse*
+""Ë
+Â
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs> >(
+%4log4net.ILog"__id*J*H1
+/mojoPortal.Web.Services.WorldPayPostbackHandler"
+loglog4net.ILog‚ﬂ
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs> >('
+
+%5void"log4net.ILog.Info(object)*
+
+%4log4net.ILog*
+Received a post2Info(object)Æ
+´
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs@1 @(W5
+%6/mojoPortal.Web.Commerce.WorldPayPaymentResponse">mojoPortal.Web.Commerce.WorldPayPaymentResponse.ParseRequest()*3"1
+/mojoPortal.Web.Commerce.WorldPayPaymentResponseÄ
+˝
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs@$ @(W=
+
+wpResponse/mojoPortal.Web.Commerce.WorldPayPaymentResponse"__id*7
+5
+%6/mojoPortal.Web.Commerce.WorldPayPaymentResponseá
+Ñ
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csB B("
+
+%7bool""object.operator ==(object, object)*
+"
+object*?
+=
+
+wpResponse/mojoPortal.Web.Commerce.WorldPayPaymentResponse*
+""*
+1
+2*ò
+1}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csD F(9Ë
+Â
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csD D(
+%8log4net.ILog"__id*J*H1
+/mojoPortal.Web.Services.WorldPayPostbackHandler"
+loglog4net.ILogÌÍ
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csD D(6
+
+%9void"log4net.ILog.Info(object)*
+
+%8log4net.ILog*
+wpResponse object was null2Info(object)Æ
+´
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csF F(:
+%10void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*31
+/mojoPortal.Web.Services.WorldPayPostbackHandler"á
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csG G(
+""*¿
+2}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csJ" L(C˚
+¯
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csJ3 J(P+
+%11$mojoPortal.Web.CommerceConfiguration",mojoPortal.Web.SiteUtils.GetCommerceConfig()*"
+mojoPortal.Web.SiteUtilsÔ
+Ï
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csJ" J(P6
+commerceConfig$mojoPortal.Web.CommerceConfiguration"__id*-
++
+%11$mojoPortal.Web.CommerceConfigurationé
+ã
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csL L(8
+%12string"AmojoPortal.Web.CommerceConfiguration.WorldPayResponsePassword.get*8
+6
+commerceConfig$mojoPortal.Web.CommerceConfiguration≤
+Ø
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csL L(?
+
+%13int"string.Length.get*
+
+%12string*
+3
+4*î
+3}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csM M(Sí
+è
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csM M((
+%14string">mojoPortal.Web.Commerce.WorldPayPaymentResponse.CallbackPW.get*?
+=
+
+wpResponse/mojoPortal.Web.Commerce.WorldPayPaymentResponseé
+ã
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csM, M(S
+%15string"AmojoPortal.Web.CommerceConfiguration.WorldPayResponsePassword.get*8
+6
+commerceConfig$mojoPortal.Web.CommerceConfiguration·
+ﬁ
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csM M(S
+%16bool""string.operator !=(string, string)*
+"
+string*
+
+%14string*
+
+%15string*
+5
+4*⁄
+5}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csP T(9È
+Ê
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csP P(
+%17log4net.ILog"__id*J*H1
+/mojoPortal.Web.Services.WorldPayPostbackHandler"
+loglog4net.ILogÆ´
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csP P(u
+%18void"log4net.ILog.Info(object)*
+
+%17log4net.ILog*][
+Yrecieved post but the response password was not correct. so redirecting to access denied.2Info(object)Æ
+´
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csT T(:
+%19void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*31
+/mojoPortal.Web.Services.WorldPayPostbackHandler"á
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csU U(
+""*ñ
+4}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csX Y(.ó
+î
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csX X(%
+%20"__id*
+""©
+¶
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csX X(%
+logGuidSystem.Guid"__id*
+
+%20é
+ã
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csY Y(!
+%21string":mojoPortal.Web.Commerce.WorldPayPaymentResponse.CartId.get*?
+=
+
+wpResponse/mojoPortal.Web.Commerce.WorldPayPaymentResponse≤
+Ø
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csY Y((
+
+%22int"string.Length.get*
+
+%21string*
+6
+7*¨
+6}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs[ \(4È
+Ê
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs[ [(
+%23log4net.ILog"__id*J*H1
+/mojoPortal.Web.Services.WorldPayPostbackHandler"
+loglog4net.ILogÛ
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs[ [(:
+%24void"log4net.ILog.Info(object)*
+
+%23log4net.ILog*" 
+wpResponse.CartId was 36 chars2Info(object)é
+ã
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs\# \(4
+%25string":mojoPortal.Web.Commerce.WorldPayPaymentResponse.CartId.get*?
+=
+
+wpResponse/mojoPortal.Web.Commerce.WorldPayPaymentResponse£†
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs\ \(5
+%26System.Guid"System.Guid–
+Õ
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs\ \("
+%27void"System.Guid.Guid(string)*
+
+%26System.Guid*
+
+%25string∂
+≥
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs\ \(5
+logGuidSystem.Guid"__id*
+
+%26System.Guid*
+7*Õ	
+7}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs_ a(1«ƒ
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs_$ _(:$
+%28mojoPortal.Business.PayPalLog"mojoPortal.Business.PayPalLogá
+Ñ
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs_( _(1
+%29void"4mojoPortal.Business.PayPalLog.PayPalLog(System.Guid)*&
+$
+%28mojoPortal.Business.PayPalLog*
+
+logGuidSystem.Guidﬁ
+€
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs_ _(:,
+worldPayLogmojoPortal.Business.PayPalLog"__id*&
+$
+%28mojoPortal.Business.PayPalLogÒ
+Ó
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csa a(#
+%30System.Guid")mojoPortal.Business.PayPalLog.RowGuid.get*.
+,
+worldPayLogmojoPortal.Business.PayPalLogó
+î
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csa' a(1
+%31"__id*
+""*
+8
+9*ü
+8}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csd e(9È
+Ê
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csd d(
+%32log4net.ILog"__id*J*H1
+/mojoPortal.Web.Services.WorldPayPostbackHandler"
+loglog4net.ILogÛ
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csd d(:
+%33void"log4net.ILog.Info(object)*
+
+%32log4net.ILog*" 
+WorldPay/PayPal log not found 2Info(object)Æ
+´
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cse e(:
+%34void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*31
+/mojoPortal.Web.Services.WorldPayPostbackHandler"á
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csf f(
+""*ª
+9}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csi m(È
+Ê
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csi i(
+%35log4net.ILog"__id*J*H1
+/mojoPortal.Web.Services.WorldPayPostbackHandler"
+loglog4net.ILogÒ
+Ó
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csi+ i(C
+%36string".mojoPortal.Business.PayPalLog.ProviderName.get*.
+,
+worldPayLogmojoPortal.Business.PayPalLog√
+¿
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csi i(C
+%37string"__concat*
+Provider name is *
+
+%36string‡›
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csi i(D
+%38void"log4net.ILog.Info(object)*
+
+%35log4net.ILog*
+
+%37string2Info(object)ﬁ
+€
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csk6 k(fH
+%39AmojoPortal.Web.Commerce.WorldPayResponseHandlerProviderCollection"LmojoPortal.Web.Commerce.WorldPayResponseHandlerProviderManager.Providers.get*B"@
+>mojoPortal.Web.Commerce.WorldPayResponseHandlerProviderManagerÒ
+Ó
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cskg k(
+%40string".mojoPortal.Business.PayPalLog.ProviderName.get*.
+,
+worldPayLogmojoPortal.Business.PayPalLog¨
+©
+~
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csk6 k(Ä>
+%417mojoPortal.Web.Commerce.WorldPayResponseHandlerProvider"
+__arrayGet*J
+H
+%39AmojoPortal.Web.Commerce.WorldPayResponseHandlerProviderCollection*
+
+%40stringè
+å
+~
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csk, k(ÄB
+handler7mojoPortal.Web.Commerce.WorldPayResponseHandlerProvider"__id*@
+>
+%417mojoPortal.Web.Commerce.WorldPayResponseHandlerProviderç
+ä
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csm m(
+%42bool""object.operator ==(object, object)*
+"
+object*D
+B
+handler7mojoPortal.Web.Commerce.WorldPayResponseHandlerProvider*
+""*
+10
+11*ú
+10}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csq u(9¬
+ø
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csq, q(]
+%43string"AmojoPortal.Business.SerializationHelper.SerializeToString(object)*+")
+'mojoPortal.Business.SerializationHelper*?
+=
+
+wpResponse/mojoPortal.Web.Commerce.WorldPayPaymentResponse∑
+¥
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csq q(]
+serializedResponsestring"__id*
+
+%43stringÈ
+Ê
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csr r(
+%44log4net.ILog"__id*J*H1
+/mojoPortal.Web.Services.WorldPayPostbackHandler"
+loglog4net.ILogíè
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csr r(Y
+%45void"log4net.ILog.Info(object)*
+
+%44log4net.ILog*A?
+=failed to find a handler for worldpay postback, xml to follow2Info(object)È
+Ê
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.css s(
+%46log4net.ILog"__id*J*H1
+/mojoPortal.Web.Services.WorldPayPostbackHandler"
+loglog4net.ILogÔÏ
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.css s(,
+%47void"log4net.ILog.Info(object)*
+
+%46log4net.ILog*
+
+serializedResponsestring2Info(object)Æ
+´
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csu u(:
+%48void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*31
+/mojoPortal.Web.Services.WorldPayPostbackHandler"á
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.csv v(
+""*≥
+11}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs{ {(?ß
+§
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs{ {(@
+%49bool"©mojoPortal.Web.Commerce.WorldPayResponseHandlerProvider.HandleRequest(mojoPortal.Web.Commerce.WorldPayPaymentResponse, mojoPortal.Business.PayPalLog, System.Web.UI.Page)*D
+B
+handler7mojoPortal.Web.Commerce.WorldPayResponseHandlerProvider*?
+=
+
+wpResponse/mojoPortal.Web.Commerce.WorldPayPaymentResponse*.
+,
+worldPayLogmojoPortal.Business.PayPalLog*31
+/mojoPortal.Web.Services.WorldPayPostbackHandler*
+12*ö
+12}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs}	 }(	"î
+}
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\WorldPayPostbackHandler.aspx.cs} }(	
+implicit returnB31
+/mojoPortal.Web.Services.WorldPayPostbackHandler

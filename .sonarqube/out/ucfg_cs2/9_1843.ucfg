@@ -1,0 +1,99 @@
+
+]mojoPortal.Web.AdminUI.SiteSettingsPage.TestCurrentUserLdap(mojoPortal.Business.LdapSettings)q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.csÓ Ó(""0*–
+0q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.cs
+ Ú(XŸ÷
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.cs (
+%0System.Web.HttpContext"System.Web.UI.Page.Context.get*
+System.Web.UI.Page2Context.get„
+‡
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.cs (*
+%1$System.Security.Principal.IPrincipal"System.Web.HttpContext.User.get*
+
+%0System.Web.HttpContextêç
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.cs (%)
+%2#System.Security.Principal.IIdentity"1System.Security.Principal.IPrincipal.Identity.get*,
+*
+%1$System.Security.Principal.IPrincipal2Identity.getÈÊ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.cs (*
+%3string",System.Security.Principal.IIdentity.Name.get*+
+)
+%2#System.Security.Principal.IIdentity2Name.getõ
+ò
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.cs
+ (*
+uidstring"__id*
+
+%3stringÖ
+Ç
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.csÒ  Ò(1&
+%4 mojoPortal.Business.SiteSettings"__id*_*])
+'mojoPortal.Web.AdminUI.SiteSettingsPage"0
+selectedSite mojoPortal.Business.SiteSettings∏µ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.csÒ Ò(7"
+%5mojoPortal.Business.SiteUser"mojoPortal.Business.SiteUser¥
+±
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.csÒ Ò(
+
+%6void"OmojoPortal.Business.SiteUser.SiteUser(mojoPortal.Business.SiteSettings, string)*$
+"
+%5mojoPortal.Business.SiteUser*(
+&
+%4 mojoPortal.Business.SiteSettings*
+
+uidstring»
+≈
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.csÒ Ò(7$
+usermojoPortal.Business.SiteUser"__id*$
+"
+%5mojoPortal.Business.SiteUserÿ
+’
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.csÚ0 Ú(>
+%7string"*mojoPortal.Business.SiteUser.LoginName.get*&
+$
+usermojoPortal.Business.SiteUseré
+ã
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.csÚ@ Ú(S'
+%8!System.Web.UI.WebControls.TextBox"__id*g*e)
+'mojoPortal.Web.AdminUI.SiteSettingsPage"8
+txtLdapTestPassword!System.Web.UI.WebControls.TextBoxÂ‚
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.csÚ@ Ú(X
+%9string"*System.Web.UI.WebControls.TextBox.Text.get*)
+'
+%8!System.Web.UI.WebControls.TextBox2Text.get⁄
+◊
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.csÚ
+ Ú(Y
+%10bool"YmojoPortal.Business.LdapHelper.TestUser(mojoPortal.Business.LdapSettings, string, string)*"" 
+mojoPortal.Business.LdapHelper*6
+4
+testLdapSettings mojoPortal.Business.LdapSettings*
+
+%7string*
+
+%9string"Ç
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.csÚ Ú(Z
+
+%10bool*Å
+1q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.csÛ Û("à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SiteSettings.aspx.csÛ Û(
+implicit return:4
+testLdapSettings mojoPortal.Business.LdapSettingsB+)
+'mojoPortal.Web.AdminUI.SiteSettingsPage

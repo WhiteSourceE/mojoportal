@@ -1,0 +1,265 @@
+
+7mojoPortal.Web.Services.RecentContentRss.LoadSettings()v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csK K(!"0*¶	
+0v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csM N($ò
+ï
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csM M(?&
+%0 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperã
+à
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csM M(?^*
+(mojoPortal.Web.Services.RecentContentRss"0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%0 mojoPortal.Business.SiteSettingsã
+à
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csN N(&
+%1 mojoPortal.Business.SiteSettings"__id*`*^*
+(mojoPortal.Web.Services.RecentContentRss"0
+siteSettings mojoPortal.Business.SiteSettingsÈ
+Ê
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csN N($
+
+%2bool""object.operator ==(object, object)*
+"
+object*(
+&
+%1 mojoPortal.Business.SiteSettings*
+""*
+1
+2*˛
+1v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.cs_	 _(	"Ä
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csN( N(/
+""*Ò
+2v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csP T(L·
+ﬁ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csP P(/
+%3string"/mojoPortal.Web.Framework.WebUtils.GetSiteRoot()*%"#
+!mojoPortal.Web.Framework.WebUtils’
+“
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csP P(/B*
+(mojoPortal.Web.Services.RecentContentRss"
+
+cssBaseUrlstring"__id*
+
+%3stringŸ
+÷
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csQ Q(8
+%4string"0mojoPortal.Web.SiteUtils.GetNavigationSiteRoot()*"
+mojoPortal.Web.SiteUtils”
+–
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csQ Q(8@*
+(mojoPortal.Web.Services.RecentContentRss"
+siteRootstring"__id*
+
+%4string√
+¿
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csR  R(/
+%5System.DateTime"System.DateTime.UtcNow.get*"
+System.DateTimeã
+à
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csR_ R(k&
+%6 mojoPortal.Business.SiteSettings"__id*`*^*
+(mojoPortal.Web.Services.RecentContentRss"0
+siteSettings mojoPortal.Business.SiteSettings¶
+£
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csR9 R(l	
+%7int"VmojoPortal.Web.SiteUtils.RecentContentFeedMaxDaysOld(mojoPortal.Business.SiteSettings)*"
+mojoPortal.Web.SiteUtils*(
+&
+%6 mojoPortal.Business.SiteSettings‘
+—
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csR  R(m
+%8System.DateTime"System.DateTime.AddDays(double)*
+
+%5System.DateTime*
+""Ó
+Î
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csR R(mR*
+(mojoPortal.Web.Services.RecentContentRss"$
+modifiedSinceDateSystem.DateTime"__id*
+
+%8System.DateTimeã
+à
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csSs S(&
+%9 mojoPortal.Business.SiteSettings"__id*`*^*
+(mojoPortal.Web.Services.RecentContentRss"0
+siteSettings mojoPortal.Business.SiteSettings∞
+≠
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csSE S(Ä
+
+%10int"^mojoPortal.Web.SiteUtils.RecentContentDefaultItemsToRetrieve(mojoPortal.Business.SiteSettings)*"
+mojoPortal.Web.SiteUtils*(
+&
+%9 mojoPortal.Business.SiteSettingsú
+ô
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csS S(Å
+
+%11int"NmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, bool, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+n*
+""*
+
+
+%10intœ
+Ã
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csS S(Å=*
+(mojoPortal.Web.Services.RecentContentRss"
+maxItemsint"__id*
+
+
+%11intê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csT T(
+%12"__id*
+""Û
+
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csT T(L
+
+%13int"DmojoPortal.Web.WebConfigSettings.RecentContentMaxItemsToRetrieve.get*$""
+ mojoPortal.Web.WebConfigSettings*
+3
+4*î
+3w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csTP T(ëé
+ã
+x
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csTÖ T(ë'
+%14 mojoPortal.Business.SiteSettings"__id*`*^*
+(mojoPortal.Web.Services.RecentContentRss"0
+siteSettings mojoPortal.Business.SiteSettings≠
+™
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csT[ T(í
+
+%15int"ZmojoPortal.Web.SiteUtils.RecentContentMaxItemsToRetrieve(mojoPortal.Business.SiteSettings)*"
+mojoPortal.Web.SiteUtils*)
+'
+%14 mojoPortal.Business.SiteSettingsœ
+Ã
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csTP T(í=*
+(mojoPortal.Web.Services.RecentContentRss"
+maxItemsint"__id*
+
+
+%15int*
+4*¯
+4v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csV \(;ê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csVA V(L
+%16"__id*
+""ó
+î
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csV V(M
+%17System.Guid"OmojoPortal.Web.Framework.WebUtils.ParseGuidFromQueryString(string, System.Guid)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+f*
+
+%16·
+ﬁ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csV V(MH*
+(mojoPortal.Web.Services.RecentContentRss"
+featureGuidSystem.Guid"__id*
+
+%17System.Guidê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csWA W(K
+%18"__id*
+""ä
+á
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csW W(L
+%19bool"HmojoPortal.Web.Framework.WebUtils.ParseBoolFromQueryString(string, bool)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+gc*
+
+%18“
+œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csW W(L@*
+(mojoPortal.Web.Services.RecentContentRss"
+
+getCreatedbool"__id*
+
+%19boolå
+â
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csY Y(E
+
+%20int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+pageid*
+""Ã
+…
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csY Y(E;*
+(mojoPortal.Web.Services.RecentContentRss"
+pageIdint"__id*
+
+
+%20intâ
+Ü
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csZ Z(D
+
+%21int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+mid*
+""Œ
+À
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.csZ Z(D=*
+(mojoPortal.Web.Services.RecentContentRss"
+moduleIdint"__id*
+
+
+%21int⁄
+◊
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.cs\ \(;
+%22string"0mojoPortal.Web.SiteUtils.GetNavigationSiteRoot()*"
+mojoPortal.Web.SiteUtils◊
+‘
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.cs\ \(;C*
+(mojoPortal.Web.Services.RecentContentRss"
+redirectUrlstring"__id*
+
+%22string*
+5*ã
+5v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.cs_	 _(	"ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\RecentContentRss.aspx.cs_ _(	
+implicit returnB,*
+(mojoPortal.Web.Services.RecentContentRss

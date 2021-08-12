@@ -1,0 +1,218 @@
+
+ÜmojoPortal.Web.Framework.ExportHelper.ExportDynamicListToCSV(System.Web.HttpContext, System.Collections.Generic.List<dynamic>, string){
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.csÀ À(1"0*Ù
+0{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.csÕ Õ(È
+Ê
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.csÕ Õ(
+
+%0bool""object.operator ==(object, object)*
+"
+object*#
+!
+contextSystem.Web.HttpContext*
+""*
+1
+2*à
+1{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs›	 ›(	"Ö
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.csÕ# Õ(*
+""*é-
+2{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.csŒ ◊(YÈ
+Ê
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.csŒ Œ(
+%1System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext’
+“
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.csŒ Œ(+
+
+%2void"&System.Web.HttpResponse.ClearHeaders()*
+
+%1System.Web.HttpResponseÈ
+Ê
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.csœ œ(
+%3System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextŒ
+À
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.csœ œ($
+
+%4void"System.Web.HttpResponse.Clear()*
+
+%3System.Web.HttpResponseÈ
+Ê
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs– –(
+%5System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext’
+“
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs– –(+
+
+%6void"&System.Web.HttpResponse.ClearContent()*
+
+%5System.Web.HttpResponseÈ
+Ê
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs— —(
+%7System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextŸ
+÷
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs— —(*
+
+%8bool""System.Web.HttpResponse.Buffer.set*
+
+%7System.Web.HttpResponse*
+""È
+Ê
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs“ “(
+%9System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÁ
+‰
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs“ “(5
+%10string"'System.Web.HttpResponse.ContentType.set*
+
+%9System.Web.HttpResponse*
+
+text/csvÍ
+Á
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs‘ ‘(
+%11System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext 
+«
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs‘A ‘(d
+%12string"__concat*
+attachment;filename="*
+
+filenamestring±
+Æ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs‘A ‘(k
+%13string"__concat*
+
+%12string*
+"è
+å
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs‘ ‘(l
+%14void"4System.Web.HttpResponse.AppendHeader(string, string)* 
+
+%11System.Web.HttpResponse*
+Content-Disposition*
+
+%13stringÍ
+Á
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs’ ’(
+%15System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextª∏
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs’/ ’(A
+%16System.Text.UTF8Encoding"System.Text.UTF8EncodingŸ
+÷
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs’3 ’(?
+%17void"'System.Text.UTF8Encoding.UTF8Encoding()*!
+
+%16System.Text.UTF8Encodingè
+å
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs’ ’(A
+%18System.Text.Encoding"+System.Web.HttpResponse.ContentEncoding.set* 
+
+%15System.Web.HttpResponse*!
+
+%16System.Text.UTF8EncodingÍ
+Á
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs◊< ◊(L
+%19System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÂ
+‚
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs◊< ◊(Y
+%20System.IO.Stream"(System.Web.HttpResponse.OutputStream.get* 
+
+%19System.Web.HttpResponse∑¥
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs◊+ ◊(Z
+%21System.IO.StreamWriter"System.IO.StreamWriterÄ
+˝
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs◊/ ◊(;
+%22void"5System.IO.StreamWriter.StreamWriter(System.IO.Stream)*
+
+%21System.IO.StreamWriter*
+
+%20System.IO.Stream±Æ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs◊ ◊([
+%23CsvHelper.CsvWriter"CsvHelper.CsvWriterÅ
+˛
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs◊! ◊(*
+%24void"3CsvHelper.CsvWriter.CsvWriter(System.IO.TextWriter)*
+
+%23CsvHelper.CsvWriter*
+
+%21System.IO.StreamWriter¿
+Ω
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs◊ ◊([
+csvCsvHelper.CsvWriter"__id*
+
+%23CsvHelper.CsvWriter*
+3*‘
+3{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.csŸ Ÿ((Ã…
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.csŸ Ÿ()
+%25void"@CsvHelper.CsvWriter.WriteRecords(System.Collections.IEnumerable)*
+
+csvCsvHelper.CsvWriter*/
+-
+objects"System.Collections.Generic.List<T>2,WriteRecords(System.Collections.IEnumerable)*
+4*√
+4{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs‹ ‹("Í
+Á
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs‹ ‹(
+%26System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextŒ
+À
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs‹ ‹("
+%27void"System.Web.HttpResponse.End()* 
+
+%26System.Web.HttpResponse*
+5*ï
+5{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs›	 ›(	"í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ExportHelper.cs› ›(	
+implicit return:!
+contextSystem.Web.HttpContext:-
+objects"System.Collections.Generic.List<T>:
+filenamestringB)"'
+%mojoPortal.Web.Framework.ExportHelper

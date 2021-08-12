@@ -1,0 +1,449 @@
+
+EmojoPortal.Web.UI.Pages.LoginPage.Page_Load(object, System.EventArgs)i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csD D("0*¼
+0i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csF F(!Ã
+À
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csF F(!
+
+%0bool")mojoPortal.Web.SiteUtils.SslIsAvailable()*"
+mojoPortal.Web.SiteUtils*
+1
+2*³
+1i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csG G(½
+º
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csG G(
+
+%1void"#mojoPortal.Web.SiteUtils.ForceSsl()*"
+mojoPortal.Web.SiteUtils*
+2*ï
+2i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csH J(æ
+ã
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csH H('
+
+%2void"=mojoPortal.Web.Framework.SecurityHelper.DisableBrowserCache()*+")
+'mojoPortal.Web.Framework.SecurityHelperÄ
+Á
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csJ J(
+%3System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÆ
+Ã
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csJ J(
+
+%4bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%3System.Web.HttpRequest*
+3
+4*ú
+
+3i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csL N(,ÍÊ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csL L( 
+%5System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÈ
+Å
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csL L((
+%6System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+
+%5System.Web.UI.Pageë
+è
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csL L(/8
+%72System.Collections.Specialized.NameValueCollection"!System.Web.HttpRequest.Params.get*
+
+%6System.Web.HttpRequest”‘
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csL L(@
+%8string">System.Collections.Specialized.NameValueCollection.Get(string)*:
+8
+%72System.Collections.Specialized.NameValueCollection*
+	returnurl2Get(string)ž
+›
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csL L(@
+returnUrlParamstring"__id*
+
+%8stringÀ
+½
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csN	 N(-
+
+%9bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+returnUrlParamstring*
+5
+6*ä
+5i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csN1 N(h«
+¨
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csN2 N(J
+%10string"string.ToLower()*
+
+returnUrlParamstring½
+º
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csN2 N(i
+%11bool"string.Contains(string)*
+
+%10string*
+/accessdenied.aspx*
+7
+6*¶
+7i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csP U("ÎË
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csP2 P(6
+%12System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÏ
+Ì
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csP2 P(=#
+%13System.Web.HttpServerUtility"System.Web.UI.Page.Server.get*
+
+%12System.Web.UI.Pageð
+í
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csP2 P(W
+%14string".System.Web.HttpServerUtility.UrlDecode(string)*%
+#
+%13System.Web.HttpServerUtility*
+
+returnUrlParamstringù
+ö
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csP P(X
+%15string"<mojoPortal.Web.Framework.SecurityHelper.RemoveMarkup(string)*+")
+'mojoPortal.Web.Framework.SecurityHelper*
+
+%14stringŸ
+œ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csP P(X
+returnUrlParamstring"__id*
+
+%15stringÎË
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csS S(
+%16System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getà
+Ý
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csS S(9
+%17string"(System.Web.UI.Control.ResolveUrl(string)*
+
+%16System.Web.UI.Page*
+
+returnUrlParamstringœ
+™
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csS S(9
+redirectUrlstring"__id*
+
+%17string¶
+³
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csU U(#
+%18bool"string.StartsWith(string)*
+
+redirectUrlstring*
+/*
+8
+9*±
+8i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csU) U(F·
+´
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csU+ U(G
+%19bool"string.StartsWith(string)*
+
+redirectUrlstring*
+//*
+10
+9*†
+9i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csV
+ V()È
+Å
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csV! V()
+%20string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePageÀ
+½
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csV
+ V(*
+%21bool"string.StartsWith(string)*
+
+redirectUrlstring*
+
+%20string*
+10
+11*Ò
+11i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csW
+ W(GÈ
+Å
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csW! W()
+%22string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePageÉ
+Æ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csW! W(H
+%23string"string.Replace(string, string)*
+
+%22string*
+
+https://*	
+http://À
+½
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csW
+ W(I
+%24bool"string.StartsWith(string)*
+
+redirectUrlstring*
+
+%23string*
+10
+6*œ
+10i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csY Y(1µ
+²
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csY Y(2
+%25void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*%#
+!mojoPortal.Web.UI.Pages.LoginPage*
+
+returnUrlParamstring"s
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csZ Z(
+""*‰
+6i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.cs_ _(;È
+Å
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.cs_! _()
+%26string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage«
+¨
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.cs_! _(;
+%27string"__concat*
+
+%26string*
+/Default.aspxª
+§
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.cs_ _(<
+%28void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*%#
+!mojoPortal.Web.UI.Pages.LoginPage*
+
+%27string"s
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.cs` `(
+""*’
+4i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csc g(+Ö
+Ó
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csc c(
+%29void"2mojoPortal.Web.UI.Pages.LoginPage.PopulateLabels()*%#
+!mojoPortal.Web.UI.Pages.LoginPageî
+ë
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.cse e(	%
+%30mojoPortal.Web.UI.LoginControl"__id*Q*O#
+!mojoPortal.Web.UI.Pages.LoginPage"(
+login1mojoPortal.Web.UI.LoginControlÙ
+Ö
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.cse e(
+%31bool"+mojoPortal.Web.UI.LoginControl.SetFocus.set*'
+%
+%30mojoPortal.Web.UI.LoginControl*
+""ò
+ï
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csg g('
+%32 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÛ
+Ø
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csg g( 
+%33string"1mojoPortal.Business.SiteSettings.LoginInfoTop.get*)
+'
+%32 mojoPortal.Business.SiteSettingsž
+›
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csg g('
+
+%34int"string.Length.get*
+
+%33string*
+12
+13*‰
+12i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csi j(2÷
+ô
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csi i(&
+%35System.Web.UI.WebControls.Panel"__id*Y*W#
+!mojoPortal.Web.UI.Pages.LoginPage"0
+pnlTopContentSystem.Web.UI.WebControls.PanelÝÚ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csi i( 
+%36bool"!System.Web.UI.Control.Visible.set*(
+&
+%35System.Web.UI.WebControls.Panel*
+""2Visible.setû
+ø
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csj j((
+%37!System.Web.UI.WebControls.Literal"__id*[*Y#
+!mojoPortal.Web.UI.Pages.LoginPage"2
+litTopContent!System.Web.UI.WebControls.Literalò
+ï
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csj j(%'
+%38 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÛ
+Ø
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csj j(2
+%39string"1mojoPortal.Business.SiteSettings.LoginInfoTop.get*)
+'
+%38 mojoPortal.Business.SiteSettingsæ
+ã
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csj j(2
+%40string"*System.Web.UI.WebControls.Literal.Text.set**
+(
+%37!System.Web.UI.WebControls.Literal*
+
+%39string*
+13*ð
+13i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csm m(.ò
+ï
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csm m('
+%41 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÞ
+Û
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csm m(#
+%42string"4mojoPortal.Business.SiteSettings.LoginInfoBottom.get*)
+'
+%41 mojoPortal.Business.SiteSettingsž
+›
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csm m(*
+
+%43int"string.Length.get*
+
+%42string*
+14
+15*’
+14i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.cso p(8ú
+÷
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.cso o(&
+%44System.Web.UI.WebControls.Panel"__id*\*Z#
+!mojoPortal.Web.UI.Pages.LoginPage"3
+pnlBottomContentSystem.Web.UI.WebControls.PanelÝÚ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.cso o(#
+%45bool"!System.Web.UI.Control.Visible.set*(
+&
+%44System.Web.UI.WebControls.Panel*
+""2Visible.setþ
+û
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csp p((
+%46!System.Web.UI.WebControls.Literal"__id*^*\#
+!mojoPortal.Web.UI.Pages.LoginPage"5
+litBottomContent!System.Web.UI.WebControls.Literalò
+ï
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csp p(('
+%47 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÞ
+Û
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csp p(8
+%48string"4mojoPortal.Business.SiteSettings.LoginInfoBottom.get*)
+'
+%47 mojoPortal.Business.SiteSettingsæ
+ã
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csp p(8
+%49string"*System.Web.UI.WebControls.Literal.Text.set**
+(
+%46!System.Web.UI.WebControls.Literal*
+
+%48string*
+15*ª
+15i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.css u(!Ü
+Ù
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.css s(
+%50void"8mojoPortal.Web.UI.Pages.LoginPage.SetupReturnUrlCookie()*%#
+!mojoPortal.Web.UI.Pages.LoginPageò
+ï
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csu u('
+%51 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÚ
+×
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csu u(!
+%52bool"2mojoPortal.Business.SiteSettings.DisableDbAuth.get*)
+'
+%51 mojoPortal.Business.SiteSettings*
+16
+17*Ò
+16i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csv v(%ú
+÷
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csv v(&
+%53System.Web.UI.WebControls.Panel"__id*\*Z#
+!mojoPortal.Web.UI.Pages.LoginPage"3
+pnlStandardLoginSystem.Web.UI.WebControls.PanelÝÚ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csv v(%
+%54bool"!System.Web.UI.Control.Visible.set*(
+&
+%53System.Web.UI.WebControls.Panel*
+""2Visible.set*
+17*ò
+17i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csw w("€
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\Login.aspx.csw w(
+implicit return:
+senderobject:
+eSystem.EventArgsB%#
+!mojoPortal.Web.UI.Pages.LoginPage

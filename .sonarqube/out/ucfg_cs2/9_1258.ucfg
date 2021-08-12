@@ -1,0 +1,177 @@
+
+DmojoPortal.SearchIndex.IndexHelper.RemoveIndexItem(int, int, string)|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csÔ Ô(*"0*¯
+0|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csÙ Ù(4Ï
+È
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csÙ Ù(4
+
+%0bool"7mojoPortal.Web.WebConfigSettings.DisableSearchIndex.get*$""
+ mojoPortal.Web.WebConfigSettings*
+1
+2*ä
+1|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csà	 à(	"Ü
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csÙ8 Ù(?
+""*å
+2|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csˆ ¯($û
+õ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csˆ( ˆ(L&
+%1 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper„
+‡
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csˆ ˆ(L0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%1 mojoPortal.Business.SiteSettings˘
+ˆ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs¯ ¯($
+
+%2bool""object.operator ==(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+3
+4*ï
+3|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs˙ ˙(s⁄
+◊
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs˙ ˙(
+%3log4net.ILog"__id*=*;$
+"mojoPortal.SearchIndex.IndexHelper"
+loglog4net.ILog´®
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs˙ ˙(t
+
+%4void"log4net.ILog.Error(object)*
+
+%3log4net.ILog*[Y
+WIndexHelper.RemoveIndexItem tried to obtain a SiteSettings object but it came back null2Error(object)"Ü
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs˚ ˚(
+""*–
+4|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs˛ á(À»
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs˛" ˛(1&
+%5 mojoPortal.SearchIndex.IndexItem" mojoPortal.SearchIndex.IndexItemÂ
+‚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs˛& ˛(/
+
+%6void",mojoPortal.SearchIndex.IndexItem.IndexItem()*(
+&
+%5 mojoPortal.SearchIndex.IndexItem‡
+›
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.cs˛ ˛(1-
+	indexItem mojoPortal.SearchIndex.IndexItem"__id*(
+&
+%5 mojoPortal.SearchIndex.IndexItemÌ
+Í
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csˇ ˇ(2	
+%7int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings˜
+Ù
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csˇ ˇ(2	
+%8int"+mojoPortal.SearchIndex.IndexItem.SiteId.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+	
+%7intÚ
+Ô
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csÄ Ä(%	
+%9int"+mojoPortal.SearchIndex.IndexItem.PageId.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+""ı
+Ú
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csÅ Å()
+
+%10int"-mojoPortal.SearchIndex.IndexItem.ModuleId.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+""Ñ
+Å
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csÇ Ç('
+%11string",mojoPortal.SearchIndex.IndexItem.ItemKey.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+itemKeystringÓ
+Î
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csÉ5 É(H
+
+%12int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsÇ
+ˇ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csÉ" É(I
+%13string":mojoPortal.SearchIndex.IndexHelper.GetSearchIndexPath(int)*&"$
+"mojoPortal.SearchIndex.IndexHelper*
+
+
+%12intÇ
+ˇ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csÉ É(I
+%14string".mojoPortal.SearchIndex.IndexItem.IndexPath.set*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItem*
+
+%13stringπ
+∂
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csÖ Ö("
+%15void"PmojoPortal.SearchIndex.IndexHelper.RemoveIndex(mojoPortal.SearchIndex.IndexItem)*&"$
+"mojoPortal.SearchIndex.IndexHelper*/
+-
+	indexItem mojoPortal.SearchIndex.IndexItemñ
+ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csá á(
+%16"__id*
+""*
+5
+6*À
+5|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csá á(4€
+ÿ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csá á(
+%17log4net.ILog"__id*=*;$
+"mojoPortal.SearchIndex.IndexHelper"
+loglog4net.ILog‰·
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csá á(5
+%18void"log4net.ILog.Debug(object)*
+
+%17log4net.ILog*
+Removed Index 2Debug(object)*
+6*ó
+6|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csà	 à(	"ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SearchIndex\IndexHelper.csà à(	
+implicit return:
+pageIdint:
+moduleIdint:
+itemKeystringB&"$
+"mojoPortal.SearchIndex.IndexHelper

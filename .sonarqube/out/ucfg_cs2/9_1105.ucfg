@@ -1,0 +1,95 @@
+
+9mojoPortal.Business.WebHelpers.CacheHelper.GetTimeZones()p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csé# é(/"0*ã
+0p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csë
+ ì(8›
+˜
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csë
+ ë(
+cacheKeystring"__id*
+
+tzlistº
+·
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csì! ì(-
+%0System.DateTime"System.DateTime.Now.get*"
+System.DateTimeÍ
+Ê
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csì! ì(9
+%1System.DateTime" System.DateTime.AddHours(double)*
+
+%0System.DateTime*2»
+¸
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csì ì(9%
+absoluteExpirationSystem.DateTime"__id*
+
+%1System.DateTime*
+1*}
+1p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs€ €(*
+2
+3*í	
+2p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csð ø(ú
+÷
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csð# ð(5+
+%2%mojoPortal.Web.Caching.ICacheProvider"-mojoPortal.Web.Caching.CacheManager.Cache.get*'"%
+#mojoPortal.Web.Caching.CacheManagerõò
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csð# ö((
+%3"System.Collections.Generic.List<T>"}mojoPortal.Web.Caching.ICacheProvider.Get<T>(string, System.DateTime, mojoPortal.Web.Caching.GetDataToCacheDelegate<T>, bool)*-
++
+%2%mojoPortal.Web.Caching.ICacheProvider*
+
+cacheKeystring*'
+%
+absoluteExpirationSystem.DateTime*
+""*
+""2WGet<T>(string, System.DateTime, mojoPortal.Web.Caching.GetDataToCacheDelegate<T>, bool)Ø
+Õ
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csð ö(/
+	timeZones"System.Collections.Generic.List<T>"__id**
+(
+%3"System.Collections.Generic.List<T>"¥
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csø ø(1
+/
+	timeZones"System.Collections.Generic.List<T>*»
+3p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csü ý(+Ö
+Ó
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csü ü(
+%4log4net.ILog"__id*E*C,
+*mojoPortal.Business.WebHelpers.CacheHelper"
+loglog4net.ILog¿¼
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csü ü(N
+
+%5void",log4net.ILog.Error(object, System.Exception)*
+
+%4log4net.ILog*=;
+9failed to get timeZones from cache so loading it directly*
+
+exSystem.Exception2Error(object, System.Exception)‡
+„
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csý ý(+(
+%6"System.Collections.Generic.List<T>"9mojoPortal.Web.Framework.DateTimeHelper.GetTimeZoneList()*+")
+'mojoPortal.Web.Framework.DateTimeHelper"ž
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.csý ý(,*
+(
+%6"System.Collections.Generic.List<T>*ÿ
+4p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs€ €("‡
+p
+dD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CacheHelper.cs€ €(
+implicit returnB.",
+*mojoPortal.Business.WebHelpers.CacheHelper

@@ -1,0 +1,891 @@
+
+}mojoPortal.Web.LetterSendTask.ReplaceHtmlTokens(string, mojoPortal.Business.LetterSubscriber, mojoPortal.Business.LetterInfo)s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csò ò(("0*›
+
+0s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csú ü()¥±
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csú* ú(=
+%0System.Text.StringBuilder"System.Text.StringBuilder“
+œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csú. ú(;
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilderÕ
+ 
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csú ú(=*
+mergedMessageSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilderá
+Ñ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csù ù(*
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+htmlBodystringÀ
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csü ü(
+%3string"__id*=*;
+mojoPortal.Web.LetterSendTask"
+unsubscribeUrlstring¶
+£
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csü ü(%	
+%4int"string.Length.get*
+
+%3string*
+1
+2*Ü
+1s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs° °(5Ù
+Ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs° °('
+%5System.Guid"1mojoPortal.Business.LetterSubscriber.UserGuid.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberå
+â
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs°+ °(5
+%6"__id*
+""*
+3
+4*°
+3s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs£ ®( å
+â
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs§ §(/
+%7"__id*
+""À
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs•& •(4
+%8string"__id*=*;
+mojoPortal.Web.LetterSendTask"
+unsubscribeUrlstringØ
+¨
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs• •(4
+%9string"__concat*
+	<a href='*
+
+%8string™
+ß
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs• ¶(
+%10string"__concat*
+
+%9string*
+?s=˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs¶" ¶(:
+%11System.Guid"6mojoPortal.Business.LetterSubscriber.SubscribeGuid.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberµ
+≤
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs¶" ¶(E
+%12string"System.Guid.ToString()*
+
+%11System.Guid≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs• ¶(E
+%13string"__concat*
+
+%10string*
+
+%12string™
+ß
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs• ß(
+%14string"__concat*
+
+%13string*
+'>—
+Œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csß! ß(4
+%15string"__id*B*@
+mojoPortal.Web.LetterSendTask"
+unsubscribeLinkTextstring≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs• ß(4
+%16string"__concat*
+
+%14string*
+
+%15string¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs• ®( 
+%17string"__concat*
+
+%16string*
+</a>î
+ë
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs£ ®(! 
+%18System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%7*
+
+%17string*
+2*º
+4s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs≠ ≤(=ç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÆ Æ(/
+%19"__id*
+""Ã
+…
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csØ& Ø(4
+%20string"__id*=*;
+mojoPortal.Web.LetterSendTask"
+unsubscribeUrlstring±
+Æ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csØ Ø(4
+%21string"__concat*
+	<a href='*
+
+%20string´
+®
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csØ ∞(
+%22string"__concat*
+
+%21string*
+?u=ı
+Ú
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∞" ∞(5
+%23System.Guid"1mojoPortal.Business.LetterSubscriber.UserGuid.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberµ
+≤
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∞" ∞(@
+%24string"System.Guid.ToString()*
+
+%23System.Guid≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csØ ∞(@
+%25string"__concat*
+
+%22string*
+
+%24string´
+®
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csØ ±(
+%26string"__concat*
+
+%25string*
+&l=˚
+¯
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs±" ±(;
+%27System.Guid"7mojoPortal.Business.LetterSubscriber.LetterInfoGuid.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberµ
+≤
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs±" ±(F
+%28string"System.Guid.ToString()*
+
+%27System.Guid≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csØ ±(F
+%29string"__concat*
+
+%26string*
+
+%28string™
+ß
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csØ ≤(
+%30string"__concat*
+
+%29string*
+'>—
+Œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs≤! ≤(4
+%31string"__id*B*@
+mojoPortal.Web.LetterSendTask"
+unsubscribeLinkTextstring≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csØ ≤(4
+%32string"__concat*
+
+%30string*
+
+%31string¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csØ ≤(=
+%33string"__concat*
+
+%32string*
+</a>ï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs≠ ≤(> 
+%34System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%19*
+
+%33string*
+2*ˆ
+2s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∂ ∂(%»
+≈
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∂ ∂(
+%35string"__id*9*7
+mojoPortal.Web.LetterSendTask"
+
+webPageUrlstring®
+•
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∂ ∂(!
+
+%36int"string.Length.get*
+
+%35string*
+5
+6*à
+5s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∏ ∫(Pç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csπ π(+
+%37"__id*
+""»
+≈
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∫" ∫(,
+%38string"__id*9*7
+mojoPortal.Web.LetterSendTask"
+
+webPageUrlstring±
+Æ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∫ ∫(,
+%39string"__concat*
+	<a href='*
+
+%38string™
+ß
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∫ ∫(3
+%40string"__concat*
+
+%39string*
+'>œ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∫6 ∫(G
+%41string"__id*@*>
+mojoPortal.Web.LetterSendTask"
+viewAsWebPageTextstring≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∫ ∫(G
+%42string"__concat*
+
+%40string*
+
+%41string¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∫ ∫(P
+%43string"__concat*
+
+%42string*
+</a>ï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs∏ ∫(Q 
+%44System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%37*
+
+%43string*
+7*‘
+6s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csø ø(Kç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csø& ø(=
+%45"__id*
+""¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csø? ø(K
+%46string"__id**
+string"
+Emptystringï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csø ø(L 
+%47System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%45*
+
+%46string*
+7*Ã
+7s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs¬ ≈(0ç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs¬" ¬(6
+%48"__id*
+""Ï
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs¬8 ¬(G
+%49string"-mojoPortal.Business.LetterSubscriber.Name.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberÙ
+Ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs¬Q ¬(h
+%50string"5mojoPortal.Business.LetterSubscriber.EmailAddress.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberî
+ë
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs¬8 ¬(i
+%51string">mojoPortal.Web.Framework.StringHelper.Coalesce(string, string)*)"'
+%mojoPortal.Web.Framework.StringHelper*
+
+%49string*
+
+%50stringï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs¬ ¬(j 
+%52System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%48*
+
+%51stringç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs√" √(7
+%53"__id*
+""Ù
+Ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs√9 √(P
+%54string"5mojoPortal.Business.LetterSubscriber.EmailAddress.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs√ √(Q 
+%55System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%53*
+
+%54stringı
+Ú
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs≈ ≈("
+%56System.Guid"1mojoPortal.Business.LetterSubscriber.UserGuid.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs≈& ≈(0
+%57"__id*
+""*
+8
+9*°
+8s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs… …(4Ò
+Ó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs… …()
+%58string"2mojoPortal.Business.LetterSubscriber.FirstName.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriber®
+•
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs… …(0
+
+%59int"string.Length.get*
+
+%58string*
+10
+11*°
+10s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs…: …(X
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs…: …(M
+%60string"1mojoPortal.Business.LetterSubscriber.LastName.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriber®
+•
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs…: …(T
+
+%61int"string.Length.get*
+
+%60string*
+12
+11*∂
+12s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÃ Õ(Wç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÃ* Ã(C
+%62"__id*
+""Ò
+Ó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÃE Ã(Y
+%63string"2mojoPortal.Business.LetterSubscriber.FirstName.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÃ Ã(Z 
+%64System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%62*
+
+%63stringç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÕ* Õ(B
+%65"__id*
+""
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÕD Õ(W
+%66string"1mojoPortal.Business.LetterSubscriber.LastName.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÕ Õ(X 
+%67System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%65*
+
+%66string*
+13*¢
+11s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs– –(8Ò
+Ó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs– –(-
+%68string"2mojoPortal.Business.LetterSubscriber.FirstName.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriber®
+•
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs– –(4
+
+%69int"string.Length.get*
+
+%68string*
+14
+15*Ú
+
+14s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs” ‘(Pç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs”* ”(C
+%70"__id*
+""Ò
+Ó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs”E ”(Y
+%71string"2mojoPortal.Business.LetterSubscriber.FirstName.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs” ”(Z 
+%72System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%70*
+
+%71stringç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs‘* ‘(B
+%73"__id*
+""¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs‘D ‘(P
+%74string"__id**
+string"
+Emptystringï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs‘ ‘(Q 
+%75System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%73*
+
+%74string*
+13*Ì
+
+15s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csŸ ⁄(Pç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csŸ* Ÿ(C
+%76"__id*
+""Ï
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csŸE Ÿ(T
+%77string"-mojoPortal.Business.LetterSubscriber.Name.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csŸ Ÿ(U 
+%78System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%76*
+
+%77stringç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs⁄* ⁄(B
+%79"__id*
+""¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs⁄D ⁄(P
+%80string"__id**
+string"
+Emptystringï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs⁄ ⁄(Q 
+%81System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%79*
+
+%80string*
+13*°
+9s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÈ È(4Ò
+Ó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÈ È()
+%82string"2mojoPortal.Business.LetterSubscriber.FirstName.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriber®
+•
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÈ È(0
+
+%83int"string.Length.get*
+
+%82string*
+16
+17*°
+16s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÈ: È(X
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÈ: È(M
+%84string"1mojoPortal.Business.LetterSubscriber.LastName.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriber®
+•
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÈ: È(T
+
+%85int"string.Length.get*
+
+%84string*
+18
+17*∂
+18s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÏ Ì(Wç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÏ* Ï(C
+%86"__id*
+""Ò
+Ó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÏE Ï(Y
+%87string"2mojoPortal.Business.LetterSubscriber.FirstName.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÏ Ï(Z 
+%88System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%86*
+
+%87stringç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÌ* Ì(B
+%89"__id*
+""
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÌD Ì(W
+%90string"1mojoPortal.Business.LetterSubscriber.LastName.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÌ Ì(X 
+%91System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%89*
+
+%90string*
+13*¢
+17s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs (8Ò
+Ó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs (-
+%92string"2mojoPortal.Business.LetterSubscriber.FirstName.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriber®
+•
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs (4
+
+%93int"string.Length.get*
+
+%92string*
+19
+20*Ú
+
+19s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÛ Ù(Pç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÛ* Û(C
+%94"__id*
+""Ò
+Ó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÛE Û(Y
+%95string"2mojoPortal.Business.LetterSubscriber.FirstName.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÛ Û(Z 
+%96System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%94*
+
+%95stringç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÙ* Ù(B
+%97"__id*
+""¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÙD Ù(P
+%98string"__id**
+string"
+Emptystringï
+í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÙ Ù(Q 
+%99System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%97*
+
+%98string*
+13*∂
+20s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs˚ ¸(^é
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs˚* ˚(C
+%100"__id*
+""Ì
+Í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs˚E ˚(`
+%101string"3mojoPortal.Business.LetterInfo.FirstNameDefault.get*.
+,
+
+letterInfomojoPortal.Business.LetterInfoò
+ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs˚ ˚(a!
+%102System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%100*
+
+%101stringé
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs¸* ¸(B
+%103"__id*
+""Ï
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs¸D ¸(^
+%104string"2mojoPortal.Business.LetterInfo.LastNameDefault.get*.
+,
+
+letterInfomojoPortal.Business.LetterInfoò
+ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.cs¸ ¸(_!
+%105System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%103*
+
+%104string*
+13*ä
+13s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÇ Ö(+é
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÇ" Ç(=
+%106"__id*
+""Ì
+Í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÇ? Ç(N
+%107string"-mojoPortal.Business.LetterSubscriber.Name.get*4
+2
+
+subscriber$mojoPortal.Business.LetterSubscriberÔ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÇX Ç(u
+%108string"5mojoPortal.Business.LetterInfo.DisplayNameDefault.get*.
+,
+
+letterInfomojoPortal.Business.LetterInfoó
+î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÇ? Ç(v
+%109string">mojoPortal.Web.Framework.StringHelper.Coalesce(string, string)*)"'
+%mojoPortal.Web.Framework.StringHelper*
+
+%107string*
+
+%108stringò
+ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÇ Ç(w!
+%110System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*,
+*
+mergedMessageSystem.Text.StringBuilder*
+
+%106*
+
+%109string‹
+Ÿ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÖ Ö(+
+%111string"$System.Text.StringBuilder.ToString()*,
+*
+mergedMessageSystem.Text.StringBuilder"á
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csÖ Ö(,
+
+%111string*Ü
+21s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csã	 ã(	"ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\LetterSendTask.csã ã(	
+implicit return:
+htmlBodystring:2
+
+subscriber$mojoPortal.Business.LetterSubscriber:,
+
+letterInfomojoPortal.Business.LetterInfoB!
+mojoPortal.Web.LetterSendTask

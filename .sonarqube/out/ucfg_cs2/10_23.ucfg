@@ -1,0 +1,242 @@
+
+fSurveyFeature.Data.DBQuestion.Update(System.Guid, System.Guid, string, string, int, bool, int, string)Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs/ /("0*Ê9
+0Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs: G(˚
+¯
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs:3 :(^
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionStringÿ’
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs: :((
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper√
+¿
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs:  :(2
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*
+mp_SurveyQuestions_Update*2Á
+‰
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs: :()
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelperû
+õ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs<+ <(E
+%3"__id*
+""û
+õ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs<G <(_
+%4"__id*
+""Ï
+È
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs< <(n
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@QuestionGuid*
+
+%3*
+
+%4*
+""û
+õ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs=' =(A
+%6"__id*
+""û
+õ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs=C =([
+%7"__id*
+""Ë
+Â
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs= =(l
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@PageGuid*
+
+%6*
+
+%7*
+""û
+õ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs>+ >(=
+%9"__id*
+""ü
+ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs>D >(\
+%10"__id*
+""ç
+ä
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs> >(k
+%11void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@QuestionName*
+
+%9*2ˇ*
+
+%10*
+
+questionNamestringü
+ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs?+ ?(=
+%12"__id*
+""ü
+ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs?C ?([
+%13"__id*
+""è
+å
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs? ?(j
+%14void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@QuestionText*
+
+%12*
+""*
+
+%13*
+
+questionTextstringü
+ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs@- @(:
+%15"__id*
+""ü
+ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs@< @(T
+%16"__id*
+""Ò
+Ó
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.cs@ @(e
+%17void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@QuestionTypeId*
+
+%15*
+
+%16*
+""ü
+ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csA/ A(<
+%18"__id*
+""ü
+ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csA> A(V
+%19"__id*
+""Û
+
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csA A(i
+%20void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@AnswerIsRequired*
+
+%18*
+
+%19*
+""ü
+ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csB, B(9
+%21"__id*
+""ü
+ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csB; B(S
+%22"__id*
+""
+Ì
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csB B(c
+%23void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@QuestionOrder*
+
+%21*
+
+%22*
+""ü
+ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csC0 C(B
+%24"__id*
+""ü
+ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csCI C(a
+%25"__id*
+""ò
+ï
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csC C(u
+%26void"ÅmojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ValidationMessage*
+
+%24*2ˇ*
+
+%25*
+
+validationMessagestring˘
+ˆ
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csE E(+
+
+%27int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper≥
+∞
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csE E(+
+rowsAffectedint"__id*
+
+
+%27int"è
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csG G(
+""*©
+1Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csH H("ú
+Ñ
+zD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\Survey\DBQuestion.csH H(
+implicit return:
+questionGuidSystem.Guid:
+surveyPageGuidSystem.Guid:
+questionNamestring:
+questionTextstring:
+questionTypeIdint:
+answerIsRequiredbool:
+questionOrderint:
+validationMessagestringB!"
+SurveyFeature.Data.DBQuestion

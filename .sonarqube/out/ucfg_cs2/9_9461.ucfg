@@ -1,0 +1,642 @@
+
+AmojoPortal.Web.mojoMembershipProvider.GetPassword(string, string){
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÓ Ó(*"0*¸
+0{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÄ Ç(4å
+â
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÄ( Ä(9&
+%0 mojoPortal.Business.SiteSettings"7mojoPortal.Web.mojoMembershipProvider.GetSiteSettings()*)"'
+%mojoPortal.Web.mojoMembershipProvider‚
+ﬂ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÄ Ä(90
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%0 mojoPortal.Business.SiteSettings˝
+˙
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÇ Ç(4
+
+%1bool";mojoPortal.Business.SiteSettings.AllowPasswordRetrieval.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+1
+2*¶
+1{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÑ Ö(aÆ
+´
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÖ Ö(b
+%2string"BmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*-+
+)PasswordRetrievalNotEnabledMessage.config÷”
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÑ Ü(,
+%3&mojoPortal.Web.MojoMembershipException"&mojoPortal.Web.MojoMembershipExceptionî
+ë
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÑ Ñ(1
+
+%4void"FmojoPortal.Web.MojoMembershipException.MojoMembershipException(string)*.
+,
+%3&mojoPortal.Web.MojoMembershipException*
+
+%2string*
+3*Â
+2{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csä ä(!⁄
+◊
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csä ä(!
+
+%5bool""string.operator !=(string, string)*
+"
+string*
+
+userNamestring*
+""*
+4
+5*É
+4{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csä' ä(;¯
+ı
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csä' ä(;
+
+%6bool""object.operator !=(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+6
+5*Ÿ
+6{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cså ç((¬ø
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cså$ å(H"
+%7mojoPortal.Business.SiteUser"mojoPortal.Business.SiteUserÕ
+ 
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cså( å(0
+
+%8void"OmojoPortal.Business.SiteUser.SiteUser(mojoPortal.Business.SiteSettings, string)*$
+"
+%7mojoPortal.Business.SiteUser*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+
+userNamestring÷
+”
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cså å(H(
+siteUsermojoPortal.Business.SiteUser"__id*$
+"
+%7mojoPortal.Business.SiteUser‡
+›
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csç ç(#	
+%9int"'mojoPortal.Business.SiteUser.UserId.get**
+(
+siteUsermojoPortal.Business.SiteUser*
+7
+8*Û
+7{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csè è(,Á
+‰
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csè è(,
+%10bool",mojoPortal.Business.SiteUser.IsLockedOut.get**
+(
+siteUsermojoPortal.Business.SiteUser*
+9
+10*…
+9{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csë í(_•
+¢
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csí í(`
+%11string"BmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*#!
+UserAccountLockedMessage.configÈÊ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csë í(a6
+%12/System.Web.Security.MembershipPasswordException"/System.Web.Security.MembershipPasswordException≠
+™
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csë" ë(=
+%13void"SSystem.Web.Security.MembershipPasswordException.MembershipPasswordException(string)*8
+6
+%12/System.Web.Security.MembershipPasswordException*
+
+%11string*
+3*Û
+10{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csï ï(*Â
+‚
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csï ï(*
+%14bool"*mojoPortal.Business.SiteUser.IsDeleted.get**
+(
+siteUsermojoPortal.Business.SiteUser*
+11
+12*≈
+11{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csó ò(Z†
+ù
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csò ò([
+%15string"BmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*
+UserNotFoundMessage.configÈÊ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csó ò(\6
+%16/System.Web.Security.MembershipPasswordException"/System.Web.Security.MembershipPasswordException≠
+™
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csó" ó(=
+%17void"SSystem.Web.Security.MembershipPasswordException.MembershipPasswordException(string)*8
+6
+%16/System.Web.Security.MembershipPasswordException*
+
+%15string*
+3*π
+12{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csõ ú(>ß
+§
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csõ õ(0
+okToGetPasswordbool"__id*
+""Å
+˛
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csú ú(>
+%18bool">mojoPortal.Business.SiteSettings.RequiresQuestionAndAnswer.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+13
+14*Ô
+13{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csû û(3·
+ﬁ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csû û(3
+%19bool""string.operator !=(string, string)*
+"
+string*
+
+passwordAnswerstring*
+""*
+15
+16*Ø
+15{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csû9 û(vÏ
+È
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csû_ û(v
+%20string"/mojoPortal.Business.SiteUser.PasswordAnswer.get**
+(
+siteUsermojoPortal.Business.SiteUser≤
+Ø
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csû9 û(w
+%21bool"KmojoPortal.Web.mojoMembershipProvider.PasswordAnswerIsMatch(string, string)*)'
+%mojoPortal.Web.mojoMembershipProvider*
+
+passwordAnswerstring*
+
+%20string*
+17
+16*±
+17{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs† †(2ß
+§
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs† †(2
+okToGetPasswordbool"__id*
+""*
+18*è
+16{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs§  §(KÅ
+˛
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs§  §(G
+
+%22int"?mojoPortal.Business.SiteSettings.MaxInvalidPasswordAttempts.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+19
+18*€
+19{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¶  ®(YÕ
+ 
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¶  ¶(V
+%23void"^mojoPortal.Business.SiteUser.IncrementPasswordAnswerAttempts(mojoPortal.Business.SiteSettings)**
+(
+siteUsermojoPortal.Business.SiteUser*2
+0
+siteSettings mojoPortal.Business.SiteSettings˝
+˙
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs®$ ®(Y
+%24bool"HmojoPortal.Web.WebConfigSettings.LockAccountOnMaxPasswordAnswerTries.get*$""
+ mojoPortal.Web.WebConfigSettings*
+20
+18*ç
+20{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs™( ™(|˚
+¯
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs™( ™(Q
+
+%25int"AmojoPortal.Business.SiteUser.FailedPasswordAnswerAttemptCount.get**
+(
+siteUsermojoPortal.Business.SiteUserÅ
+˛
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs™U ™(|
+
+%26int"?mojoPortal.Business.SiteSettings.MaxInvalidPasswordAttempts.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+21
+18*Ú
+21{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¨( ¨(AË
+Â
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¨( ¨(A
+%27bool"-mojoPortal.Business.SiteUser.LockoutAccount()**
+(
+siteUsermojoPortal.Business.SiteUser*
+18*±
+14{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs∂ ∂(.ß
+§
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs∂ ∂(.
+okToGetPasswordbool"__id*
+""*
+18*ã
+18{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csπ π(&*
+22
+23*ô
+22{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csª ª(Lã
+à
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csª ª(L
+%28bool"HmojoPortal.Business.SiteSettings.RequirePasswordChangeOnResetRecover.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+24
+25*‹
+24{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csΩ æ(+Ò
+Ó
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csΩ Ω(9
+%29bool".mojoPortal.Business.SiteUser.MustChangePwd.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+""ﬁ
+€
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csæ æ(+
+%30bool"#mojoPortal.Business.SiteUser.Save()**
+(
+siteUsermojoPortal.Business.SiteUser*
+25*∏
+25{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¡ ¡(-Æ´
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¡ ¡(-3
+%31,System.Web.Security.MembershipPasswordFormat"8mojoPortal.Web.mojoMembershipProvider.PasswordFormat.get*)'
+%mojoPortal.Web.mojoMembershipProvider2PasswordFormat.get*
+26*ã
+26{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¡ ¡(-*
+27
+28*˚
+27{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs∆' ∆(8Ê
+„
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs∆' ∆(8
+%32string")mojoPortal.Business.SiteUser.Password.get**
+(
+siteUsermojoPortal.Business.SiteUser"é
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs∆  ∆(9
+
+%32string*ã
+28{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¡ ¡(-*
+29
+30*´
+29{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÃ( Ã(HÍ
+Á
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÃ( Ã(=
+%33string"-mojoPortal.Business.SiteUser.PasswordSalt.get**
+(
+siteUsermojoPortal.Business.SiteUser∞
+≠
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÃ( Ã(D
+
+%34int"string.Length.get*
+
+%33string*
+31
+32*Á
+31|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csŒ/ Œ(¢Ê
+„
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csŒ@ Œ(Q
+%35string")mojoPortal.Business.SiteUser.Password.get**
+(
+siteUsermojoPortal.Business.SiteUserï
+í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csŒS Œ(u
+%36"__id*
+""¬
+ø
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csŒ/ Œ(v
+%37string"lmojoPortal.Web.mojoMembershipProvider.UnencodePassword(string, System.Web.Security.MembershipPasswordFormat)*)'
+%mojoPortal.Web.mojoMembershipProvider*
+
+%35string*
+
+%36Î
+Ë
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csŒ Œ(î
+%38string"-mojoPortal.Business.SiteUser.PasswordSalt.get**
+(
+siteUsermojoPortal.Business.SiteUser∂
+≥
+}
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csŒñ Œ(¢
+%39string"__id**
+string"
+Emptystring„
+‡
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csŒ/ Œ(£
+%40string"string.Replace(string, string)*
+
+%37string*
+
+%38string*
+
+%39string"è
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csŒ( Œ(§
+
+%40string*ÿ
+32{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs“/ “(uÊ
+„
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs“@ “(Q
+%41string")mojoPortal.Business.SiteUser.Password.get**
+(
+siteUsermojoPortal.Business.SiteUserï
+í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs“S “(u
+%42"__id*
+""¬
+ø
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs“/ “(v
+%43string"lmojoPortal.Web.mojoMembershipProvider.UnencodePassword(string, System.Web.Security.MembershipPasswordFormat)*)'
+%mojoPortal.Web.mojoMembershipProvider*
+
+%41string*
+
+%42"é
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs“( “(w
+
+%43string*ç
+33{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÉ	 É(	*
+
+34
+5
+3*Ñ	
+34{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs◊$ ÿ(g›
+⁄
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs◊$ ◊('
+%44log4net.ILog"__id*@*>'
+%mojoPortal.Web.mojoMembershipProvider"
+loglog4net.ILogÔÏ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs◊$ ◊(1
+%45void"log4net.ILog.Error(object)*
+
+%44log4net.ILog*
+
+exSystem.FormatException2Error(object)ÈÊ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÿ* ÿ(h6
+%46/System.Web.Security.MembershipPasswordException"/System.Web.Security.MembershipPasswordExceptionΩ
+∫
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÿ. ÿ(I
+%47void"SSystem.Web.Security.MembershipPasswordException.MembershipPasswordException(string)*8
+6
+%46/System.Web.Security.MembershipPasswordException*
+failure retrieving password*
+3*ä
+30{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs¡ ¡(-*
+35
+5*à&
+35{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs›' Ï(2Ä
+˝
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs›S ›(y
+
+%48int">mojoPortal.Business.SiteSettings.MinRequiredPasswordLength.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsÛ
+
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs› ›(ß
+%49string";mojoPortal.Web.WebConfigSettings.PasswordGeneratorChars.get*$""
+ mojoPortal.Web.WebConfigSettingsã
+à
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs›5 ›(®
+%50string">mojoPortal.Business.SiteUser.CreateRandomPassword(int, string)* "
+mojoPortal.Business.SiteUser*
+""*
+
+%49stringØ
+¨
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs›' ›(®
+newPasswordstring"__id*
+
+%50stringÛ
+
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs‡[ ‡(É
+%51string";mojoPortal.Web.WebConfigSettings.PasswordGeneratorChars.get*$""
+ mojoPortal.Web.WebConfigSettingsä
+á
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs‡8 ‡(Ñ
+%52string">mojoPortal.Business.SiteUser.CreateRandomPassword(int, string)* "
+mojoPortal.Business.SiteUser*2Ä*
+
+%51string¸
+˘
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs‡  ‡(Ñ
+%53string"-mojoPortal.Business.SiteUser.PasswordSalt.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+%52stringÍ
+Á
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs·C ·(X
+%54string"-mojoPortal.Business.SiteUser.PasswordSalt.get**
+(
+siteUsermojoPortal.Business.SiteUser√
+¿
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs·C ·(f
+%55string"__concat*
+
+%54string*
+
+newPasswordstringñ
+ì
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs·h ·(á
+%56"__id*
+""¡
+æ
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs·4 ·(à
+%57string"jmojoPortal.Web.mojoMembershipProvider.EncodePassword(string, System.Web.Security.MembershipPasswordFormat)*)'
+%mojoPortal.Web.mojoMembershipProvider*
+
+%55string*
+
+%56¯
+ı
+|
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs·  ·(à
+%58string")mojoPortal.Business.SiteUser.Password.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+%57stringı
+Ú
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs‚: ‚(U
+
+%59int"3mojoPortal.Business.SiteSettings.PasswordFormat.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings˜
+Ù
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs‚  ‚(U
+
+%60int"/mojoPortal.Business.SiteUser.PasswordFormat.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+
+%59intã
+à
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÂ9 Â(i
+%61bool"HmojoPortal.Business.SiteSettings.RequirePasswordChangeOnResetRecover.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings¯
+ı
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÂ  Â(i
+%62bool".mojoPortal.Business.SiteUser.MustChangePwd.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+%61boolº
+π
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÈ= È(K
+%63System.Guid"System.Guid.NewGuid()*"
+System.Guidä
+á
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÈ  È(K
+%64System.Guid"2mojoPortal.Business.SiteUser.PasswordResetGuid.set**
+(
+siteUsermojoPortal.Business.SiteUser*
+
+%63System.Guidﬁ
+€
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÍ  Í(/
+%65bool"#mojoPortal.Business.SiteUser.Save()**
+(
+siteUsermojoPortal.Business.SiteUser"ñ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÏ  Ï(3
+
+newPasswordstring*â
+23{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÙ Ù(#"Ö
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÙ Ù($
+""*∫
+8{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs˙ ˙(n†
+ù
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs˙0 ˙(o
+%66string"BmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*
+UserNotFoundMessage.configÈÊ
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs˙ ˙(p6
+%67/System.Configuration.Provider.ProviderException"/System.Configuration.Provider.ProviderException£
+†
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.cs˙ ˙(/
+%68void"ISystem.Configuration.Provider.ProviderException.ProviderException(string)*8
+6
+%67/System.Configuration.Provider.ProviderException*
+
+%66string*
+3*à
+5{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÄ Ä("Ö
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÄ Ä(
+""*ï
+3{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÉ	 É(	"í
+{
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoMembershipProvider.csÉ É(	
+implicit return:
+userNamestring:
+passwordAnswerstringB)'
+%mojoPortal.Web.mojoMembershipProvider

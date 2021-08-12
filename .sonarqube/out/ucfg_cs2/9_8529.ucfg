@@ -1,0 +1,290 @@
+
+4mojoPortal.Web.mojoRoleProvider.GetRolesFromCookie()u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs÷ ÷(+"0*Ä
+0u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csù ü($”‘
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csù( ù(5
+%0string[]"string[]°
+­
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csù ù(5
+currentUserRolesstring[]"__id*
+
+%0string[]à
+Ý
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csú ú(4
+%1string"/mojoPortal.Web.Framework.WebUtils.GetHostName()*%"#
+!mojoPortal.Web.Framework.WebUtils¤
+¡
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csú ú(4
+hostNamestring"__id*
+
+%1string—
+”
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csû( û(L&
+%2 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperÜ
+Ù
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csû û(L0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%2 mojoPortal.Business.SiteSettingsò
+ï
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csü ü($
+
+%3bool""object.operator !=(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+1
+2*…
+1u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csþ (&¨
+¥
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csþ( þ(Q
+%4string"LmojoPortal.Web.SiteUtils.GetRoleCookieName(mojoPortal.Business.SiteSettings)*"
+mojoPortal.Web.SiteUtils*2
+0
+siteSettings mojoPortal.Business.SiteSettingsª
+§
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csþ þ(Q
+roleCookieNamestring"__id*
+
+%4string¼¹
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csÿ& ÿ(5"
+%5System.Collections.ArrayList"System.Collections.ArrayListÖ
+Ó
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csÿ* ÿ(3
+
+%6void"(System.Collections.ArrayList.ArrayList()*$
+"
+%5System.Collections.ArrayListÑ
+Î
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csÿ ÿ(5)
+	userRolesSystem.Collections.ArrayList"__id*$
+"
+%5System.Collections.ArrayListØ
+Õ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs€( €(;
+%7System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÜ
+Ù
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs€( €(C
+%8System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%7System.Web.HttpContextå
+â
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs€( €(K%
+%9System.Web.HttpCookieCollection""System.Web.HttpRequest.Cookies.get*
+
+%8System.Web.HttpRequesté
+æ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs€( €([
+%10System.Web.HttpCookie"
+__arrayGet*'
+%
+%9System.Web.HttpCookieCollection*
+
+roleCookieNamestringÅ
+Â
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs€ €([#
+
+roleCookieSystem.Web.HttpCookie"__id*
+
+%10System.Web.HttpCookieæ
+ã
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs (&
+%11bool""object.operator !=(object, object)*
+"
+object*%
+#
+
+roleCookieSystem.Web.HttpCookie*
+""*
+3
+4*ñ
+3u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csƒ. †(&Ñ
+Î
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs„6 „(F
+%12string"System.Web.HttpCookie.Value.get*%
+#
+
+roleCookieSystem.Web.HttpCookie§
+¤
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs„ „(G4
+%13-System.Web.Security.FormsAuthenticationTicket"7System.Web.Security.FormsAuthentication.Decrypt(string)*+")
+'System.Web.Security.FormsAuthentication*
+
+%12stringñ
+î
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csƒ. „(G7
+ticket-System.Web.Security.FormsAuthenticationTicket"__id*6
+4
+%13-System.Web.Security.FormsAuthenticationTicketú
+÷
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs† †(&
+%14bool""object.operator ==(object, object)*
+"
+object*
+""*9
+7
+ticket-System.Web.Security.FormsAuthenticationTicket*
+5
+6*‚
+6u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs†* †(8ý
+ú
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs†* †(8
+%15bool"9System.Web.Security.FormsAuthenticationTicket.Expired.get*9
+7
+ticket-System.Web.Security.FormsAuthenticationTicket*
+5
+7*ú
+5u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs†C †(að
+í
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs†C †(a
+%16string[]">mojoPortal.Web.mojoRoleProvider.GetRolesAndSetCookieInternal()*#"!
+mojoPortal.Web.mojoRoleProvider"Š
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs†< †(b
+
+%16string[]*™
+7u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csˆ Š(B€
+ý
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csˆ# ˆ(2
+%17string":System.Web.Security.FormsAuthenticationTicket.UserData.get*9
+7
+ticket-System.Web.Security.FormsAuthenticationTicket¢
+Ÿ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csˆ ˆ(2
+rolesstring"__id*
+
+%17stringì
+é
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csŠ Š(B
+%18bool"=mojoPortal.Web.WebConfigSettings.PreEncryptRolesForCookie.get*$""
+ mojoPortal.Web.WebConfigSettings*
+8
+9*•
+8u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csŽ Ž(;ä
+á
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csŽ$ Ž(<
+%19string"(mojoPortal.Web.SiteUtils.Decrypt(string)*"
+mojoPortal.Web.SiteUtils*
+
+rolesstring¢
+Ÿ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csŽ Ž(<
+rolesstring"__id*
+
+%19string*
+9
+9
+9
+10*
+9u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs˜, ˜(H‘Ž
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs˜8 ˜(J
+%20char[]"char[]©
+¦
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs˜C ˜(J
+%21"
+__arraySet*
+
+%20char[]*2 *
+;Ì
+É
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs˜, ˜(K
+%22string[]"string.Split(params char[])*
+
+rolesstring*
+
+%20char[]*
+11*„
+11u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs¤	 ¤(	*
+12
+4*Ù
+12u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csš š(*Õ
+Ò
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csš š(+
+
+%23int"
+__arrayAdd*+
+)
+	userRolesSystem.Collections.ArrayList*: *
+
+rolestring*
+11*Ú
+4u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csž ž(MŠ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csž- ž(N
+%24System.Array"1System.Collections.ArrayList.ToArray(System.Type)*+
+)
+	userRolesSystem.Collections.ArrayList*
+""2ToArray(System.Type)ž
+›
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csž# ž(N
+%25"__id*
+
+%24System.Array§
+¤
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.csž ž(N
+currentUserRolesstring[]"__id*
+
+%25*
+2*”
+2u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs£ £(#"—
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs£ £($
+
+currentUserRolesstring[]*Š
+10u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs¤	 ¤(	"Œ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\mojoRoleProvider.cs¤ ¤(	
+implicit returnB#!
+mojoPortal.Web.mojoRoleProvider

@@ -1,0 +1,157 @@
+
+¢mojoPortal.Data.SqlHelper.ExecuteNonQuery(System.Data.SqlClient.SqlTransaction, System.Data.CommandType, string, int, params System.Data.SqlClient.SqlParameter[])u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csÑ Ñ()"0*˙
+0u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csã ã(#ı
+Ú
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csã ã(#
+
+%0bool""object.operator ==(object, object)*
+"
+object*5
+3
+transaction$System.Data.SqlClient.SqlTransaction*
+""*
+1
+2*∫
+1u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csã+ ã(Rºπ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csã+ ã(S"
+%1System.ArgumentNullException"System.ArgumentNullException˘
+ˆ
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csã/ ã(D
+
+%2void":System.ArgumentNullException.ArgumentNullException(string)*$
+"
+%1System.ArgumentNullException*
+transaction*
+3*˙
+2u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.cså å(#ı
+Ú
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.cså å(#
+
+%3bool""object.operator !=(object, object)*
+"
+object*5
+3
+transaction$System.Data.SqlClient.SqlTransaction*
+""*
+4
+5*Ñ
+4u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.cså' å(Eë
+é
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.cså' å(=)
+%4#System.Data.SqlClient.SqlConnection"3System.Data.SqlClient.SqlTransaction.Connection.get*5
+3
+transaction$System.Data.SqlClient.SqlTransactionÎ
+Ë
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.cså' å(E
+
+%5bool""object.operator ==(object, object)*
+"
+object*+
+)
+%4#System.Data.SqlClient.SqlConnection*
+""*
+6
+5*Ö
+6v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csåM å(√µ≤
+v
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csåM å(ƒ
+%6System.ArgumentException"System.ArgumentException 
+«
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csåQ å(b
+
+%7void":System.ArgumentException.ArgumentException(string, string)* 
+
+%6System.ArgumentException*SQ
+OThe transaction was rollbacked or commited, please provide an open transaction.*
+transaction*
+3*Ç
+5u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csé é(8ƒ¡
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csé( é(8&
+%8 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandﬂ
+‹
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csé, é(6
+
+%9void"-System.Data.SqlClient.SqlCommand.SqlCommand()*(
+&
+%8 System.Data.SqlClient.SqlCommand◊
+‘
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csé é(8+
+command System.Data.SqlClient.SqlCommand"__id*(
+&
+%8 System.Data.SqlClient.SqlCommand*
+7*Ú
+7u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csê ö(0í
+è
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csí í(**
+%10#System.Data.SqlClient.SqlConnection"3System.Data.SqlClient.SqlTransaction.Connection.get*5
+3
+transaction$System.Data.SqlClient.SqlTransaction˜
+Ù
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csê ñ(&
+%11void"‹mojoPortal.Data.SqlHelper.PrepareCommand(System.Data.SqlClient.SqlCommand, System.Data.SqlClient.SqlConnection, System.Data.SqlClient.SqlTransaction, System.Data.CommandType, string, System.Data.SqlClient.SqlParameter[])*"
+mojoPortal.Data.SqlHelper*-
++
+command System.Data.SqlClient.SqlCommand*,
+*
+%10#System.Data.SqlClient.SqlConnection*5
+3
+transaction$System.Data.SqlClient.SqlTransaction*
+""*
+
+commandTextstring*;
+9
+commandParameters$System.Data.SqlClient.SqlParameter[]Ú
+Ô
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csò ò(7
+
+%12int"3System.Data.SqlClient.SqlCommand.CommandTimeout.set*-
++
+command System.Data.SqlClient.SqlCommand*
+""È
+Ê
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csö ö(0
+
+%13int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*-
++
+command System.Data.SqlClient.SqlCommand"Ö
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csö ö(1
+
+
+%13int*
+8u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csú	 ú(	*
+3*â
+3u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csú	 ú(	"å
+u
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Data.MSSQL\SqlHelper.csú ú(	
+implicit return:3
+transaction$System.Data.SqlClient.SqlTransaction:&
+commandTypeSystem.Data.CommandType:
+commandTextstring:
+commandTimeoutint:9
+commandParameters$System.Data.SqlClient.SqlParameter[]B"
+mojoPortal.Data.SqlHelper

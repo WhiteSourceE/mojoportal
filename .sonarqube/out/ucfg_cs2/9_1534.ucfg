@@ -1,0 +1,332 @@
+
+1mojoPortal.Web.UI.ParentPageDialog.LoadSettings()v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csî î(!"0*•#
+0v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csñ ü(%ò
+ï
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csñ ñ(?&
+%0 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperÖ
+Ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csñ ñ(?X$
+"mojoPortal.Web.UI.ParentPageDialog"0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%0 mojoPortal.Business.SiteSettingsè
+å
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csóB ó(H
+%1"__id*
+""ã
+à
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csó ó(I	
+%2int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+pageid*
+
+%1≈
+¬
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csó ó(I5$
+"mojoPortal.Web.UI.ParentPageDialog"
+pageIdint"__id*
+	
+%2intÁ
+‰
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csô ô(%
+
+%3bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser»
+≈
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csô ô(%7$
+"mojoPortal.Web.UI.ParentPageDialog"
+isAdminbool"__id*
+
+
+%3boolÓ
+Î
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csö ö(3
+
+%4bool"9mojoPortal.Business.WebHelpers.WebUser.IsContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUserœ
+Ã
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csö ö(3>$
+"mojoPortal.Web.UI.ParentPageDialog"
+isContentAdminbool"__id*
+
+
+%4bool“
+œ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csõ õ(7
+
+%5bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtilsÕ
+ 
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csõ õ(7<$
+"mojoPortal.Web.UI.ParentPageDialog"
+isSiteEditorbool"__id*
+
+
+%5boolö
+ó
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csù ù(1
+%6+System.Web.UI.WebControls.SiteMapDataSource"__id*d*b$
+"mojoPortal.Web.UI.ParentPageDialog":
+SiteMapData+System.Web.UI.WebControls.SiteMapDataSourceÖ
+Ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csù7 ù(C&
+%7 mojoPortal.Business.SiteSettings"__id*Z*X$
+"mojoPortal.Web.UI.ParentPageDialog"0
+siteSettings mojoPortal.Business.SiteSettings›
+⁄
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csù7 ù(J	
+%8int"+mojoPortal.Business.SiteSettings.SiteId.get*(
+&
+%7 mojoPortal.Business.SiteSettings˜
+Ù
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csù7 ù(^
+%9string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+	
+%8int≤
+Ø
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csù* ù(^
+%10string"__concat*
+
+mojosite*
+
+%9string¶£
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csù ù(^
+%11string"?System.Web.UI.WebControls.SiteMapDataSource.SiteMapProvider.set*3
+1
+%6+System.Web.UI.WebControls.SiteMapDataSource*
+
+%10string2SiteMapProvider.setá
+Ñ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csü ü(*
+%12#System.Web.UI.WebControls.HyperLink"__id*X*V$
+"mojoPortal.Web.UI.ParentPageDialog".
+lnkRoot#System.Web.UI.WebControls.HyperLinkê
+ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csü ü(%
+%13"__id*
+""*
+1
+2*ì
+2v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csü) ü(7ê
+ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csü) ü(7
+%14"__id*
+""*
+1*É
+1v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs©	 ©(	*
+3
+4*ì
+4v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csü; ü(Gê
+ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csü; ü(G
+%15"__id*
+""*
+3*É
+3v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs©	 ©(	*
+5
+6*à
+6w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csüK ü(ÖÜ
+É
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csü] ü(i'
+%16 mojoPortal.Business.SiteSettings"__id*Z*X$
+"mojoPortal.Web.UI.ParentPageDialog"0
+siteSettings mojoPortal.Business.SiteSettings¯
+ı
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csü] ü(Ö
+%17string"@mojoPortal.Business.SiteSettings.RolesThatCanCreateRootPages.get*)
+'
+%16 mojoPortal.Business.SiteSettingsÄ
+˝
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csüK ü(Ü
+%18bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%17string*
+5*˚&
+5v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csü ¶($ÔÏ
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.csü ü(Ü
+%19bool"!System.Web.UI.Control.Visible.set*,
+*
+%12#System.Web.UI.WebControls.HyperLink*
+""2Visible.setá
+Ñ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs† †(*
+%20#System.Web.UI.WebControls.HyperLink"__id*X*V$
+"mojoPortal.Web.UI.ParentPageDialog".
+lnkRoot#System.Web.UI.WebControls.HyperLink–
+Õ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs† †(9
+%21string",Resources.Resource.PageSettingsRootLabel.get*"
+Resources.ResourceÅ˛
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs† †(9
+%22string",System.Web.UI.WebControls.HyperLink.Text.set*,
+*
+%20#System.Web.UI.WebControls.HyperLink*
+
+%21string2Text.setá
+Ñ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs° °(*
+%23#System.Web.UI.WebControls.HyperLink"__id*X*V$
+"mojoPortal.Web.UI.ParentPageDialog".
+lnkRoot#System.Web.UI.WebControls.HyperLink–
+Õ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs°K °(i
+%24string",Resources.Resource.PageSettingsRootLabel.get*"
+Resources.Resourceœ
+Ã
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs°" °(i
+%25string"__concat*(&
+$javascript:top.window.SetPage('-1','*
+
+%24stringÆ
+´
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs°" °(q
+%26string"__concat*
+
+%25string*
+');˛
+˚
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs° °(q
+%27string"3System.Web.UI.WebControls.HyperLink.NavigateUrl.set*,
+*
+%23#System.Web.UI.WebControls.HyperLink*
+
+%26stringà
+Ö
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs£ £((
+%28!System.Web.UI.WebControls.Literal"__id*[*Y$
+"mojoPortal.Web.UI.ParentPageDialog"1
+litStyleLink!System.Web.UI.WebControls.Literal€ÿ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs£R £(V
+%29System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get˚
+¯
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs£R £(à
+%30string"(System.Web.UI.Control.ResolveUrl(string)*
+
+%29System.Web.UI.Page*'%
+#~/Data/style/mojotreeview/style.cssŸ
+÷
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs£  £(à
+%31string"__concat*1/
+-<link rel='stylesheet' type='text/css' href='*
+
+%30string±
+Æ
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs£  £(í
+%32string"__concat*
+
+%31string*	
+' /> Ù
+Ò
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs£ £(í
+%33string"*System.Web.UI.WebControls.Literal.Text.set**
+(
+%28!System.Web.UI.WebControls.Literal*
+
+%32string€ÿ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs•( •(,
+%34System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÿ
+’
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs•( •(3
+%35System.Web.UI.MasterPage"System.Web.UI.Page.Master.get*
+
+%34System.Web.UI.Pageèå
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs•( •(P
+%36System.Web.UI.Control")System.Web.UI.Control.FindControl(string)*!
+
+%35System.Web.UI.MasterPage*
+ScriptInclude2FindControl(string)ø
+º
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs•( •(`
+%37System.Web.UI.Control"__id*
+
+%36System.Web.UI.Control—
+Œ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs• •(`.
+scriptLoadermojoPortal.Web.UI.ScriptLoader"__id*
+
+%37System.Web.UI.ControlÚ
+Ô
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs¶ ¶($
+%38bool""object.operator !=(object, object)*
+"
+object*0
+.
+scriptLoadermojoPortal.Web.UI.ScriptLoader*
+""*
+7
+8*¸
+7v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs¶( ¶(N˘
+ˆ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs¶( ¶(N
+%39bool"5mojoPortal.Web.UI.ScriptLoader.IncludeAspTreeView.set*0
+.
+scriptLoadermojoPortal.Web.UI.ScriptLoader*
+""*
+8*ã
+8v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs©	 ©(	"ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\ParentPageDialog.aspx.cs© ©(	
+implicit returnB&$
+"mojoPortal.Web.UI.ParentPageDialog

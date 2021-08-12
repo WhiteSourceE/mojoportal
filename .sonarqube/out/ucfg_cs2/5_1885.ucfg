@@ -1,0 +1,170 @@
+
+~mojoPortal.Business.LdapHelper.GetOneUserEntry(Novell.Directory.Ldap.LdapConnection, mojoPortal.Business.LdapSettings, string)r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csX! X(0"0*©
+0r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs^" l(×Ô
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs^0 ^(K1
+%0+Novell.Directory.Ldap.LdapSearchConstraints"+Novell.Directory.Ldap.LdapSearchConstraintsý
+ú
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs^4 ^(I
+
+%1void"CNovell.Directory.Ldap.LdapSearchConstraints.LdapSearchConstraints()*3
+1
+%0+Novell.Directory.Ldap.LdapSearchConstraintsî
+ë
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs^" ^(K:
+constraints+Novell.Directory.Ldap.LdapSearchConstraints"__id*3
+1
+%0+Novell.Directory.Ldap.LdapSearchConstraintsµ
+²
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cs` `((.
+queue%Novell.Directory.Ldap.LdapSearchQueue"__id*
+""æ
+ã
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csb b(#
+%2string"+mojoPortal.Business.LdapSettings.RootDN.get*2
+0
+ldapSettings mojoPortal.Business.LdapSettings‹
+ˆ
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csc c((
+%3"__id*
+""é
+æ
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csd d(&
+%4string".mojoPortal.Business.LdapSettings.UserDNKey.get*2
+0
+ldapSettings mojoPortal.Business.LdapSettings¦
+£
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csd d(,
+%5string"__concat*
+
+%4string*
+=³
+°
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csd d(5
+%6string"__concat*
+
+%5string*
+
+searchstring‹
+ˆ
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csg g(%
+%7"__id*
+""‹
+ˆ
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csh h(+
+%8"__id*
+""ÄÁ
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csa h(,+
+%9%Novell.Directory.Ldap.LdapSearchQueue"¤Novell.Directory.Ldap.LdapConnection.Search(string, int, string, string[], bool, Novell.Directory.Ldap.LdapSearchQueue, Novell.Directory.Ldap.LdapSearchConstraints)*.
+,
+conn$Novell.Directory.Ldap.LdapConnection*
+
+%2string*
+
+%3*
+
+%6string*
+""*
+""*
+
+%7*
+
+%82Search(string, int, string, string[], bool, Novell.Directory.Ldap.LdapSearchQueue, Novell.Directory.Ldap.LdapSearchConstraints)Ü
+Ù
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csa h(,.
+queue%Novell.Directory.Ldap.LdapSearchQueue"__id*-
++
+%9%Novell.Directory.Ldap.LdapSearchQueue¯
+¬
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csj j("(
+entryNovell.Directory.Ldap.LdapEntry"__id*
+""î
+ë
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csl l(
+%10bool""object.operator !=(object, object)*
+"
+object*0
+.
+queue%Novell.Directory.Ldap.LdapSearchQueue*
+""*
+1
+2*ã
+1r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csn o(#˜•
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csn& n(9(
+%11!Novell.Directory.Ldap.LdapMessage"4Novell.Directory.Ldap.LdapMessageQueue.getResponse()*0
+.
+queue%Novell.Directory.Ldap.LdapSearchQueue2getResponse()×
+Ô
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csn n(9,
+message!Novell.Directory.Ldap.LdapMessage"__id**
+(
+%11!Novell.Directory.Ldap.LdapMessageì
+é
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.cso o(#
+%12bool""object.operator !=(object, object)*
+"
+object*.
+,
+message!Novell.Directory.Ldap.LdapMessage*
+""*
+3
+2*
+3r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csq q(3*
+4
+2*ï
+4r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.css s(:´
+±
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.css! s(:
+%13"__id*.
+,
+message!Novell.Directory.Ldap.LdapMessageåâ
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.css  s(A&
+%14Novell.Directory.Ldap.LdapEntry"0Novell.Directory.Ldap.LdapSearchResult.Entry.get*
+
+%132	Entry.getÑ
+Î
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.css s(A(
+entryNovell.Directory.Ldap.LdapEntry"__id*(
+&
+%14Novell.Directory.Ldap.LdapEntry*
+2*š
+2r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csx x(" 
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csx x(*
+(
+entryNovell.Directory.Ldap.LdapEntry*ƒ
+5r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csy	 y(	"‰
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\LdapHelper.csy y(	
+implicit return:,
+conn$Novell.Directory.Ldap.LdapConnection:0
+ldapSettings mojoPortal.Business.LdapSettings:
+searchstringB"" 
+mojoPortal.Business.LdapHelper

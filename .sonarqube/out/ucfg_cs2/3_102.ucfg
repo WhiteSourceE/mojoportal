@@ -1,0 +1,74 @@
+
+SmojoPortal.Web.Framework.ImportHelper.GetDynamicListFromCSV(System.IO.Stream, bool)y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs$ (9"0*∫
+0y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs (D¥±
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs (,
+%0System.IO.StreamReader"System.IO.StreamReaderÉ
+Ä
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs ( 
+
+%1void"5System.IO.StreamReader.StreamReader(System.IO.Stream)*
+
+%0System.IO.StreamReader* 
+
+
+fileStreamSystem.IO.Streamÿ’
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs (F.
+%2(CsvHelper.Configuration.CsvConfiguration"(CsvHelper.Configuration.CsvConfiguration˘
+ˆ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs ($
+
+%3void";CsvHelper.Configuration.CsvConfiguration.CsvConfiguration()*0
+.
+%2(CsvHelper.Configuration.CsvConfigurationóî
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs) (D
+
+%4bool"<CsvHelper.Configuration.CsvConfiguration.HasHeaderRecord.set*0
+.
+%2(CsvHelper.Configuration.CsvConfiguration*
+""2HasHeaderRecord.setÆ´
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs (G
+%5CsvHelper.CsvReader"CsvHelper.CsvReaderÿ
+’
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs ( 
+
+%6void"]CsvHelper.CsvReader.CsvReader(System.IO.TextReader, CsvHelper.Configuration.CsvConfiguration)*
+
+%5CsvHelper.CsvReader*
+
+%0System.IO.StreamReader*0
+.
+%2(CsvHelper.Configuration.CsvConfigurationÇˇ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs (&/
+%7)System.Collections.Generic.IEnumerable<T>"#CsvHelper.CsvReader.GetRecords<T>()*
+
+%5CsvHelper.CsvReader2GetRecords<T>()–
+Õ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs (/(
+%8"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%7)System.Collections.Generic.IEnumerable<T>"ß
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs (0*
+(
+%8"System.Collections.Generic.List<T>*ë
+1y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs	 (	"ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\ImportHelper.cs (	
+implicit return:
+
+fileStreamSystem.IO.Stream:
+	hasHeaderboolB)"'
+%mojoPortal.Web.Framework.ImportHelper

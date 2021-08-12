@@ -1,0 +1,208 @@
+
+#mojoPortal.Web.SiteUtils.ClearSsl()n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs» »("0*©
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs½ ½("Ñ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs½ ½(
+%0System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext×
+Ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs½ ½("
+
+%1bool""object.operator ==(object, object)*
+"
+object*
+
+%0System.Web.HttpContext*
+""*
+1
+2*í
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÕ Õ("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs½& ½(-
+""*â
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿ ¿(2ä
+á
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿ ¿(2
+
+%2bool"=mojoPortal.Web.WebConfigSettings.ClearSslOnNonSecurePages.get*$""
+ mojoPortal.Web.WebConfigSettings*
+3
+4*í
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÕ Õ("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿6 ¿(=
+""*‡
+
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÁ
+ Â("Ñ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÁ Á('
+%3System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÕ
+Ò
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÁ Á(/
+%4System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%3System.Web.HttpContextÅ
+Â
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÁ Á(3
+%5
+System.Uri"System.Web.HttpRequest.Url.get*
+
+%4System.Web.HttpRequest¸µ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÁ Á(>
+%6string"System.Uri.ToString()*
+
+%5
+System.Uri2
+ToString()œ
+™
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÁ
+ Á(>
+pageUrlstring"__id*
+
+%6string»
+¸
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÂ Â(#
+
+%7bool"string.StartsWith(string)*
+
+pageUrlstring*
+
+https:*
+5
+6*Ý
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÄ Æ(-ß
+Ü
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÆ Æ(-
+
+%8bool"8mojoPortal.Web.WebConfigSettings.IsRunningInRootSite.get*$""
+ mojoPortal.Web.WebConfigSettings*
+7
+8*¨
+
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÈ É()á
+Þ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÈ È(1
+%9string"7mojoPortal.Web.Framework.WebUtils.GetInSecureSiteRoot()*%"#
+!mojoPortal.Web.Framework.WebUtilsÒ
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÉ É(
+%10System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext×
+Ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÉ É("
+%11System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%10System.Web.HttpContextÆ
+Ã
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÉ É()
+%12string"!System.Web.HttpRequest.RawUrl.get*
+
+%11System.Web.HttpRequest­
+ª
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÈ É()
+%13string"__concat*
+
+%9string*
+
+%12string¡
+ž
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÈ É()
+insecureUrlstring"__id*
+
+%13string*
+9*ª
+
+8n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÎ Ï()â
+ß
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÎ Î(1
+%14string"7mojoPortal.Web.Framework.WebUtils.GetInSecureHostRoot()*%"#
+!mojoPortal.Web.Framework.WebUtilsÒ
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÏ Ï(
+%15System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext×
+Ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÏ Ï("
+%16System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%15System.Web.HttpContextÆ
+Ã
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÏ Ï()
+%17string"!System.Web.HttpRequest.RawUrl.get*
+
+%16System.Web.HttpRequest®
+«
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÎ Ï()
+%18string"__concat*
+
+%14string*
+
+%17string¡
+ž
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÎ Ï()
+insecureUrlstring"__id*
+
+%18string*
+9*Ÿ
+9n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÓ Ó(;Ò
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÓ Ó(
+%19System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÙ
+Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÓ Ó( 
+%20System.Web.HttpResponse"#System.Web.HttpContext.Response.get*
+
+%19System.Web.HttpContextó
+ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÓ Ó(<
+%21void".System.Web.HttpResponse.Redirect(string, bool)* 
+
+%20System.Web.HttpResponse*
+
+insecureUrlstring*
+""*
+6*û
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÕ Õ("…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÕ Õ(
+implicit returnB"
+mojoPortal.Web.SiteUtils

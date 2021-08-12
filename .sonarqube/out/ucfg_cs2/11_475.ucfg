@@ -1,0 +1,157 @@
+
+:PollFeature.Business.PollOption.GetPollOption(System.Guid)€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csn n(""0*ë
+0€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csp p(MŠ
+‡
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csp( p(N
+%0System.Data.IDataReader"8PollFeature.Data.DBPollOption.GetPollOption(System.Guid)*!"
+PollFeature.Data.DBPollOption*
+""Ð
+Í
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csp p(N!
+readerSystem.Data.IDataReader"__id*
+
+%0System.Data.IDataReader*
+1*ð
+1€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csr r(!ßÜ
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csr r(!
+
+%1bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*å
+2€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.cst y(0ƒ€
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.cst- t(?
+%2object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+PollGuid2this[string].getÃÀ
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.cst- t(J
+%3string"object.ToString()*
+
+%2object2
+ToString()¦£
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.cst$ t(K
+%4System.Guid"System.GuidÑ
+Î
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.cst( t(,
+
+%5void"System.Guid.Guid(string)*
+
+%4System.Guid*
+
+%3stringß
+Ü
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.cst t(K<!
+PollFeature.Business.PollOption"
+pollGuidSystem.Guid"__id*
+
+%4System.Guidþ
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csu" u(2
+%6object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+Answer2this[string].getÃÀ
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csu" u(=
+%7string"object.ToString()*
+
+%6object2
+ToString()Ó
+Ð
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csu u(=5!
+PollFeature.Business.PollOption"
+answerstring"__id*
+
+%7string€ý
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csv+ v(:
+%8object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Order2this[string].getÃÀ
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csv+ v(E
+%9string"object.ToString()*
+
+%8object2
+ToString()¾
+»
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csv! v(F
+
+%10int"int.Parse(string)*"
+int*
+
+%9stringÍ
+Ê
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csv v(F1!
+PollFeature.Business.PollOption"
+orderint"__id*
+
+
+%10intþ
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csw+ w(:
+%11object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Votes2this[string].getÅÂ
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csw+ w(E
+%12string"object.ToString()*
+
+%11object2
+ToString()¿
+¼
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csw! w(F
+
+%13int"int.Parse(string)*"
+int*
+
+%12stringÍ
+Ê
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csw w(F1!
+PollFeature.Business.PollOption"
+votesint"__id*
+
+
+%13intÔ
+Ñ
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.csy y(0>!
+PollFeature.Business.PollOption"
+
+optionGuidSystem.Guid"__id*
+""*
+3*‹
+3€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.cs|	 |(	*
+4*¡
+4€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.cs|	 |(	"˜
+€
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Poll\PollOption.cs| |(	
+implicit return:
+
+optionGuidSystem.GuidB#!
+PollFeature.Business.PollOption

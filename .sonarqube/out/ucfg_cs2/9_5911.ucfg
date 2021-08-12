@@ -1,0 +1,1090 @@
+
+QmojoPortal.Web.AdminUI.PagePermissionPage.btnSave_Click(object, System.EventArgs)s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs ("0*ü
+
+0s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÚ ˆ(#õ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÚ Ú($
+reIndexPagebool"__id*
+""È
+Ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÙ# Ù(A"
+%0mojoPortal.Business.SiteUser"-mojoPortal.Web.SiteUtils.GetCurrentSiteUser()*"
+mojoPortal.Web.SiteUtils—
+Œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÙ Ù(A+
+currentUsermojoPortal.Business.SiteUser"__id*$
+"
+%0mojoPortal.Business.SiteUser´
+®
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csı ı(*
+%1string"__id**
+string"
+Emptystring¢
+ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csı ı(*
+userNamestring"__id*
+
+%1stringÎ
+Ë
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csˆ ˆ(#
+
+%2bool""object.operator !=(object, object)*
+"
+object*-
++
+currentUsermojoPortal.Business.SiteUser*
+""*
+1
+2*Å
+1s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs¯ ¯(+‹
+Ÿ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs¯ ¯(+
+%3string"%mojoPortal.Business.SiteUser.Name.get*-
++
+currentUsermojoPortal.Business.SiteUser¢
+ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs¯ ¯(+
+userNamestring"__id*
+
+%3string*
+2*â
+2s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs˚ ˚($ì
+ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs˚ ˚(+
+%4%System.Web.UI.WebControls.RadioButton"__id*f*d+
+)mojoPortal.Web.AdminUI.PagePermissionPage"5
+rbAdminsOnly%System.Web.UI.WebControls.RadioButtonÌ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs˚ ˚($
+
+%5bool".System.Web.UI.WebControls.CheckBox.Checked.get*-
++
+%4%System.Web.UI.WebControls.RadioButton2Checked.get*
+3
+4*⁄
+3s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs˝ ˝()⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs˝ ˝()
+%6string"__id*L*J+
+)mojoPortal.Web.AdminUI.PagePermissionPage"
+currentPermissionstring*
+5*Ä
+5s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs˝ ˝()*
+6
+7*Æ
+6s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÄ Ä(DÓ
+Î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÄ Ä('&
+%7 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageÊ
+„
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÄ Ä(7
+%8string"4mojoPortal.Business.PageSettings.AuthorizedRoles.get*(
+&
+%7 mojoPortal.Business.PageSettings—
+Œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÄ Ä(D
+
+%9bool""string.operator !=(string, string)*
+"
+string*
+
+%8string*	
+Admins;*
+8
+9*Ω
+8s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÇ á(.Ÿ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÇ Ç(
+%10log4net.ILog"__id*D*B+
+)mojoPortal.Web.AdminUI.PagePermissionPage"
+loglog4net.ILog≤
+Ø
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÇ% Ç(7
+%11string"__concat*	
+user *
+
+userNamestring≈
+¬
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÇ% Ç(Y
+%12string"__concat*
+
+%11string*!
+ changed page View roles for Ô
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÇ\ Ç(g'
+%13 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage·
+ﬁ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÇ\ Ç(p
+%14string"-mojoPortal.Business.PageSettings.PageName.get*)
+'
+%13 mojoPortal.Business.PageSettings≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÇ% Ç(p
+%15string"__concat*
+
+%12string*
+
+%14string≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÇ% É(/
+%16string"__concat*
+
+%15string*
+ to Admins π
+∂
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÇ% Ñ(5
+%17string"__concat*
+
+%16string*
+ from ip address œ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÑ8 Ñ(Q
+%18string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtils≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÇ% Ñ(Q
+%19string"__concat*
+
+%17string*
+
+%18string÷”
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÇ Ñ(R
+%20void"log4net.ILog.Info(object)*
+
+%10log4net.ILog*
+
+%19string2Info(object)Ô
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÜ Ü(''
+%21 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageı
+Ú
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÜ Ü(C
+%22string"4mojoPortal.Business.PageSettings.AuthorizedRoles.set*)
+'
+%21 mojoPortal.Business.PageSettings*	
+Admins;õ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csá á(.
+reIndexPagebool"__id*
+""*
+9*~
+9s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs„	 „(	*
+10*Ç
+7s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs˝ ˝()*
+11
+12*∞
+11s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cså å(>Ô
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cså å(''
+%23 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cså å(1
+%24string".mojoPortal.Business.PageSettings.EditRoles.get*)
+'
+%23 mojoPortal.Business.PageSettings”
+–
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cså å(>
+%25bool""string.operator !=(string, string)*
+"
+string*
+
+%24string*	
+Admins;*
+13
+14*õ
+13s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csé í(=Ÿ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csé é(
+%26log4net.ILog"__id*D*B+
+)mojoPortal.Web.AdminUI.PagePermissionPage"
+loglog4net.ILog≤
+Ø
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csé% é(7
+%27string"__concat*	
+user *
+
+userNamestring≈
+¬
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csé% é(Y
+%28string"__concat*
+
+%27string*!
+ changed page Edit roles for Ô
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csé\ é(g'
+%29 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage·
+ﬁ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csé\ é(p
+%30string"-mojoPortal.Business.PageSettings.PageName.get*)
+'
+%29 mojoPortal.Business.PageSettings≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csé% é(p
+%31string"__concat*
+
+%28string*
+
+%30string≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csé% è(/
+%32string"__concat*
+
+%31string*
+ to Admins π
+∂
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csé% ê(5
+%33string"__concat*
+
+%32string*
+ from ip address œ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csê8 ê(Q
+%34string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtils≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csé% ê(Q
+%35string"__concat*
+
+%33string*
+
+%34string÷”
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csé ê(R
+%36void"log4net.ILog.Info(object)*
+
+%26log4net.ILog*
+
+%35string2Info(object)Ô
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csí í(''
+%37 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageÔ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csí í(=
+%38string".mojoPortal.Business.PageSettings.EditRoles.set*)
+'
+%37 mojoPortal.Business.PageSettings*	
+Admins;*
+14*
+14s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs„	 „(	*
+10*É
+12s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs˝ ˝()*
+15
+10*ª
+15s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csû û(IÔ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csû û(''
+%39 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageÌ
+Í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csû û(<
+%40string"9mojoPortal.Business.PageSettings.CreateChildPageRoles.get*)
+'
+%39 mojoPortal.Business.PageSettings”
+–
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csû û(I
+%41bool""string.operator !=(string, string)*
+"
+string*
+
+%40string*	
+Admins;*
+16
+17*≤
+16s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs† §(HŸ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs† †(
+%42log4net.ILog"__id*D*B+
+)mojoPortal.Web.AdminUI.PagePermissionPage"
+loglog4net.ILog≤
+Ø
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs†% †(7
+%43string"__concat*	
+user *
+
+userNamestring—
+Œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs†% †(e
+%44string"__concat*
+
+%43string*-+
+) changed page Child Edit Roles roles for Ô
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs†h †(s'
+%45 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage·
+ﬁ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs†h †(|
+%46string"-mojoPortal.Business.PageSettings.PageName.get*)
+'
+%45 mojoPortal.Business.PageSettings≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs†% †(|
+%47string"__concat*
+
+%44string*
+
+%46string≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs†% °(/
+%48string"__concat*
+
+%47string*
+ to Admins π
+∂
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs†% ¢(5
+%49string"__concat*
+
+%48string*
+ from ip address œ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs¢8 ¢(Q
+%50string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtils≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs†% ¢(Q
+%51string"__concat*
+
+%49string*
+
+%50string÷”
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs† ¢(R
+%52void"log4net.ILog.Info(object)*
+
+%42log4net.ILog*
+
+%51string2Info(object)Ô
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs§ §(''
+%53 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs§ §(H
+%54string"9mojoPortal.Business.PageSettings.CreateChildPageRoles.set*)
+'
+%53 mojoPortal.Business.PageSettings*	
+Admins;*
+17*
+17s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs„	 „(	*
+10*£
+4s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs´ ≠()ô
+ñ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs´) ´(8-
+%55&System.Web.UI.WebControls.CheckBoxList"__id*j*h+
+)mojoPortal.Web.AdminUI.PagePermissionPage"9
+chkAllowedRoles&System.Web.UI.WebControls.CheckBoxListöó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs´) ´(>3
+%56,System.Web.UI.WebControls.ListItemCollection"/System.Web.UI.WebControls.ListControl.Items.get*/
+-
+%55&System.Web.UI.WebControls.CheckBoxList2	Items.getﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs´) ´(h
+%57string"wmojoPortal.Web.Framework.UIHelper.SelectedItemsToSemiColonSeparatedString(System.Web.UI.WebControls.ListItemCollection)*%"#
+!mojoPortal.Web.Framework.UIHelper*5
+3
+%56,System.Web.UI.WebControls.ListItemCollection™
+ß
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs´ ´(h
+authorizedRolesstring"__id*
+
+%57string€
+ÿ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≠ ≠()
+%58string"__id*L*J+
+)mojoPortal.Web.AdminUI.PagePermissionPage"
+currentPermissionstring*
+18*É
+18s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≠ ≠()*
+19
+20*∆
+19s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs∞ ∞(JÔ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs∞ ∞(''
+%59 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageË
+Â
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs∞ ∞(7
+%60string"4mojoPortal.Business.PageSettings.AuthorizedRoles.get*)
+'
+%59 mojoPortal.Business.PageSettings„
+‡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs∞ ∞(J
+%61bool""string.operator !=(string, string)*
+"
+string*
+
+%60string*
+
+authorizedRolesstring*
+21
+22*ä
+21s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≤ ∑(.Ÿ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≤ ≤(
+%62log4net.ILog"__id*D*B+
+)mojoPortal.Web.AdminUI.PagePermissionPage"
+loglog4net.ILog≤
+Ø
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≤% ≤(7
+%63string"__concat*	
+user *
+
+userNamestring≈
+¬
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≤% ≤(Y
+%64string"__concat*
+
+%63string*!
+ changed page View roles for Ô
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≤\ ≤(g'
+%65 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage·
+ﬁ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≤\ ≤(p
+%66string"-mojoPortal.Business.PageSettings.PageName.get*)
+'
+%65 mojoPortal.Business.PageSettings≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≤% ≤(p
+%67string"__concat*
+
+%64string*
+
+%66string¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≤% ≥((
+%68string"__concat*
+
+%67string*
+ to ø
+º
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≤% ≥(:
+%69string"__concat*
+
+%68string*
+
+authorizedRolesstringπ
+∂
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≤% ¥(5
+%70string"__concat*
+
+%69string*
+ from ip address œ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs¥8 ¥(Q
+%71string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtils≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≤% ¥(Q
+%72string"__concat*
+
+%70string*
+
+%71string÷”
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≤ ¥(R
+%73void"log4net.ILog.Info(object)*
+
+%62log4net.ILog*
+
+%72string2Info(object)Ô
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs∂ ∂(''
+%74 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageÖ
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs∂ ∂(I
+%75string"4mojoPortal.Business.PageSettings.AuthorizedRoles.set*)
+'
+%74 mojoPortal.Business.PageSettings*
+
+authorizedRolesstringõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs∑ ∑(.
+reIndexPagebool"__id*
+""*
+22*
+22s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs„	 „(	*
+10*É
+20s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≠ ≠()*
+23
+24*Ê
+23s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csº ø(SÔ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csº º(%'
+%76 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csº º(A
+%77string".mojoPortal.Business.PageSettings.EditRoles.set*)
+'
+%76 mojoPortal.Business.PageSettings*
+
+authorizedRolesstringŸ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csΩ Ω(
+%78log4net.ILog"__id*D*B+
+)mojoPortal.Web.AdminUI.PagePermissionPage"
+loglog4net.ILog≤
+Ø
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csΩ# Ω(5
+%79string"__concat*	
+user *
+
+userNamestring≈
+¬
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csΩ# Ω(W
+%80string"__concat*
+
+%79string*!
+ changed page Edit roles for Ô
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csΩZ Ω(e'
+%81 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage·
+ﬁ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csΩZ Ω(n
+%82string"-mojoPortal.Business.PageSettings.PageName.get*)
+'
+%81 mojoPortal.Business.PageSettings≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csΩ# Ω(n
+%83string"__concat*
+
+%80string*
+
+%82string¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csΩ# æ(*
+%84string"__concat*
+
+%83string*
+ to ø
+º
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csΩ# æ(<
+%85string"__concat*
+
+%84string*
+
+authorizedRolesstringπ
+∂
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csΩ# ø(7
+%86string"__concat*
+
+%85string*
+ from ip address œ
+Ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csø: ø(S
+%87string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtils≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csΩ# ø(S
+%88string"__concat*
+
+%86string*
+
+%87string÷”
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csΩ ø(T
+%89void"log4net.ILog.Info(object)*
+
+%78log4net.ILog*
+
+%88string2Info(object)*
+10*É
+24s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≠ ≠()*
+25
+26*¸
+25s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs√ ∆(QÔ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs√ √(#'
+%90 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageà
+Ö
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs√ √(H
+%91string"7mojoPortal.Business.PageSettings.DraftEditOnlyRoles.set*)
+'
+%90 mojoPortal.Business.PageSettings*
+
+authorizedRolesstringŸ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csƒ ƒ(
+%92log4net.ILog"__id*D*B+
+)mojoPortal.Web.AdminUI.PagePermissionPage"
+loglog4net.ILog≤
+Ø
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csƒ! ƒ(3
+%93string"__concat*	
+user *
+
+userNamestringÀ
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csƒ! ƒ([
+%94string"__concat*
+
+%93string*'%
+# changed page Draft Edit roles for Ô
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csƒ^ ƒ(i'
+%95 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage·
+ﬁ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csƒ^ ƒ(r
+%96string"-mojoPortal.Business.PageSettings.PageName.get*)
+'
+%95 mojoPortal.Business.PageSettings≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csƒ! ƒ(r
+%97string"__concat*
+
+%94string*
+
+%96string¨
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csƒ! ≈((
+%98string"__concat*
+
+%97string*
+ to ø
+º
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csƒ! ≈(:
+%99string"__concat*
+
+%98string*
+
+authorizedRolesstring∫
+∑
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csƒ! ∆(5
+%100string"__concat*
+
+%99string*
+ from ip address –
+Õ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs∆8 ∆(Q
+%101string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtils∂
+≥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csƒ! ∆(Q
+%102string"__concat*
+
+%100string*
+
+%101stringÿ’
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csƒ ∆(R
+%103void"log4net.ILog.Info(object)*
+
+%92log4net.ILog*
+
+%102string2Info(object)*
+10*É
+26s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≠ ≠()*
+27
+28*ì
+27s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs  Õ(Q
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs   (#(
+%104 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageä
+á
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs   (H
+%105string"7mojoPortal.Business.PageSettings.DraftApprovalRoles.set**
+(
+%104 mojoPortal.Business.PageSettings*
+
+authorizedRolesstring⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÀ À(
+%106log4net.ILog"__id*D*B+
+)mojoPortal.Web.AdminUI.PagePermissionPage"
+loglog4net.ILog≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÀ! À(3
+%107string"__concat*	
+user *
+
+userNamestring—
+Œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÀ! À(_
+%108string"__concat*
+
+%107string*+)
+' changed page Draft Approval roles for 
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÀb À(m(
+%109 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage„
+‡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÀb À(v
+%110string"-mojoPortal.Business.PageSettings.PageName.get**
+(
+%109 mojoPortal.Business.PageSettings∂
+≥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÀ! À(v
+%111string"__concat*
+
+%108string*
+
+%110stringÆ
+´
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÀ! Ã((
+%112string"__concat*
+
+%111string*
+ to ¡
+æ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÀ! Ã(:
+%113string"__concat*
+
+%112string*
+
+authorizedRolesstringª
+∏
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÀ! Õ(5
+%114string"__concat*
+
+%113string*
+ from ip address –
+Õ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÕ8 Õ(Q
+%115string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtils∂
+≥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÀ! Õ(Q
+%116string"__concat*
+
+%114string*
+
+%115stringŸ÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csÀ Õ(R
+%117void"log4net.ILog.Info(object)*
+
+%106log4net.ILog*
+
+%116string2Info(object)*
+10*É
+28s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs≠ ≠()*
+29
+10*ñ
+29s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs— ‘(Q
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs— —(#(
+%118 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePageå
+â
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs— —(J
+%119string"9mojoPortal.Business.PageSettings.CreateChildPageRoles.set**
+(
+%118 mojoPortal.Business.PageSettings*
+
+authorizedRolesstring⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs“ “(
+%120log4net.ILog"__id*D*B+
+)mojoPortal.Web.AdminUI.PagePermissionPage"
+loglog4net.ILog≥
+∞
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs“! “(3
+%121string"__concat*	
+user *
+
+userNamestring“
+œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs“! “(`
+%122string"__concat*
+
+%121string*,*
+( changed page Child Page Edit Roles for 
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs“c “(n(
+%123 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage„
+‡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs“c “(w
+%124string"-mojoPortal.Business.PageSettings.PageName.get**
+(
+%123 mojoPortal.Business.PageSettings∂
+≥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs“! “(w
+%125string"__concat*
+
+%122string*
+
+%124stringÆ
+´
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs“! ”((
+%126string"__concat*
+
+%125string*
+ to ¡
+æ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs“! ”(:
+%127string"__concat*
+
+%126string*
+
+authorizedRolesstringª
+∏
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs“! ‘(5
+%128string"__concat*
+
+%127string*
+ from ip address –
+Õ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs‘8 ‘(Q
+%129string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtils∂
+≥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs“! ‘(Q
+%130string"__concat*
+
+%128string*
+
+%129stringŸ÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs“ ‘(R
+%131void"log4net.ILog.Info(object)*
+
+%120log4net.ILog*
+
+%130string2Info(object)*
+10*‘
+10s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs⁄ €(
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs⁄ ⁄((
+%132 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage€
+ÿ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs⁄ ⁄(
+%133bool"'mojoPortal.Business.PageSettings.Save()**
+(
+%132 mojoPortal.Business.PageSettings*
+30
+31*ı
+30s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs› ﬂ()ˆ
+Û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs› ›(/
+%134void">mojoPortal.Business.WebHelpers.CacheHelper.ResetSiteMapCache()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csﬁI ﬁ(T(
+%135 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage∂
+≥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csﬁ ﬁ(U
+%136void"ZmojoPortal.SearchIndex.IndexHelper.RebuildPageIndexAsync(mojoPortal.Business.PageSettings)*&"$
+"mojoPortal.SearchIndex.IndexHelper**
+(
+%135 mojoPortal.Business.PageSettingsŒ
+À
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.csﬂ ﬂ()
+%137void"(mojoPortal.Web.SiteUtils.QueueIndexing()*"
+mojoPortal.Web.SiteUtils*
+31*„
+31s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs‚ ‚(7–
+Õ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs‚) ‚(0
+%138System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÕ
+ 
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs‚) ‚(7
+%139string"!System.Web.HttpRequest.RawUrl.get* 
+
+%138System.Web.HttpRequestæ
+ª
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs‚ ‚(8
+%140void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*-+
+)mojoPortal.Web.AdminUI.PagePermissionPage*
+
+%139string*
+32*Ü
+32s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs„	 „(	"ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PagePermission.aspx.cs„ „(	
+implicit return:
+senderobject:
+eSystem.EventArgsB-+
+)mojoPortal.Web.AdminUI.PagePermissionPage

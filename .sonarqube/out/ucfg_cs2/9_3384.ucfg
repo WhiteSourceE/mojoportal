@@ -1,0 +1,418 @@
+
+6mojoPortal.Web.ELetterUI.LetterEditPage.LoadSettings()q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs⁄ ⁄(!"0*µ
+0q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs‹ ‚(,Á
+‰
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs‹ ‹(8"
+%0mojoPortal.Business.SiteUser"-mojoPortal.Web.SiteUtils.GetCurrentSiteUser()*"
+mojoPortal.Web.SiteUtils¸
+˘
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs‹ ‹(8X)
+'mojoPortal.Web.ELetterUI.LetterEditPage"+
+currentUsermojoPortal.Business.SiteUser"__id*$
+"
+%0mojoPortal.Business.SiteUserä
+á
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs›D ›(N
+%1"__id*
+""ê
+ç
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs› ›(O
+%2System.Guid"OmojoPortal.Web.Framework.WebUtils.ParseGuidFromQueryString(string, System.Guid)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+l*
+
+%1›
+⁄
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs› ›(OJ)
+'mojoPortal.Web.ELetterUI.LetterEditPage"
+letterInfoGuidSystem.Guid"__id*
+
+%2System.Guid‹
+Ÿ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csﬁ ﬁ(2
+%3string"/mojoPortal.Web.Framework.WebUtils.GetSiteRoot()*%"#
+!mojoPortal.Web.Framework.WebUtils“
+œ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csﬁ ﬁ(2D)
+'mojoPortal.Web.ELetterUI.LetterEditPage"
+imageSiteRootstring"__id*
+
+%3stringä
+á
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs‚ ‚(
+%4"__id*
+""ä
+á
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs‚" ‚(,
+%5"__id*
+""*
+1
+2*Û
+1q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csë	 ë(	"{
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs‚. ‚(5
+""*Å
+2q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs‰ Ê(<ä
+á
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs‰( ‰(6
+%6"__id*
+""ºπ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs‰ ‰(7$
+%7mojoPortal.Business.LetterInfo"mojoPortal.Business.LetterInfoÍ
+Á
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs‰ ‰('
+
+%8void"6mojoPortal.Business.LetterInfo.LetterInfo(System.Guid)*&
+$
+%7mojoPortal.Business.LetterInfo*
+
+%6ˇ
+¸
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs‰ ‰(7Y)
+'mojoPortal.Web.ELetterUI.LetterEditPage",
+
+letterInfomojoPortal.Business.LetterInfo"__id*&
+$
+%7mojoPortal.Business.LetterInfoˇ
+¸
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÊ Ê($
+%9mojoPortal.Business.LetterInfo"__id*[*Y)
+'mojoPortal.Web.ELetterUI.LetterEditPage",
+
+letterInfomojoPortal.Business.LetterInfoﬂ
+‹
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÊ Ê(#
+%10System.Guid"+mojoPortal.Business.LetterInfo.SiteGuid.get*&
+$
+%9mojoPortal.Business.LetterInfo˙
+˜
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÊ' Ê(3'
+%11 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings‰
+·
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÊ' Ê(<
+%12System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*)
+'
+%11 mojoPortal.Business.SiteSettings*
+3
+4*ø
+3q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csË È(+ﬂ
+‹
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csË Ë(!Y)
+'mojoPortal.Web.ELetterUI.LetterEditPage",
+
+letterInfomojoPortal.Business.LetterInfo"__id*
+""ã
+à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÈ! È(+
+%13"__id*
+""—
+Œ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÈ È(+J)
+'mojoPortal.Web.ELetterUI.LetterEditPage"
+letterInfoGuidSystem.Guid"__id*
+
+%13*
+4*ü
+4q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÏ Ó((ã
+à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÏE Ï(O
+%14"__id*
+""ó
+î
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÏ Ï(P
+%15System.Guid"OmojoPortal.Web.Framework.WebUtils.ParseGuidFromQueryString(string, System.Guid)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+letter*
+
+%14⁄
+◊
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÏ Ï(PF)
+'mojoPortal.Web.ELetterUI.LetterEditPage"
+
+letterGuidSystem.Guid"__id*
+
+%15System.Guidã
+à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÓ Ó(
+%16"__id*
+""ã
+à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÓ Ó((
+%17"__id*
+""*
+5
+6*˙
+5q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs (%µ≤
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs (%!
+%18mojoPortal.Business.Letter"mojoPortal.Business.LetterÕ
+ 
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs (#
+%19void"#mojoPortal.Business.Letter.Letter()*#
+!
+%18mojoPortal.Business.LetterÙ
+Ò
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs (%Q)
+'mojoPortal.Web.ELetterUI.LetterEditPage"$
+lettermojoPortal.Business.Letter"__id*#
+!
+%18mojoPortal.Business.Letter*
+7*„
+6q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÙ ˆ(Fã
+à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÙ$ Ù(.
+%20"__id*
+""µ≤
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÙ Ù(/!
+%21mojoPortal.Business.Letter"mojoPortal.Business.Letter·
+ﬁ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÙ Ù(#
+%22void".mojoPortal.Business.Letter.Letter(System.Guid)*#
+!
+%21mojoPortal.Business.Letter*
+
+%20Ù
+Ò
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÙ Ù(/Q)
+'mojoPortal.Web.ELetterUI.LetterEditPage"$
+lettermojoPortal.Business.Letter"__id*#
+!
+%21mojoPortal.Business.LetterÙ
+Ò
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csˆ ˆ(!
+%23mojoPortal.Business.Letter"__id*S*Q)
+'mojoPortal.Web.ELetterUI.LetterEditPage"$
+lettermojoPortal.Business.Letterﬁ
+€
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csˆ ˆ()
+%24System.Guid"-mojoPortal.Business.Letter.LetterInfoGuid.get*#
+!
+%23mojoPortal.Business.LetterÄ
+˝
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csˆ- ˆ(7%
+%25mojoPortal.Business.LetterInfo"__id*[*Y)
+'mojoPortal.Web.ELetterUI.LetterEditPage",
+
+letterInfomojoPortal.Business.LetterInfoÊ
+„
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csˆ- ˆ(F
+%26System.Guid"1mojoPortal.Business.LetterInfo.LetterInfoGuid.get*'
+%
+%25mojoPortal.Business.LetterInfo*
+8
+7*≥
+8q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs¯ ˘(!ã
+à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs¯! ¯(+
+%27"__id*
+""Õ
+ 
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs¯ ¯(+F)
+'mojoPortal.Web.ELetterUI.LetterEditPage"
+
+letterGuidSystem.Guid"__id*
+
+%27◊
+‘
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cs˘ ˘(!Q)
+'mojoPortal.Web.ELetterUI.LetterEditPage"$
+lettermojoPortal.Business.Letter"__id*
+""*
+7*¥
+7q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÄ Ä(:Ù
+Ò
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÄ Ä(!
+%28mojoPortal.Business.Letter"__id*S*Q)
+'mojoPortal.Web.ELetterUI.LetterEditPage"$
+lettermojoPortal.Business.Letter„
+‡
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÄ Ä(&
+%29System.DateTime".mojoPortal.Business.Letter.SendCompleteUtc.get*#
+!
+%28mojoPortal.Business.Letter»
+≈
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÄ) Ä(:
+%30System.DateTime"__id*2*0
+System.DateTime"
+MinValueSystem.DateTimeä
+á
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÄ Ä(:
+%31bool"<System.DateTime.operator >(System.DateTime, System.DateTime)*"
+System.DateTime*
+
+%29System.DateTime*
+
+%30System.DateTime*
+9
+10*â
+9q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÇ á(3˘
+ˆ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÇ Ç(#
+%32mojoPortal.Web.UI.mojoButton"__id*V*T)
+'mojoPortal.Web.ELetterUI.LetterEditPage"'
+btnSavemojoPortal.Web.UI.mojoButtonŒ
+À
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÇ Ç(@
+%33string"/Resources.Resource.SaveNewsletterAsNewDraft.get*"
+Resources.ResourceË
+Â
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÇ Ç(@
+%34string")System.Web.UI.WebControls.Button.Text.set*%
+#
+%32mojoPortal.Web.UI.mojoButton*
+
+%33stringˇ
+¸
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÖ Ö(#
+%35mojoPortal.Web.UI.mojoButton"__id*\*Z)
+'mojoPortal.Web.ELetterUI.LetterEditPage"-
+btnSendToListmojoPortal.Web.UI.mojoButtonÒÓ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csÖ Ö(-
+%36bool"0System.Web.UI.WebControls.WebControl.Enabled.set*%
+#
+%35mojoPortal.Web.UI.mojoButton*
+""2Enabled.set˚
+¯
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csá á(#
+%37mojoPortal.Web.UI.mojoButton"__id*X*V)
+'mojoPortal.Web.ELetterUI.LetterEditPage")
+	btnDeletemojoPortal.Web.UI.mojoButton„
+‡
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csá$ á(3
+%38bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser¯ı
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csá á(3
+%39bool"0System.Web.UI.WebControls.WebControl.Enabled.set*%
+#
+%37mojoPortal.Web.UI.mojoButton*
+
+%38bool2Enabled.set*
+10*Õ
+10q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csã è('å
+â
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csã ã(*
+%40#System.Web.UI.WebControls.HyperLink"__id*b*`)
+'mojoPortal.Web.ELetterUI.LetterEditPage"3
+lnkAdminMenu#System.Web.UI.WebControls.HyperLinkÒ
+Ó
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csã# ã(@
+%41bool"@mojoPortal.Business.WebHelpers.WebUser.IsAdminOrContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUserÌ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csã ã(@
+%42bool"!System.Web.UI.Control.Visible.set*,
+*
+%40#System.Web.UI.WebControls.HyperLink*
+
+%41bool2Visible.setï
+í
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cså å(,
+%43%mojoPortal.Web.UI.AdminCrumbSeparator"__id*i*g)
+'mojoPortal.Web.ELetterUI.LetterEditPage":
+litLinkSeparator1%mojoPortal.Web.UI.AdminCrumbSeparatorå
+â
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cså( å(4*
+%44#System.Web.UI.WebControls.HyperLink"__id*b*`)
+'mojoPortal.Web.ELetterUI.LetterEditPage"3
+lnkAdminMenu#System.Web.UI.WebControls.HyperLink·ﬁ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cså( å(<
+%45bool"!System.Web.UI.Control.Visible.get*,
+*
+%44#System.Web.UI.WebControls.HyperLink2Visible.getÚÔ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.cså å(<
+%46bool"!System.Web.UI.Control.Visible.set*.
+,
+%43%mojoPortal.Web.UI.AdminCrumbSeparator*
+
+%45bool2Visible.setÏ
+È
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csé é(,
+%47void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+administrationË
+Â
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csè è((
+%48void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+
+letteredit*
+11*Ç
+11q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csë	 ë(	"à
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\eletter\LetterEdit.aspx.csë ë(	
+implicit returnB+)
+'mojoPortal.Web.ELetterUI.LetterEditPage

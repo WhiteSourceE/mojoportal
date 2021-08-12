@@ -1,0 +1,1104 @@
+
+UmojoPortal.Web.UI.OpenIdRpxHandlerPage.SignInUser(mojoPortal.Business.SiteUser, bool)v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÔ Ô("0*Ù
+0v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÚ Ú('˛
+˚
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÚ Ú(&
+%0 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÌ
+Í
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÚ Ú('
+
+%1bool":mojoPortal.Business.SiteSettings.UseSecureRegistration.get*(
+&
+%0 mojoPortal.Business.SiteSettings*
+1
+2*Ñ
+1v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÛ Û(.Ï
+È
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÛ Û( 
+%2System.Guid"4mojoPortal.Business.SiteUser.RegisterConfirmGuid.get*&
+$
+usermojoPortal.Business.SiteUserè
+å
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÛ$ Û(.
+%3"__id*
+""*
+3
+2*ö9
+3v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˜ á(!Ë
+Â
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs¯ ¯( !
+%4mojoPortal.Net.SmtpSettings"*mojoPortal.Web.SiteUtils.GetSmtpSettings()*"
+mojoPortal.Web.SiteUtils¢
+ü
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˘ ˘(L
+%5string"BmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*&$
+"RegisterConfirmEmailMessage.config˛
+˚
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˙ ˙(&
+%6 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÒ
+Ó
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˙ ˙()
+%7string"<mojoPortal.Business.SiteSettings.DefaultEmailFromAddress.get*(
+&
+%6 mojoPortal.Business.SiteSettings˛
+˚
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˚ ˚(&
+%8 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÔ
+Ï
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˚ ˚('
+%9string":mojoPortal.Business.SiteSettings.DefaultFromEmailAlias.get*(
+&
+%8 mojoPortal.Business.SiteSettings⁄
+◊
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs¸ ¸(
+%10string"&mojoPortal.Business.SiteUser.Email.get*&
+$
+usermojoPortal.Business.SiteUserˇ
+¸
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˝ ˝('
+%11 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings‰
+·
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˝ ˝(
+%12string"-mojoPortal.Business.SiteSettings.SiteName.get*)
+'
+%11 mojoPortal.Business.SiteSettings’
+“
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˛ ˛(
+%13string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePageÃ
+…
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˛ ˛(3
+%14string"__concat*
+
+%13string*%#
+!/ConfirmRegistration.aspx?ticket=Ì
+Í
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csˇ ˇ(
+%15System.Guid"4mojoPortal.Business.SiteUser.RegisterConfirmGuid.get*&
+$
+usermojoPortal.Business.SiteUser∏
+µ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csˇ ˇ((
+%16string"System.Guid.ToString()*
+
+%15System.Guid∂
+≥
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˛ ˇ((
+%17string"__concat*
+
+%14string*
+
+%16stringΩ
+∫
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˜ ˇ()
+%18void"âmojoPortal.Net.Notification.SendRegistrationConfirmationLink(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string)*"
+mojoPortal.Net.Notification*#
+!
+%4mojoPortal.Net.SmtpSettings*
+
+%5string*
+
+%7string*
+
+%9string*
+
+%10string*
+
+%12string*
+
+%17stringŸ
+÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÇ Ç(
+%19log4net.ILog"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+loglog4net.ILogŸ
+÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÇ Ç( 
+%20string"%mojoPortal.Business.SiteUser.Name.get*&
+$
+usermojoPortal.Business.SiteUser∞
+≠
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÇ Ç( 
+%21string"__concat*	
+User *
+
+%20stringﬁ
+€
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÇ Ç(X
+%22string"__concat*
+
+%21string*75
+3 tried to login but email address is not confirmed.Ÿ÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÇ Ç(Y
+%23void"log4net.ILog.Info(object)*
+
+%19log4net.ILog*
+
+%22string2Info(object)¸
+˘
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÑ Ñ("
+%24mojoPortal.Web.UI.mojoLabel"__id*U*S(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"'
+lblErrormojoPortal.Web.UI.mojoLabelÁ
+‰
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÑ Ñ(I
+%25string"CResources.Resource.RegistrationRequiresEmailConfirmationMessage.get*"
+Resources.ResourceıÚ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÑ Ñ(I
+%26string"(System.Web.UI.WebControls.Label.Text.set*$
+"
+%24mojoPortal.Web.UI.mojoLabel*
+
+%25string2Text.setî
+ë
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÖ Ö((
+%27!System.Web.UI.WebControls.Literal"__id*g*e(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"9
+litInfoNeededMessage!System.Web.UI.WebControls.LiteralÏÈ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÖ Ö((
+%28bool"!System.Web.UI.Control.Visible.set**
+(
+%27!System.Web.UI.WebControls.Literal*
+""2Visible.setò
+ï
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÜ Ü( &
+%29System.Web.UI.WebControls.Panel"__id*m*k(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"?
+pnlRequiredProfilePropertiesSystem.Web.UI.WebControls.PanelÍÁ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÜ Ü(0
+%30bool"!System.Web.UI.Control.Visible.set*(
+&
+%29System.Web.UI.WebControls.Panel*
+""2Visible.setã
+à
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csá á('
+%31 System.Web.UI.WebControls.Button"__id*_*](
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"1
+btnCreateUser System.Web.UI.WebControls.ButtonÎË
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csá á(!
+%32bool"!System.Web.UI.Control.Visible.set*)
+'
+%31 System.Web.UI.WebControls.Button*
+""2Visible.set"Ä
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csâ â(
+""*‰
+2v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csç ç(ﬁ
+€
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csç ç(
+%33bool",mojoPortal.Business.SiteUser.IsLockedOut.get*&
+$
+usermojoPortal.Business.SiteUser*
+4
+5*Á
+4v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csê í(6Ÿ
+÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csê ê(
+%34log4net.ILog"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+loglog4net.ILogŸ
+÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csê ê( 
+%35string"%mojoPortal.Business.SiteUser.Name.get*&
+$
+usermojoPortal.Business.SiteUser∞
+≠
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csê ê( 
+%36string"__concat*	
+User *
+
+%35string—
+Œ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csê ê(K
+%37string"__concat*
+
+%36string**(
+& tried to login but account is locked.Ÿ÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csê ê(L
+%38void"log4net.ILog.Info(object)*
+
+%34log4net.ILog*
+
+%37string2Info(object)¸
+˘
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csí í("
+%39mojoPortal.Web.UI.mojoLabel"__id*U*S(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"'
+lblErrormojoPortal.Web.UI.mojoLabel‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csí í(6
+%40string"0Resources.Resource.LoginAccountLockedMessage.get*"
+Resources.ResourceıÚ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csí í(6
+%41string"(System.Web.UI.WebControls.Label.Text.set*$
+"
+%39mojoPortal.Web.UI.mojoLabel*
+
+%40string2Text.set"Ä
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csî î(
+""*¸
+5v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csó ó(/ˇ
+¸
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csó ó('
+%42 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÙ
+Ò
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csó ó(/
+%43bool"?mojoPortal.Business.SiteSettings.RequireApprovalBeforeLogin.get*)
+'
+%42 mojoPortal.Business.SiteSettings*
+6
+7*È
+6v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csó5 ó(K„
+‡
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csó6 ó(K
+%44bool"1mojoPortal.Business.SiteUser.ApprovedForLogin.get*&
+$
+usermojoPortal.Business.SiteUser*
+8
+7*Ô
+8v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csö ú(4Ÿ
+÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csö ö(
+%45log4net.ILog"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+loglog4net.ILogŸ
+÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csö ö( 
+%46string"%mojoPortal.Business.SiteUser.Name.get*&
+$
+usermojoPortal.Business.SiteUser∞
+≠
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csö ö( 
+%47string"__concat*	
+User *
+
+%46string€
+ÿ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csö ö(U
+%48string"__concat*
+
+%47string*42
+0 tried to login but account is not approved yet.Ÿ÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csö ö(V
+%49void"log4net.ILog.Info(object)*
+
+%45log4net.ILog*
+
+%48string2Info(object)¸
+˘
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csú ú("
+%50mojoPortal.Web.UI.mojoLabel"__id*U*S(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"'
+lblErrormojoPortal.Web.UI.mojoLabel“
+œ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csú ú(4
+%51string".Resources.Resource.LoginNotApprovedMessage.get*"
+Resources.ResourceıÚ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csú ú(4
+%52string"(System.Web.UI.WebControls.Label.Text.set*$
+"
+%50mojoPortal.Web.UI.mojoLabel*
+
+%51string2Text.set"Ä
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csû û(
+""*Û
+7v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs¢ ¢($ˇ
+¸
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs¢ ¢('
+%53 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÍ
+Á
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs¢ ¢($
+%54bool"5mojoPortal.Business.SiteSettings.UseEmailForLogin.get*)
+'
+%53 mojoPortal.Business.SiteSettings*
+9
+10*Ù
+9v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs§ §(6⁄
+◊
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs§& §(0
+%55string"&mojoPortal.Business.SiteUser.Email.get*&
+$
+usermojoPortal.Business.SiteUserì
+ê
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs§ §(7
+%56void"CSystem.Web.Security.FormsAuthentication.SetAuthCookie(string, bool)*+")
+'System.Web.Security.FormsAuthentication*
+
+%55string*
+""*
+11*˘
+10v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs® ®(:ﬁ
+€
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs®& ®(4
+%57string"*mojoPortal.Business.SiteUser.LoginName.get*&
+$
+usermojoPortal.Business.SiteUserì
+ê
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs® ®(;
+%58void"CSystem.Web.Security.FormsAuthentication.SetAuthCookie(string, bool)*+")
+'System.Web.Security.FormsAuthentication*
+
+%57string*
+""*
+11*ä
+11v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs´ ´(EÅ
+˛
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs´ ´(E
+%59bool"QmojoPortal.Web.WebConfigSettings.UseFoldersInsteadOfHostnamesForMultipleSites.get*$""
+ mojoPortal.Web.WebConfigSettings*
+12
+13*Æ
+12v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs≠ Æ(Eˇ
+¸
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs≠% ≠(1'
+%60 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÈ
+Ê
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs≠% ≠(:
+%61System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*)
+'
+%60 mojoPortal.Business.SiteSettingsΩ
+∫
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs≠ ≠(:
+%62System.Guid"__concat*
+
+siteguid*
+
+%61System.Guid≠
+™
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs≠ ≠(:
+
+cookieNamestring"__id*
+
+%62System.Guid‚
+ﬂ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÆ' Æ(4
+%63System.Guid")mojoPortal.Business.SiteUser.UserGuid.get*&
+$
+usermojoPortal.Business.SiteUser∏
+µ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÆ' Æ(?
+%64string"System.Guid.ToString()*
+
+%63System.Guid´
+®
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÆ Æ(F
+%65void"EmojoPortal.Web.Framework.CookieHelper.SetCookie(string, string, bool)*)"'
+%mojoPortal.Web.Framework.CookieHelper*
+
+
+cookieNamestring*
+
+%64string*
+""*
+13*·
+13v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs± ±(ÿ
+’
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs± ±(
+
+%66int"'mojoPortal.Business.SiteUser.UserId.get*&
+$
+usermojoPortal.Business.SiteUser*
+14
+15*Û
+14v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs± ±(6ˇ
+¸
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs± ±(''
+%67 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsË
+Â
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs± ±(6
+%68bool"3mojoPortal.Business.SiteSettings.AllowUserSkins.get*)
+'
+%67 mojoPortal.Business.SiteSettings*
+16
+15*ê
+16v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs±: ±(NŸ
+÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs±: ±(C
+%69string"%mojoPortal.Business.SiteUser.Skin.get*&
+$
+usermojoPortal.Business.SiteUser´
+®
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs±: ±(J
+
+%70int"string.Length.get*
+
+%69string*
+17
+15*ô
+17v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs≥ ≥( î
+ë
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs≥ ≥(!
+%71void"DmojoPortal.Web.SiteUtils.SetSkinCookie(mojoPortal.Business.SiteUser)*"
+mojoPortal.Web.SiteUtils*&
+$
+usermojoPortal.Business.SiteUser*
+15*ì'
+15v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs∂ ¡(4‰
+·
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs∂ ∂(
+%72bool"2mojoPortal.Business.SiteUser.UpdateLastLoginTime()*&
+$
+usermojoPortal.Business.SiteUser‚
+ﬂ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csπ0 π(=
+%73System.Guid")mojoPortal.Business.SiteUser.UserGuid.get*&
+$
+usermojoPortal.Business.SiteUser“
+œ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csπ? π(X
+%74string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtils∆√
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csπ π(Y'
+%75 mojoPortal.Business.UserLocation" mojoPortal.Business.UserLocationû
+õ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csπ# π(/
+%76void"BmojoPortal.Business.UserLocation.UserLocation(System.Guid, string)*)
+'
+%75 mojoPortal.Business.UserLocation*
+
+%73System.Guid*
+
+%74stringﬁ
+€
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csπ π(Y0
+userLocation mojoPortal.Business.UserLocation"__id*)
+'
+%75 mojoPortal.Business.UserLocationˇ
+¸
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs∫ ∫(''
+%77 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÈ
+Ê
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs∫ ∫(0
+%78System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*)
+'
+%77 mojoPortal.Business.SiteSettingsà
+Ö
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs∫ ∫(0
+%79System.Guid"-mojoPortal.Business.UserLocation.SiteGuid.set*2
+0
+userLocation mojoPortal.Business.UserLocation*
+
+%78System.Guid“
+œ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csª ª("
+%80System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Page‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csª ª(/
+%81string"'System.Web.HttpRequest.UserHostName.get*
+
+%80System.Web.HttpRequest˛
+˚
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csª ª(/
+%82string"-mojoPortal.Business.UserLocation.Hostname.set*2
+0
+userLocation mojoPortal.Business.UserLocation*
+
+%81stringÂ
+‚
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csº º(
+%83bool"'mojoPortal.Business.UserLocation.Save()*2
+0
+userLocation mojoPortal.Business.UserLocationêç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csæ æ(8L
+%84EmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs"EmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs˘
+ˆ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csæ æ(2
+%85void"wmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs.UserSignInEventArgs(mojoPortal.Business.SiteUser)*N
+L
+%84EmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs*&
+$
+usermojoPortal.Business.SiteUserù
+ö
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csæ æ(8J
+uEmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs"__id*N
+L
+%84EmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs˛
+˚
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csø ø(
+%86void"zmojoPortal.Web.UI.OpenIdRpxHandlerPage.OnUserSignIn(mojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs)**(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage*L
+J
+uEmojoPortal.Business.WebHelpers.UserSignInHandlers.UserSignInEventArgs›
+⁄
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs¡! ¡(4
+%87string"__id*K*I(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+returnUrlCookieNamestringÄ
+˝
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs¡ ¡(5
+%88bool":mojoPortal.Web.Framework.CookieHelper.CookieExists(string)*)"'
+%mojoPortal.Web.Framework.CookieHelper*
+
+%87string*
+18
+19*¢
+
+18v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs√ ƒ(1›
+⁄
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs√, √(?
+%89string"__id*K*I(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+returnUrlCookieNamestringÑ
+Å
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs√ √(@
+%90string"<mojoPortal.Web.Framework.CookieHelper.GetCookieValue(string)*)"'
+%mojoPortal.Web.Framework.CookieHelper*
+
+%89string”
+–
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs√ √(@?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring"__id*
+
+%90string›
+⁄
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csƒ ƒ(1
+%91string"__id*K*I(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+returnUrlCookieNamestringÄ
+˝
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csƒ ƒ(2
+%92void":mojoPortal.Web.Framework.CookieHelper.ExpireCookie(string)*)"'
+%mojoPortal.Web.Framework.CookieHelper*
+
+%91string*
+19*ı	
+19v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs∆
+ …(€ÿ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs∆; ∆(?
+%93System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get’
+“
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs∆A ∆(I
+%94string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePageû
+õ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs∆ ∆(J
+%95string"FmojoPortal.Web.SiteUtils.GetReturnUrlParam(System.Web.UI.Page, string)*"
+mojoPortal.Web.SiteUtils*
+
+%93System.Web.UI.Page*
+
+%94string∞
+≠
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs∆
+ ∆(J
+requestedReturnUrlstring"__id*
+
+%95string‚
+ﬂ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs« «(!?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring"__id*
+
+requestedReturnUrlstring*
+20
+21*Ø
+20v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÃ Ã(F¯
+ı
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÃ Ã(;
+%96string"FmojoPortal.Web.WebConfigSettings.PageToRedirectToAfterRegistration.get*$""
+ mojoPortal.Web.WebConfigSettings´
+®
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÃ Ã(B
+
+%97int"string.Length.get*
+
+%96string*
+22
+21*Ê
+22v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csŒ Œ(O’
+“
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csŒ Œ(
+%98string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage¯
+ı
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csŒ Œ(O
+%99string"FmojoPortal.Web.WebConfigSettings.PageToRedirectToAfterRegistration.get*$""
+ mojoPortal.Web.WebConfigSettings∑
+¥
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csŒ Œ(O
+%100string"__concat*
+
+%98string*
+
+%99string‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csŒ Œ(O?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring"__id*
+
+%100string*
+21*•
+21v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs“ “(%‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs“ “(%
+%101string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring≈
+¬
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs“ “(&
+%102bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+%101string*
+23
+24*¶
+24v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs” ”(%‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs” ”(
+%103string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring∆
+√
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs” ”(&
+%104bool"string.Contains(string)*
+
+%103string*
+AccessDenied*
+23
+25*ü
+25v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs‘ ‘(‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs‘ ‘(
+%105string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstringø
+º
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs‘ ‘(
+%106bool"string.Contains(string)*
+
+%105string*	
+Login*
+23
+26*†
+26v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs’ ’(‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs’ ’(
+%107string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring¿
+Ω
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs’ ’( 
+%108bool"string.Contains(string)*
+
+%107string*
+
+SignIn*
+23
+27*≤
+27v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs÷ ÷(1‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs÷ ÷(
+%109string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring“
+œ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs÷ ÷(2
+%110bool"string.Contains(string)*
+
+%109string*
+ConfirmRegistration.aspx*
+23
+28*Ø
+28v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs◊ ◊(.‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs◊ ◊(
+%111string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstringœ
+Ã
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs◊ ◊(/
+%112bool"string.Contains(string)*
+
+%111string*
+OpenIdRpxHandler.aspx*
+23
+29*Æ
+29v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÿ ÿ(-‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÿ ÿ(
+%113string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstringŒ
+À
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÿ ÿ(.
+%114bool"string.Contains(string)*
+
+%113string*
+RecoverPassword.aspx*
+23
+30*¢
+30v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csŸ Ÿ(!‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csŸ Ÿ(
+%115string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring¬
+ø
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csŸ Ÿ("
+%116bool"string.Contains(string)*
+
+%115string*
+
+Register*
+23
+31*≤
+23v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs‹ ‹(÷
+”
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs‹ ‹(
+%117string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs‹ ‹(?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring"__id*
+
+%117string*
+31*ç
+31v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csﬂ ﬂ(‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csﬂ ﬂ(
+%118string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring≠
+™
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csﬂ ﬂ(
+%119int"string.Length.get*
+
+%118string*
+32
+33*‹
+32v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs· ·(#”
+–
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs· ·(#
+%120bool"*mojoPortal.Web.SiteUtils.IsSecureRequest()*"
+mojoPortal.Web.SiteUtils*
+34
+35*°
+34v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs„	 „(%‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs„	 „(
+%121string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring¡
+æ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs„	 „(&
+%122bool"string.StartsWith(string)*
+
+%121string*	
+http:*
+36
+35*á
+36v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÂ Â(5‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÂ Â(
+%123string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÂ Â(6
+%124string"string.Replace(string, string)*
+
+%123string*	
+http:*
+
+https:‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÂ Â(6?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstring"__id*
+
+%124string*
+35*ó
+35v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÈ È(*‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÈ! È(*
+%125string"__id*A*?(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage"
+	returnUrlstringæ
+ª
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÈ È(+
+%126void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils**(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage*
+
+%125string"Ä
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÍ Í(
+""*‹
+33v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÓ Ó("”
+–
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÓ Ó("
+%127bool"*mojoPortal.Web.SiteUtils.IsSecureRequest()*"
+mojoPortal.Web.SiteUtils*
+37
+38*£
+37v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs (#÷
+”
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs (
+%128string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage¡
+æ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs ($
+%129bool"string.StartsWith(string)*
+
+%128string*	
+http:*
+39
+38*
+39v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÚ Ú(D÷
+”
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÚ" Ú(*
+%130string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage‘
+—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÚ" Ú(E
+%131string"string.Replace(string, string)*
+
+%130string*	
+http:*
+
+https:æ
+ª
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÚ Ú(F
+%132void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils**(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage*
+
+%131string"Ä
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.csÛ Û(
+""*ô
+38v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs¯ ¯((÷
+”
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs¯  ¯((
+%133string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePageæ
+ª
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs¯ ¯()
+%134void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils**(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage*
+
+%133string"Ä
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˘ ˘(
+
+""*å
+40v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˚ ˚("ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Secure\OpenIdRpxHandler.aspx.cs˚ ˚(
+implicit return:$
+usermojoPortal.Business.SiteUser:
+	isNewUserboolB*(
+&mojoPortal.Web.UI.OpenIdRpxHandlerPage

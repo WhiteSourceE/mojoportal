@@ -1,0 +1,167 @@
+
+KmojoPortal.Web.UI.SearchResultsHandler.LoadSettings(System.Web.HttpContext)l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csé é(!"0*Ó
+0l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csë î(<
+‹
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csë ë(?&
+%0 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperÿ
+ü
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csë ë(?\(
+&mojoPortal.Web.UI.SearchResultsHandler"0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%0 mojoPortal.Business.SiteSettingsÏ
+Ì
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csì ì(8
+%1string"0mojoPortal.Web.SiteUtils.GetNavigationSiteRoot()*"
+mojoPortal.Web.SiteUtilsÇ
+Ä
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csì ì(8>(
+&mojoPortal.Web.UI.SearchResultsHandler"
+SiteRootstring"__id*
+
+%1stringØ
+Õ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csî î(
+%2System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContextó
+ğ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csî î(+8
+%32System.Collections.Specialized.NameValueCollection"&System.Web.HttpRequest.QueryString.get*
+
+%2System.Web.HttpRequestŒ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csî î(4
+%4string">System.Collections.Specialized.NameValueCollection.Get(string)*:
+8
+%32System.Collections.Specialized.NameValueCollection*
+q2Get(string)Å
+Â
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csî î(<
+
+%5bool""string.operator !=(string, string)*
+"
+string*
+
+%4string*
+""*
+1
+2* 
+1l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csñ ñ(;Ø
+Õ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csñ ñ('
+%6System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContextó
+ğ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csñ ñ(38
+%72System.Collections.Specialized.NameValueCollection"&System.Web.HttpRequest.QueryString.get*
+
+%6System.Web.HttpRequestŒ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csñ ñ(<
+%8string">System.Collections.Specialized.NameValueCollection.Get(string)*:
+8
+%72System.Collections.Specialized.NameValueCollection*
+q2Get(string)Ä
+Á
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csñ ñ(<;(
+&mojoPortal.Web.UI.SearchResultsHandler"
+querystring"__id*
+
+%8string*
+2*³
+2l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csõ ÷(>ˆ
+…
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csõ õ(I	
+%9int"NmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, bool, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+p*
+""*2Ã
+À
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csõ õ(I=(
+&mojoPortal.Web.UI.SearchResultsHandler"
+
+pageNumberint"__id*
+	
+%9intæ
+ã
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs÷ ÷(>
+%10bool"@mojoPortal.Web.WebConfigSettings.DisableSearchFeatureFilters.get*$""
+ mojoPortal.Web.WebConfigSettings*
+3
+4*ç
+3l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csù ù(P†
+ƒ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csùE ù(P
+%11"__id*
+""
+Š
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csù ù(Q
+%12System.Guid"OmojoPortal.Web.Framework.WebUtils.ParseGuidFromQueryString(string, System.Guid)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+f*
+
+%11Õ
+Ò
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csù ù(QF(
+&mojoPortal.Web.UI.SearchResultsHandler"
+featureGuidSystem.Guid"__id*
+
+%12System.Guid*
+4*è
+4l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csü ü(8ì
+é
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csü ü(8
+%13bool"@mojoPortal.Business.WebHelpers.WebUser.IsAdminOrContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+5
+6*Â
+6l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csü= ü(YÉ
+Æ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csü= ü(Y
+%14bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtils*
+5*º
+5l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csü ü(ZÁ
+¾
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.csü ü(Z@(
+&mojoPortal.Web.UI.SearchResultsHandler"
+isSiteEditorbool"__id*
+""*
+7*÷
+7l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs€	 €(	"ƒ
+l
+`D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\SearchResults.ashx.cs€ €(	
+implicit return:!
+contextSystem.Web.HttpContextB*(
+&mojoPortal.Web.UI.SearchResultsHandler

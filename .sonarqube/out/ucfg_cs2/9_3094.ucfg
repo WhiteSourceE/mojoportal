@@ -1,0 +1,200 @@
+
+9mojoPortal.Web.AdminUI.RedirectManagerPage.LoadSettings()t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs‚ ‚(!"0*¥
+0t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs„ ˆ('ó
+ð
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs„$ „(A
+
+%0bool"@mojoPortal.Business.WebHelpers.WebUser.IsAdminOrContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUserÜ
+Ù
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs„ „(AM,
+*mojoPortal.Web.AdminUI.RedirectManagerPage"
+isAdminOrContentAdminbool"__id*
+
+
+%0boolÐ
+Í
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs… …(7
+
+%1bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtilsÓ
+Ð
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs… …(7D,
+*mojoPortal.Web.AdminUI.RedirectManagerPage"
+isSiteEditorbool"__id*
+
+
+%1boolè
+å
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs† †(@	
+%2int"<mojoPortal.Web.WebConfigSettings.RedirectManagerPageSize.get*$""
+ mojoPortal.Web.WebConfigSettingsÍ
+Ê
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs† †(@?,
+*mojoPortal.Web.AdminUI.RedirectManagerPage"
+pageSizeint"__id*
+	
+%2int
+Š
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs‡J ‡(T
+%3"__id*
+""
+Š
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs‡ ‡(U	
+%4int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+pagenumber*
+
+%3Ï
+Ì
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs‡ ‡(UA,
+*mojoPortal.Web.AdminUI.RedirectManagerPage"
+
+pageNumberint"__id*
+	
+%4intÏ
+Ì
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csˆ ˆ(
+%5System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Pageû
+ø
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csˆ ˆ(8
+%62System.Collections.Specialized.NameValueCollection"&System.Web.HttpRequest.QueryString.get*
+
+%5System.Web.HttpRequestÖ
+Ó
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csˆ ˆ(
+%7string"
+__arrayGet*:
+8
+%62System.Collections.Specialized.NameValueCollection*
+sÍ
+Ê
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csˆ ˆ('
+
+%8bool""string.operator !=(string, string)*
+"
+string*
+
+%7string*
+""*
+1
+2*ƒ
+1t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csŠ Š((Ï
+Ì
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csŠ Š(
+%9System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Pageü
+ù
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csŠ Š($9
+%102System.Collections.Specialized.NameValueCollection"&System.Web.HttpRequest.QueryString.get*
+
+%9System.Web.HttpRequestØ
+Õ
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csŠ Š()
+%11string"
+__arrayGet*;
+9
+%102System.Collections.Specialized.NameValueCollection*
+sÖ
+Ó
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csŠ Š()D,
+*mojoPortal.Web.AdminUI.RedirectManagerPage"
+
+searchTermstring"__id*
+
+%11string*
+2*’
+2t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csŒ (;Ó
+Ð
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csŒ Œ(
+%12string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePageª
+§
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csŒ Œ(
+%13string"__concat*
+
+%12string*
+/Ó
+Ð
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csŒ Œ(A,
+*mojoPortal.Web.AdminUI.RedirectManagerPage"
+RootUrlstring"__id*
+
+%13string‰
+†
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs (&
+%14System.Web.UI.WebControls.Label"__id*`*^,
+*mojoPortal.Web.AdminUI.RedirectManagerPage".
+lblSiteRootSystem.Web.UI.WebControls.LabelÓ
+Ð
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs (&
+%15string"__id*C*A,
+*mojoPortal.Web.AdminUI.RedirectManagerPage"
+RootUrlstring÷ô
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs (&
+%16string"(System.Web.UI.WebControls.Label.Text.set*(
+&
+%14System.Web.UI.WebControls.Label*
+
+%15string2Text.setŠ
+‡
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csŽ Ž(&
+%17System.Web.UI.WebControls.Label"__id*a*_,
+*mojoPortal.Web.AdminUI.RedirectManagerPage"/
+lblSiteRoot2System.Web.UI.WebControls.LabelÓ
+Ð
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csŽ  Ž('
+%18string"__id*C*A,
+*mojoPortal.Web.AdminUI.RedirectManagerPage"
+RootUrlstring÷ô
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.csŽ Ž('
+%19string"(System.Web.UI.WebControls.Label.Text.set*(
+&
+%17System.Web.UI.WebControls.Label*
+
+%18string2Text.setÿ
+ü
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs (<
+%20void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*" 
+administration redirectmanager*
+3*‡
+3t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs’	 ’(	"‹
+t
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\RedirectManager.aspx.cs’ ’(	
+implicit returnB.,
+*mojoPortal.Web.AdminUI.RedirectManagerPage

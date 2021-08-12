@@ -1,0 +1,777 @@
+
+ImojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider.LoadSettings()ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs; ;(!"0*≥
+0ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs= =(;ç
+ä
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs= =(;
+
+%0bool">mojoPortal.Web.WebConfigSettings.CommerceUseGlobalSettings.get*$""
+ mojoPortal.Web.WebConfigSettings*
+1
+2*˙
+1ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs? A(-ç
+ä
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs?, ?(W
+
+%1bool">mojoPortal.Web.WebConfigSettings.CommerceGlobalUseTestMode.get*$""
+ mojoPortal.Web.WebConfigSettingsí
+è
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs? ?(Wa<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"!
+paymentGatewayUseTestModebool"__id*
+
+
+%1boolØ
+¨
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csA A(-
+%2"__id*
+""*
+3
+4*≤
+3ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csC E(bú
+ô
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csC( C(`
+%3string"KmojoPortal.Web.WebConfigSettings.CommerceGlobalPayPalSandboxAPIUsername.get*$""
+ mojoPortal.Web.WebConfigSettingsé
+ã
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csC C(`[<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+payPalAPIUsernamestring"__id*
+
+%3stringú
+ô
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csD( D(`
+%4string"KmojoPortal.Web.WebConfigSettings.CommerceGlobalPayPalSandboxAPIPassword.get*$""
+ mojoPortal.Web.WebConfigSettingsé
+ã
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csD D(`[<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+payPalAPIPasswordstring"__id*
+
+%4stringù
+ö
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csE) E(b
+%5string"LmojoPortal.Web.WebConfigSettings.CommerceGlobalPayPalSandboxAPISignature.get*$""
+ mojoPortal.Web.WebConfigSettingsè
+å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csE E(b\<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+payPalAPISignaturestring"__id*
+
+%5string*
+5*ª
+4ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csI K(eü
+ú
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csI( I(c
+%6string"NmojoPortal.Web.WebConfigSettings.CommerceGlobalPayPalProductionAPIUsername.get*$""
+ mojoPortal.Web.WebConfigSettingsé
+ã
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csI I(c[<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+payPalAPIUsernamestring"__id*
+
+%6stringü
+ú
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csJ( J(c
+%7string"NmojoPortal.Web.WebConfigSettings.CommerceGlobalPayPalProductionAPIPassword.get*$""
+ mojoPortal.Web.WebConfigSettingsé
+ã
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csJ J(c[<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+payPalAPIPasswordstring"__id*
+
+%7string†
+ù
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csK) K(e
+%8string"OmojoPortal.Web.WebConfigSettings.CommerceGlobalPayPalProductionAPISignature.get*$""
+ mojoPortal.Web.WebConfigSettingsè
+å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csK K(e\<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+payPalAPISignaturestring"__id*
+
+%8string*
+5*ı
+2ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csQ R((∏
+µ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csQ, Q(P&
+%9 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper˝
+˙
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csQ Q(P0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%9 mojoPortal.Business.SiteSettingsî
+ë
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csR R((
+%10bool""object.operator ==(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+6
+7*¿
+6ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csÜ	 Ü(	"†
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csR, R(3
+""*∫
+7ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csT Z(-à
+Ö
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csT( T(;
+
+%11int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsô
+ñ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csT( T(O
+%12string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+
+
+%11intœ
+Ã
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csT T(O
+%13string"__concat*
+Site*
+
+%12stringÃ
+…
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csT T(U
+%14string"__concat*
+
+%13string*
+-ä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csT T(UV<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring"__id*
+
+%14stringä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csW3 W(?
+%15string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csWB W(a
+%16"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csW3 W(a
+%17string"__concat*
+
+%15string*
+
+%16∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csX X(-
+%18"__id*
+""≤
+Ø
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csW X(.
+%19bool"CmojoPortal.Web.Framework.ConfigHelper.GetBoolProperty(string, bool)*)"'
+%mojoPortal.Web.Framework.ConfigHelper*
+
+%17string*
+
+%18ì
+ê
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csV X(.a<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"!
+paymentGatewayUseTestModebool"__id*
+
+%19bool∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csZ Z(-
+%20"__id*
+""*
+8
+9*Ù
+8ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs\ \(o¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs\ \(89
+%212System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs\9 \(E
+%22string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs\H \(f
+%23"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs\9 \(f
+%24string"__concat*
+
+%22string*
+
+%23Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs\ \(g
+%25string"
+__arrayGet*;
+9
+%212System.Collections.Specialized.NameValueCollection*
+
+%24stringÒ
+Ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs\ \(o
+%26bool""string.operator !=(string, string)*
+"
+string*
+
+%25string*
+""*
+10
+11*è
+10ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs^ ^(z¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs^, ^(L9
+%272System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs^M ^(Y
+%28string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs^\ ^(z
+%29"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs^M ^(z
+%30string"__concat*
+
+%28string*
+
+%29Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs^, ^({
+%31string"
+__arrayGet*;
+9
+%272System.Collections.Specialized.NameValueCollection*
+
+%30stringè
+å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs^ ^({[<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+payPalAPIUsernamestring"__id*
+
+%31string*
+11*ı
+11ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csb b(o¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csb b(89
+%322System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csb9 b(E
+%33string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csbH b(f
+%34"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csb9 b(f
+%35string"__concat*
+
+%33string*
+
+%34Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csb b(g
+%36string"
+__arrayGet*;
+9
+%322System.Collections.Specialized.NameValueCollection*
+
+%35stringÒ
+Ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csb b(o
+%37bool""string.operator !=(string, string)*
+"
+string*
+
+%36string*
+""*
+12
+13*è
+12ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csd d(z¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csd, d(L9
+%382System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csdM d(Y
+%39string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csd\ d(z
+%40"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csdM d(z
+%41string"__concat*
+
+%39string*
+
+%40Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csd, d({
+%42string"
+__arrayGet*;
+9
+%382System.Collections.Specialized.NameValueCollection*
+
+%41stringè
+å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csd d({[<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+payPalAPIPasswordstring"__id*
+
+%42string*
+13*Ù
+13ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csh h(p¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csh h(89
+%432System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csh9 h(E
+%44string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cshH h(g
+%45"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csh9 h(g
+%46string"__concat*
+
+%44string*
+
+%45Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csh h(h
+%47string"
+__arrayGet*;
+9
+%432System.Collections.Specialized.NameValueCollection*
+
+%46stringÒ
+Ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csh h(p
+%48bool""string.operator !=(string, string)*
+"
+string*
+
+%47string*
+""*
+14
+5*è
+14ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csj j(|¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csj- j(M9
+%492System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csjN j(Z
+%50string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csj] j(|
+%51"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csjN j(|
+%52string"__concat*
+
+%50string*
+
+%51Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csj- j(}
+%53string"
+__arrayGet*;
+9
+%492System.Collections.Specialized.NameValueCollection*
+
+%52stringê
+ç
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csj j(}\<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+payPalAPISignaturestring"__id*
+
+%53string*
+5*Ù
+9ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csp p(r¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csp p(89
+%542System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csp9 p(E
+%55string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cspH p(i
+%56"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csp9 p(i
+%57string"__concat*
+
+%55string*
+
+%56Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csp p(j
+%58string"
+__arrayGet*;
+9
+%542System.Collections.Specialized.NameValueCollection*
+
+%57stringÒ
+Ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csp p(r
+%59bool""string.operator !=(string, string)*
+"
+string*
+
+%58string*
+""*
+15
+16*è
+15ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csr r(}¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csr, r(L9
+%602System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csrM r(Y
+%61string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csr\ r(}
+%62"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csrM r(}
+%63string"__concat*
+
+%61string*
+
+%62Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csr, r(~
+%64string"
+__arrayGet*;
+9
+%602System.Collections.Specialized.NameValueCollection*
+
+%63stringè
+å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csr r(~[<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+payPalAPIUsernamestring"__id*
+
+%64string*
+16*ı
+16ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csv v(r¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csv v(89
+%652System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csv9 v(E
+%66string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csvH v(i
+%67"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csv9 v(i
+%68string"__concat*
+
+%66string*
+
+%67Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csv v(j
+%69string"
+__arrayGet*;
+9
+%652System.Collections.Specialized.NameValueCollection*
+
+%68stringÒ
+Ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csv v(r
+%70bool""string.operator !=(string, string)*
+"
+string*
+
+%69string*
+""*
+17
+18*è
+17ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csx x(}¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csx, x(L9
+%712System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csxM x(Y
+%72string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csx\ x(}
+%73"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csxM x(}
+%74string"__concat*
+
+%72string*
+
+%73Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csx, x(~
+%75string"
+__arrayGet*;
+9
+%712System.Collections.Specialized.NameValueCollection*
+
+%74stringè
+å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csx x(~[<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+payPalAPIPasswordstring"__id*
+
+%75string*
+18*Ù
+18ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs| |(s¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs| |(89
+%762System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs|9 |(E
+%77string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs|H |(j
+%78"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs|9 |(j
+%79string"__concat*
+
+%77string*
+
+%78Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs| |(k
+%80string"
+__arrayGet*;
+9
+%762System.Collections.Specialized.NameValueCollection*
+
+%79stringÒ
+Ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs| |(s
+%81bool""string.operator !=(string, string)*
+"
+string*
+
+%80string*
+""*
+19
+5*ë
+19ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs~ ~(¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs~- ~(M9
+%822System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs~N ~(Z
+%83string"__id*X*V<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+configPrefixstring∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs~] ~(
+%84"__id*
+""Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs~N ~(
+%85string"__concat*
+
+%83string*
+
+%84Ö
+Ç
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs~- ~(Ä
+%86string"
+__arrayGet*;
+9
+%822System.Collections.Specialized.NameValueCollection*
+
+%85stringë
+é
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.cs~ ~(Ä\<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+payPalAPISignaturestring"__id*
+
+%86string*
+5*™
+5ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csÖ Ö("Ñ
+Å
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csÖ Ö("W<
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider"
+didLoadSettingsbool"__id*
+""*
+20*–
+20ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csÜ	 Ü(	"Ø
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\PaymentGateway\PayPalDirectPaymentGatewayProvider.csÜ Ü(	
+implicit returnB><
+:mojoPortal.Web.Commerce.PayPalDirectPaymentGatewayProvider

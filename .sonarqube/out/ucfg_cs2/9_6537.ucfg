@@ -1,0 +1,155 @@
+
+VmojoPortal.Web.AdminUI.FileManagerControl.btnNewFolder_Click(object, System.EventArgs)y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.cs‰ ‰('"0*Ö
+0y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csË Ô(¸
+˘
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csË Ë(2
+%0string"?mojoPortal.Web.AdminUI.FileManagerControl.GetCurrentDirectory()*-+
+)mojoPortal.Web.AdminUI.FileManagerControl£
+†
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csË Ë(2
+dirstring"__id*
+
+%0stringî
+ë
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÈ$ È(3'
+%1!System.Web.UI.WebControls.TextBox"__id*e*c+
+)mojoPortal.Web.AdminUI.FileManagerControl"4
+txtNewDirectory!System.Web.UI.WebControls.TextBoxÌÍ
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÈ$ È(8
+%2string"*System.Web.UI.WebControls.TextBox.Text.get*)
+'
+%1!System.Web.UI.WebControls.TextBox2Text.getˆ
+Û
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÈK È(|
+
+%3bool"DmojoPortal.Web.WebConfigSettings.ForceLowerCaseForFolderCreation.get*$""
+ mojoPortal.Web.WebConfigSettingsî
+ë
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÈ$ È(}
+%4string"AmojoPortal.Web.Framework.IOHelper.ToCleanFolderName(string, bool)*%"#
+!mojoPortal.Web.Framework.IOHelper*
+
+%2string*
+
+
+%3bool∑
+¥
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÈ È(}
+%5string"__concat*
+
+dirstring*
+
+%4string§
+°
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÈ È(}
+pathstring"__id*
+
+%5stringè
+å
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÏ" Ï(,'
+%6!mojoPortal.FileSystem.IFileSystem"__id*`*^+
+)mojoPortal.Web.AdminUI.FileManagerControl"/
+
+fileSystem!mojoPortal.FileSystem.IFileSystemØ¨
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÏ" Ï(?$
+%7mojoPortal.FileSystem.OpResult"6mojoPortal.FileSystem.IFileSystem.CreateFolder(string)*)
+'
+%6!mojoPortal.FileSystem.IFileSystem*
+
+pathstring2CreateFolder(string)÷
+”
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÏ Ï(?(
+resultmojoPortal.FileSystem.OpResult"__id*&
+$
+%7mojoPortal.FileSystem.OpResultî
+ë
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÓ Ó('
+%8!System.Web.UI.WebControls.TextBox"__id*e*c+
+)mojoPortal.Web.AdminUI.FileManagerControl"4
+txtNewDirectory!System.Web.UI.WebControls.TextBox±
+Æ
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÓ' Ó(3
+%9string"__id**
+string"
+Emptystring˛˚
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÓ Ó(3
+%10string"*System.Web.UI.WebControls.TextBox.Text.set*)
+'
+%8!System.Web.UI.WebControls.TextBox*
+
+%9string2Text.set
+Ì
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csÔ Ô(
+%11void"4mojoPortal.Web.AdminUI.FileManagerControl.BindData()*-+
+)mojoPortal.Web.AdminUI.FileManagerControl*
+1
+2
+3
+3*Í
+2y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csı ı(*Ç
+ˇ
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csı ı("
+%12mojoPortal.Web.UI.mojoLabel"__id*X*V+
+)mojoPortal.Web.AdminUI.FileManagerControl"'
+lblErrormojoPortal.Web.UI.mojoLabel‰·
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csı  ı(*
+%13string"System.Exception.Message.get**
+(
+ex"System.UnauthorizedAccessException2Message.get¯ı
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.csı ı(*
+%14string"(System.Web.UI.WebControls.Label.Text.set*$
+"
+%12mojoPortal.Web.UI.mojoLabel*
+
+%13string2Text.set*
+3*Ë
+1y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.cs˘ ˘(*Ç
+ˇ
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.cs˘ ˘("
+%15mojoPortal.Web.UI.mojoLabel"__id*X*V+
+)mojoPortal.Web.AdminUI.FileManagerControl"'
+lblErrormojoPortal.Web.UI.mojoLabel‚ﬂ
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.cs˘  ˘(*
+%16string"$System.ArgumentException.Message.get* 
+
+exSystem.ArgumentException2Message.get¯ı
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.cs˘ ˘(*
+%17string"(System.Web.UI.WebControls.Label.Text.set*$
+"
+%15mojoPortal.Web.UI.mojoLabel*
+
+%16string2Text.set*
+3*ë
+3y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.cs˚	 ˚(	"ê
+y
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\Controls\FileManager.ascx.cs˚ ˚(	
+implicit return:
+senderobject:
+eSystem.EventArgsB-+
+)mojoPortal.Web.AdminUI.FileManagerControl

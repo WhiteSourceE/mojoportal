@@ -1,0 +1,120 @@
+
+;mojoPortal.Business.BannedIPAddress.GetBannedIPAddress(int)w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs2 2(!"0*∏
+0w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs4 4(?Î
+Ë
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs4( 4(@
+%0System.Data.IDataReader"&mojoPortal.Data.DBBannedIP.GetOne(int)*"
+mojoPortal.Data.DBBannedIP*
+""∆
+√
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs4 4(@!
+readerSystem.Data.IDataReader"__id*
+
+%0System.Data.IDataReader*
+1*‹
+1w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs6 6(!’“
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs6 6(!
+
+%1bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*ä
+2w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs8 ;(=ˆÛ
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs81 8(@
+%2object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+RowID2this[string].getÀ
+»
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs8! 8(A	
+%3int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%2objectÏ
+È
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs8 8(A	
+%4int"-mojoPortal.Business.BannedIPAddress.RowId.set*'%
+#mojoPortal.Business.BannedIPAddress*
+	
+%3int˘ˆ
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs9$ 9(6
+%5object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+BannedIP2this[string].getπ∂
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs9$ 9(A
+%6string"object.ToString()*
+
+%5object2
+ToString()ı
+Ú
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs9 9(A
+%7string"0mojoPortal.Business.BannedIPAddress.BannedIP.set*'%
+#mojoPortal.Business.BannedIPAddress*
+
+%6string˙˜
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs:8 :(K
+%8object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	BannedUTC2this[string].get⁄
+◊
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs:% :(L
+%9System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%8objectâ
+Ü
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs: :(L
+%10System.DateTime"1mojoPortal.Business.BannedIPAddress.BannedUtc.set*'%
+#mojoPortal.Business.BannedIPAddress*
+
+%9System.DateTime˛˚
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs;( ;(>
+%11object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+BannedReason2this[string].getª∏
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs;( ;(I
+%12string"object.ToString()*
+
+%11object2
+ToString()˚
+¯
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.cs; ;(I
+%13string"4mojoPortal.Business.BannedIPAddress.BannedReason.set*'%
+#mojoPortal.Business.BannedIPAddress*
+
+%12string*
+3*Å
+3w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.csA	 A(	*
+4*ç
+4w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.csA	 A(	"é
+w
+mD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\BannedIPAddress.csA A(	
+implicit return:
+rowIdintB'%
+#mojoPortal.Business.BannedIPAddress

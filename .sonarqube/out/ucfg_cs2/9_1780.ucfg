@@ -1,0 +1,348 @@
+
+MmojoPortal.Web.Services.CKeditorStyles.RenderJsonList(System.Web.HttpContext)t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs7 7(#"0*è
+0t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs9 ?(Kâ
+ß
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs9 9(
+%0System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextæ
+ã
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs9 9(<
+%1string"'System.Web.HttpResponse.ContentType.set*
+
+%0System.Web.HttpResponse*
+text/javascript³°
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs:  :(2
+%2System.Text.UTF8Encoding"System.Text.UTF8EncodingÐ
+Í
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs:$ :(0
+
+%3void"'System.Text.UTF8Encoding.UTF8Encoding()* 
+
+%2System.Text.UTF8EncodingÃ
+À
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs: :(2 
+encodingSystem.Text.Encoding"__id* 
+
+%2System.Text.UTF8Encodingâ
+ß
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs; ;(
+%4System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext‡
+„
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs; ;(7
+%5System.Text.Encoding"+System.Web.HttpResponse.ContentEncoding.set*
+
+%4System.Web.HttpResponse*"
+ 
+encodingSystem.Text.Encodingâ
+ß
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs= =(
+%6System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextõ
+ò
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs= =(H
+
+%7void"%System.Web.HttpResponse.Write(string)*
+
+%6System.Web.HttpResponse*&$
+"try{CKEDITOR.addStylesSet('mojo',[û
+ø
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs? ?(K
+
+%8bool"NmojoPortal.Web.WebConfigSettings.AddSystemStyleTemplatesAboveSiteTemplates.get*$""
+ mojoPortal.Web.WebConfigSettings*
+1
+2*ª
+1t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csA A(*©
+¦
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csA A(+
+
+%9void"QmojoPortal.Web.Services.CKeditorStyles.RenderSystemStyles(System.Web.HttpContext)**(
+&mojoPortal.Web.Services.CKeditorStyles*#
+!
+contextSystem.Web.HttpContext*
+2*Î
+2t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csD D(Wˆ
+…
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csDB D(N'
+%10 mojoPortal.Business.SiteSettings"__id*^*\(
+&mojoPortal.Web.Services.CKeditorStyles"0
+siteSettings mojoPortal.Business.SiteSettingsç
+ä
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csDB D(W
+%11System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*)
+'
+%10 mojoPortal.Business.SiteSettings‘
+Ž
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csD( D(X
+%12System.Data.IDataReader":mojoPortal.Business.ContentStyle.GetAllActive(System.Guid)*$""
+ mojoPortal.Business.ContentStyle*
+
+%11System.GuidÄ
+Á
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csD D(X!
+readerSystem.Data.IDataReader"__id* 
+
+%12System.Data.IDataReader*
+3*×
+3t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csF F($ÓÐ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csF F($
+%13bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+4
+5*Î.
+4t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csH N(ã
+à
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csH H($
+%14System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÍ
+Ê
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csH+ H(0
+%15string"__id*=*;(
+&mojoPortal.Web.Services.CKeditorStyles"
+commastringà
+Ý
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csH H(1
+%16void"%System.Web.HttpResponse.Write(string)* 
+
+%14System.Web.HttpResponse*
+
+%15stringã
+à
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csI I($
+%17System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextóð
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csI< I(J
+%18object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Name2this[string].get¸µ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csI< I(U
+%19string"object.ToString()*
+
+%18object2
+ToString()þ
+û
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csI< I(b
+%20string"8mojoPortal.Web.Framework.StringHelper.JsonEscape(string)*)"'
+%mojoPortal.Web.Framework.StringHelper*
+
+%19string²
+¯
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csI+ I(b
+%21string"__concat*
+	{"name":"*
+
+%20stringª
+§
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csI+ I(i
+%22string"__concat*
+
+%21string*
+"à
+Ý
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csI I(j
+%23void"%System.Web.HttpResponse.Write(string)* 
+
+%17System.Web.HttpResponse*
+
+%22stringã
+à
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csJ J($
+%24System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextöó
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csJ? J(P
+%25object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Element2this[string].get¸µ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csJ? J([
+%26string"object.ToString()*
+
+%25object2
+ToString()þ
+û
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csJ? J(h
+%27string"8mojoPortal.Web.Framework.StringHelper.JsonEscape(string)*)"'
+%mojoPortal.Web.Framework.StringHelper*
+
+%26stringµ
+²
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csJ+ J(h
+%28string"__concat*
+,"element":"*
+
+%27stringª
+§
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csJ+ J(o
+%29string"__concat*
+
+%28string*
+"à
+Ý
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csJ J(p
+%30void"%System.Web.HttpResponse.Write(string)* 
+
+%24System.Web.HttpResponse*
+
+%29stringã
+à
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csK K($
+%31System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext÷ô
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csKM K(_
+%32object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CssClass2this[string].get¸µ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csKM K(j
+%33string"object.ToString()*
+
+%32object2
+ToString()þ
+û
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csKM K(w
+%34string"8mojoPortal.Web.Framework.StringHelper.JsonEscape(string)*)"'
+%mojoPortal.Web.Framework.StringHelper*
+
+%33stringÁ
+¾
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csK+ K(w
+%35string"__concat*
+,"attributes":{"class":"*
+
+%34string«
+¨
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csK+ K(
+%36string"__concat*
+
+%35string*
+"}á
+Þ
+u
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csK K(€
+%37void"%System.Web.HttpResponse.Write(string)* 
+
+%31System.Web.HttpResponse*
+
+%36stringã
+à
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csL L($
+%38System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÖ
+Ó
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csL L(/
+%39void"%System.Web.HttpResponse.Write(string)* 
+
+%38System.Web.HttpResponse*
+}Ã
+À
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csN N(;(
+&mojoPortal.Web.Services.CKeditorStyles"
+commastring"__id*
+,*
+3*~
+5t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs\	 \(	*
+6*€
+6t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csU U(Kü
+ù
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csU U(K
+%40bool"NmojoPortal.Web.WebConfigSettings.AddSystemStyleTemplatesBelowSiteTemplates.get*$""
+ mojoPortal.Web.WebConfigSettings*
+7
+8*«
+7t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csW W(*ª
+§
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csW W(+
+%41void"QmojoPortal.Web.Services.CKeditorStyles.RenderSystemStyles(System.Web.HttpContext)**(
+&mojoPortal.Web.Services.CKeditorStyles*#
+!
+contextSystem.Web.HttpContext*
+8*Î
+8t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csZ Z(9ã
+à
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csZ Z(
+%42System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextç
+ä
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.csZ Z(:
+%43void"%System.Web.HttpResponse.Write(string)* 
+
+%42System.Web.HttpResponse*
+]);
+}catch(err){}*
+9*‡
+9t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs\	 \(	"‹
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\CKeditorStyles.ashx.cs\ \(	
+implicit return:!
+contextSystem.Web.HttpContextB*(
+&mojoPortal.Web.Services.CKeditorStyles

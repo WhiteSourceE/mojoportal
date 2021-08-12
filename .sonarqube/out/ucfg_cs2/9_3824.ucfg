@@ -1,0 +1,1026 @@
+
+dmojoPortal.Web.OpenIdLoginControl.DoNewUserLogic(DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs)z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÀ À(#"0*à
+0z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÕ Õ(˛
+˚
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÕ Õ(
+
+%0bool""object.operator ==(object, object)*
+"
+object*9
+7
+e2DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs*
+""*
+1
+2*Ü
+1z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÀ	 À(	"Ñ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÕ Õ($
+""*ﬂ
+2z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csœ –(Ω
+∫
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csœ# œ(-@
+%1:DotNetOpenAuth.OpenId.RelyingParty.IAuthenticationResponse"?DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs.Response.get*9
+7
+e2DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgsÓÎ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csœ# œ(LH
+%2BDotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse"LDotNetOpenAuth.OpenId.RelyingParty.IAuthenticationResponse.GetExtension<T>()*B
+@
+%1:DotNetOpenAuth.OpenId.RelyingParty.IAuthenticationResponse2GetExtension<T>()û
+õ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csœ œ(LK
+claimBDotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse"__id*J
+H
+%2BDotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponseÉ
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs– –(
+
+%3bool"÷DotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse.operator ==(DotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse, DotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse)*F"D
+BDotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse*M
+K
+claimBDotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse*
+""*
+3
+4*Ü
+3z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÀ	 À(	"Ñ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs–! –((
+""*˘
+4z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs“ “(/Ô
+Ï
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs“ “(0
+
+%4bool"∞mojoPortal.Web.OpenIdLoginControl.IsValidForUserCreation(DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs, DotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse)*%#
+!mojoPortal.Web.OpenIdLoginControl*9
+7
+e2DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs*M
+K
+claimBDotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse*
+5
+6*´	
+5z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs‘ ‘(Mà
+Ö
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs‘- ‘(9&
+%5 mojoPortal.Business.SiteSettings"__id*Y*W#
+!mojoPortal.Web.OpenIdLoginControl"0
+siteSettings mojoPortal.Business.SiteSettings·
+ﬁ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs‘- ‘(@	
+%6int"+mojoPortal.Business.SiteSettings.SiteId.get*(
+&
+%5 mojoPortal.Business.SiteSettings™
+ß
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs‘B ‘(M
+%7string"LDotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse.Email.get*M
+K
+claimBDotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponseÖ
+Ç
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs‘ ‘(N
+
+%8bool"9mojoPortal.Business.SiteUser.EmailExistsInDB(int, string)* "
+mojoPortal.Business.SiteUser*
+	
+%6int*
+
+%7string*
+7
+8*
+7z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÿ ÿ(QÇ
+ˇ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÿ ÿ(%
+%9System.Web.UI.WebControls.Label"__id*T*R#
+!mojoPortal.Web.OpenIdLoginControl"+
+lblErrorSystem.Web.UI.WebControls.Label„
+‡
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÿ$ ÿ(Q
+%10string";Resources.Resource.OpenIDRegisterUserEmailExistsMessage.get*"
+Resources.Resource¸˘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÿ ÿ(Q
+%11string"(System.Web.UI.WebControls.Label.Text.set*'
+%
+%9System.Web.UI.WebControls.Label*
+
+%10string2Text.set"Ñ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csŸ Ÿ(
+""*
+8z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csﬂ „(-â
+Ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csﬂ4 ﬂ(@'
+%12 mojoPortal.Business.SiteSettings"__id*Y*W#
+!mojoPortal.Web.OpenIdLoginControl"0
+siteSettings mojoPortal.Business.SiteSettings¬ø
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csﬂ' ﬂ(A#
+%13mojoPortal.Business.SiteUser"mojoPortal.Business.SiteUserß
+§
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csﬂ+ ﬂ(3
+%14void"GmojoPortal.Business.SiteUser.SiteUser(mojoPortal.Business.SiteSettings)*%
+#
+%13mojoPortal.Business.SiteUser*)
+'
+%12 mojoPortal.Business.SiteSettings’
+“
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csﬂ ﬂ(A'
+newUsermojoPortal.Business.SiteUser"__id*%
+#
+%13mojoPortal.Business.SiteUser´
+®
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs‡$ ‡(/
+%15string"LDotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse.Email.get*M
+K
+claimBDotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponseÚ
+Ô
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs‡ ‡(/
+%16string"&mojoPortal.Business.SiteUser.Email.set*)
+'
+newUsermojoPortal.Business.SiteUser*
+
+%15stringÆ
+´
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs·# ·(1
+%17string"ODotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponse.FullName.get*M
+K
+claimBDotNetOpenAuth.OpenId.Extensions.SimpleRegistration.ClaimsResponseÒ
+Ó
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs· ·(1
+%18string"%mojoPortal.Business.SiteUser.Name.set*)
+'
+newUsermojoPortal.Business.SiteUser*
+
+%17string‡
+›
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs‚' ‚(3
+%19string"%mojoPortal.Business.SiteUser.Name.get*)
+'
+newUsermojoPortal.Business.SiteUserÕ
+ 
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs‚' ‚(E
+%20string"string.Replace(string, string)*
+
+%19string*
+ *
+.±
+Æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs‚' ‚(O
+%21string"string.ToLower()*
+
+%20string´
+®
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs‚ ‚(O
+	loginNamestring"__id*
+
+%21stringµ
+≤
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs„ „((
+
+%22int"string.Length.get*
+
+	loginNamestring*
+9
+10*Å
+9z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs„/ „(TÀ
+»
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs„; „(U
+%23string"string.Substring(int, int)*
+
+	loginNamestring*2 *22´
+®
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs„/ „(U
+	loginNamestring"__id*
+
+%23string*
+10*ç
+10z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÂ Ê(6â
+Ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÊ Ê($'
+%24 mojoPortal.Business.SiteSettings"__id*Y*W#
+!mojoPortal.Web.OpenIdLoginControl"0
+siteSettings mojoPortal.Business.SiteSettings„
+‡
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÊ Ê(+
+
+%25int"+mojoPortal.Business.SiteSettings.SiteId.get*)
+'
+%24 mojoPortal.Business.SiteSettingsé
+ã
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÂ Ê(7
+%26bool"9mojoPortal.Business.SiteUser.LoginExistsInDB(int, string)* "
+mojoPortal.Business.SiteUser*
+
+
+%25int*
+
+	loginNamestring*
+11
+12*æ
+11z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csË È(1≠
+™
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csË$ Ë(7'
+%27 DotNetOpenAuth.OpenId.Identifier"HDotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs.ClaimedIdentifier.get*9
+7
+e2DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgsÿ’
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csË$ Ë(B
+%28string"object.ToString()*)
+'
+%27 DotNetOpenAuth.OpenId.Identifier2
+ToString()≥
+∞
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csËV Ë(b
+%29string"__id**
+string"
+Emptystring›
+⁄
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csË$ Ë(c
+%30string"string.Replace(string, string)*
+
+%28string*	
+http://*
+
+%29string¥
+±
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csËx Ë(Ñ
+%31string"__id**
+string"
+Emptystringﬂ
+‹
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csË$ Ë(Ö
+%32string"string.Replace(string, string)*
+
+%30string*
+
+https://*
+
+%31stringµ
+≤
+|
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csËì Ë(ü
+%33string"__id**
+string"
+Emptystringÿ
+’
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csË$ Ë(†
+%34string"string.Replace(string, string)*
+
+%32string*
+/*
+
+%33string¨
+©
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csË Ë(†
+	loginNamestring"__id*
+
+%34stringµ
+≤
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÈ È(,
+
+%35int"string.Length.get*
+
+	loginNamestring*
+13
+14*Ç
+13z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÈ3 È(XÀ
+»
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÈ? È(Y
+%36string"string.Substring(int, int)*
+
+	loginNamestring*2 *22´
+®
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÈ3 È(Y
+	loginNamestring"__id*
+
+%36string*
+14*û
+14z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÎ Î(!ï
+í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÎ Î(!
+iint"__id*2*
+15*ç
+15z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÏ Ì(:â
+Ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÌ Ì(('
+%37 mojoPortal.Business.SiteSettings"__id*Y*W#
+!mojoPortal.Web.OpenIdLoginControl"0
+siteSettings mojoPortal.Business.SiteSettings„
+‡
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÌ Ì(/
+
+%38int"+mojoPortal.Business.SiteSettings.SiteId.get*)
+'
+%37 mojoPortal.Business.SiteSettingsé
+ã
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÏ Ì(;
+%39bool"9mojoPortal.Business.SiteUser.LoginExistsInDB(int, string)* "
+mojoPortal.Business.SiteUser*
+
+
+%38int*
+
+	loginNamestring*
+16
+12*‡
+16z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÔ (5™
+ß
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÔ) Ô(5
+%40string"int.ToString()*
+
+
+iint¿
+Ω
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÔ Ô(5
+%41string"__concat*
+
+	loginNamestring*
+
+%40string´
+®
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÔ Ô(5
+	loginNamestring"__id*
+
+%41stringµ
+≤
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs  (0
+
+%42int"string.Length.get*
+
+	loginNamestring*
+17
+18*Å
+17z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs7 (Y 
+«
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csC (Z
+%43string"string.Remove(int, int)*
+
+	loginNamestring*2(*2´
+®
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs7 (Z
+	loginNamestring"__id*
+
+%43string*
+18*Ü
+18z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÒ Ò(*
+15*®
+12z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs˜ ˝(:¸
+˘
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs˜ ˜(1
+%44string"*mojoPortal.Business.SiteUser.LoginName.set*)
+'
+newUsermojoPortal.Business.SiteUser*
+
+	loginNamestringÒ
+Ó
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¯H ¯(p
+%45string";mojoPortal.Web.WebConfigSettings.PasswordGeneratorChars.get*$""
+ mojoPortal.Web.WebConfigSettingsá
+Ñ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¯' ¯(q
+%46string">mojoPortal.Business.SiteUser.CreateRandomPassword(int, string)* "
+mojoPortal.Business.SiteUser*2*
+
+%45stringı
+Ú
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¯ ¯(q
+%47string")mojoPortal.Business.SiteUser.Password.set*)
+'
+newUsermojoPortal.Business.SiteUser*
+
+%46string·
+ﬁ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs˘/ ˘(Z
+%48string"9Resources.Resource.ManageUsersDefaultSecurityQuestion.get*"
+Resources.Resource˝
+˙
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs˘ ˘(Z
+%49string"1mojoPortal.Business.SiteUser.PasswordQuestion.set*)
+'
+newUsermojoPortal.Business.SiteUser*
+
+%48stringﬂ
+‹
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs˙- ˙(V
+%50string"7Resources.Resource.ManageUsersDefaultSecurityAnswer.get*"
+Resources.Resource˚
+¯
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs˙ ˙(V
+%51string"/mojoPortal.Business.SiteUser.PasswordAnswer.set*)
+'
+newUsermojoPortal.Business.SiteUser*
+
+%50string≠
+™
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs˚( ˚(;'
+%52 DotNetOpenAuth.OpenId.Identifier"HDotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgs.ClaimedIdentifier.get*9
+7
+e2DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgsÿ’
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs˚( ˚(F
+%53string"object.ToString()*)
+'
+%52 DotNetOpenAuth.OpenId.Identifier2
+ToString()ˆ
+Û
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs˚ ˚(F
+%54string"*mojoPortal.Business.SiteUser.OpenIdUri.set*)
+'
+newUsermojoPortal.Business.SiteUser*
+
+%53string‹
+Ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¸ ¸("
+%55bool"#mojoPortal.Business.SiteUser.Save()*)
+'
+newUsermojoPortal.Business.SiteUserâ
+Ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs˝ ˝($'
+%56 mojoPortal.Business.SiteSettings"__id*Y*W#
+!mojoPortal.Web.OpenIdLoginControl"0
+siteSettings mojoPortal.Business.SiteSettingsÛ
+
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs˝ ˝(:
+%57bool":mojoPortal.Business.SiteSettings.UseSecureRegistration.get*)
+'
+%56 mojoPortal.Business.SiteSettings*
+19
+20*ﬂ
+19z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csˇ ˇ(Nª
+∏
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csˇ@ ˇ(N
+%58System.Guid"System.Guid.NewGuid()*"
+System.Guidò
+ï
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csˇ ˇ(O
+%59bool"ImojoPortal.Business.SiteUser.SetRegistrationConfirmationGuid(System.Guid)*)
+'
+newUsermojoPortal.Business.SiteUser*
+
+%58System.Guid*
+20*ø
+20z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÑ! ä(;È
+Ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÑA Ñ(Q
+%60System.Guid")mojoPortal.Business.SiteUser.UserGuid.get*)
+'
+newUsermojoPortal.Business.SiteUser÷
+”
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÑS Ñ(l
+%61string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtils «
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÑ0 Ñ(m'
+%62 mojoPortal.Business.UserLocation" mojoPortal.Business.UserLocation¢
+ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÑ4 Ñ(@
+%63void"BmojoPortal.Business.UserLocation.UserLocation(System.Guid, string)*)
+'
+%62 mojoPortal.Business.UserLocation*
+
+%60System.Guid*
+
+%61string‚
+ﬂ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÑ! Ñ(m0
+userLocation mojoPortal.Business.UserLocation"__id*)
+'
+%62 mojoPortal.Business.UserLocationâ
+Ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÖ, Ö(8'
+%64 mojoPortal.Business.SiteSettings"__id*Y*W#
+!mojoPortal.Web.OpenIdLoginControl"0
+siteSettings mojoPortal.Business.SiteSettingsÌ
+Í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÖ, Ö(A
+%65System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*)
+'
+%64 mojoPortal.Business.SiteSettingså
+â
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÖ Ö(A
+%66System.Guid"-mojoPortal.Business.UserLocation.SiteGuid.set*2
+0
+userLocation mojoPortal.Business.UserLocation*
+
+%65System.Guidﬂ‹
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÜ, Ü(0
+%67System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get€
+ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÜ, Ü(8
+%68System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+
+%67System.Web.UI.Pageÿ
+’
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÜ, Ü(E
+%69string"'System.Web.HttpRequest.UserHostName.get*
+
+%68System.Web.HttpRequestÇ
+ˇ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÜ Ü(E
+%70string"-mojoPortal.Business.UserLocation.Hostname.set*2
+0
+userLocation mojoPortal.Business.UserLocation*
+
+%69stringÈ
+Ê
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csá á('
+%71bool"'mojoPortal.Business.UserLocation.Save()*2
+0
+userLocation mojoPortal.Business.UserLocationâ
+Ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csä ä(%'
+%72 mojoPortal.Business.SiteSettings"__id*Y*W#
+!mojoPortal.Web.OpenIdLoginControl"0
+siteSettings mojoPortal.Business.SiteSettingsÛ
+
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csä ä(;
+%73bool":mojoPortal.Business.SiteSettings.UseSecureRegistration.get*)
+'
+%72 mojoPortal.Business.SiteSettings*
+21
+22*ò
+21z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csã ã(EÙ
+Ò
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csã ã(7
+%74System.Guid"4mojoPortal.Business.SiteUser.RegisterConfirmGuid.get*)
+'
+newUsermojoPortal.Business.SiteUserî
+ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csã; ã(E
+%75"__id*
+""*
+23
+22*À.
+23{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csé ô(úÌ
+Í
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csè è(7"
+%76mojoPortal.Net.SmtpSettings"*mojoPortal.Web.SiteUtils.GetSmtpSettings()*"
+mojoPortal.Web.SiteUtilsß
+§
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csê ê(c
+%77string"BmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*&$
+"RegisterConfirmEmailMessage.configâ
+Ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csë ë(('
+%78 mojoPortal.Business.SiteSettings"__id*Y*W#
+!mojoPortal.Web.OpenIdLoginControl"0
+siteSettings mojoPortal.Business.SiteSettings˜
+Ù
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csë ë(@
+%79string"<mojoPortal.Business.SiteSettings.DefaultEmailFromAddress.get*)
+'
+%78 mojoPortal.Business.SiteSettingsâ
+Ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csí í(('
+%80 mojoPortal.Business.SiteSettings"__id*Y*W#
+!mojoPortal.Web.OpenIdLoginControl"0
+siteSettings mojoPortal.Business.SiteSettingsı
+Ú
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csí í(>
+%81string":mojoPortal.Business.SiteSettings.DefaultFromEmailAlias.get*)
+'
+%80 mojoPortal.Business.SiteSettings·
+ﬁ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csì ì()
+%82string"&mojoPortal.Business.SiteUser.Email.get*)
+'
+newUsermojoPortal.Business.SiteUserâ
+Ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csî î(('
+%83 mojoPortal.Business.SiteSettings"__id*Y*W#
+!mojoPortal.Web.OpenIdLoginControl"0
+siteSettings mojoPortal.Business.SiteSettingsË
+Â
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csî î(1
+%84string"-mojoPortal.Business.SiteSettings.SiteName.get*)
+'
+%83 mojoPortal.Business.SiteSettingsÊ
+„
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csï ï(2
+%85string"/mojoPortal.Web.Framework.WebUtils.GetSiteRoot()*%"#
+!mojoPortal.Web.Framework.WebUtils–
+Õ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csï ï(X
+%86string"__concat*
+
+%85string*%#
+!/ConfirmRegistration.aspx?ticket=Ù
+Ò
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csñ ñ(7
+%87System.Guid"4mojoPortal.Business.SiteUser.RegisterConfirmGuid.get*)
+'
+newUsermojoPortal.Business.SiteUserº
+π
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csñ ñ(B
+%88string"System.Guid.ToString()*
+
+%87System.Guid∫
+∑
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csï ñ(B
+%89string"__concat*
+
+%86string*
+
+%88string≈
+¬
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csé ñ(C
+%90void"âmojoPortal.Net.Notification.SendRegistrationConfirmationLink(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string)*"
+mojoPortal.Net.Notification*$
+"
+%76mojoPortal.Net.SmtpSettings*
+
+%77string*
+
+%79string*
+
+%81string*
+
+%82string*
+
+%84string*
+
+%89stringÉ
+Ä
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csò ò( &
+%91System.Web.UI.WebControls.Label"__id*T*R#
+!mojoPortal.Web.OpenIdLoginControl"+
+lblErrorSystem.Web.UI.WebControls.Label€
+ÿ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csò( ò(M
+%92string"3Resources.Resource.LoginUnconfirmedEmailMessage.get*"
+Resources.Resource˝˙
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csò ò(M
+%93string"(System.Web.UI.WebControls.Label.Text.set*(
+&
+%91System.Web.UI.WebControls.Label*
+
+%92string2Text.setÿ
+’
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csô ô(
+%94log4net.ILog"__id*<*:#
+!mojoPortal.Web.OpenIdLoginControl"
+loglog4net.ILog‡
+›
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csôA ô(M
+%95string"%mojoPortal.Business.SiteUser.Name.get*)
+'
+newUsermojoPortal.Business.SiteUser 
+«
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csô! ô(M
+%96string"__concat*
+Automatically created User *
+
+%95string˙
+˜
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csô! ô(ú
+%97string"__concat*
+
+%96string*NL
+J on login from open id. Tried to login but email address is not confirmed.ﬁ€
+{
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csô ô(ù
+%98void"log4net.ILog.Info(object)*
+
+%94log4net.ILog*
+
+%97string2Info(object)"Ñ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csõ õ(
+""*à
+22z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csû û(5â
+Ü
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csû û($'
+%99 mojoPortal.Business.SiteSettings"__id*Y*W#
+!mojoPortal.Web.OpenIdLoginControl"0
+siteSettings mojoPortal.Business.SiteSettingsÔ
+Ï
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csû û(5
+%100bool"5mojoPortal.Business.SiteSettings.UseEmailForLogin.get*)
+'
+%99 mojoPortal.Business.SiteSettings*
+24
+25*á
+24z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs† °(/‚
+ﬂ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs° °()
+%101string"&mojoPortal.Business.SiteUser.Email.get*)
+'
+newUsermojoPortal.Business.SiteUserô
+ñ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs† °(0
+%102void"CSystem.Web.Security.FormsAuthentication.SetAuthCookie(string, bool)*+")
+'System.Web.Security.FormsAuthentication*
+
+%101string*
+""*
+26*ã
+25z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs• ¶(3Ê
+„
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¶ ¶(-
+%103string"*mojoPortal.Business.SiteUser.LoginName.get*)
+'
+newUsermojoPortal.Business.SiteUserô
+ñ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs• ¶(4
+%104void"CSystem.Web.Security.FormsAuthentication.SetAuthCookie(string, bool)*+")
+'System.Web.Security.FormsAuthentication*
+
+%103string*
+""*
+26*ì
+26z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs© ©(VÜ
+É
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs© ©(V
+%105bool"QmojoPortal.Web.WebConfigSettings.UseFoldersInsteadOfHostnamesForMultipleSites.get*$""
+ mojoPortal.Web.WebConfigSettings*
+27
+28*‚
+27z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs´ ¨(\ä
+á
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs´9 ´(E(
+%106 mojoPortal.Business.SiteSettings"__id*Y*W#
+!mojoPortal.Web.OpenIdLoginControl"0
+siteSettings mojoPortal.Business.SiteSettingsÔ
+Ï
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs´9 ´(N
+%107System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get**
+(
+%106 mojoPortal.Business.SiteSettings√
+¿
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs´, ´(N
+%108System.Guid"__concat*
+
+siteguid*
+
+%107System.Guid≤
+Ø
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs´ ´(N
+
+cookieNamestring"__id*
+
+%108System.GuidÍ
+Á
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¨; ¨(K
+%109System.Guid")mojoPortal.Business.SiteUser.UserGuid.get*)
+'
+newUsermojoPortal.Business.SiteUseræ
+ª
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¨; ¨(V
+%110string"System.Guid.ToString()*
+
+%109System.Guid±
+Æ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¨ ¨(]
+%111void"EmojoPortal.Web.Framework.CookieHelper.SetCookie(string, string, bool)*)"'
+%mojoPortal.Web.Framework.CookieHelper*
+
+
+cookieNamestring*
+
+%110string*
+""*
+28*≈
+28z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csØ ≥(<Ï
+È
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csØ Ø(1
+%112bool"2mojoPortal.Business.SiteUser.UpdateLastLoginTime()*)
+'
+newUsermojoPortal.Business.SiteUserÎ
+Ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs±) ±(:
+%113string"3mojoPortal.Web.OpenIdLoginControl.GetRedirectPath()*%#
+!mojoPortal.Web.OpenIdLoginControlÆ
+´
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs± ±(:
+redirectUrlstring"__id*
+
+%113string›
+⁄
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs≤. ≤(A
+%114string"__id*F*D#
+!mojoPortal.Web.OpenIdLoginControl"
+returnUrlCookieNamestringÜ
+É
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs≤ ≤(B
+%115void":mojoPortal.Web.Framework.CookieHelper.ExpireCookie(string)*)"'
+%mojoPortal.Web.Framework.CookieHelper*
+
+%114stringƒ
+¡
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs≥ ≥(=
+%116void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*%#
+!mojoPortal.Web.OpenIdLoginControl*
+
+redirectUrlstring"Ñ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¥ ¥(
+""*–
+6z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¡ «($“
+œ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¡* ¡(2
+%117string"__id*;*9#
+!mojoPortal.Web.OpenIdLoginControl"
+siteRootstring–
+Õ
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¡* ¬(7
+%118string"__concat*
+
+%117string*#!
+/Secure/RegisterWithOpenID.aspx≥
+∞
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs¡ ¬(7
+registerLinkHrefstring"__id*
+
+%118stringö
+ó
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csƒ ƒ(*)
+%119!System.Web.UI.WebControls.Literal"__id*h*f#
+!mojoPortal.Web.OpenIdLoginControl"?
+litNotRegisteredYetMessage!System.Web.UI.WebControls.Literal„
+‡
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs∆ ∆(@
+%120string":Resources.Resource.OpenIDMustRegisterBeforeLoginMesage.get*"
+Resources.ResourceÍ
+Á
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.cs≈ «(%
+%121string"string.Format(string, object)*
+"
+string*
+
+%120string*
+
+registerLinkHrefstring˙
+˜
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csƒ «(%
+%122string"*System.Web.UI.WebControls.Literal.Text.set*+
+)
+%119!System.Web.UI.WebControls.Literal*
+
+%121string*
+29*î
+29z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÀ	 À(	"ë
+z
+nD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\OpenIDLoginControl.ascx.csÀ À(	
+implicit return:7
+e2DotNetOpenAuth.OpenId.RelyingParty.OpenIdEventArgsB%#
+!mojoPortal.Web.OpenIdLoginControl

@@ -1,0 +1,184 @@
+
+<mojoPortal.Web.ContentFeatureConfiguration.GetConfig(string)~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.cs;2 ;(;"0*·
+0~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.cs=( O(8Õ
+Ò
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.cs=( =(CB
+contentFeatureConfig*mojoPortal.Web.ContentFeatureConfiguration"__id*
+""áÞ
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csG' G(H0
+%0*mojoPortal.Web.ContentFeatureConfiguration"*mojoPortal.Web.ContentFeatureConfiguration
+Š
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csG+ G(F
+
+%1void"HmojoPortal.Web.ContentFeatureConfiguration.ContentFeatureConfiguration()*2
+0
+%0*mojoPortal.Web.ContentFeatureConfiguration
+þ
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csG G(HB
+contentFeatureConfig*mojoPortal.Web.ContentFeatureConfiguration"__id*2
+0
+%0*mojoPortal.Web.ContentFeatureConfigurationÙ
+Ö
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csI* J(+
+%2string"__concat*
+~/Setup/applications/*!
+
+applicationFolderNamestringÅ
+Â
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csI* J(D
+%3string"__concat*
+
+%2string*
+/FeatureDefinitions/µ
+²
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csI J(D
+configFolderNamestring"__id*
+
+%3stringá
+Þ
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csM M()
+%4System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextê
+ç
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csM M(0"
+%5System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*
+
+%4System.Web.HttpContextƒ
+€
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csM M(J
+%6string",System.Web.HttpServerUtility.MapPath(string)*$
+"
+%5System.Web.HttpServerUtility*
+
+configFolderNamestring·
+´
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csL M(J
+pathToConfigFolderstring"__id*
+
+%6stringì
+é
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csO O(9
+
+%7bool""System.IO.Directory.Exists(string)*"
+System.IO.Directory*
+
+pathToConfigFolderstring*
+1
+2*Ì
+1~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csOB O(V"Æ
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csO; O(WD
+B
+contentFeatureConfig*mojoPortal.Web.ContentFeatureConfiguration*÷	
+2~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csR W(:»¸
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csS S(;
+%8System.IO.DirectoryInfo"System.IO.DirectoryInfoÿ
+ü
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csS S('
+
+%9void"-System.IO.DirectoryInfo.DirectoryInfo(string)*
+
+%8System.IO.DirectoryInfo*
+
+pathToConfigFolderstringÔ
+Ñ
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csR S(;(
+directoryInfoSystem.IO.DirectoryInfo"__id*
+
+%8System.IO.DirectoryInfo„
+
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csU* U(L
+%10System.IO.FileInfo[]"(System.IO.DirectoryInfo.GetFiles(string)**
+(
+directoryInfoSystem.IO.DirectoryInfo*
+
+*.configÎ
+Ë
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csU U(L$
+featureFilesSystem.IO.FileInfo[]"__id*
+
+%10System.IO.FileInfo[]*
+3*‹
+3~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csv	 v(	*
+4
+5*‹
+4~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csY  ^(9º·
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csY4 Y(E
+%11System.Xml.XmlDocument"System.Xml.XmlDocument×
+Ô
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csY8 Y(C
+%12void"$System.Xml.XmlDocument.XmlDocument()*
+
+%11System.Xml.XmlDocument×
+Ô
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csY  Y(E+
+featureConfigFileSystem.Xml.XmlDocument"__id*
+
+%11System.Xml.XmlDocumentéæ
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csZ+ Z(<
+%13string"%System.IO.FileSystemInfo.FullName.get* 
+
+fileInfoSystem.IO.FileInfo2FullName.getƒ€
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csZ Z(=
+%14void"#System.Xml.XmlDocument.Load(string)*-
++
+featureConfigFileSystem.Xml.XmlDocument*
+
+%13string2Load(string)ü
+ù
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.cs^ ^(9
+%15System.Xml.XmlElement"*System.Xml.XmlDocument.DocumentElement.get*-
++
+featureConfigFileSystem.Xml.XmlDocumentž
+›
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.cs\ ^(:
+%16void"vmojoPortal.Web.ContentFeatureConfiguration.LoadFeature(mojoPortal.Web.ContentFeatureConfiguration, System.Xml.XmlNode)*.",
+*mojoPortal.Web.ContentFeatureConfiguration*D
+B
+contentFeatureConfig*mojoPortal.Web.ContentFeatureConfiguration*
+
+%15System.Xml.XmlElement*
+3*Ì
+5~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csr r(+"Æ
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csr r(,D
+B
+contentFeatureConfig*mojoPortal.Web.ContentFeatureConfiguration*›
+6~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csv	 v(	"•
+~
+tD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\ContentFeatureConfiguration.csv v(	
+implicit return:
+applicationFolderNamestringB.",
+*mojoPortal.Web.ContentFeatureConfiguration

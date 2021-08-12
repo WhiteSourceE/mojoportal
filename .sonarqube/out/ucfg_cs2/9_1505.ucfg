@@ -1,0 +1,189 @@
+
+EmojoPortal.Web.UI.UserRolesDialog.Page_Load(object, System.EventArgs)s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs* *( "0*Ë
+0s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs, 0(JÝ
+Ú
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs, ,(
+
+%0void"0mojoPortal.Web.UI.UserRolesDialog.LoadSettings()*%#
+!mojoPortal.Web.UI.UserRolesDialogú
+÷
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs0' 0(2&
+%1 mojoPortal.Business.SiteSettings"1mojoPortal.Web.mojoDialogBasePage.CurrentSite.get*%#
+!mojoPortal.Web.mojoDialogBasePageî
+ë
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs0' 0(J
+%2string"<mojoPortal.Business.SiteSettings.RolesThatCanManageUsers.get*(
+&
+%1 mojoPortal.Business.SiteSettingsú
+÷
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs0 0(K
+
+%3bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%2string*
+1
+2*î
+2t
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs0Q 0(†ú
+÷
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs0c 0(n&
+%4 mojoPortal.Business.SiteSettings"1mojoPortal.Web.mojoDialogBasePage.CurrentSite.get*%#
+!mojoPortal.Web.mojoDialogBasePageï
+ì
+t
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs0c 0(†
+%5string"<mojoPortal.Business.SiteSettings.RolesThatCanCreateUsers.get*(
+&
+%4 mojoPortal.Business.SiteSettingsû
+ø
+t
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs0Q 0(‡
+
+%6bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%5string*
+1
+3*
+1s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs1 1(Œ
+‰
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs1 1(
+%7"__id*
+""*
+4
+3*á
+4s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs5 5(/õ
+ò
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs5 5("
+%8mojoPortal.Business.SiteUser"__id*Q*O#
+!mojoPortal.Web.UI.UserRolesDialog"(
+siteUsermojoPortal.Business.SiteUseræ
+ã
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs5 5(0
+
+%9bool".mojoPortal.Business.SiteUser.IsInRoles(string)*$
+"
+%8mojoPortal.Business.SiteUser*
+
+Admins*
+5
+6*â
+5s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs7 7(:è
+å
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs7 7(:
+%10void";mojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(string)*"
+mojoPortal.Web.SiteUtils*
+"""}
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs8 8(
+""*
+3s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs@ @(
+Š
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.cs@ @(
+%11"__id*
+""*
+7
+6*§
+7s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csB B(0Ï
+Ì
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csB B( 
+%12System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÒ
+Ï
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csB B(0
+%13bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%12System.Web.HttpRequest*
+8
+9*‰
+8s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csD D(:
+Œ
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csD D(;
+%14void"CmojoPortal.Web.SiteUtils.RedirectToLoginPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*%#
+!mojoPortal.Web.UI.UserRolesDialog"}
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csE E(
+""*â
+9s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csH H(:è
+å
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csH H(:
+%15void";mojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(string)*"
+mojoPortal.Web.SiteUtils*
+"""}
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csI I(
+""*Å
+6s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csM O( à
+Ý
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csM M(
+%16void"2mojoPortal.Web.UI.UserRolesDialog.PopulateLabels()*%#
+!mojoPortal.Web.UI.UserRolesDialogö
+ó
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csO O(#
+%17mojoPortal.Business.SiteUser"__id*Q*O#
+!mojoPortal.Web.UI.UserRolesDialog"(
+siteUsermojoPortal.Business.SiteUserä
+á
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csO O( 
+%18bool""object.operator !=(object, object)*
+"
+object*%
+#
+%17mojoPortal.Business.SiteUser*
+""*
+10
+11*Æ
+10s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csQ Q(À
+½
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csQ Q(
+%19bool"!System.Web.UI.Page.IsPostBack.get*
+System.Web.UI.Page*
+12
+11*Ý
+12s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csS S(Û
+Ø
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csS S(
+%20void"-mojoPortal.Web.UI.UserRolesDialog.BindRoles()*%#
+!mojoPortal.Web.UI.UserRolesDialog*
+11*†
+11s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csY	 Y(	"Š
+s
+iD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Dialog\UserRolesDialog.aspx.csY Y(	
+implicit return:
+senderobject:
+eSystem.EventArgsB%#
+!mojoPortal.Web.UI.UserRolesDialog

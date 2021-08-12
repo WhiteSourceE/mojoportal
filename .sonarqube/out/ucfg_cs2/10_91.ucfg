@@ -1,0 +1,299 @@
+
+˜mojoPortal.Data.DBContactFormMessage.Update(System.Guid, System.Guid, System.Guid, string, string, string, string, System.DateTime, string, System.Guid)”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csX X(!"0*ÌI
+0”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csd p($‹
+ˆ
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csd< d(g
+%0string";mojoPortal.Data.ConnectionString.GetWriteConnectionString()*$""
+ mojoPortal.Data.ConnectionStringéæ
+•
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csd% d(Œ(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelperÖ
+Ó
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csd) d(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string* 
+mp_ContactFormMessage_Update*2
+ø
+õ
+•
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csd d(Œ)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper®
+«
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.cse/ e(I
+%3"__id*
+""®
+«
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.cseK e(c
+%4"__id*
+""÷
+ô
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.cse e(m
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@RowGuid*
+
+%3*
+
+%4*
+""®
+«
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csf0 f(J
+%6"__id*
+""®
+«
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csfL f(d
+%7"__id*
+""ø
+õ
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csf f(o
+
+%8void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@SiteGuid*
+
+%6*
+
+%7*
+""®
+«
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csg2 g(L
+%9"__id*
+""¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csgN g(f
+%10"__id*
+""ü
+ù
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csg g(s
+%11void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ModuleGuid*
+
+%9*
+
+%10*
+""¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csh- h(?
+%12"__id*
+""¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.cshF h(^
+%13"__id*
+""
+Œ
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csh h(f
+%14void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@Email*
+
+%12*2d*
+
+%13*
+
+emailstring¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csi+ i(=
+%15"__id*
+""¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csiD i(\
+%16"__id*
+""Œ
+‰
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csi i(b
+%17void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@Url*
+
+%15*2ÿ*
+
+%16*
+
+urlstring¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csj/ j(A
+%18"__id*
+""¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csjH j(`
+%19"__id*
+""”
+‘
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csj j(j
+%20void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@Subject*
+
+%18*2ÿ*
+
+%19*
+
+subjectstring¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csk/ k(A
+%21"__id*
+""¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.cskG k(_
+%22"__id*
+""•
+’
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csk k(i
+%23void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+
+@Message*
+
+%21*
+""*
+
+%22*
+
+messagestring¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csl2 l(D
+%24"__id*
+""¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.cslF l(^
+%25"__id*
+""–
+“
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csl l(k
+%26void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@CreatedUtc*
+
+%24*
+
+%25*
+
+
+createdUtcSystem.DateTime¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csm< m(N
+%27"__id*
+""¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csmU m(m
+%28"__id*
+""¯
+¬
+•
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csm m(„
+%29void"mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, int, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@CreatedFromIpAddress*
+
+%27*2ÿ*
+
+%28* 
+
+createdFromIpAddressstring¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csn0 n(J
+%30"__id*
+""¯
+¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csnL n(d
+%31"__id*
+""û
+ø
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csn n(o
+%32void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+	@UserGuid*
+
+%30*
+
+%31*
+""‰
+†
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.cso o(4
+
+%33int"4mojoPortal.Data.SqlParameterHelper.ExecuteNonQuery()*+
+)
+sph"mojoPortal.Data.SqlParameterHelperÃ
+À
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.cso o(4
+rowsAffectedint"__id*
+
+
+%33int"Ÿ
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csp p(&
+""*É
+1”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csr	 r(	"¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\ContactForm\DBContactFormMessage.csr r(	
+implicit return:
+rowGuidSystem.Guid:
+siteGuidSystem.Guid:
+
+moduleGuidSystem.Guid:
+emailstring:
+urlstring:
+subjectstring:
+messagestring:
+
+createdUtcSystem.DateTime:
+createdFromIpAddressstring:
+userGuidSystem.GuidB("&
+$mojoPortal.Data.DBContactFormMessage

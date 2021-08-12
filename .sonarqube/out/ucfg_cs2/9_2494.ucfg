@@ -1,0 +1,158 @@
+
+@mojoPortal.Web.Helpers.GravatarCommon.CreateGravatarHash(string)w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csÇ Ç()"0*—
+0w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csÑ Ñ(& 
+«
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csÑ Ñ('
+
+%0bool"!string.IsNullOrWhiteSpace(string)*
+"
+string*
+
+emailstring*
+1
+2*∫
+1w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csÜ Ü(Ø
+¨
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csÜ Ü(
+%1string"__id**
+string"
+Emptystring"â
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csÜ Ü(
+
+%1string*Ô
+2w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csâ è( ¨
+©
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csâ â(
+%2string"string.Trim()*
+
+emailstring£
+†
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csâ â(
+emailstring"__id*
+
+%2stringØ
+¨
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csä ä(
+%3string"string.ToLower()*
+
+emailstring£
+†
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csä ä(
+emailstring"__id*
+
+%3string∏µ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csç ç(,
+%4System.Text.StringBuilder"System.Text.StringBuilderﬂ
+‹
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csç ç((
+
+%5void",System.Text.StringBuilder.StringBuilder(int)*!
+
+%4System.Text.StringBuilder*2 —
+Œ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csç ç(,*
+stringBuilderSystem.Text.StringBuilder"__id*!
+
+%4System.Text.StringBuilderı
+Ú
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csè è( &
+%6 System.Security.Cryptography.MD5")System.Security.Cryptography.MD5.Create()*$""
+ System.Security.Cryptography.MD5’
+“
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csè è( '
+md5 System.Security.Cryptography.MD5"__id*(
+&
+%6 System.Security.Cryptography.MD5*
+3*Ä
+3w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csë ì(*—
+Œ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csë& ë(3
+%7System.Text.Encoding"System.Text.Encoding.UTF8.get*"
+System.Text.EncodingÙÒ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csë& ë(C
+%8byte[]"%System.Text.Encoding.GetBytes(string)*
+
+%7System.Text.Encoding*
+
+emailstring2GetBytes(string)Ö
+Ç
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csë ë(D
+%9byte[]">System.Security.Cryptography.HashAlgorithm.ComputeHash(byte[])*)
+'
+md5 System.Security.Cryptography.MD5*
+
+%8byte[]©
+¶
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csë ë(D
+hashedBytesbyte[]"__id*
+
+%9byte[]*
+4*Ñ
+4w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csö ö(*
+5
+6*Œ
+5w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csï ï(2¿
+Ω
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csï ï(3
+%10string"byte.ToString(string)*
+
+
+hashedBytebyte*
+x2á
+Ñ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csï ï(4 
+%11System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*,
+*
+stringBuilderSystem.Text.StringBuilder*
+
+%10string*
+4*Å
+6w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csö ö(*
+7*Î
+7w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csô
+ ô("ﬂ
+‹
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csô
+ ô("
+%12string"$System.Text.StringBuilder.ToString()*,
+*
+stringBuilderSystem.Text.StringBuilder"ä
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csô ô(#
+
+%12string*ç
+8w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csö ö("é
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Helpers\Avatar\GravatarCommon.csö ö(
+implicit return:
+emailstringB)"'
+%mojoPortal.Web.Helpers.GravatarCommon

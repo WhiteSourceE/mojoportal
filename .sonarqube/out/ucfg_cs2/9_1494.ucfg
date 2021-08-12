@@ -1,0 +1,267 @@
+
+mojoPortal.Web.Services.GCheckoutNotificationHandler.HandleRefundAmountNotification(GCheckout.AutoGen.RefundAmountNotification)Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs„ „(3"0*Æ
+0Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÂ È('ˆ
+Û
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÂ' Â(@
+%0string"__id*V*T
+:
+notification*GCheckout.AutoGen.RefundAmountNotification"
+serialnumberstring˛
+˚
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÂ Â(@\6
+4mojoPortal.Web.Services.GCheckoutNotificationHandler""
+NotificationSerialNumberstring"__id*
+
+%0string˚
+¯
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÁS Á(q
+%1string"__id*[*Y
+:
+notification*GCheckout.AutoGen.RefundAmountNotification"
+googleordernumberstring°
+û
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÁ" Á(r
+%2string"LmojoPortal.Business.GoogleCheckoutLog.GetProviderNameFromOrderNumber(string)*)"'
+%mojoPortal.Business.GoogleCheckoutLog*
+
+%1string∏
+µ
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÁ Á(r
+providerNamestring"__id*
+
+%2string¬
+ø
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÈ È(#	
+%3int"string.Length.get*
+
+providerNamestring*
+1
+2*¢
+1Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÎ5 Ó($ò
+ï
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÏ Ï(<b
+%4\mojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProviderCollection"XmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationManager.Providers.get*N"L
+JmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationManager
+Ì
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÏ Ï(JX
+%5RmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProvider"
+__arrayGet*d
+b
+%4\mojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProviderCollection*
+
+providerNamestringÃ
+…
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÎ5 Ï(J^
+providerRmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProvider"__id*Z
+X
+%5RmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProvider∞
+≠
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÓ Ó($
+
+%6bool""object.operator !=(object, object)*
+"
+object*`
+^
+providerRmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProvider*
+""*
+3
+2*Ä
+3Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs (T
+Ì
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs< (F
+%7string"__id*P*N6
+4mojoPortal.Web.Services.GCheckoutNotificationHandler"
+
+RequestXmlstringÓ
+Î
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs (U
+
+%8void"•mojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProvider.HandleRefundAmountNotification(string, GCheckout.AutoGen.RefundAmountNotification)*`
+^
+providerRmojoPortal.Business.WebHelpers.PaymentGateway.GCheckoutNotificationHandlerProvider*
+
+%7string*<
+:
+notification*GCheckout.AutoGen.RefundAmountNotification"è
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÚ Ú(
+""*«/
+2Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¯ Ü(ß
+§
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¯( ¯(L&
+%9 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperÏ
+È
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¯ ¯(L0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%9 mojoPortal.Business.SiteSettingsﬂ‹
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs˙% ˙(<,
+%10%mojoPortal.Business.GoogleCheckoutLog"%mojoPortal.Business.GoogleCheckoutLogÇ
+ˇ
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs˙) ˙(:
+%11void"9mojoPortal.Business.GoogleCheckoutLog.GoogleCheckoutLog()*.
+,
+%10%mojoPortal.Business.GoogleCheckoutLogÔ
+Ï
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs˙ ˙(<-
+gLog%mojoPortal.Business.GoogleCheckoutLog"__id*.
+,
+%10%mojoPortal.Business.GoogleCheckoutLogÅ
+˛
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs˚ ˚(1
+%12System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsô
+ñ
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs˚ ˚(1
+%13System.Guid"2mojoPortal.Business.GoogleCheckoutLog.SiteGuid.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%12System.Guid§
+°
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs¸ ¸(>
+%14string":mojoPortal.Business.GoogleCheckoutLog.NotificationType.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+RefundAmountNotificationÒ
+Ó
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs˝ ˝()
+%15string"__id*P*N6
+4mojoPortal.Web.Services.GCheckoutNotificationHandler"
+
+RequestXmlstringí
+è
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs˝ ˝()
+%16string"5mojoPortal.Business.GoogleCheckoutLog.RawResponse.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%15string˜
+Ù
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs˛  ˛(9
+%17string"__id*V*T
+:
+notification*GCheckout.AutoGen.RefundAmountNotification"
+serialnumberstringì
+ê
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.cs˛ ˛(9
+%18string"6mojoPortal.Business.GoogleCheckoutLog.SerialNumber.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%17string¸
+˘
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csˇ ˇ(=
+%19string"__id*[*Y
+:
+notification*GCheckout.AutoGen.RefundAmountNotification"
+googleordernumberstringí
+è
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csˇ ˇ(=
+%20string"5mojoPortal.Business.GoogleCheckoutLog.OrderNumber.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%19stringÜ
+É
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÄ Ä(4
+%21System.DateTime"__id*\*Z
+:
+notification*GCheckout.AutoGen.RefundAmountNotification"
+	timestampSystem.DateTime£
+†
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÄ Ä(4
+%22System.DateTime"4mojoPortal.Business.GoogleCheckoutLog.GTimestamp.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%21System.DateTimeü
+ú
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÇ# Ç(B
+%23GCheckout.AutoGen.Money"__id*m*k
+:
+notification*GCheckout.AutoGen.RefundAmountNotification"-
+latestrefundamountGCheckout.AutoGen.Moneyü
+ú
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÇ# Ç(H
+%24"__id*
+""è
+å
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÇ Ç(H
+%25decimal"9mojoPortal.Business.GoogleCheckoutLog.LatestRefundAmt.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%24û
+õ
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÉ" É(@
+%26GCheckout.AutoGen.Money"__id*l*j
+:
+notification*GCheckout.AutoGen.RefundAmountNotification",
+totalrefundamountGCheckout.AutoGen.Moneyü
+ú
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÉ" É(F
+%27"__id*
+""é
+ã
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÉ É(F
+%28decimal"8mojoPortal.Business.GoogleCheckoutLog.TotalRefundAmt.set*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+
+%27ˆ
+Û
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csÜ Ü(
+%29bool",mojoPortal.Business.GoogleCheckoutLog.Save()*/
+-
+gLog%mojoPortal.Business.GoogleCheckoutLog*
+4*©
+4Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csâ	 â(	"ú
+Ñ
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\GCheckoutNotificationHandler.ashx.csâ â(	
+implicit return::
+notification*GCheckout.AutoGen.RefundAmountNotificationB86
+4mojoPortal.Web.Services.GCheckoutNotificationHandler

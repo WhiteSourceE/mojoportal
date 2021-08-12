@@ -1,0 +1,170 @@
+
+4mojoPortal.Web.UI.PageSelectorSetting.SetupScripts()y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs0 0(!"0*–.
+0y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs4 L(h∫∑
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs4# 4(6
+%0System.Text.StringBuilder"System.Text.StringBuilderÿ
+’
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs4' 4(4
+
+%1void")System.Text.StringBuilder.StringBuilder()*!
+
+%0System.Text.StringBuilderÃ
+…
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs4 4(6#
+scriptSystem.Text.StringBuilder"__id*!
+
+%0System.Text.StringBuilderñ
+ì
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs6 6(>
+%2System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*$"
+ 
+<script type='text/javascript'>ö
+ó
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs8 8(A
+%3System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*(&
+$function SetPage(pageId, pageName) {í
+è
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs=D =(M+
+%4%System.Web.UI.WebControls.HiddenField"__id*_*]'
+%mojoPortal.Web.UI.PageSelectorSetting"2
+	hdnPageId%System.Web.UI.WebControls.HiddenFieldÌÍ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs=D =(V
+%5string""System.Web.UI.Control.ClientID.get*-
++
+%4%System.Web.UI.WebControls.HiddenField2ClientID.get—
+Œ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs= =(V
+%6string"__concat*)'
+%var hdnUI = document.getElementById('*
+
+%5string∞
+≠
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs= =(_
+%7string"__concat*
+
+%6string*
+'); Ä
+˝
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs= =(`
+%8System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%7stringå
+â
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.cs> >(3
+%9System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+hdnUI.value = pageId; â
+Ü
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csBB B(M&
+%10System.Web.UI.WebControls.Label"__id*[*Y'
+%mojoPortal.Web.UI.PageSelectorSetting".
+lblPageNameSystem.Web.UI.WebControls.LabelÈÊ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csBB B(V
+%11string""System.Web.UI.Control.ClientID.get*(
+&
+%10System.Web.UI.WebControls.Label2ClientID.get—
+Œ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csB B(V
+%12string"__concat*'%
+#var lbl = document.getElementById('*
+
+%11string≥
+∞
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csB B(`
+%13string"__concat*
+
+%12string*	
+');  Ç
+ˇ
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csB B(a 
+%14System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%13stringë
+é
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csC C(7 
+%15System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+lbl.innerHTML = pageName; ã
+à
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csF F(1 
+%16System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$.colorbox.close(); ¯
+ı
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csH H( 
+%17System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}Ä
+˝
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csI I(& 
+%18System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+	</script>ﬁ€
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csL L(
+%19System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÍ
+Á
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csL L((
+%20!System.Web.UI.ClientScriptManager"#System.Web.UI.Page.ClientScript.get*
+
+%19System.Web.UI.Page⁄
+◊
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csLW L(h
+%21string"$System.Text.StringBuilder.ToString()*%
+#
+scriptSystem.Text.StringBuilderΩ
+∫
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csL L(i
+%22void"TSystem.Web.UI.ClientScriptManager.RegisterStartupScript(System.Type, string, string)**
+(
+%20!System.Web.UI.ClientScriptManager*
+""*
+SelectPageHandler*
+
+%21string*
+1*ë
+1y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csN	 N(	"ê
+y
+oD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\PageSelectorSetting.ascx.csN N(	
+implicit returnB)'
+%mojoPortal.Web.UI.PageSelectorSetting

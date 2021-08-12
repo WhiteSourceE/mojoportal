@@ -1,0 +1,182 @@
+
+SmojoPortal.Web.Framework.WebUtils.ParseDateFromQueryString(string, System.DateTime)w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csﬂ ﬂ(7"0*–
+0w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs· ·(.…
+∆
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs· ·(/
+
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+	paramNamestring*
+1
+2*æ
+1w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs·7 ·(\æª
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs·7 ·(]"
+%1System.ArgumentNullException"System.ArgumentNullException˘
+ˆ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs·; ·(P
+
+%2void":System.ArgumentNullException.ArgumentNullException(string)*$
+"
+%1System.ArgumentNullException*
+	ParamName*
+3*ƒ
+2w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs‚ ‚(+⁄
+◊
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs‚ ‚(#
+%3System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext‡
+›
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs‚ ‚(+
+
+%4bool""object.operator ==(object, object)*
+"
+object*
+
+%3System.Web.HttpContext*
+""*
+4
+5*†
+4w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs‚6 ‚(G"°
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs‚/ ‚(H&
+$
+defaultIfNotFoundSystem.DateTime*Ç
+
+5w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs„ „(J⁄
+◊
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs„ „(#
+%5System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextﬁ
+€
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs„ „(+
+%6System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%5System.Web.HttpContext˛
+˚
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs„ „(78
+%72System.Collections.Specialized.NameValueCollection"&System.Web.HttpRequest.QueryString.get*
+
+%6System.Web.HttpRequestÈ
+Ê
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs„ „(B
+%8string"
+__arrayGet*:
+8
+%72System.Collections.Specialized.NameValueCollection*
+
+	paramNamestring–
+Õ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs„ „(J
+
+%9bool""string.operator ==(string, string)*
+"
+string*
+
+%8string*
+""*
+6
+7*†
+6w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs„U „(f"°
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs„N „(g&
+$
+defaultIfNotFoundSystem.DateTime*≥
+7w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÂ Í(≈
+¬
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÂ Â(/
+resultSystem.DateTime"__id*&
+$
+defaultIfNotFoundSystem.DateTimeÇ
+ˇ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÁ& Á(B'
+%10 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo†ù
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÁ& Á(Q.
+%11'System.Globalization.DateTimeFormatInfo"3System.Globalization.CultureInfo.DateTimeFormat.get*)
+'
+%10 System.Globalization.CultureInfo2DateTimeFormat.getÂ
+‚
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÁ Á(Q/
+dtfi'System.Globalization.DateTimeFormatInfo"__id*0
+.
+%11'System.Globalization.DateTimeFormatInfo€
+ÿ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csË Ë(1
+%12System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext‡
+›
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csË Ë(9
+%13System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%12System.Web.HttpContextÄ
+˝
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csË Ë(E9
+%142System.Collections.Specialized.NameValueCollection"&System.Web.HttpRequest.QueryString.get*
+
+%13System.Web.HttpRequestÎ
+Ë
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csË Ë(P
+%15string"
+__arrayGet*;
+9
+%142System.Collections.Specialized.NameValueCollection*
+
+	paramNamestringë
+é
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csËX Ë(x
+%16"__id*
+""˝
+˙
+x
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csË Ë(Ö
+%17bool"rSystem.DateTime.TryParse(string, System.IFormatProvider, System.Globalization.DateTimeStyles, out System.DateTime)*"
+System.DateTime*
+
+%15string*1
+/
+dtfi'System.Globalization.DateTimeFormatInfo*
+
+%16*
+
+resultSystem.DateTime"ñ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÍ Í(
+
+resultSystem.DateTime*ç
+3w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÎ	 Î(	"é
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csÎ Î(	
+implicit return:
+	paramNamestring:$
+defaultIfNotFoundSystem.DateTimeB%"#
+!mojoPortal.Web.Framework.WebUtils

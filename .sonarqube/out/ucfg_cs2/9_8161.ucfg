@@ -1,0 +1,468 @@
+
+zmojoPortal.Web.NotifyAdminUserRegisteredHandler.UserRegisteredHandler(object, mojoPortal.Business.UserRegisteredEventArgs)É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs( ((2"0*ï
+0É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs* *(Å
+˛
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs* *(
+
+%0bool""object.operator ==(object, object)*
+"
+object*2
+0
+e+mojoPortal.Business.UserRegisteredEventArgs*
+""*
+1
+2*ö
+1É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.css	 s(	"é
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs* *("
+""*•
+2É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs+ +("õ
+ò
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs+ +("
+%1mojoPortal.Business.SiteUser"8mojoPortal.Business.UserRegisteredEventArgs.SiteUser.get*2
+0
+e+mojoPortal.Business.UserRegisteredEventArgsÛ
+
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs+ +("
+
+%2bool""object.operator ==(object, object)*
+"
+object*$
+"
+%1mojoPortal.Business.SiteUser*
+""*
+3
+4*ö
+3É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.css	 s(	"é
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs+$ +(+
+""*µ
+4É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs- 0(9¶
+£
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs-( -(L&
+%3 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperÎ
+Ë
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs- -(L0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%3 mojoPortal.Business.SiteSettingsä
+á
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs0 0(9
+
+%4bool"?mojoPortal.Business.SiteSettings.RequireApprovalBeforeLogin.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+5
+6*Ë
+5É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs1 1(Tö
+ó
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs1 1(H
+%5string"MmojoPortal.Business.SiteSettings.EmailAdressesForUserApprovalNotification.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings∑
+¥
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs1 1(O	
+%6int"string.Length.get*
+
+%5string*
+7
+6*ö
+7É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.css	 s(	"é
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs2 2(
+""*¡
+6É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs4 6(+Ô
+Ï
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs4 4(
+%7log4net.ILog"__id*J*H1
+/mojoPortal.Web.NotifyAdminUserRegisteredHandler"
+loglog4net.ILogõ
+ò
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs4P 4(Z"
+%8mojoPortal.Business.SiteUser"8mojoPortal.Business.UserRegisteredEventArgs.SiteUser.get*2
+0
+e+mojoPortal.Business.UserRegisteredEventArgsÂ
+‚
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs4P 4(`
+%9string"&mojoPortal.Business.SiteUser.Email.get*$
+"
+%8mojoPortal.Business.SiteUserÌ
+Í
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs4 4(`
+%10string"__concat*97
+5NotifyAdminUserRegisteredHandler called for new user *
+
+%9stringËÂ
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs4 4(a
+%11void"log4net.ILog.Debug(object)*
+
+%7log4net.ILog*
+
+%10string2Debug(object)Ë
+Â
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs6 6(#
+%12System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÔ
+Ï
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs6 6(+
+%13bool""object.operator ==(object, object)*
+"
+object*
+
+%12System.Web.HttpContext*
+""*
+8
+9*ö
+8É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.css	 s(	"é
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs6/ 6(6
+""*ç
+9É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs8 F(PÄ
+˝
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs8) 8(H'
+%14 System.Globalization.CultureInfo".mojoPortal.Web.SiteUtils.GetDefaultUICulture()*"
+mojoPortal.Web.SiteUtilsÓ
+Î
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs8 8(H2
+defaultCulture System.Globalization.CultureInfo"__id*)
+'
+%14 System.Globalization.CultureInfoî
+ë
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs; <(H
+%15string"dmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(System.Globalization.CultureInfo, string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*4
+2
+defaultCulture System.Globalization.CultureInfo*1/
+-NotifyAdminofNewUserRegistationSubject.configª
+∏
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs: <(H
+subjectTemplatestring"__id*
+
+%15stringî
+ë
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs>& ?(H
+%16string"dmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(System.Globalization.CultureInfo, string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*4
+2
+defaultCulture System.Globalization.CultureInfo*1/
+-NotifyAdminofNewUserRegistationMessage.configº
+π
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs> ?(H
+textBodyTemplatestring"__id*
+
+%16stringË
+Â
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csA A(?
+%17string"0mojoPortal.Web.SiteUtils.GetNavigationSiteRoot()*"
+mojoPortal.Web.SiteUtils¥
+±
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csA A(?
+siteRootstring"__id*
+
+%17string˜
+Ù
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csB( B(C"
+%18mojoPortal.Net.SmtpSettings"*mojoPortal.Web.SiteUtils.GetSmtpSettings()*"
+mojoPortal.Web.SiteUtils‚
+ﬂ
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csB B(C+
+smtpSettingsmojoPortal.Net.SmtpSettings"__id*$
+"
+%18mojoPortal.Net.SmtpSettingsõ
+ò
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csF F(E
+%19string"MmojoPortal.Business.SiteSettings.EmailAdressesForUserApprovalNotification.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsπ
+∂
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csF F(L
+
+%20int"string.Length.get*
+
+%19string*
+10
+11*€
+10É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csH H(cõ
+ò
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csH H(S
+%21string"MmojoPortal.Business.SiteSettings.EmailAdressesForUserApprovalNotification.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings∏
+µ
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csH H(d)
+%22"System.Collections.Generic.List<T>"?mojoPortal.Web.Framework.StringHelper.SplitOnChar(string, char)*)"'
+%mojoPortal.Web.Framework.StringHelper*
+
+%21string*
+,Ô
+Ï
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csH H(d1
+adminEmails"System.Collections.Generic.List<T>"__id*+
+)
+%22"System.Collections.Generic.List<T>*
+12*¨
+11É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csL L(Wˆ
+Û
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csL9 L(L
+
+%23int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsÆ
+´
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csL L(X)
+%24"System.Collections.Generic.List<T>";mojoPortal.Business.SiteUser.GetEmailAddresses(int, string)* "
+mojoPortal.Business.SiteUser*
+
+
+%23int*	
+Admins;Ô
+Ï
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csL L(X1
+adminEmails"System.Collections.Generic.List<T>"__id*+
+)
+%24"System.Collections.Generic.List<T>*
+12*ê
+12É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csP$ P(/*
+13*î
+13É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.css	 s(	*
+14
+15*√
+14Ñ
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csR R(îí
+è
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csR R(S
+%25string"RmojoPortal.Web.WebConfigSettings.EmailAddressesToExcludeFromAdminNotifications.get*$""
+ mojoPortal.Web.WebConfigSettingsü
+ú
+Ñ
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csRc R(é
+%26"__id*
+""Ù
+Ò
+Ñ
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csR R(è
+
+%27int"/string.IndexOf(string, System.StringComparison)*
+
+%25string*
+
+emailstring*
+
+%26*
+16
+17*ê
+16É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.css	 s(	*
+13*Ó%
+17É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csZ l(,›
+⁄
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csZ( Z(T
+%28string"__concat*
+
+siteRootstring*#!
+/Admin/ManageUsers.aspx?userid=ú
+ô
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs[ [( #
+%29mojoPortal.Business.SiteUser"8mojoPortal.Business.UserRegisteredEventArgs.SiteUser.get*2
+0
+e+mojoPortal.Business.UserRegisteredEventArgsÂ
+‚
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs[ [('
+
+%30int"'mojoPortal.Business.SiteUser.UserId.get*%
+#
+%29mojoPortal.Business.SiteUserá
+Ñ
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cs[ [(;
+%31string"8mojoPortal.Web.Framework.UIHelper.ToInvariantString(int)*%"#
+!mojoPortal.Web.Framework.UIHelper*
+
+
+%30intƒ
+¡
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csZ( [(;
+%32string"__concat*
+
+%28string*
+
+%31string∫
+∑
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csZ [(;
+manageUserLinkstring"__id*
+
+%32stringä
+á
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csc c(<
+%33string"<mojoPortal.Business.SiteSettings.DefaultEmailFromAddress.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsà
+Ö
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csd d(:
+%34string":mojoPortal.Business.SiteSettings.DefaultFromEmailAlias.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsΩ
+∫
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.cse e($
+%35string"__id**
+string"
+EmptystringΩ
+∫
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csg g($
+%36string"__id**
+string"
+EmptystringΩ
+∫
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csh h($
+%37string"__id**
+string"
+Emptystringú
+ô
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csiG i(Q#
+%38mojoPortal.Business.SiteUser"8mojoPortal.Business.UserRegisteredEventArgs.SiteUser.get*2
+0
+e+mojoPortal.Business.UserRegisteredEventArgsÁ
+‰
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csiG i(W
+%39string"&mojoPortal.Business.SiteUser.Email.get*%
+#
+%38mojoPortal.Business.SiteUser›
+⁄
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csi i(b
+%40string"=string.Format(System.IFormatProvider, string, object, object)*
+"
+string*4
+2
+defaultCulture System.Globalization.CultureInfo*
+
+subjectTemplatestring*
+
+%39string*
+
+siteRootstring˚
+¯
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csjH j(]
+%41string"-mojoPortal.Business.SiteSettings.SiteName.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsÇ
+ˇ
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csj j(x
+%42string"Estring.Format(System.IFormatProvider, string, object, object, object)*
+"
+string*4
+2
+defaultCulture System.Globalization.CultureInfo*
+
+textBodyTemplatestring*
+
+%41string*
+
+siteRootstring*
+
+manageUserLinkstringû
+õ
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csl l(,
+%43"__id*
+""Å
+˛
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.csa l(-
+%44bool"ÑmojoPortal.Net.Email.Send(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string, string, string, bool, string)*"
+mojoPortal.Net.Email*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+%33string*
+
+%34string*
+
+%35string*
+
+emailstring*
+
+%36string*
+
+%37string*
+
+%40string*
+
+%42string*
+""*
+
+%43*
+13*®
+15É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.css	 s(	"õ
+É
+yD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\NotifyAdminUserRegisteredHandler.css s(	
+implicit return:
+senderobject:0
+e+mojoPortal.Business.UserRegisteredEventArgsB31
+/mojoPortal.Web.NotifyAdminUserRegisteredHandler

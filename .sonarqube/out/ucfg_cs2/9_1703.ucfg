@@ -1,0 +1,338 @@
+
+QmojoPortal.Web.Services.EditorStyles.SendStyleTemplateXml(System.Web.HttpContext)r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs% %()"0*«
+0r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs( -(jà
+Ý
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs( ((
+%0System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÐ
+Í
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs( (()	
+%1int"#System.Web.HttpResponse.Expires.set*
+
+%0System.Web.HttpResponse*
+""à
+Ý
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs) )(
+%2System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextä
+á
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs) )(<
+%3string"'System.Web.HttpResponse.ContentType.set*
+
+%2System.Web.HttpResponse*
+application/xml±®
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs*  *(2
+%4System.Text.UTF8Encoding"System.Text.UTF8EncodingÎ
+Ë
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs*$ *(0
+
+%5void"'System.Text.UTF8Encoding.UTF8Encoding()* 
+
+%4System.Text.UTF8EncodingÁ
+¾
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs* *(2 
+encodingSystem.Text.Encoding"__id* 
+
+%4System.Text.UTF8Encodingà
+Ý
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs+ +(
+%6System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext…
+‚
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs+ +(7
+%7System.Text.Encoding"+System.Web.HttpResponse.ContentEncoding.set*
+
+%6System.Web.HttpResponse*"
+ 
+encodingSystem.Text.Encodingà
+Ý
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs-C -(S
+%8System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÚ
+×
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs-C -(`
+%9System.IO.Stream"(System.Web.HttpResponse.OutputStream.get*
+
+%8System.Web.HttpResponse²¯
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs-1 -(k
+%10System.Xml.XmlTextWriter"System.Xml.XmlTextWriterµ
+²
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs-5 -(B
+%11void"NSystem.Xml.XmlTextWriter.XmlTextWriter(System.IO.Stream, System.Text.Encoding)*!
+
+%10System.Xml.XmlTextWriter*
+
+%9System.IO.Stream*"
+ 
+encodingSystem.Text.EncodingË
+È
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs-! -(k)
+xmlTextWriterSystem.Xml.XmlTextWriter"__id*!
+
+%10System.Xml.XmlTextWriter*
+1*ë	
+1r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs/ 4(OŒ
+‰
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs/+ /(>
+%12"__id*
+""ô
+ñ
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs/ /(>
+%13System.Xml.Formatting"'System.Xml.XmlTextWriter.Formatting.set*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+%12öó
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs0 0(2
+%14void"-System.Xml.XmlTextWriter.WriteStartDocument()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteStartDocument()í
+ê
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs2 2(9
+%15void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+
+Stylesú
+÷
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs4 4(O
+%16bool"NmojoPortal.Web.WebConfigSettings.AddSystemStyleTemplatesAboveSiteTemplates.get*$""
+ mojoPortal.Web.WebConfigSettings*
+2
+3*ê
+2r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs6 6(=ë
+è
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs6 6(>
+%17void"imojoPortal.Web.Services.EditorStyles.RenderSystemStyles(System.Web.HttpContext, System.Xml.XmlTextWriter)*(&
+$mojoPortal.Web.Services.EditorStyles*#
+!
+contextSystem.Web.HttpContext*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+3*ç
+3r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs9 :('•
+’
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs9, 9(P'
+%18 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperÚ
+×
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs9 9(P0
+siteSettings mojoPortal.Business.SiteSettings"__id*)
+'
+%18 mojoPortal.Business.SiteSettingsð
+í
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs: :('
+%19bool""object.operator !=(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+4
+5*Ä
+4r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs<' <(_î
+ë
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs<J <(_
+%20System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings
+Œ
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs<0 <(`
+%21System.Data.IDataReader":mojoPortal.Business.ContentStyle.GetAllActive(System.Guid)*$""
+ mojoPortal.Business.ContentStyle*
+
+%20System.GuidÂ
+¿
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs<' <(`!
+readerSystem.Data.IDataReader"__id* 
+
+%21System.Data.IDataReader*
+6*Ó
+6r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs> >(,ÑÎ
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs> >(,
+%22bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+7
+8*ø
+7r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs@ G(;ì
+é
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs@ @(D
+%23void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*	
+Styleñî
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csAG A(U
+%24object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Name2this[string].get¶³
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csAG A(`
+%25string"object.ToString()*
+
+%24object2
+ToString()‡
+„
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csA A(a
+%26void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+name*
+
+%25stringôñ
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csBJ B([
+%27object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Element2this[string].get¶³
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csBJ B(f
+%28string"object.ToString()*
+
+%27object2
+ToString()Š
+‡
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csB B(g
+%29void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*	
+element*
+
+%28stringð
+í
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csC C(H
+%30void".System.Xml.XmlWriter.WriteStartElement(string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+	Attribute
+þ
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csD D(O
+%31void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+name*	
+classõò
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csEH E(Z
+%32object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CssClass2this[string].get¶³
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csEH E(e
+%33string"object.ToString()*
+
+%32object2
+ToString()ˆ
+…
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csE E(f
+%34void"9System.Xml.XmlWriter.WriteAttributeString(string, string)*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*	
+value*
+
+%33stringðí
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csF F(;
+%35void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()ðí
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csG G(;
+%36void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()*
+6*|
+8r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs[	 [(	*
+5*ý
+5r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csO O(Oú
+÷
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csO O(O
+%37bool"NmojoPortal.Web.WebConfigSettings.AddSystemStyleTemplatesBelowSiteTemplates.get*$""
+ mojoPortal.Web.WebConfigSettings*
+9
+10*ë
+9r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csQ Q(=ë
+è
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csQ Q(>
+%38void"imojoPortal.Web.Services.EditorStyles.RenderSystemStyles(System.Web.HttpContext, System.Xml.XmlTextWriter)*(&
+$mojoPortal.Web.Services.EditorStyles*#
+!
+contextSystem.Web.HttpContext*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter*
+10*æ
+10r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csT W(0ðí
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csT T(/
+%39void"*System.Xml.XmlTextWriter.WriteEndElement()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndElement()òï
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.csW W(0
+%40void"+System.Xml.XmlTextWriter.WriteEndDocument()*+
+)
+xmlTextWriterSystem.Xml.XmlTextWriter2WriteEndDocument()*
+11*„
+11r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs[	 [(	"‰
+r
+hD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\EditorStyles.ashx.cs[ [(	
+implicit return:!
+contextSystem.Web.HttpContextB(&
+$mojoPortal.Web.Services.EditorStyles

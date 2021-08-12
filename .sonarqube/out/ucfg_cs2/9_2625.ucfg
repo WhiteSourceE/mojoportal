@@ -1,0 +1,1418 @@
+
+0mojoPortal.Web.ContentUI.EditHtml.LoadSettings()g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csõ õ(!"0*«	
+0g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csù û(-·
+ﬁ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csù ù($
+%0mojoPortal.Web.UI.ScriptLoader",mojoPortal.Web.mojoBasePage.ScriptConfig.get*
+mojoPortal.Web.mojoBasePage‹
+Ÿ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csù ù(/
+
+%1bool"2mojoPortal.Web.UI.ScriptLoader.IncludeColorBox.set*&
+$
+%0mojoPortal.Web.UI.ScriptLoader*
+""∫∑
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csû û(-(
+%2"mojoPortal.Business.HtmlRepository""mojoPortal.Business.HtmlRepositoryŸ
+÷
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csû û(+
+
+%3void"3mojoPortal.Business.HtmlRepository.HtmlRepository()**
+(
+%2"mojoPortal.Business.HtmlRepository˜
+Ù
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csû û(-W#
+!mojoPortal.Web.ContentUI.EditHtml"0
+
+repository"mojoPortal.Business.HtmlRepository"__id**
+(
+%2"mojoPortal.Business.HtmlRepository*
+1*”
+1g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs£ £(<À»
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs£( £(,
+%4System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get¬
+ø
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs£. £(5
+%5System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageΩ
+∫
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs£. £(<
+%6string"!System.Web.HttpRequest.RawUrl.get*
+
+%5System.Web.HttpRequestÜ
+É
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs£ £(=
+
+%7void"BmojoPortal.Web.SiteUtils.SetFormAction(System.Web.UI.Page, string)*"
+mojoPortal.Web.SiteUtils*
+
+%4System.Web.UI.Page*
+
+%6string*	
+2
+2
+3*∫
+2g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs™ ¥(Ÿ
+÷
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs™ ™(7
+%8string"6mojoPortal.Web.Framework.WebUtils.GetApplicationRoot()*%"#
+!mojoPortal.Web.Framework.WebUtils¿
+Ω
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs™ ™(7<#
+!mojoPortal.Web.ContentUI.EditHtml"
+virtualRootstring"__id*
+
+%8string›
+⁄
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¨ ¨(8"
+%9mojoPortal.Business.SiteUser"-mojoPortal.Web.SiteUtils.GetCurrentSiteUser()*"
+mojoPortal.Web.SiteUtilsÏ
+È
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¨ ¨(8R#
+!mojoPortal.Web.ContentUI.EditHtml"+
+currentUsermojoPortal.Business.SiteUser"__id*$
+"
+%9mojoPortal.Business.SiteUser«
+ƒ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs≠ ≠(6
+%10double",mojoPortal.Web.SiteUtils.GetUserTimeOffset()*"
+mojoPortal.Web.SiteUtils¿
+Ω
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs≠ ≠(6;#
+!mojoPortal.Web.ContentUI.EditHtml"
+
+timeOffsetdouble"__id*
+
+%10double˘
+ˆ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÆ Æ(*
+%11#System.Web.UI.WebControls.HyperLink"__id*Y*W#
+!mojoPortal.Web.ContentUI.EditHtml"0
+	lnkCancel#System.Web.UI.WebControls.HyperLink«
+ƒ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÆ$ Æ(A
+%12string",mojoPortal.Web.SiteUtils.GetCurrentPageUrl()*"
+mojoPortal.Web.SiteUtilsÔ
+Ï
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÆ Æ(A
+%13string"3System.Web.UI.WebControls.HyperLink.NavigateUrl.set*,
+*
+%11#System.Web.UI.WebControls.HyperLink*
+
+%12stringÈ
+Ê
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs≤ ≤($!
+%14mojoPortal.Business.Module"1mojoPortal.Web.ContentUI.EditHtml.GetHtmlModule()*%#
+!mojoPortal.Web.ContentUI.EditHtml‰
+·
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs≤ ≤($K#
+!mojoPortal.Web.ContentUI.EditHtml"$
+modulemojoPortal.Business.Module"__id*#
+!
+%14mojoPortal.Business.Module‰
+·
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¥ ¥(!
+%15mojoPortal.Business.Module"__id*M*K#
+!mojoPortal.Web.ContentUI.EditHtml"$
+modulemojoPortal.Business.Module÷
+”
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¥ ¥(
+%16bool""object.operator ==(object, object)*
+"
+object*#
+!
+%15mojoPortal.Business.Module*
+""*
+4
+5*Ï
+4g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∂ ∂(9ä
+á
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∂ ∂(:
+%17void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*%#
+!mojoPortal.Web.ContentUI.EditHtml"q
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∑ ∑(
+""*…
+5g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csª ª(.‰
+·
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csª ª(!
+%18mojoPortal.Business.Module"__id*M*K#
+!mojoPortal.Web.ContentUI.EditHtml"$
+modulemojoPortal.Business.ModuleÃ
+…
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csª ª("
+%19string"*mojoPortal.Business.Module.ModuleTitle.get*#
+!
+%18mojoPortal.Business.Moduleú
+ô
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csª ª()
+
+%20int"string.Length.get*
+
+%19string*
+6
+7*¸
+6g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csæ æ(C‰
+·
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csæ æ(!
+%21mojoPortal.Business.Module"__id*M*K#
+!mojoPortal.Web.ContentUI.EditHtml"$
+modulemojoPortal.Business.Module¡
+æ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csæ% æ(C
+%22string",Resources.Resource.EditHtmlSettingsLabel.get*"
+Resources.Resource›
+⁄
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csæ æ(C
+%23string"*mojoPortal.Business.Module.ModuleTitle.set*#
+!
+%21mojoPortal.Business.Module*
+
+%22string*
+7*Í)
+7g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¬ Õ(4Ò
+Ó
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¬ ¬('
+%24 mojoPortal.Web.UI.HeadingControl"__id*T*R#
+!mojoPortal.Web.ContentUI.EditHtml"+
+heading mojoPortal.Web.UI.HeadingControl»
+≈
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¬ ¬(!#
+%25System.Web.HttpServerUtility"System.Web.UI.Page.Server.get*
+System.Web.UI.Page‰
+·
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¬- ¬(3!
+%26mojoPortal.Business.Module"__id*M*K#
+!mojoPortal.Web.ContentUI.EditHtml"$
+modulemojoPortal.Business.ModuleÃ
+…
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¬- ¬(?
+%27string"*mojoPortal.Business.Module.ModuleTitle.get*#
+!
+%26mojoPortal.Business.Module‰
+·
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¬ ¬(@
+%28string"/System.Web.HttpServerUtility.HtmlEncode(string)*%
+#
+%25System.Web.HttpServerUtility*
+
+%27string‚
+ﬂ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¬ ¬(@
+%29string")mojoPortal.Web.UI.HeadingControl.Text.set*)
+'
+%24 mojoPortal.Web.UI.HeadingControl*
+
+%28stringÄ
+~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs≈& ≈(.
+%30"__id*
+""›
+⁄
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs≈ ≈(/
+%31bool"2mojoPortal.Web.ContentUI.EditHtml.UserCanEdit(int)*%#
+!mojoPortal.Web.ContentUI.EditHtml*
+
+%30Ω
+∫
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs≈ ≈(/:#
+!mojoPortal.Web.ContentUI.EditHtml"
+userCanEditbool"__id*
+
+%31boolÄ
+~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∆> ∆(F
+%32"__id*
+""÷
+”
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∆H ∆(_
+%33System.Guid"/mojoPortal.Business.HtmlContent.FeatureGuid.get*#"!
+mojoPortal.Business.HtmlContentÖ
+Ç
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∆! ∆(`
+%34bool"JmojoPortal.Web.mojoBasePage.UserCanOnlyEditModuleAsDraft(int, System.Guid)*
+mojoPortal.Web.mojoBasePage*
+
+%32*
+
+%33System.Guidƒ
+¡
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∆ ∆(`A#
+!mojoPortal.Web.ContentUI.EditHtml"
+userCanEditAsDraftbool"__id*
+
+%34boolü
+ú
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs» »('4
+%35-System.Web.UI.HtmlControls.HtmlGenericControl"__id*u*s#
+!mojoPortal.Web.ContentUI.EditHtml"L
+divExcludeFromRecentContent-System.Web.UI.HtmlControls.HtmlGenericControlÄ
+~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs»2 »(=
+%36"__id*
+""ÍÁ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs» »(=
+%37bool"!System.Web.UI.Control.Visible.set*6
+4
+%35-System.Web.UI.HtmlControls.HtmlGenericControl*
+
+%362Visible.setÑ
+Å
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs   (1
+%38*mojoPortal.Web.ContentUI.HtmlConfiguration"__id*]*[#
+!mojoPortal.Web.ContentUI.EditHtml"4
+config*mojoPortal.Web.ContentUI.HtmlConfigurationÌ
+Í
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs   (-
+
+%39int">mojoPortal.Web.ContentUI.HtmlConfiguration.VersionPageSize.get*3
+1
+%38*mojoPortal.Web.ContentUI.HtmlConfiguration∏
+µ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs   (-6#
+!mojoPortal.Web.ContentUI.EditHtml"
+pageSizeint"__id*
+
+
+%39intÑ
+Å
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÀ& À(,1
+%40*mojoPortal.Web.ContentUI.HtmlConfiguration"__id*]*[#
+!mojoPortal.Web.ContentUI.EditHtml"4
+config*mojoPortal.Web.ContentUI.HtmlConfigurationˆ
+Û
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÀ& À(D
+%41bool"FmojoPortal.Web.ContentUI.HtmlConfiguration.EnableContentVersioning.get*3
+1
+%40*mojoPortal.Web.ContentUI.HtmlConfiguration…
+∆
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÀ À(DF#
+!mojoPortal.Web.ContentUI.EditHtml"
+enableContentVersioningbool"__id*
+
+%41bool
+Ì
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÕ Õ('
+%42 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings·
+ﬁ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÕ Õ(4
+%43bool";mojoPortal.Business.SiteSettings.ForceContentVersioning.get*)
+'
+%42 mojoPortal.Business.SiteSettings*
+8
+9*ﬁ
+9g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÕ: Õ(lÊ
+„
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÕ: Õ(l
+%44bool"EmojoPortal.Web.WebConfigSettings.EnforceContentVersioningGlobally.get*$""
+ mojoPortal.Web.WebConfigSettings*
+8
+10*∑
+8g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csœ œ(.¬
+ø
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csœ œ(.F#
+!mojoPortal.Web.ContentUI.EditHtml"
+enableContentVersioningbool"__id*
+""*
+10*·
+10g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs“ “(.Á
+‰
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs“ “(.
+%45bool"@mojoPortal.Business.WebHelpers.WebUser.IsAdminOrContentAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+11
+12*æ
+12g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs“4 “(Pƒ
+¡
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs“4 “(P
+%46bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtils*
+11
+13*®
+11g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs“U “(c≤
+Ø
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs“U “(c6#
+!mojoPortal.Web.ContentUI.EditHtml"
+isAdminbool"__id*
+""*
+13*Á
+13g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs’ ÿ(A˘
+ˆ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs’ ’(*
+%47#mojoPortal.Web.Editor.EditorControl"__id*Y*W#
+!mojoPortal.Web.ContentUI.EditHtml"0
+	edContent#mojoPortal.Web.Editor.EditorControlˆ
+Û
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs’ ’('
+%48 mojoPortal.Web.Editor.IWebEditor"1mojoPortal.Web.Editor.EditorControl.WebEditor.get*,
+*
+%47#mojoPortal.Web.Editor.EditorControlÄ
+~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs’* ’(C
+%49"__id*
+""Å˛
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs’ ’(C$
+%50mojoPortal.Web.Editor.ToolBar",mojoPortal.Web.Editor.IWebEditor.ToolBar.set*)
+'
+%48 mojoPortal.Web.Editor.IWebEditor*
+
+%492ToolBar.set
+Ì
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÿ ÿ(#
+%51System.Collections.Hashtable"__id*W*U#
+!mojoPortal.Web.ContentUI.EditHtml".
+moduleSettingsSystem.Collections.Hashtable˛˚
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÿ ÿ(B
+%52bool"-System.Collections.Hashtable.Contains(object)*%
+#
+%51System.Collections.Hashtable*
+HtmlEditorHeightSetting2Contains(object)*
+14
+15*Ò
+14g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs⁄ ⁄(`˘
+ˆ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs⁄ ⁄(*
+%53#mojoPortal.Web.Editor.EditorControl"__id*Y*W#
+!mojoPortal.Web.ContentUI.EditHtml"0
+	edContent#mojoPortal.Web.Editor.EditorControlˆ
+Û
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs⁄ ⁄(#'
+%54 mojoPortal.Web.Editor.IWebEditor"1mojoPortal.Web.Editor.EditorControl.WebEditor.get*,
+*
+%53#mojoPortal.Web.Editor.EditorControl
+Ì
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs⁄8 ⁄(F#
+%55System.Collections.Hashtable"__id*W*U#
+!mojoPortal.Web.ContentUI.EditHtml".
+moduleSettingsSystem.Collections.Hashtable…
+∆
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs⁄8 ⁄(a
+%56object"__mapGet*%
+#
+%55System.Collections.Hashtable*
+HtmlEditorHeightSetting´®
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs⁄8 ⁄(l
+%57string"object.ToString()*
+
+%56object2
+ToString()ˆ
+Û
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs⁄- ⁄(m%
+%58System.Web.UI.WebControls.Unit",System.Web.UI.WebControls.Unit.Parse(string)*"" 
+System.Web.UI.WebControls.Unit*
+
+%57string†ù
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs⁄ ⁄(m%
+%59System.Web.UI.WebControls.Unit"+mojoPortal.Web.Editor.IWebEditor.Height.set*)
+'
+%54 mojoPortal.Web.Editor.IWebEditor*'
+%
+%58System.Web.UI.WebControls.Unit2
+Height.set*
+15*ë
+15g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csﬂ ﬂ(?î
+ë
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csﬂ ﬂ(4
+%60-System.Web.UI.HtmlControls.HtmlGenericControl"__id*j*h#
+!mojoPortal.Web.ContentUI.EditHtml"A
+divHistoryDelete-System.Web.UI.HtmlControls.HtmlGenericControlÄ
+~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csﬂ( ﬂ(?
+%61"__id*
+""*
+16
+17*ˆ
+16g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csﬂC ﬂ(JÄ
+~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csﬂC ﬂ(J
+%62"__id*
+""*
+17*ƒ
+17g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csﬂ È(ÈÊ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csﬂ ﬂ(K
+%63bool"!System.Web.UI.Control.Visible.set*6
+4
+%60-System.Web.UI.HtmlControls.HtmlGenericControl*
+""2Visible.setÚ
+Ô
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs· ·(&
+%64System.Web.UI.WebControls.Panel"__id*V*T#
+!mojoPortal.Web.ContentUI.EditHtml"-
+
+pnlHistorySystem.Web.UI.WebControls.PanelÄ
+~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs·! ·(8
+%65"__id*
+""‹Ÿ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs· ·(8
+%66bool"!System.Web.UI.Control.Visible.set*(
+&
+%64System.Web.UI.WebControls.Panel*
+
+%652Visible.set—
+Œ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÂ Â(
+%67void"/mojoPortal.Web.ContentUI.EditHtml.SetupScript()*%#
+!mojoPortal.Web.ContentUI.EditHtml¯
+ı
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csË Ë()
+%68"mojoPortal.Business.HtmlRepository"__id*Y*W#
+!mojoPortal.Web.ContentUI.EditHtml"0
+
+repository"mojoPortal.Business.HtmlRepositoryÄ
+~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csË$ Ë(,
+%69"__id*
+""˘
+ˆ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csË Ë(-&
+%70mojoPortal.Business.HtmlContent"-mojoPortal.Business.HtmlRepository.Fetch(int)*+
+)
+%68"mojoPortal.Business.HtmlRepository*
+
+%69Ï
+È
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csË Ë(-N#
+!mojoPortal.Web.ContentUI.EditHtml"'
+htmlmojoPortal.Business.HtmlContent"__id*(
+&
+%70mojoPortal.Business.HtmlContentÏ
+È
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÈ È(&
+%71mojoPortal.Business.HtmlContent"__id*P*N#
+!mojoPortal.Web.ContentUI.EditHtml"'
+htmlmojoPortal.Business.HtmlContent€
+ÿ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÈ È(
+%72bool""object.operator ==(object, object)*
+"
+object*(
+&
+%71mojoPortal.Business.HtmlContent*
+""*
+18
+19*Ÿ
+18g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÎ Ì(3µ≤
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÎ Î((&
+%73mojoPortal.Business.HtmlContent"mojoPortal.Business.HtmlContent“
+œ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÎ Î(&
+%74void"-mojoPortal.Business.HtmlContent.HtmlContent()*(
+&
+%73mojoPortal.Business.HtmlContentÏ
+È
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÎ Î((N#
+!mojoPortal.Web.ContentUI.EditHtml"'
+htmlmojoPortal.Business.HtmlContent"__id*(
+&
+%73mojoPortal.Business.HtmlContentÏ
+È
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÏ Ï(&
+%75mojoPortal.Business.HtmlContent"__id*P*N#
+!mojoPortal.Web.ContentUI.EditHtml"'
+htmlmojoPortal.Business.HtmlContentÄ
+~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÏ  Ï((
+%76"__id*
+""Ÿ
+÷
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÏ Ï((
+
+%77int",mojoPortal.Business.HtmlContent.ModuleId.set*(
+&
+%75mojoPortal.Business.HtmlContent*
+
+%76Ï
+È
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÌ Ì(&
+%78mojoPortal.Business.HtmlContent"__id*P*N#
+!mojoPortal.Web.ContentUI.EditHtml"'
+htmlmojoPortal.Business.HtmlContent‰
+·
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÌ" Ì((!
+%79mojoPortal.Business.Module"__id*M*K#
+!mojoPortal.Web.ContentUI.EditHtml"$
+modulemojoPortal.Business.Module–
+Õ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÌ" Ì(3
+%80System.Guid")mojoPortal.Business.Module.ModuleGuid.get*#
+!
+%79mojoPortal.Business.Module
+Ì
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÌ Ì(3
+%81System.Guid".mojoPortal.Business.HtmlContent.ModuleGuid.set*(
+&
+%78mojoPortal.Business.HtmlContent*
+
+%80System.Guid*
+19*˙
+19g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs (Ä
+~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs (
+%82"__id*
+""*
+20
+21*˙
+20g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs# (5Ä
+~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs# (5
+%83"__id*
+""*
+22
+21*ä
+22g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÚ Û(-Î
+Ë
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÚ Ú(#
+%84mojoPortal.Web.UI.mojoButton"__id*R*P#
+!mojoPortal.Web.ContentUI.EditHtml")
+	btnUpdatemojoPortal.Web.UI.mojoButtonÿ’
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÚ Ú()
+%85bool"!System.Web.UI.Control.Visible.set*%
+#
+%84mojoPortal.Web.UI.mojoButton*
+""2Visible.set
+Ì
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÛ Û(#
+%86mojoPortal.Web.UI.mojoButton"__id*W*U#
+!mojoPortal.Web.ContentUI.EditHtml".
+btnUpdateDraftmojoPortal.Web.UI.mojoButtonÿ’
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÛ Û(-
+%87bool"!System.Web.UI.Control.Visible.set*%
+#
+%86mojoPortal.Web.UI.mojoButton*
+""2Visible.set*
+21*Ò
+21g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csˆ ¯(8
+Ì
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csˆ ˆ(#
+%88mojoPortal.Web.UI.mojoButton"__id*W*U#
+!mojoPortal.Web.ContentUI.EditHtml".
+btnUpdateDraftmojoPortal.Web.UI.mojoButton≈
+¬
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csˆ" ˆ(D
+%89string"0Resources.Resource.EditHtmlUpdateDraftButton.get*"
+Resources.Resourceﬁ
+€
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csˆ ˆ(D
+%90string")System.Web.UI.WebControls.Button.Text.set*%
+#
+%88mojoPortal.Web.UI.mojoButton*
+
+%89string€
+ÿ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¯ ¯(8
+%91bool":mojoPortal.Web.WebConfigSettings.EnableContentWorkflow.get*$""
+ mojoPortal.Web.WebConfigSettings*
+23
+24*Õ
+23g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¯> ¯(`
+Ì
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¯> ¯(J'
+%92 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings‡
+›
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¯> ¯(`
+%93bool":mojoPortal.Business.SiteSettings.EnableContentWorkflow.get*)
+'
+%92 mojoPortal.Business.SiteSettings*
+25
+24*≥
+25g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs˙ ˝(*‰
+·
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs˙C ˙(N!
+%94mojoPortal.Business.Module"__id*M*K#
+!mojoPortal.Web.ContentUI.EditHtml"$
+modulemojoPortal.Business.Module–
+Õ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs˙C ˙(Y
+%95System.Guid")mojoPortal.Business.Module.ModuleGuid.get*#
+!
+%94mojoPortal.Business.Moduleõ
+ò
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs˙! ˙(Z*
+%96#mojoPortal.Business.ContentWorkflow"BmojoPortal.Business.ContentWorkflow.GetWorkInProgress(System.Guid)*'"%
+#mojoPortal.Business.ContentWorkflow*
+
+%95System.Guid˛
+˚
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs˙ ˙(Z\#
+!mojoPortal.Web.ContentUI.EditHtml"5
+workInProgress#mojoPortal.Business.ContentWorkflow"__id*,
+*
+%96#mojoPortal.Business.ContentWorkflow˛
+˚
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs˝ ˝("*
+%97#mojoPortal.Business.ContentWorkflow"__id*^*\#
+!mojoPortal.Web.ContentUI.EditHtml"5
+workInProgress#mojoPortal.Business.ContentWorkflowﬂ
+‹
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs˝ ˝(*
+%98bool""object.operator !=(object, object)*
+"
+object*,
+*
+%97#mojoPortal.Business.ContentWorkflow*
+""*
+26
+27*˙
+26g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÄ Ä(#Ä
+~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÄ Ä(#
+%99"__id*
+""*
+28
+29*“
+28g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÄ' Ä(A‹
+Ÿ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÄ' Ä(B
+%100void"7mojoPortal.Web.mojoBasePage.SetupWorkflowControls(bool)*
+mojoPortal.Web.mojoBasePage*
+""*
+29*ˆ
+29g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÇ Ç(1ˇ
+¸
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÇ Ç(*+
+%101#mojoPortal.Business.ContentWorkflow"__id*^*\#
+!mojoPortal.Web.ContentUI.EditHtml"5
+workInProgress#mojoPortal.Business.ContentWorkflow˛
+˚
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÇ Ç(11
+%102)mojoPortal.Business.ContentWorkflowStatus".mojoPortal.Business.ContentWorkflow.Status.get*-
++
+%101#mojoPortal.Business.ContentWorkflow*
+30*w
+30g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÇ Ç(1*
+31
+32*˜
+
+31g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csá â(GÒ
+Ó
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csá á(*$
+%103mojoPortal.Web.UI.mojoButton"__id*W*U#
+!mojoPortal.Web.ContentUI.EditHtml".
+btnUpdateDraftmojoPortal.Web.UI.mojoButton⁄◊
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csá á(9
+%104bool"!System.Web.UI.Control.Visible.set*&
+$
+%103mojoPortal.Web.UI.mojoButton*
+""2Visible.setÏ
+È
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csà à(%$
+%105mojoPortal.Web.UI.mojoButton"__id*R*P#
+!mojoPortal.Web.ContentUI.EditHtml")
+	btnUpdatemojoPortal.Web.UI.mojoButton⁄◊
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csà à(5
+%106bool"!System.Web.UI.Control.Visible.set*&
+$
+%105mojoPortal.Web.UI.mojoButton*
+""2Visible.set‹
+Ÿ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csâ  â((#
+%107mojoPortal.Web.PageViewMode"(mojoPortal.Web.mojoBasePage.ViewMode.get*
+mojoPortal.Web.mojoBasePageÅ
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csâ, â(G
+%108"__id*
+""*
+33
+34*õ
+33g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cså  é(/Ú
+Ô
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cså  å('(
+%109 mojoPortal.Web.UI.HeadingControl"__id*T*R#
+!mojoPortal.Web.ContentUI.EditHtml"+
+heading mojoPortal.Web.UI.HeadingControlÛ
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cså= å(Y(
+%110 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo∏
+µ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cså[ å(o
+%111string""Resources.Resource.DraftFormat.get*"
+Resources.ResourceÂ
+‚
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csåq å(w"
+%112mojoPortal.Business.Module"__id*M*K#
+!mojoPortal.Web.ContentUI.EditHtml"$
+modulemojoPortal.Business.Moduleœ
+Ã
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csåq å(É
+%113string"*mojoPortal.Business.Module.ModuleTitle.get*$
+"
+%112mojoPortal.Business.Moduleê
+ç
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cså/ å(Ñ
+%114string"5string.Format(System.IFormatProvider, string, object)*
+"
+string**
+(
+%110 System.Globalization.CultureInfo*
+
+%111string*
+
+%113stringÊ
+„
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cså  å(Ñ
+%115string")mojoPortal.Web.UI.HeadingControl.Text.set**
+(
+%109 mojoPortal.Web.UI.HeadingControl*
+
+%114stringÇ
+ˇ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csç  ç(5)
+%116!mojoPortal.Web.Controls.SiteLabel"__id*c*a#
+!mojoPortal.Web.ContentUI.EditHtml":
+lblContentStatusLabel!mojoPortal.Web.Controls.SiteLabelº
+π
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csç  ç(P
+%117void"^mojoPortal.Web.Framework.UIHelper.SetOrAppendCss(System.Web.UI.WebControls.WebControl, string)*%"#
+!mojoPortal.Web.Framework.UIHelper*+
+)
+%116!mojoPortal.Web.Controls.SiteLabel*
+
+wf-draftÅ
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csé$ é(/
+%118"__id*
+""*
+35
+34*≈
+35g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csé3 é(QÚ
+Ô
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csé3 é(B$
+%119mojoPortal.Web.UI.mojoButton"__id*X*V#
+!mojoPortal.Web.ContentUI.EditHtml"/
+btnPublishDraftmojoPortal.Web.UI.mojoButton⁄◊
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csé3 é(Q
+%120bool"!System.Web.UI.Control.Visible.set*&
+$
+%119mojoPortal.Web.UI.mojoButton*
+""2Visible.set*
+34*s
+34g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs“	 “(	*
+36*w
+32g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÇ Ç(1*
+37
+38*˜
+
+37g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csó ô(GÒ
+Ó
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csó ó(*$
+%121mojoPortal.Web.UI.mojoButton"__id*W*U#
+!mojoPortal.Web.ContentUI.EditHtml".
+btnUpdateDraftmojoPortal.Web.UI.mojoButton⁄◊
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csó ó(9
+%122bool"!System.Web.UI.Control.Visible.set*&
+$
+%121mojoPortal.Web.UI.mojoButton*
+""2Visible.setÏ
+È
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csò ò(%$
+%123mojoPortal.Web.UI.mojoButton"__id*R*P#
+!mojoPortal.Web.ContentUI.EditHtml")
+	btnUpdatemojoPortal.Web.UI.mojoButton⁄◊
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csò ò(5
+%124bool"!System.Web.UI.Control.Visible.set*&
+$
+%123mojoPortal.Web.UI.mojoButton*
+""2Visible.set‹
+Ÿ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csô  ô((#
+%125mojoPortal.Web.PageViewMode"(mojoPortal.Web.mojoBasePage.ViewMode.get*
+mojoPortal.Web.mojoBasePageÅ
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csô, ô(G
+%126"__id*
+""*
+39
+40*°
+39g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csú  ù(RÚ
+Ô
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csú  ú('(
+%127 mojoPortal.Web.UI.HeadingControl"__id*T*R#
+!mojoPortal.Web.ContentUI.EditHtml"+
+heading mojoPortal.Web.UI.HeadingControlÛ
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csú= ú(Y(
+%128 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo¬
+ø
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csú[ ú(y
+%129string",Resources.Resource.ContentRejectedFormat.get*"
+Resources.ResourceÊ
+„
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csú{ ú(Å"
+%130mojoPortal.Business.Module"__id*M*K#
+!mojoPortal.Web.ContentUI.EditHtml"$
+modulemojoPortal.Business.Moduleœ
+Ã
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csú{ ú(ç
+%131string"*mojoPortal.Business.Module.ModuleTitle.get*$
+"
+%130mojoPortal.Business.Moduleê
+ç
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csú/ ú(é
+%132string"5string.Format(System.IFormatProvider, string, object)*
+"
+string**
+(
+%128 System.Globalization.CultureInfo*
+
+%129string*
+
+%131stringÊ
+„
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csú  ú(é
+%133string")mojoPortal.Web.UI.HeadingControl.Text.set**
+(
+%127 mojoPortal.Web.UI.HeadingControl*
+
+%132stringÇ
+ˇ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csù  ù(5)
+%134!mojoPortal.Web.Controls.SiteLabel"__id*c*a#
+!mojoPortal.Web.ContentUI.EditHtml":
+lblContentStatusLabel!mojoPortal.Web.Controls.SiteLabelø
+º
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csù  ù(S
+%135void"^mojoPortal.Web.Framework.UIHelper.SetOrAppendCss(System.Web.UI.WebControls.WebControl, string)*%"#
+!mojoPortal.Web.Framework.UIHelper*+
+)
+%134!mojoPortal.Web.Controls.SiteLabel*
+wf-rejected*
+40*s
+40g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs“	 “(	*
+36*w
+38g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÇ Ç(1*
+41
+42*˝
+41g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs§ ß(GÒ
+Ó
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs§ §(*$
+%136mojoPortal.Web.UI.mojoButton"__id*W*U#
+!mojoPortal.Web.ContentUI.EditHtml".
+btnUpdateDraftmojoPortal.Web.UI.mojoButtonÅ
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs§5 §(@
+%137"__id*
+""‹Ÿ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs§ §(@
+%138bool"!System.Web.UI.Control.Visible.set*&
+$
+%136mojoPortal.Web.UI.mojoButton*
+
+%1372Visible.setÏ
+È
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¶ ¶(%$
+%139mojoPortal.Web.UI.mojoButton"__id*R*P#
+!mojoPortal.Web.ContentUI.EditHtml")
+	btnUpdatemojoPortal.Web.UI.mojoButton⁄◊
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¶ ¶(5
+%140bool"!System.Web.UI.Control.Visible.set*&
+$
+%139mojoPortal.Web.UI.mojoButton*
+""2Visible.set‹
+Ÿ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csß  ß((#
+%141mojoPortal.Web.PageViewMode"(mojoPortal.Web.mojoBasePage.ViewMode.get*
+mojoPortal.Web.mojoBasePageÅ
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csß, ß(G
+%142"__id*
+""*
+43
+44*¥
+43g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs™  ´(ZÚ
+Ô
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs™  ™('(
+%143 mojoPortal.Web.UI.HeadingControl"__id*T*R#
+!mojoPortal.Web.ContentUI.EditHtml"+
+heading mojoPortal.Web.UI.HeadingControlÛ
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs™= ™(Y(
+%144 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÀ
+»
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs™[ ™(Å
+%145string"4Resources.Resource.ContentAwaitingApprovalFormat.get*"
+Resources.ResourceÁ
+‰
+i
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs™É ™(â"
+%146mojoPortal.Business.Module"__id*M*K#
+!mojoPortal.Web.ContentUI.EditHtml"$
+modulemojoPortal.Business.Module–
+Õ
+i
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs™É ™(ï
+%147string"*mojoPortal.Business.Module.ModuleTitle.get*$
+"
+%146mojoPortal.Business.Moduleê
+ç
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs™/ ™(ñ
+%148string"5string.Format(System.IFormatProvider, string, object)*
+"
+string**
+(
+%144 System.Globalization.CultureInfo*
+
+%145string*
+
+%147stringÊ
+„
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs™  ™(ñ
+%149string")mojoPortal.Web.UI.HeadingControl.Text.set**
+(
+%143 mojoPortal.Web.UI.HeadingControl*
+
+%148stringÇ
+ˇ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs´  ´(5)
+%150!mojoPortal.Web.Controls.SiteLabel"__id*c*a#
+!mojoPortal.Web.ContentUI.EditHtml":
+lblContentStatusLabel!mojoPortal.Web.Controls.SiteLabel«
+ƒ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs´  ´([
+%151void"^mojoPortal.Web.Framework.UIHelper.SetOrAppendCss(System.Web.UI.WebControls.WebControl, string)*%"#
+!mojoPortal.Web.Framework.UIHelper*+
+)
+%150!mojoPortal.Web.Controls.SiteLabel*
+wf-awaitingapproval*
+44*s
+44g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs“	 “(	*
+36*w
+42g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÇ Ç(1*
+45
+36*˝
+45g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs± µ(GÒ
+Ó
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs± ±(*$
+%152mojoPortal.Web.UI.mojoButton"__id*W*U#
+!mojoPortal.Web.ContentUI.EditHtml".
+btnUpdateDraftmojoPortal.Web.UI.mojoButtonÅ
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs±5 ±(@
+%153"__id*
+""‹Ÿ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs± ±(@
+%154bool"!System.Web.UI.Control.Visible.set*&
+$
+%152mojoPortal.Web.UI.mojoButton*
+
+%1532Visible.setÏ
+È
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs≥ ≥(%$
+%155mojoPortal.Web.UI.mojoButton"__id*R*P#
+!mojoPortal.Web.ContentUI.EditHtml")
+	btnUpdatemojoPortal.Web.UI.mojoButton⁄◊
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs≥ ≥(5
+%156bool"!System.Web.UI.Control.Visible.set*&
+$
+%155mojoPortal.Web.UI.mojoButton*
+""2Visible.set‹
+Ÿ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csµ  µ((#
+%157mojoPortal.Web.PageViewMode"(mojoPortal.Web.mojoBasePage.ViewMode.get*
+mojoPortal.Web.mojoBasePageÅ
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csµ, µ(G
+%158"__id*
+""*
+46
+47*∏
+46g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∑  ∏(\Ú
+Ô
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∑  ∑('(
+%159 mojoPortal.Web.UI.HeadingControl"__id*T*R#
+!mojoPortal.Web.ContentUI.EditHtml"+
+heading mojoPortal.Web.UI.HeadingControlÛ
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∑= ∑(Y(
+%160 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÕ
+ 
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∑[ ∑(É
+%161string"6Resources.Resource.ContentAwaitingPublishingFormat.get*"
+Resources.ResourceÁ
+‰
+i
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∑Ö ∑(ã"
+%162mojoPortal.Business.Module"__id*M*K#
+!mojoPortal.Web.ContentUI.EditHtml"$
+modulemojoPortal.Business.Module–
+Õ
+i
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∑Ö ∑(ó
+%163string"*mojoPortal.Business.Module.ModuleTitle.get*$
+"
+%162mojoPortal.Business.Moduleê
+ç
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∑/ ∑(ò
+%164string"5string.Format(System.IFormatProvider, string, object)*
+"
+string**
+(
+%160 System.Globalization.CultureInfo*
+
+%161string*
+
+%163stringÊ
+„
+h
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∑  ∑(ò
+%165string")mojoPortal.Web.UI.HeadingControl.Text.set**
+(
+%159 mojoPortal.Web.UI.HeadingControl*
+
+%164stringÇ
+ˇ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∏  ∏(5)
+%166!mojoPortal.Web.Controls.SiteLabel"__id*c*a#
+!mojoPortal.Web.ContentUI.EditHtml":
+lblContentStatusLabel!mojoPortal.Web.Controls.SiteLabel…
+∆
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs∏  ∏(]
+%167void"^mojoPortal.Web.Framework.UIHelper.SetOrAppendCss(System.Web.UI.WebControls.WebControl, string)*%"#
+!mojoPortal.Web.Framework.UIHelper*+
+)
+%166!mojoPortal.Web.Controls.SiteLabel*
+wf-awaitingpublishing*
+47*s
+47g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs“	 “(	*
+36*˚
+27g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¿ ¿(#Å
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¿ ¿(#
+%168"__id*
+""*
+48
+36*›	
+48g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¬ √(5Ò
+Ó
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¬ ¬(&$
+%169mojoPortal.Web.UI.mojoButton"__id*W*U#
+!mojoPortal.Web.ContentUI.EditHtml".
+btnUpdateDraftmojoPortal.Web.UI.mojoButtonæ
+ª
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¬. ¬(H
+%170string"(Resources.Resource.CreateDraftButton.get*"
+Resources.Resource·
+ﬁ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs¬ ¬(H
+%171string")System.Web.UI.WebControls.Button.Text.set*&
+$
+%169mojoPortal.Web.UI.mojoButton*
+
+%170stringÒ
+Ó
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs√ √(&$
+%172mojoPortal.Web.UI.mojoButton"__id*W*U#
+!mojoPortal.Web.ContentUI.EditHtml".
+btnUpdateDraftmojoPortal.Web.UI.mojoButton⁄◊
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs√ √(5
+%173bool"!System.Web.UI.Control.Visible.set*&
+$
+%172mojoPortal.Web.UI.mojoButton*
+""2Visible.set*
+36*˚
+36g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs» »( Å
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs» »( 
+%174"__id*
+""*
+49
+24*⁄
+49g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs»& »(C‹
+Ÿ
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs»& »(.#
+%175mojoPortal.Web.PageViewMode"(mojoPortal.Web.mojoBasePage.ViewMode.get*
+mojoPortal.Web.mojoBasePageÅ
+
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs»2 »(C
+%176"__id*
+""*
+50
+24*ê
+50g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs  À(,Ò
+Ó
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs   ("$
+%177mojoPortal.Web.UI.mojoButton"__id*W*U#
+!mojoPortal.Web.ContentUI.EditHtml".
+btnUpdateDraftmojoPortal.Web.UI.mojoButton⁄◊
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs   (2
+%178bool"!System.Web.UI.Control.Visible.set*&
+$
+%177mojoPortal.Web.UI.mojoButton*
+""2Visible.setÏ
+È
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÀ À($
+%179mojoPortal.Web.UI.mojoButton"__id*R*P#
+!mojoPortal.Web.ContentUI.EditHtml")
+	btnUpdatemojoPortal.Web.UI.mojoButton⁄◊
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.csÀ À(,
+%180bool"!System.Web.UI.Control.Visible.set*&
+$
+%179mojoPortal.Web.UI.mojoButton*
+""2Visible.set*
+24*“
+24g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs– –(%›
+⁄
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs– –(&
+%181void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+
+htmledit*
+3*Ï
+3g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs“	 “(	"~
+g
+[D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\HtmlEdit.aspx.cs“ “(	
+implicit returnB%#
+!mojoPortal.Web.ContentUI.EditHtml

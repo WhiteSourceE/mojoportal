@@ -1,0 +1,77 @@
+
+ZmojoPortal.Web.BannedIPBlockingHttpModule.AbortRequestFromBannedIP(System.Web.HttpContext)
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.csﬁ ﬁ(4"0*≥
+
+0
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.cs‡ ‚(4Ò
+Ó
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.cs‡ ‡($
+%0System.Collections.IDictionary" System.Web.HttpContext.Items.get*#
+!
+contextSystem.Web.HttpContext€
+ÿ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.cs‡ ‡(5
+%1"__mapSet*&
+$
+%0System.Collections.IDictionary*
+BanCurrentRequest*
+""˚
+¯
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.cs· ·(' 
+%2System.Web.HttpApplication".System.Web.HttpContext.ApplicationInstance.get*#
+!
+contextSystem.Web.HttpContext‚
+ﬂ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.cs· ·(9
+
+%3void",System.Web.HttpApplication.CompleteRequest()*"
+ 
+%2System.Web.HttpApplicationÔ
+Ï
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.cs‚ ‚(4
+
+%4bool"7mojoPortal.Web.WebConfigSettings.LogBlockedRequests.get*$""
+ mojoPortal.Web.WebConfigSettings*
+1
+2*¶
+1
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.cs‰ ‰(y‰
+·
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.cs‰ ‰(
+%5log4net.ILog"__id*D*B+
+)mojoPortal.Web.BannedIPBlockingHttpModule"
+loglog4net.ILog⁄
+◊
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.cs‰` ‰(y
+%6string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtilsÙ
+Ò
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.cs‰ ‰(y
+%7string"__concat*FD
+BBannedIPBlockingHttpModule blocked request from banned ip address *
+
+%6stringﬂ‹
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.cs‰ ‰(z
+
+%8void"log4net.ILog.Info(object)*
+
+%5log4net.ILog*
+
+%7string2Info(object)*
+2*ù
+2
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.csÊ	 Ê(	"ñ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\BannedIPBlockingHttpModule.csÊ Ê(	
+implicit return:!
+contextSystem.Web.HttpContextB-"+
+)mojoPortal.Web.BannedIPBlockingHttpModule

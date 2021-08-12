@@ -1,0 +1,170 @@
+
+=mojoPortal.Web.AdminUI.SalesCustomerDetailPage.LoadSettings()v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csZ Z(!"0*ö,
+0v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.cs\ j(,ç
+ä
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.cs\ \(%
+
+%0bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUserÔ
+Ñ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.cs\ \(%C0
+.mojoPortal.Web.AdminUI.SalesCustomerDetailPage"
+IsAdminbool"__id*
+
+
+%0boolÒ
+Ï
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.cs] ](7
+
+%1bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtilsÙ
+Ö
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.cs] ](7H0
+.mojoPortal.Web.AdminUI.SalesCustomerDetailPage"
+isSiteEditorbool"__id*
+
+
+%1boolþ
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.cs^7 ^(C&
+%2 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsñ
+î
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.cs^7 ^([
+%3string"<mojoPortal.Business.SiteSettings.CommerceReportViewRoles.get*(
+&
+%2 mojoPortal.Business.SiteSettingsý
+ú
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.cs^% ^(\
+
+%4bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%3stringã
+à
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.cs^ ^(\R0
+.mojoPortal.Web.AdminUI.SalesCustomerDetailPage"
+isCommerceReportViewerbool"__id*
+
+
+%4bool
+Œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.cs`> `(F
+%5"__id*
+""•
+’
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.cs` `(G
+%6System.Guid"OmojoPortal.Web.Framework.WebUtils.ParseGuidFromQueryString(string, System.Guid)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+u*
+
+%5ã
+à
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.cs` `(GK0
+.mojoPortal.Web.AdminUI.SalesCustomerDetailPage"
+userGuidSystem.Guid"__id*
+
+%6System.Guidþ
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csb( b(4&
+%7 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettings
+Œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csb6 b(>
+%8"__id*
+""½º
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csb b(?"
+%9mojoPortal.Business.SiteUser"mojoPortal.Business.SiteUser¶
+³
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csb b('
+%10void"TmojoPortal.Business.SiteUser.SiteUser(mojoPortal.Business.SiteSettings, System.Guid)*$
+"
+%9mojoPortal.Business.SiteUser*(
+&
+%7 mojoPortal.Business.SiteSettings*
+
+%8‰
+†
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csb b(?`0
+.mojoPortal.Web.AdminUI.SalesCustomerDetailPage",
+customerUsermojoPortal.Business.SiteUser"__id*$
+"
+%9mojoPortal.Business.SiteUserš
+—
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csd2 d(<,
+%11%mojoPortal.Web.UI.UserCommerceHistory"__id*i*g0
+.mojoPortal.Web.AdminUI.SalesCustomerDetailPage"3
+
+purchaseHx%mojoPortal.Web.UI.UserCommerceHistoryß
+Ü
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csd2 d(S,
+%12%mojoPortal.Web.UI.UserCommerceHistory"__id*.
+,
+%11%mojoPortal.Web.UI.UserCommerceHistoryë
+è
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csd  d(S8
+commerceHistory%mojoPortal.Web.UI.UserCommerceHistory"__id*.
+,
+%12%mojoPortal.Web.UI.UserCommerceHistory
+
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csf' f(/
+%13"__id*
+""ˆ
+…
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csf f(/
+%14System.Guid"2mojoPortal.Web.UI.UserCommerceHistory.UserGuid.set*:
+8
+commerceHistory%mojoPortal.Web.UI.UserCommerceHistory*
+
+%13Š
+‡
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csg g(5
+%15bool"<mojoPortal.Web.UI.UserCommerceHistory.ShowAdminOrderLink.set*:
+8
+commerceHistory%mojoPortal.Web.UI.UserCommerceHistory*
+""ñ
+î
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csi i(,
+%16void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+administrationò
+ï
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csj j(-
+%17void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+commercereports*
+1*‹
+1v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csl	 l(	"
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerDetail.aspx.csl l(	
+implicit returnB20
+.mojoPortal.Web.AdminUI.SalesCustomerDetailPage

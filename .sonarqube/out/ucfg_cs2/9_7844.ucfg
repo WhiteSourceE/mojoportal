@@ -1,0 +1,1021 @@
+
+lmojoPortal.Web.UI.CssHandler.ProcessCssFileList(System.Text.StringBuilder, string, string, string, out bool)o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csŸ Ÿ(!"0*Ë
+0o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¡ £(Y˜
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¡ ¡(
+hasLessFilesbool"__id*
+""´
+±
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs£@ £(Y
+%0string"__concat*
+
+basePathstring*
+style.configª§
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs£/ £(Z
+%1System.IO.StreamReader"System.IO.StreamReaderÝ
+Ú
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs£3 £(?
+
+%2void"+System.IO.StreamReader.StreamReader(string)*
+
+%1System.IO.StreamReader*
+
+%0string®«
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs£ £([
+%3System.Xml.XmlTextReader"System.Xml.XmlTextReader€
+ý
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs£! £(.
+
+%4void"<System.Xml.XmlTextReader.XmlTextReader(System.IO.TextReader)* 
+
+%3System.Xml.XmlTextReader*
+
+%1System.IO.StreamReader¼
+¹
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs£ £([
+readerSystem.Xml.XmlReader"__id* 
+
+%3System.Xml.XmlTextReader*
+1*ç
+1o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¥ ¥(ëè
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¥ ¥(
+%5System.Xml.XmlNodeType"$System.Xml.XmlReader.MoveToContent()* 
+
+readerSystem.Xml.XmlReader2MoveToContent()*
+2*¾
+2o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs§ §(¿
+¼
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs§ §(
+
+%6bool"System.Xml.XmlReader.Read()* 
+
+readerSystem.Xml.XmlReader*
+3
+4*™
+3o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs©
+ ©(ÍÊ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs© ©(
+%7string"System.Xml.XmlReader.Name.get* 
+
+readerSystem.Xml.XmlReader2Name.getÊ
+Ç
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs©
+ ©(
+
+%8bool""string.operator ==(string, string)*
+"
+string*
+file*
+
+%7string*
+5
+2*â
+5o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs©% ©(N×
+Ô
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs©% ©(4
+%9System.Xml.XmlNodeType"!System.Xml.XmlReader.NodeType.get* 
+
+readerSystem.Xml.XmlReader‰
+†
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs©8 ©(N
+%10"__id*
+""*
+6
+2*õ
+6o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¬ ¯(/å
+â
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¬ ¬(E
+%11string")System.Xml.XmlReader.GetAttribute(string)* 
+
+readerSystem.Xml.XmlReader*
+csswebconfigkey¦
+£
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¬ ¬(E
+csswebconfigkeystring"__id*
+
+%11stringë
+è
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs­% ­(Q
+%12string")System.Xml.XmlReader.GetAttribute(string)* 
+
+readerSystem.Xml.XmlReader*
+imagebasewebconfigkey¬
+©
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs­ ­(Q
+imagebasewebconfigkeystring"__id*
+
+%12stringÈ
+Å
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¯ ¯(0
+%13bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+csswebconfigkeystring*
+7
+8*¿
+7o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¯4 ¯(RÀ
+½
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¯4 ¯(S
+%14bool"string.Contains(string)*
+
+csswebconfigkeystring*
+YUI*
+9
+8*Í
+9o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs± ±(%¨
+¥
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs± ±(%
+%15string"__id**
+string"
+Emptystring¦
+£
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs± ±(%
+csswebconfigkeystring"__id*
+
+%15string*
+8*Û
+8o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs´
+ ´((Ú
+×
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs´
+ ´((
+%16bool"1mojoPortal.Web.WebConfigSettings.UseGoogleCDN.get*$""
+ mojoPortal.Web.WebConfigSettings*
+10
+11*Ê
+10o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs´, ´(QÈ
+Å
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs´- ´(R
+%17bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+csswebconfigkeystring*
+12
+11*Â
+12o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¶ ¶()À
+½
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¶ ¶(*
+%18bool"string.Contains(string)*
+
+csswebconfigkeystring*
+YUI*
+13
+11*Ï
+13o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¸ ¸(&¨
+¥
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¸ ¸(&
+%19string"__id**
+string"
+Emptystring¦
+£
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¸ ¸(&
+csswebconfigkeystring"__id*
+
+%19string*
+11*Ü
+11o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs½ Á(,Þ
+Û
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs½ ½(7
+%20string")System.Xml.XmlReader.GetAttribute(string)* 
+
+readerSystem.Xml.XmlReader*
+
+cssvpathŸ
+œ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs½ ½(7
+cssVPathstring"__id*
+
+%20stringä
+á
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¾ ¾(C
+%21string")System.Xml.XmlReader.GetAttribute(string)* 
+
+readerSystem.Xml.XmlReader*
+imagebasevpath¥
+¢
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¾ ¾(C
+imageBaseVPathstring"__id*
+
+%21stringÈ
+Å
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÁ Á(-
+%22bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+csswebconfigkeystring*
+14
+15*Ð
+14o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÂ Â(2Î
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÂ Â(3
+%23bool"string.IsNullOrEmpty(string)*
+"
+string*!
+
+imagebasewebconfigkeystring*
+16
+15*Ó
+16o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÆ Æ(A™
+–
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÆ Æ((9
+%242System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManageré
+æ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÆ Æ(9
+%25string"
+__arrayGet*;
+9
+%242System.Collections.Specialized.NameValueCollection*
+
+csswebconfigkeystringÊ
+Ç
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÆ Æ(A
+%26bool""string.operator !=(string, string)*
+"
+string*
+
+%25string*
+""*
+17
+2*Ù
+17o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÇ Ç(G™
+–
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÇ Ç((9
+%272System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerï
+ì
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÇ Ç(?
+%28string"
+__arrayGet*;
+9
+%272System.Collections.Specialized.NameValueCollection*!
+
+imagebasewebconfigkeystringÊ
+Ç
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÇ Ç(G
+%29bool""string.operator !=(string, string)*
+"
+string*
+
+%28string*
+""*
+18
+2*Ò
+18o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csË Î(#Ó
+Ð
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csË Ë(0
+%30System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÝ
+Ú
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csË Ë(7#
+%31System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*
+
+%30System.Web.HttpContext™
+–
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csË@ Ë(`9
+%322System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManageré
+æ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csË@ Ë(q
+%33string"
+__arrayGet*;
+9
+%322System.Collections.Specialized.NameValueCollection*
+
+csswebconfigkeystringé
+æ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csË Ë(r
+%34string",System.Web.HttpServerUtility.MapPath(string)*%
+#
+%31System.Web.HttpServerUtility*
+
+%33string¢
+Ÿ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csË Ë(r
+cssFullPathstring"__id*
+
+%34string™
+–
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÌ Ì(?9
+%352System.Collections.Specialized.NameValueCollection"9System.Configuration.ConfigurationManager.AppSettings.get*-"+
+)System.Configuration.ConfigurationManagerï
+ì
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÌ Ì(V
+%36string"
+__arrayGet*;
+9
+%352System.Collections.Specialized.NameValueCollection*!
+
+imagebasewebconfigkeystring¤
+¡
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÌ Ì(V
+imageBasePathstring"__id*
+
+%36stringÍ
+Ê
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÎ Î($
+%37bool"System.IO.File.Exists(string)*"
+System.IO.File*
+
+cssFullPathstring*
+19
+2*Ö
+19o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÐ Ò(&£ 
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÐ Ð(2
+%38System.IO.FileInfo"System.IO.FileInfoÜ
+Ù
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÐ Ð(%
+%39void"#System.IO.FileInfo.FileInfo(string)*
+
+%38System.IO.FileInfo*
+
+cssFullPathstring³
+°
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÐ Ð(2
+fileSystem.IO.FileInfo"__id*
+
+%38System.IO.FileInfoÉ
+Æ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÒ Ò(
+%40string"&System.IO.FileSystemInfo.Extension.get*
+
+fileSystem.IO.FileInfoÍ
+Ê
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÒ Ò(&
+%41bool""string.operator ==(string, string)*
+"
+string*
+
+%40string*	
+.less*
+20
+21*–
+20o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÔ
+ Ô(˜
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÔ
+ Ô(
+hasLessFilesbool"__id*
+""*
+21*Š
+21o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs× ×(1Ð
+Í
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs×" ×(1
+%42System.IO.StreamReader"System.IO.FileInfo.OpenText()*
+
+fileSystem.IO.FileInfo¹
+¶
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs× ×(1
+srSystem.IO.StreamReader"__id*
+
+%42System.IO.StreamReader*
+22*ð
+22o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÙ ð('ÔÑ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÙ Ù(-
+%43string""System.IO.StreamReader.ReadToEnd()*
+
+srSystem.IO.StreamReader2ReadToEnd()¢
+Ÿ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÙ Ù(-
+fileContentstring"__id*
+
+%43stringþ
+û
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÛ Û( +
+%44$System.Text.RegularExpressions.Regex"__id*U*S
+mojoPortal.Web.UI.CssHandler"1
+	URL_REGEX$System.Text.RegularExpressions.Regex¸
+µ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÛ î(
+%45string"cSystem.Text.RegularExpressions.Regex.Replace(string, System.Text.RegularExpressions.MatchEvaluator)*-
++
+%44$System.Text.RegularExpressions.Regex*
+
+fileContentstring*
+""š
+—
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÛ î(
+cssstring"__id*
+
+%45stringÉ
+Æ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csð ð(
+%46string"&System.IO.FileSystemInfo.Extension.get*
+
+fileSystem.IO.FileInfoÍ
+Ê
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csð ð('
+%47bool""string.operator ==(string, string)*
+"
+string*
+
+%46string*	
+.less*
+23
+24*â
+23o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csò ò(ä
+á
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csò ò(
+%48void".mojoPortal.Web.UI.CssHandler.AddToLess(string)* 
+mojoPortal.Web.UI.CssHandler*
+
+cssstring*
+25*ú
+24o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csö ö( ü
+ù
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csö ö(! 
+%49System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+cssContentSystem.Text.StringBuilder*
+
+cssstring*
+25*z
+25o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csé é(*
+2*Ã
+15o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csü ü(.Á
+¾
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csü ü(/
+%50bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+cssVPathstring*
+26
+27*É
+26o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csü5 ü(YÇ
+Ä
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csü6 ü(Z
+%51bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+imageBaseVPathstring*
+28
+27*»
+28o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csþ €("¹
+¶
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs€ €(#
+%52bool"string.StartsWith(string)*
+
+cssVPathstring*
+/*
+29
+30*ï
+29o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‚ ‚(GÓ
+Ð
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‚ ‚()
+%53System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÝ
+Ú
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‚ ‚(0#
+%54System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*
+
+%53System.Web.HttpContextª
+§
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‚9 ‚(G
+%55string"__concat*
+~*
+
+cssVPathstringé
+æ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‚ ‚(H
+%56string",System.Web.HttpServerUtility.MapPath(string)*%
+#
+%54System.Web.HttpServerUtility*
+
+%55string¢
+Ÿ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‚ ‚(H
+cssFilePathstring"__id*
+
+%56string*
+31*Ç
+30o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs† †(AÓ
+Ð
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs† †()
+%57System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÝ
+Ú
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs† †(0#
+%58System.Web.HttpServerUtility"!System.Web.HttpContext.Server.get*
+
+%57System.Web.HttpContextî
+ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs† †(B
+%59string",System.Web.HttpServerUtility.MapPath(string)*%
+#
+%58System.Web.HttpServerUtility*
+
+cssVPathstring¢
+Ÿ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs† †(B
+cssFilePathstring"__id*
+
+%59string*
+31*Î
+31o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‰ ‰("Í
+Ê
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‰ ‰(#
+%60bool"System.IO.File.Exists(string)*"
+System.IO.File*
+
+cssFilePathstring*
+32
+2*Ö
+32o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‹ Œ(%£ 
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‹ ‹(1
+%61System.IO.FileInfo"System.IO.FileInfoÜ
+Ù
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‹ ‹($
+%62void"#System.IO.FileInfo.FileInfo(string)*
+
+%61System.IO.FileInfo*
+
+cssFilePathstring³
+°
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‹ ‹(1
+fileSystem.IO.FileInfo"__id*
+
+%61System.IO.FileInfoÉ
+Æ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csŒ Œ(
+%63string"&System.IO.FileSystemInfo.Extension.get*
+
+fileSystem.IO.FileInfoÍ
+Ê
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csŒ Œ(%
+%64bool""string.operator ==(string, string)*
+"
+string*
+
+%63string*	
+.less*
+33
+34*–
+33o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csŒ) Œ(<˜
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csŒ) Œ(<
+hasLessFilesbool"__id*
+""*
+34*Š
+34o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs (0Ð
+Í
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs! (0
+%65System.IO.StreamReader"System.IO.FileInfo.OpenText()*
+
+fileSystem.IO.FileInfo¹
+¶
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs (0
+srSystem.IO.StreamReader"__id*
+
+%65System.IO.StreamReader*
+35*ð
+35o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs ¥(&ÔÑ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs (,
+%66string""System.IO.StreamReader.ReadToEnd()*
+
+srSystem.IO.StreamReader2ReadToEnd()¢
+Ÿ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs (,
+fileContentstring"__id*
+
+%66stringþ
+û
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‘ ‘(+
+%67$System.Text.RegularExpressions.Regex"__id*U*S
+mojoPortal.Web.UI.CssHandler"1
+	URL_REGEX$System.Text.RegularExpressions.Regex¸
+µ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‘ £(
+
+%68string"cSystem.Text.RegularExpressions.Regex.Replace(string, System.Text.RegularExpressions.MatchEvaluator)*-
++
+%67$System.Text.RegularExpressions.Regex*
+
+fileContentstring*
+""š
+—
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs‘ £(
+
+cssstring"__id*
+
+%68stringÉ
+Æ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¥ ¥(
+%69string"&System.IO.FileSystemInfo.Extension.get*
+
+fileSystem.IO.FileInfoÍ
+Ê
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¥ ¥(&
+%70bool""string.operator ==(string, string)*
+"
+string*
+
+%69string*	
+.less*
+36
+37*â
+36o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs§
+ §(ä
+á
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs§
+ §(
+%71void".mojoPortal.Web.UI.CssHandler.AddToLess(string)* 
+mojoPortal.Web.UI.CssHandler*
+
+cssstring*
+38*ú
+37o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs«
+ «(ü
+ù
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs«
+ «(  
+%72System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+cssContentSystem.Text.StringBuilder*
+
+cssstring*
+38*z
+38o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csé é(*
+2*›
+27o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs² ´()öó
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs² ²(;
+%73string"1System.Xml.XmlReader.ReadElementContentAsString()* 
+
+readerSystem.Xml.XmlReader2ReadElementContentAsString()ž
+›
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs² ²(;
+cssFilestring"__id*
+
+%73string¸
+µ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs´ ´()
+%74string"__concat*
+
+basePathstring*
+
+cssFilestringÅ
+Â
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs´ ´(*
+%75bool"System.IO.File.Exists(string)*"
+System.IO.File*
+
+%74string*
+39
+2*‰
+
+39o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¶ ¸(%¸
+µ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¶% ¶(7
+%76string"__concat*
+
+basePathstring*
+
+cssFilestring£ 
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¶ ¶(8
+%77System.IO.FileInfo"System.IO.FileInfoÔ
+Ñ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¶ ¶($
+%78void"#System.IO.FileInfo.FileInfo(string)*
+
+%77System.IO.FileInfo*
+
+%76string³
+°
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¶ ¶(8
+fileSystem.IO.FileInfo"__id*
+
+%77System.IO.FileInfoÉ
+Æ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¸ ¸(
+%79string"&System.IO.FileSystemInfo.Extension.get*
+
+fileSystem.IO.FileInfoÍ
+Ê
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¸ ¸(%
+%80bool""string.operator ==(string, string)*
+"
+string*
+
+%79string*	
+.less*
+40
+41*–
+40o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csº	 º(˜
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csº	 º(
+hasLessFilesbool"__id*
+""*
+41*Š
+41o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs½ ½(0Ð
+Í
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs½! ½(0
+%81System.IO.StreamReader"System.IO.FileInfo.OpenText()*
+
+fileSystem.IO.FileInfo¹
+¶
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs½ ½(0
+srSystem.IO.StreamReader"__id*
+
+%81System.IO.StreamReader*
+42*Ó
+42o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¿ Á(#ÔÑ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¿ ¿(,
+%82string""System.IO.StreamReader.ReadToEnd()*
+
+srSystem.IO.StreamReader2ReadToEnd()¢
+Ÿ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.cs¿ ¿(,
+fileContentstring"__id*
+
+%82stringÕ
+Ò
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÁ Á(#
+%83bool""string.operator ==(string, string)*
+"
+string*
+
+cssFilestring*
+	style.css*
+43
+44*û
+43o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÃ
+ Ä(OË
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÃ Ã(7
+%84string"string.Replace(string, string)*
+
+fileContentstring*
+)*
+)
+¢
+Ÿ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÃ
+ Ã(7
+fileContentstring"__id*
+
+%84stringå
+â
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÄ Ä(P
+%85string"string.Replace(string, string)*
+
+fileContentstring*
+form.art-search*
+div.art-search¢
+Ÿ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÄ
+ Ä(P
+fileContentstring"__id*
+
+%85string*
+44*ô	
+44o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÇ Û(&þ
+û
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÇ Ç(+
+%86$System.Text.RegularExpressions.Regex"__id*U*S
+mojoPortal.Web.UI.CssHandler"1
+	URL_REGEX$System.Text.RegularExpressions.Regex¸
+µ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÇ Ù(
+
+%87string"cSystem.Text.RegularExpressions.Regex.Replace(string, System.Text.RegularExpressions.MatchEvaluator)*-
++
+%86$System.Text.RegularExpressions.Regex*
+
+fileContentstring*
+""š
+—
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÇ Ù(
+
+cssstring"__id*
+
+%87stringÉ
+Æ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÛ Û(
+%88string"&System.IO.FileSystemInfo.Extension.get*
+
+fileSystem.IO.FileInfoÍ
+Ê
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÛ Û(&
+%89bool""string.operator ==(string, string)*
+"
+string*
+
+%88string*	
+.less*
+45
+46*â
+45o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÝ
+ Ý(ä
+á
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csÝ
+ Ý(
+%90void".mojoPortal.Web.UI.CssHandler.AddToLess(string)* 
+mojoPortal.Web.UI.CssHandler*
+
+cssstring*
+47*ú
+46o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csá
+ á(ü
+ù
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csá
+ á(  
+%91System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*)
+'
+
+cssContentSystem.Text.StringBuilder*
+
+cssstring*
+47*z
+47o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csé é(*
+2*z
+4o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csé é(*
+48*þ
+48o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csé é("†
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\CSSHandler.csé é(
+implicit return:'
+
+cssContentSystem.Text.StringBuilder:
+basePathstring:
+siteRootstring:
+skinImageBasePathstring:
+hasLessFilesboolB 
+mojoPortal.Web.UI.CssHandler

@@ -1,0 +1,492 @@
+
+KmojoPortal.Business.PlugNPayLog.PopulateFromReader(System.Data.IDataReader)Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csø ø('"0*Ù
+0Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs¡ ¡(·ﬁ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs¡ ¡(
+
+%0bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+1
+2*æÇ
+1Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs√ ◊(AÑÅ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs√( √(9
+%1object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+RowGuid2this[string].get≈¬
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs√( √(D
+%2string"object.ToString()*
+
+%1object2
+ToString()®•
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs√ √(E
+%3System.Guid"System.Guid”
+–
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs√# √('
+
+%4void"System.Guid.Guid(string)*
+
+%3System.Guid*
+
+%2string‡
+›
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs√ √(E;!
+mojoPortal.Business.PlugNPayLog"
+rowGuidSystem.Guid"__id*
+
+%3System.GuidáÑ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csƒ5 ƒ(I
+%5object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CreatedUtc2this[string].getÊ
+„
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csƒ" ƒ(J
+%6System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%5objectÎ
+Ë
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csƒ ƒ(JB!
+mojoPortal.Business.PlugNPayLog"
+
+createdUtcSystem.DateTime"__id*
+
+%6System.DateTimeÖÇ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs≈) ≈(;
+%7object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SiteGuid2this[string].get≈¬
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs≈) ≈(F
+%8string"object.ToString()*
+
+%7object2
+ToString()®•
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs≈  ≈(G
+%9System.Guid"System.Guid‘
+—
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs≈$ ≈((
+%10void"System.Guid.Guid(string)*
+
+%9System.Guid*
+
+%8string·
+ﬁ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs≈ ≈(G<!
+mojoPortal.Business.PlugNPayLog"
+siteGuidSystem.Guid"__id*
+
+%9System.GuidÜÉ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs∆) ∆(;
+%11object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UserGuid2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs∆) ∆(F
+%12string"object.ToString()*
+
+%11object2
+ToString()©¶
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs∆  ∆(G
+%13System.Guid"System.Guid÷
+”
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs∆$ ∆((
+%14void"System.Guid.Guid(string)*
+
+%13System.Guid*
+
+%12string‚
+ﬂ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs∆ ∆(G<!
+mojoPortal.Business.PlugNPayLog"
+userGuidSystem.Guid"__id*
+
+%13System.GuidáÑ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs«* «(=
+%15object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	StoreGuid2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs«* «(H
+%16string"object.ToString()*
+
+%15object2
+ToString()©¶
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs«! «(I
+%17System.Guid"System.Guid÷
+”
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs«% «()
+%18void"System.Guid.Guid(string)*
+
+%17System.Guid*
+
+%16string„
+‡
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs« «(I=!
+mojoPortal.Business.PlugNPayLog"
+	storeGuidSystem.Guid"__id*
+
+%17System.GuidÜÉ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs») »(;
+%19object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CartGuid2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs») »(F
+%20string"object.ToString()*
+
+%19object2
+ToString()©¶
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs»  »(G
+%21System.Guid"System.Guid÷
+”
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs»$ »((
+%22void"System.Guid.Guid(string)*
+
+%21System.Guid*
+
+%20string‚
+ﬂ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs» »(G<!
+mojoPortal.Business.PlugNPayLog"
+cartGuidSystem.Guid"__id*
+
+%21System.GuidâÜ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs…# …(8
+%23object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+RawResponse2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs…# …(C
+%24string"object.ToString()*
+
+%23object2
+ToString()€
+ÿ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs… …(C:!
+mojoPortal.Business.PlugNPayLog"
+rawResponsestring"__id*
+
+%24stringäá
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs $  (:
+%25object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ResponseCode2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs $  (E
+%26string"object.ToString()*
+
+%25object2
+ToString()‹
+Ÿ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs   (E;!
+mojoPortal.Business.PlugNPayLog"
+responseCodestring"__id*
+
+%26stringêç
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csÀ* À(F
+%27object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ResponseReasonCode2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csÀ* À(Q
+%28string"object.ToString()*
+
+%27object2
+ToString()‚
+ﬂ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csÀ À(QA!
+mojoPortal.Business.PlugNPayLog"
+responseReasonCodestring"__id*
+
+%28stringÑÅ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csÃ Ã(.
+%29object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+Reason2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csÃ Ã(9
+%30string"object.ToString()*
+
+%29object2
+ToString()÷
+”
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csÃ Ã(95!
+mojoPortal.Business.PlugNPayLog"
+reasonstring"__id*
+
+%30stringÖÇ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csÕ Õ(0
+%31object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+AvsCode2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csÕ Õ(;
+%32string"object.ToString()*
+
+%31object2
+ToString()◊
+‘
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csÕ Õ(;6!
+mojoPortal.Business.PlugNPayLog"
+avsCodestring"__id*
+
+%32stringÖÇ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csŒ Œ(0
+%33object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+CcvCode2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csŒ Œ(;
+%34string"object.ToString()*
+
+%33object2
+ToString()◊
+‘
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csŒ Œ(;6!
+mojoPortal.Business.PlugNPayLog"
+ccvCodestring"__id*
+
+%34stringÖÇ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csœ œ(0
+%35object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+CavCode2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csœ œ(;
+%36string"object.ToString()*
+
+%35object2
+ToString()◊
+‘
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.csœ œ(;6!
+mojoPortal.Business.PlugNPayLog"
+cavCodestring"__id*
+
+%36stringãà
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs–% –(<
+%37object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+TransactionId2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs–% –(G
+%38string"object.ToString()*
+
+%37object2
+ToString()›
+⁄
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs– –(G<!
+mojoPortal.Business.PlugNPayLog"
+transactionIdstring"__id*
+
+%38stringçä
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs—' —(@
+%39object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+TransactionType2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs—' —(K
+%40string"object.ToString()*
+
+%39object2
+ToString()ﬂ
+‹
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs— —(K>!
+mojoPortal.Business.PlugNPayLog"
+transactionTypestring"__id*
+
+%40stringÑÅ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs“ “(.
+%41object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+Method2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs“ “(9
+%42string"object.ToString()*
+
+%41object2
+ToString()÷
+”
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs“ “(95!
+mojoPortal.Business.PlugNPayLog"
+methodstring"__id*
+
+%42stringÜÉ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs”  ”(2
+%43object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+AuthCode2this[string].get«ƒ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs”  ”(=
+%44string"object.ToString()*
+
+%43object2
+ToString()ÿ
+’
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs” ”(=7!
+mojoPortal.Business.PlugNPayLog"
+authCodestring"__id*
+
+%44stringÑÅ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs‘0 ‘(@
+%45object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+Amount2this[string].getﬂ
+‹
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs‘ ‘(A
+%46decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%45objectÿ
+’
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs‘ ‘(A6!
+mojoPortal.Business.PlugNPayLog"
+amountdecimal"__id*
+
+%46decimalÅ˛
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs’- ’(:
+%47object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Tax2this[string].getﬂ
+‹
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs’ ’(;
+%48decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%47object’
+“
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs’ ’(;3!
+mojoPortal.Business.PlugNPayLog"
+taxdecimal"__id*
+
+%48decimalÇˇ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs÷. ÷(<
+%49object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Duty2this[string].getﬂ
+‹
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs÷ ÷(=
+%50decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%49object÷
+”
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs÷ ÷(=4!
+mojoPortal.Business.PlugNPayLog"
+dutydecimal"__id*
+
+%50decimalÖÇ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs◊1 ◊(B
+%51object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Freight2this[string].getﬂ
+‹
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs◊ ◊(C
+%52decimal" System.Convert.ToDecimal(object)*"
+System.Convert*
+
+%51objectŸ
+÷
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs◊ ◊(C7!
+mojoPortal.Business.PlugNPayLog"
+freightdecimal"__id*
+
+%52decimal*
+2*•
+2Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs€	 €(	"ö
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\CommerceCore\PlugNPayLog.cs€ €(	
+implicit return:!
+readerSystem.Data.IDataReaderB#!
+mojoPortal.Business.PlugNPayLog

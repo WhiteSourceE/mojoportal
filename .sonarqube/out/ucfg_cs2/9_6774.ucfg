@@ -1,0 +1,323 @@
+
+,mojoPortal.Web.SiteUtils.TrackUserActivity()n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs≥ ≥(&"0*©
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csµ µ("—
+Œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csµ µ(
+%0System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext◊
+‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csµ µ("
+
+%1bool""object.operator ==(object, object)*
+"
+object*
+
+%0System.Web.HttpContext*
+""*
+1
+2*Ì
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs‘ ‘("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csµ& µ(-
+""*Å
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∂ ∂(*—
+Œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∂ ∂(
+%2System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext’
+“
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∂ ∂("
+%3System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%2System.Web.HttpContext◊
+‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∂ ∂(*
+
+%4bool""object.operator ==(object, object)*
+"
+object*
+
+%3System.Web.HttpRequest*
+""*
+3
+4*Ì
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs‘ ‘("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∂. ∂(5
+""*ø
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∑ ∑(9—
+Œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∑ ∑(
+%5System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext‡
+›
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∑ ∑( *
+%6$System.Security.Principal.IPrincipal"System.Web.HttpContext.User.get*
+
+%5System.Web.HttpContextçä
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∑ ∑())
+%7#System.Security.Principal.IIdentity"1System.Security.Principal.IPrincipal.Identity.get*,
+*
+%6$System.Security.Principal.IPrincipal2Identity.get˙˜
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∑ ∑(9
+
+%8bool"7System.Security.Principal.IIdentity.IsAuthenticated.get*+
+)
+%7#System.Security.Principal.IIdentity2IsAuthenticated.get*
+5
+6*Ì
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs‘ ‘("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∑= ∑(D
+""*‰
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∏ ∏(4Ê
+„
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∏ ∏(4
+
+%9bool"?mojoPortal.Web.WebConfigSettings.TrackAuthenticatedRequests.get*$""
+ mojoPortal.Web.WebConfigSettings*
+7
+8*Ì
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs‘ ‘("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∏8 ∏(?
+""*‘
+8n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∫ Ω(ö
+ó
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs∫ ∫(
+bypassAuthCheckbool"__id*
+""Ñ
+Å
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csª ª(:#
+%10mojoPortal.Business.SiteUser"1mojoPortal.Web.SiteUtils.GetCurrentSiteUser(bool)*"
+mojoPortal.Web.SiteUtils*
+
+bypassAuthCheckbool 
+«
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csª ª(:(
+siteUsermojoPortal.Business.SiteUser"__id*%
+#
+%10mojoPortal.Business.SiteUser‰
+·
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csΩ Ω(
+%11bool""object.operator !=(object, object)*
+"
+object**
+(
+siteUsermojoPortal.Business.SiteUser*
+""*
+9
+10*‘
+9n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csΩ Ω(2‘
+—
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csΩ Ω(-
+
+%12int"'mojoPortal.Business.SiteUser.UserId.get**
+(
+siteUsermojoPortal.Business.SiteUser*
+11
+10*Ô
+11n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csø ¿(„
+‡
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csø ø(%
+%13bool"5mojoPortal.Business.SiteUser.UpdateLastActivityTime()**
+(
+siteUsermojoPortal.Business.SiteUserà
+Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿ ¿(
+%14"__id*
+""*
+12
+13*÷
+
+12n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿ ¿(g√
+¿
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿ ¿(
+%15log4net.ILog"__id*3*1
+mojoPortal.Web.SiteUtils"
+loglog4net.ILog“
+œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿E ¿(X
+%16System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext◊
+‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿E ¿(`
+%17System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%16System.Web.HttpContext∆
+√
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿E ¿(g
+%18string"!System.Web.HttpRequest.RawUrl.get*
+
+%17System.Web.HttpRequest≈
+¬
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿ ¿(g
+%19string"__concat*&$
+"Tracked user activity for request *
+
+%18string”–
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¿ ¿(h
+%20void"log4net.ILog.Debug(object)*
+
+%15log4net.ILog*
+
+%19string2Debug(object)*
+13*Ì
+13n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¬ ¬(9Ï
+È
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¬ ¬(9
+%21bool"DmojoPortal.Web.WebConfigSettings.TrackIPForAuthenticatedRequests.get*$""
+ mojoPortal.Web.WebConfigSettings*
+14
+10*⁄
+14n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csƒ ≈(ë
+é
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csƒ! ƒ(E'
+%22 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper÷
+”
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csƒ ƒ(E0
+siteSettings mojoPortal.Business.SiteSettings"__id*)
+'
+%22 mojoPortal.Business.SiteSettingsÏ
+È
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs≈	 ≈(
+%23bool""object.operator ==(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+15
+16*Ó
+15n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs‘ ‘("x
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs≈ ≈(&
+""*¢
+16n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs» Œ(ﬁ
+€
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs… …(
+%24System.Guid")mojoPortal.Business.SiteUser.UserGuid.get**
+(
+siteUsermojoPortal.Business.SiteUser 
+«
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs   (
+%25string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtilsæª
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs»!  ('
+%26 mojoPortal.Business.UserLocation" mojoPortal.Business.UserLocationñ
+ì
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs»% »(1
+%27void"BmojoPortal.Business.UserLocation.UserLocation(System.Guid, string)*)
+'
+%26 mojoPortal.Business.UserLocation*
+
+%24System.Guid*
+
+%25string÷
+”
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs»  (0
+userLocation mojoPortal.Business.UserLocation"__id*)
+'
+%26 mojoPortal.Business.UserLocationÍ
+Á
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÃ Ã(2
+%28System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsÄ
+˝
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÃ Ã(2
+%29System.Guid"-mojoPortal.Business.UserLocation.SiteGuid.set*2
+0
+userLocation mojoPortal.Business.UserLocation*
+
+%28System.Guid“
+œ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÕ Õ(0
+%30System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext◊
+‘
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÕ Õ(8
+%31System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%30System.Web.HttpContextÃ
+…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÕ Õ(E
+%32string"'System.Web.HttpRequest.UserHostName.get*
+
+%31System.Web.HttpRequestˆ
+Û
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csÕ Õ(E
+%33string"-mojoPortal.Business.UserLocation.Hostname.set*2
+0
+userLocation mojoPortal.Business.UserLocation*
+
+%32string›
+⁄
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csŒ Œ(
+%34bool"'mojoPortal.Business.UserLocation.Save()*2
+0
+userLocation mojoPortal.Business.UserLocation*
+10*¸
+10n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs‘ ‘("Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs‘ ‘(
+implicit returnB"
+mojoPortal.Web.SiteUtils

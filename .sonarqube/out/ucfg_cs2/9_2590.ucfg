@@ -1,0 +1,134 @@
+
+=mojoPortal.Web.AdminUI.SalesCustomerReportPage.LoadSettings()v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csl l(!"0*È"
+0v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csn u(,ç
+ä
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csn n(%
+
+%0bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUserÔ
+Ñ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csn n(%C0
+.mojoPortal.Web.AdminUI.SalesCustomerReportPage"
+IsAdminbool"__id*
+
+
+%0boolÒ
+Ï
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.cso o(7
+
+%1bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtilsÙ
+Ö
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.cso o(7H0
+.mojoPortal.Web.AdminUI.SalesCustomerReportPage"
+isSiteEditorbool"__id*
+
+
+%1boolþ
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csp7 p(C&
+%2 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsñ
+î
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csp7 p([
+%3string"<mojoPortal.Business.SiteSettings.CommerceReportViewRoles.get*(
+&
+%2 mojoPortal.Business.SiteSettingsý
+ú
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csp% p(\
+
+%4bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%3stringã
+à
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csp p(\R0
+.mojoPortal.Web.AdminUI.SalesCustomerReportPage"
+isCommerceReportViewerbool"__id*
+
+
+%4bool
+Œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csqJ q(T
+%5"__id*
+""
+Œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csq q(U	
+%6int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+pagenumber*
+
+%5Õ
+Ò
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csq q(UE0
+.mojoPortal.Web.AdminUI.SalesCustomerReportPage"
+
+pageNumberint"__id*
+	
+%6intþ
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csr@ r(L&
+%7 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsù
+ö
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csr@ r(Z"
+%8mojoPortal.Business.Currency".mojoPortal.Business.SiteSettings.GetCurrency()*(
+&
+%7 mojoPortal.Business.SiteSettingsÖ
+Ó
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csr@ r(_
+%9string"%mojoPortal.Business.Currency.Code.get*$
+"
+%8mojoPortal.Business.Currency¥
+¢
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csr r(`'
+%10 System.Globalization.CultureInfo"BmojoPortal.Web.Framework.ResourceHelper.GetCurrencyCulture(string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*
+
+%9string•
+’
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csr r(`g0
+.mojoPortal.Web.AdminUI.SalesCustomerReportPage"3
+currencyCulture System.Globalization.CultureInfo"__id*)
+'
+%10 System.Globalization.CultureInfoñ
+î
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.cst t(,
+%11void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+administrationò
+ï
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csu u(-
+%12void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+commercereports*
+1*‹
+1v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csw	 w(	"
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\SalesCustomerReport.aspx.csw w(	
+implicit returnB20
+.mojoPortal.Web.AdminUI.SalesCustomerReportPage

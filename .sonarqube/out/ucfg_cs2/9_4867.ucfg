@@ -1,0 +1,143 @@
+
+PmojoPortal.Web.AdminUI.BannedIPAddressesPage.Page_Load(object, System.EventArgs)t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs# #( "0*§
+0t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs% %(Ï
+Ì
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs% %(
+%0System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÑ
+Î
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs% %(
+
+%1bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%0System.Web.HttpRequest*
+1
+2*–
+1t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs' '(&š
+—
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs' '('
+
+%2void"CmojoPortal.Web.SiteUtils.RedirectToLoginPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*0.
+,mojoPortal.Web.AdminUI.BannedIPAddressesPage"~
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs( ((
+""*é
+2t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs+ +(å
+â
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs+ +(
+
+%3bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+3
+4*
+3t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs- -(9¡
+ž
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs- -(:
+
+%4void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*0.
+,mojoPortal.Web.AdminUI.BannedIPAddressesPage"~
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs. .(
+""*ê
+4t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs1 1(/ü
+ù
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs1 1(&
+%5 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsç
+ä
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs1 1(/
+
+%6bool"6mojoPortal.Business.SiteSettings.IsServerAdminSite.get*(
+&
+%5 mojoPortal.Business.SiteSettings*
+5
+6*Î
+5t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs3 3(OÒ
+Ï
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs3- 3(5
+%7string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage¼
+¹
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs3- 3(O
+%8string"__concat*
+
+%7string*
+/Admin/AdminMenu.aspx¾
+»
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs3 3(P
+
+%9void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*0.
+,mojoPortal.Web.AdminUI.BannedIPAddressesPage*
+
+%8string"~
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs4 4(
+""*”
+6t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs7 7(*
+
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs7 7(+
+%10bool"8mojoPortal.Web.SiteUtils.IsFishyPost(System.Web.UI.Page)*"
+mojoPortal.Web.SiteUtils*0.
+,mojoPortal.Web.AdminUI.BannedIPAddressesPage*
+7
+8*ž
+7t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs9 9(9¢
+Ÿ
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs9 9(:
+%11void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*0.
+,mojoPortal.Web.AdminUI.BannedIPAddressesPage"~
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs: :(
+""*ì
+8t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs= ?(õ
+ò
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs= =(
+%12void";mojoPortal.Web.AdminUI.BannedIPAddressesPage.LoadSettings()*0.
+,mojoPortal.Web.AdminUI.BannedIPAddressesPage÷
+ô
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs> >(
+%13void"=mojoPortal.Web.AdminUI.BannedIPAddressesPage.PopulateLabels()*0.
+,mojoPortal.Web.AdminUI.BannedIPAddressesPageù
+ö
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.cs? ?(
+%14void"?mojoPortal.Web.AdminUI.BannedIPAddressesPage.PopulateControls()*0.
+,mojoPortal.Web.AdminUI.BannedIPAddressesPage*
+9*‡
+9t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.csA	 A(	"‹
+t
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\BannedIPAddresses.aspx.csA A(	
+implicit return:
+senderobject:
+eSystem.EventArgsB0.
+,mojoPortal.Web.AdminUI.BannedIPAddressesPage

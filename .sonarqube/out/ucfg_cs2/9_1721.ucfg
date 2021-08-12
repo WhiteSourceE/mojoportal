@@ -1,0 +1,884 @@
+
+GmojoPortal.Web.UI.WelcomeMessage.DoRender(System.Web.UI.HtmlTextWriter)o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs? ?("0*˘
+0o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csA A(<“
+œ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csA A($
+%0System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext÷
+”
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csA A(,
+%1System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%0System.Web.HttpContextÃ
+…
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csA A(<
+
+%2bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%1System.Web.HttpRequest*
+1
+2*Ô
+1o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csx	 x(	"y
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csA@ A(G
+""*ò
+2o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csC D(!Â
+‚
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csC  C(>"
+%3mojoPortal.Business.SiteUser"-mojoPortal.Web.SiteUtils.GetCurrentSiteUser()*"
+mojoPortal.Web.SiteUtils 
+«
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csC C(>(
+siteUsermojoPortal.Business.SiteUser"__id*$
+"
+%3mojoPortal.Business.SiteUser‰
+·
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csD D(!
+
+%4bool""object.operator ==(object, object)*
+"
+object**
+(
+siteUsermojoPortal.Business.SiteUser*
+""*
+3
+4*”
+4o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csD' D(<‘
+—
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csD' D(6	
+%5int"'mojoPortal.Business.SiteUser.UserId.get**
+(
+siteUsermojoPortal.Business.SiteUser*
+3
+5*Ô
+3o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csx	 x(	"y
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csDA D(H
+""*ë
+5o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csF F($ÌÍ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csF F(
+%6string"1System.Web.UI.WebControls.WebControl.CssClass.get*(&
+$System.Web.UI.WebControls.WebControl2CssClass.get¢
+ü
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csF F(	
+%7int"string.Length.get*
+
+%6string*
+6
+7*˜
+6o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csF& F(;˚¯
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csF& F(;
+%8string"1System.Web.UI.WebControls.WebControl.CssClass.set*(&
+$System.Web.UI.WebControls.WebControl*
+
+sitelink2CssClass.set*
+7*‹
+7o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csH H( ›
+⁄
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csH H( 
+
+%9bool"5mojoPortal.Web.UI.WelcomeMessage.RenderAsListItem.get*$"
+ mojoPortal.Web.UI.WelcomeMessage*
+8
+9*¨
+8o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csH" H(Q€
+ÿ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csH? H(J
+%10string"0mojoPortal.Web.UI.WelcomeMessage.ListItemCss.get*$"
+ mojoPortal.Web.UI.WelcomeMessageØ
+¨
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csH/ H(J
+%11string"__concat*
+<li class='*
+
+%10string¶
+£
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csH/ H(Q
+%12string"__concat*
+
+%11string*
+'>˜Ù
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csH" H(R
+%13void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%12string2Write(string)*
+9*€
+9o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csJ J(⁄
+◊
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csJ J(
+%14bool"1mojoPortal.Web.UI.WelcomeMessage.UseFirstLast.get*$"
+ mojoPortal.Web.UI.WelcomeMessage*
+10
+11*Ñ
+10o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csJ! J(>€
+ÿ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csJ! J(3
+%15string"*mojoPortal.Business.SiteUser.FirstName.get**
+(
+siteUsermojoPortal.Business.SiteUser§
+°
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csJ! J(:
+
+%16int"string.Length.get*
+
+%15string*
+12
+11*É
+12o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csJB J(^⁄
+◊
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csJB J(S
+%17string")mojoPortal.Business.SiteUser.LastName.get**
+(
+siteUsermojoPortal.Business.SiteUser§
+°
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csJB J(Z
+
+%18int"string.Length.get*
+
+%17string*
+13
+11*à
+13o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csL L(/ﬂ
+‹
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csL L(#
+%19string"4mojoPortal.Web.UI.WelcomeMessage.FirstLastFormat.get*$"
+ mojoPortal.Web.UI.WelcomeMessage§
+°
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csL L(*
+
+%20int"string.Length.get*
+
+%19string*
+14
+15*¥
+14o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csL3 L(]√
+¿
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csLE L(]
+%21string"&Resources.Resource.FirstLastFormat.get*"
+Resources.Resource
+Ì
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csL3 L(]
+%22string"4mojoPortal.Web.UI.WelcomeMessage.FirstLastFormat.set*$"
+ mojoPortal.Web.UI.WelcomeMessage*
+
+%21string*
+15*·
+15o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csN N(%ﬂ
+‹
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csN N(%
+%23bool"6mojoPortal.Web.UI.WelcomeMessage.WrapInProfileLink.get*$"
+ mojoPortal.Web.UI.WelcomeMessage*
+16
+17*›
+16o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csP Q(wÓÎ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csP0 P(8
+%24string"1System.Web.UI.WebControls.WebControl.CssClass.get*(&
+$System.Web.UI.WebControls.WebControl2CssClass.getÆ
+´
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csP! P(8
+%25string"__concat*
+
+<a class='*
+
+%24string¨
+©
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csP! P(E
+%26string"__concat*
+
+%25string*
+
+' href='”
+–
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csPH P(i
+%27string"0mojoPortal.Web.SiteUtils.GetNavigationSiteRoot()*"
+mojoPortal.Web.SiteUtilsØ
+¨
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csP! P(i
+%28string"__concat*
+
+%26string*
+
+%27stringΩ
+∫
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csP! P(Ü
+%29string"__concat*
+
+%28string*
+/Secure/UserProfile.aspxß
+§
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csP! P(ç
+%30string"__concat*
+
+%29string*
+'>·
+ﬁ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csPû P(≠
+%31string"4mojoPortal.Web.UI.WelcomeMessage.FirstLastFormat.get*$"
+ mojoPortal.Web.UI.WelcomeMessage€
+ÿ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csQ/ Q(A
+%32string"*mojoPortal.Business.SiteUser.FirstName.get**
+(
+siteUsermojoPortal.Business.SiteUser€
+ÿ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csQ Q(B
+%33string")System.Web.HttpUtility.HtmlEncode(string)*"
+System.Web.HttpUtility*
+
+%32string⁄
+◊
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csQ[ Q(l
+%34string")mojoPortal.Business.SiteUser.LastName.get**
+(
+siteUsermojoPortal.Business.SiteUser€
+ÿ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csQD Q(m
+%35string")System.Web.HttpUtility.HtmlEncode(string)*"
+System.Web.HttpUtility*
+
+%34stringÍ
+Á
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csPê Q(n
+%36string"%string.Format(string, object, object)*
+"
+string*
+
+%31string*
+
+%33string*
+
+%35stringØ
+¨
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csP! Q(n
+%37string"__concat*
+
+%30string*
+
+%36string®
+•
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csP! Q(w
+%38string"__concat*
+
+%37string*
+</a>˜Ù
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csP Q(x
+%39void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%38string2Write(string)*
+18*‹
+17o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csS S(%⁄
+◊
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csS S(%
+%40bool"1mojoPortal.Web.UI.WelcomeMessage.WrapInAnchor.get*$"
+ mojoPortal.Web.UI.WelcomeMessage*
+19
+20*Ò
+19o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csU V(wÓÎ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csU0 U(8
+%41string"1System.Web.UI.WebControls.WebControl.CssClass.get*(&
+$System.Web.UI.WebControls.WebControl2CssClass.getÆ
+´
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csU! U(8
+%42string"__concat*
+
+<a class='*
+
+%41stringµ
+≤
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csU! U(N
+%43string"__concat*
+
+%42string*
+' name='welcome'>ﬂ
+‹
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csU_ U(n
+%44string"4mojoPortal.Web.UI.WelcomeMessage.FirstLastFormat.get*$"
+ mojoPortal.Web.UI.WelcomeMessage€
+ÿ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csV/ V(A
+%45string"*mojoPortal.Business.SiteUser.FirstName.get**
+(
+siteUsermojoPortal.Business.SiteUser€
+ÿ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csV V(B
+%46string")System.Web.HttpUtility.HtmlEncode(string)*"
+System.Web.HttpUtility*
+
+%45string⁄
+◊
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csV[ V(l
+%47string")mojoPortal.Business.SiteUser.LastName.get**
+(
+siteUsermojoPortal.Business.SiteUser€
+ÿ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csVD V(m
+%48string")System.Web.HttpUtility.HtmlEncode(string)*"
+System.Web.HttpUtility*
+
+%47stringÈ
+Ê
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csUQ V(n
+%49string"%string.Format(string, object, object)*
+"
+string*
+
+%44string*
+
+%46string*
+
+%48stringØ
+¨
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csU! V(n
+%50string"__concat*
+
+%43string*
+
+%49string®
+•
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csU! V(w
+%51string"__concat*
+
+%50string*
+</a>˜Ù
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csU V(x
+%52void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%51string2Write(string)*
+18*Ë
+20o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs[ \(zÓÎ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs[3 [(;
+%53string"1System.Web.UI.WebControls.WebControl.CssClass.get*(&
+$System.Web.UI.WebControls.WebControl2CssClass.get±
+Æ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs[! [(;
+%54string"__concat*
+<span class='*
+
+%53string¶
+£
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs[! [(B
+%55string"__concat*
+
+%54string*
+'>ﬂ
+‹
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs[S [(b
+%56string"4mojoPortal.Web.UI.WelcomeMessage.FirstLastFormat.get*$"
+ mojoPortal.Web.UI.WelcomeMessage€
+ÿ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs\/ \(A
+%57string"*mojoPortal.Business.SiteUser.FirstName.get**
+(
+siteUsermojoPortal.Business.SiteUser€
+ÿ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs\ \(B
+%58string")System.Web.HttpUtility.HtmlEncode(string)*"
+System.Web.HttpUtility*
+
+%57string⁄
+◊
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs\[ \(l
+%59string")mojoPortal.Business.SiteUser.LastName.get**
+(
+siteUsermojoPortal.Business.SiteUser€
+ÿ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs\D \(m
+%60string")System.Web.HttpUtility.HtmlEncode(string)*"
+System.Web.HttpUtility*
+
+%59stringÈ
+Ê
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs[E \(n
+%61string"%string.Format(string, object, object)*
+"
+string*
+
+%56string*
+
+%58string*
+
+%60stringØ
+¨
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs[! \(n
+%62string"__concat*
+
+%55string*
+
+%61string´
+®
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs[! \(z
+%63string"__concat*
+
+%62string*	
+</span>˜Ù
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cs[ \({
+%64void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%63string2Write(string)*
+18*Ú
+11o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csb d(-»
+≈
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csb  b(=
+%65string"+Resources.Resource.WelcomeMessageFormat.get*"
+Resources.Resourceù
+ö
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csb b(=
+formatstring"__id*
+
+%65stringﬁ
+€
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csd d("
+%66string"3mojoPortal.Web.UI.WelcomeMessage.OverrideFormat.get*$"
+ mojoPortal.Web.UI.WelcomeMessage§
+°
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csd d()
+
+%67int"string.Length.get*
+
+%66string*
+21
+22*¸
+21o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csd1 d(Hﬁ
+€
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csd: d(H
+%68string"3mojoPortal.Web.UI.WelcomeMessage.OverrideFormat.get*$"
+ mojoPortal.Web.UI.WelcomeMessageù
+ö
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csd1 d(H
+formatstring"__id*
+
+%68string*
+22*·
+22o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csf f(%ﬂ
+‹
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csf f(%
+%69bool"6mojoPortal.Web.UI.WelcomeMessage.WrapInProfileLink.get*$"
+ mojoPortal.Web.UI.WelcomeMessage*
+23
+24*˘
+23p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csh h(çÓÎ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csh0 h(8
+%70string"1System.Web.UI.WebControls.WebControl.CssClass.get*(&
+$System.Web.UI.WebControls.WebControl2CssClass.getÆ
+´
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csh! h(8
+%71string"__concat*
+
+<a class='*
+
+%70string¨
+©
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csh! h(E
+%72string"__concat*
+
+%71string*
+
+' href='”
+–
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cshH h(i
+%73string"0mojoPortal.Web.SiteUtils.GetNavigationSiteRoot()*"
+mojoPortal.Web.SiteUtilsØ
+¨
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csh! h(i
+%74string"__concat*
+
+%72string*
+
+%73stringΩ
+∫
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csh! h(Ü
+%75string"__concat*
+
+%74string*
+/Secure/UserProfile.aspxß
+§
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csh! h(ç
+%76string"__concat*
+
+%75string*
+'>ÿ
+’
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cshΩ h( 
+%77string"%mojoPortal.Business.SiteUser.Name.get**
+(
+siteUsermojoPortal.Business.SiteUser›
+⁄
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csh¶ h(À
+%78string")System.Web.HttpUtility.HtmlEncode(string)*"
+System.Web.HttpUtility*
+
+%77string‘
+—
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cshÕ h(Ì
+%79string"/mojoPortal.Web.SiteUtils.GetPrivateProfileUrl()*"
+mojoPortal.Web.SiteUtils¡
+æ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cshÔ h(É
+%80string""Resources.Resource.ProfileLink.get*"
+Resources.Resourceá
+Ñ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cshê h(Ñ
+%81string"-string.Format(string, object, object, object)*
+"
+string*
+
+formatstring*
+
+%78string*
+
+%79string*
+
+%80string∞
+≠
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csh! h(Ñ
+%82string"__concat*
+
+%76string*
+
+%81string©
+¶
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csh! h(ç
+%83string"__concat*
+
+%82string*
+</a>¯ı
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csh h(é
+%84void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%83string2Write(string)*
+18*‹
+24o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csj j(%⁄
+◊
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csj j(%
+%85bool"1mojoPortal.Web.UI.WelcomeMessage.WrapInAnchor.get*$"
+ mojoPortal.Web.UI.WelcomeMessage*
+25
+26*ç
+25p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csl l(ŒÓÎ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csl0 l(8
+%86string"1System.Web.UI.WebControls.WebControl.CssClass.get*(&
+$System.Web.UI.WebControls.WebControl2CssClass.getÆ
+´
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csl! l(8
+%87string"__concat*
+
+<a class='*
+
+%86stringµ
+≤
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csl! l(N
+%88string"__concat*
+
+%87string*
+' name='welcome'>◊
+‘
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csl~ l(ã
+%89string"%mojoPortal.Business.SiteUser.Name.get**
+(
+siteUsermojoPortal.Business.SiteUser‹
+Ÿ
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cslg l(å
+%90string")System.Web.HttpUtility.HtmlEncode(string)*"
+System.Web.HttpUtility*
+
+%89string‘
+—
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cslé l(Æ
+%91string"/mojoPortal.Web.SiteUtils.GetPrivateProfileUrl()*"
+mojoPortal.Web.SiteUtils¡
+æ
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csl∞ l(ƒ
+%92string""Resources.Resource.ProfileLink.get*"
+Resources.ResourceÜ
+É
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.cslQ l(≈
+%93string"-string.Format(string, object, object, object)*
+"
+string*
+
+formatstring*
+
+%90string*
+
+%91string*
+
+%92string∞
+≠
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csl! l(≈
+%94string"__concat*
+
+%88string*
+
+%93string©
+¶
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csl! l(Œ
+%95string"__concat*
+
+%94string*
+</a>¯ı
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csl l(œ
+%96void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%95string2Write(string)*
+18*í
+26p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csq q(≈ÓÎ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csq3 q(;
+%97string"1System.Web.UI.WebControls.WebControl.CssClass.get*(&
+$System.Web.UI.WebControls.WebControl2CssClass.get±
+Æ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csq! q(;
+%98string"__concat*
+<span class='*
+
+%97string¶
+£
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csq! q(B
+%99string"__concat*
+
+%98string*
+'>◊
+‘
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csqr q(
+%100string"%mojoPortal.Business.SiteUser.Name.get**
+(
+siteUsermojoPortal.Business.SiteUserﬁ
+€
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csq[ q(Ä
+%101string")System.Web.HttpUtility.HtmlEncode(string)*"
+System.Web.HttpUtility*
+
+%100string’
+“
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csqÇ q(¢
+%102string"/mojoPortal.Web.SiteUtils.GetPrivateProfileUrl()*"
+mojoPortal.Web.SiteUtils¬
+ø
+q
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csq§ q(∏
+%103string""Resources.Resource.ProfileLink.get*"
+Resources.Resourceä
+á
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csqE q(π
+%104string"-string.Format(string, object, object, object)*
+"
+string*
+
+formatstring*
+
+%101string*
+
+%102string*
+
+%103string≤
+Ø
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csq! q(π
+%105string"__concat*
+
+%99string*
+
+%104stringÆ
+´
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csq! q(≈
+%106string"__concat*
+
+%105string*	
+</span>˙˜
+p
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csq q(∆
+%107void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%106string2Write(string)*
+18*‚
+18o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csu u(!‡
+›
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csu u(!
+%108bool"6mojoPortal.Web.UI.WelcomeMessage.UseRightSeparator.get*$"
+ mojoPortal.Web.UI.WelcomeMessage*
+27
+28*â
+27o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csu# u(Pãà
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csu# u(Q
+%109void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*" 
+ <span class='Accent'>|</span>2Write(string)*
+28*·
+28o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csw w( ﬂ
+‹
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csw w( 
+%110bool"5mojoPortal.Web.UI.WelcomeMessage.RenderAsListItem.get*$"
+ mojoPortal.Web.UI.WelcomeMessage*
+29
+30*
+29o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csw" w(6ÚÔ
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csw" w(7
+%111void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*	
+</li>2Write(string)*
+30*˛
+30o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csx	 x(	"Ü
+o
+eD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\WelcomeMessage.csx x(	
+implicit return:&
+writerSystem.Web.UI.HtmlTextWriterB$"
+ mojoPortal.Web.UI.WelcomeMessage

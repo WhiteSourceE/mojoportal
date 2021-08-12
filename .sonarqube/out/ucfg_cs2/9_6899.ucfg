@@ -1,0 +1,181 @@
+
+*mojoPortal.Web.SiteUtils.GetTimeZoneList()n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csž# ž(2"0*Þ
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¡ £("²
+¯
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¡ ¡(&/
+	timeZones"System.Collections.Generic.List<T>"__id*
+""Ñ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs£ £(
+%0System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext×
+Ô
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs£ £("
+
+%1bool""object.operator !=(object, object)*
+"
+object*
+
+%0System.Web.HttpContext*
+""*
+1
+2*Ã
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(2Ñ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(#
+%2System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÛ
+Ø
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥()$
+%3System.Collections.IDictionary" System.Web.HttpContext.Items.get*
+
+%2System.Web.HttpContext¿
+¼
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(3
+%4object"__mapGet*&
+$
+%3System.Collections.IDictionary*
+
+tzlist—
+”
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(I
+%5object"__id*
+
+%4objectº
+·
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¥ ¥(I/
+	timeZones"System.Collections.Generic.List<T>"__id*
+
+%5object*
+2*è
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §(ê
+ç
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs§ §(
+
+%6bool""object.operator ==(object, object)*
+"
+object*1
+/
+	timeZones"System.Collections.Generic.List<T>*
+""*
+3
+4*Û
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs© ©(+Ý
+Ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs© ©(+
+
+%7bool"6mojoPortal.Web.WebConfigSettings.CacheTimeZoneList.get*$""
+ mojoPortal.Web.WebConfigSettings*
+5
+6*Ü
+5n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs« «(+ˆ
+…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs« «(+(
+%8"System.Collections.Generic.List<T>"9mojoPortal.Business.WebHelpers.CacheHelper.GetTimeZones()*.",
+*mojoPortal.Business.WebHelpers.CacheHelperÖ
+Ó
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs« «(+/
+	timeZones"System.Collections.Generic.List<T>"__id**
+(
+%8"System.Collections.Generic.List<T>*
+7*Ù
+6n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¯ ¯(1…
+‚
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¯ ¯(1(
+%9"System.Collections.Generic.List<T>"9mojoPortal.Web.Framework.DateTimeHelper.GetTimeZoneList()*+")
+'mojoPortal.Web.Framework.DateTimeHelperÖ
+Ó
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¯ ¯(1/
+	timeZones"System.Collections.Generic.List<T>"__id**
+(
+%9"System.Collections.Generic.List<T>*
+7*é
+7n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs² ²(ë
+è
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs² ²(
+%10bool""object.operator !=(object, object)*
+"
+object*1
+/
+	timeZones"System.Collections.Generic.List<T>*
+""*
+8
+4*¬
+8n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs´	 ´($Ò
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs´	 ´(
+%11System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÙ
+Ö
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs´	 ´($
+%12bool""object.operator !=(object, object)*
+"
+object*
+
+%11System.Web.HttpContext*
+""*
+9
+4*œ
+9n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶ ¶(5Ò
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶ ¶(
+%13System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextÝ
+Ú
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶ ¶(%
+%14System.Collections.IDictionary" System.Web.HttpContext.Items.get*
+
+%13System.Web.HttpContextì
+é
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs¶ ¶(5
+%15"__mapSet*'
+%
+%14System.Collections.IDictionary*
+
+tzlist*1
+/
+	timeZones"System.Collections.Generic.List<T>*
+4*™
+4n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csº
+ º("£
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.csº º(1
+/
+	timeZones"System.Collections.Generic.List<T>*ü
+10n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs» »("…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SiteUtils.cs» »(
+implicit returnB"
+mojoPortal.Web.SiteUtils

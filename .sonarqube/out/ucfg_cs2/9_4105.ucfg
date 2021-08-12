@@ -1,0 +1,497 @@
+
+SmojoPortal.Web.AdminUI.ModuleSettingsPage.btnDelete_Click(object, System.EventArgs)s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csž ž( "0*Í
+0s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¡ ¡(÷
+ô
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¡ ¡( 
+%0mojoPortal.Business.Module"__id*U*S+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage"$
+modulemojoPortal.Business.ModuleÐ
+Í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¡ ¡(	
+%1int"'mojoPortal.Business.Module.ModuleId.get*"
+ 
+%0mojoPortal.Business.Module*
+1
+2*ê	
+1s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs£ ¥((÷
+ô
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs£3 £(9 
+%2mojoPortal.Business.Module"__id*U*S+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage"$
+modulemojoPortal.Business.ModuleÐ
+Í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs£3 £(B	
+%3int"'mojoPortal.Business.Module.ModuleId.get*"
+ 
+%2mojoPortal.Business.Module÷
+ô
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs£ £(C
+%4System.Data.DataTable"3mojoPortal.Business.Module.GetPageModulesTable(int)*"
+mojoPortal.Business.Module*
+	
+%3int¿
+¼
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs£ £(C 
+pageIdsSystem.Data.DataTable"__id*
+
+%4System.Data.DataTableá
+Þ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¥ ¥((#
+%5System.Data.DataRowCollection"System.Data.DataTable.Rows.get*"
+ 
+pageIdsSystem.Data.DataTable*
+3*€
+3s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÒ Ò(*
+4
+5*ñ
+4s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs§	 ©(_Ö
+Ó
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs§" §(/
+%6object"$System.Data.DataRow.this[string].get*
+
+rowSystem.Data.DataRow*
+
+PageIDÇ
+Ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs§ §(0	
+%7int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%6objectš
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs§	 §(0
+pageIdint"__id*
+	
+%7int÷
+ô
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¨! ¨(' 
+%8mojoPortal.Business.Module"__id*U*S+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage"$
+modulemojoPortal.Business.ModuleÐ
+Í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¨! ¨(0	
+%9int"'mojoPortal.Business.Module.ModuleId.get*"
+ 
+%8mojoPortal.Business.Moduleþ
+û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¨ ¨(9
+%10bool"9mojoPortal.Business.Module.DeleteModuleInstance(int, int)*"
+mojoPortal.Business.Module*
+	
+%9int*
+
+pageIdintü
+ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs©D ©(P'
+%11 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÜ
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs©D ©(W
+
+%12int"+mojoPortal.Business.SiteSettings.SiteId.get*)
+'
+%11 mojoPortal.Business.SiteSettingsÃÀ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs©3 ©(`'
+%13 mojoPortal.Business.PageSettings" mojoPortal.Business.PageSettingsˆ
+…
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs©7 ©(C
+%14void"7mojoPortal.Business.PageSettings.PageSettings(int, int)*)
+'
+%13 mojoPortal.Business.PageSettings*
+
+
+%12int*
+
+pageIdint´
+±
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs© ©(a
+%15void"ZmojoPortal.SearchIndex.IndexHelper.RebuildPageIndexAsync(mojoPortal.Business.PageSettings)*&"$
+"mojoPortal.SearchIndex.IndexHelper*)
+'
+%13 mojoPortal.Business.PageSettings*
+3*¤
+5s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¬ ®()ø
+õ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¬4 ¬(:!
+%16mojoPortal.Business.Module"__id*U*S+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage"$
+modulemojoPortal.Business.ModuleÕ
+Ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¬4 ¬(F
+
+%17int"*mojoPortal.Business.Module.ModuleDefId.get*#
+!
+%16mojoPortal.Business.ModuleËÈ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¬ ¬(G+
+%18$mojoPortal.Business.ModuleDefinition"$mojoPortal.Business.ModuleDefinitionþ
+û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¬# ¬(3
+%19void":mojoPortal.Business.ModuleDefinition.ModuleDefinition(int)*-
++
+%18$mojoPortal.Business.ModuleDefinition*
+
+
+%17intÞ
+Û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¬ ¬(G/
+feature$mojoPortal.Business.ModuleDefinition"__id*-
++
+%18$mojoPortal.Business.ModuleDefinitionó
+ð
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs® ®(
+%20string"7mojoPortal.Business.ModuleDefinition.DeleteProvider.get*1
+/
+feature$mojoPortal.Business.ModuleDefinition¨
+¥
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs® ®(%
+
+%21int"string.Length.get*
+
+%20string*
+6
+7*¬
+6s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs²# ´( à
+Ý
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs²4 ²(aL
+%22EmojoPortal.Business.WebHelpers.ContentDeleteHandlerProviderCollection"PmojoPortal.Business.WebHelpers.ContentDeleteHandlerProviderManager.Providers.get*F"D
+BmojoPortal.Business.WebHelpers.ContentDeleteHandlerProviderManageró
+ð
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs²b ²(x
+%23string"7mojoPortal.Business.ModuleDefinition.DeleteProvider.get*1
+/
+feature$mojoPortal.Business.ModuleDefinition©
+¦
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs²4 ²(yB
+%24;mojoPortal.Business.WebHelpers.ContentDeleteHandlerProvider"
+__arrayGet*N
+L
+%22EmojoPortal.Business.WebHelpers.ContentDeleteHandlerProviderCollection*
+
+%23string“
+
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs²# ²(yM
+contentDeleter;mojoPortal.Business.WebHelpers.ContentDeleteHandlerProvider"__id*D
+B
+%24;mojoPortal.Business.WebHelpers.ContentDeleteHandlerProviderŽ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs´
+ ´( 
+%25bool""object.operator !=(object, object)*
+"
+object*O
+M
+contentDeleter;mojoPortal.Business.WebHelpers.ContentDeleteHandlerProvider*
+""*
+8
+9*
+8s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¶ ¶(Fø
+õ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¶$ ¶(*!
+%26mojoPortal.Business.Module"__id*U*S+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage"$
+modulemojoPortal.Business.ModuleÒ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¶$ ¶(3
+
+%27int"'mojoPortal.Business.Module.ModuleId.get*#
+!
+%26mojoPortal.Business.Moduleø
+õ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¶5 ¶(;!
+%28mojoPortal.Business.Module"__id*U*S+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage"$
+modulemojoPortal.Business.ModuleÜ
+Ù
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¶5 ¶(F
+%29System.Guid")mojoPortal.Business.Module.ModuleGuid.get*#
+!
+%28mojoPortal.Business.Module×
+Ô
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¶ ¶(G
+%30void"[mojoPortal.Business.WebHelpers.ContentDeleteHandlerProvider.DeleteContent(int, System.Guid)*O
+M
+contentDeleter;mojoPortal.Business.WebHelpers.ContentDeleteHandlerProvider*
+
+
+%27int*
+
+%29System.Guid*
+9*
+9s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÒ Ò(*
+10
+7*¼
+10s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs» »(WÙ
+Ö
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs» »(	
+%31log4net.ILog"__id*D*B+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage"
+loglog4net.ILogó
+ð
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs»= »(S
+%32string"7mojoPortal.Business.ModuleDefinition.DeleteProvider.get*1
+/
+feature$mojoPortal.Business.ModuleDefinitionÐ
+Í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs» »(S
+%33string"__concat*,*
+(Failed to invoke content delete handler *
+
+%32string–“
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs» »(X
+%34void",log4net.ILog.Error(object, System.Exception)*
+
+%31log4net.ILog*
+
+%33string*
+
+exSystem.Exception2Error(object, System.Exception)*
+7*ö
+7s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¿ ¿(9ñ
+î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.cs¿ ¿(9
+%35bool"DmojoPortal.Web.WebConfigSettings.LogIpAddressForContentDeletions.get*$""
+ mojoPortal.Web.WebConfigSettings*
+11
+12*‰	
+11s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÁ Ä(¬
+©
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÁ Á(#
+%36string"__id**
+string"
+Emptystring£
+ 
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÁ Á(#
+userNamestring"__id*
+
+%36stringê
+ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÂ Â(:#
+%37mojoPortal.Business.SiteUser"-mojoPortal.Web.SiteUtils.GetCurrentSiteUser()*"
+mojoPortal.Web.SiteUtilsÒ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÂ Â(:+
+currentUsermojoPortal.Business.SiteUser"__id*%
+#
+%37mojoPortal.Business.SiteUserì
+é
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÄ	 Ä(
+%38bool""object.operator !=(object, object)*
+"
+object*-
++
+currentUsermojoPortal.Business.SiteUser*
+""*
+13
+14*…
+13s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÆ Æ(!Ý
+Ú
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÆ Æ(!
+%39string"%mojoPortal.Business.SiteUser.Name.get*-
++
+currentUsermojoPortal.Business.SiteUser£
+ 
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÆ Æ(!
+userNamestring"__id*
+
+%39string*
+14*ô
+14s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÉ É(|Ù
+Ö
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÉ É(
+%40log4net.ILog"__id*D*B+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage"
+loglog4net.ILog²
+¯
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÉ É( 
+%41string"__concat*	
+user *
+
+userNamestring¸
+µ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÉ É(5
+%42string"__concat*
+
+%41string*
+ deleted module ø
+õ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÉ8 É(>!
+%43mojoPortal.Business.Module"__id*U*S+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage"$
+modulemojoPortal.Business.ModuleØ
+Õ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÉ8 É(J
+%44string"*mojoPortal.Business.Module.ModuleTitle.get*#
+!
+%43mojoPortal.Business.Module³
+°
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÉ É(J
+%45string"__concat*
+
+%42string*
+
+%44string¹
+¶
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÉ É(`
+%46string"__concat*
+
+%45string*
+ from ip address Ï
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÉc É(|
+%47string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtils³
+°
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÉ É(|
+%48string"__concat*
+
+%46string*
+
+%47stringÖÓ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÉ É(}
+%49void"log4net.ILog.Info(object)*
+
+%40log4net.ILog*
+
+%48string2Info(object)*
+12*Š
+12s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÍ Î(0ø
+õ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÍ Í(!
+%50mojoPortal.Business.Module"__id*U*S+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage"$
+modulemojoPortal.Business.ModuleÒ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÍ Í('
+
+%51int"'mojoPortal.Business.Module.ModuleId.get*#
+!
+%50mojoPortal.Business.Moduleá
+Þ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÍ Í((
+%52bool",mojoPortal.Business.Module.DeleteModule(int)*"
+mojoPortal.Business.Module*
+
+
+%51intø
+õ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÎ! Î('!
+%53mojoPortal.Business.Module"__id*U*S+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage"$
+modulemojoPortal.Business.ModuleÒ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÎ! Î(0
+
+%54int"'mojoPortal.Business.Module.ModuleId.get*#
+!
+%53mojoPortal.Business.Module…
+‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÎ Î(1
+%55void"@mojoPortal.Business.WebHelpers.CacheHelper.ClearModuleCache(int)*.",
+*mojoPortal.Business.WebHelpers.CacheHelper*
+
+
+%54int*
+2*“
+2s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÑ Ñ(=Ó
+Ð
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÑ  Ñ(=
+%56string",mojoPortal.Web.SiteUtils.GetCurrentPageUrl()*"
+mojoPortal.Web.SiteUtils¼
+¹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÑ Ñ(>
+%57void"NmojoPortal.Web.Framework.WebUtils.SetupRedirect(System.Web.UI.Control, string)*%"#
+!mojoPortal.Web.Framework.WebUtils*-+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage*
+
+%56string*
+15*†
+15s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÒ Ò("Š
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ModuleSettings.aspx.csÒ Ò(
+implicit return:
+senderobject:
+eSystem.EventArgsB-+
+)mojoPortal.Web.AdminUI.ModuleSettingsPage

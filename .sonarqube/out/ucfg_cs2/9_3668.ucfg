@@ -1,0 +1,208 @@
+
+EmojoPortal.Web.Controllers.FileServiceController.DownloadItem(string)á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csñ ñ(*"0*ï
+0á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs´ ´(*
+1
+2*≥5
+1á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö §(°
+û
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö) ö(:
+%0"__id*
+""›⁄
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö ö(;)
+%1#System.Net.Http.HttpResponseMessage"#System.Net.Http.HttpResponseMessage¢
+ü
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö ö((
+
+%2void"RSystem.Net.Http.HttpResponseMessage.HttpResponseMessage(System.Net.HttpStatusCode)*+
+)
+%1#System.Net.Http.HttpResponseMessage*
+
+%0Ô
+Ï
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csö ö(;-
+result#System.Net.Http.HttpResponseMessage"__id*+
+)
+%1#System.Net.Http.HttpResponseMessage–
+Õ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csõ  õ(4
+%3string"SmojoPortal.Web.Controllers.FileServiceController.FilePath(string, bool, bool, bool)*42
+0mojoPortal.Web.Controllers.FileServiceController*
+
+pathstring*
+""*
+""*
+""°
+û
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csõ6 õ(C
+%4"__id*
+""øº
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csõ õ(D
+%5System.IO.FileStream"System.IO.FileStreamå
+â
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csõ õ(
+
+%6void";System.IO.FileStream.FileStream(string, System.IO.FileMode)*
+
+%5System.IO.FileStream*
+
+%3string*
+
+%4—
+Œ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csõ õ(D
+streamSystem.IO.FileStream"__id*
+
+%5System.IO.FileStream—Œ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csù ù(.#
+%7System.Net.Http.StreamContent"System.Net.Http.StreamContent°
+û
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csù ù(&
+
+%8void"=System.Net.Http.StreamContent.StreamContent(System.IO.Stream)*%
+#
+%7System.Net.Http.StreamContent* 
+
+streamSystem.IO.FileStreamπ
+∂
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csù ù(.!
+%9System.Net.Http.HttpContent"/System.Net.Http.HttpResponseMessage.Content.set*/
+-
+result#System.Net.Http.HttpResponseMessage*%
+#
+%7System.Net.Http.StreamContentì
+ê
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csû û("
+%10System.Net.Http.HttpContent"/System.Net.Http.HttpResponseMessage.Content.get*/
+-
+result#System.Net.Http.HttpResponseMessageè
+å
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csû û(1
+%11*System.Net.Http.Headers.HttpContentHeaders"'System.Net.Http.HttpContent.Headers.get*$
+"
+%10System.Net.Http.HttpContentÌ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csû) û(]3
+%12,System.Net.Http.Headers.MediaTypeHeaderValue",System.Net.Http.Headers.MediaTypeHeaderValue∫
+∑
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csû- û(A
+%13void"ISystem.Net.Http.Headers.MediaTypeHeaderValue.MediaTypeHeaderValue(string)*5
+3
+%12,System.Net.Http.Headers.MediaTypeHeaderValue*
+application/octet-streamÍ
+Á
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csû û(]3
+%14,System.Net.Http.Headers.MediaTypeHeaderValue":System.Net.Http.Headers.HttpContentHeaders.ContentType.set*3
+1
+%11*System.Net.Http.Headers.HttpContentHeaders*5
+3
+%12,System.Net.Http.Headers.MediaTypeHeaderValueì
+ê
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csü ü("
+%15System.Net.Http.HttpContent"/System.Net.Http.HttpResponseMessage.Content.get*/
+-
+result#System.Net.Http.HttpResponseMessageè
+å
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csü ü(1
+%16*System.Net.Http.Headers.HttpContentHeaders"'System.Net.Http.HttpContent.Headers.get*$
+"
+%15System.Net.Http.HttpContentÇˇ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csü0 ¢(<
+%175System.Net.Http.Headers.ContentDispositionHeaderValue"5System.Net.Http.Headers.ContentDispositionHeaderValue«
+ƒ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csü4 ü(Q
+%18void"[System.Net.Http.Headers.ContentDispositionHeaderValue.ContentDispositionHeaderValue(string)*>
+<
+%175System.Net.Http.Headers.ContentDispositionHeaderValue*
+
+attachmentÑ
+Å
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs° °(4
+%19string"1System.Web.VirtualPathUtility.GetFileName(string)*!"
+System.Web.VirtualPathUtility*
+
+pathstring±
+Æ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs° °(4
+%20string"BSystem.Net.Http.Headers.ContentDispositionHeaderValue.FileName.set*>
+<
+%175System.Net.Http.Headers.ContentDispositionHeaderValue*
+
+%19stringÉ
+Ä
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.csü ¢(<
+%215System.Net.Http.Headers.ContentDispositionHeaderValue"ASystem.Net.Http.Headers.HttpContentHeaders.ContentDisposition.set*3
+1
+%16*System.Net.Http.Headers.HttpContentHeaders*>
+<
+%175System.Net.Http.Headers.ContentDispositionHeaderValue"ª
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs§ §(/
+-
+result#System.Net.Http.HttpResponseMessage*ª
+
+2á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs® ©(Fı
+Ú
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs® ®(
+%22log4net.ILog"__id*K*I2
+0mojoPortal.Web.Controllers.FileServiceController"
+loglog4net.ILogˆÛ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs® ®(
+%23void"log4net.ILog.Error(object)*
+
+%22log4net.ILog*
+
+exSystem.Exception2Error(object)¢
+ü
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs©$ ©(F
+%24"__id*
+""‚ﬂ
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs©
+ ©(G,
+%25%System.Web.Http.HttpResponseException"%System.Web.Http.HttpResponseException´
+®
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs© ©(#
+%26void"VSystem.Web.Http.HttpResponseException.HttpResponseException(System.Net.HttpStatusCode)*.
+,
+%25%System.Web.Http.HttpResponseException*
+
+%24*
+3*Ø
+3á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs´ ´("ü
+á
+{D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controllers\FileManager\FileServiceController.cs´ ´(
+implicit return:
+pathstringB42
+0mojoPortal.Web.Controllers.FileServiceController

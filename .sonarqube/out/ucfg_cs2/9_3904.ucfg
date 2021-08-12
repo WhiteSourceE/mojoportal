@@ -1,0 +1,971 @@
+
+0mojoPortal.Web.AdminUI.PageLayout.LoadSettings()o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csô ô("0*Ë
+0o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csõ ¢(Ñ
+Å
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csõ õ(<	
+%0int"HmojoPortal.Web.Framework.WebUtils.ParseInt32FromQueryString(string, int)*%"#
+!mojoPortal.Web.Framework.WebUtils*
+
+pageid*
+""Ω
+∫
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csõ õ(<4#
+!mojoPortal.Web.AdminUI.PageLayout"
+pageIDint"__id*
+	
+%0intÀ
+»
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csú ú(.
+
+%1bool"+mojoPortal.Web.SiteUtils.UserIsSiteEditor()*"
+mojoPortal.Web.SiteUtils≈
+¬
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csú ú(.;#
+!mojoPortal.Web.AdminUI.PageLayout"
+isSiteEditorbool"__id*
+
+
+%1boolÒ
+Ó
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csù ù(?
+
+%2bool"7mojoPortal.Web.mojoBasePage.ContainsPlaceHolder(string)*%#
+!mojoPortal.Web.AdminUI.PageLayout*
+altContent1À
+»
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csù ù(?A#
+!mojoPortal.Web.AdminUI.PageLayout"
+pageHasAltContent1bool"__id*
+
+
+%2boolÒ
+Ó
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csû û(?
+
+%3bool"7mojoPortal.Web.mojoBasePage.ContainsPlaceHolder(string)*%#
+!mojoPortal.Web.AdminUI.PageLayout*
+altContent2À
+»
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csû û(?A#
+!mojoPortal.Web.AdminUI.PageLayout"
+pageHasAltContent2bool"__id*
+
+
+%3boolà
+Ö
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs¢ ¢(
+%4"__id*
+""*
+1
+2*§
+1o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs§ ®(˘
+ˆ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs§ §(%
+%5System.Web.UI.WebControls.Panel"__id*V*T#
+!mojoPortal.Web.AdminUI.PageLayout"-
+
+pnlContentSystem.Web.UI.WebControls.Panel·ﬁ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs§ §(
+
+%6bool"!System.Web.UI.Control.Visible.set*'
+%
+%5System.Web.UI.WebControls.Panel*
+""2Visible.setÜ
+É
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs¶ ¶()
+%7#System.Web.UI.WebControls.HyperLink"__id*_*]#
+!mojoPortal.Web.AdminUI.PageLayout"6
+lnkEditSettings#System.Web.UI.WebControls.HyperLinkÕ
+ 
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs¶" ¶(*
+%8string"(mojoPortal.Web.mojoBasePage.SiteRoot.get*
+mojoPortal.Web.mojoBasePage¬
+ø
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs¶" ¶(O
+%9string"__concat*
+
+%8string*$"
+ /Admin/PageSettings.aspx?pageid=â
+Ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs¶R ¶(X
+%10"__id*
+""ú
+ô
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs¶R ¶(c
+%11string"int.ToString()*
+
+%10Æ
+´
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs¶" ¶(c
+%12string"__concat*
+
+%9string*
+
+%11stringˆ
+Û
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs¶ ¶(c
+%13string"3System.Web.UI.WebControls.HyperLink.NavigateUrl.set*+
+)
+%7#System.Web.UI.WebControls.HyperLink*
+
+%12stringÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs® ®('
+%14 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage‰
+·
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs® ®(
+%15bool""object.operator !=(object, object)*
+"
+object*)
+'
+%14 mojoPortal.Business.PageSettings*
+""*
+3
+4*«
+3o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs™ ´(,É
+Ä
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs™ ™(*
+%16#System.Web.UI.WebControls.HyperLink"__id*[*Y#
+!mojoPortal.Web.AdminUI.PageLayout"2
+lnkViewPage#System.Web.UI.WebControls.HyperLinkœ
+Ã
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs™ ™(<
+%17string",mojoPortal.Web.SiteUtils.GetCurrentPageUrl()*"
+mojoPortal.Web.SiteUtils˜
+Ù
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs™ ™(<
+%18string"3System.Web.UI.WebControls.HyperLink.NavigateUrl.set*,
+*
+%16#System.Web.UI.WebControls.HyperLink*
+
+%17stringÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs´	 ´('
+%19 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage·
+ﬁ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs´	 ´(!
+%20string"1mojoPortal.Business.PageSettings.BodyCssClass.get*)
+'
+%19 mojoPortal.Business.PageSettings§
+°
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs´	 ´((
+
+%21int"string.Length.get*
+
+%20string*
+5
+2*µ
+5o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs´0 ´(WÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs´? ´(J'
+%22 mojoPortal.Business.PageSettings"+mojoPortal.Web.mojoBasePage.CurrentPage.get*
+mojoPortal.Web.mojoBasePage·
+ﬁ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs´? ´(W
+%23string"1mojoPortal.Business.PageSettings.BodyCssClass.get*)
+'
+%22 mojoPortal.Business.PageSettingsÁ
+‰
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs´0 ´(X
+%24void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+
+%23string*
+2*È
+4o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csØ Ø( É
+Ä
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csØ Ø(*
+%25#System.Web.UI.WebControls.HyperLink"__id*[*Y#
+!mojoPortal.Web.AdminUI.PageLayout"2
+lnkViewPage#System.Web.UI.WebControls.HyperLinkÁ‰
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csØ Ø( 
+%26bool"!System.Web.UI.Control.Visible.set*,
+*
+%25#System.Web.UI.WebControls.HyperLink*
+""2Visible.set*
+2*ﬁ@
+2o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs¥ æ(MÍ
+Á
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs¥ ¥(#
+%27void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+administrationÊ
+„
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csµ µ(
+%28void"2mojoPortal.Web.mojoBasePage.AddClassToBody(string)*
+mojoPortal.Web.mojoBasePage*
+
+pagelayoutô
+ñ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∑ ∑(4
+%29-System.Web.UI.HtmlControls.HtmlGenericControl"__id*g*e#
+!mojoPortal.Web.AdminUI.PageLayout">
+divAdminLinks-System.Web.UI.HtmlControls.HtmlGenericControlç
+ä
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∑ ∑((
+%30!System.Web.UI.AttributeCollection"5System.Web.UI.HtmlControls.HtmlControl.Attributes.get*6
+4
+%29-System.Web.UI.HtmlControls.HtmlGenericControló
+î
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∑) ∑(82
+%31+mojoPortal.Web.UI.PageLayoutDisplaySettings"__id*g*e#
+!mojoPortal.Web.AdminUI.PageLayout">
+displaySettings+mojoPortal.Web.UI.PageLayoutDisplaySettingsâ
+Ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∑) ∑(W
+%32string"NmojoPortal.Web.UI.PageLayoutDisplaySettings.AdminLinksContainerDivCssClass.get*4
+2
+%31+mojoPortal.Web.UI.PageLayoutDisplaySettingsÄ
+˝
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∑ ∑(X
+%33void"5System.Web.UI.AttributeCollection.Add(string, string)**
+(
+%30!System.Web.UI.AttributeCollection*	
+class*
+
+%32stringá
+Ñ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∏ ∏(*
+%34#System.Web.UI.WebControls.HyperLink"__id*_*]#
+!mojoPortal.Web.AdminUI.PageLayout"6
+lnkEditSettings#System.Web.UI.WebControls.HyperLinkó
+î
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∏ ∏(-2
+%35+mojoPortal.Web.UI.PageLayoutDisplaySettings"__id*g*e#
+!mojoPortal.Web.AdminUI.PageLayout">
+displaySettings+mojoPortal.Web.UI.PageLayoutDisplaySettings¸
+˘
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∏ ∏(?
+%36string"AmojoPortal.Web.UI.PageLayoutDisplaySettings.AdminLinkCssClass.get*4
+2
+%35+mojoPortal.Web.UI.PageLayoutDisplaySettingsÉÄ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∏ ∏(?
+%37string"1System.Web.UI.WebControls.WebControl.CssClass.set*,
+*
+%34#System.Web.UI.WebControls.HyperLink*
+
+%36string2CssClass.setÉ
+Ä
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csπ π(*
+%38#System.Web.UI.WebControls.HyperLink"__id*[*Y#
+!mojoPortal.Web.AdminUI.PageLayout"2
+lnkViewPage#System.Web.UI.WebControls.HyperLinkó
+î
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csπ π()2
+%39+mojoPortal.Web.UI.PageLayoutDisplaySettings"__id*g*e#
+!mojoPortal.Web.AdminUI.PageLayout">
+displaySettings+mojoPortal.Web.UI.PageLayoutDisplaySettings¸
+˘
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csπ π(;
+%40string"AmojoPortal.Web.UI.PageLayoutDisplaySettings.AdminLinkCssClass.get*4
+2
+%39+mojoPortal.Web.UI.PageLayoutDisplaySettingsÉÄ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csπ π(;
+%41string"1System.Web.UI.WebControls.WebControl.CssClass.set*,
+*
+%38#System.Web.UI.WebControls.HyperLink*
+
+%40string2CssClass.setÉ
+Ä
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∫ ∫(*
+%42#System.Web.UI.WebControls.HyperLink"__id*[*Y#
+!mojoPortal.Web.AdminUI.PageLayout"2
+lnkPageTree#System.Web.UI.WebControls.HyperLinkó
+î
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∫ ∫()2
+%43+mojoPortal.Web.UI.PageLayoutDisplaySettings"__id*g*e#
+!mojoPortal.Web.AdminUI.PageLayout">
+displaySettings+mojoPortal.Web.UI.PageLayoutDisplaySettings¸
+˘
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∫ ∫(;
+%44string"AmojoPortal.Web.UI.PageLayoutDisplaySettings.AdminLinkCssClass.get*4
+2
+%43+mojoPortal.Web.UI.PageLayoutDisplaySettingsÉÄ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs∫ ∫(;
+%45string"1System.Web.UI.WebControls.WebControl.CssClass.set*,
+*
+%42#System.Web.UI.WebControls.HyperLink*
+
+%44string2CssClass.setÇ
+ˇ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csª ª((
+%46!System.Web.UI.WebControls.Literal"__id*\*Z#
+!mojoPortal.Web.AdminUI.PageLayout"3
+litLinkSpacer1!System.Web.UI.WebControls.Literaló
+î
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csª ª((2
+%47+mojoPortal.Web.UI.PageLayoutDisplaySettings"__id*g*e#
+!mojoPortal.Web.AdminUI.PageLayout">
+displaySettings+mojoPortal.Web.UI.PageLayoutDisplaySettings˝
+˙
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csª ª(;
+%48string"BmojoPortal.Web.UI.PageLayoutDisplaySettings.AdminLinkSeparator.get*4
+2
+%47+mojoPortal.Web.UI.PageLayoutDisplaySettingsÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csª ª(;
+%49string"*System.Web.UI.WebControls.Literal.Text.set**
+(
+%46!System.Web.UI.WebControls.Literal*
+
+%48stringÇ
+ˇ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csº º((
+%50!System.Web.UI.WebControls.Literal"__id*\*Z#
+!mojoPortal.Web.AdminUI.PageLayout"3
+litLinkSpacer2!System.Web.UI.WebControls.Literaló
+î
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csº º((2
+%51+mojoPortal.Web.UI.PageLayoutDisplaySettings"__id*g*e#
+!mojoPortal.Web.AdminUI.PageLayout">
+displaySettings+mojoPortal.Web.UI.PageLayoutDisplaySettings˝
+˙
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csº º(;
+%52string"BmojoPortal.Web.UI.PageLayoutDisplaySettings.AdminLinkSeparator.get*4
+2
+%51+mojoPortal.Web.UI.PageLayoutDisplaySettingsÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csº º(;
+%53string"*System.Web.UI.WebControls.Literal.Text.set**
+(
+%50!System.Web.UI.WebControls.Literal*
+
+%52string¯
+ı
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csæ. æ(:'
+%54 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingsÿ
+’
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csæ. æ(A
+
+%55int"+mojoPortal.Business.SiteSettings.SiteId.get*)
+'
+%54 mojoPortal.Business.SiteSettingsâ
+Ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csæG æ(M
+%56"__id*
+""˘
+ˆ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csæ æ(N
+
+%57int"8mojoPortal.Business.Module.GetGlobalCount(int, int, int)*"
+mojoPortal.Business.Module*
+
+
+%55int*
+""*
+
+%56 
+«
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csæ æ(N@#
+!mojoPortal.Web.AdminUI.PageLayout"
+globalContentCountint"__id*
+
+
+%57int*
+6*Ç
+6o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs√ √(0‘—
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs√ √( 
+%58System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÀ
+»
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs√" √()
+%59System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Page«
+ƒ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs√" √(0
+%60string"!System.Web.HttpRequest.RawUrl.get*
+
+%59System.Web.HttpRequestë
+é
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs√ √(1
+%61void"BmojoPortal.Web.SiteUtils.SetFormAction(System.Web.UI.Page, string)*"
+mojoPortal.Web.SiteUtils*
+
+%58System.Web.UI.Page*
+
+%60string*	
+7
+7
+8*Ã
+7o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs   (Î
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs   ("
+%62System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageﬂ
+‹
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs   (
+%63bool""object.operator !=(object, object)*
+"
+object*$
+"
+%62System.Web.UI.ScriptManager*
+""*
+9
+8*›û
+9o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÃ Á(EÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÃ Ã("
+%64System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePage˝
+˙
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÃ2 Ã(E#
+%65mojoPortal.Web.UI.mojoButton"__id*\*Z#
+!mojoPortal.Web.AdminUI.PageLayout"3
+btnCreateNewContentmojoPortal.Web.UI.mojoButtonü
+ú
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÃ Ã(F
+%66void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*$
+"
+%64System.Web.UI.ScriptManager*%
+#
+%65mojoPortal.Web.UI.mojoButtonÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csŒ Œ("
+%67System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageÖ
+Ç
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csŒ2 Œ(;,
+%68%System.Web.UI.HtmlControls.HtmlButton"__id*[*Y#
+!mojoPortal.Web.AdminUI.PageLayout"2
+	LeftUpBtn%System.Web.UI.HtmlControls.HtmlButton®
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csŒ Œ(<
+%69void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*$
+"
+%67System.Web.UI.ScriptManager*.
+,
+%68%System.Web.UI.HtmlControls.HtmlButtonÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csœ œ("
+%70System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageá
+Ñ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csœ2 œ(=,
+%71%System.Web.UI.HtmlControls.HtmlButton"__id*]*[#
+!mojoPortal.Web.AdminUI.PageLayout"4
+LeftDownBtn%System.Web.UI.HtmlControls.HtmlButton®
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csœ œ(>
+%72void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*$
+"
+%70System.Web.UI.ScriptManager*.
+,
+%71%System.Web.UI.HtmlControls.HtmlButtonÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs– –("
+%73System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageà
+Ö
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs–2 –(>,
+%74%System.Web.UI.HtmlControls.HtmlButton"__id*^*\#
+!mojoPortal.Web.AdminUI.PageLayout"5
+ContentUpBtn%System.Web.UI.HtmlControls.HtmlButton®
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs– –(?
+%75void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*$
+"
+%73System.Web.UI.ScriptManager*.
+,
+%74%System.Web.UI.HtmlControls.HtmlButtonÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs— —("
+%76System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageä
+á
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs—2 —(@,
+%77%System.Web.UI.HtmlControls.HtmlButton"__id*`*^#
+!mojoPortal.Web.AdminUI.PageLayout"7
+ContentDownBtn%System.Web.UI.HtmlControls.HtmlButton®
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs— —(A
+%78void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*$
+"
+%76System.Web.UI.ScriptManager*.
+,
+%77%System.Web.UI.HtmlControls.HtmlButtonÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs“ “("
+%79System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageÜ
+É
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs“2 “(<,
+%80%System.Web.UI.HtmlControls.HtmlButton"__id*\*Z#
+!mojoPortal.Web.AdminUI.PageLayout"3
+
+RightUpBtn%System.Web.UI.HtmlControls.HtmlButton®
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs“ “(=
+%81void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*$
+"
+%79System.Web.UI.ScriptManager*.
+,
+%80%System.Web.UI.HtmlControls.HtmlButtonÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs” ”("
+%82System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageà
+Ö
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs”2 ”(>,
+%83%System.Web.UI.HtmlControls.HtmlButton"__id*^*\#
+!mojoPortal.Web.AdminUI.PageLayout"5
+RightDownBtn%System.Web.UI.HtmlControls.HtmlButton®
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs” ”(?
+%84void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*$
+"
+%82System.Web.UI.ScriptManager*.
+,
+%83%System.Web.UI.HtmlControls.HtmlButtonÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs‘ ‘("
+%85System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageâ
+Ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs‘2 ‘(?,
+%86%System.Web.UI.HtmlControls.HtmlButton"__id*_*]#
+!mojoPortal.Web.AdminUI.PageLayout"6
+btnAlt1MoveUp%System.Web.UI.HtmlControls.HtmlButton®
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs‘ ‘(@
+%87void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*$
+"
+%85System.Web.UI.ScriptManager*.
+,
+%86%System.Web.UI.HtmlControls.HtmlButtonÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs’ ’("
+%88System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageã
+à
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs’2 ’(A,
+%89%System.Web.UI.HtmlControls.HtmlButton"__id*a*_#
+!mojoPortal.Web.AdminUI.PageLayout"8
+btnAlt1MoveDown%System.Web.UI.HtmlControls.HtmlButton®
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs’ ’(B
+%90void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*$
+"
+%88System.Web.UI.ScriptManager*.
+,
+%89%System.Web.UI.HtmlControls.HtmlButtonÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs÷ ÷("
+%91System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageâ
+Ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs÷2 ÷(?,
+%92%System.Web.UI.HtmlControls.HtmlButton"__id*_*]#
+!mojoPortal.Web.AdminUI.PageLayout"6
+btnAlt2MoveUp%System.Web.UI.HtmlControls.HtmlButton®
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs÷ ÷(@
+%93void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*$
+"
+%91System.Web.UI.ScriptManager*.
+,
+%92%System.Web.UI.HtmlControls.HtmlButtonÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs◊ ◊("
+%94System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageã
+à
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs◊2 ◊(A,
+%95%System.Web.UI.HtmlControls.HtmlButton"__id*a*_#
+!mojoPortal.Web.AdminUI.PageLayout"8
+btnAlt2MoveDown%System.Web.UI.HtmlControls.HtmlButton®
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs◊ ◊(B
+%96void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*$
+"
+%94System.Web.UI.ScriptManager*.
+,
+%95%System.Web.UI.HtmlControls.HtmlButtonÎ
+Ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÿ ÿ("
+%97System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageá
+Ñ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÿ2 ÿ(=,
+%98%System.Web.UI.HtmlControls.HtmlButton"__id*]*[#
+!mojoPortal.Web.AdminUI.PageLayout"4
+LeftEditBtn%System.Web.UI.HtmlControls.HtmlButton®
+•
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÿ ÿ(>
+%99void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*$
+"
+%97System.Web.UI.ScriptManager*.
+,
+%98%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs⁄ ⁄(#
+%100System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageí
+è
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs⁄2 ⁄(G-
+%101%System.Web.UI.HtmlControls.HtmlButton"__id*g*e#
+!mojoPortal.Web.AdminUI.PageLayout">
+ContentUpToNextButton%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs⁄ ⁄(H
+%102void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%100System.Web.UI.ScriptManager*/
+-
+%101%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs€ €(#
+%103System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageî
+ë
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs€2 €(I-
+%104%System.Web.UI.HtmlControls.HtmlButton"__id*i*g#
+!mojoPortal.Web.AdminUI.PageLayout"@
+ContentDownToNextButton%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs€ €(J
+%105void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%103System.Web.UI.ScriptManager*/
+-
+%104%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs› ›(#
+%106System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageä
+á
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs›2 ›(?-
+%107%System.Web.UI.HtmlControls.HtmlButton"__id*_*]#
+!mojoPortal.Web.AdminUI.PageLayout"6
+LeftDeleteBtn%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs› ›(@
+%108void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%106System.Web.UI.ScriptManager*/
+-
+%107%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csﬁ ﬁ(#
+%109System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageç
+ä
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csﬁ2 ﬁ(B-
+%110%System.Web.UI.HtmlControls.HtmlButton"__id*b*`#
+!mojoPortal.Web.AdminUI.PageLayout"9
+ContentDeleteBtn%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csﬁ ﬁ(C
+%111void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%109System.Web.UI.ScriptManager*/
+-
+%110%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csﬂ ﬂ(#
+%112System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageã
+à
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csﬂ2 ﬂ(@-
+%113%System.Web.UI.HtmlControls.HtmlButton"__id*`*^#
+!mojoPortal.Web.AdminUI.PageLayout"7
+RightDeleteBtn%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csﬂ ﬂ(A
+%114void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%112System.Web.UI.ScriptManager*/
+-
+%113%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs‡ ‡(#
+%115System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageä
+á
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs‡2 ‡(?-
+%116%System.Web.UI.HtmlControls.HtmlButton"__id*_*]#
+!mojoPortal.Web.AdminUI.PageLayout"6
+btnDeleteAlt1%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs‡ ‡(@
+%117void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%115System.Web.UI.ScriptManager*/
+-
+%116%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs· ·(#
+%118System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageä
+á
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs·2 ·(?-
+%119%System.Web.UI.HtmlControls.HtmlButton"__id*_*]#
+!mojoPortal.Web.AdminUI.PageLayout"6
+btnDeleteAlt2%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs· ·(@
+%120void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%118System.Web.UI.ScriptManager*/
+-
+%119%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs‚ ‚(#
+%121System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageâ
+Ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs‚2 ‚(>-
+%122%System.Web.UI.HtmlControls.HtmlButton"__id*^*\#
+!mojoPortal.Web.AdminUI.PageLayout"5
+LeftRightBtn%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs‚ ‚(?
+%123void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%121System.Web.UI.ScriptManager*/
+-
+%122%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs„ „(#
+%124System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageã
+à
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs„2 „(@-
+%125%System.Web.UI.HtmlControls.HtmlButton"__id*`*^#
+!mojoPortal.Web.AdminUI.PageLayout"7
+ContentLeftBtn%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs„ „(A
+%126void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%124System.Web.UI.ScriptManager*/
+-
+%125%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs‰ ‰(#
+%127System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageå
+â
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs‰2 ‰(A-
+%128%System.Web.UI.HtmlControls.HtmlButton"__id*a*_#
+!mojoPortal.Web.AdminUI.PageLayout"8
+ContentRightBtn%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.cs‰ ‰(B
+%129void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%127System.Web.UI.ScriptManager*/
+-
+%128%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÂ Â(#
+%130System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageâ
+Ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÂ2 Â(>-
+%131%System.Web.UI.HtmlControls.HtmlButton"__id*^*\#
+!mojoPortal.Web.AdminUI.PageLayout"5
+RightLeftBtn%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÂ Â(?
+%132void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%130System.Web.UI.ScriptManager*/
+-
+%131%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÊ Ê(#
+%133System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageê
+ç
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÊ2 Ê(E-
+%134%System.Web.UI.HtmlControls.HtmlButton"__id*e*c#
+!mojoPortal.Web.AdminUI.PageLayout"<
+btnMoveAlt1ToCenter%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÊ Ê(F
+%135void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%133System.Web.UI.ScriptManager*/
+-
+%134%System.Web.UI.HtmlControls.HtmlButtonÏ
+È
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÁ Á(#
+%136System.Web.UI.ScriptManager"0mojoPortal.Web.mojoBasePage.ScriptController.get*
+mojoPortal.Web.mojoBasePageê
+ç
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÁ2 Á(E-
+%137%System.Web.UI.HtmlControls.HtmlButton"__id*e*c#
+!mojoPortal.Web.AdminUI.PageLayout"<
+btnMoveAlt2ToCenter%System.Web.UI.HtmlControls.HtmlButton´
+®
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÁ Á(F
+%138void"OSystem.Web.UI.ScriptManager.RegisterAsyncPostBackControl(System.Web.UI.Control)*%
+#
+%136System.Web.UI.ScriptManager*/
+-
+%137%System.Web.UI.HtmlControls.HtmlButton*
+8*˝
+8o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÍ Í("Ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PageLayout.aspx.csÍ Í(
+implicit returnB%#
+!mojoPortal.Web.AdminUI.PageLayout

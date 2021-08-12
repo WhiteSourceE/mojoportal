@@ -1,0 +1,70 @@
+ÑC
+%mojoPortal.Web.mojoMembershipProvider&System.Web.Security.MembershipProvider*System.Configuration.Provider.ProviderBaseobject¦
+>CreateMembershipUserFromSiteUser(mojoPortal.Business.SiteUser)dmojoPortal.Web.mojoMembershipProvider.CreateMembershipUserFromSiteUser(mojoPortal.Business.SiteUser)¶
+FInitialize(string, System.Collections.Specialized.NameValueCollection)lmojoPortal.Web.mojoMembershipProvider.Initialize(string, System.Collections.Specialized.NameValueCollection)v
+&ChangePassword(string, string, string)LmojoPortal.Web.mojoMembershipProvider.ChangePassword(string, string, string)¨
+?ChangePasswordQuestionAndAnswer(string, string, string, string)emojoPortal.Web.mojoMembershipProvider.ChangePasswordQuestionAndAnswer(string, string, string, string)‹
+pCreateUser(string, string, string, string, string, bool, object, out System.Web.Security.MembershipCreateStatus)–mojoPortal.Web.mojoMembershipProvider.CreateUser(string, string, string, string, string, bool, object, out System.Web.Security.MembershipCreateStatus)F
+GetReturnUrl()4mojoPortal.Web.mojoMembershipProvider.GetReturnUrl()Z
+DeleteUser(string, bool)>mojoPortal.Web.mojoMembershipProvider.DeleteUser(string, bool)€
++FindUsersByEmail(string, int, int, out int)QmojoPortal.Web.mojoMembershipProvider.FindUsersByEmail(string, int, int, out int)~
+*FindUsersByName(string, int, int, out int)PmojoPortal.Web.mojoMembershipProvider.FindUsersByName(string, int, int, out int)f
+GetAllUsers(int, int, out int)DmojoPortal.Web.mojoMembershipProvider.GetAllUsers(int, int, out int)Z
+GetNumberOfUsersOnline()>mojoPortal.Web.mojoMembershipProvider.GetNumberOfUsersOnline()`
+GetPassword(string, string)AmojoPortal.Web.mojoMembershipProvider.GetPassword(string, string)t
+%PasswordAnswerIsMatch(string, string)KmojoPortal.Web.mojoMembershipProvider.PasswordAnswerIsMatch(string, string)T
+GetUser(object, bool);mojoPortal.Web.mojoMembershipProvider.GetUser(object, bool)T
+GetUser(string, bool);mojoPortal.Web.mojoMembershipProvider.GetUser(string, bool)^
+GetUserNameByEmail(string)@mojoPortal.Web.mojoMembershipProvider.GetUserNameByEmail(string)d
+ResetPassword(string, string)CmojoPortal.Web.mojoMembershipProvider.ResetPassword(string, string)N
+UnlockUser(string)8mojoPortal.Web.mojoMembershipProvider.UnlockUser(string)†
+.UpdateUser(System.Web.Security.MembershipUser)TmojoPortal.Web.mojoMembershipProvider.UpdateUser(System.Web.Security.MembershipUser)b
+ValidateUser(string, string)BmojoPortal.Web.mojoMembershipProvider.ValidateUser(string, string)”
+5GetSiteUser(mojoPortal.Business.SiteSettings, string)[mojoPortal.Web.mojoMembershipProvider.GetSiteUser(mojoPortal.Business.SiteSettings, string)¤
+=OnUserRegistered(mojoPortal.Business.UserRegisteredEventArgs)cmojoPortal.Web.mojoMembershipProvider.OnUserRegistered(mojoPortal.Business.UserRegisteredEventArgs)Ø
+WPasswordIsValid(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)}mojoPortal.Web.mojoMembershipProvider.PasswordIsValid(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)ë
+`ClearTextPasswordIsValid(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)†mojoPortal.Web.mojoMembershipProvider.ClearTextPasswordIsValid(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)ë
+`EncryptedPasswordIsValid(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)†mojoPortal.Web.mojoMembershipProvider.EncryptedPasswordIsValid(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)ñ
+cHashedSha512PasswordIsValid(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)‰mojoPortal.Web.mojoMembershipProvider.HashedSha512PasswordIsValid(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)ë
+`HashedMd5PasswordIsValid(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)†mojoPortal.Web.mojoMembershipProvider.HashedMd5PasswordIsValid(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)š
+8EncodePassword(string, mojoPortal.Business.SiteSettings)^mojoPortal.Web.mojoMembershipProvider.EncodePassword(string, mojoPortal.Business.SiteSettings)Ö
+VEncodePassword(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)|mojoPortal.Web.mojoMembershipProvider.EncodePassword(mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, string)²
+DEncodePassword(string, System.Web.Security.MembershipPasswordFormat)jmojoPortal.Web.mojoMembershipProvider.EncodePassword(string, System.Web.Security.MembershipPasswordFormat)¶
+FUnencodePassword(string, System.Web.Security.MembershipPasswordFormat)lmojoPortal.Web.mojoMembershipProvider.UnencodePassword(string, System.Web.Security.MembershipPasswordFormat)N
+GetMD5Hash(string)8mojoPortal.Web.mojoMembershipProvider.GetMD5Hash(string)T
+GetSHA512Hash(string);mojoPortal.Web.mojoMembershipProvider.GetSHA512Hash(string)°
+COnValidatingPassword(System.Web.Security.ValidatePasswordEventArgs)imojoPortal.Web.mojoMembershipProvider.OnValidatingPassword(System.Web.Security.ValidatePasswordEventArgs)¨
+?ChangeUserPasswordFormat(mojoPortal.Business.SiteSettings, int)emojoPortal.Web.mojoMembershipProvider.ChangeUserPasswordFormat(mojoPortal.Business.SiteSettings, int)ˆ
+/ChangeFromClearTextPasswordsToEncrypted(object)UmojoPortal.Web.mojoMembershipProvider.ChangeFromClearTextPasswordsToEncrypted(object)‚
+,ChangeFromClearTextPasswordsToHashed(object)RmojoPortal.Web.mojoMembershipProvider.ChangeFromClearTextPasswordsToHashed(object)ˆ
+/ChangeFromEncryptedPasswordsToClearText(object)UmojoPortal.Web.mojoMembershipProvider.ChangeFromEncryptedPasswordsToClearText(object)‚
+,ChangeFromEncryptedPasswordsToHashed(object)RmojoPortal.Web.mojoMembershipProvider.ChangeFromEncryptedPasswordsToHashed(object)‚
+,ChangeFromHashedPasswordsToClearText(object)RmojoPortal.Web.mojoMembershipProvider.ChangeFromHashedPasswordsToClearText(object)‚
+,ChangeFromHashedPasswordsToEncrypted(object)RmojoPortal.Web.mojoMembershipProvider.ChangeFromHashedPasswordsToEncrypted(object)Z
+mojoMembershipProvider()>mojoPortal.Web.mojoMembershipProvider.mojoMembershipProvider()P
+ApplicationName.get9mojoPortal.Web.mojoMembershipProvider.ApplicationName.getP
+ApplicationName.set9mojoPortal.Web.mojoMembershipProvider.ApplicationName.setH
+Description.get5mojoPortal.Web.mojoMembershipProvider.Description.getH
+Description.set5mojoPortal.Web.mojoMembershipProvider.Description.setX
+EnablePasswordReset.get=mojoPortal.Web.mojoMembershipProvider.EnablePasswordReset.getX
+EnablePasswordReset.set=mojoPortal.Web.mojoMembershipProvider.EnablePasswordReset.set`
+EnablePasswordRetrieval.getAmojoPortal.Web.mojoMembershipProvider.EnablePasswordRetrieval.get`
+EnablePasswordRetrieval.setAmojoPortal.Web.mojoMembershipProvider.EnablePasswordRetrieval.setf
+MaxInvalidPasswordAttempts.getDmojoPortal.Web.mojoMembershipProvider.MaxInvalidPasswordAttempts.getf
+MaxInvalidPasswordAttempts.setDmojoPortal.Web.mojoMembershipProvider.MaxInvalidPasswordAttempts.setz
+(MinRequiredNonAlphanumericCharacters.getNmojoPortal.Web.mojoMembershipProvider.MinRequiredNonAlphanumericCharacters.getz
+(MinRequiredNonAlphanumericCharacters.setNmojoPortal.Web.mojoMembershipProvider.MinRequiredNonAlphanumericCharacters.setd
+MinRequiredPasswordLength.getCmojoPortal.Web.mojoMembershipProvider.MinRequiredPasswordLength.getd
+MinRequiredPasswordLength.setCmojoPortal.Web.mojoMembershipProvider.MinRequiredPasswordLength.set:
+Name.get.mojoPortal.Web.mojoMembershipProvider.Name.get:
+Name.set.mojoPortal.Web.mojoMembershipProvider.Name.set\
+PasswordAttemptWindow.get?mojoPortal.Web.mojoMembershipProvider.PasswordAttemptWindow.get\
+PasswordAttemptWindow.set?mojoPortal.Web.mojoMembershipProvider.PasswordAttemptWindow.setN
+PasswordFormat.get8mojoPortal.Web.mojoMembershipProvider.PasswordFormat.getN
+PasswordFormat.set8mojoPortal.Web.mojoMembershipProvider.PasswordFormat.sett
+%PasswordStrengthRegularExpression.getKmojoPortal.Web.mojoMembershipProvider.PasswordStrengthRegularExpression.gett
+%PasswordStrengthRegularExpression.setKmojoPortal.Web.mojoMembershipProvider.PasswordStrengthRegularExpression.setd
+RequiresQuestionAndAnswer.getCmojoPortal.Web.mojoMembershipProvider.RequiresQuestionAndAnswer.getd
+RequiresQuestionAndAnswer.setCmojoPortal.Web.mojoMembershipProvider.RequiresQuestionAndAnswer.setX
+RequiresUniqueEmail.get=mojoPortal.Web.mojoMembershipProvider.RequiresUniqueEmail.getX
+RequiresUniqueEmail.set=mojoPortal.Web.mojoMembershipProvider.RequiresUniqueEmail.set

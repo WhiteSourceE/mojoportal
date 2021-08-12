@@ -1,0 +1,233 @@
+
+OmojoPortal.Web.AdminUI.ServerLog.btnDownloadLog_Click(object, System.EventArgs)n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.cs¿ ¿(!"0*Ž	
+0n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÁ Ã((ÒÏ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÁ" Á(&
+%0System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÒ
+Ï
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÁ" Á(-"
+%1System.Web.HttpServerUtility"System.Web.UI.Page.Server.get*
+
+%0System.Web.UI.Pageó
+ð
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÁ" Á(Q
+%2string",System.Web.HttpServerUtility.MapPath(string)*$
+"
+%1System.Web.HttpServerUtility*
+~/Data/currentlog.config¡
+ž
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÁ Á(Q
+downloadPathstring"__id*
+
+%2stringÌ
+É
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÃ Ã()
+
+%3bool"System.IO.File.Exists(string)*"
+System.IO.File*
+
+downloadPathstring*
+1
+2*ù
+1n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÅ Æ(r¡ž
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÅ$ Å(H
+%4System.IO.FileInfo"System.IO.FileInfoÚ
+×
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÅ( Å(:
+
+%5void"#System.IO.FileInfo.FileInfo(string)*
+
+%4System.IO.FileInfo*
+
+downloadPathstringµ
+²
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÅ Å(H
+fileInfoSystem.IO.FileInfo"__id*
+
+%4System.IO.FileInfoÒÏ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÆ Æ(
+%6System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÏ
+Ì
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÆ Æ(
+%7System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+
+%6System.Web.UI.PageÀ
+½
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÆ= Æ(L
+
+%8long"System.IO.FileInfo.Length.get* 
+
+fileInfoSystem.IO.FileInfoø
+õ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÆV Æ(r&
+%9 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoá
+Þ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÆ= Æ(s
+%10string"%long.ToString(System.IFormatProvider)*
+
+
+%8long*(
+&
+%9 System.Globalization.CultureInfoü
+ù
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÆ Æ(t
+%11void"4System.Web.HttpResponse.AppendHeader(string, string)*
+
+%7System.Web.HttpResponse*
+Content-Length*
+
+%10string*
+2*¦$
+2n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÉ Ð(ÓÐ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÉ É(
+%12System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÑ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÉ É(
+%13System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+
+%12System.Web.UI.Pageø
+õ
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÉd É(‘
+%14string"FmojoPortal.Web.Framework.DateTimeHelper.GetDateTimeStringForFileName()*+")
+'mojoPortal.Web.Framework.DateTimeHelperÈ
+Å
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÉ; É(‘
+%15string"__concat*(&
+$attachment; filename=mojoportal-log-*
+
+%14string¨
+¥
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÉ; É(š
+%16string"__concat*
+
+%15string*
+.txt€
+ý
+o
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÉ É(›
+%17void"1System.Web.HttpResponse.AddHeader(string, string)* 
+
+%13System.Web.HttpResponse*
+Content-Disposition*
+
+%16stringÓÐ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÌ Ì(
+%18System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÑ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÌ Ì(
+%19System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+
+%18System.Web.UI.Pageâ
+ß
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÌ Ì(9
+%20string"'System.Web.HttpResponse.ContentType.set* 
+
+%19System.Web.HttpResponse*
+application/txtÓÐ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÍ Í(
+%21System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÑ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÍ Í(
+%22System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+
+%21System.Web.UI.PageÎ
+Ë
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÍ Í((
+%23bool""System.Web.HttpResponse.Buffer.set* 
+
+%22System.Web.HttpResponse*
+""ÓÐ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÎ Î(
+%24System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÑ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÎ Î(
+%25System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+
+%24System.Web.UI.PageÔ
+Ñ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÎ Î(.
+%26bool"(System.Web.HttpResponse.BufferOutput.set* 
+
+%25System.Web.HttpResponse*
+""ÓÐ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÏ Ï(
+%27System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÑ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÏ Ï(
+%28System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+
+%27System.Web.UI.Pageê
+ç
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÏ Ï(4
+%29void",System.Web.HttpResponse.TransmitFile(string)* 
+
+%28System.Web.HttpResponse*
+
+downloadPathstringÓÐ
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÐ Ð(
+%30System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getÑ
+Î
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÐ Ð(
+%31System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+
+%30System.Web.UI.PageÁ
+¾
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÐ Ð(
+%32void"System.Web.HttpResponse.End()* 
+
+%31System.Web.HttpResponse*
+3*û
+3n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÑ	 Ñ(	"…
+n
+bD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerLog.aspx.csÑ Ñ(	
+implicit return:
+senderobject:
+eSystem.EventArgsB$"
+ mojoPortal.Web.AdminUI.ServerLog

@@ -1,0 +1,250 @@
+
+9mojoPortal.Web.WebConfigSettings.EnsureCustomMachineKey()v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.cs˘# ˘#(1"0*Å
+0v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.cs˚# ˝#(.¡æ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.cs˚#% ˚#(:$
+%0mojoPortal.Web.SecurityAdvisor"mojoPortal.Web.SecurityAdvisor·
+ﬁ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.cs˚#) ˚#(8
+
+%1void"0mojoPortal.Web.SecurityAdvisor.SecurityAdvisor()*&
+$
+%0mojoPortal.Web.SecurityAdvisor‹
+Ÿ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.cs˚# ˚#(:1
+securityAdvisormojoPortal.Web.SecurityAdvisor"__id*&
+$
+%0mojoPortal.Web.SecurityAdvisorÙ
+Ò
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.cs˝# ˝#(.
+
+%2bool"6mojoPortal.Web.SecurityAdvisor.UsingCustomMachineKey()*3
+1
+securityAdvisormojoPortal.Web.SecurityAdvisor*
+1
+2*˛
+1v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csò$ ò$("Ä
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.cs˝#2 ˝#(9
+""*…
+2v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csˇ#
+ Ñ$(˝
+˙
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csˇ# ˇ#(D
+%3string"5System.Web.Hosting.HostingEnvironment.MapPath(string)*)"'
+%System.Web.Hosting.HostingEnvironment*
+~/Web.config™
+ß
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csˇ#
+ ˇ#(D
+webConfigPathstring"__id*
+
+%3string±Æ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csÄ$ Ä$($
+%4System.Xml.XmlDocument"System.Xml.XmlDocumentÕ
+ 
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csÄ$ Ä$("
+
+%5void"$System.Xml.XmlDocument.XmlDocument()*
+
+%4System.Xml.XmlDocument∆
+√
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csÄ$ Ä$($#
+	xmlConfigSystem.Xml.XmlDocument"__id*
+
+%4System.Xml.XmlDocument¸˘
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csÅ$ Å$( 
+
+%6void"#System.Xml.XmlDocument.Load(string)*%
+#
+	xmlConfigSystem.Xml.XmlDocument*
+
+webConfigPathstring2Load(string)ú
+ô
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csÉ$ É$(f
+%7System.Xml.XmlNode"+System.Xml.XmlNode.SelectSingleNode(string)*%
+#
+	xmlConfigSystem.Xml.XmlDocument*1/
+-/configuration/location/system.web/machineKey¬
+ø
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csÉ$ É$(f#
+xmlMachineKeySystem.Xml.XmlNode"__id*
+
+%7System.Xml.XmlNodeÊ
+„
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csÑ$ Ñ$(
+
+%8bool""object.operator ==(object, object)*
+"
+object*%
+#
+xmlMachineKeySystem.Xml.XmlNode*
+""*
+3
+4*€
+3v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csÜ$ Ü$(Uì
+ê
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csÜ$ Ü$(V
+%9System.Xml.XmlNode"+System.Xml.XmlNode.SelectSingleNode(string)*%
+#
+	xmlConfigSystem.Xml.XmlDocument*(&
+$/configuration/system.web/machineKey¬
+ø
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csÜ$ Ü$(V#
+xmlMachineKeySystem.Xml.XmlNode"__id*
+
+%9System.Xml.XmlNode*
+4*á$
+4v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csâ$
+ ñ$(⁄
+◊
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csâ$ â$(4
+%10string")mojoPortal.Web.SiteUtils.GenerateKey(int)*"
+mojoPortal.Web.SiteUtils*2Ä´
+®
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csâ$
+ â$(4
+validationKeystring"__id*
+
+%10stringŸ
+÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csä$ ä$(3
+%11string")mojoPortal.Web.SiteUtils.GenerateKey(int)*"
+mojoPortal.Web.SiteUtils*2@´
+®
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csä$
+ ä$(3
+decryptionKeystring"__id*
+
+%11stringˇ¸
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.cså$ å$(1(
+%12!System.Xml.XmlAttributeCollection"!System.Xml.XmlNode.Attributes.get*%
+#
+xmlMachineKeySystem.Xml.XmlNode2Attributes.getÊ
+„
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.cså$ å$(B
+%13System.Xml.XmlAttribute"
+__arrayGet**
+(
+%12!System.Xml.XmlAttributeCollection*
+validationKey∆
+√
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.cså$ å$(B!
+attribSystem.Xml.XmlAttribute"__id* 
+
+%13System.Xml.XmlAttributeÄ˝
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csç$ ç$(#
+%14string"%System.Xml.XmlAttribute.InnerText.set*#
+!
+attribSystem.Xml.XmlAttribute*
+
+validationKeystring2InnerText.setˇ¸
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csè$ è$($(
+%15!System.Xml.XmlAttributeCollection"!System.Xml.XmlNode.Attributes.get*%
+#
+xmlMachineKeySystem.Xml.XmlNode2Attributes.getÊ
+„
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csè$ è$(5
+%16System.Xml.XmlAttribute"
+__arrayGet**
+(
+%15!System.Xml.XmlAttributeCollection*
+decryptionKey∆
+√
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csè$ è$(5!
+attribSystem.Xml.XmlAttribute"__id* 
+
+%16System.Xml.XmlAttributeÄ˝
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csê$ ê$(#
+%17string"%System.Xml.XmlAttribute.InnerText.set*#
+!
+attribSystem.Xml.XmlAttribute*
+
+decryptionKeystring2InnerText.set∂≥
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csì$ ì$([
+%18System.Xml.XmlTextWriter"System.Xml.XmlTextWriterî
+ë
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csì$ ì$(!
+%19void"DSystem.Xml.XmlTextWriter.XmlTextWriter(string, System.Text.Encoding)*!
+
+%18System.Xml.XmlTextWriter*
+
+webConfigPathstring*
+""ê
+ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csì$F ì$(Y
+%20"__id*
+""Ó
+Î
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csì$9 ì$(Y
+%21System.Xml.Formatting"'System.Xml.XmlTextWriter.Formatting.set*!
+
+%18System.Xml.XmlTextWriter*
+
+%20»
+≈
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csì$ ì$(["
+writerSystem.Xml.XmlTextWriter"__id*!
+
+%18System.Xml.XmlTextWriter™ß
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csî$ î$(
+%22void"4System.Xml.XmlDocument.WriteTo(System.Xml.XmlWriter)*%
+#
+	xmlConfigSystem.Xml.XmlDocument*$
+"
+writerSystem.Xml.XmlTextWriter2WriteTo(System.Xml.XmlWriter)Ÿ÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csï$ ï$(
+%23void" System.Xml.XmlTextWriter.Flush()*$
+"
+writerSystem.Xml.XmlTextWriter2Flush()Ÿ÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csñ$ ñ$(
+%24void" System.Xml.XmlTextWriter.Close()*$
+"
+writerSystem.Xml.XmlTextWriter2Close()*
+5*ã
+5v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csò$ ò$("ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WebConfigSettings.csò$ ò$(
+implicit returnB$""
+ mojoPortal.Web.WebConfigSettings

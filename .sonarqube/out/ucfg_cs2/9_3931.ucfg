@@ -1,0 +1,700 @@
+
+?mojoPortal.Web.UI.SiteLogo.Render(System.Web.UI.HtmlTextWriter)i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs% %( "0*ö
+0i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs( ((+Ã
+…
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs( ((#
+%0System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContext“
+œ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs( ((+
+
+%1bool""object.operator ==(object, object)*
+"
+object*
+
+%0System.Web.HttpContext*
+""*
+1
+2*Í
+1i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs+ +(0¬ø
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs+# +(*
+%2string"System.Web.UI.Control.ID.get*
+mojoPortal.Web.UI.SiteLogo2ID.getù
+ö
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs+ +(*
+%3string"__concat*
+[*
+
+%2stringù
+ö
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs+ +(0
+%4string"__concat*
+
+%3string*
+]ÔÏ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs+ +(1
+
+%5void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%4string2Write(string)*
+3*¿
+2i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs/ 0((ã
+à
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs/, /(P&
+%6 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper–
+Õ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs/ /(P0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%6 mojoPortal.Business.SiteSettingsÊ
+„
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs0 0((
+
+%7bool""object.operator ==(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+4
+5*ã
+5i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs0, 0(R€
+ÿ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs0A 0(R
+%8string")mojoPortal.Business.SiteSettings.Logo.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings¥
+±
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs0, 0(S
+
+%9bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+%8string*
+4
+6*„
+4i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csq	 q(	"s
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs0U 0(\
+""*™
+6i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs2 6(<ê
+ç
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs2 2(&
+urlToUsestring"__id*
+~/‡
+›
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs3$ 3(9
+%10string"-mojoPortal.Business.SiteSettings.SiteName.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsº
+π
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs3$ 3(K
+%11string"string.Replace(string, string)*
+
+%10string*
+"*
+'õ
+ò
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs3 3(K
+
+titleToUsestring"__id*
+
+%11stringﬁ
+€
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs6 6(<
+%12bool";mojoPortal.Web.WebConfigSettings.SiteLogoUseMediaFolder.get*$""
+ mojoPortal.Web.WebConfigSettings*
+7
+8*†
+7i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs8 :(9ŒÀ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs8$ 8((
+%13System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get◊
+‘
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs8$ 8(D
+%14string"(System.Web.UI.Control.ResolveUrl(string)*
+
+%13System.Web.UI.Page*
+~/Data/Sites/€
+ÿ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs9 9()
+
+%15int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsõ
+ò
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs9 9(4
+%16string"int.ToString()*
+
+
+%15int©
+¶
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs8$ 9(4
+%17string"__concat*
+
+%14string*
+
+%16string´
+®
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs8$ :(%
+%18string"__concat*
+
+%17string*
+/media/logos/‹
+Ÿ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs:( :(9
+%19string")mojoPortal.Business.SiteSettings.Logo.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings©
+¶
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs8$ :(9
+%20string"__concat*
+
+%18string*
+
+%19stringû
+õ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs8 :(9
+imageUrlToUsestring"__id*
+
+%20string*
+9*ö
+8i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs> @(3ŒÀ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs>$ >((
+%21System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get◊
+‘
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs>$ >(D
+%22string"(System.Web.UI.Control.ResolveUrl(string)*
+
+%21System.Web.UI.Page*
+~/Data/Sites/€
+ÿ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs? ?()
+
+%23int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsõ
+ò
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs? ?(4
+%24string"int.ToString()*
+
+
+%23int©
+¶
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs>$ ?(4
+%25string"__concat*
+
+%22string*
+
+%24string•
+¢
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs>$ @(
+%26string"__concat*
+
+%25string*	
+/logos/‹
+Ÿ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs@" @(3
+%27string")mojoPortal.Business.SiteSettings.Logo.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings©
+¶
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs>$ @(3
+%28string"__concat*
+
+%26string*
+
+%27stringû
+õ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs> @(3
+imageUrlToUsestring"__id*
+
+%28string*
+9*¬
+9i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csE G(:°
+û
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csE" E(O
+%29string"PmojoPortal.Web.SiteUtils.GetNavigationSiteRoot(mojoPortal.Business.SiteSettings)*"
+mojoPortal.Web.SiteUtils*2
+0
+siteSettings mojoPortal.Business.SiteSettingsô
+ñ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csE E(O
+siteRootstring"__id*
+
+%29stringÊ
+„
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csG G(/
+%30string"3mojoPortal.Business.SiteSettings.SiteFolderName.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsû
+õ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csG G(6
+
+%31int"string.Length.get*
+
+%30string*
+10
+11*ƒ
+10i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csJ J(9∞
+≠
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csJ J(9
+%32string"__concat*
+
+siteRootstring*
+/Default.aspxô
+ñ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csJ J(9
+urlToUsestring"__id*
+
+%32string*
+11*Ω
+11i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csM M(¡
+æ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csM M(
+%33bool"$mojoPortal.Web.UI.SiteLogo.UseH1.get*
+mojoPortal.Web.UI.SiteLogo*
+12
+13*⁄
+12i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csO O(?»
+≈
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csO5 O(?
+%34string")mojoPortal.Web.UI.SiteLogo.H1CssClass.get*
+mojoPortal.Web.UI.SiteLogoóî
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csO O(@
+%35void"2System.Web.UI.HtmlTextWriter.Write(string, object)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+<h1 class='{0}'>*
+
+%34string2Write(string, object)*
+13*Ê
+13i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csR R(*…
+∆
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csR R(
+%36string"*mojoPortal.Web.UI.SiteLogo.OverrideUrl.get*
+mojoPortal.Web.UI.SiteLogoû
+õ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csR R(&
+
+%37int"string.Length.get*
+
+%36string*
+14
+15*É
+14i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csT T(>Ê
+„
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csT T(3
+%38string"3mojoPortal.Business.SiteSettings.SiteFolderName.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsû
+õ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csT T(:
+
+%39int"string.Length.get*
+
+%38string*
+16
+17*è
+16i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csV V(N…
+∆
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csV1 V(<
+%40string"*mojoPortal.Web.UI.SiteLogo.OverrideUrl.get*
+mojoPortal.Web.UI.SiteLogoΩ
+∫
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csV1 V(O
+%41string"string.Replace(string, string)*
+
+%40string*
+~/*
+/Æ
+´
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csV& V(O
+%42string"__concat*
+
+siteRootstring*
+
+%41string⁄
+◊
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csV V(O
+%43string"*mojoPortal.Web.UI.SiteLogo.OverrideUrl.set*
+mojoPortal.Web.UI.SiteLogo*
+
+%42string*
+17*›
+17i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csX X(*…
+∆
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csX X(*
+%44string"*mojoPortal.Web.UI.SiteLogo.OverrideUrl.get*
+mojoPortal.Web.UI.SiteLogoô
+ñ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csX X(*
+urlToUsestring"__id*
+
+%44string*
+15*Î
+15i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs[ [(/Œ
+À
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs[ [($
+%45string"/mojoPortal.Web.UI.SiteLogo.OverrideImageUrl.get*
+mojoPortal.Web.UI.SiteLogoû
+õ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs[ [(+
+
+%46int"string.Length.get*
+
+%45string*
+18
+19*ê
+18i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs] ](DŒÀ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs]$ ]((
+%47System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.getŒ
+À
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs]4 ](D
+%48string"/mojoPortal.Web.UI.SiteLogo.OverrideImageUrl.get*
+mojoPortal.Web.UI.SiteLogo’
+“
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs]$ ](E
+%49string"(System.Web.UI.Control.ResolveUrl(string)*
+
+%47System.Web.UI.Page*
+
+%48stringû
+õ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs] ](E
+imageUrlToUsestring"__id*
+
+%49string*
+19*Ë
+19i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs` `(,À
+»
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs` `(!
+%50string",mojoPortal.Web.UI.SiteLogo.OverrideTitle.get*
+mojoPortal.Web.UI.SiteLogoû
+õ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs` `((
+
+%51int"string.Length.get*
+
+%50string*
+20
+21*·
+20i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs`. `(HÀ
+»
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs`; `(H
+%52string",mojoPortal.Web.UI.SiteLogo.OverrideTitle.get*
+mojoPortal.Web.UI.SiteLogoõ
+ò
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.cs`. `(H
+
+titleToUsestring"__id*
+
+%52string*
+21*æ
+21i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csb b(¬
+ø
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csb b(
+%53bool"%mojoPortal.Web.UI.SiteLogo.UseUrl.get*
+mojoPortal.Web.UI.SiteLogo*
+22
+23*´
+22j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd d(√ŒÀ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd. d(2
+%54System.Web.UI.Page"System.Web.UI.Control.Page.get*
+System.Web.UI.Control2Page.get⁄
+◊
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd. d(G
+%55string"(System.Web.UI.Control.ResolveUrl(string)*
+
+%54System.Web.UI.Page*
+
+urlToUsestring 
+«
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csdk d(w
+%56string"+mojoPortal.Web.UI.SiteLogo.LinkCssClass.get*
+mojoPortal.Web.UI.SiteLogoÕ
+ 
+k
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csdâ d(ñ
+%57string",mojoPortal.Web.UI.SiteLogo.ImageCssClass.get*
+mojoPortal.Web.UI.SiteLogo°
+û
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd! d(Œ
+%58string"__concat*
+""*
+
+%55string°
+û
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd! d(Œ
+%59string"__concat*
+
+%58string*
+""±
+Æ
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd! d(Œ
+%60string"__concat*
+
+%59string*
+
+
+titleToUsestring°
+û
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd! d(Œ
+%61string"__concat*
+
+%60string*
+""™
+ß
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd! d(Œ
+%62string"__concat*
+
+%61string*
+
+%56string°
+û
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd! d(Œ
+%63string"__concat*
+
+%62string*
+""™
+ß
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd! d(Œ
+%64string"__concat*
+
+%63string*
+
+%57string°
+û
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd! d(Œ
+%65string"__concat*
+
+%64string*
+""±
+Æ
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd! d(Œ
+%66string"__concat*
+
+%65string*
+
+
+titleToUsestring°
+û
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd! d(Œ
+%67string"__concat*
+
+%66string*
+""¥
+±
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd! d(Œ
+%68string"__concat*
+
+%67string*
+
+imageUrlToUsestring°
+û
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd! d(Œ
+%69string"__concat*
+
+%68string*
+""ÚÔ
+j
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csd d(œ
+%70void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%69string2Write(string)*
+24*¨
+23i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csh h(kÀ
+»
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csh1 h(>
+%71string",mojoPortal.Web.UI.SiteLogo.ImageCssClass.get*
+mojoPortal.Web.UI.SiteLogo†
+ù
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csh! h(r
+%72string"__concat*
+""*
+
+%71string†
+ù
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csh! h(r
+%73string"__concat*
+
+%72string*
+""∞
+≠
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csh! h(r
+%74string"__concat*
+
+%73string*
+
+
+titleToUsestring†
+ù
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csh! h(r
+%75string"__concat*
+
+%74string*
+""≥
+∞
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csh! h(r
+%76string"__concat*
+
+%75string*
+
+imageUrlToUsestring†
+ù
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csh! h(r
+%77string"__concat*
+
+%76string*
+""ÒÓ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csh h(s
+%78void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*
+
+%77string2Write(string)*
+24*º
+24i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csk k(¡
+æ
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csk k(
+%79bool"$mojoPortal.Web.UI.SiteLogo.UseH1.get*
+mojoPortal.Web.UI.SiteLogo*
+25
+3*‚
+25i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csm m((ÎË
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csm m()
+%80void"*System.Web.UI.HtmlTextWriter.Write(string)*(
+&
+writerSystem.Web.UI.HtmlTextWriter*	
+</h1>2Write(string)*
+3*Ò
+3i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csq	 q(	"Ä
+i
+_D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\SiteLogo.csq q(	
+implicit return:&
+writerSystem.Web.UI.HtmlTextWriterB
+mojoPortal.Web.UI.SiteLogo

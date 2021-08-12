@@ -1,0 +1,3029 @@
+
+0mojoPortal.Web.Services.SiteMapJson.HandleMove()q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csO O("0*¡
+0q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csQ S(&–Õ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csQ Q(3.
+%0(mojoPortal.Web.Services.PageActionResult"(mojoPortal.Web.Services.PageActionResultÒ
+Ó
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csQ! Q(1
+
+%1void";mojoPortal.Web.Services.PageActionResult.PageActionResult()*0
+.
+%0(mojoPortal.Web.Services.PageActionResult‚
+ﬂ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csQ Q(32
+result(mojoPortal.Web.Services.PageActionResult"__id*0
+.
+%0(mojoPortal.Web.Services.PageActionResultË
+Â
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csS S(
+%2System.Web.HttpContext"__id*L*J%
+#mojoPortal.Web.Services.SiteMapJson"!
+contextSystem.Web.HttpContextÿ
+’
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csS S(
+%3System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%2System.Web.HttpContextŒ
+À
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csS S(&
+
+%4bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%3System.Web.HttpRequest*
+1
+2*‚
+1q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csU X(<ˆ
+Û
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csU U(
+
+%5bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""€
+ÿ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csV V(8
+%6string"1Resources.PageManagerResources.InvalidRequest.get*"" 
+Resources.PageManagerResourcesÄ
+˝
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csV V(8
+%7string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+
+%6string«
+ƒ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csW W("
+
+%8void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResult–
+Õ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csX X(
+%9log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILogıÚ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csX X(=
+%10void"log4net.ILog.Info(object)*
+
+%9log4net.ILog*1/
+-rejected page move request for anonymous user2Info(object)"{
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csY Y(
+""*Û
+2q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs] a(/ò
+ï
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs] ](
+movedNodeIdint"__id*
+""ô
+ñ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs^ ^(
+targetNodeIdint"__id*
+""™
+ß
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs_ _(!
+%11string"__id**
+string"
+Emptystring°
+û
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs_
+ _(!
+positionstring"__id*
+
+%11stringÈ
+Ê
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csa a(
+%12System.Web.HttpContext"__id*L*J%
+#mojoPortal.Web.Services.SiteMapJson"!
+contextSystem.Web.HttpContext⁄
+◊
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csa a(
+%13System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%12System.Web.HttpContextÛ
+
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csa a(9
+%142System.Collections.Specialized.NameValueCollection"System.Web.HttpRequest.Form.get*
+
+%13System.Web.HttpRequest‹
+Ÿ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csa a('
+%15string"
+__arrayGet*;
+9
+%142System.Collections.Specialized.NameValueCollection*
+
+positionÃ
+…
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csa a(/
+%16bool""string.operator !=(string, string)*
+"
+string*
+
+%15string*
+""*
+3
+4*Ω	
+3q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csa3 a(]È
+Ê
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csa> a(E
+%17System.Web.HttpContext"__id*L*J%
+#mojoPortal.Web.Services.SiteMapJson"!
+contextSystem.Web.HttpContext⁄
+◊
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csa> a(M
+%18System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%17System.Web.HttpContextÛ
+
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csa> a(R9
+%192System.Collections.Specialized.NameValueCollection"System.Web.HttpRequest.Form.get*
+
+%18System.Web.HttpRequest‹
+Ÿ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csa> a(^
+%20string"
+__arrayGet*;
+9
+%192System.Collections.Specialized.NameValueCollection*
+
+position°
+û
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csa3 a(^
+positionstring"__id*
+
+%20string*
+4*Ï	
+4q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csb b(0È
+Ê
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csb b(
+%21System.Web.HttpContext"__id*L*J%
+#mojoPortal.Web.Services.SiteMapJson"!
+contextSystem.Web.HttpContext⁄
+◊
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csb b(
+%22System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%21System.Web.HttpContextÛ
+
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csb b(9
+%232System.Collections.Specialized.NameValueCollection"System.Web.HttpRequest.Form.get*
+
+%22System.Web.HttpRequest›
+⁄
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csb b((
+%24string"
+__arrayGet*;
+9
+%232System.Collections.Specialized.NameValueCollection*
+	movedNodeÃ
+…
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csb b(0
+%25bool""string.operator !=(string, string)*
+"
+string*
+
+%24string*
+""*
+5
+6*Ô	
+5q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csd d(CÈ
+Ê
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csd d(
+%26System.Web.HttpContext"__id*L*J%
+#mojoPortal.Web.Services.SiteMapJson"!
+contextSystem.Web.HttpContext⁄
+◊
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csd d( 
+%27System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%26System.Web.HttpContextÛ
+
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csd d(%9
+%282System.Collections.Specialized.NameValueCollection"System.Web.HttpRequest.Form.get*
+
+%27System.Web.HttpRequest›
+⁄
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csd d(2
+%29string"
+__arrayGet*;
+9
+%282System.Collections.Specialized.NameValueCollection*
+	movedNode“
+œ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csd d(D
+%30bool"int.TryParse(string, out int)*"
+int*
+
+%29string*
+
+movedNodeIdint*
+6*Ì	
+6q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csf f(1È
+Ê
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csf f(
+%31System.Web.HttpContext"__id*L*J%
+#mojoPortal.Web.Services.SiteMapJson"!
+contextSystem.Web.HttpContext⁄
+◊
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csf f(
+%32System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%31System.Web.HttpContextÛ
+
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csf f(9
+%332System.Collections.Specialized.NameValueCollection"System.Web.HttpRequest.Form.get*
+
+%32System.Web.HttpRequestﬁ
+€
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csf f()
+%34string"
+__arrayGet*;
+9
+%332System.Collections.Specialized.NameValueCollection*
+
+targetNodeÃ
+…
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csf f(1
+%35bool""string.operator !=(string, string)*
+"
+string*
+
+%34string*
+""*
+7
+8*Ò	
+7q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csh h(EÈ
+Ê
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csh h(
+%36System.Web.HttpContext"__id*L*J%
+#mojoPortal.Web.Services.SiteMapJson"!
+contextSystem.Web.HttpContext⁄
+◊
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csh h( 
+%37System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%36System.Web.HttpContextÛ
+
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csh h(%9
+%382System.Collections.Specialized.NameValueCollection"System.Web.HttpRequest.Form.get*
+
+%37System.Web.HttpRequestﬁ
+€
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csh h(3
+%39string"
+__arrayGet*;
+9
+%382System.Collections.Specialized.NameValueCollection*
+
+targetNode”
+–
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csh h(F
+%40bool"int.TryParse(string, out int)*"
+int*
+
+%39string*
+
+targetNodeIdint*
+8*
+8q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cst t(*
+9
+10*Ä
+10q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cst t(.*
+9
+11*∆
+11q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cst2 t(O√
+¿
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cst2 t(P
+%41bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+positionstring*
+9
+12*á
+9q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csv y(d˜
+Ù
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csv v(
+%42bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""‹
+Ÿ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csw w(8
+%43string"1Resources.PageManagerResources.InvalidRequest.get*"" 
+Resources.PageManagerResourcesÇ
+ˇ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csw w(8
+%44string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+
+%43string»
+≈
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csx x("
+%45void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResult—
+Œ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csy y(
+%46log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILog—
+Œ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csyU y(d
+%47string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestringÈ
+Ê
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csy y(d
+%48string"__concat*GE
+Crejected page move request due to invalid page parameters for user *
+
+%47string‘—
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csy y(e
+%49void"log4net.ILog.Info(object)*
+
+%46log4net.ILog*
+
+%48string2Info(object)"{
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csz z(
+""*Î
+12r
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs} Ç(Á
+‰
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs} }(
+%50void"9mojoPortal.Web.Services.SiteMapJson.LoadSiteMapSettings()*'%
+#mojoPortal.Web.Services.SiteMapJsonÍ
+Á
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs? (G
+%51System.Web.SiteMapNode"__id*M*K%
+#mojoPortal.Web.Services.SiteMapJson""
+rootNodeSystem.Web.SiteMapNodeø
+º
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs (U%
+%52mojoPortal.Web.mojoSiteMapNode"KmojoPortal.Web.SiteUtils.GetSiteMapNodeForPage(System.Web.SiteMapNode, int)*"
+mojoPortal.Web.SiteUtils*
+
+%51System.Web.SiteMapNode*
+
+movedNodeIdint“
+œ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs (U+
+	movedNodemojoPortal.Web.mojoSiteMapNode"__id*'
+%
+%52mojoPortal.Web.mojoSiteMapNodeÏ
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÄ@ Ä(H
+%53System.Web.SiteMapNode"__id*M*K%
+#mojoPortal.Web.Services.SiteMapJson""
+rootNodeSystem.Web.SiteMapNode¬
+ø
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÄ  Ä(W%
+%54mojoPortal.Web.mojoSiteMapNode"KmojoPortal.Web.SiteUtils.GetSiteMapNodeForPage(System.Web.SiteMapNode, int)*"
+mojoPortal.Web.SiteUtils*
+
+%53System.Web.SiteMapNode*
+
+targetNodeIdint’
+“
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÄ Ä(W,
+
+targetNodemojoPortal.Web.mojoSiteMapNode"__id*'
+%
+%54mojoPortal.Web.mojoSiteMapNodeÏ
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÇ Ç(
+%55bool""object.operator ==(object, object)*
+"
+object*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode*
+""*
+13
+14*Û
+14s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÇ Ç(.Ì
+Í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÇ Ç(.
+%56bool""object.operator ==(object, object)*
+"
+object*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode*
+""*
+13
+15*Ö
+13s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÑ á(L˘
+ˆ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÑ Ñ(
+%57bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""ﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÖ Ö(8
+%58string"1Resources.PageManagerResources.InvalidRequest.get*"" 
+Resources.PageManagerResourcesÑ
+Å
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÖ Ö(8
+%59string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+
+%58string 
+«
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÜ Ü("
+%60void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResult”
+–
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csá á(
+%61log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILog”
+–
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csá= á(L
+%62string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestring“
+œ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csá á(L
+%63string"__concat*.,
+*movedNode or targetNode was null for user *
+
+%62stringÿ’
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csá á(M
+%64void"log4net.ILog.Error(object)*
+
+%61log4net.ILog*
+
+%63string2Error(object)"}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csà à(
+""*ì
+15s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csê ê(ç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csê ê(
+%65"__id*
+""*
+16
+17*ì
+16s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csê ê( ç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csê ê( 
+%66"__id*
+""*
+18
+17*ì
+18s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csê$ ê(1ç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csê% ê(1
+%67"__id*
+""*
+19
+17*È
+19s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csë ë(-‰
+·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csë ë(-
+%68string",mojoPortal.Web.mojoSiteMapNode.EditRoles.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csë ë(.
+%69bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%68string*
+20
+17*œ
+20s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csî ú(˘
+ˆ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csî î(
+%70bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""˛
+˚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csñ ñ(!'
+%71 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoË
+Â
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csó ó(2
+%72string";Resources.PageManagerResources.MovePageNotAllowedFormat.get*"" 
+Resources.PageManagerResources„‡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csò ò(
+%73string" System.Web.SiteMapNode.Title.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode2	Title.getó
+î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csï ò(
+%74string"5string.Format(System.IFormatProvider, string, object)*
+"
+string*)
+'
+%71 System.Globalization.CultureInfo*
+
+%72string*
+
+%73stringÑ
+Å
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csï ò(
+%75string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+
+%74string 
+«
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csö ö("
+%76void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResultç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csú ú(
+%77"__id*
+""*
+21
+22*˙
+21s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csû •((”
+–
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csû û(
+%78log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILog˛
+˚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs† †(!'
+%79 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÎ
+Ë
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs° °(5
+%80string">Resources.PageManagerResources.MoveNodeRequestDeniedFormat.get*"" 
+Resources.PageManagerResources”
+–
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¢ ¢(
+%81string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestring„‡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs£ £(
+%82string" System.Web.SiteMapNode.Title.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode2	Title.getﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs£ £(&
+
+%83int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode‰·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs• •(
+%84string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.getﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs• •((
+
+%85int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNodeÙ
+Ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csü ¶(
+%86string">string.Format(System.IFormatProvider, string, params object[])*
+"
+string*)
+'
+%79 System.Globalization.CultureInfo*
+
+%80string*
+
+%81string*
+
+%82string*
+
+
+%83int*
+
+positionstring*
+
+%84string*
+
+
+%85int÷”
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csû ß(
+%87void"log4net.ILog.Info(object)*
+
+%78log4net.ILog*
+
+%86string2Info(object)*
+22*¯
+22s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´("}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´(
+""*æ
+17s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÆ ¥(º
+π
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÆ Æ(,4
+selectedParentNodemojoPortal.Web.mojoSiteMapNode"__id*
+""*
+23*É
+23s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¥
+ ¥(*
+24
+25*ì
+24s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csª ª(ç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csª ª(
+%88"__id*
+""*
+26
+27*ì
+26s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csª ª("ç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csª ª("
+%89"__id*
+""*
+28
+27*ì
+28s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csª& ª(3ç
+ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csª' ª(3
+%90"__id*
+""*
+29
+27*ı
+29s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csº º(>
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csº º(>
+%91string"7mojoPortal.Web.mojoSiteMapNode.CreateChildPageRoles.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csº º(?
+%92bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%91string*
+30
+27*ÿ
+30s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csø «(˘
+ˆ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csø ø(
+%93bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""˛
+˚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¡ ¡(#'
+%94 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÔ
+Ï
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¬ ¬(;
+%95string"BResources.PageManagerResources.MoveToNewParentNotAllowedFormat.get*"" 
+Resources.PageManagerResources‰·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs√ √(
+%96string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.getó
+î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¿ √(
+%97string"5string.Format(System.IFormatProvider, string, object)*
+"
+string*)
+'
+%94 System.Globalization.CultureInfo*
+
+%95string*
+
+%96stringÑ
+Å
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¿ √(
+%98string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+
+%97string 
+«
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs≈ ≈($
+%99void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResulté
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs«
+ «(
+%100"__id*
+""*
+31
+32*ç
+31s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs… –(*‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs… …(
+
+%101log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILogˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÀ À(#(
+%102 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÏ
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÃ Ã(7
+%103string">Resources.PageManagerResources.MoveNodeRequestDeniedFormat.get*"" 
+Resources.PageManagerResources‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÕ Õ(
+%104string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestring‰·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csŒ Œ(
+%105string" System.Web.SiteMapNode.Title.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode2	Title.getﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csŒ Œ((
+%106int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeÂ‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs– –(
+%107string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.get‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs– –(*
+%108int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs  —(
+%109string">string.Format(System.IFormatProvider, string, params object[])*
+"
+string**
+(
+%102 System.Globalization.CultureInfo*
+
+%103string*
+
+%104string*
+
+%105string*
+
+%106int*
+
+positionstring*
+
+%107string*
+
+%108intŸ÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs… “(
+%110void"log4net.ILog.Info(object)*
+
+%101log4net.ILog*
+
+%109string2Info(object)*
+32*¯
+32s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´("}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs÷ ÷(
+""*ﬁ/
+27s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs⁄ Ï(Ö
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs⁄" ⁄(.(
+%111 mojoPortal.Business.SiteSettings"__id*[*Y%
+#mojoPortal.Web.Services.SiteMapJson"0
+siteSettings mojoPortal.Business.SiteSettingsﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs⁄" ⁄(5
+%112int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+%111 mojoPortal.Business.SiteSettingsﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs⁄7 ⁄(G
+%113int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeƒ¡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs⁄ ⁄(H(
+%114 mojoPortal.Business.PageSettings" mojoPortal.Business.PageSettingsâ
+Ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs⁄ ⁄(!
+%115void"7mojoPortal.Business.PageSettings.PageSettings(int, int)**
+(
+%114 mojoPortal.Business.PageSettings*
+
+%112int*
+
+%113intŸ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs⁄ ⁄(H-
+	movedPage mojoPortal.Business.PageSettings"__id**
+(
+%114 mojoPortal.Business.PageSettingsÖ
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€# €(/(
+%116 mojoPortal.Business.SiteSettings"__id*[*Y%
+#mojoPortal.Web.Services.SiteMapJson"0
+siteSettings mojoPortal.Business.SiteSettingsﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€# €(6
+%117int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+%116 mojoPortal.Business.SiteSettings‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€8 €(I
+%118int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNodeƒ¡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€ €(J(
+%119 mojoPortal.Business.PageSettings" mojoPortal.Business.PageSettingsâ
+Ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€ €("
+%120void"7mojoPortal.Business.PageSettings.PageSettings(int, int)**
+(
+%119 mojoPortal.Business.PageSettings*
+
+%117int*
+
+%118int⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€ €(J.
+
+targetPage mojoPortal.Business.PageSettings"__id**
+(
+%119 mojoPortal.Business.PageSettings‰
+·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs› ›(+
+%121int"+mojoPortal.Business.PageSettings.PageId.get*0
+.
+
+targetPage mojoPortal.Business.PageSettingsÙ
+Ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs› ›(+
+%122int"-mojoPortal.Business.PageSettings.ParentId.set*/
+-
+	movedPage mojoPortal.Business.PageSettings*
+
+%121intÓ
+Î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csﬁ ﬁ(/
+%123System.Guid"-mojoPortal.Business.PageSettings.PageGuid.get*0
+.
+
+targetPage mojoPortal.Business.PageSettingsÜ
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csﬁ ﬁ(/
+%124System.Guid"/mojoPortal.Business.PageSettings.ParentGuid.set*/
+-
+	movedPage mojoPortal.Business.PageSettings*
+
+%123System.GuidÍ
+Á
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csﬂ ﬂ(
+%125int".mojoPortal.Business.PageSettings.PageOrder.set*/
+-
+	movedPage mojoPortal.Business.PageSettings*2 ‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‚ ‚(
+%126bool"'mojoPortal.Business.PageSettings.Save()*/
+-
+	movedPage mojoPortal.Business.PageSettingsÂ
+‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‰ ‰((
+%127int"-mojoPortal.Business.PageSettings.ParentId.get*/
+-
+	movedPage mojoPortal.Business.PageSettings˘
+ˆ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‰ ‰()
+%128void"9mojoPortal.Web.Services.SiteMapJson.ResortChildPages(int)*'%
+#mojoPortal.Web.Services.SiteMapJson*
+
+%127intˆ
+Û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÂ Â($
+%129void">mojoPortal.Business.WebHelpers.CacheHelper.ResetSiteMapCache()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÁ Á(
+%130bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""Å
+˛
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csË Ë(
+%131string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*	
+SuccessÀ
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÍ Í(#
+%132void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResulté
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÏ	 Ï(
+%133"__id*
+""*
+33
+34*ä
+33s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÓ ı()‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÓ Ó(	
+%134log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILogˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs ("(
+%135 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÈ
+Ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÒ Ò(3
+%136string";Resources.PageManagerResources.MoveNodeRequestLogFormat.get*"" 
+Resources.PageManagerResources‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÚ Ú(
+%137string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestring‰·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÛ Û(
+%138string" System.Web.SiteMapNode.Title.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode2	Title.getﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÛ Û('
+%139int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeÂ‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csı ı(
+%140string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.get‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csı ı()
+%141int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÔ ˆ(
+%142string">string.Format(System.IFormatProvider, string, params object[])*
+"
+string**
+(
+%135 System.Globalization.CultureInfo*
+
+%136string*
+
+%137string*
+
+%138string*
+
+%139int*
+
+positionstring*
+
+%140string*
+
+%141intŸ÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÓ ˜(
+%143void"log4net.ILog.Info(object)*
+
+%134log4net.ILog*
+
+%142string2Info(object)*
+34*¯
+34s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´("}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs˚ ˚(
+""*É
+25s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¥
+ ¥(*
+35
+36*Ã
+35s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÅ	 Å(2‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÅ	 Å(
+%144int"+mojoPortal.Web.mojoSiteMapNode.ParentId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode·
+ﬁ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÅ  Å(2
+%145int"+mojoPortal.Web.mojoSiteMapNode.ParentId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode*
+37
+38*Ë
+37s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÉ
+ É(#‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÉ
+ É(
+%146int"+mojoPortal.Web.mojoSiteMapNode.ParentId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode*
+39
+40*î
+39s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÜ Ü(é
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÜ Ü(
+%147"__id*
+""*
+41
+42*î
+41s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÜ Ü('é
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÜ Ü('
+%148"__id*
+""*
+43
+42*î
+43s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÜ+ Ü(8é
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÜ, Ü(8
+%149"__id*
+""*
+44
+42*Ö
+44s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csá á(FÖ
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csá á(*(
+%150 mojoPortal.Business.SiteSettings"__id*[*Y%
+#mojoPortal.Web.Services.SiteMapJson"0
+siteSettings mojoPortal.Business.SiteSettingsˆ
+Û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csá á(F
+%151string"@mojoPortal.Business.SiteSettings.RolesThatCanCreateRootPages.get**
+(
+%150 mojoPortal.Business.SiteSettings˛
+˚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csá á(G
+%152bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%151string*
+45
+42*–
+
+45s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csä è(˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csä ä(
+%153bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""Â
+‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csã ã(B
+%154string"7Resources.PageManagerResources.MoveToRootNotAllowed.get*"" 
+Resources.PageManagerResourcesÜ
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csã ã(B
+%155string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+
+%154stringÀ
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csç ç(&
+%156void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResulté
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csè è(
+%157"__id*
+""*
+46
+47*ç
+46s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csë	 ò(,‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csë	 ë(
+%158log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILogˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csì	 ì(%(
+%159 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÏ
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csî	 î(9
+%160string">Resources.PageManagerResources.MoveNodeRequestDeniedFormat.get*"" 
+Resources.PageManagerResources‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csï	 ï(
+%161string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestring‰·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csñ	 ñ(
+%162string" System.Web.SiteMapNode.Title.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode2	Title.getﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csñ ñ(*
+%163int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeÂ‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csò	 ò(
+%164string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.get‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csò ò(,
+%165int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csí	 ô(
+
+%166string">string.Format(System.IFormatProvider, string, params object[])*
+"
+string**
+(
+%159 System.Globalization.CultureInfo*
+
+%160string*
+
+%161string*
+
+%162string*
+
+%163int*
+
+positionstring*
+
+%164string*
+
+%165intŸ÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csë	 ö(
+
+%167void"log4net.ILog.Info(object)*
+
+%158log4net.ILog*
+
+%166string2Info(object)*
+47*¯
+47s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´("}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csù ù(
+""*â
+
+40s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs§ ¶(Ì
+Í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs§< §(D
+%168System.Web.SiteMapNode"__id*M*K%
+#mojoPortal.Web.Services.SiteMapJson""
+rootNodeSystem.Web.SiteMapNode‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs§F §(Y
+%169int"+mojoPortal.Web.mojoSiteMapNode.ParentId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNodeº
+π
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs§ §(Z&
+%170mojoPortal.Web.mojoSiteMapNode"KmojoPortal.Web.SiteUtils.GetSiteMapNodeForPage(System.Web.SiteMapNode, int)*"
+mojoPortal.Web.SiteUtils* 
+
+%168System.Web.SiteMapNode*
+
+%169intﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs§ §(Z4
+selectedParentNodemojoPortal.Web.mojoSiteMapNode"__id*(
+&
+%170mojoPortal.Web.mojoSiteMapNodeé
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¶
+ ¶(
+%171"__id*
+""*
+48
+42*î
+48s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¶ ¶($é
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¶ ¶($
+%172"__id*
+""*
+49
+42*î
+49s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¶( ¶(5é
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¶) ¶(5
+%173"__id*
+""*
+50
+42*Ä
+50s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csß ß(F˘
+ˆ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csß ß(F
+%174string"7mojoPortal.Web.mojoSiteMapNode.CreateChildPageRoles.get*6
+4
+selectedParentNodemojoPortal.Web.mojoSiteMapNode˛
+˚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csß ß(G
+%175bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%174string*
+51
+42*„
+51s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs™ ≤(˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs™ ™(
+%176bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""ˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¨	 ¨(%(
+%177 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs≠	 ≠(=
+%178string"BResources.PageManagerResources.MoveToNewParentNotAllowedFormat.get*"" 
+Resources.PageManagerResourcesÂ‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÆ	 Æ(
+%179string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.getõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ Æ(
+%180string"5string.Format(System.IFormatProvider, string, object)*
+"
+string**
+(
+%177 System.Globalization.CultureInfo*
+
+%178string*
+
+%179stringÜ
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ Æ(
+%181string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+
+%180stringÀ
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∞ ∞(&
+%182void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResulté
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs≤ ≤(
+%183"__id*
+""*
+52
+53*ç
+52s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¥	 ª(,‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¥	 ¥(
+%184log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILogˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∂	 ∂(%(
+%185 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÏ
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∑	 ∑(9
+%186string">Resources.PageManagerResources.MoveNodeRequestDeniedFormat.get*"" 
+Resources.PageManagerResources‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∏	 ∏(
+%187string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestring‰·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csπ	 π(
+%188string" System.Web.SiteMapNode.Title.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode2	Title.getﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csπ π(*
+%189int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeÂ‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csª	 ª(
+%190string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.get‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csª ª(,
+%191int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csµ	 º(
+
+%192string">string.Format(System.IFormatProvider, string, params object[])*
+"
+string**
+(
+%185 System.Globalization.CultureInfo*
+
+%186string*
+
+%187string*
+
+%188string*
+
+%189int*
+
+positionstring*
+
+%190string*
+
+%191intŸ÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¥	 Ω(
+
+%193void"log4net.ILog.Info(object)*
+
+%184log4net.ILog*
+
+%192string2Info(object)*
+53*¯
+53s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´("}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¡ ¡(
+""*Õ1
+42s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs≈ ◊(Ö
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs≈# ≈(/(
+%194 mojoPortal.Business.SiteSettings"__id*[*Y%
+#mojoPortal.Web.Services.SiteMapJson"0
+siteSettings mojoPortal.Business.SiteSettingsﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs≈# ≈(6
+%195int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+%194 mojoPortal.Business.SiteSettingsﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs≈8 ≈(H
+%196int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeƒ¡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs≈ ≈(I(
+%197 mojoPortal.Business.PageSettings" mojoPortal.Business.PageSettingsâ
+Ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs≈ ≈("
+%198void"7mojoPortal.Business.PageSettings.PageSettings(int, int)**
+(
+%197 mojoPortal.Business.PageSettings*
+
+%195int*
+
+%196intŸ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs≈ ≈(I-
+	movedPage mojoPortal.Business.PageSettings"__id**
+(
+%197 mojoPortal.Business.PageSettingsÖ
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∆$ ∆(0(
+%199 mojoPortal.Business.SiteSettings"__id*[*Y%
+#mojoPortal.Web.Services.SiteMapJson"0
+siteSettings mojoPortal.Business.SiteSettingsﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∆$ ∆(7
+%200int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+%199 mojoPortal.Business.SiteSettings‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∆9 ∆(J
+%201int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNodeƒ¡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∆ ∆(K(
+%202 mojoPortal.Business.PageSettings" mojoPortal.Business.PageSettingsâ
+Ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∆ ∆(#
+%203void"7mojoPortal.Business.PageSettings.PageSettings(int, int)**
+(
+%202 mojoPortal.Business.PageSettings*
+
+%200int*
+
+%201int⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∆ ∆(K.
+
+targetPage mojoPortal.Business.PageSettings"__id**
+(
+%202 mojoPortal.Business.PageSettingsÊ
+„
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs» »(.
+%204int"-mojoPortal.Business.PageSettings.ParentId.get*0
+.
+
+targetPage mojoPortal.Business.PageSettingsÙ
+Ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs» »(.
+%205int"-mojoPortal.Business.PageSettings.ParentId.set*/
+-
+	movedPage mojoPortal.Business.PageSettings*
+
+%204int
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs… …(2
+%206System.Guid"/mojoPortal.Business.PageSettings.ParentGuid.get*0
+.
+
+targetPage mojoPortal.Business.PageSettingsÜ
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs… …(2
+%207System.Guid"/mojoPortal.Business.PageSettings.ParentGuid.set*/
+-
+	movedPage mojoPortal.Business.PageSettings*
+
+%206System.GuidÁ
+‰
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÃ Ã(0
+%208int".mojoPortal.Business.PageSettings.PageOrder.get*0
+.
+
+targetPage mojoPortal.Business.PageSettingsÓ
+Î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÃ Ã(4
+%209int".mojoPortal.Business.PageSettings.PageOrder.set*/
+-
+	movedPage mojoPortal.Business.PageSettings*
+""‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÕ Õ(
+%210bool"'mojoPortal.Business.PageSettings.Save()*/
+-
+	movedPage mojoPortal.Business.PageSettings‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csœ œ(*
+%211int"+mojoPortal.Web.mojoSiteMapNode.ParentId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode˘
+ˆ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csœ œ(+
+%212void"9mojoPortal.Web.Services.SiteMapJson.ResortChildPages(int)*'%
+#mojoPortal.Web.Services.SiteMapJson*
+
+%211intˆ
+Û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs– –(%
+%213void">mojoPortal.Business.WebHelpers.CacheHelper.ResetSiteMapCache()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs“ “(
+%214bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""Å
+˛
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs” ”( 
+%215string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*	
+SuccessÀ
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs’ ’($
+%216void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResulté
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs◊
+ ◊(
+%217"__id*
+""*
+54
+55*ä
+54s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csŸ ‡(*‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csŸ Ÿ(
+
+%218log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILogˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€ €(#(
+%219 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÈ
+Ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‹ ‹(4
+%220string";Resources.PageManagerResources.MoveNodeRequestLogFormat.get*"" 
+Resources.PageManagerResources‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs› ›(
+%221string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestring‰·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csﬁ ﬁ(
+%222string" System.Web.SiteMapNode.Title.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode2	Title.getﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csﬁ ﬁ((
+%223int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeÂ‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‡ ‡(
+%224string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.get‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‡ ‡(*
+%225int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs⁄ ·(
+%226string">string.Format(System.IFormatProvider, string, params object[])*
+"
+string**
+(
+%219 System.Globalization.CultureInfo*
+
+%220string*
+
+%221string*
+
+%222string*
+
+%223int*
+
+positionstring*
+
+%224string*
+
+%225intŸ÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csŸ ‚(
+%227void"log4net.ILog.Info(object)*
+
+%218log4net.ILog*
+
+%226string2Info(object)*
+55*¯
+55s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´("}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÂ Â(
+""*Ò)
+38s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÏ ˚(Ö
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÏ# Ï(/(
+%228 mojoPortal.Business.SiteSettings"__id*[*Y%
+#mojoPortal.Web.Services.SiteMapJson"0
+siteSettings mojoPortal.Business.SiteSettingsﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÏ# Ï(6
+%229int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+%228 mojoPortal.Business.SiteSettingsﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÏ8 Ï(H
+%230int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeƒ¡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÏ Ï(I(
+%231 mojoPortal.Business.PageSettings" mojoPortal.Business.PageSettingsâ
+Ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÏ Ï("
+%232void"7mojoPortal.Business.PageSettings.PageSettings(int, int)**
+(
+%231 mojoPortal.Business.PageSettings*
+
+%229int*
+
+%230intŸ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÏ Ï(I-
+	movedPage mojoPortal.Business.PageSettings"__id**
+(
+%231 mojoPortal.Business.PageSettingsÖ
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÌ$ Ì(0(
+%233 mojoPortal.Business.SiteSettings"__id*[*Y%
+#mojoPortal.Web.Services.SiteMapJson"0
+siteSettings mojoPortal.Business.SiteSettingsﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÌ$ Ì(7
+%234int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+%233 mojoPortal.Business.SiteSettings‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÌ9 Ì(J
+%235int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNodeƒ¡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÌ Ì(K(
+%236 mojoPortal.Business.PageSettings" mojoPortal.Business.PageSettingsâ
+Ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÌ Ì(#
+%237void"7mojoPortal.Business.PageSettings.PageSettings(int, int)**
+(
+%236 mojoPortal.Business.PageSettings*
+
+%234int*
+
+%235int⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÌ Ì(K.
+
+targetPage mojoPortal.Business.PageSettings"__id**
+(
+%236 mojoPortal.Business.PageSettingsÁ
+‰
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs (0
+%238int".mojoPortal.Business.PageSettings.PageOrder.get*0
+.
+
+targetPage mojoPortal.Business.PageSettingsÓ
+Î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs (4
+%239int".mojoPortal.Business.PageSettings.PageOrder.set*/
+-
+	movedPage mojoPortal.Business.PageSettings*
+""‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÒ Ò(
+%240bool"'mojoPortal.Business.PageSettings.Save()*/
+-
+	movedPage mojoPortal.Business.PageSettings‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÛ Û(*
+%241int"+mojoPortal.Web.mojoSiteMapNode.ParentId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode˘
+ˆ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÛ Û(+
+%242void"9mojoPortal.Web.Services.SiteMapJson.ResortChildPages(int)*'%
+#mojoPortal.Web.Services.SiteMapJson*
+
+%241intˆ
+Û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÙ Ù(%
+%243void">mojoPortal.Business.WebHelpers.CacheHelper.ResetSiteMapCache()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csˆ ˆ(
+%244bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""Å
+˛
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs˜ ˜( 
+%245string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*	
+SuccessÀ
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs˘ ˘($
+%246void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResulté
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs˚
+ ˚(
+%247"__id*
+""*
+56
+57*ä
+56s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs˝ Ñ(*‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs˝ ˝(
+
+%248log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILogˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csˇ ˇ(#(
+%249 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÈ
+Ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÄ Ä(4
+%250string";Resources.PageManagerResources.MoveNodeRequestLogFormat.get*"" 
+Resources.PageManagerResources‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÅ Å(
+%251string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestring‰·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÇ Ç(
+%252string" System.Web.SiteMapNode.Title.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode2	Title.getﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÇ Ç((
+%253int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeÂ‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÑ Ñ(
+%254string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.get‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÑ Ñ(*
+%255int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs˛ Ö(
+%256string">string.Format(System.IFormatProvider, string, params object[])*
+"
+string**
+(
+%249 System.Globalization.CultureInfo*
+
+%250string*
+
+%251string*
+
+%252string*
+
+%253int*
+
+positionstring*
+
+%254string*
+
+%255intŸ÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs˝ Ü(
+%257void"log4net.ILog.Info(object)*
+
+%248log4net.ILog*
+
+%256string2Info(object)*
+57*¯
+57s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´("}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csâ â(
+""*É
+36s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¥
+ ¥(*
+58
+58*Ã
+58s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csí í(1‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csí í(
+%258int"+mojoPortal.Web.mojoSiteMapNode.ParentId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode·
+ﬁ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csí í(1
+%259int"+mojoPortal.Web.mojoSiteMapNode.ParentId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode*
+59
+60*Ë
+59s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csî	 î("‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csî	 î(
+%260int"+mojoPortal.Web.mojoSiteMapNode.ParentId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode*
+61
+62*î
+61s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csò	 ò(é
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csò
+ ò(
+%261"__id*
+""*
+63
+64*î
+63s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csò ò($é
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csò ò($
+%262"__id*
+""*
+65
+64*î
+65s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csò( ò(5é
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csò) ò(5
+%263"__id*
+""*
+66
+64*Ö
+66s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csô ô(FÖ
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csô ô(*(
+%264 mojoPortal.Business.SiteSettings"__id*[*Y%
+#mojoPortal.Web.Services.SiteMapJson"0
+siteSettings mojoPortal.Business.SiteSettingsˆ
+Û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csô ô(F
+%265string"@mojoPortal.Business.SiteSettings.RolesThatCanCreateRootPages.get**
+(
+%264 mojoPortal.Business.SiteSettings˛
+˚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csô ô(G
+%266bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%265string*
+67
+64*–
+
+67s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csú °(˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csú ú(
+%267bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""Â
+‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csù ù(B
+%268string"7Resources.PageManagerResources.MoveToRootNotAllowed.get*"" 
+Resources.PageManagerResourcesÜ
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csù ù(B
+%269string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+
+%268stringÀ
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csü ü(&
+%270void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResulté
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs° °(
+%271"__id*
+""*
+68
+69*ç
+68s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs£	 ™(,‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs£	 £(
+%272log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILogˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs•	 •(%(
+%273 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÏ
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¶	 ¶(9
+%274string">Resources.PageManagerResources.MoveNodeRequestDeniedFormat.get*"" 
+Resources.PageManagerResources‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csß	 ß(
+%275string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestring‰·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs®	 ®(
+%276string" System.Web.SiteMapNode.Title.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode2	Title.getﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs® ®(*
+%277int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeÂ‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs™	 ™(
+%278string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.get‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs™ ™(,
+%279int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs§	 ´(
+
+%280string">string.Format(System.IFormatProvider, string, params object[])*
+"
+string**
+(
+%273 System.Globalization.CultureInfo*
+
+%274string*
+
+%275string*
+
+%276string*
+
+%277int*
+
+positionstring*
+
+%278string*
+
+%279intŸ÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs£	 ¨(
+
+%281void"log4net.ILog.Info(object)*
+
+%272log4net.ILog*
+
+%280string2Info(object)*
+69*¯
+69s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´("}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∞ ∞(
+""*â
+
+62s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∑ π(Ì
+Í
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∑< ∑(D
+%282System.Web.SiteMapNode"__id*M*K%
+#mojoPortal.Web.Services.SiteMapJson""
+rootNodeSystem.Web.SiteMapNode‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∑F ∑(Y
+%283int"+mojoPortal.Web.mojoSiteMapNode.ParentId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNodeº
+π
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∑ ∑(Z&
+%284mojoPortal.Web.mojoSiteMapNode"KmojoPortal.Web.SiteUtils.GetSiteMapNodeForPage(System.Web.SiteMapNode, int)*"
+mojoPortal.Web.SiteUtils* 
+
+%282System.Web.SiteMapNode*
+
+%283intﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∑ ∑(Z4
+selectedParentNodemojoPortal.Web.mojoSiteMapNode"__id*(
+&
+%284mojoPortal.Web.mojoSiteMapNodeé
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csπ
+ π(
+%285"__id*
+""*
+70
+64*î
+70s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csπ π($é
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csπ π($
+%286"__id*
+""*
+71
+64*î
+71s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csπ( π(5é
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csπ) π(5
+%287"__id*
+""*
+72
+64*Ä
+72s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∫ ∫(E˘
+ˆ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∫ ∫(E
+%288string"7mojoPortal.Web.mojoSiteMapNode.CreateChildPageRoles.get*6
+4
+selectedParentNodemojoPortal.Web.mojoSiteMapNode˛
+˚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs∫ ∫(F
+%289bool"8mojoPortal.Business.WebHelpers.WebUser.IsInRoles(string)**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+
+%288string*
+73
+64*„
+73s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csΩ ≈(˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csΩ Ω(
+%290bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""ˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csø	 ø(%(
+%291 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfo
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¿	 ¿(=
+%292string"BResources.PageManagerResources.MoveToNewParentNotAllowedFormat.get*"" 
+Resources.PageManagerResourcesÂ‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs¡	 ¡(
+%293string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.getõ
+ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csæ ¡(
+%294string"5string.Format(System.IFormatProvider, string, object)*
+"
+string**
+(
+%291 System.Globalization.CultureInfo*
+
+%292string*
+
+%293stringÜ
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csæ ¡(
+%295string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+
+%294stringÀ
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs√ √(&
+%296void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResulté
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs≈ ≈(
+%297"__id*
+""*
+74
+75*ç
+74s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs«	 Œ(,‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs«	 «(
+%298log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILogˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs…	 …(%(
+%299 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÏ
+È
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs 	  (9
+%300string">Resources.PageManagerResources.MoveNodeRequestDeniedFormat.get*"" 
+Resources.PageManagerResources‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÀ	 À(
+%301string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestring‰·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÃ	 Ã(
+%302string" System.Web.SiteMapNode.Title.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode2	Title.getﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÃ Ã(*
+%303int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeÂ‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csŒ	 Œ(
+%304string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.get‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csŒ Œ(,
+%305int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs»	 œ(
+
+%306string">string.Format(System.IFormatProvider, string, params object[])*
+"
+string**
+(
+%299 System.Globalization.CultureInfo*
+
+%300string*
+
+%301string*
+
+%302string*
+
+%303int*
+
+positionstring*
+
+%304string*
+
+%305intŸ÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs«	 –(
+
+%307void"log4net.ILog.Info(object)*
+
+%298log4net.ILog*
+
+%306string2Info(object)*
+75*¯
+75s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´("}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‘ ‘(
+""*Õ1
+64s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€ Ì(Ö
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€# €(/(
+%308 mojoPortal.Business.SiteSettings"__id*[*Y%
+#mojoPortal.Web.Services.SiteMapJson"0
+siteSettings mojoPortal.Business.SiteSettingsﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€# €(6
+%309int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+%308 mojoPortal.Business.SiteSettingsﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€8 €(H
+%310int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeƒ¡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€ €(I(
+%311 mojoPortal.Business.PageSettings" mojoPortal.Business.PageSettingsâ
+Ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€ €("
+%312void"7mojoPortal.Business.PageSettings.PageSettings(int, int)**
+(
+%311 mojoPortal.Business.PageSettings*
+
+%309int*
+
+%310intŸ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs€ €(I-
+	movedPage mojoPortal.Business.PageSettings"__id**
+(
+%311 mojoPortal.Business.PageSettingsÖ
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‹$ ‹(0(
+%313 mojoPortal.Business.SiteSettings"__id*[*Y%
+#mojoPortal.Web.Services.SiteMapJson"0
+siteSettings mojoPortal.Business.SiteSettingsﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‹$ ‹(7
+%314int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+%313 mojoPortal.Business.SiteSettings‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‹9 ‹(J
+%315int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNodeƒ¡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‹ ‹(K(
+%316 mojoPortal.Business.PageSettings" mojoPortal.Business.PageSettingsâ
+Ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‹ ‹(#
+%317void"7mojoPortal.Business.PageSettings.PageSettings(int, int)**
+(
+%316 mojoPortal.Business.PageSettings*
+
+%314int*
+
+%315int⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‹ ‹(K.
+
+targetPage mojoPortal.Business.PageSettings"__id**
+(
+%316 mojoPortal.Business.PageSettingsÊ
+„
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csﬁ ﬁ(.
+%318int"-mojoPortal.Business.PageSettings.ParentId.get*0
+.
+
+targetPage mojoPortal.Business.PageSettingsÙ
+Ò
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csﬁ ﬁ(.
+%319int"-mojoPortal.Business.PageSettings.ParentId.set*/
+-
+	movedPage mojoPortal.Business.PageSettings*
+
+%318int
+Ì
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csﬂ ﬂ(2
+%320System.Guid"/mojoPortal.Business.PageSettings.ParentGuid.get*0
+.
+
+targetPage mojoPortal.Business.PageSettingsÜ
+É
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csﬂ ﬂ(2
+%321System.Guid"/mojoPortal.Business.PageSettings.ParentGuid.set*/
+-
+	movedPage mojoPortal.Business.PageSettings*
+
+%320System.GuidÁ
+‰
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‚ ‚(0
+%322int".mojoPortal.Business.PageSettings.PageOrder.get*0
+.
+
+targetPage mojoPortal.Business.PageSettingsÓ
+Î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs‚ ‚(4
+%323int".mojoPortal.Business.PageSettings.PageOrder.set*/
+-
+	movedPage mojoPortal.Business.PageSettings*
+""‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs„ „(
+%324bool"'mojoPortal.Business.PageSettings.Save()*/
+-
+	movedPage mojoPortal.Business.PageSettings‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÂ Â(*
+%325int"+mojoPortal.Web.mojoSiteMapNode.ParentId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode˘
+ˆ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÂ Â(+
+%326void"9mojoPortal.Web.Services.SiteMapJson.ResortChildPages(int)*'%
+#mojoPortal.Web.Services.SiteMapJson*
+
+%325intˆ
+Û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÊ Ê(%
+%327void">mojoPortal.Business.WebHelpers.CacheHelper.ResetSiteMapCache()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csË Ë(
+%328bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""Å
+˛
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÈ È( 
+%329string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*	
+SuccessÀ
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÎ Î($
+%330void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResulté
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÌ
+ Ì(
+%331"__id*
+""*
+76
+77*ä
+76s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÔ ˆ(*‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÔ Ô(
+
+%332log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILogˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÒ Ò(#(
+%333 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÈ
+Ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÚ Ú(4
+%334string";Resources.PageManagerResources.MoveNodeRequestLogFormat.get*"" 
+Resources.PageManagerResources‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÛ Û(
+%335string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestring‰·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÙ Ù(
+%336string" System.Web.SiteMapNode.Title.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode2	Title.getﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÙ Ù((
+%337int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeÂ‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csˆ ˆ(
+%338string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.get‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csˆ ˆ(*
+%339int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs ˜(
+%340string">string.Format(System.IFormatProvider, string, params object[])*
+"
+string**
+(
+%333 System.Globalization.CultureInfo*
+
+%334string*
+
+%335string*
+
+%336string*
+
+%337int*
+
+positionstring*
+
+%338string*
+
+%339intŸ÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÔ ¯(
+%341void"log4net.ILog.Info(object)*
+
+%332log4net.ILog*
+
+%340string2Info(object)*
+77*¯
+77s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´("}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs˚ ˚(
+""*Ò)
+60s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÅ ë(Ö
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÅ# Å(/(
+%342 mojoPortal.Business.SiteSettings"__id*[*Y%
+#mojoPortal.Web.Services.SiteMapJson"0
+siteSettings mojoPortal.Business.SiteSettingsﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÅ# Å(6
+%343int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+%342 mojoPortal.Business.SiteSettingsﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÅ8 Å(H
+%344int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeƒ¡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÅ Å(I(
+%345 mojoPortal.Business.PageSettings" mojoPortal.Business.PageSettingsâ
+Ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÅ Å("
+%346void"7mojoPortal.Business.PageSettings.PageSettings(int, int)**
+(
+%345 mojoPortal.Business.PageSettings*
+
+%343int*
+
+%344intŸ
+÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÅ Å(I-
+	movedPage mojoPortal.Business.PageSettings"__id**
+(
+%345 mojoPortal.Business.PageSettingsÖ
+Ç
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÇ$ Ç(0(
+%347 mojoPortal.Business.SiteSettings"__id*[*Y%
+#mojoPortal.Web.Services.SiteMapJson"0
+siteSettings mojoPortal.Business.SiteSettingsﬁ
+€
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÇ$ Ç(7
+%348int"+mojoPortal.Business.SiteSettings.SiteId.get**
+(
+%347 mojoPortal.Business.SiteSettings‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÇ9 Ç(J
+%349int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNodeƒ¡
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÇ Ç(K(
+%350 mojoPortal.Business.PageSettings" mojoPortal.Business.PageSettingsâ
+Ü
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÇ Ç(#
+%351void"7mojoPortal.Business.PageSettings.PageSettings(int, int)**
+(
+%350 mojoPortal.Business.PageSettings*
+
+%348int*
+
+%349int⁄
+◊
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÇ Ç(K.
+
+targetPage mojoPortal.Business.PageSettings"__id**
+(
+%350 mojoPortal.Business.PageSettingsÁ
+‰
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÖ Ö(0
+%352int".mojoPortal.Business.PageSettings.PageOrder.get*0
+.
+
+targetPage mojoPortal.Business.PageSettingsÓ
+Î
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÖ Ö(4
+%353int".mojoPortal.Business.PageSettings.PageOrder.set*/
+-
+	movedPage mojoPortal.Business.PageSettings*
+""‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csÜ Ü(
+%354bool"'mojoPortal.Business.PageSettings.Save()*/
+-
+	movedPage mojoPortal.Business.PageSettings‚
+ﬂ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csà à(*
+%355int"+mojoPortal.Web.mojoSiteMapNode.ParentId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode˘
+ˆ
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csà à(+
+%356void"9mojoPortal.Web.Services.SiteMapJson.ResortChildPages(int)*'%
+#mojoPortal.Web.Services.SiteMapJson*
+
+%355intˆ
+Û
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csâ â(%
+%357void">mojoPortal.Business.WebHelpers.CacheHelper.ResetSiteMapCache()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper˙
+˜
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csã ã(
+%358bool"4mojoPortal.Web.Services.PageActionResult.Success.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*
+""Å
+˛
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cså å( 
+%359string"4mojoPortal.Web.Services.PageActionResult.Message.set*4
+2
+result(mojoPortal.Web.Services.PageActionResult*	
+SuccessÀ
+»
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csé é($
+%360void"dmojoPortal.Web.Services.SiteMapJson.RenderPageActionResult(mojoPortal.Web.Services.PageActionResult)*'%
+#mojoPortal.Web.Services.SiteMapJson*4
+2
+result(mojoPortal.Web.Services.PageActionResulté
+ã
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csë
+ ë(
+%361"__id*
+""*
+78
+79*ä
+78s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csì ö(*‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csì ì(
+
+%362log4net.ILog"__id*>*<%
+#mojoPortal.Web.Services.SiteMapJson"
+loglog4net.ILogˇ
+¸
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csï ï(#(
+%363 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
+ System.Globalization.CultureInfoÈ
+Ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csñ ñ(4
+%364string";Resources.PageManagerResources.MoveNodeRequestLogFormat.get*"" 
+Resources.PageManagerResources‘
+—
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csó ó(
+%365string"__id*D*B%
+#mojoPortal.Web.Services.SiteMapJson"
+currentUserNamestring‰·
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csò ò(
+%366string" System.Web.SiteMapNode.Title.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNode2	Title.getﬂ
+‹
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csò ò((
+%367int")mojoPortal.Web.mojoSiteMapNode.PageId.get*-
++
+	movedNodemojoPortal.Web.mojoSiteMapNodeÂ‚
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csö ö(
+%368string" System.Web.SiteMapNode.Title.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode2	Title.get‡
+›
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csö ö(*
+%369int")mojoPortal.Web.mojoSiteMapNode.PageId.get*.
+,
+
+targetNodemojoPortal.Web.mojoSiteMapNode¸
+˘
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csî õ(
+%370string">string.Format(System.IFormatProvider, string, params object[])*
+"
+string**
+(
+%363 System.Globalization.CultureInfo*
+
+%364string*
+
+%365string*
+
+%366string*
+
+%367int*
+
+positionstring*
+
+%368string*
+
+%369intŸ÷
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csì ú(
+%371void"log4net.ILog.Info(object)*
+
+%362log4net.ILog*
+
+%370string2Info(object)*
+79*¯
+79s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´("}
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.csü ü(
+""*Ü
+80s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´("ä
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\SiteMapJson.ashx.cs´ ´(
+implicit returnB'%
+#mojoPortal.Web.Services.SiteMapJson

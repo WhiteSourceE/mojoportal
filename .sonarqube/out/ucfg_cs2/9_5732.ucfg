@@ -1,0 +1,170 @@
+
+MmojoPortal.Web.AdminUI.PermissionEditPage.Page_Load(object, System.EventArgs)q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs! !("0*Ì
+0q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs# #(!Ë
+È
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs# #(!
+
+%0bool")mojoPortal.Web.SiteUtils.SslIsAvailable()*"
+mojoPortal.Web.SiteUtils*
+1
+2*Ã
+1q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs## #(7Å
+Â
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs## #(7
+
+%1void"#mojoPortal.Web.SiteUtils.ForceSsl()*"
+mojoPortal.Web.SiteUtils*
+2*ž
+2q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs$ $(Ì
+É
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs$ $(
+%2System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÎ
+Ë
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs$ $(
+
+%3bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%2System.Web.HttpRequest*
+3
+4*Š
+3q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs& &(&”
+‘
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs& &('
+
+%4void"CmojoPortal.Web.SiteUtils.RedirectToLoginPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*-+
+)mojoPortal.Web.AdminUI.PermissionEditPage"{
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs' '(
+""*Ï
+4q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs) +(é
+æ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs) )(
+
+%5void"6mojoPortal.Web.AdminUI.PermissionEditPage.LoadParams()*-+
+)mojoPortal.Web.AdminUI.PermissionEditPageâ
+ß
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs+ +(
+
+%6bool"2mojoPortal.Business.WebHelpers.WebUser.IsAdmin.get**"(
+&mojoPortal.Business.WebHelpers.WebUser*
+5
+6*‘
+5q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs- -(-›
+˜
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs- -(.
+
+%7void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*-+
+)mojoPortal.Web.AdminUI.PermissionEditPage"{
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs. .(
+""*‹
+6q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs1 1(Š
+‡
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs1 1(
+%8"__id*
+""*
+7
+8*â
+7q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs1 1(8ù
+ö
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs1 1(&&
+%9 mojoPortal.Business.SiteSettings"__id*S*Q
+mojoPortal.Web.mojoBasePage"0
+siteSettings mojoPortal.Business.SiteSettingså
+â
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs1 1(8
+%10bool"6mojoPortal.Business.SiteSettings.IsServerAdminSite.get*(
+&
+%9 mojoPortal.Business.SiteSettings*
+9
+8*’
+9q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs3 3(-œ
+™
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs3 3(.
+%11void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*-+
+)mojoPortal.Web.AdminUI.PermissionEditPage"{
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs4 4(
+""*
+8q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs7 7(!Š
+‡
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs7 7("
+%12bool"8mojoPortal.Web.SiteUtils.IsFishyPost(System.Web.UI.Page)*"
+mojoPortal.Web.SiteUtils*-+
+)mojoPortal.Web.AdminUI.PermissionEditPage*
+10
+11*“
+10q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs9 9(-œ
+™
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs9 9(.
+%13void"JmojoPortal.Web.SiteUtils.RedirectToAccessDeniedPage(System.Web.UI.Control)*"
+mojoPortal.Web.SiteUtils*-+
+)mojoPortal.Web.AdminUI.PermissionEditPage"{
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs: :(
+""*¢
+11q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs= @(ì
+é
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs= =(
+%14void"8mojoPortal.Web.AdminUI.PermissionEditPage.LoadSettings()*-+
+)mojoPortal.Web.AdminUI.PermissionEditPageî
+ë
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs> >(
+%15void":mojoPortal.Web.AdminUI.PermissionEditPage.PopulateLabels()*-+
+)mojoPortal.Web.AdminUI.PermissionEditPage¾
+»
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.cs@ @(
+%16bool"!System.Web.UI.Page.IsPostBack.get*
+System.Web.UI.Page*
+12
+13*ð
+12q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.csB B(ð
+í
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.csB B(
+%17void"<mojoPortal.Web.AdminUI.PermissionEditPage.PopulateControls()*-+
+)mojoPortal.Web.AdminUI.PermissionEditPage*
+13*‚
+13q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.csE E("ˆ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\PermissionEdit.aspx.csE E(
+implicit return:
+senderobject:
+eSystem.EventArgsB-+
+)mojoPortal.Web.AdminUI.PermissionEditPage

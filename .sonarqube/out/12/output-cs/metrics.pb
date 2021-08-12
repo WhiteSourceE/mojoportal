@@ -1,0 +1,10 @@
+é
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBFields.cs‚ 8jSrst–ÄÕÖ×ØÙäåæçèñòóôõþÿ€‹Œ™š›°±²³´µÖ×ØÙÚr¾
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmouvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÅÆÇÈÉÊËÌÍÎÏÐÑÓÚÛÜÝÞßàâéêëìíîïö÷øùúûü‚ƒ„…†‡‰Ž‘’“”•—œŸ ¡¢£¥§¨©ª«¬®¶·¸¹º»¼½¿ÁÂÃÄÅÆÇÈÉÊËÌÍÏÐÑÒÔÛÜÝÞßàáâäx‚ÛABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklm£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÅÆÇÈÉÊËÌÍÎÏÐÑÝÞßàëìíîøùúû…†‡‘’“Ÿ ¡©ª«¬»½¿ÁÃÈÉËÏÐÑÒÝÞßà£
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItems.cs‹ 8ju3456VWXYcdefopqr{|}~€‚ƒ„…ˆ‰Š“”•Ÿ ¡²³´½¾¿ÈÉÊÓÔÕÖþÿ€‰¯°±»¼½ÇÈÉêëìíûrÈ
+ !"#$%&'()*+,-./0789:;<=>?@ABCDEFGHIJKLMNOQRTZ[\]^_aghijklmstuvwxy‹ŒŽ‘–—˜™š›¢£¤¥¦§¨©«¬­®¯°µ¶·¸¹ºÀÁÂÃÄÅÆËÌÍÎÏÐÑ×ØÙÚÛÜÝÞßáâãäåæçèéêëìíîïðñòóôõö÷øùúûüý‚ƒ„…†‡ˆŠ‹Œ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®²³´µ¶·¸¹¾¿ÀÁÂÃÄÅÊËÌÍÎÏÐÑÓÕÖ×ØÙÚÛÜÝÞßàáãäåæèîïðñòóôö÷ùúüýþ€x‚ê"#$%&'()*+,-./DEFGHIJKLMNOQR\]^_ijkluvwxŽ™š›¤¥¦­®¯·¸¹ÂÃÄÅÍÎÏÐáãäåæçèêìíîïðñòö÷øùúü‘’“”•–—™›œžŸ ¡¢¦§¨©ª«­´µ¶·¸ÀÁÂÃÄÏÑÓÕ×ÜÝßãäåæðñòóùúü¯
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBItemFieldValues.csi 8jv456789:;<=>UVWXYdefghqrstu}~€‰Š‹Œ–—˜™¢£¤°±²¿ÀÁÂÃÄŸ ¡¢£¤¥¦·¸¹º»¼rú	 !"#$%&'()*+,-./1?@ABCDEFGHIJKLMNOPQSZ[\]^_`bijklmnovwxyz{|‚ƒ„…†‡ˆŽ‘’“”š›œž ¥¦¨©ª«¬®³´¶·¸¹º¼ÅÆÇÈÉÊËÍÎÏÐÑÒÓÔÕÖ×ÙÚÛÜÝÞàáâãäåçèéêëìîïðñòóõö÷øùúûýþÿ€‚ƒ†‡ˆ‰Š‹ŒŽ’“”•–—˜™š›œ©ª«¬­®¯°±²³´½¾¿ÀÁÂÃÄÆÈÉÊËÌÍÎÏÐÑÒÓÔÖ×ØÙÛÞàx‚º&'()*+,-./HIJKLMNOPQ]^_`klmnxyz{„…†‡‘’“œž¨©ª¶·¸ÇÈÉÊÏÐÑÒÔÕÖÛÜÝâãäéêëðñò÷øùúÿ€‚’”•–—˜™š›«¬­®¯°±³ÂÄÆÈÊÏÐÒÖ×ØÙì
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\DBSearchDefs.cs* 8rH
+ !"#$%&()*+,/013456789;<=>?@ACDEFGHIKLMNOPRSTUVWXY‚*"#$%&()*+,/05678=>?@EFGHMNOTUVš
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\SuperFlexiData.MSSQL\Properties\AssemblyInfo.csj !"r	
+#$

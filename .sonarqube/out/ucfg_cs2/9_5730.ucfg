@@ -1,0 +1,579 @@
+
+1mojoPortal.Web.UI.mojoRating.SetupCommentScript()r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csﬁ ﬁ('"0*ç
+0r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs· ·(ã
+à
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs· ·(
+%0"__id*
+""*
+1
+2*ı
+1r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs√	 √(	"|
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs·" ·()
+""*üò
+2r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs‰ π(≥∞
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs‰# ‰(6
+%1System.Text.StringBuilder"System.Text.StringBuilder—
+Œ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs‰' ‰(4
+
+%2void")System.Text.StringBuilder.StringBuilder()*!
+
+%1System.Text.StringBuilder≈
+¬
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs‰ ‰(6#
+scriptSystem.Text.StringBuilder"__id*!
+
+%1System.Text.StringBuilderè
+å
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csÂ Â(@
+%3System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*$"
+ <script type="text/javascript">
+¬
+ø
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csÁ Á(p
+%4System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*WU
+Sfunction mojoRefreshRating(commentPanel, ratingPanel, ratingBehavior, hiddenRating)
+Ì
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csË Ë(
+%5System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+{Ü
+É
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csÈ È(4
+%6System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$(commentPanel).hide();ê
+ç
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csÎ Î(>
+%7System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*%#
+!$(ratingPanel).click(function() {¬
+ø
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csÌ Ì(p
+%8System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*WU
+S$(commentPanel).animate({ width: 'show', height: 'show', opacity: 'toggle' }, 700);§
+°
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csÔ Ô(R
+%9System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*97
+5var ratingValue = $find(ratingBehavior).get_Rating();ë
+é
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs (> 
+%10System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*%#
+!$(hiddenRating).val(ratingValue);˝
+˙
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csÚ Ú(* 
+%11System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+return false;Û
+
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csÛ Û(  
+%12System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});í
+è
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csı ı(? 
+%13System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*&$
+"$(commentPanel).hover(function() {Ù
+Ò
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs˜ ˜(! 
+%14System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+try{«
+ƒ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs¯ ¯(t 
+%15System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*[Y
+W$find(commentPanel).animate({ width: 'show', height: 'show', opacity: 'toggle' }, 700);˝
+˙
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs˘ ˘(* 
+%16System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}catch(err){}Ú
+Ô
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs˙ ˙( 
+%17System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+},¸
+˘
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs˚ ˚() 
+%18System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+function() {Ù
+Ò
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs¸ ¸(! 
+%19System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+try{«
+ƒ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs˝ ˝(t 
+%20System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*[Y
+W$find(commentPanel).animate({ width: 'hide', height: 'hide', opacity: 'toggle' }, 700);˝
+˙
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs˛ ˛(* 
+%21System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}catch(err){}Û
+
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csˇ ˇ(  
+%22System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});Ò
+Ó
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csÄ Ä( 
+%23System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}ú
+ô
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csÉ É(I 
+%24System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*0.
+,function mojoCloseRatingPanel(commentPanel){á
+Ñ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csÑ Ñ(4 
+%25System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+$(commentPanel).hide();Ò
+Ó
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csÜ Ü( 
+%26System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+}˙
+˜
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csó ó(( 
+%27System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+
+</script>”
+–
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csû û(!
+%28string"$System.Text.StringBuilder.ToString()*%
+#
+scriptSystem.Text.StringBuilderÈ
+Ê
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csö ü(
+%29void"oSystem.Web.UI.ScriptManager.RegisterClientScriptBlock(System.Web.UI.Control, System.Type, string, string, bool)*"
+System.Web.UI.ScriptManager* 
+mojoPortal.Web.UI.mojoRating*
+""*
+
+mojorating*
+
+%28string*
+""¥±
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs£ £(( 
+%30System.Text.StringBuilder"System.Text.StringBuilder”
+–
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs£ £(&
+%31void")System.Text.StringBuilder.StringBuilder()*"
+ 
+%30System.Text.StringBuilder∆
+√
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs£ £((#
+scriptSystem.Text.StringBuilder"__id*"
+ 
+%30System.Text.StringBuilderê
+ç
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs§ §(@ 
+%32System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*$"
+ <script type="text/javascript">
+∏
+µ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs¶ ¶(e 
+%33System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*LJ
+HSys.WebForms.PageRequestManager.getInstance().add_endRequest(function(){˘
+ˆ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csß8 ß(C&
+%34System.Web.UI.WebControls.Panel"__id*R*P
+mojoPortal.Web.UI.mojoRating".
+pnlCommentsSystem.Web.UI.WebControls.Panel‚ﬂ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csß8 ß(L
+%35string""System.Web.UI.Control.ClientID.get*(
+&
+%34System.Web.UI.WebControls.Panel2ClientID.get¿
+Ω
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csß ß(L
+%36string"__concat*
+mojoCloseRatingPanel($('#*
+
+%35string´
+®
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csß ß(U
+%37string"__concat*
+
+%36string*
+'));˚
+¯
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.csß ß(V 
+%38System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%37stringÛ
+
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs® ®(  
+%39System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});∏
+µ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs™ ™(e 
+%40System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*LJ
+HSys.WebForms.PageRequestManager.getInstance().add_endRequest(function(){˘
+ˆ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´5 ´(@&
+%41System.Web.UI.WebControls.Panel"__id*R*P
+mojoPortal.Web.UI.mojoRating".
+pnlCommentsSystem.Web.UI.WebControls.Panel‚ﬂ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´5 ´(I
+%42string""System.Web.UI.Control.ClientID.get*(
+&
+%41System.Web.UI.WebControls.Panel2ClientID.getΩ
+∫
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´ ´(I
+%43string"__concat*
+mojoRefreshRating($('#*
+
+%42stringÆ
+´
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´ ´(U
+%44string"__concat*
+
+%43string*	
+'),$('#Ú
+Ô
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´X ´(b#
+%45mojoPortal.Web.UI.AjaxRating"__id*N*L
+mojoPortal.Web.UI.mojoRating"*
+
+UserRatingmojoPortal.Web.UI.AjaxRatingﬂ‹
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´X ´(k
+%46string""System.Web.UI.Control.ClientID.get*%
+#
+%45mojoPortal.Web.UI.AjaxRating2ClientID.get≤
+Ø
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´ ´(k
+%47string"__concat*
+
+%44string*
+
+%46string´
+®
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´ ´(t
+%48string"__concat*
+
+%47string*
+'),'Û
+
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´w ´(Å#
+%49mojoPortal.Web.UI.AjaxRating"__id*N*L
+mojoPortal.Web.UI.mojoRating"*
+
+UserRatingmojoPortal.Web.UI.AjaxRating‡›
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´w ´(ä
+%50string""System.Web.UI.Control.ClientID.get*%
+#
+%49mojoPortal.Web.UI.AjaxRating2ClientID.get≥
+∞
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´ ´(ä
+%51string"__concat*
+
+%48string*
+
+%50string∂
+≥
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´ ´(ù
+%52string"__concat*
+
+%51string*
+Behavior',$('#Ö
+Ç
+t
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´† ´(©,
+%53%System.Web.UI.WebControls.HiddenField"__id*V*T
+mojoPortal.Web.UI.mojoRating"2
+	hdnRating%System.Web.UI.WebControls.HiddenFieldÍÁ
+t
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´† ´(≤
+%54string""System.Web.UI.Control.ClientID.get*.
+,
+%53%System.Web.UI.WebControls.HiddenField2ClientID.get≥
+∞
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´ ´(≤
+%55string"__concat*
+
+%52string*
+
+%54string¨
+©
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´ ´(ª
+%56string"__concat*
+
+%55string*
+'));¸
+˘
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs´ ´(º 
+%57System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%56stringÛ
+
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs¨ ¨(  
+%58System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+});˘
+ˆ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞G ∞(R&
+%59System.Web.UI.WebControls.Panel"__id*R*P
+mojoPortal.Web.UI.mojoRating".
+pnlCommentsSystem.Web.UI.WebControls.Panel‚ﬂ
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞G ∞([
+%60string""System.Web.UI.Control.ClientID.get*(
+&
+%59System.Web.UI.WebControls.Panel2ClientID.getœ
+Ã
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞ ∞([
+%61string"__concat*,*
+($(document).ready(mojoRefreshRating($('#*
+
+%60stringÆ
+´
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞ ∞(g
+%62string"__concat*
+
+%61string*	
+'),$('#Ú
+Ô
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞j ∞(t#
+%63mojoPortal.Web.UI.AjaxRating"__id*N*L
+mojoPortal.Web.UI.mojoRating"*
+
+UserRatingmojoPortal.Web.UI.AjaxRatingﬂ‹
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞j ∞(}
+%64string""System.Web.UI.Control.ClientID.get*%
+#
+%63mojoPortal.Web.UI.AjaxRating2ClientID.get≤
+Ø
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞ ∞(}
+%65string"__concat*
+
+%62string*
+
+%64string¨
+©
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞ ∞(Ü
+%66string"__concat*
+
+%65string*
+'),'Ù
+Ò
+t
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞â ∞(ì#
+%67mojoPortal.Web.UI.AjaxRating"__id*N*L
+mojoPortal.Web.UI.mojoRating"*
+
+UserRatingmojoPortal.Web.UI.AjaxRating·ﬁ
+t
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞â ∞(ú
+%68string""System.Web.UI.Control.ClientID.get*%
+#
+%67mojoPortal.Web.UI.AjaxRating2ClientID.get≥
+∞
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞ ∞(ú
+%69string"__concat*
+
+%66string*
+
+%68string∂
+≥
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞ ∞(Ø
+%70string"__concat*
+
+%69string*
+Behavior',$('#Ö
+Ç
+t
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞≤ ∞(ª,
+%71%System.Web.UI.WebControls.HiddenField"__id*V*T
+mojoPortal.Web.UI.mojoRating"2
+	hdnRating%System.Web.UI.WebControls.HiddenFieldÍÁ
+t
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞≤ ∞(ƒ
+%72string""System.Web.UI.Control.ClientID.get*.
+,
+%71%System.Web.UI.WebControls.HiddenField2ClientID.get≥
+∞
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞ ∞(ƒ
+%73string"__concat*
+
+%70string*
+
+%72string≠
+™
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞ ∞(Œ
+%74string"__concat*
+
+%73string*	
+')));¸
+˘
+s
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∞ ∞(œ 
+%75System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+%74string˙
+˜
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs≤ ≤(( 
+%76System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*%
+#
+scriptSystem.Text.StringBuilder*
+
+
+</script>⁄◊
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∑ ∑(
+%77string""System.Web.UI.Control.UniqueID.get* 
+mojoPortal.Web.UI.mojoRating2UniqueID.get”
+–
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs∏ ∏(!
+%78string"$System.Text.StringBuilder.ToString()*%
+#
+scriptSystem.Text.StringBuilderÊ
+„
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs¥ π(
+%79void"kSystem.Web.UI.ScriptManager.RegisterStartupScript(System.Web.UI.Control, System.Type, string, string, bool)*"
+System.Web.UI.ScriptManager* 
+mojoPortal.Web.UI.mojoRating*
+""*
+
+%77string*
+
+%78string*
+""*
+3*É
+3r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs√	 √(	"â
+r
+fD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Controls\mojoRating.ascx.cs√ √(	
+implicit returnB 
+mojoPortal.Web.UI.mojoRating

@@ -1,0 +1,157 @@
+
+8mojoPortal.Web.Framework.WebUtils.GetHtmlFromWeb(string)w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csè è(+"0*Ø
+0w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csê ê(&¯
+¬
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csê ê(&
+%0string"__id**
+string"
+Emptystring¢
+Ÿ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csê ê(&
+htmlstring"__id*
+
+%0string*
+1*ˆ
+1w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csî ö('ë
+è
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csî< î(R
+%1System.Net.WebRequest"$System.Net.WebRequest.Create(string)*"
+System.Net.WebRequest*
+
+urlstring§
+¤
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csî, î(R
+%2"__id*
+
+%1System.Net.WebRequest³
+°
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csî î(R'
+
+webRequestSystem.Net.HttpWebRequest"__id*
+
+%2ðí
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csï ï()
+%3string"$System.Net.HttpWebRequest.Method.set*)
+'
+
+webRequestSystem.Net.HttpWebRequest*
+GET2
+Method.setíê
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csð ð()	
+%4int"%System.Net.HttpWebRequest.Timeout.set*)
+'
+
+webRequestSystem.Net.HttpWebRequest*2ˆ'2Timeout.setýú
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csô' ô(?
+%5System.Net.WebResponse"'System.Net.HttpWebRequest.GetResponse()*)
+'
+
+webRequestSystem.Net.HttpWebRequest2GetResponse()¨
+¥
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csô ô(?
+%6"__id*
+
+%5System.Net.WebResponseµ
+²
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csó  ô(?)
+webResponseSystem.Net.HttpWebResponse"__id*
+
+%6í
+ê
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csö ö('
+
+%7bool""object.operator !=(object, object)*
+"
+object*+
+)
+webResponseSystem.Net.HttpWebResponse*
+""*
+2
+3*‹
+2w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csø( ù(G†ƒ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csù( ù(G
+%8System.IO.Stream".System.Net.HttpWebResponse.GetResponseStream()*+
+)
+webResponseSystem.Net.HttpWebResponse2GetResponseStream()²¯
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csù ù(H
+%9System.IO.StreamReader"System.IO.StreamReaderú
+÷
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csù ù('
+%10void"5System.IO.StreamReader.StreamReader(System.IO.Stream)*
+
+%9System.IO.StreamReader*
+
+%8System.IO.StreamÌ
+É
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csø( ù(H(
+responseStreamSystem.IO.StreamReader"__id*
+
+%9System.IO.StreamReader*
+4*’
+4w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csû û(9èå
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csû û(9
+%11string""System.IO.StreamReader.ReadToEnd()**
+(
+responseStreamSystem.IO.StreamReader2ReadToEnd()£
+ 
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csû û(9
+htmlstring"__id*
+
+%11string*
+3*„
+3w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs‰	 ‰(	*
+5
+6* 
+5w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csƒ ƒ(UÕ
+Ò
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csƒ ƒ(
+%12log4net.ILog"__id*<*:#
+!mojoPortal.Web.Framework.WebUtils"
+loglog4net.ILogÄÁ
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.csƒ ƒ(V
+%13void",log4net.ILog.Error(object, System.Exception)*
+
+%12log4net.ILog*97
+5WebUtils.GetHtmlFromWeb error scraping html from web.*
+
+exSystem.Exception2Error(object, System.Exception)*
+6*Š
+6w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs‡ ‡("‹
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs‡ ‡(
+
+htmlstring*
+7w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs‰	 ‰(	"Ž
+w
+kD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\WebUtils.cs‰ ‰(	
+implicit return:
+urlstringB%"#
+!mojoPortal.Web.Framework.WebUtils

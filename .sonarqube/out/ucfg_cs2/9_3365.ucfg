@@ -1,0 +1,311 @@
+
+=mojoPortal.Web.Components.SkinHelper.CopySkin(string, string)o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs≤ ≤(#"0*⁄
+0o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs¥ ¥(1€
+ÿ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs¥ ¥(2
+
+%0bool""System.IO.Directory.Exists(string)*"
+System.IO.Directory*
+
+sourceFolderPathstring*
+1
+2*ﬂ
+1o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs∂ ∂(;‡
+›
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs∂ ∂(<
+
+%1bool""System.IO.Directory.Exists(string)*"
+System.IO.Directory*!
+
+destinationFolderPathstring*
+3
+4*¯
+3o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs∂@ ∂(o¸
+˘
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs∂@ ∂(p
+%2System.IO.DirectoryInfo"+System.IO.Directory.CreateDirectory(string)*"
+System.IO.Directory*!
+
+destinationFolderPathstring*
+4*È
+4o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs∏ º(/¨©
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs∏+ ∏(N
+%3System.IO.DirectoryInfo"System.IO.DirectoryInfoÓ
+Î
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs∏/ ∏(<
+
+%4void"-System.IO.DirectoryInfo.DirectoryInfo(string)*
+
+%3System.IO.DirectoryInfo*
+
+sourceFolderPathstring¬
+ø
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs∏ ∏(N%
+
+sourceRootSystem.IO.DirectoryInfo"__id*
+
+%3System.IO.DirectoryInfo¨©
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csπ/ π(W
+%5System.IO.DirectoryInfo"System.IO.DirectoryInfoÛ
+
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csπ3 π(@
+
+%6void"-System.IO.DirectoryInfo.DirectoryInfo(string)*
+
+%5System.IO.DirectoryInfo*!
+
+destinationFolderPathstring∆
+√
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csπ π(W)
+dirDestinationSystem.IO.DirectoryInfo"__id*
+
+%5System.IO.DirectoryInfo›
+⁄
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs∫& ∫(;
+%7System.IO.FileInfo[]""System.IO.DirectoryInfo.GetFiles()*'
+%
+
+sourceRootSystem.IO.DirectoryInfo∫
+∑
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs∫ ∫(; 
+theFilesSystem.IO.FileInfo[]"__id*
+
+%7System.IO.FileInfo[]*
+5*|
+5o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÓ	 Ó(	*
+6
+7*œ
+6o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs¿ √( “œ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs¡ ¡(&
+%8string"%System.IO.FileSystemInfo.FullName.get*
+
+fSystem.IO.FileInfo2FullName.get‰·
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs¬ ¬(3
+%9string"%System.IO.FileSystemInfo.FullName.get*+
+)
+dirDestinationSystem.IO.DirectoryInfo2FullName.getâ
+Ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs¬6 ¬(Q
+%10"__id*
+""¶
+£
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs¬ ¬(Q
+%11string"__concat*
+
+%9string*
+
+%10ª
+∏
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs¬T ¬(Z
+%12string"System.IO.FileInfo.Name.get*
+
+fSystem.IO.FileInfoØ
+¨
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs¬ ¬(Z
+%13string"__concat*
+
+%11string*
+
+%12stringÈ
+Ê
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs¿ √(!
+%14void")System.IO.File.Copy(string, string, bool)*"
+System.IO.File*
+
+%8string*
+
+%13string*
+""*
+5
+5
+5
+2*≥
+7o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÀ  Õ(:È
+Ê
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÀ1 À(L 
+%15System.IO.DirectoryInfo[]"(System.IO.DirectoryInfo.GetDirectories()*'
+%
+
+sourceRootSystem.IO.DirectoryInfoÀ
+»
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÀ  À(L+
+subDirectoriesSystem.IO.DirectoryInfo[]"__id*"
+ 
+%15System.IO.DirectoryInfo[]*
+8*|
+8o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÓ	 Ó(	*
+9
+2*·
+9o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs— ”(7≈
+¬
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs—: —(@
+%16string" System.IO.DirectoryInfo.Name.get*
+
+dSystem.IO.DirectoryInfoÜ
+É
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs— —(A
+%17System.IO.DirectoryInfo"2System.IO.DirectoryInfo.CreateSubdirectory(string)*+
+)
+dirDestinationSystem.IO.DirectoryInfo*
+
+%16string’
+“
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs“# “(/
+%18System.IO.FileInfo[]""System.IO.DirectoryInfo.GetFiles()*
+
+dSystem.IO.DirectoryInfoª
+∏
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs“ “(/ 
+theFilesSystem.IO.FileInfo[]"__id*
+
+%18System.IO.FileInfo[]*
+10*
+10o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÓ	 Ó(	*
+11
+12*á
+11o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs◊  ⁄(Y”–
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÿ$ ÿ(.
+%19string"%System.IO.FileSystemInfo.FullName.get*
+
+fSystem.IO.FileInfo2FullName.getÂ‚
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csŸ$ Ÿ(;
+%20string"%System.IO.FileSystemInfo.FullName.get*+
+)
+dirDestinationSystem.IO.DirectoryInfo2FullName.getâ
+Ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csŸ> Ÿ(Y
+%21"__id*
+""ß
+§
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csŸ$ Ÿ(Y
+%22string"__concat*
+
+%20string*
+
+%21≈
+¬
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs⁄& ⁄(,
+%23string" System.IO.DirectoryInfo.Name.get*
+
+dSystem.IO.DirectoryInfoØ
+¨
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csŸ$ ⁄(,
+%24string"__concat*
+
+%22string*
+
+%23stringâ
+Ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs⁄/ ⁄(J
+%25"__id*
+""ß
+§
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csŸ$ ⁄(J
+%26string"__concat*
+
+%24string*
+
+%25ª
+∏
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs⁄M ⁄(S
+%27string"System.IO.FileInfo.Name.get*
+
+fSystem.IO.FileInfoØ
+¨
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csŸ$ ⁄(S
+%28string"__concat*
+
+%26string*
+
+%27stringÍ
+Á
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.cs◊  ⁄(Z
+%29void")System.IO.File.Copy(string, string, bool)*"
+System.IO.File*
+
+%19string*
+
+%28string*
+""*
+10
+10
+10
+2*Å
+12o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÓ	 Ó(	*
+
+13
+8
+2*ö
+13o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÂ Â(Z–
+Õ
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÂ Â(
+%30log4net.ILog"__id*?*=&
+$mojoPortal.Web.Components.SkinHelper"
+loglog4net.ILog «
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÂ Â([
+%31void",log4net.ILog.Error(object, System.Exception)*
+
+%30log4net.ILog*64
+2error trying to copy skins into site skins folder *)
+'
+ex!System.Security.SecurityException2Error(object, System.Exception)*
+8*˝
+2o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÓ	 Ó(	"Ü
+o
+cD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\SkinHelper.csÓ Ó(	
+implicit return:
+sourceFolderPathstring:
+destinationFolderPathstringB("&
+$mojoPortal.Web.Components.SkinHelper

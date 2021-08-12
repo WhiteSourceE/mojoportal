@@ -1,0 +1,250 @@
+
+MmojoPortal.Web.Services.ContentRatingService.DoRating(System.Web.HttpContext)z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.cs@ @("0*Ñ
+0z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csC D($ú
+ô
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csC( C(L&
+%0 mojoPortal.Business.SiteSettings"CmojoPortal.Business.WebHelpers.CacheHelper.GetCurrentSiteSettings()*.",
+*mojoPortal.Business.WebHelpers.CacheHelper·
+ﬁ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csC C(L0
+siteSettings mojoPortal.Business.SiteSettings"__id*(
+&
+%0 mojoPortal.Business.SiteSettings˜
+Ù
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csD D($
+
+%1bool""object.operator ==(object, object)*
+"
+object*2
+0
+siteSettings mojoPortal.Business.SiteSettings*
+""*
+1
+2*Ü
+1z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csc	 c(	"Ñ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csD( D(/
+""*â
+2z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csF H(/ì
+ê
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csF F(&
+%2"__id*
+""¶
+£
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csF F(&
+userGuidSystem.Guid"__id*
+
+%2Ê
+„
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csH H(
+%3System.Web.HttpRequest""System.Web.HttpContext.Request.get*#
+!
+contextSystem.Web.HttpContext◊
+‘
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csH H(/
+
+%4bool"*System.Web.HttpRequest.IsAuthenticated.get*
+
+%3System.Web.HttpRequest*
+3
+4* 
+3z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csJ K('
+Ì
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csJ' J(E"
+%5mojoPortal.Business.SiteUser"-mojoPortal.Web.SiteUtils.GetCurrentSiteUser()*"
+mojoPortal.Web.SiteUtilsÿ
+’
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csJ J(E+
+currentUsermojoPortal.Business.SiteUser"__id*$
+"
+%5mojoPortal.Business.SiteUserÚ
+Ô
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csK K('
+
+%6bool""object.operator !=(object, object)*
+"
+object*-
++
+currentUsermojoPortal.Business.SiteUser*
+""*
+5
+4*æ
+5z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csM N(0Ï
+È
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csM M(3
+%7System.Guid")mojoPortal.Business.SiteUser.UserGuid.get*-
++
+currentUsermojoPortal.Business.SiteUser≥
+∞
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csM M(3
+userGuidSystem.Guid"__id*
+
+%7System.Guidﬂ
+‹
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csN N($
+%8string"__id*J*H.
+,mojoPortal.Web.Services.ContentRatingService"
+emailAddressstring≠
+™
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csN N(+	
+%9int"string.Length.get*
+
+%8string*
+6
+4*œ
+6z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csN4 N(TÂ
+‚
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csNC N(T
+%10string"&mojoPortal.Business.SiteUser.Email.get*-
++
+currentUsermojoPortal.Business.SiteUser‡
+›
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csN4 N(TH.
+,mojoPortal.Web.Services.ContentRatingService"
+emailAddressstring"__id*
+
+%10string*
+4*∆
+4z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csR `(/ˆ
+Û
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csS S(%
+%11System.Guid"-mojoPortal.Business.SiteSettings.SiteGuid.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsî
+ë
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csT T(
+%12"__id*
+""î
+ë
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csV V(
+%13"__id*
+""‡
+›
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csW W(
+%14string"__id*J*H.
+,mojoPortal.Web.Services.ContentRatingService"
+emailAddressstring‹
+Ÿ
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csX X(
+%15string"__id*F*D.
+,mojoPortal.Web.Services.ContentRatingService"
+commentsstring÷
+”
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csY Y()
+%16string"(mojoPortal.Web.SiteUtils.GetIP4Address()*"
+mojoPortal.Web.SiteUtilsˆ
+Û
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csZ Z(@
+
+%17int"CmojoPortal.Web.WebConfigSettings.MinutesBetweenAnonymousRatings.get*$""
+ mojoPortal.Web.WebConfigSettingsØ
+¨
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csR [(
+%18void"vmojoPortal.Business.ContentRating.RateContent(System.Guid, System.Guid, System.Guid, int, string, string, string, int)*%"#
+!mojoPortal.Business.ContentRating*
+
+%11System.Guid*
+
+%12*
+
+userGuidSystem.Guid*
+
+%13*
+
+%14string*
+
+%15string*
+
+%16string*
+
+
+%17intî
+ë
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.cs]D ](O
+%19"__id*
+""ó
+î
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.cs]- ](P-
+%20&mojoPortal.Business.ContentRatingStats"7mojoPortal.Business.ContentRating.GetStats(System.Guid)*%"#
+!mojoPortal.Business.ContentRating*
+
+%19Ì
+Í
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.cs] ](P5
+ratingStats&mojoPortal.Business.ContentRatingStats"__id*/
+-
+%20&mojoPortal.Business.ContentRatingStats˛
+˚
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.cs_ _(1
+
+%21int"8mojoPortal.Business.ContentRatingStats.AverageRating.get*7
+5
+ratingStats&mojoPortal.Business.ContentRatingStats◊
+‘
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.cs_ _(1B.
+,mojoPortal.Web.Services.ContentRatingService"
+	avgRatingint"__id*
+
+
+%21int˚
+¯
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.cs` `(/
+
+%22int"5mojoPortal.Business.ContentRatingStats.TotalVotes.get*7
+5
+ratingStats&mojoPortal.Business.ContentRatingStatsÿ
+’
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.cs` `(/C.
+,mojoPortal.Web.Services.ContentRatingService"
+
+totalVotesint"__id*
+
+
+%22int*
+7*ì
+7z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csc	 c(	"ë
+z
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\ContentRatingService.ashx.csc c(	
+implicit return:!
+contextSystem.Web.HttpContextB0.
+,mojoPortal.Web.Services.ContentRatingService

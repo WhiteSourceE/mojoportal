@@ -1,0 +1,335 @@
+
+8mojoPortal.Web.AdminUI.ServerInformation.GetUpdateInfo()v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csá á("0*Í
+0v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csâ â()‰
+·
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csâ â()
+
+%0bool"5mojoPortal.Web.WebConfigSettings.AllowUpdateCheck.get*$""
+ mojoPortal.Web.WebConfigSettings*
+1
+2*—
+1v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cså ç(ôñ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cså( å(c
+%1
+System.Uri"
+System.UriÈ
+Ê
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cså, å(/
+
+%2void"System.Uri.Uri(string)*
+
+%1
+System.Uri*42
+0https://www.mojoportal.com:443/currentVersion.js˘
+ˆ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cså å(d
+%3System.Net.HttpWebRequest",System.Net.WebRequest.CreateHttp(System.Uri)*"
+System.Net.WebRequest*
+
+%1
+System.Uri 
+«
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cså å(d$
+requestSystem.Net.HttpWebRequest"__id*!
+
+%3System.Net.HttpWebRequest*
+3* 
+3v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csê ê(%˘ˆ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csê ê(%
+%4System.Net.WebResponse"'System.Net.HttpWebRequest.GetResponse()*&
+$
+requestSystem.Net.HttpWebRequest2GetResponse()≈
+¬
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csê ê(%"
+responseSystem.Net.WebResponse"__id*
+
+%4System.Net.WebResponse*	
+4
+5
+2*˛
+4v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs± ±("Ä
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csî î(
+""*ª#
+5v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csñ ¢(4˙˜
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csñ ñ(4
+%5System.IO.Stream"*System.Net.WebResponse.GetResponseStream()*$
+"
+responseSystem.Net.WebResponse2GetResponseStream()ª
+∏
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csñ ñ(4
+
+dataStreamSystem.IO.Stream"__id*
+
+%5System.IO.Stream±Æ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csó ó(6
+%6System.IO.StreamReader"System.IO.StreamReaderÄ
+˝
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csó ó(*
+
+%7void"5System.IO.StreamReader.StreamReader(System.IO.Stream)*
+
+%6System.IO.StreamReader* 
+
+
+dataStreamSystem.IO.Stream√
+¿
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csó ó(6 
+readerSystem.IO.StreamReader"__id*
+
+%6System.IO.StreamReaderﬁ€
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csò  ò(2
+%8string""System.IO.StreamReader.ReadToEnd()*"
+ 
+readerSystem.IO.StreamReader2ReadToEnd()Ø
+¨
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csò ò(2
+responseFromServerstring"__id*
+
+%8string‘—
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csö ö(
+
+%9void"System.IO.StreamReader.Close()*"
+ 
+readerSystem.IO.StreamReader2Close()◊‘
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csõ õ(
+%10void"System.Net.WebResponse.Close()*$
+"
+responseSystem.Net.WebResponse2Close()é
+ã
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csù ù(7#
+%11Newtonsoft.Json.Linq.JObject"*Newtonsoft.Json.Linq.JObject.Parse(string)* "
+Newtonsoft.Json.Linq.JObject*
+
+responseFromServerstring—
+Œ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csù ù(7'
+jObjectNewtonsoft.Json.Linq.JObject"__id*%
+#
+%11Newtonsoft.Json.Linq.JObjectÓ
+Î
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csû û(:
+%12System.Version"2mojoPortal.Business.DatabaseHelper.DBCodeVersion()*&"$
+"mojoPortal.Business.DatabaseHelperæ
+ª
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csû û(E
+%13string"System.Version.ToString()*
+
+%12System.Version¨
+©
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csû û(E
+strSiteVersionstring"__id*
+
+%13string·
+ﬁ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csü' ü(9"
+%14Newtonsoft.Json.Linq.JToken"__mapGet*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*	
+version∂
+≥
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csü ü(9
+%15string"__id*$
+"
+%14Newtonsoft.Json.Linq.JTokenØ
+¨
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.csü ü(9
+strCurrentVersionstring"__id*
+
+%15string›
+⁄
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs†* †(8"
+%16Newtonsoft.Json.Linq.JToken"__mapGet*)
+'
+jObjectNewtonsoft.Json.Linq.JObject*
+url∂
+≥
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs†" †(8
+%17string"__id*$
+"
+%16Newtonsoft.Json.Linq.JToken≤
+Ø
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs† †(8
+strCurrentVersionUrlstring"__id*
+
+%17string÷
+”
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs¢	 ¢(5
+%18bool"!string.IsNullOrWhiteSpace(string)*
+"
+string*
+
+strCurrentVersionstring*
+6
+2*Œ	
+6v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs§	 ¶(„
+‡
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs§ §(:
+%19System.Version"System.Version.Parse(string)*"
+System.Version*
+
+strCurrentVersionstringº
+π
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs§	 §(: 
+currentVersionSystem.Version"__id*
+
+%19System.Version‡
+›
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs• •(4
+%20System.Version"System.Version.Parse(string)*"
+System.Version*
+
+strSiteVersionstringπ
+∂
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs•	 •(4
+siteVersionSystem.Version"__id*
+
+%20System.VersionÑ
+Å
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs¶	 ¶(
+%21bool":System.Version.operator !=(System.Version, System.Version)*"
+System.Version*"
+ 
+currentVersionSystem.Version*
+""*
+7
+2*á
+7v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs¶# ¶(6Å
+˛
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs¶# ¶(6
+%22bool":System.Version.operator !=(System.Version, System.Version)*"
+System.Version*
+
+siteVersionSystem.Version*
+""*
+8
+2*¢
+8v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs¶: ¶(Vú
+ô
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs¶: ¶(V
+%23bool"9System.Version.operator >(System.Version, System.Version)*"
+System.Version*"
+ 
+currentVersionSystem.Version*
+
+siteVersionSystem.Version*
+9
+2*·
+9v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs®
+ ®(8Ÿ
+÷
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs®
+ ®(9
+%24bool"!string.IsNullOrWhiteSpace(string)*
+"
+string* 
+
+strCurrentVersionUrlstring*
+10
+11*∆
+10v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs™ ™(:¡
+æ
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs™ ™(:
+strCurrentVersionUrlstring"__id*
+https://www.mojoportal.com*
+11*î
+11w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs≠ ≠(Çè
+å
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs≠ ≠((
+%25!System.Web.UI.WebControls.Literal"__id*b*`*
+(mojoPortal.Web.AdminUI.ServerInformation"2
+litUpdateInfo!System.Web.UI.WebControls.Literal•
+¢
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs≠) ≠(82
+%26+mojoPortal.Web.AdminUI.AdminDisplaySettings"__id*n*l*
+(mojoPortal.Web.AdminUI.ServerInformation">
+displaySettings+mojoPortal.Web.AdminUI.AdminDisplaySettingsã
+à
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs≠) ≠(R
+%27string"ImojoPortal.Web.AdminUI.AdminDisplaySettings.UpdateAvailableLinkMarkup.get*4
+2
+%26+mojoPortal.Web.AdminUI.AdminDisplaySettingsÀ
+»
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs≠j ≠(Ç
+%28string"&Resources.Resource.UpdateAvailable.get*"
+Resources.ResourceÇ
+ˇ
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs≠ ≠(É
+%29string"%string.Format(string, object, object)*
+"
+string*
+
+%27string* 
+
+strCurrentVersionUrlstring*
+
+%28stringÙ
+Ò
+w
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs≠ ≠(É
+%30string"*System.Web.UI.WebControls.Literal.Text.set**
+(
+%25!System.Web.UI.WebControls.Literal*
+
+%29string*
+2*ã
+2v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs± ±("ç
+v
+jD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Admin\ServerInformation.aspx.cs± ±(
+implicit returnB,*
+(mojoPortal.Web.AdminUI.ServerInformation

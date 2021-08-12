@@ -1,0 +1,423 @@
+
+1mojoPortal.Data.DBRssFeed.GetEntries(System.Guid)ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csà  à(*"0*ËC
+0ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cså ú(;Ä
+˝
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cså< å(f
+%0string":mojoPortal.Data.ConnectionString.GetReadConnectionString()*$""
+ mojoPortal.Data.ConnectionStringﬂ‹
+ã
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cså% å(é(
+%1"mojoPortal.Data.SqlParameterHelper""mojoPortal.Data.SqlParameterHelper–
+Õ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cså) å(;
+
+%2void"JmojoPortal.Data.SqlParameterHelper.SqlParameterHelper(string, string, int)**
+(
+%1"mojoPortal.Data.SqlParameterHelper*
+
+%0string*$"
+ mp_RssFeedEntries_SelectByModule*2Ó
+Î
+ã
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cså å(é)
+sph"mojoPortal.Data.SqlParameterHelper"__id**
+(
+%1"mojoPortal.Data.SqlParameterHelper§
+°
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csç2 ç(L
+%3"__id*
+""§
+°
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csçN ç(f
+%4"__id*
+""
+Ì
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csç ç(s
+
+%5void"|mojoPortal.Data.SqlParameterHelper.DefineSqlParameter(string, System.Data.SqlDbType, System.Data.ParameterDirection, object)*+
+)
+sph"mojoPortal.Data.SqlParameterHelper*
+@ModuleGuid*
+
+%3*
+
+%4*
+""ƒ¡
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csê" ê(1
+%6System.Data.DataTable"System.Data.DataTableﬁ
+€
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csê& ê(/
+
+%7void"!System.Data.DataTable.DataTable()*
+
+%6System.Data.DataTableŸ
+÷
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csê ê(1"
+	dataTableSystem.Data.DataTable"__id*
+
+%6System.Data.DataTableÅ
+˛
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csë ë(&
+%8 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*$
+"
+	dataTableSystem.Data.DataTableß
+§
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csë ë(8
+%9System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*(
+&
+%8 System.Data.DataColumnCollection*
+
+FeedId*
+""Ç
+ˇ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csí í('
+%10 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*$
+"
+	dataTableSystem.Data.DataTable´
+®
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csí í(=
+%11System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%10 System.Data.DataColumnCollection*
+
+FeedName*
+""Ç
+ˇ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csì ì('
+%12 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*$
+"
+	dataTableSystem.Data.DataTable™
+ß
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csì ì(>
+%13System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%12 System.Data.DataColumnCollection*	
+PubDate*
+""Ç
+ˇ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csî î('
+%14 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*$
+"
+	dataTableSystem.Data.DataTable©
+¶
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csî î(;
+%15System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%14 System.Data.DataColumnCollection*
+
+Author*
+""Ç
+ˇ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csï ï('
+%16 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*$
+"
+	dataTableSystem.Data.DataTable®
+•
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csï ï(:
+%17System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%16 System.Data.DataColumnCollection*	
+Title*
+""Ç
+ˇ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csñ ñ('
+%18 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*$
+"
+	dataTableSystem.Data.DataTableÆ
+´
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csñ ñ(@
+%19System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%18 System.Data.DataColumnCollection*
+Description*
+""Ç
+ˇ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csó ó('
+%20 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*$
+"
+	dataTableSystem.Data.DataTable™
+ß
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csó ó(<
+%21System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%20 System.Data.DataColumnCollection*	
+BlogUrl*
+""Ç
+ˇ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csò ò('
+%22 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*$
+"
+	dataTableSystem.Data.DataTableß
+§
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csò ò(9
+%23System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%22 System.Data.DataColumnCollection*
+Link*
+""Ç
+ˇ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csô ô('
+%24 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*$
+"
+	dataTableSystem.Data.DataTable¨
+©
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csô ô(<
+%25System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%24 System.Data.DataColumnCollection*
+	Confirmed*
+""Ç
+ˇ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csö ö('
+%26 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*$
+"
+	dataTableSystem.Data.DataTable¨
+©
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csö ö(;
+%27System.Data.DataColumn"9System.Data.DataColumnCollection.Add(string, System.Type)*)
+'
+%26 System.Data.DataColumnCollection*
+	EntryHash*
+""ë
+é
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csú( ú(;
+%28System.Data.IDataReader"2mojoPortal.Data.SqlParameterHelper.ExecuteReader()*+
+)
+sph"mojoPortal.Data.SqlParameterHelper€
+ÿ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csú ú(;!
+readerSystem.Data.IDataReader"__id* 
+
+%28System.Data.IDataReader*
+1*Ö
+1ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csû û($ÍÁ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csû û($
+%29bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*€2
+2ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs† ¨(*Ú
+Ô
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs†" †(4
+%30System.Data.DataRow"System.Data.DataTable.NewRow()*$
+"
+	dataTableSystem.Data.DataTable–
+Õ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs† †(4
+rowSystem.Data.DataRow"__id*
+
+%30System.Data.DataRowåâ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs°$ °(4
+%31object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+FeedId2this[string].getÔ
+Ï
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs° °(4
+%32object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+FeedIdéã
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¢& ¢(8
+%33object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+FeedName2this[string].getÒ
+Ó
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¢ ¢(8
+%34object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+FeedNameçä
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs£% £(6
+%35object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+PubDate2this[string].get
+Ì
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs£ £(6
+%36object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+PubDateåâ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs§$ §(4
+%37object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+Author2this[string].getÔ
+Ï
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs§ §(4
+%38object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+Authorãà
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs•# •(2
+%39object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Title2this[string].getÓ
+Î
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs• •(2
+%40object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+Titleëé
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¶) ¶(>
+%41object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Description2this[string].getÙ
+Ò
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¶ ¶(>
+%42object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+Descriptionçä
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csß% ß(6
+%43object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+BlogUrl2this[string].get
+Ì
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csß ß(6
+%44object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+BlogUrläá
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs®" ®(0
+%45object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Link2this[string].getÌ
+Í
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs® ®(0
+%46object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+Linkèå
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs©9 ©(L
+%47object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	Confirmed2this[string].get‰
+·
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs©' ©(M
+%48bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%47objectÚ
+Ô
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs© ©(M
+%49object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+	Confirmedèå
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs™' ™(:
+%50object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	EntryHash2this[string].getÚ
+Ô
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs™ ™(:
+%51object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+	EntryHash¸
+˘
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¨ ¨("$
+%52System.Data.DataRowCollection"System.Data.DataTable.Rows.get*$
+"
+	dataTableSystem.Data.DataTableÛ
+
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs¨ ¨(+
+%53void"
+__arrayAdd*&
+$
+%52System.Data.DataRowCollection*: *
+
+rowSystem.Data.DataRow*
+1*ï
+3ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csµ	 µ(	*
+4*∆
+4ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs± ±("≥
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.cs± ±($
+"
+	dataTableSystem.Data.DataTable*µ
+5ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csµ	 µ(	"¢
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Data.MSSQL\FeedManager\DBRssFeed.csµ µ(	
+implicit return:
+
+moduleGuidSystem.GuidB"
+mojoPortal.Data.DBRssFeed

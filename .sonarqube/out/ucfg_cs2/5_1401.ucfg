@@ -1,0 +1,465 @@
+
+ZmojoPortal.Business.ContentMetaRespository.LoadLinkListFromReader(System.Data.IDataReader)
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csö  ö(6"0*º
+0
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csú ú(J“œ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csú/ ú(J(
+%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>Á
+‰
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csú3 ú(H
+
+%1void")System.Collections.Generic.List<T>.List()**
+(
+%0"System.Collections.Generic.List<T>Ò
+Ó
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csú ú(J9
+contentMetaLinkList"System.Collections.Generic.List<T>"__id**
+(
+%0"System.Collections.Generic.List<T>*
+1*Ï
+1
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs† †(›⁄
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs† †(
+
+%2bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*›q
+2
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¢ ¥(,‘—
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¢' ¢(<)
+%3#mojoPortal.Business.ContentMetaLink"#mojoPortal.Business.ContentMetaLinkÙ
+Ò
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¢+ ¢(:
+
+%4void"5mojoPortal.Business.ContentMetaLink.ContentMetaLink()*+
+)
+%3#mojoPortal.Business.ContentMetaLinkÔ
+Ï
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¢ ¢(<6
+contentMetaLink#mojoPortal.Business.ContentMetaLink"__id*+
+)
+%3#mojoPortal.Business.ContentMetaLink˝˙
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs§% §(3
+%5object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Guid2this[string].get¡æ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs§% §(>
+%6string"object.ToString()*
+
+%5object2
+ToString()§°
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs§ §(?
+%7System.Guid"System.Guidœ
+Ã
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs§  §($
+
+%8void"System.Guid.Guid(string)*
+
+%7System.Guid*
+
+%6stringî
+ë
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs§ §(?
+%9System.Guid",mojoPortal.Business.ContentMetaLink.Guid.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%7System.GuidÇˇ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs•) •(;
+%10object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SiteGuid2this[string].get√¿
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs•) •(F
+%11string"object.ToString()*
+
+%10object2
+ToString()•¢
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs•  •(G
+%12System.Guid"System.Guid“
+œ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs•$ •((
+%13void"System.Guid.Guid(string)*
+
+%12System.Guid*
+
+%11stringö
+ó
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs• •(G
+%14System.Guid"0mojoPortal.Business.ContentMetaLink.SiteGuid.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%12System.GuidÑÅ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¶+ ¶(?
+%15object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ModuleGuid2this[string].get√¿
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¶+ ¶(J
+%16string"object.ToString()*
+
+%15object2
+ToString()•¢
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¶" ¶(K
+%17System.Guid"System.Guid“
+œ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¶& ¶(*
+%18void"System.Guid.Guid(string)*
+
+%17System.Guid*
+
+%16stringú
+ô
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¶ ¶(K
+%19System.Guid"2mojoPortal.Business.ContentMetaLink.ModuleGuid.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%17System.GuidÖÇ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csß, ß(A
+%20object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ContentGuid2this[string].get√¿
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csß, ß(L
+%21string"object.ToString()*
+
+%20object2
+ToString()•¢
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csß# ß(M
+%22System.Guid"System.Guid“
+œ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csß' ß(+
+%23void"System.Guid.Guid(string)*
+
+%22System.Guid*
+
+%21stringù
+ö
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csß ß(M
+%24System.Guid"3mojoPortal.Business.ContentMetaLink.ContentGuid.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%22System.Guid˝˙
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs® ®((
+%25object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Rel2this[string].get√¿
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs® ®(3
+%26string"object.ToString()*
+
+%25object2
+ToString()ã
+à
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs® ®(3
+%27string"+mojoPortal.Business.ContentMetaLink.Rel.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%26string˛˚
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs© ©(*
+%28object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Href2this[string].get√¿
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs© ©(5
+%29string"object.ToString()*
+
+%28object2
+ToString()å
+â
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs© ©(5
+%30string",mojoPortal.Business.ContentMetaLink.Href.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%29stringÇˇ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs™  ™(2
+%31object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+HrefLang2this[string].get√¿
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs™  ™(=
+%32string"object.ToString()*
+
+%31object2
+ToString()ê
+ç
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs™ ™(=
+%33string"0mojoPortal.Business.ContentMetaLink.HrefLang.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%32string˝˙
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs´ ´((
+%34object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Rev2this[string].get√¿
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs´ ´(3
+%35string"object.ToString()*
+
+%34object2
+ToString()ã
+à
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs´ ´(3
+%36string"+mojoPortal.Business.ContentMetaLink.Rev.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%35string˛˚
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¨ ¨(*
+%37object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Type2this[string].get√¿
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¨ ¨(5
+%38string"object.ToString()*
+
+%37object2
+ToString()å
+â
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¨ ¨(5
+%39string",mojoPortal.Business.ContentMetaLink.Type.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%38stringˇ¸
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs≠ ≠(,
+%40object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Media2this[string].get√¿
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs≠ ≠(7
+%41string"object.ToString()*
+
+%40object2
+ToString()ç
+ä
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs≠ ≠(7
+%42string"-mojoPortal.Business.ContentMetaLink.Media.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%41stringÇˇ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csÆ0 Æ(B
+%43object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SortRank2this[string].get’
+“
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csÆ  Æ(C
+
+%44int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%43objectä
+á
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csÆ Æ(C
+
+%45int"0mojoPortal.Business.ContentMetaLink.SortRank.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+
+%44intÑÅ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csØ5 Ø(I
+%46object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CreatedUtc2this[string].get‰
+·
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csØ" Ø(J
+%47System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%46object§
+°
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csØ Ø(J
+%48System.DateTime"2mojoPortal.Business.ContentMetaLink.CreatedUtc.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%47System.DateTimeÉÄ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs∞* ∞(=
+%49object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	CreatedBy2this[string].get√¿
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs∞* ∞(H
+%50string"object.ToString()*
+
+%49object2
+ToString()•¢
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs∞! ∞(I
+%51System.Guid"System.Guid“
+œ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs∞% ∞()
+%52void"System.Guid.Guid(string)*
+
+%51System.Guid*
+
+%50stringõ
+ò
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs∞ ∞(I
+%53System.Guid"1mojoPortal.Business.ContentMetaLink.CreatedBy.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%51System.GuidÑÅ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs±5 ±(I
+%54object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+LastModUtc2this[string].get‰
+·
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs±" ±(J
+%55System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%54object§
+°
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs± ±(J
+%56System.DateTime"2mojoPortal.Business.ContentMetaLink.LastModUtc.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%55System.DateTimeÉÄ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs≤* ≤(=
+%57object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	LastModBy2this[string].get√¿
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs≤* ≤(H
+%58string"object.ToString()*
+
+%57object2
+ToString()•¢
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs≤! ≤(I
+%59System.Guid"System.Guid“
+œ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs≤% ≤()
+%60void"System.Guid.Guid(string)*
+
+%59System.Guid*
+
+%58stringõ
+ò
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs≤ ≤(I
+%61System.Guid"1mojoPortal.Business.ContentMetaLink.LastModBy.set*8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+
+%59System.Guidò
+ï
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.cs¥ ¥(-
+%62void"
+__arrayAdd*;
+9
+contentMetaLinkList"System.Collections.Generic.List<T>*: *8
+6
+contentMetaLink#mojoPortal.Business.ContentMetaLink*
+1*â
+3
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csΩ Ω(*
+4*Ô
+4
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csπ π(‡›
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csπ π(
+%63void"System.Data.IDataReader.Close()*#
+!
+readerSystem.Data.IDataReader2Close()*
+5
+6*≈
+5
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csº
+ º("æ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csº º(;
+9
+contentMetaLinkList"System.Collections.Generic.List<T>*ù
+6
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csΩ Ω("ñ
+
+sD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Business\ContentMetaRepository.csΩ Ω(
+implicit return:!
+readerSystem.Data.IDataReaderB.,
+*mojoPortal.Business.ContentMetaRespository

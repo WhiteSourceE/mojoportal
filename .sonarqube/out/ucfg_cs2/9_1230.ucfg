@@ -1,0 +1,425 @@
+
+8mojoPortal.Web.Services.PayPalIPNHandler.HandleRequest()v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs, ,(""0*Û
+0v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs. .(,®
+«
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs.  .(,
+%0string"__id**
+string"
+Emptystring§
+¤
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs. .(,
+
+formValuesstring"__id*
+
+%0string*
+1*Â(
+1v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs4 <(2Ñ
+Î
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs4= 4(D
+%1System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Pageö
+ó
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs4= 4(I8
+%22System.Collections.Specialized.NameValueCollection"System.Web.HttpRequest.Form.get*
+
+%1System.Web.HttpRequestÝ
+Ú
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs4= 4(S
+%3string"
+__arrayGet*:
+8
+%22System.Collections.Specialized.NameValueCollection*
+
+txn_id¬
+©
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs4= 4(^
+%4string"string.ToString()*
+
+%3stringß
+Ü
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs4' 4(_
+%5string"(System.Web.HttpUtility.UrlDecode(string)*"
+System.Web.HttpUtility*
+
+%4stringª
+§
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs4 4(_
+transactionIdstring"__id*
+
+%5stringÑ
+Î
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs56 5(=
+%6System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Pageö
+ó
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs56 5(B8
+%72System.Collections.Specialized.NameValueCollection"System.Web.HttpRequest.Form.get*
+
+%6System.Web.HttpRequestÝ
+Ú
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs56 5(L
+%8string"
+__arrayGet*:
+8
+%72System.Collections.Specialized.NameValueCollection*
+
+custom¬
+©
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs56 5(W
+%9string"string.ToString()*
+
+%8stringà
+Ý
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs5  5(X
+%10string"(System.Web.HttpUtility.UrlDecode(string)*"
+System.Web.HttpUtility*
+
+%9string¤
+¡
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs5 5(X
+customstring"__id*
+
+%10stringÒ
+Ï
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs7  7('
+%11System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.PageÚ
+×
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs73 7(F
+%12System.Web.HttpContext""System.Web.HttpContext.Current.get*"
+System.Web.HttpContextß
+Ü
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs73 7(N
+%13System.Web.HttpRequest""System.Web.HttpContext.Request.get*
+
+%12System.Web.HttpContextÒ
+Ï
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs73 7(\
+
+%14int"(System.Web.HttpRequest.ContentLength.get*
+
+%13System.Web.HttpRequestá
+Þ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs7  7(]
+%15byte[]"&System.Web.HttpRequest.BinaryRead(int)*
+
+%11System.Web.HttpRequest*
+
+
+%14int¤
+¡
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs7 7(]
+bufferbyte[]"__id*
+
+%15byte[]Ò
+Ï
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs8 8(7
+%16System.Text.Encoding"System.Text.Encoding.ASCII.get*"
+System.Text.Encodingøõ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs8 8(I
+%17string"&System.Text.Encoding.GetString(byte[])*
+
+%16System.Text.Encoding*
+
+bufferbyte[]2GetString(byte[])¨
+¥
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs8 8(I
+
+formValuesstring"__id*
+
+%17string‰
+†
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs:" :(4
+%18string"7mojoPortal.Web.Services.PayPalIPNHandler.Verify(string)*,*
+(mojoPortal.Web.Services.PayPalIPNHandler*
+
+
+formValuesstring¦
+£
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs: :(4
+responsestring"__id*
+
+%18stringÇ
+Ä
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs< <(3
+%19bool"string.StartsWith(string)*
+
+responsestring*
+
+VERIFIED*
+2
+3*ü
+2v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs? @(+
+
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs?3 ?(=
+%20"__id*
+""²
+¯
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs? ?(=&
+standardCheckoutLogGuidSystem.Guid"__id*
+
+%20®
+«
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs@ @(%
+
+%21int"string.Length.get*
+
+customstring*
+4
+5*°
+4v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csB B(Aœ™
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csB2 B(B
+%22System.Guid"System.GuidÌ
+É
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csB6 B(:
+%23void"System.Guid.Guid(string)*
+
+%22System.Guid*
+
+customstring¿
+¼
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csB B(B&
+standardCheckoutLogGuidSystem.Guid"__id*
+
+%22System.Guid*
+5*Ò	
+5v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csE I(4À½
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csE4 E(Z$
+%24mojoPortal.Business.PayPalLog"mojoPortal.Business.PayPalLog
+
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csE8 E(A
+%25void"4mojoPortal.Business.PayPalLog.PayPalLog(System.Guid)*&
+$
+%24mojoPortal.Business.PayPalLog*(
+&
+standardCheckoutLogGuidSystem.Guidß
+Ü
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csE E(Z4
+standardCheckoutLogmojoPortal.Business.PayPalLog"__id*&
+$
+%24mojoPortal.Business.PayPalLog™
+–
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csG G('
+resultbool"__id*
+""ø
+õ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csI I(4
+%26bool""object.operator !=(object, object)*
+"
+object*6
+4
+standardCheckoutLogmojoPortal.Business.PayPalLog*
+""*
+6
+7*©
+6v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csI: I(hõ
+ò
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csI: I(]
+%27string"1mojoPortal.Business.PayPalLog.IPNProviderName.get*6
+4
+standardCheckoutLogmojoPortal.Business.PayPalLog«
+¨
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csI: I(d
+
+%28int"string.Length.get*
+
+%27string*
+8
+7*‰
+8v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csK1 N(,„
+
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csL L(GW
+%29PmojoPortal.Business.WebHelpers.PaymentGateway.PayPalIPNHandlerProviderCollection"[mojoPortal.Business.WebHelpers.PaymentGateway.PayPalIPNHandlerProviderManager.Providers.get*Q"O
+MmojoPortal.Business.WebHelpers.PaymentGateway.PayPalIPNHandlerProviderManagerõ
+ò
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csLH L(k
+%30string"1mojoPortal.Business.PayPalLog.IPNProviderName.get*6
+4
+standardCheckoutLogmojoPortal.Business.PayPalLogÂ
+¿
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csL L(lM
+%31FmojoPortal.Business.WebHelpers.PaymentGateway.PayPalIPNHandlerProvider"
+__arrayGet*Y
+W
+%29PmojoPortal.Business.WebHelpers.PaymentGateway.PayPalIPNHandlerProviderCollection*
+
+%30string¦
+£
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csK1 L(lR
+providerFmojoPortal.Business.WebHelpers.PaymentGateway.PayPalIPNHandlerProvider"__id*O
+M
+%31FmojoPortal.Business.WebHelpers.PaymentGateway.PayPalIPNHandlerProvider–
+“
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csN N(,
+%32bool""object.operator !=(object, object)*
+"
+object*T
+R
+providerFmojoPortal.Business.WebHelpers.PaymentGateway.PayPalIPNHandlerProvider*
+""*
+9
+7*–
+
+9v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csP S(3Ò
+Ï
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csR  R('
+%33System.Web.HttpRequest"System.Web.UI.Page.Request.get*
+System.Web.UI.Pageø
+õ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csR  R(,9
+%342System.Collections.Specialized.NameValueCollection"System.Web.HttpRequest.Form.get*
+
+%33System.Web.HttpRequest 
+
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csP% S(4
+%35bool"¯mojoPortal.Business.WebHelpers.PaymentGateway.PayPalIPNHandlerProvider.HandleRequest(string, System.Collections.Specialized.NameValueCollection, mojoPortal.Business.PayPalLog)*T
+R
+providerFmojoPortal.Business.WebHelpers.PaymentGateway.PayPalIPNHandlerProvider*
+
+transactionIdstring*;
+9
+%342System.Collections.Specialized.NameValueCollection*6
+4
+standardCheckoutLogmojoPortal.Business.PayPalLog 
+
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csP S(4
+resultbool"__id*
+
+%35bool*
+7*£
+3v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csr t("Ô
+Ñ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csr r(
+%36System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+System.Web.UI.Page
+
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csr/ r(K
+%37"__id*
+""‘
+Ž
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csr* r(K
+%38"__id*
+
+%37Ú
+×
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csr r(K
+
+%39int"&System.Web.HttpResponse.StatusCode.set* 
+
+%36System.Web.HttpResponse*
+
+%38Ô
+Ñ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.css s(
+%40System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+System.Web.UI.PageË
+È
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.css s($
+%41void"System.Web.HttpResponse.Flush()* 
+
+%40System.Web.HttpResponseÔ
+Ñ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cst t(
+%42System.Web.HttpResponse"System.Web.UI.Page.Response.get*
+System.Web.UI.PageÉ
+Æ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cst t("
+%43void"System.Web.HttpResponse.End()* 
+
+%42System.Web.HttpResponse*
+7*…
+7v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs|	 |(	*
+10
+11*ƒ
+10v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csy y((Û
+Ø
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csy y(
+%44log4net.ILog"__id*C*A*
+(mojoPortal.Web.Services.PayPalIPNHandler"
+loglog4net.ILog 
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.csy y()
+%45void",log4net.ILog.Error(object, System.Exception)*
+
+%44log4net.ILog*
+
+
+formValuesstring*
+
+exSystem.Exception2Error(object, System.Exception)*
+11*Œ
+11v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs|	 |(	"
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Services\PayPalIPNHandler.aspx.cs| |(	
+implicit returnB,*
+(mojoPortal.Web.Services.PayPalIPNHandler

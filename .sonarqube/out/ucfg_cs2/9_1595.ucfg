@@ -1,0 +1,130 @@
+
+=mojoPortal.Web.channel.ProcessRequest(System.Web.HttpContext)d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (""0*Ò
+0d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (bÒ
+Ï
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (
+%0System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÐ
+Í
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (6
+%1string"'System.Web.HttpResponse.ContentType.set*
+
+%0System.Web.HttpResponse*
+	text/htmlÒ
+Ï
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (
+%2System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÏ
+Ì
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (" 
+%3System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get*
+
+%2System.Web.HttpResponse|
+z
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs3 (J
+%4"__id*
+""ê
+ç
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (K
+
+%5void"GSystem.Web.HttpCachePolicy.SetCacheability(System.Web.HttpCacheability)*"
+ 
+%3System.Web.HttpCachePolicy*
+
+%4Ò
+Ï
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (
+%6System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÏ
+Ì
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (" 
+%7System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get*
+
+%6System.Web.HttpResponse®
+«
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs. (:
+%8System.DateTime"System.DateTime.Now.get*"
+System.DateTimeÇ
+Ä
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs? (M
+%9System.TimeSpan"__id*?*=
+mojoPortal.Web.channel"!
+CACHE_DURATIONSystem.TimeSpanÙ
+Ö
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs. (N
+%10System.DateTime"$System.DateTime.Add(System.TimeSpan)*
+
+%8System.DateTime*
+
+%9System.TimeSpanì
+é
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (O
+%11void"6System.Web.HttpCachePolicy.SetExpires(System.DateTime)*"
+ 
+%7System.Web.HttpCachePolicy*
+
+%10System.DateTimeÓ
+Ð
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (
+%12System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContextÑ
+Î
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs ("!
+%13System.Web.HttpCachePolicy"!System.Web.HttpResponse.Cache.get* 
+
+%12System.Web.HttpResponseÈ
+Å
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs- (;
+%14System.TimeSpan"__id*?*=
+mojoPortal.Web.channel"!
+CACHE_DURATIONSystem.TimeSpanì
+é
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (<
+%15void"5System.Web.HttpCachePolicy.SetMaxAge(System.TimeSpan)*#
+!
+%13System.Web.HttpCachePolicy*
+
+%14System.TimeSpanÓ
+Ð
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (
+%16System.Web.HttpResponse"#System.Web.HttpContext.Response.get*#
+!
+contextSystem.Web.HttpContext€
+ý
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (c
+%17void"%System.Web.HttpResponse.Write(string)* 
+
+%16System.Web.HttpResponse*?=
+;<script src="//connect.facebook.net/en_US/all.js"></script>*
+1*æ
+1d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs	 (	"{
+d
+ZD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\channel.ashx.cs (	
+implicit return:!
+contextSystem.Web.HttpContextB
+mojoPortal.Web.channel

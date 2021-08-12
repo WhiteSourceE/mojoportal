@@ -1,0 +1,648 @@
+
+6mojoPortal.Web.Framework.CssMinify.Minify(string, int)v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs (#"0*Ë
+0v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs   (+Ä
+˝
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs   ( "
+%0System.Collections.Hashtable"__id*Y*W$
+"mojoPortal.Web.Framework.CssMinify"/
+shortColorNamesSystem.Collections.Hashtableﬂ‹
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs   (&	
+%1int"&System.Collections.Hashtable.Count.get*$
+"
+%0System.Collections.Hashtable2	Count.get*
+1
+2*Á
+1v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs 1  (Jˇ
+¸
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs 1  (?"
+%2System.Collections.Hashtable"__id*X*V$
+"mojoPortal.Web.Framework.CssMinify".
+shortHexColorsSystem.Collections.Hashtableﬂ‹
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs 1  (E	
+%3int"&System.Collections.Hashtable.Count.get*$
+"
+%2System.Collections.Hashtable2	Count.get*
+3
+2*Ó
+3v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs$ $(%Â
+‚
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs$ $(%
+
+%4void"4mojoPortal.Web.Framework.CssMinify.createHashTable()*&"$
+"mojoPortal.Web.Framework.CssMinify*	
+4
+2
+5*á
+4v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs( (("â
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs( ((
+
+cssstring*Öö
+2v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs+ o(«
+ƒ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs+ +(L<
+rgbDelegate-System.Text.RegularExpressions.MatchEvaluator"__id*
+""“
+œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs, ,(bG
+shortColorNameDelegate-System.Text.RegularExpressions.MatchEvaluator"__id*
+""—
+Œ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs- -(`F
+shortColorHexDelegate-System.Text.RegularExpressions.MatchEvaluator"__id*
+""Ç
+ˇ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs. .(*
+%5string">mojoPortal.Web.Framework.CssMinify.RemoveCommentBlocks(string)*&"$
+"mojoPortal.Web.Framework.CssMinify*
+
+cssstring†
+ù
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs. .(*
+cssstring"__id*
+
+%5stringö
+ó
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs/ /(1
+%6string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*
+\s+*
+ †
+ù
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs/ /(1
+cssstring"__id*
+
+%6stringƒ
+¡
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs0 0([
+%7string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*
+\x22\x5C\x22}\x5C\\x22\x22*
+___PSEUDOCLASSBMH___†
+ù
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs0 0([
+cssstring"__id*
+
+%7string‚
+ﬂ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs: :(y
+%8string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*NL
+J(?#no preceding space needed)\s+((?:[!{};>+)\],])|(?<={[^{}]*):(?=[^}]*}))*
+$1†
+ù
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs: :(y
+cssstring"__id*
+
+%8string©
+¶
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs= =(@
+%9string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*
+([!{}:;>+([,])\s+*
+$1†
+ù
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs= =(@
+cssstring"__id*
+
+%9string£
+†
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs> >(9
+%10string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*
+
+([^;}])}*
+$1;}°
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs> >(9
+cssstring"__id*
+
+%10string≈
+¬
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs? ?([
+%11string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*.,
+*(\d+)\.0+(p(?:[xct])|(?:[cem])m|%|in|ex)\b*
+$1$2°
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs? ?([
+cssstring"__id*
+
+%11string¬
+ø
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs@ @(X
+%12string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*+)
+'([\s:])(0)(px|em|%|in|cm|mm|pc|pt|ex)\b*
+$1$2°
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs@ @(X
+cssstring"__id*
+
+%12string≥
+∞
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csC C(I
+%13string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*
+(?<=font-weight:)normal\b*
+400°
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csC C(I
+cssstring"__id*
+
+%13string±
+Æ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csD D(G
+%14string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*
+(?<=font-weight:)bold\b*
+700°
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csD D(G
+cssstring"__id*
+
+%14stringÜ
+É
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csF F(-
+%15string"AmojoPortal.Web.Framework.CssMinify.ShortHandAllProperties(string)*&"$
+"mojoPortal.Web.Framework.CssMinify*
+
+cssstring°
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csF F(-
+cssstring"__id*
+
+%15stringí
+è
+x
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csI° I(∏
+%16"__id*
+""¡
+æ
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csI I(π
+%17string"qSystem.Text.RegularExpressions.Regex.Replace(string, string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*sq
+o(?<!background-position\s*):\s*(inherit|auto|0|(?:(?:\d*\.?\d+(?:p(?:[xct])|(?:[cem])m|%|in|ex))))(\s+\1){1,3};*
+:$1;*
+
+%16¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csI I(π
+cssstring"__id*
+
+%17stringí
+è
+x
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csKÀ K(‚
+%18"__id*
+""Ó
+Î
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csK K(„
+%19string"qSystem.Text.RegularExpressions.Regex.Replace(string, string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*üú
+ô:\s*((inherit|auto|0|(?:(?:\d*\.?\d+(?:p(?:[xct])|(?:[cem])m|%|in|ex))))\s+(inherit|auto|0|(?:(?:\d?\.?\d(?:p(?:[xct])|(?:[cem])m|%|in|ex)))))\s+\2\s+\3;*
+:$1;*
+
+%18¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csK K(„
+cssstring"__id*
+
+%19stringí
+è
+x
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csMá M(û
+%20"__id*
+""™
+ß
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csM M(ü
+%21string"qSystem.Text.RegularExpressions.Regex.Replace(string, string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*€ÿ
+’:\s*((?:(?:inherit|auto|0|(?:(?:\d*\.?\d+(?:p(?:[xct])|(?:[cem])m|%|in|ex))))\s+)?(inherit|auto|0|(?:(?:\d?\.?\d(?:p(?:[xct])|(?:[cem])m|%|in|ex))))\s+(?:0|(?:(?:\d?\.?\d(?:p(?:[xct])|(?:[cem])m|%|in|ex)))))\s+\2;*
+:$1;*
+
+%20¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csM M(ü
+cssstring"__id*
+
+%21string≈
+¬
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csP P(Z
+%22string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*
+background-position:0;*
+background-position:0 0;°
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csP P(Z
+cssstring"__id*
+
+%22string´
+®
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csQ Q(A
+%23string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*
+(:|\s)0+\.(\d+)*	
+$1.$2°
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csQ Q(A
+cssstring"__id*
+
+%23stringí
+è
+x
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csS™ S(¡
+%24"__id*
+"" 
+«
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csS S(¬
+%25string"qSystem.Text.RegularExpressions.Regex.Replace(string, string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*tr
+p(outline|border)-style\s*:\s*(none|hidden|d(?:otted|ashed|ouble)|solid|groove|ridge|inset|outset)(?:\s+\2){1,3};*
+$1-style:$2;*
+
+%24¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csS S(¬
+cssstring"__id*
+
+%25stringí
+è
+x
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csU¯ U(è
+%26"__id*
+""õ
+ò
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csU U(ê
+%27string"qSystem.Text.RegularExpressions.Regex.Replace(string, string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*ƒ¡
+æ(outline|border)-style\s*:\s*((none|hidden|d(?:otted|ashed|ouble)|solid|groove|ridge|inset|outset)\s+(none|hidden|d(?:otted|ashed|ouble)|solid|groove|ridge|inset|outset ))(?:\s+\3)(?:\s+\4);*
+$1-style:$2;*
+
+%26¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csU U(ê
+cssstring"__id*
+
+%27stringí
+è
+x
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csW¿ W(◊
+%28"__id*
+""„
+‡
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csW W(ÿ
+%29string"qSystem.Text.RegularExpressions.Regex.Replace(string, string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*åâ
+Ü(outline|border)-style\s*:\s*((?:(?:none|hidden|d(?:otted|ashed|ouble)|solid|groove|ridge|inset|outset)\s+)?(none|hidden|d(?:otted|ashed|ouble)|solid|groove|ridge|inset|outset )\s+(?:none|hidden|d(?:otted|ashed|ouble)|solid|groove|ridge|inset|outset ))(?:\s+\3);*
+$1-style:$2;*
+
+%28¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csW W(ÿ
+cssstring"__id*
+
+%29stringí
+è
+x
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csYÒ Y(à
+%30"__id*
+""î
+ë
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csY Y(â
+%31string"qSystem.Text.RegularExpressions.Regex.Replace(string, string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*Ω∫
+∑(outline|border)-style\s*:\s*((none|hidden|d(?:otted|ashed|ouble)|solid|groove|ridge|inset|outset)\s+(?:none|hidden|d(?:otted|ashed|ouble)|solid|groove|ridge|inset|outset ))(?:\s+\3);*
+$1-style:$2;*
+
+%30¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csY Y(â
+cssstring"__id*
+
+%31stringí
+è
+x
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs\Ü \(ù
+%32"__id*
+""¶
+£
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs\ \(û
+%33string"qSystem.Text.RegularExpressions.Regex.Replace(string, string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*PN
+L(outline|border)-color\s*:\s*((?:\#(?:[0-9A-F]{3}){1,2})|\S+)(?:\s+\2){1,3};*
+$1-color:$2;*
+
+%32¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs\ \(û
+cssstring"__id*
+
+%33stringí
+è
+x
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs^Ø ^(∆
+%34"__id*
+""œ
+Ã
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs^ ^(«
+%35string"qSystem.Text.RegularExpressions.Regex.Replace(string, string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*yw
+u(outline|border)-color\s*:\s*(((?:\#(?:[0-9A-F]{3}){1,2})|\S+)\s+((?:\#(?:[0-9A-F]{3}){1,2})|\S+))(?:\s+\3)(?:\s+\4);*
+$1-color:$2;*
+
+%34¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs^ ^(«
+cssstring"__id*
+
+%35stringí
+è
+x
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs`“ `(È
+%36"__id*
+""ı
+Ú
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs` `(Í
+%37string"qSystem.Text.RegularExpressions.Regex.Replace(string, string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*ûõ
+ò(outline|border)-color\s*:\s*((?:(?:(?:\#(?:[0-9A-F]{3}){1,2})|\S+)\s+)?((?:\#(?:[0-9A-F]{3}){1,2})|\S+)\s+(?:(?:\#(?:[0-9A-F]{3}){1,2})|\S+))(?:\s+\3);*
+$1-color:$2;*
+
+%36¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cs` `(Í
+cssstring"__id*
+
+%37stringñ
+ì
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csd d(–
+%38string"kSystem.Text.RegularExpressions.Regex.Replace(string, string, System.Text.RegularExpressions.MatchEvaluator)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*†ù
+örgb\s*\x28((?:25[0-5])|(?:2[0-4]\d)|(?:[01]?\d?\d))\s*,\s*((?:25[0-5])|(?:2[0-4]\d)|(?:[01]?\d?\d))\s*,\s*((?:25[0-5])|(?:2[0-4]\d)|(?:[01]?\d?\d))\s*\x29*>
+<
+rgbDelegate-System.Text.RegularExpressions.MatchEvaluator¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csd d(–
+cssstring"__id*
+
+%38stringë
+é
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csez e(ë
+%39"__id*
+""ö
+ó
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cse e(í
+%40string"qSystem.Text.RegularExpressions.Regex.Replace(string, string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*IG
+E(?<![\x22\x27=]\s*)\#(?:([0-9A-F])\1)(?:([0-9A-F])\2)(?:([0-9A-F])\3)*	
+#$1$2$3*
+
+%39¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cse e(í
+cssstring"__id*
+
+%40stringê
+ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csgS g(j
+%41"__id*
+""Ú
+Ô
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csg g(k
+%42string"qSystem.Text.RegularExpressions.Regex.Replace(string, string, string, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*&$
+"(?<=color\s*:\s*.*)\#(?<hex>f00)\b*
+red*
+
+%41°
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csg g(k
+cssstring"__id*
+
+%42stringë
+é
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cshj h(Å
+%43"__id*
+""„
+‡
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csh h(Ç
+%44string"òSystem.Text.RegularExpressions.Regex.Replace(string, string, System.Text.RegularExpressions.MatchEvaluator, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*,*
+((?<=color\s*:\s*.*)\#(?<hex>[0-9a-f]{6})*I
+G
+shortColorNameDelegate-System.Text.RegularExpressions.MatchEvaluator*
+
+%43¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csh h(Ç
+cssstring"__id*
+
+%44stringí
+è
+x
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csiå i(£
+%45"__id*
+""Ö
+Ç
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csi i(§
+%46string"òSystem.Text.RegularExpressions.Regex.Replace(string, string, System.Text.RegularExpressions.MatchEvaluator, System.Text.RegularExpressions.RegexOptions)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*OM
+K(?<=color\s*:\s*)\b(Black|Fuchsia|LightSlateGr[ae]y|Magenta|White|Yellow)\b*H
+F
+shortColorHexDelegate-System.Text.RegularExpressions.MatchEvaluator*
+
+%45¢
+ü
+w
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csi i(§
+cssstring"__id*
+
+%46stringù
+ö
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csl l(5
+%47string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*
+
+[^}]+{;}* °
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csl l(5
+cssstring"__id*
+
+%47stringù
+ö
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csn n(2
+%48string"DSystem.Text.RegularExpressions.Regex.Replace(string, string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+cssstring*
+;(})*
+$1°
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csn n(2
+cssstring"__id*
+
+%48string*
+6
+7*Æ
+6v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csq q(1á
+Ñ
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csq q(2
+%49string":mojoPortal.Web.Framework.CssMinify.BreakLines(string, int)*&"$
+"mojoPortal.Web.Framework.CssMinify*
+
+cssstring*
+""°
+û
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.csq q(2
+cssstring"__id*
+
+%49string*
+7*á
+7v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.css s("â
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.css s(
+
+cssstring*ã
+5v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cst	 t(	"ç
+v
+lD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Web.Framework\CssMinify.cst t(	
+implicit return:
+cssstring:
+columnWidthintB&"$
+"mojoPortal.Web.Framework.CssMinify

@@ -1,0 +1,1887 @@
+
+_mojoPortal.Business.Blog.GetBlogEntriesByCategory(int, int, System.DateTime, int, int, out int)|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs‚ ‚(0"0*Ω
+0}
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÍ Ó(Ç±Æ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÍ Í("
+%0System.Data.DataSet"System.Data.DataSet…
+∆
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÍ Í( 
+
+%1void"System.Data.DataSet.DataSet()*
+
+%0System.Data.DataSetƒ
+¡
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÍ Í("
+dataSetSystem.Data.DataSet"__id*
+
+%0System.Data.DataSetÔ
+Ï
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÏ Ï(-
+%2System.Data.DataTable"1mojoPortal.Business.Blog.GetPostsTableStructure()*"
+mojoPortal.Business.Blog∆
+√
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÏ Ï(-
+postsSystem.Data.DataTable"__id*
+
+%2System.Data.DataTable‚
+ﬂ
+}
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÓ Ó(É
+%3System.Data.IDataReader"YmojoPortal.Data.DBBlog.GetEntriesByCategory(int, int, System.DateTime, int, int, out int)*"
+mojoPortal.Data.DBBlog*
+""*
+""* 
+
+currentTimeSystem.DateTime*
+""*
+""*
+""Ã
+…
+}
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÓ Ó(É!
+readerSystem.Data.IDataReader"__id*
+
+%3System.Data.IDataReader*
+1*Ê
+1|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs (⁄◊
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs (
+
+%4bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+2
+3*πv
+2|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÛ ë(1ﬁ
+€
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÛ Û(!
+%5System.Data.DataRow"System.Data.DataTable.NewRow()* 
+
+postsSystem.Data.DataTable¿
+Ω
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÛ Û(!
+rowSystem.Data.DataRow"__id*
+
+%5System.Data.DataRow¸˘
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csˆ% ˆ(5
+%6object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ItemID2this[string].get–
+Õ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csˆ ˆ(6	
+%7int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%6objectﬂ
+‹
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csˆ ˆ(6
+%8object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+ItemID˛˚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˜' ˜(9
+%9object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ModuleID2this[string].get—
+Œ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˜ ˜(:
+
+%10int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%9object‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˜ ˜(:
+%11object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+ModuleIDˇ¸
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¯ ¯()
+%12object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+BlogGuid2this[string].get¿Ω
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¯ ¯(4
+%13string"object.ToString()*
+
+%12object2
+ToString()‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¯ ¯(4
+%14object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+BlogGuidÇˇ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˘- ˘(B
+%15object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+CreatedDate2this[string].get·
+ﬁ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˘ ˘(C
+%16System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%15objectÂ
+‚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˘ ˘(C
+%17object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+CreatedDate˛˚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˙ ˙('
+%18object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Heading2this[string].get·
+ﬁ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˙ ˙('
+%19object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+Headingˇ¸
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˚ ˚()
+%20object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+SubTitle2this[string].get‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˚ ˚()
+%21object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+SubTitleÄ˝
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¸+ ¸(>
+%22object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	StartDate2this[string].get·
+ﬁ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¸ ¸(?
+%23System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%22object„
+‡
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¸ ¸(?
+%24object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+	StartDateÇˇ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˝ ˝(/
+%25object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Description2this[string].getÂ
+‚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˝ ˝(/
+%26object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+Descriptionˇ¸
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˛ ˛()
+%27object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+Abstract2this[string].get‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˛ ˛()
+%28object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+Abstract˛˚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csˇ ˇ('
+%29object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+ItemUrl2this[string].get·
+ﬁ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csˇ ˇ('
+%30object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+ItemUrlˇ¸
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÄ Ä()
+%31object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+Location2this[string].get‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÄ Ä()
+%32object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+LocationÉÄ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÅ Å(1
+%33object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+MetaKeywords2this[string].getÊ
+„
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÅ Å(1
+%34object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+MetaKeywordsÜÉ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÇ Ç(7
+%35object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+MetaDescription2this[string].getÈ
+Ê
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÇ Ç(7
+%36object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+MetaDescriptionÅ˛
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÉ, É(@
+%37object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+LastModUtc2this[string].get·
+ﬁ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÉ É(A
+%38System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
+
+%37object‰
+·
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÉ É(A
+%39object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+LastModUtcÂ
+‚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÑ Ñ(
+%40object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+IsPublishedÑÅ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÖ. Ö(E
+%41object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+IncludeInFeed2this[string].get’
+“
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÖ Ö(F
+%42bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%41objectÁ
+‰
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÖ Ö(F
+%43object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+IncludeInFeedÉÄ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÜ+ Ü(A
+%44object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+CommentCount2this[string].get“
+œ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÜ Ü(B
+
+%45int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%44objectÊ
+„
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÜ Ü(B
+%46object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+CommentCount˝˙
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csá% á(5
+%47object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UserID2this[string].get“
+œ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csá á(6
+
+%48int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%47object‡
+›
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csá á(6
+%49object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+UserID˚¯
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csà à(!
+%50object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+Name2this[string].getﬁ
+€
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csà à(!
+%51object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+NameÄ˝
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csâ â(+
+%52object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	FirstName2this[string].get„
+‡
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csâ â(+
+%53object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+	FirstNameˇ¸
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csä ä()
+%54object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+LastName2this[string].get‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csä ä()
+%55object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+LastNameÄ˝
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csã ã(+
+%56object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	LoginName2this[string].get„
+‡
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csã ã(+
+%57object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+	LoginName¸˘
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cså å(#
+%58object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+Email2this[string].getﬂ
+‹
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cså å(#
+%59object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+EmailÄ˝
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csç ç(+
+%60object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	AvatarUrl2this[string].get„
+‡
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csç ç(+
+%61object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+	AvatarUrlÄ˝
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csé é(+
+%62object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	AuthorBio2this[string].get„
+‡
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csé é(+
+%63object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+	AuthorBioÖÇ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csë	 ë(!
+%64object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowAuthorName2this[string].get 
+«
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csë% ë(1
+%65System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÁ
+‰
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csë	 ë(1
+%66bool""object.operator !=(object, object)*
+"
+object*
+
+%64object*
+
+%65System.DBNull*
+4
+5*—
+4|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csì ì(GÖÇ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csì0 ì(H
+%67object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowAuthorName2this[string].get’
+“
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csì ì(I
+%68bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%67objectË
+Â
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csì ì(I
+%69object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowAuthorName*
+6*Ò
+5|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csó ó("Ë
+Â
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csó ó("
+%70object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowAuthorName*
+6* 
+6|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csö	 ö(3áÑ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csö	 ö(#
+%71object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowAuthorAvatar2this[string].get 
+«
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csö' ö(3
+%72System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÁ
+‰
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csö	 ö(3
+%73bool""object.operator !=(object, object)*
+"
+object*
+
+%71object*
+
+%72System.DBNull*
+7
+8*’
+7|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csú ú(KáÑ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csú2 ú(L
+%74object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowAuthorAvatar2this[string].get’
+“
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csú  ú(M
+%75bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%74objectÍ
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csú ú(M
+%76object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowAuthorAvatar*
+9*Û
+8|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs† †($Í
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs† †($
+%77object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowAuthorAvatar*
+9*…
+9|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs£	 £(0ÑÅ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs£	 £( 
+%78object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowAuthorBio2this[string].get 
+«
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs£$ £(0
+%79System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÁ
+‰
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs£	 £(0
+%80bool""object.operator !=(object, object)*
+"
+object*
+
+%78object*
+
+%79System.DBNull*
+10
+11*—
+10|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs• •(EÑÅ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs•/ •(F
+%81object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowAuthorBio2this[string].get’
+“
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs• •(G
+%82bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%81objectÁ
+‰
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs• •(G
+%83object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowAuthorBio*
+12*Ú
+11|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs© ©(!Á
+‰
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs© ©(!
+%84object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowAuthorBio*
+12*«
+12|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¨	 ¨(-Å˛
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¨	 ¨(
+%85object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UseBingMap2this[string].get 
+«
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¨! ¨(-
+%86System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÁ
+‰
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¨	 ¨(-
+%87bool""object.operator !=(object, object)*
+"
+object*
+
+%85object*
+
+%86System.DBNull*
+13
+14*À
+13|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÆ Æ(?Å˛
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÆ, Æ(@
+%88object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+UseBingMap2this[string].get’
+“
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÆ Æ(A
+%89bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%88object‰
+·
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÆ Æ(A
+%90object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+UseBingMap*
+15*Ô
+14|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs≤ ≤(‰
+·
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs≤ ≤(
+%91object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+UseBingMap*
+15*˙
+15|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csµ π(*Ä˝
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csµ µ(+
+%92object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+	MapHeight2this[string].get„
+‡
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csµ µ(+
+%93object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+	MapHeightˇ¸
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∂ ∂()
+%94object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+MapWidth2this[string].get‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∂ ∂()
+%95object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+MapWidth˛˚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∑ ∑('
+%96object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+MapType2this[string].get·
+ﬁ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∑ ∑('
+%97object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+MapType˛˚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csπ	 π(
+%98object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+MapZoom2this[string].get 
+«
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csπ π(*
+%99System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullË
+Â
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csπ	 π(*
+%100bool""object.operator !=(object, object)*
+"
+object*
+
+%98object*
+
+%99System.DBNull*
+16
+17*∆
+16|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csª ª(7ˇ¸
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csª' ª(8
+%101object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+MapZoom2this[string].get‘
+—
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csª ª(9
+%102int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%101object‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csª ª(9
+%103object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+MapZoom*
+18*Ì
+17|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csø ø(‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csø ø(
+%104object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+MapZoom*
+18*–
+18|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¬	 ¬(1ÜÉ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¬	 ¬(!
+%105object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowMapOptions2this[string].getÀ
+»
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¬% ¬(1
+%106System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÍ
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¬	 ¬(1
+%107bool""object.operator !=(object, object)*
+"
+object*
+
+%105object*
+
+%106System.DBNull*
+19
+20*◊
+19|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csƒ ƒ(GÜÉ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csƒ0 ƒ(H
+%108object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowMapOptions2this[string].get◊
+‘
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csƒ ƒ(I
+%109bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%108objectÈ
+Ê
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csƒ ƒ(I
+%110object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowMapOptions*
+21*Ù
+20|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs» »(#È
+Ê
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs» »(#
+%111object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowMapOptions*
+21*Œ
+21|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÀ	 À(/ÑÅ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÀ	 À(
+%112object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowZoomTool2this[string].getÀ
+»
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÀ# À(/
+%113System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÍ
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÀ	 À(/
+%114bool""object.operator !=(object, object)*
+"
+object*
+
+%112object*
+
+%113System.DBNull*
+22
+23*”
+22|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÕ Õ(CÑÅ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÕ. Õ(D
+%115object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowZoomTool2this[string].get◊
+‘
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÕ Õ(E
+%116bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%115objectÁ
+‰
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÕ Õ(E
+%117object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowZoomTool*
+24*Ú
+23|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs— —(!Á
+‰
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs— —(!
+%118object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowZoomTool*
+24*“
+24|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs‘	 ‘(3àÖ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs‘	 ‘(#
+%119object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowLocationInfo2this[string].getÀ
+»
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs‘' ‘(3
+%120System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÍ
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs‘	 ‘(3
+%121bool""object.operator !=(object, object)*
+"
+object*
+
+%119object*
+
+%120System.DBNull*
+25
+26*€
+25|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs÷ ÷(KàÖ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs÷2 ÷(L
+%122object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowLocationInfo2this[string].get◊
+‘
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs÷  ÷(M
+%123bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%122objectÎ
+Ë
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs÷ ÷(M
+%124object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowLocationInfo*
+27*ˆ
+26|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs⁄ ⁄(%Î
+Ë
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs⁄ ⁄(%
+%125object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowLocationInfo*
+27*÷
+27|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs›	 ›(7åâ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs›	 ›('
+%126object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+UseDrivingDirections2this[string].getÀ
+»
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs›+ ›(7
+%127System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÍ
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs›	 ›(7
+%128bool""object.operator !=(object, object)*
+"
+object*
+
+%126object*
+
+%127System.DBNull*
+28
+29*„
+28|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csﬂ ﬂ(Såâ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csﬂ6 ﬂ(T
+%129object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+UseDrivingDirections2this[string].get◊
+‘
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csﬂ$ ﬂ(U
+%130bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%129objectÔ
+Ï
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csﬂ ﬂ(U
+%131object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+UseDrivingDirections*
+30*˙
+29|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs„ „()Ô
+Ï
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs„ „()
+%132object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+UseDrivingDirections*
+30*“
+30|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÊ	 Ê(3àÖ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÊ	 Ê(#
+%133object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowDownloadLink2this[string].getÀ
+»
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÊ' Ê(3
+%134System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÍ
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÊ	 Ê(3
+%135bool""object.operator !=(object, object)*
+"
+object*
+
+%133object*
+
+%134System.DBNull*
+31
+32*€
+31|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csË Ë(KàÖ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csË2 Ë(L
+%136object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowDownloadLink2this[string].get◊
+‘
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csË  Ë(M
+%137bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%136objectÎ
+Ë
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csË Ë(M
+%138object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowDownloadLink*
+33*ˆ
+32|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÏ Ï(%Î
+Ë
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÏ Ï(%
+%139object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowDownloadLink*
+33*–
+
+33|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÔ Ò(8àÖ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÔ Ô(9
+%140object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+HeadlineImageUrl2this[string].getÎ
+Ë
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÔ Ô(9
+%141object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+HeadlineImageUrlçä
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÒ	 Ò((
+%142object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+IncludeImageInExcerpt2this[string].getÀ
+»
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÒ, Ò(8
+%143System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÍ
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÒ	 Ò(8
+%144bool""object.operator !=(object, object)*
+"
+object*
+
+%142object*
+
+%143System.DBNull*
+34
+35*Â
+34|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÛ Û(Uçä
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÛ7 Û(V
+%145object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+IncludeImageInExcerpt2this[string].get◊
+‘
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÛ% Û(W
+%146bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%145object
+Ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÛ Û(W
+%147object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+IncludeImageInExcerpt*
+36*˚
+35|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˜ ˜()
+Ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˜ ˜()
+%148object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+IncludeImageInExcerpt*
+36*‘
+36|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˚	 ˚(5äá
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˚	 ˚(%
+%149object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+IncludeImageInPost2this[string].getÀ
+»
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˚) ˚(5
+%150System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÍ
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˚	 ˚(5
+%151bool""object.operator !=(object, object)*
+"
+object*
+
+%149object*
+
+%150System.DBNull*
+37
+38*ﬂ
+37|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˝ ˝(Oäá
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˝4 ˝(P
+%152object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+IncludeImageInPost2this[string].get◊
+‘
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˝" ˝(Q
+%153bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%152objectÌ
+Í
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs˝ ˝(Q
+%154object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+IncludeImageInPost*
+39*¯
+38|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÅ Å(&Ì
+Í
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÅ Å(&
+%155object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+IncludeImageInPost*
+39*›
+39|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÖ Ö(Í
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÖ Ö(%
+%156System.Data.DataRowCollection"System.Data.DataTable.Rows.get* 
+
+postsSystem.Data.DataTableÊ
+„
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÖ Ö(
+%157void"
+__arrayAdd*'
+%
+%156System.Data.DataRowCollection*: *
+
+rowSystem.Data.DataRow*
+1*á
+3|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csŸ Ÿ(*
+40*ˇ
+40|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csâ é(v„
+‡
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csâ â(
+%158string"#System.Data.DataTable.TableName.set* 
+
+postsSystem.Data.DataTable*	
+PostsÏ
+È
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csä ä('
+%159System.Data.DataTableCollection"System.Data.DataSet.Tables.get* 
+
+dataSetSystem.Data.DataSetÏ
+È
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csä ä(
+%160void"
+__arrayAdd*)
+'
+%159System.Data.DataTableCollection*: * 
+
+postsSystem.Data.DataTableÙ
+Ò
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cså å(5
+%161System.Data.DataTable"4mojoPortal.Business.Blog.GetCategoryTableStructure()*"
+mojoPortal.Business.BlogÕ
+ 
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cså å(5#
+
+categoriesSystem.Data.DataTable"__id*
+
+%161System.Data.DataTableÀ
+»
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cséQ é(`
+%162System.DateTime"System.DateTime.UtcNow.get*"
+System.DateTimeÀ
+»
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csé é(w
+%163System.Data.IDataReader"PmojoPortal.Data.DBBlog.GetCategoriesForPage(int, int, System.DateTime, int, int)*"
+mojoPortal.Data.DBBlog*
+""*
+""*
+
+%162System.DateTime*
+""*
+""Õ
+ 
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csé é(w!
+readerSystem.Data.IDataReader"__id*!
+
+%163System.Data.IDataReader*
+41*Î
+41|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csê ê(‹Ÿ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csê ê(
+%164bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+42
+43*®
+42|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csì ö(Â
+‚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csì ì(&
+%165System.Data.DataRow"System.Data.DataTable.NewRow()*%
+#
+
+categoriesSystem.Data.DataTable¬
+ø
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csì ì(&
+rowSystem.Data.DataRow"__id*
+
+%165System.Data.DataRow˙˜
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csï ï(
+%166object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ID2this[string].get›
+⁄
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csï ï(
+%167object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ID˛˚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csñ ñ(%
+%168object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ItemID2this[string].get·
+ﬁ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csñ ñ(%
+%169object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+ItemIDÇˇ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csó ó(-
+%170object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+CategoryID2this[string].getÂ
+‚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csó ó(-
+%171object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+CategoryIDÄ˝
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csò ò()
+%172object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+Category2this[string].get„
+‡
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csò ò()
+%173object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+CategoryÔ
+Ï
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csö ö(%
+%174System.Data.DataRowCollection"System.Data.DataTable.Rows.get*%
+#
+
+categoriesSystem.Data.DataTableÊ
+„
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csö ö(
+%175void"
+__arrayAdd*'
+%
+%174System.Data.DataRowCollection*: *
+
+rowSystem.Data.DataRow*
+41*à
+43|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csŸ Ÿ(*
+44*€
+44|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csü †( Ì
+Í
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csü ü(&
+%176string"#System.Data.DataTable.TableName.set*%
+#
+
+categoriesSystem.Data.DataTable*
+
+CategoriesÏ
+È
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs† †('
+%177System.Data.DataTableCollection"System.Data.DataSet.Tables.get* 
+
+dataSetSystem.Data.DataSetÒ
+Ó
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs† †(!
+%178void"
+__arrayAdd*)
+'
+%177System.Data.DataTableCollection*: *%
+#
+
+categoriesSystem.Data.DataTable*
+45*≥
+45|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs• ß(2Ú
+Ô
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs• •(*
+%179"System.Data.DataRelationCollection"!System.Data.DataSet.Relations.get* 
+
+dataSetSystem.Data.DataSetÏ
+È
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¶ ¶('
+%180System.Data.DataTableCollection"System.Data.DataSet.Tables.get* 
+
+dataSetSystem.Data.DataSet‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¶ ¶(
+%181System.Data.DataTable"
+__arrayGet*)
+'
+%180System.Data.DataTableCollection*	
+PostsÔ
+Ï
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¶ ¶($(
+%182 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+%181System.Data.DataTableÂ
+‚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¶ ¶(.
+%183System.Data.DataColumn"
+__arrayGet**
+(
+%182 System.Data.DataColumnCollection*
+
+ItemIDÏ
+È
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csß ß('
+%184System.Data.DataTableCollection"System.Data.DataSet.Tables.get* 
+
+dataSetSystem.Data.DataSetÁ
+‰
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csß ß(!
+%185System.Data.DataTable"
+__arrayGet*)
+'
+%184System.Data.DataTableCollection*
+
+CategoriesÔ
+Ï
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csß ß()(
+%186 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+%185System.Data.DataTableÂ
+‚
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csß ß(3
+%187System.Data.DataColumn"
+__arrayGet**
+(
+%186 System.Data.DataColumnCollection*
+
+ItemID∆√
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs• ß(4 
+%188System.Data.DataRelation"^System.Data.DataRelationCollection.Add(string, System.Data.DataColumn, System.Data.DataColumn)*,
+*
+%179"System.Data.DataRelationCollection*
+postCategories* 
+
+%183System.Data.DataColumn* 
+
+%187System.Data.DataColumn2;Add(string, System.Data.DataColumn, System.Data.DataColumn)*
+46
+46
+46
+47*¿
+
+46|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¨ Æ(w˜
+Ù
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¨ ¨(9
+%189System.Data.DataTable"7mojoPortal.Business.Blog.GetAttachmentsTableStructure()*"
+mojoPortal.Business.BlogŒ
+À
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¨ ¨(9$
+attachmentsSystem.Data.DataTable"__id*
+
+%189System.Data.DataTableÀ
+»
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÆR Æ(a
+%190System.DateTime"System.DateTime.UtcNow.get*"
+System.DateTimeÃ
+…
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÆ Æ(x
+%191System.Data.IDataReader"QmojoPortal.Data.DBBlog.GetAttachmentsForPage(int, int, System.DateTime, int, int)*"
+mojoPortal.Data.DBBlog*
+""*
+""*
+
+%190System.DateTime*
+""*
+""Õ
+ 
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÆ Æ(x!
+readerSystem.Data.IDataReader"__id*!
+
+%191System.Data.IDataReader*
+48*Î
+48|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∞ ∞(‹Ÿ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∞ ∞(
+%192bool"System.Data.IDataReader.Read()*#
+!
+readerSystem.Data.IDataReader2Read()*
+49
+50*Ë"
+49|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs≥ º(3Ê
+„
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs≥ ≥('
+%193System.Data.DataRow"System.Data.DataTable.NewRow()*&
+$
+attachmentsSystem.Data.DataTable¬
+ø
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs≥ ≥('
+rowSystem.Data.DataRow"__id*
+
+%193System.Data.DataRowˇ¸
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csµ µ('
+%194object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*	
+RowGuid2this[string].get‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csµ µ('
+%195object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*	
+RowGuidÄ˝
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∂ ∂()
+%196object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+ItemGuid2this[string].get„
+‡
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∂ ∂()
+%197object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+ItemGuidÄ˝
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∑ ∑()
+%198object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+
+FileName2this[string].get„
+‡
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∑ ∑()
+%199object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+
+FileNameÜÉ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∏ ∏(5
+%200object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ServerFileName2this[string].getÈ
+Ê
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∏ ∏(5
+%201object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ServerFileNameÖÇ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csπ, π(C
+%202object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ContentLength2this[string].get’
+“
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csπ π(D
+%203long"System.Convert.ToInt64(object)*"
+System.Convert*
+
+%202objectË
+Â
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csπ π(D
+%204object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ContentLengthÉÄ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∫ ∫(/
+%205object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ContentType2this[string].getÊ
+„
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs∫ ∫(/
+%206object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ContentTypeàÖ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csº	 º(#
+%207object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowDownloadLink2this[string].getÀ
+»
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csº' º(3
+%208System.DBNull"__id*+*)
+System.DBNull"
+ValueSystem.DBNullÍ
+Á
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csº	 º(3
+%209bool""object.operator !=(object, object)*
+"
+object*
+
+%207object*
+
+%208System.DBNull*
+51
+52*€
+51|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csæ æ(KàÖ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csæ2 æ(L
+%210object"(System.Data.IDataRecord.this[string].get*#
+!
+readerSystem.Data.IDataReader*
+ShowDownloadLink2this[string].get◊
+‘
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csæ  æ(M
+%211bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%210objectÎ
+Ë
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csæ æ(M
+%212object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowDownloadLink*
+53*ˆ
+52|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¬ ¬(%Î
+Ë
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs¬ ¬(%
+%213object"$System.Data.DataRow.this[string].set*
+
+rowSystem.Data.DataRow*
+ShowDownloadLink*
+53*‰
+53|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs≈ ≈(
+Ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs≈ ≈(%
+%214System.Data.DataRowCollection"System.Data.DataTable.Rows.get*&
+$
+attachmentsSystem.Data.DataTableÊ
+„
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs≈ ≈(
+%215void"
+__arrayAdd*'
+%
+%214System.Data.DataRowCollection*: *
+
+rowSystem.Data.DataRow*
+48*à
+50|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csŸ Ÿ(*
+54*ﬁ
+54|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs  À(!Ô
+Ï
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs   ((
+%216string"#System.Data.DataTable.TableName.set*&
+$
+attachmentsSystem.Data.DataTable*
+AttachmentsÏ
+È
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÀ À('
+%217System.Data.DataTableCollection"System.Data.DataSet.Tables.get* 
+
+dataSetSystem.Data.DataSetÚ
+Ô
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÀ À("
+%218void"
+__arrayAdd*)
+'
+%217System.Data.DataTableCollection*: *&
+$
+attachmentsSystem.Data.DataTable*
+55*π
+55|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs– “(5Ú
+Ô
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs– –(*
+%219"System.Data.DataRelationCollection"!System.Data.DataSet.Relations.get* 
+
+dataSetSystem.Data.DataSetÏ
+È
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs— —('
+%220System.Data.DataTableCollection"System.Data.DataSet.Tables.get* 
+
+dataSetSystem.Data.DataSet‚
+ﬂ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs— —(
+%221System.Data.DataTable"
+__arrayGet*)
+'
+%220System.Data.DataTableCollection*	
+PostsÔ
+Ï
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs— —($(
+%222 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+%221System.Data.DataTableÁ
+‰
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs— —(0
+%223System.Data.DataColumn"
+__arrayGet**
+(
+%222 System.Data.DataColumnCollection*
+
+BlogGuidÏ
+È
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs“ “('
+%224System.Data.DataTableCollection"System.Data.DataSet.Tables.get* 
+
+dataSetSystem.Data.DataSetË
+Â
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs“ “("
+%225System.Data.DataTable"
+__arrayGet*)
+'
+%224System.Data.DataTableCollection*
+AttachmentsÔ
+Ï
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs“ “(*(
+%226 System.Data.DataColumnCollection"!System.Data.DataTable.Columns.get*
+
+%225System.Data.DataTableÁ
+‰
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs“ “(6
+%227System.Data.DataColumn"
+__arrayGet**
+(
+%226 System.Data.DataColumnCollection*
+
+ItemGuid«ƒ
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.cs– “(7 
+%228System.Data.DataRelation"^System.Data.DataRelationCollection.Add(string, System.Data.DataColumn, System.Data.DataColumn)*,
+*
+%219"System.Data.DataRelationCollection*
+postAttachments* 
+
+%223System.Data.DataColumn* 
+
+%227System.Data.DataColumn2;Add(string, System.Data.DataColumn, System.Data.DataColumn)*
+56
+56
+56
+47*•
+56|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÿ
+ ÿ("†
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csÿ ÿ( 
+
+dataSetSystem.Data.DataSet*ò
+47|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csŸ Ÿ("ì
+|
+pD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\mojoPortal.Features.Business\Blog\Blog.csŸ Ÿ(
+implicit return:
+moduleIdint:
+
+categoryIdint:
+currentTimeSystem.DateTime:
+
+pageNumberint:
+pageSizeint:
+
+totalPagesintB"
+mojoPortal.Business.Blog

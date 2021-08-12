@@ -1,0 +1,385 @@
+
+œmojoPortal.Web.WorkflowHelper.SendApprovalRequestNotification(mojoPortal.Net.SmtpSettings, mojoPortal.Business.SiteSettings, mojoPortal.Business.SiteUser, mojoPortal.Business.ContentWorkflow, string, string)q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs (:"0*»
+0q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs( ((2«
+ƒ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs( ((3
+
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+approvalRolesstring*
+1
+2* 
+1q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs(7 ((zÃ
+…
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs(7 ((z
+approvalRolesstring"__id*53
+1Admins;Content Administrators;Content Publishers;*
+2*«
+2q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs* 2(3‚
+ﬂ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs*E *(X	
+%1int"+mojoPortal.Business.SiteSettings.SiteId.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsß
+§
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs** *(h(
+%2"System.Collections.Generic.List<T>";mojoPortal.Business.SiteUser.GetEmailAddresses(int, string)* "
+mojoPortal.Business.SiteUser*
+	
+%1int*
+
+approvalRolesstringﬁ
+€
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs* *(h4
+emailAddresses"System.Collections.Generic.List<T>"__id**
+(
+%2"System.Collections.Generic.List<T>Ï
+È
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs.) .(H&
+%3 System.Globalization.CultureInfo".mojoPortal.Web.SiteUtils.GetDefaultUICulture()*"
+mojoPortal.Web.SiteUtils⁄
+◊
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs. .(H2
+defaultCulture System.Globalization.CultureInfo"__id*(
+&
+%3 System.Globalization.CultureInfoı
+Ú
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs/% /(|
+%4string"dmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(System.Globalization.CultureInfo, string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*4
+2
+defaultCulture System.Globalization.CultureInfo*&$
+"ApprovalRequestNotification.configß
+§
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs/ /(|
+messageTemplatestring"__id*
+
+%4string˝
+˙
+r
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs0$ 0(Ç
+%5string"dmojoPortal.Web.Framework.ResourceHelper.GetMessageTemplate(System.Globalization.CultureInfo, string)*+")
+'mojoPortal.Web.Framework.ResourceHelper*4
+2
+defaultCulture System.Globalization.CultureInfo*-+
+)ApprovalRequestNotificationSubject.configÈ
+Ê
+s
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs0ô 0(Æ
+%6string"-mojoPortal.Business.SiteSettings.SiteName.get*2
+0
+siteSettings mojoPortal.Business.SiteSettings’
+“
+r
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs0$ 0(Ø
+%7string"string.Replace(string, string)*
+
+%5string*
+
+{SiteName}*
+
+%6stringß
+§
+r
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs0 0(Ø
+messageSubjectstring"__id*
+
+%7string*
+3*~
+3q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cse	 e(	*
+4
+5*
+4r
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs4 4(î˛
+˚
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs4 4(S
+%8string"RmojoPortal.Web.WebConfigSettings.EmailAddressesToExcludeFromAdminNotifications.get*$""
+ mojoPortal.Web.WebConfigSettingsã
+à
+r
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs4c 4(é
+%9"__id*
+""ﬂ
+‹
+r
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs4 4(è
+
+%10int"/string.IndexOf(string, System.StringComparison)*
+
+%8string*
+
+emailstring*
+
+%9*
+6
+7*{
+6q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cse	 e(	*
+3*È
+7q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs6 6(:Ë
+Â
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs6 6(;
+%11bool"6mojoPortal.Net.Email.IsValidEmailAddressSyntax(string)*"
+mojoPortal.Net.Email*
+
+emailstring*
+8
+9*{
+8q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cse	 e(	*
+3*ﬁ
+9q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs8 ?(Z≥∞
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs8( 8(; 
+%12System.Text.StringBuilder"System.Text.StringBuilder“
+œ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs8, 8(9
+%13void")System.Text.StringBuilder.StringBuilder()*"
+ 
+%12System.Text.StringBuilder∆
+√
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs8 8(;$
+messageSystem.Text.StringBuilder"__id*"
+ 
+%12System.Text.StringBuilderá
+Ñ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs9 9(/ 
+%14System.Text.StringBuilder"(System.Text.StringBuilder.Append(string)*&
+$
+messageSystem.Text.StringBuilder*
+
+messageTemplatestringÚ
+Ô
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs:1 :(J
+%15string"3mojoPortal.Business.ContentWorkflow.ModuleTitle.get*6
+4
+draftWorkflow#mojoPortal.Business.ContentWorkflowó
+î
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs: :(K 
+%16System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*&
+$
+messageSystem.Text.StringBuilder*
+{ModuleTitle}*
+
+%15string˛
+˚
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs;; ;(W
+%17System.DateTime"6mojoPortal.Business.ContentWorkflow.RecentActionOn.get*6
+4
+draftWorkflow#mojoPortal.Business.ContentWorkflowƒ
+¡
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs;; ;(k
+%18string"#System.DateTime.ToShortDateString()*
+
+%17System.DateTime°
+û
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs; ;(l 
+%19System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*&
+$
+messageSystem.Text.StringBuilder*
+{ApprovalRequestedDate}*
+
+%18stringﬁ
+€
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs<1 <(D
+%20string"%mojoPortal.Business.SiteUser.Name.get*0
+.
+submittingUsermojoPortal.Business.SiteUseró
+î
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs< <(E 
+%21System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*&
+$
+messageSystem.Text.StringBuilder*
+{SubmittedBy}*
+
+%20stringù
+ö
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs= =(; 
+%22System.Text.StringBuilder"1System.Text.StringBuilder.Replace(string, string)*&
+$
+messageSystem.Text.StringBuilder*
+{ContentUrl}*
+
+
+contentUrlstring˛
+˚
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs?5 ?(Z
+%23string"?mojoPortal.Business.ContentWorkflow.RecentActionByUserEmail.get*6
+4
+draftWorkflow#mojoPortal.Business.ContentWorkflowÊ
+„
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs? ?([
+%24bool"6mojoPortal.Net.Email.IsValidEmailAddressSyntax(string)*"
+mojoPortal.Net.Email*
+
+%23string*
+10
+11*»
+10q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csB D(>À
+»
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csB B(
+%25log4net.ILog"__id*8*6
+mojoPortal.Web.WorkflowHelper"
+loglog4net.ILog˛
+˚
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csC C(?
+%26string"?mojoPortal.Business.ContentWorkflow.RecentActionByUserEmail.get*6
+4
+draftWorkflow#mojoPortal.Business.ContentWorkflowÈ
+Ê
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csB C(?
+%27string"__concat*GE
+CFailed to send workflow rejection message, invalid recipient email *
+
+%26string≥
+∞
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csB D()
+%28string"__concat*
+
+%27string*
+ message was ”
+–
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csD, D(>
+%29string"$System.Text.StringBuilder.ToString()*&
+$
+messageSystem.Text.StringBuilder±
+Æ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csB D(>
+%30string"__concat*
+
+%28string*
+
+%29string÷”
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csB D(?
+%31void"log4net.ILog.Error(object)*
+
+%25log4net.ILog*
+
+%30string2Error(object)"{
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csF F(
+""*ä
+11q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csT _(,˜
+Ù
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csV V(<
+%32string"<mojoPortal.Business.SiteSettings.DefaultEmailFromAddress.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsı
+Ú
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csW W(:
+%33string":mojoPortal.Business.SiteSettings.DefaultFromEmailAlias.get*2
+0
+siteSettings mojoPortal.Business.SiteSettingsﬂ
+‹
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csX X(,
+%34string"&mojoPortal.Business.SiteUser.Email.get*0
+.
+submittingUsermojoPortal.Business.SiteUser™
+ß
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csZ Z($
+%35string"__id**
+string"
+Emptystring™
+ß
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs[ [($
+%36string"__id**
+string"
+Emptystring”
+–
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs] ](*
+%37string"$System.Text.StringBuilder.ToString()*&
+$
+messageSystem.Text.StringBuilderã
+à
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cs_ _(,
+%38"__id*
+""˘
+ˆ
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.csT _(-
+%39bool"ÑmojoPortal.Net.Email.Send(mojoPortal.Net.SmtpSettings, string, string, string, string, string, string, string, string, bool, string)*"
+mojoPortal.Net.Email*-
++
+smtpSettingsmojoPortal.Net.SmtpSettings*
+
+%32string*
+
+%33string*
+
+%34string*
+
+emailstring*
+
+%35string*
+
+%36string*
+
+messageSubjectstring*
+
+%37string*
+""*
+
+%38*
+3*Å
+5q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cse	 e(	"à
+q
+gD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\mojoportal\Web\Components\WorkflowHelper.cse e(	
+implicit return:+
+smtpSettingsmojoPortal.Net.SmtpSettings:0
+siteSettings mojoPortal.Business.SiteSettings:.
+submittingUsermojoPortal.Business.SiteUser:4
+draftWorkflow#mojoPortal.Business.ContentWorkflow:
+approvalRolesstring:
+
+contentUrlstringB!"
+mojoPortal.Web.WorkflowHelper
